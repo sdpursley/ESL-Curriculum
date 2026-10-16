@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@theme { --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+html { font-size: 112.5%; -webkit-text-size-adjust: 100%; }
+body { @apply bg-white text-slate-800 antialiased; line-height: 1.65; }
+.link { @apply font-medium text-blue-700 underline decoration-blue-300 underline-offset-2 hover:decoration-blue-700; }
+.btn { @apply inline-flex items-center gap-2 rounded-xl px-5 py-2.5 text-base font-semibold transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600; }
+a:focus-visible, button:focus-visible { @apply outline-2 outline-offset-2 outline-blue-600; }
+
+/* Content generated from the curriculum Markdown */
+.prose-esl { @apply text-lg text-slate-800; }
+.prose-esl > :first-child { margin-top: 0; }
+.prose-esl p { @apply my-3; }
+.prose-esl h3 { @apply mt-8 mb-3 text-xl font-bold text-slate-900; }
+.prose-esl h4, .prose-esl h5 { @apply mt-6 mb-2 text-lg font-bold text-slate-900; }
+.prose-esl ul { @apply my-3 list-disc space-y-1.5 pl-6; }
+.prose-esl ol { @apply my-3 list-decimal space-y-1.5 pl-6; }
+.prose-esl a { @apply text-blue-700 underline break-words; }
+.prose-esl code { @apply rounded bg-slate-100 px-1.5 py-0.5 text-[0.9em]; }
+.prose-esl .tablewrap { @apply my-4 overflow-x-auto rounded-xl ring-1 ring-slate-200; }
+.prose-esl table { @apply w-full border-collapse text-base; }
+.prose-esl th { @apply bg-slate-50 px-3 py-2.5 text-left font-semibold text-slate-900; }
+.prose-esl td { @apply border-t border-slate-200 px-3 py-2.5 align-top; }
+.prose-esl .note { @apply my-4 rounded-xl border-l-4 border-blue-500 bg-blue-50 px-4 py-1; }
+.prose-esl .note.es { @apply border-amber-500 bg-amber-50; }
+.prose-esl .script { @apply my-4 rounded-xl bg-slate-50 px-5 py-3 ring-1 ring-slate-200; }
+.prose-esl .script p { @apply my-1.5; }
+.prose-esl .box, .prose-esl .step { @apply my-4 rounded-2xl border border-slate-200 bg-white px-5 py-2 shadow-sm; break-inside: avoid; }
+.prose-esl .step { @apply border-l-4 border-l-emerald-500; }
+.prose-esl .step h4 { @apply text-emerald-800; }
+.prose-esl .writeline { @apply h-10 border-b border-slate-400; }
+/* Two-sided grammar boxes */
+.prose-esl .gbox { @apply my-5 flex flex-col items-stretch gap-2 md:flex-row; break-inside: avoid; }
+.prose-esl .gside { @apply flex-1 overflow-hidden rounded-2xl bg-white ring-2 ring-blue-500; }
+.prose-esl .gside.a { @apply ring-emerald-600; }
+.prose-esl .glabel { @apply bg-blue-600 px-4 py-1.5 text-sm font-bold tracking-wider text-white; }
+.prose-esl .gside.a .glabel { @apply bg-emerald-600; }
+.prose-esl .gside td { @apply border-t-0 border-b border-r border-slate-200 text-lg; }
+.prose-esl .gside td:last-child { @apply border-r-0; }
+.prose-esl .garrow { @apply self-center rotate-90 text-2xl text-slate-400 md:rotate-0; }
+
+@media print {
+  html { font-size: 11pt; }
+  .no-print, header, [role="tablist"] { display: none !important; }
+  main { padding: 0 !important; max-width: none !important; }
+  .page-break { break-before: page; }
+  .shadow-sm, .shadow-md { box-shadow: none !important; }
+  a { color: inherit !important; text-decoration: none !important; }
+  .words-grid { grid-template-columns: repeat(4, 1fr) !important; }
+  .word-card, .prose-esl .gbox, .prose-esl .step, .prose-esl .box { break-inside: avoid; }
+  .prose-esl .glabel { background: none !important; color: #000 !important; border-bottom: 1px solid #000; }
+  footer { margin-top: 1rem !important; background: none !important; }
+  [data-state="inactive"][role="tabpanel"] { display: none; }
+}
