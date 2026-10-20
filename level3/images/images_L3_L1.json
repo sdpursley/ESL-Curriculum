@@ -1,0 +1,133 @@
+[
+ {
+  "file": "L3_L1_neighbor.png",
+  "lesson": "Level3-L1",
+  "word": "neighbor",
+  "twemoji": [
+   "1f3e0",
+   "1f3e1",
+   "1f469",
+   "1f468",
+   "1f44b"
+  ],
+  "note": "two houses side by side; a woman and a man in front wave to each other (dividing line drawn)"
+ },
+ {
+  "file": "L3_L1_coworker.png",
+  "lesson": "Level3-L1",
+  "word": "coworker",
+  "twemoji": [
+   "1f469-200d-1f373",
+   "1f468-200d-1f373"
+  ],
+  "note": "two cooks at the same counter, label \"same job, same place\" (counter + label drawn)"
+ },
+ {
+  "file": "L3_L1_small_talk.png",
+  "lesson": "Level3-L1",
+  "word": "small talk",
+  "twemoji": [
+   "1f469",
+   "1f468",
+   "2600"
+  ],
+  "note": "two people, sun, speech bubbles \"Nice day, isn't it?\" / \"Yes, it is!\" (drawn)"
+ },
+ {
+  "file": "L3_L1_follow_up_question.png",
+  "lesson": "Level3-L1",
+  "word": "follow-up question",
+  "twemoji": [
+   "1f469",
+   "1f468",
+   "2753"
+  ],
+  "note": "bubble \"I got a new job.\" then highlighted bubble \"Really? Where?\" + question mark (bubbles drawn)"
+ },
+ {
+  "file": "L3_L1_reason.png",
+  "lesson": "Level3-L1",
+  "word": "reason",
+  "twemoji": [
+   "1f914",
+   "1f4a1"
+  ],
+  "note": "thinking face + light bulb; \"Why?\" and a box \"Because it's cheap. = the reason\" (drawn)"
+ },
+ {
+  "file": "L3_L1_good_news.png",
+  "lesson": "Level3-L1",
+  "word": "good news",
+  "twemoji": [
+   "1f604",
+   "1f389"
+  ],
+  "note": "happy face + party popper, label \"Good news!\""
+ },
+ {
+  "file": "L3_L1_bad_news.png",
+  "lesson": "Level3-L1",
+  "word": "bad news",
+  "twemoji": [
+   "1f61f",
+   "1f327"
+  ],
+  "note": "worried face + rain cloud, label \"Bad news…\""
+ },
+ {
+  "file": "L3_L1_chat.png",
+  "lesson": "Level3-L1",
+  "word": "chat",
+  "twemoji": [
+   "1f9d1",
+   "1f469",
+   "1f4ac",
+   "2615"
+  ],
+  "note": "two people, speech balloon, coffee cup"
+ },
+ {
+  "file": "L3_L1_introduce.png",
+  "lesson": "Level3-L1",
+  "word": "introduce",
+  "twemoji": [
+   "1f468",
+   "1f449",
+   "1f469",
+   "1f9d1"
+  ],
+  "note": "a man points to a woman and introduces her to a third person; bubbles \"This is Ana.\" / \"Nice to meet you!\" (drawn)"
+ },
+ {
+  "file": "L3_L1_community_center.png",
+  "lesson": "Level3-L1",
+  "word": "community center",
+  "twemoji": [
+   "1f3e2",
+   "1f9d1-200d-1f91d-200d-1f9d1"
+  ],
+  "note": "building + two people holding hands, sign \"COMMUNITY CENTER\", \"classes • events\" (drawn)"
+ },
+ {
+  "file": "L3_L1_volunteer.png",
+  "lesson": "Level3-L1",
+  "word": "volunteer",
+  "twemoji": [
+   "1f64b-200d-2640-fe0f",
+   "1f4e6",
+   "1f96b"
+  ],
+  "note": "woman raising her hand, boxes and canned food, green \"VOLUNTEER\" badge, \"helps for free\" (drawn)"
+ },
+ {
+  "file": "L3_L1_get_along.png",
+  "lesson": "Level3-L1",
+  "word": "get along",
+  "twemoji": [
+   "1f60a",
+   "1f91d",
+   "1f604"
+  ],
+  "note": "two smiling faces + handshake, label \"friendly together\""
+ }
+]

@@ -20,7 +20,11 @@ const loaders: Record<number, () => Promise<{ default: unknown }>> = {
 const level1Files = import.meta.glob('../decks/level1/lesson*.json')
 const level1Loaders: Record<number, () => Promise<{ default: unknown }>> = Object.fromEntries(
   Object.entries(level1Files).map(([path, load]) => [Number(path.match(/lesson(\d+)\.json$/)![1]), load as () => Promise<{ default: unknown }>]))
-export type Level = 1 | 2
-const table = (level: Level) => (level === 1 ? level1Loaders : loaders)
+/** Level 3 decks: every src/decks/level3/lesson<N>.json (made by scripts/export_deck.py ... --level 3). */
+const level3Files = import.meta.glob('../decks/level3/lesson*.json')
+const level3Loaders: Record<number, () => Promise<{ default: unknown }>> = Object.fromEntries(
+  Object.entries(level3Files).map(([path, load]) => [Number(path.match(/lesson(\d+)\.json$/)![1]), load as () => Promise<{ default: unknown }>]))
+export type Level = 1 | 2 | 3
+const table = (level: Level) => (level === 1 ? level1Loaders : level === 3 ? level3Loaders : loaders)
 export const hasDeck = (n: number, level: Level = 2) => n in table(level)
 export const loadDeck = async (n: number, level: Level = 2) => (await table(level)[n]()).default as Deck

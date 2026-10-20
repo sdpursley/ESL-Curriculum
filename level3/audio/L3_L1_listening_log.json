@@ -1,0 +1,652 @@
+{
+ "settings": {
+  "refs": {
+   "Elena": "Rosa",
+   "David": "Sam",
+   "Narrator": "N"
+  },
+  "exag_cfg": {
+   "Elena": [
+    0.72,
+    0.32
+   ],
+   "David": [
+    0.72,
+    0.32
+   ],
+   "Narrator": [
+    0.55,
+    0.4
+   ]
+  },
+  "pause_between_lines": 1.2
+ },
+ "lines": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "line": "Lesson one. Listening.",
+    "seed": 2026,
+    "hyp": "lesson one listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.86,
+    "dur": 1.88,
+    "wps": 1.6,
+    "score": 1.465,
+    "f0_med": 186.0,
+    "f0_st_sd": 4.49,
+    "f0_range_st": 13.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "line": "Elena and David are neighbors.",
+    "seed": 17864,
+    "hyp": "elena and david are neighbors",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.92,
+    "dur": 1.7,
+    "wps": 2.94,
+    "score": 1.457,
+    "f0_med": 205.2,
+    "f0_st_sd": 3.57,
+    "f0_range_st": 11.44
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "line": "It's Saturday morning, and they're at the laundromat. Listen.",
+    "seed": 2026,
+    "hyp": "it's saturday morning and they're at the laundromat listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.98,
+    "dur": 3.25,
+    "wps": 2.77,
+    "score": 1.483,
+    "f0_med": 183.8,
+    "f0_st_sd": 3.33,
+    "f0_range_st": 10.96
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "line": "Hi, David! How are you?",
+    "seed": 17864,
+    "hyp": "hi david how are you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.91,
+    "dur": 1.36,
+    "wps": 3.68,
+    "score": 1.434,
+    "f0_med": 251.1,
+    "f0_st_sd": 3.52,
+    "f0_range_st": 11.24
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "line": "Hi, Elena. I'm OK, thanks. I'm just really tired.",
+    "seed": 25783,
+    "hyp": "hi elena i'm okay thanks i'm just really tired",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.39,
+    "mean_prob": 0.86,
+    "dur": 3.1,
+    "wps": 2.9,
+    "score": 1.457,
+    "f0_med": 115.1,
+    "f0_st_sd": 4.52,
+    "f0_range_st": 15.4
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "line": "Really? Why?",
+    "seed": 2026,
+    "hyp": "really why",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.91,
+    "dur": 1.53,
+    "wps": 1.31,
+    "score": 1.511,
+    "f0_med": 251.2,
+    "f0_st_sd": 4.58,
+    "f0_range_st": 13.15
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "line": "Because my car broke down on Tuesday.",
+    "seed": 2026,
+    "hyp": "because my car broke down on tuesday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.94,
+    "dur": 1.95,
+    "wps": 3.59,
+    "score": 1.438,
+    "f0_med": 107.1,
+    "f0_st_sd": 3.32,
+    "f0_range_st": 9.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "line": "Oh no! What happened?",
+    "seed": 2026,
+    "hyp": "oh no what happened",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.88,
+    "dur": 2.12,
+    "wps": 1.89,
+    "score": 1.478,
+    "f0_med": 280.3,
+    "f0_st_sd": 4.07,
+    "f0_range_st": 11.23
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "line": "It just stopped on the highway. Now it's at the mechanic, so I took the bus to work every day this week.",
+    "seed": 25783,
+    "hyp": "it just stopped on the highway now it's at the mechanic so i took the bus to work every day this week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.65,
+    "mean_prob": 0.96,
+    "dur": 5.72,
+    "wps": 3.85,
+    "score": 1.558,
+    "f0_med": 129.3,
+    "f0_st_sd": 4.03,
+    "f0_range_st": 10.6
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "line": "That's bad news. When is it going to be ready?",
+    "seed": 2026,
+    "hyp": "that's bad news when is it going to be ready",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.99,
+    "dur": 2.54,
+    "wps": 3.94,
+    "score": 1.506,
+    "f0_med": 230.3,
+    "f0_st_sd": 3.44,
+    "f0_range_st": 11.21
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "line": "Maybe next Friday. What about you? How was your week?",
+    "seed": 2026,
+    "hyp": "maybe next friday what about you how was your week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.95,
+    "dur": 2.7,
+    "wps": 3.7,
+    "score": 1.551,
+    "f0_med": 145.9,
+    "f0_st_sd": 4.06,
+    "f0_range_st": 12.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "line": "It was great! I have good news. I got a new job.",
+    "seed": 9945,
+    "hyp": "it was great i have good news i got a new job",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 3.17,
+    "wps": 3.79,
+    "score": 1.481,
+    "f0_med": 219.9,
+    "f0_st_sd": 3.26,
+    "f0_range_st": 11.27
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "line": "That's wonderful! Where is it?",
+    "seed": 2026,
+    "hyp": "that's wonderful where is it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 2.34,
+    "wps": 2.14,
+    "score": 1.479,
+    "f0_med": 130.0,
+    "f0_st_sd": 3.3,
+    "f0_range_st": 9.63
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "line": "At the hospital on Pine Street. I'm going to work in the kitchen.",
+    "seed": 2026,
+    "hyp": "at the hospital on pine street i'm going to work in the kitchen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.98,
+    "dur": 3.19,
+    "wps": 4.08,
+    "score": 1.446,
+    "f0_med": 218.0,
+    "f0_st_sd": 3.12,
+    "f0_range_st": 9.53
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "line": "Do you like it?",
+    "seed": 9945,
+    "hyp": "do you like it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 0.9,
+    "wps": 4.44,
+    "score": 1.577,
+    "f0_med": 114.5,
+    "f0_st_sd": 5.77,
+    "f0_range_st": 23.02
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "line": "Yes, I love it, because the people are really friendly.",
+    "seed": 2026,
+    "hyp": "yes i love it because the people are really friendly",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.99,
+    "dur": 3.39,
+    "wps": 2.95,
+    "score": 1.392,
+    "f0_med": 213.6,
+    "f0_st_sd": 2.71,
+    "f0_range_st": 8.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "line": "How do you get there?",
+    "seed": 2026,
+    "hyp": "how do you get there",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 1.3,
+    "wps": 3.85,
+    "score": 1.465,
+    "f0_med": 122.4,
+    "f0_st_sd": 3.31,
+    "f0_range_st": 9.45
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "line": "I walk. It's only ten minutes from my apartment, so I don't need a car.",
+    "seed": 9945,
+    "hyp": "i walk it's only ten minutes from my apartment so i don't need a car",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.96,
+    "dur": 3.68,
+    "wps": 4.08,
+    "score": 1.489,
+    "f0_med": 227.7,
+    "f0_st_sd": 3.53,
+    "f0_range_st": 10.81
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "line": "Lucky you! I really need my car, because my job is far away.",
+    "seed": 2026,
+    "hyp": "lucky you i really need my car because my job is far away",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.96,
+    "dur": 4.25,
+    "wps": 3.06,
+    "score": 1.377,
+    "f0_med": 125.6,
+    "f0_st_sd": 2.77,
+    "f0_range_st": 8.72
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "line": "Do you want a ride on Monday? I start at seven.",
+    "seed": 17864,
+    "hyp": "do you want a ride on monday i start at seven",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.89,
+    "dur": 2.63,
+    "wps": 4.18,
+    "score": 1.494,
+    "f0_med": 188.1,
+    "f0_st_sd": 4.11,
+    "f0_range_st": 13.69
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "line": "Thanks, but I start at six. I'm going to take the bus again.",
+    "seed": 2026,
+    "hyp": "thanks but i start at six i'm going to take the bus again",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.92,
+    "dur": 3.22,
+    "wps": 4.04,
+    "score": 1.428,
+    "f0_med": 117.2,
+    "f0_st_sd": 3.37,
+    "f0_range_st": 11.56
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "line": "OK. Good luck with your car!",
+    "seed": 2026,
+    "hyp": "okay good luck with your car",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.95,
+    "dur": 2.36,
+    "wps": 2.54,
+    "score": 1.423,
+    "f0_med": 272.3,
+    "f0_st_sd": 3.18,
+    "f0_range_st": 9.58
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "line": "Thanks. And congratulations on your new job!",
+    "seed": 2026,
+    "hyp": "thanks and congratulations on your new job",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.98,
+    "wps": 2.35,
+    "score": 1.266,
+    "f0_med": 136.9,
+    "f0_st_sd": 1.91,
+    "f0_range_st": 6.24
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "line": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "wps": 4.23,
+    "score": 1.495,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   9.83,
+   11.19,
+   "Elena",
+   "Hi, David! How are you?"
+  ],
+  [
+   12.39,
+   15.49,
+   "David",
+   "Hi, Elena. I'm OK, thanks. I'm just really tired."
+  ],
+  [
+   16.69,
+   18.22,
+   "Elena",
+   "Really? Why?"
+  ],
+  [
+   19.42,
+   21.37,
+   "David",
+   "Because my car broke down on Tuesday."
+  ],
+  [
+   22.57,
+   24.69,
+   "Elena",
+   "Oh no! What happened?"
+  ],
+  [
+   25.89,
+   31.61,
+   "David",
+   "It just stopped on the highway. Now it's at the mechanic, so I took the bus to work every day this week."
+  ],
+  [
+   32.81,
+   35.35,
+   "Elena",
+   "That's bad news. When is it going to be ready?"
+  ],
+  [
+   36.55,
+   39.25,
+   "David",
+   "Maybe next Friday. What about you? How was your week?"
+  ],
+  [
+   40.45,
+   43.62,
+   "Elena",
+   "It was great! I have good news. I got a new job."
+  ],
+  [
+   44.82,
+   47.16,
+   "David",
+   "That's wonderful! Where is it?"
+  ],
+  [
+   48.36,
+   51.55,
+   "Elena",
+   "At the hospital on Pine Street. I'm going to work in the kitchen."
+  ],
+  [
+   52.75,
+   53.65,
+   "David",
+   "Do you like it?"
+  ],
+  [
+   54.85,
+   58.24,
+   "Elena",
+   "Yes, I love it, because the people are really friendly."
+  ],
+  [
+   59.44,
+   60.74,
+   "David",
+   "How do you get there?"
+  ],
+  [
+   61.94,
+   65.62,
+   "Elena",
+   "I walk. It's only ten minutes from my apartment, so I don't need a car."
+  ],
+  [
+   66.82,
+   71.07,
+   "David",
+   "Lucky you! I really need my car, because my job is far away."
+  ],
+  [
+   72.27,
+   74.9,
+   "Elena",
+   "Do you want a ride on Monday? I start at seven."
+  ],
+  [
+   76.1,
+   79.32,
+   "David",
+   "Thanks, but I start at six. I'm going to take the bus again."
+  ],
+  [
+   80.52,
+   82.88,
+   "Elena",
+   "OK. Good luck with your car!"
+  ],
+  [
+   84.08,
+   87.06,
+   "David",
+   "Thanks. And congratulations on your new job!"
+  ]
+ ]
+}

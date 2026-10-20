@@ -13,3 +13,5 @@ export const examPath = (f: string) => `downloads/exams/${f}`
 
 /** Level 1 presenter route (HashRouter), opened in a new tab. Level 1 file paths come from src/content_level1.json. */
 export const level1PresentHref = (n: number) => `#/level1/present/${n}`
+/** Level 3 presenter route; Level 3 file paths come from src/content_level3.json. */
+export const level3PresentHref = (n: number) => `#/level3/present/${n}`

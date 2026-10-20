@@ -1,8 +1,8 @@
-# Maintaining the ESL Curriculum (Level 1 and Level 2)
+# Maintaining the ESL Curriculum (Levels 1, 2 and 3)
 
 This guide explains how to change and rebuild everything in this repository: the curriculum book (PDF/DOCX),
 the exams, the website, the slide decks, the vocabulary pictures, and the listening audio.
-Sections 1–7 are about **Level 2** (and the website in general). **Level 1** has its own section: [section 8](#8-level-1).
+Sections 1–7 are about **Level 2** (and the website in general). **Level 1** has its own section: [section 8](#8-level-1); **Level 3** is [section 9](#9-level-3).
 You do not need to be a programmer. Copy the commands as written, and run them from the repository folder.
 
 ## What is where
@@ -23,6 +23,8 @@ You do not need to be a programmer. Copy the commands as written, and run them f
 | `level1/` | **Level 1 sources**: `curriculum/` (lesson Markdown, scope and sequence, build script), `images/`, `audio/`, `slides/`. See section 8. |
 | `public/level1/` | Level 1 files the website serves (pictures, MP3, PDF/DOCX/PPTX downloads). Refreshed from `level1/` by the scripts; don't edit here. |
 | `src/content_level1.json`, `src/decks/level1/` | Level 1 lesson pages and presenter slides (generated). Level 1 page code: `src/level1.tsx`. |
+| `level3/`, `public/level3/`, `src/content_level3.json`, `src/decks/level3/` | **Level 3**, laid out the same way as Level 1 (page code: `src/level3.tsx`). See section 9. |
+| `Five_Level_Map.md` | Planning map for all five levels. |
 
 ## One-time setup
 
@@ -309,9 +311,74 @@ The exact command is at the top of `build_natural.py`. Every voice reference mus
 The same as Level 2 (sections 6–7). Before you commit, check that `git status` shows no `.wav` files, no `level1/curriculum/build/`,
 and no `cache/` or `out/` folders (`.gitignore` already skips them).
 
+## 9. Level 3
+
+Level 3 (low intermediate) works exactly like Level 1 (section 8), with `level3` in place of `level1`. Lesson 1 is finished;
+Lessons 2–13 show as "coming soon" until their Markdown file exists. Level 3 pictures are called `L3_L<N>_*.png`
+(Level 3, lesson *N*), for example `L3_L1_neighbor.png`.
+
+### What is where (Level 3)
+
+| Folder / file | What it is |
+|---|---|
+| `level3/curriculum/Level3_Scope_and_Sequence.md` (+ `.docx`, `.pdf`) | The plan for all 16 weeks. **The website takes the Level 3 lesson list, titles, weeks, semester table, and class routine from here.** |
+| `level3/curriculum/Level3_Lesson1.md` | **Lesson 1 text**: teacher plan + student pages. The lesson page, the PDF, and the DOCX all come from this file. |
+| `level3/curriculum/build.sh`, `md2docx_L3.py` | Build the lesson DOCX + PDF. `md2docx_L3.py` is the same converter as `md2docx_L1.py` (incl. the `<!-- subst -->` grammar boxes). |
+| `level3/images/` | Vocabulary pictures (`L3_L1_*.png`), `images_L3_L1.json`, `CREDITS.md`, and `tools/make_images_L3_L1.py` (the drawing script; uses `tools/images/`). |
+| `level3/audio/` | `L3_L1_listening.mp3` (**the published audio**), check results and build log, `README.md`, and `tools/` (script, build, and check scripts). The WAV master is not committed. |
+| `level3/slides/Level3_Lesson1_Slides.pptx` | **The editable slide deck** (source for the download and the in-browser presenter). |
+| `public/level3/` | What the website serves. **Don't edit here**: it is refreshed from the folders above. |
+
+### Rebuild after a change (any Level 3 file)
+
+```bash
+PYTHON=.venv-docs/bin/python level3/curriculum/build.sh 1 --publish    # Lesson 1 DOCX + PDF -> public/level3/downloads/
+python3 scripts/export_deck.py level3/slides/Level3_Lesson1_Slides.pptx 1 --level 3   # only if the slides changed
+python3 scripts/export_content.py                                     # lesson pages + copies pictures, MP3, PPTX into public/level3/
+npm run dev                                                           # check #/level3/lesson/1 and #/level3/present/1
+```
+
+`export_content.py` rebuilds the Level 1 and Level 2 data too; they come out exactly the same if you didn't change them.
+Without `--publish`, `build.sh` writes to `level3/curriculum/build/` (not committed). Lesson text, slides, and pictures follow the
+same rules as Level 1 (section 8): keep the headings and `<!-- part: ... -->` comments, each "on click" entrance animation is one
+reveal step, and pictures in the deck must be identical to a file in `level3/images/`.
+
+**Pictures:** `cd level3/images/tools && ../../../.venv-img/bin/python make_images_L3_L1.py` (writes into `level3/images/`); add a line to `level3/images/CREDITS.md`.
+
+### Listening audio
+
+The website plays `level3/audio/L3_L1_listening.mp3`. To swap it, copy a new file over it with the same name, update
+"about 1:31" in the listening-script heading of `Level3_Lesson1.md`, and run the rebuild commands above.
+
+**Make the audio from scratch** (same Chatterbox setup as section 5; the words are in `level3/audio/tools/script_L3_L1.py`, keep them the same as the Markdown):
+
+```bash
+cd level3/audio/tools
+PAUSE_SPK=1.2 MAXT=24 ../../../.venv-audio/bin/python build_L3_L1.py                     # -> out/L3_L1_listening.wav + .mp3 + _log.json
+LINE_TIMES=out/L3_L1_listening_log.json ../../../.venv-audio/bin/python check_L3_L1.py out/L3_L1_listening.mp3   # -> L3_L1_check_results.json
+```
+
+Each line is one whole Chatterbox take (several seeds; the best take that passes Whisper, edge, artifact, and pitch checks is kept).
+If the whole-file check rejects a take, run the build again with `EXCLUDE='{"<line text>": [<seed>]}'`; the seed used for every line is in
+`L3_L1_listening_log.json`. Copy the finished MP3 and the two JSON files into `level3/audio/`; `out/` and `cache/` are not committed.
+Voices: Narrator = `N`, Elena = `Rosa`, David = `Sam`, all synthetic Kokoro-82M clips in `tools/audio/samples/refs/` (no human recordings).
+`level3/audio/tools/textnorm.py` is the shared `tools/audio/textnorm.py` plus one fix (Whisper writes "OK" as "okay"); it is found first.
+Whisper results can differ slightly between runs; if one line fails the whole-file check, check that line again before re-making it.
+
+### Add the next lesson (example: Lesson 2)
+
+As in section 8: `level3/curriculum/Level3_Lesson2.md`, pictures `level3/images/L3_L2_<word>.png`, audio `level3/audio/L3_L2_listening.mp3`,
+slides `level3/slides/Level3_Lesson2_Slides.pptx` (`export_deck.py ... 2 --level 3`), then `level3/curriculum/build.sh 2 --publish` and
+`python3 scripts/export_content.py`. Update the "Lesson 1 is ready" sentence on the Level 3 overview in `src/level3.tsx`.
+
+### Publish
+
+The same as Level 2 (sections 6–7). Before you commit, check that `git status` shows no `.wav` files, no `level3/curriculum/build/`,
+and no `cache/` or `out/` folders.
+
 ## Licenses (keep these when you change things)
 
 - Course materials: © 2026 the authors, CC BY-NC-SA 4.0.
-- Vocabulary pictures: modified Twemoji graphics, CC BY 4.0 (see `public/images/CREDITS.md` and `level1/images/CREDITS.md`).
+- Vocabulary pictures: modified Twemoji graphics, CC BY 4.0 (see `public/images/CREDITS.md` and `level1/images/CREDITS.md`, `level3/images/CREDITS.md`).
 - Font for slides and the presenter: Lexend Deca, SIL Open Font License 1.1 (`src/assets/fonts/`).
-- Audio: made with Chatterbox TTS (Resemble AI, MIT License); synthetic voices with a Perth watermark.
+- Audio: made with Chatterbox TTS (Resemble AI, MIT License); synthetic voices with a Perth watermark. Every voice reference is a synthetic Kokoro-82M clip (Apache 2.0), never a recording of a real person.
