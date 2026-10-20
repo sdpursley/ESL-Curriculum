@@ -1,0 +1,92 @@
+[
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "but i don't like playing",
+   "flags": [],
+   "probs": [
+    0.69,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "but I don't like playing.",
+  "hyp": "but i don't like playing",
+  "sim": 1.0,
+  "probs": [
+   0.7,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2106033861637115
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "salsa and kumbia",
+   "flags": [],
+   "probs": [
+    0.77,
+    0.76
+   ],
+   "sim": 0.67
+  },
+  "text": "Salsa and cumbia.",
+  "hyp": "salsa and kumbia",
+  "sim": 0.67,
+  "probs": [
+   0.8,
+   0.81
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 1.4071746985117592
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "you like shopping",
+   "flags": [],
+   "probs": [
+    0.58,
+    0.98
+   ],
+   "sim": 0.86
+  },
+  "text": "Do you like shopping?",
+  "hyp": "do you like shopping",
+  "sim": 1.0,
+  "probs": [
+   0.91,
+   0.97
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2741027534008027
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "fux's good idea",
+   "flags": [
+    "extra words: fux's good idea"
+   ],
+   "probs": [
+    0.53,
+    1.0
+   ],
+   "sim": 0.8
+  },
+  "text": "Good idea!",
+  "hyp": "good idea",
+  "sim": 1.0,
+  "probs": [
+   0.87,
+   0.88
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.262292969226837
+ }
+]

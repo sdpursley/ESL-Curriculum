@@ -63,7 +63,7 @@ def resample(a, sr):
 def make_engine(name):
     if name == "kokoro":
         from kokoro_onnx import Kokoro
-        k = Kokoro('/workspace/tts/kokoro-v1.0.onnx', '/workspace/tts/voices-v1.0.bin')
+        k = Kokoro(os.environ.get('KOKORO_MODEL', 'models/kokoro-v1.0.onnx'), os.environ.get('KOKORO_VOICES', 'models/voices-v1.0.bin'))
         return lambda t, v: resample(*k.create(t, voice=v, speed=SPEED, lang='en-us'))
     if name == "kitten":
         from kittentts import KittenTTS
@@ -71,7 +71,7 @@ def make_engine(name):
         return lambda t, v: resample(np.asarray(m.generate(t, voice=v, speed=SPEED)).flatten(), 24000)
     if name == "piper":
         from piper import PiperVoice, SynthesisConfig
-        pv = PiperVoice.load('/workspace/tts/piper/en_US-libritts_r-medium.onnx')
+        pv = PiperVoice.load(os.environ.get('PIPER_MODEL', 'models/en_US-libritts_r-medium.onnx'))
         def f(t, v):
             cfg = SynthesisConfig(speaker_id=v, length_scale=1/SPEED, noise_scale=0.6, noise_w_scale=0.7)
             return resample(np.concatenate([c.audio_float_array for c in pv.synthesize(t, cfg)]), pv.config.sample_rate)

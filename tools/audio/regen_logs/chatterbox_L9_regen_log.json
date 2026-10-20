@@ -1,0 +1,232 @@
+[
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "hi are you ready to order video thanks for watching",
+   "flags": [
+    "extra words: hi are you ready to order video thanks for watching"
+   ],
+   "probs": [
+    0.77,
+    0.97
+   ],
+   "sim": 0.75
+  },
+  "text": "Hi! Are you ready to order?",
+  "hyp": "hi are you ready to order",
+  "sim": 1.0,
+  "probs": [
+   0.78,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2334312558174134
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "and",
+   "flags": [
+    "sound outside words 300ms"
+   ],
+   "probs": [
+    0.32,
+    0.32
+   ],
+   "sim": 0.5
+  },
+  "text": "And for you?",
+  "hyp": "and for you",
+  "sim": 1.0,
+  "probs": [
+   0.67,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.1999350786209106
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "you have some water",
+   "flags": [],
+   "probs": [
+    0.03,
+    1.0
+   ],
+   "sim": 0.67
+  },
+  "text": "Can I have some water,",
+  "hyp": "can i have some water",
+  "sim": 1.0,
+  "probs": [
+   0.86,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2565486788749696
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "i'd like a coffee with a milk please",
+   "flags": [
+    "extra words: i'd like a coffee with a milk please"
+   ],
+   "probs": [
+    0.92,
+    0.35
+   ],
+   "sim": 0.93
+  },
+  "text": "I'd like a coffee with milk, please.",
+  "hyp": "i'd like a coffee with milk please",
+  "sim": 1.0,
+  "probs": [
+   0.89,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2664307057857513
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "",
+   "flags": [],
+   "probs": [
+    0,
+    0
+   ],
+   "sim": 0.0
+  },
+  "text": "How much sugar?",
+  "hyp": "how much sugar",
+  "sim": 1.0,
+  "probs": [
+   0.77,
+   0.96
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.231754410266876
+ },
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "later",
+   "flags": [],
+   "probs": [
+    0.3,
+    0.3
+   ],
+   "sim": 1.0
+  },
+  "text": "Later.",
+  "hyp": "later",
+  "sim": 1.0,
+  "probs": [
+   0.37,
+   0.37
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.110011374950409
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "excuse me can we have the check please",
+   "flags": [
+    "HF whine 280ms"
+   ],
+   "probs": [
+    0.84,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "Excuse me. Can we have the check, please?",
+  "hyp": "excuse me can we have the check please",
+  "sim": 1.0,
+  "probs": [
+   0.96,
+   0.59
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.177446347475052
+ },
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "here you go",
+   "flags": [],
+   "probs": [
+    0.94,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "Here you go.",
+  "hyp": "here you go",
+  "sim": 1.0,
+  "probs": [
+   0.92,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.276657235622406
+ },
+ {
+  "attempt": 6,
+  "why_first_failed": {
+   "hyp": "that's twenty four fifty",
+   "flags": [],
+   "probs": [
+    0.93,
+    0.94
+   ],
+   "sim": 1.0
+  },
+  "text": "That's twenty-four fifty.",
+  "hyp": "that's twenty four fifty",
+  "sim": 1.0,
+  "probs": [
+   0.91,
+   0.91
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2725822627544403
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "thank you everything was delicious",
+   "flags": [
+    "sustained non-speech 320ms"
+   ],
+   "probs": [
+    0.76,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "Thank you. Everything was delicious!",
+  "hyp": "thank you everything was delicious",
+  "sim": 1.0,
+  "probs": [
+   0.72,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2169809997081757
+ }
+]

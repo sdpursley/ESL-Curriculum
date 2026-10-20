@@ -1,0 +1,323 @@
+[
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "about you",
+   "flags": [],
+   "probs": [
+    0.55,
+    0.63
+   ],
+   "sim": 0.8
+  },
+  "text": "How about you?",
+  "hyp": "how about you",
+  "sim": 1.0,
+  "probs": [
+   0.89,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2660744190216064
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "takes twenty minutes by car",
+   "flags": [],
+   "probs": [
+    0.12,
+    0.99
+   ],
+   "sim": 0.91
+  },
+  "text": "It takes twenty minutes by car.",
+  "hyp": "it takes twenty minutes by car",
+  "sim": 1.0,
+  "probs": [
+   0.92,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.274995821714401
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "my bus",
+   "flags": [],
+   "probs": [
+    0.08,
+    0.81
+   ],
+   "sim": 0.4
+  },
+  "text": "And by bus?",
+  "hyp": "and by bus",
+  "sim": 1.0,
+  "probs": [
+   0.49,
+   0.97
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.146941637992859
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "and a",
+   "flags": [
+    "sound outside words 440ms"
+   ],
+   "probs": [
+    0.26,
+    0.01
+   ],
+   "sim": 0.0
+  },
+  "text": "The bus is slower,",
+  "hyp": "the bus is slower",
+  "sim": 1.0,
+  "probs": [
+   0.74,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.223440670967102
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "hm gas is very expensive a",
+   "flags": [
+    "extra words: hm gas is very expensive a"
+   ],
+   "probs": [
+    0.38,
+    0.0
+   ],
+   "sim": 0.8
+  },
+  "text": "Gas is very expensive!",
+  "hyp": "gas is very expensive",
+  "sim": 1.0,
+  "probs": [
+   0.32,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.0959699749946594
+ },
+ {
+  "attempt": 5,
+  "why_first_failed": {
+   "hyp": "you are right and parking is expensive too",
+   "flags": [
+    "extra words: you are right and parking is expensive too"
+   ],
+   "probs": [
+    0.0,
+    0.89
+   ],
+   "sim": 0.8
+  },
+  "text": "You're right. And parking is expensive too.",
+  "hyp": "you're right and parking is expensive too",
+  "sim": 1.0,
+  "probs": [
+   0.82,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.246191954612732
+ },
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "ten dollars a day",
+   "flags": [],
+   "probs": [
+    0.0,
+    0.01
+   ],
+   "sim": 1.0
+  },
+  "text": "Ten dollars a day!",
+  "hyp": "ten a day",
+  "sim": 0.86,
+  "probs": [
+   0.77,
+   0.96
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.088879287668637
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "read",
+   "flags": [],
+   "probs": [
+    0.0,
+    0.0
+   ],
+   "sim": 0.5
+  },
+  "text": "I can read.",
+  "hyp": "i can read",
+  "sim": 1.0,
+  "probs": [
+   0.94,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.281911200284958
+ },
+ {
+  "attempt": 5,
+  "why_first_failed": {
+   "hyp": "on the",
+   "flags": [
+    "sound outside words 260ms"
+   ],
+   "probs": [
+    0.06,
+    0.71
+   ],
+   "sim": 0.4
+  },
+  "text": "In the morning,",
+  "hyp": "in the morning",
+  "sim": 1.0,
+  "probs": [
+   0.38,
+   0.64
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.113868087530136
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "maybe i can try my bike",
+   "flags": [],
+   "probs": [
+    0.06,
+    0.11
+   ],
+   "sim": 1.0
+  },
+  "text": "Maybe I can try my bike.",
+  "hyp": "maybe i can try my bike",
+  "sim": 1.0,
+  "probs": [
+   0.06,
+   0.11
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.0184518042951822,
+  "first_take_flagged": true
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "better better for my health",
+   "flags": [],
+   "probs": [
+    0.43,
+    0.98
+   ],
+   "sim": 0.73
+  },
+  "text": "and it's better for my health.",
+  "hyp": "and it's better for my health",
+  "sim": 1.0,
+  "probs": [
+   0.53,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.159431129693985
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "lessen seven listening",
+   "flags": [],
+   "probs": [
+    0.37,
+    0.99
+   ],
+   "sim": 0.67
+  },
+  "text": "Lesson seven. Listening.",
+  "hyp": "lesson seven listening",
+  "sim": 1.0,
+  "probs": [
+   0.96,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2875024169683456
+ },
+ {
+  "attempt": 5,
+  "why_first_failed": {
+   "hyp": "or or in or or or or or or or",
+   "flags": [
+    "extra words: or or in or or or or or or or"
+   ],
+   "probs": [
+    0.0,
+    0.78
+   ],
+   "sim": 0.0
+  },
+  "text": "Rosa and Carlos talk about getting to work. Listen.",
+  "hyp": "rosa and carlos talk about getting to work listen",
+  "sim": 1.0,
+  "probs": [
+   0.96,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.286928468942642
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "the end of the listening thank you for watching",
+   "flags": [
+    "extra words: the end of the listening thank you for watching"
+   ],
+   "probs": [
+    0.27,
+    0.7
+   ],
+   "sim": 0.67
+  },
+  "text": "That's the end of the listening.",
+  "hyp": "that's the end of the listening",
+  "sim": 1.0,
+  "probs": [
+   0.98,
+   0.81
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.242684429883957
+ }
+]

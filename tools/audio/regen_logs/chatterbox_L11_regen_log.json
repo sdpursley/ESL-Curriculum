@@ -1,0 +1,344 @@
+[
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "hello",
+   "flags": [],
+   "probs": [
+    0.28,
+    0.28
+   ],
+   "sim": 1.0
+  },
+  "text": "Hello?",
+  "hyp": "hello",
+  "sim": 1.0,
+  "probs": [
+   0.85,
+   0.85
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2557022988796236
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "hi carlos it's kim",
+   "flags": [],
+   "probs": [
+    0.89,
+    0.99
+   ],
+   "sim": 1.0
+  },
+  "text": "Hi, Carlos! It's Kim.",
+  "hyp": "hi carlos it's kim",
+  "sim": 1.0,
+  "probs": [
+   0.89,
+   0.99
+  ],
+  "edge": true,
+  "flags": [],
+  "score": 1.7668015122413636
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "you free this weekend",
+   "flags": [],
+   "probs": [
+    0.44,
+    0.99
+   ],
+   "sim": 0.89
+  },
+  "text": "Are you free this weekend?",
+  "hyp": "are you free this weekend",
+  "sim": 1.0,
+  "probs": [
+   0.9,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.27117383480072
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "like to come",
+   "flags": [],
+   "probs": [
+    0.38,
+    0.98
+   ],
+   "sim": 0.75
+  },
+  "text": "Would you like to come?",
+  "hyp": "would you like to come",
+  "sim": 1.0,
+  "probs": [
+   0.7,
+   0.96
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2105236887931823
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "at two o 'clock",
+   "flags": [
+    "extra words: at two o 'clock"
+   ],
+   "probs": [
+    0.5,
+    0.97
+   ],
+   "sim": 0.67
+  },
+  "text": "At two o'clock.",
+  "hyp": "at two o 'clock",
+  "sim": 0.67,
+  "probs": [
+   0.53,
+   0.99
+  ],
+  "edge": false,
+  "flags": [
+   "extra words: at two o 'clock"
+  ],
+  "score": 0.7264772752920786
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "rosa going to",
+   "flags": [],
+   "probs": [
+    0.28,
+    0.98
+   ],
+   "sim": 0.75
+  },
+  "text": "Is Rosa going to come?",
+  "hyp": "is rosa going to come",
+  "sim": 1.0,
+  "probs": [
+   0.8,
+   0.97
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2400489449501038
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "she i's going to visit her mother",
+   "flags": [
+    "extra words: she i's going to visit her mother"
+   ],
+   "probs": [
+    0.88,
+    0.97
+   ],
+   "sim": 0.77
+  },
+  "text": "She's going to visit her mother.",
+  "hyp": "she's going to visit her mother",
+  "sim": 1.0,
+  "probs": [
+   0.93,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.279248830676079
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "you we can play soccer",
+   "flags": [
+    "extra words: you we can play soccer"
+   ],
+   "probs": [
+    0.49,
+    0.92
+   ],
+   "sim": 0.89
+  },
+  "text": "We can play soccer!",
+  "hyp": "we can play soccer",
+  "sim": 1.0,
+  "probs": [
+   0.86,
+   0.93
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2589119732379914
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "sorry i can't",
+   "flags": [
+    "sound outside words 460ms"
+   ],
+   "probs": [
+    0.27,
+    0.97
+   ],
+   "sim": 1.0
+  },
+  "text": "Sorry, I can't.",
+  "hyp": "sorry i can't",
+  "sim": 1.0,
+  "probs": [
+   0.82,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2455650150775908
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "help me my brother on sunday",
+   "flags": [],
+   "probs": [
+    0.4,
+    0.99
+   ],
+   "sim": 0.67
+  },
+  "text": "I'm helping my brother on Sunday.",
+  "hyp": "i'm helping my brother on sunday",
+  "sim": 1.0,
+  "probs": [
+   0.93,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2794154226779937
+ },
+ {
+  "attempt": 5,
+  "why_first_failed": {
+   "hyp": "moving to",
+   "flags": [
+    "sound outside words 520ms"
+   ],
+   "probs": [
+    0.5,
+    0.97
+   ],
+   "sim": 0.5
+  },
+  "text": "He's moving to a new apartment.",
+  "hyp": "he's moving to a new apartment",
+  "sim": 1.0,
+  "probs": [
+   0.8,
+   0.98
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2402452647686006
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "thanks for inviting me",
+   "flags": [],
+   "probs": [
+    0.86,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "Thanks for inviting me!",
+  "hyp": "thanks for inviting me",
+  "sim": 1.0,
+  "probs": [
+   0.9,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.269226586818695
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "",
+   "flags": [],
+   "probs": [
+    0,
+    0
+   ],
+   "sim": 0.0
+  },
+  "text": "Lesson eleven. Listening.",
+  "hyp": "lesson eleven listening",
+  "sim": 1.0,
+  "probs": [
+   0.87,
+   0.84
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2532237857580184
+ },
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "and and",
+   "flags": [],
+   "probs": [
+    0.0,
+    0.0
+   ],
+   "sim": 0.0
+  },
+  "text": "Kim calls Carlos. Listen.",
+  "hyp": "kim calls carlos listen",
+  "sim": 1.0,
+  "probs": [
+   0.51,
+   0.87
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.153137755393982
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "the end of the listening",
+   "flags": [],
+   "probs": [
+    0.05,
+    0.59
+   ],
+   "sim": 0.91
+  },
+  "text": "That's the end of the listening.",
+  "hyp": "that's the end of the listening",
+  "sim": 1.0,
+  "probs": [
+   0.71,
+   0.79
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.211763486266136
+ }
+]

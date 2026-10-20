@@ -1,0 +1,184 @@
+[
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "mmm is there a cheaper supermarket",
+   "flags": [],
+   "probs": [
+    0.51,
+    1.0
+   ],
+   "sim": 0.83
+  },
+  "text": "Hmm. Is there a cheaper supermarket?",
+  "hyp": "hmm is there a cheaper supermarket",
+  "sim": 1.0,
+  "probs": [
+   0.69,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2067630350589753
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "great are there any pharmacies near",
+   "flags": [],
+   "probs": [
+    0.81,
+    0.82
+   ],
+   "sim": 0.92
+  },
+  "text": "Great. Are there any pharmacies near here?",
+  "hyp": "great are there any pharmacies near here",
+  "sim": 1.0,
+  "probs": [
+   0.62,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.187392085790634
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "",
+   "flags": [
+    "sustained non-speech 320ms"
+   ],
+   "probs": [
+    0,
+    0
+   ],
+   "sim": 0.0
+  },
+  "text": "Perfect. And what's the best restaurant in town?",
+  "hyp": "perfect and what's the best restaurant in town",
+  "sim": 1.0,
+  "probs": [
+   0.59,
+   0.82
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.175870102643967
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "",
+   "flags": [],
+   "probs": [
+    0,
+    0
+   ],
+   "sim": 0.0
+  },
+  "text": "I think The Sunny Kitchen is the best.",
+  "hyp": "i think the sunny kitchen is the best",
+  "sim": 1.0,
+  "probs": [
+   0.93,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2781451463699343
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "and is there a park for my kids",
+   "flags": [],
+   "probs": [
+    0.5,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "And is there a park for my kids?",
+  "hyp": "and is there a park for my kids",
+  "sim": 1.0,
+  "probs": [
+   0.82,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2453424453735353
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "yes lake lake lake is the most beautiful park in town",
+   "flags": [
+    "extra words: yes lake lake lake is the most beautiful park in town"
+   ],
+   "probs": [
+    0.87,
+    0.98
+   ],
+   "sim": 0.86
+  },
+  "text": "Yes! Lake Park is the most beautiful park in town.",
+  "hyp": "yes lake park is the most beutiful park in town",
+  "sim": 0.9,
+  "probs": [
+   0.89,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.1678357541561124
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "thank you rosa rosa",
+   "flags": [
+    "extra words: thank you rosa rosa"
+   ],
+   "probs": [
+    0.83,
+    0.0
+   ],
+   "sim": 0.86
+  },
+  "text": "Thank you, Rosa.",
+  "hyp": "thank you rosa",
+  "sim": 1.0,
+  "probs": [
+   0.86,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2580830097198485
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "eight listening four",
+   "flags": [],
+   "probs": [
+    0.06,
+    0.01
+   ],
+   "sim": 0.67
+  },
+  "text": "Lesson eight. Listening.",
+  "hyp": "lesson eight listening",
+  "sim": 1.0,
+  "probs": [
+   0.96,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.287237620353699
+ }
+]

@@ -1,0 +1,116 @@
+[
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "hi how are you",
+   "flags": [
+    "sound outside words 380ms"
+   ],
+   "probs": [
+    0.23,
+    0.97
+   ],
+   "sim": 0.89
+  },
+  "text": "Kim! Hi! How are you?",
+  "hyp": "kim hi how are you",
+  "sim": 1.0,
+  "probs": [
+   0.78,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2352271378040314
+ },
+ {
+  "attempt": 5,
+  "why_first_failed": {
+   "hyp": "i moved last week",
+   "flags": [],
+   "probs": [
+    0.32,
+    1.0
+   ],
+   "sim": 0.89
+  },
+  "text": "thanks. I moved last week.",
+  "hyp": "thanks i moved last week",
+  "sim": 1.0,
+  "probs": [
+   0.9,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2685753643512725
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "do you still work at the bank",
+   "flags": [
+    "sound outside words 400ms"
+   ],
+   "probs": [
+    0.6,
+    0.99
+   ],
+   "sim": 0.93
+  },
+  "text": "Nice! Do you still work at the bank?",
+  "hyp": "nice do you still work at the bank",
+  "sim": 1.0,
+  "probs": [
+   0.93,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.277730029821396
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "my new sofa is coming today",
+   "flags": [],
+   "probs": [
+    0.92,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "My new sofa is coming today!",
+  "hyp": "my new sofa is coming today",
+  "sim": 1.0,
+  "probs": [
+   0.88,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.263610380887985
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "nice do you cook in your new kitchen",
+   "flags": [],
+   "probs": [
+    0.5,
+    1.0
+   ],
+   "sim": 0.94
+  },
+  "text": "Oh, nice. Do you cook in your new kitchen?",
+  "hyp": "oh nice do you cook in your new kitchen",
+  "sim": 1.0,
+  "probs": [
+   0.81,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2436012983322144
+ }
+]

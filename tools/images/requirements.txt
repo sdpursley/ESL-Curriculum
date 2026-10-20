@@ -1,0 +1,5 @@
+# Vocabulary picture generator (make_images.py, make_images_v5.py).
+# Also needs the Cairo library (Debian/Ubuntu: libcairo2; macOS: brew install cairo)
+# and the DejaVu Sans Bold font at /usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf (Debian/Ubuntu: fonts-dejavu-core).
+cairosvg==2.9.1
+pillow==12.3.0

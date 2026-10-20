@@ -1,0 +1,384 @@
+[
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "good evening everyone",
+   "flags": [],
+   "probs": [
+    0.17,
+    0.99
+   ],
+   "sim": 1.0
+  },
+  "text": "Good evening, everyone.",
+  "hyp": "good evening everyone",
+  "sim": 1.0,
+  "probs": [
+   0.17,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.050017663836479,
+  "first_take_flagged": true
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "my name is",
+   "flags": [],
+   "probs": [
+    0.85,
+    0.99
+   ],
+   "sim": 0.86
+  },
+  "text": "My name is Ana.",
+  "hyp": "my name is",
+  "sim": 0.86,
+  "probs": [
+   0.85,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 1.6124903534139907,
+  "first_take_flagged": true
+ },
+ {
+  "attempt": 6,
+  "why_first_failed": {
+   "hyp": "a year ago",
+   "flags": [
+    "HF whine 240ms"
+   ],
+   "probs": [
+    0.23,
+    1.0
+   ],
+   "sim": 0.67
+  },
+  "text": "One year ago,",
+  "hyp": "one year ago",
+  "sim": 1.0,
+  "probs": [
+   0.39,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.116018834710121
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "i was very",
+   "flags": [
+    "sound outside words 360ms",
+    "HF whine 200ms"
+   ],
+   "probs": [
+    0.84,
+    0.97
+   ],
+   "sim": 0.86
+  },
+  "text": "I was very nervous.",
+  "hyp": "i was very nervous",
+  "sim": 1.0,
+  "probs": [
+   0.23,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.0697468131780625
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "we didn't understand people at the store",
+   "flags": [
+    "HF whine 280ms"
+   ],
+   "probs": [
+    0.09,
+    0.99
+   ],
+   "sim": 0.86
+  },
+  "text": "I didn't understand people at the store.",
+  "hyp": "i didn't understand people at the store",
+  "sim": 1.0,
+  "probs": [
+   0.9,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.269993966817856
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "i started this class",
+   "flags": [],
+   "probs": [
+    0.16,
+    0.99
+   ],
+   "sim": 0.89
+  },
+  "text": "Then I started this class.",
+  "hyp": "then i started this class",
+  "sim": 1.0,
+  "probs": [
+   0.91,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.271946060657501
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "i came to class every week",
+   "flags": [
+    "HF whine 200ms"
+   ],
+   "probs": [
+    0.93,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "I came to class every week.",
+  "hyp": "i came to class every week",
+  "sim": 1.0,
+  "probs": [
+   0.95,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.286184048652649
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "i practiced a lot with my classmates",
+   "flags": [
+    "HF whine 420ms"
+   ],
+   "probs": [
+    0.96,
+    0.99
+   ],
+   "sim": 1.0
+  },
+  "text": "I practiced a lot with my classmates.",
+  "hyp": "i practiced a lot with my classmates",
+  "sim": 1.0,
+  "probs": [
+   0.94,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2834486246109007
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "now i work at a bakery",
+   "flags": [
+    "HF whine 300ms"
+   ],
+   "probs": [
+    0.75,
+    0.99
+   ],
+   "sim": 1.0
+  },
+  "text": "Now, I work at a bakery.",
+  "hyp": "now i work at a bakery",
+  "sim": 1.0,
+  "probs": [
+   0.96,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2884945213794707
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "i make my own appointment",
+   "flags": [
+    "sound outside words 500ms"
+   ],
+   "probs": [
+    0.78,
+    0.4
+   ],
+   "sim": 0.62
+  },
+  "text": "I make my own appointments at the clinic.",
+  "hyp": "i make my own appointments at the clinic",
+  "sim": 1.0,
+  "probs": [
+   0.88,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2651785612106323
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "next year i am going to take a computer class",
+   "flags": [
+    "sustained non-speech 340ms",
+    "HF whine 700ms"
+   ],
+   "probs": [
+    0.92,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "Next year, I am going to take a computer class.",
+  "hyp": "next year i am going to take a computer class",
+  "sim": 1.0,
+  "probs": [
+   0.06,
+   1.0
+  ],
+  "edge": false,
+  "flags": [
+   "HF whine 220ms"
+  ],
+  "score": 1.4166101202368737
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "my goal is to get an office job",
+   "flags": [
+    "HF whine 280ms"
+   ],
+   "probs": [
+    0.91,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "My goal is to get an office job.",
+  "hyp": "my goal is to get an office job",
+  "sim": 1.0,
+  "probs": [
+   0.92,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.276758372783661
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "my dream is to help other people learn english",
+   "flags": [
+    "HF whine 360ms"
+   ],
+   "probs": [
+    0.9,
+    0.99
+   ],
+   "sim": 1.0
+  },
+  "text": "My dream is to help other people learn English.",
+  "hyp": "my dream is to help other people learn english",
+  "sim": 1.0,
+  "probs": [
+   0.88,
+   0.99
+  ],
+  "edge": true,
+  "flags": [],
+  "score": 1.763037693500519
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "thank you to my teachers and to my classmates",
+   "flags": [
+    "HF whine 320ms"
+   ],
+   "probs": [
+    0.87,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "Thank you to my teachers and to my classmates.",
+  "hyp": "thank you to my teachers and to my classmates",
+  "sim": 1.0,
+  "probs": [
+   0.92,
+   1.0
+  ],
+  "edge": false,
+  "flags": [
+   "HF whine 560ms"
+  ],
+  "score": 1.6754650294780729
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "thirteen listening",
+   "flags": [],
+   "probs": [
+    0.06,
+    0.26
+   ],
+   "sim": 0.8
+  },
+  "text": "Lesson thirteen. Listening.",
+  "hyp": "lesson thirteen listening",
+  "sim": 1.0,
+  "probs": [
+   0.87,
+   0.87
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.260363405942917
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "anhig is a short talk at graduation listen",
+   "flags": [],
+   "probs": [
+    0.33,
+    0.98
+   ],
+   "sim": 0.75
+  },
+  "text": "Ana gives a short talk at graduation. Listen.",
+  "hyp": "anna gives a short talk at graduation listen",
+  "sim": 0.88,
+  "probs": [
+   0.61,
+   0.86
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 1.5584368288516999
+ }
+]

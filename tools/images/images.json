@@ -1,0 +1,1783 @@
+[
+ {
+  "file": "L1_from.png",
+  "lesson": "L1",
+  "word": "from",
+  "twemoji": [
+   "1f30e",
+   "1f4cd"
+  ],
+  "note": "globe + location pin"
+ },
+ {
+  "file": "L1_live.png",
+  "lesson": "L1",
+  "word": "live (I live on…)",
+  "twemoji": [
+   "1f9cd",
+   "1f3e0"
+  ],
+  "note": "person + house"
+ },
+ {
+  "file": "L1_work.png",
+  "lesson": "L1",
+  "word": "work",
+  "twemoji": [
+   "1f477",
+   "1f9d1-200d-1f4bc"
+  ],
+  "note": "construction worker + office worker"
+ },
+ {
+  "file": "L1_job.png",
+  "lesson": "L1",
+  "word": "job",
+  "twemoji": [
+   "1f9d1-200d-1f373",
+   "1f9d1-200d-1f527",
+   "1f9d1-200d-1f3eb"
+  ],
+  "note": "cook, mechanic, teacher"
+ },
+ {
+  "file": "L1_neighborhood.png",
+  "lesson": "L1",
+  "word": "neighborhood",
+  "twemoji": [
+   "1f3d8",
+   "1f333",
+   "1f3ea"
+  ],
+  "note": "houses, tree, corner store"
+ },
+ {
+  "file": "L1_married_single.png",
+  "lesson": "L1",
+  "word": "married / single",
+  "twemoji": [
+   "1f491",
+   "1f48d",
+   "1f9cd"
+  ],
+  "note": "couple + ring | one person (small labels)"
+ },
+ {
+  "file": "L1_kids.png",
+  "lesson": "L1",
+  "word": "kids (children)",
+  "twemoji": [
+   "1f467",
+   "1f466",
+   "1f9d2"
+  ],
+  "note": "girl, boy, child"
+ },
+ {
+  "file": "L1_brother_sister.png",
+  "lesson": "L1",
+  "word": "brother / sister",
+  "twemoji": [
+   "1f468",
+   "1f469",
+   "1f466",
+   "1f467"
+  ],
+  "note": "family tree: parents, then a boy and a girl (small labels)"
+ },
+ {
+  "file": "L1_hometown.png",
+  "lesson": "L1",
+  "word": "hometown",
+  "twemoji": [
+   "1f3d8",
+   "1f4cd",
+   "1f476"
+  ],
+  "note": "town + pin + baby (where you were born / grew up)"
+ },
+ {
+  "file": "L1_near.png",
+  "lesson": "L1",
+  "word": "near",
+  "twemoji": [
+   "1f3e0",
+   "1f3eb"
+  ],
+  "note": "house close to a school, short two-way arrow"
+ },
+ {
+  "file": "L1_nice_to_meet_you.png",
+  "lesson": "L1",
+  "word": "Nice to meet you",
+  "twemoji": [
+   "1f642",
+   "1f91d",
+   "1f60a"
+  ],
+  "note": "two smiling faces + handshake"
+ },
+ {
+  "file": "L1_what_about_you.png",
+  "lesson": "L1",
+  "word": "What about you?",
+  "twemoji": [
+   "1faf5",
+   "2753"
+  ],
+  "note": "finger pointing at you + question mark"
+ },
+ {
+  "file": "L2_get_up.png",
+  "lesson": "L2",
+  "word": "get up",
+  "twemoji": [
+   "23f0",
+   "1f971"
+  ],
+  "note": "alarm clock + yawning face"
+ },
+ {
+  "file": "L2_take_a_shower.png",
+  "lesson": "L2",
+  "word": "take a shower",
+  "twemoji": [
+   "1f6bf",
+   "1f9fc"
+  ],
+  "note": "shower + soap"
+ },
+ {
+  "file": "L2_get_dressed.png",
+  "lesson": "L2",
+  "word": "get dressed",
+  "twemoji": [
+   "1f455",
+   "1f456",
+   "1f45f"
+  ],
+  "note": "shirt, jeans, shoes"
+ },
+ {
+  "file": "L2_have_breakfast.png",
+  "lesson": "L2",
+  "word": "have breakfast",
+  "twemoji": [
+   "1f305",
+   "1f963",
+   "2615"
+  ],
+  "note": "sunrise, cereal bowl, coffee"
+ },
+ {
+  "file": "L2_take_the_bus.png",
+  "lesson": "L2",
+  "word": "take the bus",
+  "twemoji": [
+   "1f9cd",
+   "1f68c"
+  ],
+  "note": "person + bus"
+ },
+ {
+  "file": "L2_drive.png",
+  "lesson": "L2",
+  "word": "drive",
+  "twemoji": [
+   "1f697"
+  ],
+  "note": "car"
+ },
+ {
+  "file": "L2_start_work.png",
+  "lesson": "L2",
+  "word": "start work",
+  "twemoji": [
+   "1f556",
+   "1f3e2"
+  ],
+  "note": "seven o’clock + workplace building"
+ },
+ {
+  "file": "L2_take_a_break.png",
+  "lesson": "L2",
+  "word": "take a break",
+  "twemoji": [
+   "2615",
+   "1f36a",
+   "1fa91"
+  ],
+  "note": "coffee, cookie, chair"
+ },
+ {
+  "file": "L2_pick_up_the_kids.png",
+  "lesson": "L2",
+  "word": "pick up the kids",
+  "twemoji": [
+   "1f3eb",
+   "1f467",
+   "1f466"
+  ],
+  "note": "school → kids"
+ },
+ {
+  "file": "L2_cook_dinner.png",
+  "lesson": "L2",
+  "word": "cook dinner",
+  "twemoji": [
+   "1f9d1-200d-1f373",
+   "1f372"
+  ],
+  "note": "cook + pot of food"
+ },
+ {
+  "file": "L2_do_the_dishes.png",
+  "lesson": "L2",
+  "word": "do the dishes",
+  "twemoji": [
+   "1f37d",
+   "1f9fd",
+   "1fae7"
+  ],
+  "note": "plate, sponge, bubbles"
+ },
+ {
+  "file": "L2_go_to_bed.png",
+  "lesson": "L2",
+  "word": "go to bed",
+  "twemoji": [
+   "1f6cc",
+   "1f319"
+  ],
+  "note": "person in bed + moon"
+ },
+ {
+  "file": "L2_every_day.png",
+  "lesson": "L2",
+  "word": "every day",
+  "twemoji": [],
+  "note": "calendar, all 7 days checked (drawn)"
+ },
+ {
+  "file": "L2_on_weekends.png",
+  "lesson": "L2",
+  "word": "on weekends",
+  "twemoji": [],
+  "note": "calendar, Saturday + Sunday highlighted (drawn)"
+ },
+ {
+  "file": "L2_in_the_morning.png",
+  "lesson": "L2",
+  "word": "in the morning",
+  "twemoji": [
+   "1f305"
+  ],
+  "note": "sunrise"
+ },
+ {
+  "file": "L2_at_night.png",
+  "lesson": "L2",
+  "word": "at night",
+  "twemoji": [
+   "1f303",
+   "1f319"
+  ],
+  "note": "night city with stars + moon"
+ },
+ {
+  "file": "L3_soccer.png",
+  "lesson": "L3",
+  "word": "soccer",
+  "twemoji": [
+   "26bd",
+   "1f945"
+  ],
+  "note": "ball + goal"
+ },
+ {
+  "file": "L3_cooking.png",
+  "lesson": "L3",
+  "word": "cooking",
+  "twemoji": [
+   "1f9d1-200d-1f373",
+   "1f373"
+  ],
+  "note": "cook + frying pan"
+ },
+ {
+  "file": "L3_dancing.png",
+  "lesson": "L3",
+  "word": "dancing",
+  "twemoji": [
+   "1f483",
+   "1f57a"
+  ],
+  "note": "woman and man dancing"
+ },
+ {
+  "file": "L3_shopping.png",
+  "lesson": "L3",
+  "word": "shopping",
+  "twemoji": [
+   "1f6d2",
+   "1f6cd"
+  ],
+  "note": "cart + shopping bags"
+ },
+ {
+  "file": "L3_cleaning.png",
+  "lesson": "L3",
+  "word": "cleaning",
+  "twemoji": [
+   "1f9f9",
+   "1f9fd",
+   "1faa3"
+  ],
+  "note": "broom, sponge, bucket"
+ },
+ {
+  "file": "L3_gardening.png",
+  "lesson": "L3",
+  "word": "gardening",
+  "twemoji": [
+   "1f9d1-200d-1f33e",
+   "1f331",
+   "1f33b"
+  ],
+  "note": "gardener, seedling, sunflower"
+ },
+ {
+  "file": "L3_fixing_things.png",
+  "lesson": "L3",
+  "word": "fixing things",
+  "twemoji": [
+   "1f9d1-200d-1f527",
+   "1f6e0"
+  ],
+  "note": "mechanic + tools"
+ },
+ {
+  "file": "L3_watching_tv.png",
+  "lesson": "L3",
+  "word": "watching TV / movies",
+  "twemoji": [
+   "1f4fa",
+   "1f37f"
+  ],
+  "note": "TV + popcorn"
+ },
+ {
+  "file": "L3_walking.png",
+  "lesson": "L3",
+  "word": "walking",
+  "twemoji": [
+   "1f6b6",
+   "1f333"
+  ],
+  "note": "person walking + tree"
+ },
+ {
+  "file": "L3_reading.png",
+  "lesson": "L3",
+  "word": "reading",
+  "twemoji": [
+   "1f9d1",
+   "1f4d6"
+  ],
+  "note": "person + open book"
+ },
+ {
+  "file": "L3_video_calls.png",
+  "lesson": "L3",
+  "word": "video calls",
+  "twemoji": [
+   "1f600",
+   "1f44b"
+  ],
+  "note": "smiling face on a phone screen + waving hand (phone drawn)"
+ },
+ {
+  "file": "L3_music.png",
+  "lesson": "L3",
+  "word": "music",
+  "twemoji": [
+   "1f3a7",
+   "1f3b6"
+  ],
+  "note": "headphones + music notes"
+ },
+ {
+  "file": "L3_kind_of.png",
+  "lesson": "L3",
+  "word": "What kind of (music)?",
+  "twemoji": [
+   "1f3b8",
+   "1f3ba",
+   "1f941",
+   "1f3bb",
+   "2753"
+  ],
+  "note": "guitar, trumpet, drum, violin + question mark"
+ },
+ {
+  "file": "L4_waiting_for_the_bus.png",
+  "lesson": "L4",
+  "word": "waiting (for the bus)",
+  "twemoji": [
+   "1f9cd",
+   "1f68f",
+   "231b"
+  ],
+  "note": "person, bus stop, hourglass"
+ },
+ {
+  "file": "L4_cooking.png",
+  "lesson": "L4",
+  "word": "cooking (now)",
+  "twemoji": [
+   "1f9d1-200d-1f373",
+   "1f373"
+  ],
+  "note": "same as L3 cooking"
+ },
+ {
+  "file": "L4_working_late.png",
+  "lesson": "L4",
+  "word": "working late",
+  "twemoji": [
+   "1f9d1-200d-1f4bb",
+   "1f319"
+  ],
+  "note": "person at laptop + moon"
+ },
+ {
+  "file": "L4_doing_homework.png",
+  "lesson": "L4",
+  "word": "doing homework",
+  "twemoji": [
+   "1f9d2",
+   "1f4dd",
+   "1f4da"
+  ],
+  "note": "child, memo with pencil, books"
+ },
+ {
+  "file": "L4_watching_tv.png",
+  "lesson": "L4",
+  "word": "watching TV",
+  "twemoji": [
+   "1f4fa",
+   "1f37f"
+  ],
+  "note": "same as L3"
+ },
+ {
+  "file": "L4_looking_at.png",
+  "lesson": "L4",
+  "word": "looking at",
+  "twemoji": [
+   "1f440",
+   "1f4c4"
+  ],
+  "note": "eyes + page"
+ },
+ {
+  "file": "L4_calling.png",
+  "lesson": "L4",
+  "word": "calling (on the phone)",
+  "twemoji": [
+   "1f4de",
+   "1f4f1"
+  ],
+  "note": "phone receiver + mobile phone"
+ },
+ {
+  "file": "L4_coming.png",
+  "lesson": "L4",
+  "word": "coming (The bus is coming.)",
+  "twemoji": [
+   "1f68d",
+   "1f9cd"
+  ],
+  "note": "oncoming bus + waiting person"
+ },
+ {
+  "file": "L4_right_now.png",
+  "lesson": "L4",
+  "word": "right now",
+  "twemoji": [
+   "1f9d1-200d-1f373"
+  ],
+  "note": "timeline with a red dot labeled NOW (drawn) + cook"
+ },
+ {
+  "file": "L4_today.png",
+  "lesson": "L4",
+  "word": "today",
+  "twemoji": [],
+  "note": "calendar with one day circled (drawn)"
+ },
+ {
+  "file": "L4_what_time.png",
+  "lesson": "L4",
+  "word": "What time is it? (It’s 5:45.)",
+  "twemoji": [],
+  "note": "clock showing 5:45 + question mark (drawn)"
+ },
+ {
+  "file": "L5_last_weekend.png",
+  "lesson": "L5",
+  "word": "last weekend",
+  "twemoji": [],
+  "note": "calendar labeled LAST WEEK, Saturday + Sunday highlighted (drawn)"
+ },
+ {
+  "file": "L5_yesterday.png",
+  "lesson": "L5",
+  "word": "yesterday",
+  "twemoji": [],
+  "note": "calendar: today circled, the day before highlighted, arrow back (drawn)"
+ },
+ {
+  "file": "L5_stayed_home.png",
+  "lesson": "L5",
+  "word": "stayed home",
+  "twemoji": [
+   "1f3e0",
+   "1f6cb"
+  ],
+  "note": "house + couch and lamp"
+ },
+ {
+  "file": "L5_cleaned_the_house.png",
+  "lesson": "L5",
+  "word": "cleaned the house",
+  "twemoji": [
+   "1f9f9",
+   "1f3e0",
+   "2728"
+  ],
+  "note": "broom, house, sparkles"
+ },
+ {
+  "file": "L5_visited_family.png",
+  "lesson": "L5",
+  "word": "visited family",
+  "twemoji": [
+   "1f697",
+   "1f3e0",
+   "1f475",
+   "1f474"
+  ],
+  "note": "car, house, grandmother, grandfather"
+ },
+ {
+  "file": "L5_watched_a_movie.png",
+  "lesson": "L5",
+  "word": "watched a movie",
+  "twemoji": [
+   "1f3ac",
+   "1f37f"
+  ],
+  "note": "clapper board + popcorn"
+ },
+ {
+  "file": "L5_cooked.png",
+  "lesson": "L5",
+  "word": "cooked",
+  "twemoji": [
+   "1f373",
+   "1f958"
+  ],
+  "note": "frying pan + pan of food"
+ },
+ {
+  "file": "L5_walked.png",
+  "lesson": "L5",
+  "word": "walked (in the park)",
+  "twemoji": [
+   "1f6b6",
+   "1f3de"
+  ],
+  "note": "person walking + park"
+ },
+ {
+  "file": "L5_called.png",
+  "lesson": "L5",
+  "word": "called (my mom)",
+  "twemoji": [
+   "1f4de",
+   "1f475"
+  ],
+  "note": "phone + older woman"
+ },
+ {
+  "file": "L5_listened_to_music.png",
+  "lesson": "L5",
+  "word": "listened to music",
+  "twemoji": [
+   "1f9d1",
+   "1f3a7",
+   "1f3b6"
+  ],
+  "note": "person, headphones, notes"
+ },
+ {
+  "file": "L5_worked.png",
+  "lesson": "L5",
+  "word": "worked",
+  "twemoji": [
+   "1f9d1-200d-1f3ed",
+   "23f0"
+  ],
+  "note": "factory worker + alarm clock"
+ },
+ {
+  "file": "L5_relaxed.png",
+  "lesson": "L5",
+  "word": "relaxed",
+  "twemoji": [
+   "1f60c",
+   "1f3d6"
+  ],
+  "note": "relieved face + beach"
+ },
+ {
+  "file": "L5_fun.png",
+  "lesson": "L5",
+  "word": "fun",
+  "twemoji": [
+   "1f973",
+   "1f389"
+  ],
+  "note": "party face + confetti"
+ },
+ {
+  "file": "L5_boring.png",
+  "lesson": "L5",
+  "word": "boring",
+  "twemoji": [
+   "1f611",
+   "1f4fa"
+  ],
+  "note": "expressionless face + TV"
+ },
+ {
+  "file": "L5_tired.png",
+  "lesson": "L5",
+  "word": "tired",
+  "twemoji": [
+   "1f62b",
+   "1f4a4"
+  ],
+  "note": "tired face + zzz"
+ },
+ {
+  "file": "L5_busy.png",
+  "lesson": "L5",
+  "word": "busy",
+  "twemoji": [
+   "1f3c3",
+   "1f4c5",
+   "23f0"
+  ],
+  "note": "running person, calendar, alarm clock"
+ },
+ {
+  "file": "L6_grew_up.png",
+  "lesson": "L6",
+  "word": "grew up",
+  "twemoji": [
+   "1f476",
+   "1f9d2",
+   "1f9d1"
+  ],
+  "note": "baby → child → adult (arrows drawn)"
+ },
+ {
+  "file": "L6_went_to_school.png",
+  "lesson": "L6",
+  "word": "went to school",
+  "twemoji": [
+   "1f392",
+   "1f3eb"
+  ],
+  "note": "backpack + school"
+ },
+ {
+  "file": "L6_got_a_job.png",
+  "lesson": "L6",
+  "word": "got a job",
+  "twemoji": [
+   "1f91d",
+   "1f4bc"
+  ],
+  "note": "handshake + briefcase"
+ },
+ {
+  "file": "L6_first_job.png",
+  "lesson": "L6",
+  "word": "first job",
+  "twemoji": [
+   "31-20e3",
+   "1f4bc"
+  ],
+  "note": "number 1 + briefcase"
+ },
+ {
+  "file": "L6_moved.png",
+  "lesson": "L6",
+  "word": "moved (to a new city)",
+  "twemoji": [
+   "1f4e6",
+   "1f69a",
+   "1f3e0"
+  ],
+  "note": "box, moving truck, house"
+ },
+ {
+  "file": "L6_found_an_apartment.png",
+  "lesson": "L6",
+  "word": "found an apartment",
+  "twemoji": [
+   "1f511",
+   "1f3e2"
+  ],
+  "note": "key + apartment building"
+ },
+ {
+  "file": "L6_met.png",
+  "lesson": "L6",
+  "word": "met (a friend)",
+  "twemoji": [
+   "1f9d1-200d-1f91d-200d-1f9d1",
+   "1f44b"
+  ],
+  "note": "two people + waving hand"
+ },
+ {
+  "file": "L6_got_married.png",
+  "lesson": "L6",
+  "word": "got married",
+  "twemoji": [
+   "1f470",
+   "1f935",
+   "1f48d"
+  ],
+  "note": "bride, person in tuxedo, ring"
+ },
+ {
+  "file": "L6_had_a_baby.png",
+  "lesson": "L6",
+  "word": "had a baby",
+  "twemoji": [
+   "1f476",
+   "1f37c"
+  ],
+  "note": "baby + bottle"
+ },
+ {
+  "file": "L6_bought.png",
+  "lesson": "L6",
+  "word": "bought (a car)",
+  "twemoji": [
+   "1f4b5",
+   "1f697"
+  ],
+  "note": "money + car"
+ },
+ {
+  "file": "L6_learned.png",
+  "lesson": "L6",
+  "word": "learned (English)",
+  "twemoji": [
+   "1f9d1-200d-1f393",
+   "1f524"
+  ],
+  "note": "student + ABC letters"
+ },
+ {
+  "file": "L6_felt_nervous.png",
+  "lesson": "L6",
+  "word": "felt nervous",
+  "twemoji": [
+   "1f630"
+  ],
+  "note": "anxious face with sweat"
+ },
+ {
+  "file": "L6_felt_happy.png",
+  "lesson": "L6",
+  "word": "felt happy",
+  "twemoji": [
+   "1f604"
+  ],
+  "note": "big smile"
+ },
+ {
+  "file": "L6_ago.png",
+  "lesson": "L6",
+  "word": "ago (5 years ago)",
+  "twemoji": [],
+  "note": "timeline: NOW, arrow back to a point labeled 5 years (drawn)"
+ },
+ {
+  "file": "L7_by_bus.png",
+  "lesson": "L7",
+  "word": "by bus",
+  "twemoji": [
+   "1f68c"
+  ],
+  "note": "bus"
+ },
+ {
+  "file": "L7_by_car.png",
+  "lesson": "L7",
+  "word": "by car",
+  "twemoji": [
+   "1f697"
+  ],
+  "note": "car"
+ },
+ {
+  "file": "L7_by_bike.png",
+  "lesson": "L7",
+  "word": "by bike",
+  "twemoji": [
+   "1f6b2"
+  ],
+  "note": "bicycle"
+ },
+ {
+  "file": "L7_on_foot.png",
+  "lesson": "L7",
+  "word": "on foot (walk)",
+  "twemoji": [
+   "1f6b6",
+   "1f45f"
+  ],
+  "note": "person walking + shoe"
+ },
+ {
+  "file": "L7_by_train.png",
+  "lesson": "L7",
+  "word": "by train",
+  "twemoji": [
+   "1f686"
+  ],
+  "note": "train"
+ },
+ {
+  "file": "L7_by_taxi.png",
+  "lesson": "L7",
+  "word": "by taxi",
+  "twemoji": [
+   "1f695"
+  ],
+  "note": "taxi"
+ },
+ {
+  "file": "L7_traffic.png",
+  "lesson": "L7",
+  "word": "traffic",
+  "twemoji": [
+   "1f6a6",
+   "1f697",
+   "1f699",
+   "1f695"
+  ],
+  "note": "traffic light + many cars"
+ },
+ {
+  "file": "L7_fast.png",
+  "lesson": "L7",
+  "word": "fast",
+  "twemoji": [
+   "1f3ce",
+   "1f4a8"
+  ],
+  "note": "racing car + dash"
+ },
+ {
+  "file": "L7_slow.png",
+  "lesson": "L7",
+  "word": "slow",
+  "twemoji": [
+   "1f422"
+  ],
+  "note": "turtle"
+ },
+ {
+  "file": "L7_cheap.png",
+  "lesson": "L7",
+  "word": "cheap",
+  "twemoji": [
+   "1fa99",
+   "1f44d"
+  ],
+  "note": "coin + thumbs up"
+ },
+ {
+  "file": "L7_expensive.png",
+  "lesson": "L7",
+  "word": "expensive",
+  "twemoji": [
+   "1f4b0",
+   "1f4b8"
+  ],
+  "note": "money bag + money with wings"
+ },
+ {
+  "file": "L7_far.png",
+  "lesson": "L7",
+  "word": "far",
+  "twemoji": [
+   "1f3e0",
+   "1f3e2"
+  ],
+  "note": "house and building with a long dotted arrow (drawn)"
+ },
+ {
+  "file": "L7_crowded.png",
+  "lesson": "L7",
+  "word": "crowded",
+  "twemoji": [
+   "1f68c",
+   "1f9cd"
+  ],
+  "note": "bus + a crowd of people"
+ },
+ {
+  "file": "L7_comfortable.png",
+  "lesson": "L7",
+  "word": "comfortable",
+  "twemoji": [
+   "1f6cb",
+   "1f60c"
+  ],
+  "note": "couch + relaxed face"
+ },
+ {
+  "file": "L7_how_long.png",
+  "lesson": "L7",
+  "word": "How long does it take?",
+  "twemoji": [
+   "23f1",
+   "1f68c",
+   "2753"
+  ],
+  "note": "stopwatch, bus, question mark"
+ },
+ {
+  "file": "L8_park.png",
+  "lesson": "L8",
+  "word": "park",
+  "twemoji": [
+   "1f3de",
+   "1f333"
+  ],
+  "note": "park + tree"
+ },
+ {
+  "file": "L8_library.png",
+  "lesson": "L8",
+  "word": "library",
+  "twemoji": [
+   "1f3db",
+   "1f4da"
+  ],
+  "note": "public building + books"
+ },
+ {
+  "file": "L8_supermarket.png",
+  "lesson": "L8",
+  "word": "supermarket",
+  "twemoji": [
+   "1f3ec",
+   "1f6d2"
+  ],
+  "note": "store building + cart"
+ },
+ {
+  "file": "L8_restaurant.png",
+  "lesson": "L8",
+  "word": "restaurant",
+  "twemoji": [
+   "1f37d",
+   "1f35d"
+  ],
+  "note": "plate with fork and knife + pasta"
+ },
+ {
+  "file": "L8_clinic.png",
+  "lesson": "L8",
+  "word": "clinic",
+  "twemoji": [
+   "1f3e5"
+  ],
+  "note": "hospital/clinic building"
+ },
+ {
+  "file": "L8_pharmacy.png",
+  "lesson": "L8",
+  "word": "pharmacy",
+  "twemoji": [
+   "1f48a",
+   "1f3ea"
+  ],
+  "note": "pill + store"
+ },
+ {
+  "file": "L8_laundromat.png",
+  "lesson": "L8",
+  "word": "laundromat",
+  "twemoji": [
+   "1f9fa",
+   "1f455",
+   "1fae7"
+  ],
+  "note": "laundry basket, shirt, bubbles"
+ },
+ {
+  "file": "L8_bank.png",
+  "lesson": "L8",
+  "word": "bank",
+  "twemoji": [
+   "1f3e6",
+   "1f4b5"
+  ],
+  "note": "bank + money"
+ },
+ {
+  "file": "L8_post_office.png",
+  "lesson": "L8",
+  "word": "post office",
+  "twemoji": [
+   "1f3e4",
+   "2709"
+  ],
+  "note": "post office + envelope"
+ },
+ {
+  "file": "L8_gas_station.png",
+  "lesson": "L8",
+  "word": "gas station",
+  "twemoji": [
+   "26fd",
+   "1f697"
+  ],
+  "note": "fuel pump + car"
+ },
+ {
+  "file": "L8_bakery.png",
+  "lesson": "L8",
+  "word": "bakery",
+  "twemoji": [
+   "1f956",
+   "1f950",
+   "1f35e"
+  ],
+  "note": "baguette, croissant, bread"
+ },
+ {
+  "file": "L8_the_best.png",
+  "lesson": "L8",
+  "word": "the best",
+  "twemoji": [
+   "1f3c6",
+   "1f947"
+  ],
+  "note": "trophy + gold medal"
+ },
+ {
+  "file": "L8_the_cheapest.png",
+  "lesson": "L8",
+  "word": "the cheapest",
+  "twemoji": [
+   "1f947"
+  ],
+  "note": "three price tags $9 $6 $3, the $3 tag circled (drawn) + gold medal"
+ },
+ {
+  "file": "L8_the_closest.png",
+  "lesson": "L8",
+  "word": "the closest",
+  "twemoji": [
+   "1f3e0",
+   "1f3ea",
+   "1f947"
+  ],
+  "note": "house and three stores; the nearest store circled (drawn) + medal"
+ },
+ {
+  "file": "L9_apples.png",
+  "lesson": "L9",
+  "word": "apples",
+  "twemoji": [
+   "1f34e"
+  ],
+  "note": "three apples"
+ },
+ {
+  "file": "L9_bananas.png",
+  "lesson": "L9",
+  "word": "bananas",
+  "twemoji": [
+   "1f34c"
+  ],
+  "note": "bananas"
+ },
+ {
+  "file": "L9_tomatoes.png",
+  "lesson": "L9",
+  "word": "tomatoes",
+  "twemoji": [
+   "1f345"
+  ],
+  "note": "three tomatoes"
+ },
+ {
+  "file": "L9_onions.png",
+  "lesson": "L9",
+  "word": "onions",
+  "twemoji": [
+   "1f9c5"
+  ],
+  "note": "onions"
+ },
+ {
+  "file": "L9_eggs.png",
+  "lesson": "L9",
+  "word": "eggs",
+  "twemoji": [
+   "1f95a"
+  ],
+  "note": "three eggs"
+ },
+ {
+  "file": "L9_rice.png",
+  "lesson": "L9",
+  "word": "rice",
+  "twemoji": [
+   "1f35a"
+  ],
+  "note": "bowl of rice"
+ },
+ {
+  "file": "L9_bread.png",
+  "lesson": "L9",
+  "word": "bread",
+  "twemoji": [
+   "1f35e"
+  ],
+  "note": "bread"
+ },
+ {
+  "file": "L9_milk.png",
+  "lesson": "L9",
+  "word": "milk",
+  "twemoji": [
+   "1f95b"
+  ],
+  "note": "glass of milk"
+ },
+ {
+  "file": "L9_cheese.png",
+  "lesson": "L9",
+  "word": "cheese",
+  "twemoji": [
+   "1f9c0"
+  ],
+  "note": "cheese"
+ },
+ {
+  "file": "L9_chicken.png",
+  "lesson": "L9",
+  "word": "chicken",
+  "twemoji": [
+   "1f357"
+  ],
+  "note": "chicken leg"
+ },
+ {
+  "file": "L9_coffee.png",
+  "lesson": "L9",
+  "word": "coffee",
+  "twemoji": [
+   "2615"
+  ],
+  "note": "hot coffee"
+ },
+ {
+  "file": "L9_water.png",
+  "lesson": "L9",
+  "word": "water",
+  "twemoji": [
+   "1f6b0",
+   "1f4a7"
+  ],
+  "note": "drinking-water tap + drop"
+ },
+ {
+  "file": "L9_soup.png",
+  "lesson": "L9",
+  "word": "soup",
+  "twemoji": [
+   "1f372"
+  ],
+  "note": "pot of soup"
+ },
+ {
+  "file": "L9_sandwich.png",
+  "lesson": "L9",
+  "word": "sandwich",
+  "twemoji": [
+   "1f96a"
+  ],
+  "note": "sandwich"
+ },
+ {
+  "file": "L9_shopping_list.png",
+  "lesson": "L9",
+  "word": "shopping list",
+  "twemoji": [
+   "1f4dd",
+   "1f6d2"
+  ],
+  "note": "list + cart"
+ },
+ {
+  "file": "L9_the_check.png",
+  "lesson": "L9",
+  "word": "the check (the bill)",
+  "twemoji": [
+   "1f9fe",
+   "1f4b3"
+  ],
+  "note": "receipt + credit card"
+ },
+ {
+  "file": "L10_headache.png",
+  "lesson": "L10",
+  "word": "a headache",
+  "twemoji": [
+   "1f915"
+  ],
+  "note": "face with head bandage"
+ },
+ {
+  "file": "L10_stomachache.png",
+  "lesson": "L10",
+  "word": "a stomachache",
+  "twemoji": [
+   "1f922"
+  ],
+  "note": "nauseated face"
+ },
+ {
+  "file": "L10_fever.png",
+  "lesson": "L10",
+  "word": "a fever",
+  "twemoji": [
+   "1f912",
+   "1f321"
+  ],
+  "note": "face with thermometer + thermometer"
+ },
+ {
+  "file": "L10_cold.png",
+  "lesson": "L10",
+  "word": "a cold",
+  "twemoji": [
+   "1f927",
+   "1f9fb"
+  ],
+  "note": "sneezing face + tissue roll"
+ },
+ {
+  "file": "L10_cough.png",
+  "lesson": "L10",
+  "word": "a cough",
+  "twemoji": [
+   "1f637",
+   "1f4a8"
+  ],
+  "note": "face with mask + puff of air"
+ },
+ {
+  "file": "L10_sore_throat.png",
+  "lesson": "L10",
+  "word": "a sore throat",
+  "twemoji": [
+   "1f616",
+   "1f9e3",
+   "1f375"
+  ],
+  "note": "pained face, scarf, hot tea"
+ },
+ {
+  "file": "L10_toothache.png",
+  "lesson": "L10",
+  "word": "a toothache",
+  "twemoji": [
+   "1f9b7",
+   "1f623"
+  ],
+  "note": "tooth + pained face"
+ },
+ {
+  "file": "L10_hurts.png",
+  "lesson": "L10",
+  "word": "hurts (My arm hurts.)",
+  "twemoji": [
+   "1f4aa",
+   "1fa79"
+  ],
+  "note": "arm + bandage, red pain marks (drawn)"
+ },
+ {
+  "file": "L10_doctor.png",
+  "lesson": "L10",
+  "word": "doctor",
+  "twemoji": [
+   "1f9d1-200d-2695-fe0f",
+   "1fa7a"
+  ],
+  "note": "health worker + stethoscope"
+ },
+ {
+  "file": "L10_dentist.png",
+  "lesson": "L10",
+  "word": "dentist",
+  "twemoji": [
+   "1f9b7",
+   "1faa5"
+  ],
+  "note": "tooth + toothbrush"
+ },
+ {
+  "file": "L10_medicine.png",
+  "lesson": "L10",
+  "word": "medicine",
+  "twemoji": [
+   "1f48a",
+   "1f944"
+  ],
+  "note": "pill + spoon"
+ },
+ {
+  "file": "L10_appointment.png",
+  "lesson": "L10",
+  "word": "appointment",
+  "twemoji": [
+   "1f4c5",
+   "1f552",
+   "1f9d1-200d-2695-fe0f"
+  ],
+  "note": "calendar, clock, health worker"
+ },
+ {
+  "file": "L10_rest.png",
+  "lesson": "L10",
+  "word": "rest",
+  "twemoji": [
+   "1f6cc",
+   "1f634"
+  ],
+  "note": "person in bed + sleeping face"
+ },
+ {
+  "file": "L10_drink_water.png",
+  "lesson": "L10",
+  "word": "drink water",
+  "twemoji": [
+   "1f9d1",
+   "1f6b0",
+   "1f4a7"
+  ],
+  "note": "person, drinking-water tap, drop"
+ },
+ {
+  "file": "L11_tonight.png",
+  "lesson": "L11",
+  "word": "tonight",
+  "twemoji": [
+   "1f303",
+   "1f557"
+  ],
+  "note": "night city + 8 o’clock"
+ },
+ {
+  "file": "L11_tomorrow.png",
+  "lesson": "L11",
+  "word": "tomorrow",
+  "twemoji": [],
+  "note": "calendar: today circled, next day highlighted, arrow forward (drawn)"
+ },
+ {
+  "file": "L11_this_weekend.png",
+  "lesson": "L11",
+  "word": "this weekend",
+  "twemoji": [],
+  "note": "calendar labeled THIS WEEK, Saturday + Sunday highlighted (drawn)"
+ },
+ {
+  "file": "L11_next_week.png",
+  "lesson": "L11",
+  "word": "next week",
+  "twemoji": [],
+  "note": "calendar labeled NEXT WEEK, all days highlighted (drawn)"
+ },
+ {
+  "file": "L11_go_to_the_movies.png",
+  "lesson": "L11",
+  "word": "go to the movies",
+  "twemoji": [
+   "1f3ac",
+   "1f39f"
+  ],
+  "note": "clapper board + tickets"
+ },
+ {
+  "file": "L11_have_a_party.png",
+  "lesson": "L11",
+  "word": "have a party",
+  "twemoji": [
+   "1f389",
+   "1f388",
+   "1f382"
+  ],
+  "note": "confetti, balloon, cake"
+ },
+ {
+  "file": "L11_have_a_picnic.png",
+  "lesson": "L11",
+  "word": "have a picnic",
+  "twemoji": [
+   "1f9fa",
+   "1f96a",
+   "1f333"
+  ],
+  "note": "basket, sandwich, tree"
+ },
+ {
+  "file": "L11_go_to_the_beach.png",
+  "lesson": "L11",
+  "word": "go to the beach",
+  "twemoji": [
+   "1f3d6"
+  ],
+  "note": "beach with umbrella"
+ },
+ {
+  "file": "L11_watch_a_game.png",
+  "lesson": "L11",
+  "word": "watch a game",
+  "twemoji": [
+   "1f3df",
+   "1f4fa"
+  ],
+  "note": "stadium + TV"
+ },
+ {
+  "file": "L11_visit_friends.png",
+  "lesson": "L11",
+  "word": "visit friends",
+  "twemoji": [
+   "1f9d1-200d-1f91d-200d-1f9d1",
+   "1f3e0"
+  ],
+  "note": "two people + house"
+ },
+ {
+  "file": "L11_invite.png",
+  "lesson": "L11",
+  "word": "invite",
+  "twemoji": [
+   "1f4e9",
+   "1f389"
+  ],
+  "note": "envelope with arrow + confetti"
+ },
+ {
+  "file": "L11_free.png",
+  "lesson": "L11",
+  "word": "free (not busy)",
+  "twemoji": [
+   "1f193",
+   "1f4c5"
+  ],
+  "note": "FREE button + calendar"
+ },
+ {
+  "file": "L11_id_love_to.png",
+  "lesson": "L11",
+  "word": "I'd love to!",
+  "twemoji": [
+   "1f603",
+   "1f44d"
+  ],
+  "note": "happy face + thumbs up"
+ },
+ {
+  "file": "L11_sorry_i_cant.png",
+  "lesson": "L11",
+  "word": "Sorry, I can't.",
+  "twemoji": [
+   "1f615",
+   "1f645"
+  ],
+  "note": "confused face + person gesturing no"
+ },
+ {
+  "file": "L12_pay_a_bill.png",
+  "lesson": "L12",
+  "word": "pay a bill",
+  "twemoji": [
+   "1f4a1",
+   "1f9fe",
+   "1f4b3"
+  ],
+  "note": "light bulb (electric bill), bill, card"
+ },
+ {
+  "file": "L12_mail_a_package.png",
+  "lesson": "L12",
+  "word": "mail a package",
+  "twemoji": [
+   "1f4e6",
+   "1f4ee"
+  ],
+  "note": "package + mailbox"
+ },
+ {
+  "file": "L12_fill_out_a_form.png",
+  "lesson": "L12",
+  "word": "fill out a form",
+  "twemoji": [
+   "1f4dd",
+   "270d"
+  ],
+  "note": "form with pencil + writing hand"
+ },
+ {
+  "file": "L12_make_a_phone_call.png",
+  "lesson": "L12",
+  "word": "make a phone call",
+  "twemoji": [
+   "1f9d1",
+   "1f4de"
+  ],
+  "note": "person + phone"
+ },
+ {
+  "file": "L12_leave_a_message.png",
+  "lesson": "L12",
+  "word": "leave a message",
+  "twemoji": [
+   "1f4f1",
+   "1f5e3"
+  ],
+  "note": "mobile phone + speaking head"
+ },
+ {
+  "file": "L12_id_card.png",
+  "lesson": "L12",
+  "word": "ID card",
+  "twemoji": [
+   "1faaa"
+  ],
+  "note": "identification card"
+ },
+ {
+  "file": "L12_receipt.png",
+  "lesson": "L12",
+  "word": "receipt",
+  "twemoji": [
+   "1f6cd",
+   "1f9fe"
+  ],
+  "note": "shopping bags + receipt"
+ },
+ {
+  "file": "L12_account_number.png",
+  "lesson": "L12",
+  "word": "account number",
+  "twemoji": [
+   "1f522",
+   "1f3e6"
+  ],
+  "note": "numbers + bank"
+ },
+ {
+  "file": "L12_customer_service.png",
+  "lesson": "L12",
+  "word": "customer service",
+  "twemoji": [
+   "1f9d1-200d-1f4bc",
+   "260e"
+  ],
+  "note": "office worker + telephone"
+ },
+ {
+  "file": "L12_fix.png",
+  "lesson": "L12",
+  "word": "fix (the sink)",
+  "twemoji": [
+   "1f527",
+   "1f6b0"
+  ],
+  "note": "wrench + faucet"
+ },
+ {
+  "file": "L12_wait_in_line.png",
+  "lesson": "L12",
+  "word": "wait in line",
+  "twemoji": [
+   "1f9cd",
+   "1f3e4"
+  ],
+  "note": "four people in a line at a counter"
+ },
+ {
+  "file": "L12_repeat.png",
+  "lesson": "L12",
+  "word": "Could you repeat that?",
+  "twemoji": [
+   "1f442",
+   "1f501",
+   "2753"
+  ],
+  "note": "ear, repeat arrows, question mark"
+ },
+ {
+  "file": "L12_spell.png",
+  "lesson": "L12",
+  "word": "Can you spell that?",
+  "twemoji": [
+   "1f520",
+   "2753"
+  ],
+  "note": "capital letters ABCD + question mark"
+ },
+ {
+  "file": "L12_due_date.png",
+  "lesson": "L12",
+  "word": "due date",
+  "twemoji": [
+   "1f4c5",
+   "2757"
+  ],
+  "note": "calendar + exclamation mark"
+ },
+ {
+  "file": "L13_in_the_past.png",
+  "lesson": "L13",
+  "word": "in the past",
+  "twemoji": [],
+  "note": "timeline, arrow pointing back from NOW (drawn)"
+ },
+ {
+  "file": "L13_now.png",
+  "lesson": "L13",
+  "word": "now",
+  "twemoji": [],
+  "note": "timeline with NOW dot (drawn)"
+ },
+ {
+  "file": "L13_in_the_future.png",
+  "lesson": "L13",
+  "word": "in the future",
+  "twemoji": [],
+  "note": "timeline, arrow pointing forward from NOW (drawn)"
+ },
+ {
+  "file": "L13_dream.png",
+  "lesson": "L13",
+  "word": "dream",
+  "twemoji": [
+   "1f4ad",
+   "1f3e1"
+  ],
+  "note": "thought bubble + house with garden"
+ },
+ {
+  "file": "L13_goal.png",
+  "lesson": "L13",
+  "word": "goal",
+  "twemoji": [
+   "1f3af"
+  ],
+  "note": "target / bullseye"
+ },
+ {
+  "file": "L13_learn.png",
+  "lesson": "L13",
+  "word": "learn",
+  "twemoji": [
+   "1f9d1-200d-1f393",
+   "1f4da"
+  ],
+  "note": "student + books"
+ },
+ {
+  "file": "L13_improve.png",
+  "lesson": "L13",
+  "word": "improve",
+  "twemoji": [
+   "1f4c8"
+  ],
+  "note": "chart going up"
+ },
+ {
+  "file": "L13_practice.png",
+  "lesson": "L13",
+  "word": "practice",
+  "twemoji": [
+   "1f5e3",
+   "1f501"
+  ],
+  "note": "speaking head + repeat arrows"
+ },
+ {
+  "file": "L13_proud.png",
+  "lesson": "L13",
+  "word": "proud",
+  "twemoji": [
+   "1f60a",
+   "1f3c5"
+  ],
+  "note": "smiling face + medal"
+ },
+ {
+  "file": "L13_give_a_talk.png",
+  "lesson": "L13",
+  "word": "give a talk",
+  "twemoji": [
+   "1f9cd",
+   "1f399",
+   "1f44f"
+  ],
+  "note": "person, studio microphone, clapping hands"
+ },
+ {
+  "file": "L13_graduate.png",
+  "lesson": "L13",
+  "word": "graduate",
+  "twemoji": [
+   "1f393",
+   "1f4dc"
+  ],
+  "note": "graduation cap + certificate scroll"
+ },
+ {
+  "file": "L13_next_step.png",
+  "lesson": "L13",
+  "word": "next step",
+  "twemoji": [
+   "1f463",
+   "27a1"
+  ],
+  "note": "footprints + right arrow"
+ }
+]

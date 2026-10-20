@@ -1,0 +1,164 @@
+[
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "not great i have a headache",
+   "flags": [],
+   "probs": [
+    0.23,
+    0.37
+   ],
+   "sim": 1.0
+  },
+  "text": "Not great. I have a headache,",
+  "hyp": "not great i have a headache",
+  "sim": 1.0,
+  "probs": [
+   0.77,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2315407276153563
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "and i'm very tired",
+   "flags": [],
+   "probs": [
+    0.34,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "and I'm very tired.",
+  "hyp": "and i'm very tired",
+  "sim": 1.0,
+  "probs": [
+   0.73,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.219221717119217
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "and a chicken",
+   "flags": [],
+   "probs": [
+    0.23,
+    0.99
+   ],
+   "sim": 1.0
+  },
+  "text": "and a chicken.",
+  "hyp": "and a chicken",
+  "sim": 1.0,
+  "probs": [
+   0.55,
+   0.95
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.163979780673981
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "on saturday at four o 'clock",
+   "flags": [
+    "extra words: on saturday at four o 'clock"
+   ],
+   "probs": [
+    0.58,
+    0.99
+   ],
+   "sim": 0.8
+  },
+  "text": "On Saturday at four o'clock.",
+  "hyp": "on saturday at four o 'clock",
+  "sim": 0.8,
+  "probs": [
+   0.66,
+   0.99
+  ],
+  "edge": false,
+  "flags": [
+   "extra words: on saturday at four o 'clock"
+  ],
+  "score": 0.8988846004009247
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "son's birthday",
+   "flags": [],
+   "probs": [
+    0.51,
+    0.99
+   ],
+   "sim": 0.67
+  },
+  "text": "It's my son's birthday.",
+  "hyp": "it's my son's birthday",
+  "sim": 1.0,
+  "probs": [
+   0.9,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.27014302611351
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "hey can i bring something",
+   "flags": [
+    "extra words: hey can i bring something"
+   ],
+   "probs": [
+    0.91,
+    1.0
+   ],
+   "sim": 0.89
+  },
+  "text": "Can I bring something?",
+  "hyp": "can i bring something",
+  "sim": 1.0,
+  "probs": [
+   0.86,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2569019079208372
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "listen market listen",
+   "flags": [
+    "sound outside words 820ms"
+   ],
+   "probs": [
+    0.21,
+    0.29
+   ],
+   "sim": 0.17
+  },
+  "text": "Final listening. Rosa meets Marco at the supermarket. Listen.",
+  "hyp": "final listening rosa meets marco at the supermarket listen",
+  "sim": 1.0,
+  "probs": [
+   0.65,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.1962591826915743
+ }
+]

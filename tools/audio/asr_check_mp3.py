@@ -7,7 +7,7 @@ from scripts_v5 import LESSONS; from textnorm import words
 from faster_whisper import WhisperModel
 import numpy as np, soundfile as sf
 m = WhisperModel(os.environ.get("ASR_MODEL", "small.en"), device="cpu", compute_type="int8")
-D = os.path.dirname(os.path.abspath(__file__))
+D = os.environ.get('MP3_DIR', os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'public', 'audio'))  # where <key>_listening.mp3 live
 def to_wav(p):
     out = tempfile.mktemp(suffix='.wav'); subprocess.run(['ffmpeg','-v','error','-y','-i',p,'-ac','1','-ar','16000',out], check=True); return out
 def transcribe(path, gap=0.6, WIN=15.0):
@@ -68,4 +68,4 @@ for k in sys.argv[1:]:
     print(f"{k}: WER {err/len(R):.2%} ({err}/{len(R)})", flush=True)
     for d_ in diffs: print("  ", d_, flush=True)
     print("  repeats:", reps, "lines>1:", res[k]['lines_twice'], flush=True)
-json.dump(res, open(os.environ.get('OUT', '/workspace/asr_mp3_results.json'), 'w'), indent=1)
+json.dump(res, open(os.environ.get('OUT', 'asr_mp3_results.json'), 'w'), indent=1)

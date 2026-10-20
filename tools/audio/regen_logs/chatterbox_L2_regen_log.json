@@ -1,0 +1,120 @@
+[
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "snow you look tired",
+   "flags": [
+    "HF whine 280ms"
+   ],
+   "probs": [
+    0.44,
+    1.0
+   ],
+   "sim": 0.75
+  },
+  "text": "Marco, you look tired!",
+  "hyp": "marco you look tired",
+  "sim": 1.0,
+  "probs": [
+   0.9,
+   1.0
+  ],
+  "edge": false,
+  "flags": [
+   "HF whine 200ms"
+  ],
+  "score": 1.6708921849727632
+ },
+ {
+  "attempt": 6,
+  "why_first_failed": {
+   "hyp": "five thirty why",
+   "flags": [
+    "HF whine 240ms"
+   ],
+   "probs": [
+    0.24,
+    0.93
+   ],
+   "sim": 1.0
+  },
+  "text": "Five thirty? Why?",
+  "hyp": "five thirty why",
+  "sim": 1.0,
+  "probs": [
+   0.59,
+   0.45
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.1351077407598495
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "you drive",
+   "flags": [],
+   "probs": [
+    0.82,
+    0.83
+   ],
+   "sim": 0.8
+  },
+  "text": "Do you drive?",
+  "hyp": "do you drive",
+  "sim": 1.0,
+  "probs": [
+   0.91,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.273753958940506
+ },
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "does she work at the hospital too",
+   "flags": [
+    "HF whine 260ms"
+   ],
+   "probs": [
+    0.84,
+    0.67
+   ],
+   "sim": 1.0
+  },
+  "text": "Does she work at the hospital too?",
+  "hyp": "does she work at the hospital too",
+  "sim": 1.0,
+  "probs": [
+   0.76,
+   0.58
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.174715483188629
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "anna and marko talk at work listen",
+   "flags": [],
+   "probs": [
+    0.51,
+    0.98
+   ],
+   "sim": 0.71
+  },
+  "text": "Ana and Marco talk at work. Listen.",
+  "hyp": "anna and marco talk at work listen",
+  "sim": 0.86,
+  "probs": [
+   0.66,
+   0.97
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 1.554111054965428
+ }
+]

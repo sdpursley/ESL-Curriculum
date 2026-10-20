@@ -1,15 +1,16 @@
-# Exports curriculum content from the approved Markdown (v5 public edition) into src/content.json
-# and copies used assets into public/. Reuses the parser from webbuild/build.py.
+# Exports curriculum content from the approved Markdown (v5 public edition) into src/content.json and src/sizes.json.
+# Usage (from the repo root): python3 scripts/export_content.py
+# Reads curriculum/Level2_Curriculum_v5_public.md. Media already live in public/ (images/, audio/, downloads/);
+# run curriculum/build.sh --publish first if you changed the curriculum text and want fresh PDF/DOCX downloads.
 import json, os, re, shutil
-SRC='/workspace/level2_curriculum'; HERE=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-MDFILE='Level2_Curriculum_v5_public.md'
+HERE=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MDPATH=os.environ.get('CURRICULUM_MD', os.path.join(HERE,'curriculum','Level2_Curriculum_v5_public.md'))
+pub=HERE+'/public'
 PUB_DOCS=['Level2_Curriculum_v5_public.pdf','Level2_Curriculum_v5_public.docx']
 EXAMS=['Midterm_Exam_Teacher_Packet.pdf','Midterm_Exam_Teacher_Packet.docx','Midterm_Student_Test.pdf',
        'Final_Exam_Teacher_Packet.pdf','Final_Exam_Teacher_Packet.docx','Final_Student_Test.pdf']
-code=open(SRC+'/webbuild/build.py',encoding='utf-8').read()
-code=code[:code.index('NAV=[')]
-g={}; exec(code,g)
-g['L']=open(f'{SRC}/{MDFILE}',encoding='utf-8').read().split('\n')   # parser functions read this global
+g={}; exec(open(os.path.join(HERE,'scripts','md_parser.py'),encoding='utf-8').read(),g)
+g['L']=open(MDPATH,encoding='utf-8').read().split('\n')   # parser functions read this global
 L,find,md,inline,used=g['L'],g['find'],g['md'],g['inline'],g['used_imgs']
 def sect(a,b,start=0):
     i=find(a,start); j=find(b,i+1); return L[i+1:j]
@@ -38,7 +39,7 @@ for n,(t,gram) in titles.items():
     for l in L[si+1:p['Listening']]:
         for m in re.finditer(r'!\[([^\]]*)\]\(images/([^)]+)\)<br>(★ )?\*\*(.+?)\*\*',l):
             used.add(m.group(2)); words.append(dict(img='images/'+m.group(2),word=m.group(4),star=bool(m.group(3))))
-    mp3=f'{SRC}/audio/L{n}_listening.mp3'
+    mp3=f'{pub}/audio/L{n}_listening.mp3'
     has_audio=os.path.exists(mp3)
     if has_audio: sizes[f'L{n}_listening.mp3']=os.path.getsize(mp3)
     lessons.append(dict(n=n,title=t,grammar=gram,week=w,words=words,
@@ -51,26 +52,20 @@ data['lessons']=lessons
 data['credit']=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and arrows, calendars, clocks, and labels were added.')
 data['creditHtml']=inline(data['credit'])
 data['downloads']={'pdf':PUB_DOCS[0],'docx':PUB_DOCS[1]}
-pub=HERE+'/public'
-for d in ['images','audio','downloads']:
-    shutil.rmtree(f'{pub}/{d}',ignore_errors=True); os.makedirs(f'{pub}/{d}')
-os.makedirs(pub+'/downloads/slides',exist_ok=True); os.makedirs(pub+'/downloads/exams',exist_ok=True)
-for f in sorted(used): shutil.copy(f'{SRC}/images/{f}',f'{pub}/images/')
-for l in lessons:
-    if l['audio']: shutil.copy(f'{SRC}/{l["audio"]}',f'{pub}/audio/')
-for f in PUB_DOCS:
-    shutil.copy(f'{SRC}/{f}',f'{pub}/downloads/'); sizes[f]=os.path.getsize(f'{SRC}/{f}')
+missing=[f for f in sorted(used) if not os.path.exists(f'{pub}/images/{f}')]
+if missing: raise SystemExit(f'Missing images in public/images/: {missing}')
+for f in PUB_DOCS: sizes[f]=os.path.getsize(f'{pub}/downloads/{f}')
 slides=[]
-for n in titles:  # teacher slide decks, when they exist
-    f=f'{SRC}/slides/Lesson{n}_Slides.pptx'
-    if os.path.exists(f): shutil.copy(f,f'{pub}/downloads/slides/'); slides.append(n); sizes[f'Lesson{n}_Slides.pptx']=os.path.getsize(f)
+for n in titles:  # teacher slide decks, when they exist (the .pptx files in public/downloads/slides/ are the source)
+    f=f'{pub}/downloads/slides/Lesson{n}_Slides.pptx'
+    if os.path.exists(f): slides.append(n); sizes[f'Lesson{n}_Slides.pptx']=os.path.getsize(f)
 exams=[]
 for f in EXAMS:   # teacher exam packets + student tests
-    s=f'{SRC}/exams/{f}'
-    if os.path.exists(s): shutil.copy(s,f'{pub}/downloads/exams/'); sizes[f]=os.path.getsize(s); exams.append(f)
+    s=f'{pub}/downloads/exams/{f}'
+    if os.path.exists(s): sizes[f]=os.path.getsize(s); exams.append(f)
 for f in ['Midterm_listening.mp3','Final_listening.mp3']:
-    s=f'{SRC}/audio/{f}'
-    if os.path.exists(s): shutil.copy(s,f'{pub}/audio/'); sizes[f]=os.path.getsize(s)
+    s=f'{pub}/audio/{f}'
+    if os.path.exists(s): sizes[f]=os.path.getsize(s)
 json.dump(data,open(HERE+'/src/content.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
 json.dump(sizes,open(HERE+'/src/sizes.json','w'),indent=1)
 open(pub+'/.nojekyll','w').close()

@@ -3,3 +3,21 @@ dist/
 .env*
 *.local
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+venv*/
+
+# Build output and caches
+curriculum/build/
+tools/images/_twemoji_src/
+tools/audio/models/
+tools/audio/samples/*
+!tools/audio/samples/refs/
+*.onnx
+*.safetensors
+*.pt
+~$*
+.~lock.*

@@ -4,7 +4,8 @@ Emoji graphics: Twemoji (jdecked/twemoji), CC BY 4.0. Composites/drawings made w
 import os, io, json, urllib.request
 import cairosvg
 from PIL import Image, ImageDraw, ImageFont
-SRC = '_twemoji_src'
+SRC = '_twemoji_src'   # download cache for the Twemoji SVGs (created on first run)
+os.makedirs(SRC, exist_ok=True)
 BASE = 'https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/'
 W, H = 600, 420
 F = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'

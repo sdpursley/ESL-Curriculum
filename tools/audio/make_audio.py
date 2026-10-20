@@ -1,8 +1,8 @@
-import sys, numpy as np, soundfile as sf, subprocess
+import os, sys, numpy as np, soundfile as sf, subprocess
 sys.path.insert(0,'.')
 from scripts import VOICES, LESSONS
 from kokoro_onnx import Kokoro
-k = Kokoro('/workspace/tts/kokoro-v1.0.onnx', '/workspace/tts/voices-v1.0.bin')
+k = Kokoro(os.environ.get('KOKORO_MODEL', 'models/kokoro-v1.0.onnx'), os.environ.get('KOKORO_VOICES', 'models/voices-v1.0.bin'))
 SPEED = 0.9
 def say(text, voice):
     a, sr = k.create(text, voice=voice, speed=SPEED, lang='en-us'); return a, sr

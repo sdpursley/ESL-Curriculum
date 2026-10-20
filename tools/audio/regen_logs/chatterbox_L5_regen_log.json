@@ -1,0 +1,362 @@
+[
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "morning marco",
+   "flags": [],
+   "probs": [
+    0.12,
+    0.94
+   ],
+   "sim": 0.8
+  },
+  "text": "Good morning, Marco!",
+  "hyp": "good morning marco",
+  "sim": 1.0,
+  "probs": [
+   0.81,
+   0.85
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.241605055332184
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "the big lunch together",
+   "flags": [],
+   "probs": [
+    0.36,
+    1.0
+   ],
+   "sim": 0.6
+  },
+  "text": "We cooked a big lunch together.",
+  "hyp": "we cooked a big lunch together",
+  "sim": 1.0,
+  "probs": [
+   0.9,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.268578976392746
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "",
+   "flags": [],
+   "probs": [
+    0,
+    0
+   ],
+   "sim": 0.0
+  },
+  "text": "And on Sunday,",
+  "hyp": "and on sunday",
+  "sim": 1.0,
+  "probs": [
+   0.44,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.132298144698143
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "a plate soccer in the park",
+   "flags": [],
+   "probs": [
+    0.16,
+    0.96
+   ],
+   "sim": 0.67
+  },
+  "text": "I played soccer in the park.",
+  "hyp": "i played soccer in the park",
+  "sim": 1.0,
+  "probs": [
+   0.96,
+   0.97
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.288939267396927
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "was very busy",
+   "flags": [],
+   "probs": [
+    0.22,
+    1.0
+   ],
+   "sim": 0.86
+  },
+  "text": "I was very busy.",
+  "hyp": "i was very busy",
+  "sim": 1.0,
+  "probs": [
+   0.88,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.265386164188385
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "on saturday i'm going to",
+   "flags": [],
+   "probs": [
+    0.75,
+    0.96
+   ],
+   "sim": 0.36
+  },
+  "text": "On Saturday, I worked all day.",
+  "hyp": "on saturday i worked all day",
+  "sim": 1.0,
+  "probs": [
+   0.88,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.263721817731857
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "oh no",
+   "flags": [
+    "sound outside words 820ms"
+   ],
+   "probs": [
+    0.83,
+    0.8
+   ],
+   "sim": 0.57
+  },
+  "text": "Oh no. And on Sunday?",
+  "hyp": "oh no and on sunday",
+  "sim": 1.0,
+  "probs": [
+   0.81,
+   0.98
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2436837673187258
+ },
+ {
+  "attempt": 6,
+  "why_first_failed": {
+   "hyp": "on sunday i cleaned the house",
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "probs": [
+    0.0,
+    0.0
+   ],
+   "sim": 1.0
+  },
+  "text": "On Sunday, I cleaned the house,",
+  "hyp": "on sunday i cleaned the house",
+  "sim": 1.0,
+  "probs": [
+   0.9,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.269433492422104
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "in the evening",
+   "flags": [],
+   "probs": [
+    0.34,
+    0.72
+   ],
+   "sim": 1.0
+  },
+  "text": "In the evening,",
+  "hyp": "in the evening",
+  "sim": 1.0,
+  "probs": [
+   0.37,
+   0.98
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.1108215540647506
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "i watched a movie",
+   "flags": [],
+   "probs": [
+    0.19,
+    0.0
+   ],
+   "sim": 1.0
+  },
+  "text": "I watched a movie.",
+  "hyp": "i watched a movie",
+  "sim": 1.0,
+  "probs": [
+   0.93,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.27860666513443
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "it was",
+   "flags": [
+    "sound outside words 820ms"
+   ],
+   "probs": [
+    0.75,
+    0.99
+   ],
+   "sim": 0.8
+  },
+  "text": "It was terrible!",
+  "hyp": "it was terrible",
+  "sim": 1.0,
+  "probs": [
+   0.89,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.266725516319275
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "the twenty minutes",
+   "flags": [],
+   "probs": [
+    0.02,
+    0.88
+   ],
+   "sim": 0.44
+  },
+  "text": "I stopped it after twenty minutes.",
+  "hyp": "i stopped it after twenty minutes",
+  "sim": 1.0,
+  "probs": [
+   0.52,
+   0.97
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.155775082111359
+ },
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "were you tired this morning",
+   "flags": [],
+   "probs": [
+    0.9,
+    1.0
+   ],
+   "sim": 0.91
+  },
+  "text": "Ha! Were you tired this morning?",
+  "hyp": "ha were you tired this morning",
+  "sim": 1.0,
+  "probs": [
+   0.46,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.1386281132698057
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "yes i was",
+   "flags": [],
+   "probs": [
+    0.04,
+    0.8
+   ],
+   "sim": 1.0
+  },
+  "text": "Yes, I was.",
+  "hyp": "yes i was",
+  "sim": 1.0,
+  "probs": [
+   0.82,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2464131653308868
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "but i'm happy it's monday",
+   "flags": [],
+   "probs": [
+    0.28,
+    0.99
+   ],
+   "sim": 1.0
+  },
+  "text": "But I'm happy it's Monday.",
+  "hyp": "but i'm happy it's monday",
+  "sim": 1.0,
+  "probs": [
+   0.8,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.240393358469009
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "it is monday",
+   "flags": [
+    "sound outside words 260ms"
+   ],
+   "probs": [
+    0.87,
+    1.0
+   ],
+   "sim": 0.86
+  },
+  "text": "It is Monday morning.",
+  "hyp": "it is monday morning",
+  "sim": 1.0,
+  "probs": [
+   0.88,
+   0.93
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.265043485164642
+ }
+]

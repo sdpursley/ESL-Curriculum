@@ -1,0 +1,68 @@
+[
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "nice to meet you too",
+   "flags": [],
+   "probs": [
+    0.82,
+    0.72
+   ],
+   "sim": 1.0
+  },
+  "text": "Nice to meet you too.",
+  "hyp": "nice to meet you too",
+  "sim": 1.0,
+  "probs": [
+   0.86,
+   0.7
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.209871357679367
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "where do you live",
+   "flags": [],
+   "probs": [
+    0.86,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "Where do you live?",
+  "hyp": "where do you live",
+  "sim": 1.0,
+  "probs": [
+   0.85,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.256409615278244
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "you start very early",
+   "flags": [],
+   "probs": [
+    0.58,
+    1.0
+   ],
+   "sim": 0.75
+  },
+  "text": "I start very early,",
+  "hyp": "i start very early",
+  "sim": 1.0,
+  "probs": [
+   0.93,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.277566522359848
+ }
+]

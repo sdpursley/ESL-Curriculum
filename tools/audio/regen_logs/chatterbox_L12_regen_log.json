@@ -1,0 +1,371 @@
+[
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "thank you for a calling cityphone customer service",
+   "flags": [],
+   "probs": [
+    0.51,
+    1.0
+   ],
+   "sim": 0.75
+  },
+  "text": "Thank you for calling City Phone customer service.",
+  "hyp": "thank you for calling customer service",
+  "sim": 0.86,
+  "probs": [
+   0.89,
+   0.96
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.125253233739308
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "i can help with",
+   "flags": [],
+   "probs": [
+    0.21,
+    0.0
+   ],
+   "sim": 0.89
+  },
+  "text": "I can help with that.",
+  "hyp": "i can help with that",
+  "sim": 1.0,
+  "probs": [
+   0.95,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2859161138534545
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "sorry could you repeat that please",
+   "flags": [],
+   "probs": [
+    0.02,
+    0.8
+   ],
+   "sim": 1.0
+  },
+  "text": "Sorry, could you repeat that, please?",
+  "hyp": "sorry could you repeat that please",
+  "sim": 1.0,
+  "probs": [
+   0.87,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2617756605148314
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "two nine one six",
+   "flags": [],
+   "probs": [
+    0.01,
+    0.0
+   ],
+   "sim": 1.0
+  },
+  "text": "two, nine, one, six.",
+  "hyp": "two nine one six",
+  "sim": 1.0,
+  "probs": [
+   0.27,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.081535854935646
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "l o e p e z",
+   "flags": [
+    "extra words: l o e p e z"
+   ],
+   "probs": [
+    0.74,
+    0.98
+   ],
+   "sim": 0.91
+  },
+  "text": "L. O. P. E. Z.",
+  "hyp": "l o e p e z",
+  "sim": 0.91,
+  "probs": [
+   0.74,
+   0.98
+  ],
+  "edge": true,
+  "flags": [
+   "extra words: l o e p e z"
+  ],
+  "score": 1.030091485110196,
+  "first_take_flagged": true
+ },
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "thank you mr",
+   "flags": [
+    "sustained non-speech 360ms"
+   ],
+   "probs": [
+    0.91,
+    0.64
+   ],
+   "sim": 1.0
+  },
+  "text": "Thank you, Mr.",
+  "hyp": "thank you mr",
+  "sim": 1.0,
+  "probs": [
+   0.82,
+   0.77
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2295257985591888
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "",
+   "flags": [],
+   "probs": [
+    0,
+    0
+   ],
+   "sim": 0.0
+  },
+  "text": "Lopez. Let me check.",
+  "hyp": "lopez let me check",
+  "sim": 1.0,
+  "probs": [
+   0.0,
+   0.01
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.00096608963795
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "we charged you two times this month i'm sorry",
+   "flags": [],
+   "probs": [
+    0.0,
+    0.0
+   ],
+   "sim": 1.0
+  },
+  "text": "We charged you two times this month. I'm sorry.",
+  "hyp": "we charged you two times this month i'm sorry",
+  "sim": 1.0,
+  "probs": [
+   0.83,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2480854868888853
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "you have to pay the full bill",
+   "flags": [],
+   "probs": [
+    0.04,
+    0.99
+   ],
+   "sim": 0.75
+  },
+  "text": "Okay. Do I have to pay the full bill?",
+  "hyp": "okay have to pay the full bill",
+  "sim": 0.88,
+  "probs": [
+   0.51,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.029316192865372
+ },
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "no you don't have to",
+   "flags": [],
+   "probs": [
+    0.0,
+    0.0
+   ],
+   "sim": 1.0
+  },
+  "text": "No, you don't have to.",
+  "hyp": "no you don't have to",
+  "sim": 1.0,
+  "probs": [
+   0.76,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.226834774017334
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "you only need to pay forty five",
+   "flags": [
+    "sound outside words 420ms"
+   ],
+   "probs": [
+    0.93,
+    0.89
+   ],
+   "sim": 0.93
+  },
+  "text": "You only need to pay forty-five dollars.",
+  "hyp": "you only need to pay forty five",
+  "sim": 0.93,
+  "probs": [
+   0.93,
+   0.89
+  ],
+  "edge": false,
+  "flags": [
+   "sound outside words 420ms"
+  ],
+  "score": 1.1014360656340916,
+  "first_take_flagged": true
+ },
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "when do i have to pay",
+   "flags": [],
+   "probs": [
+    0.49,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "When do I have to pay?",
+  "hyp": "when do i have to pay",
+  "sim": 1.0,
+  "probs": [
+   0.81,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.242409610748291
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "you have to pay by the fifteen th",
+   "flags": [
+    "extra words: you have to pay by the fifteen th"
+   ],
+   "probs": [
+    0.79,
+    0.9
+   ],
+   "sim": 0.8
+  },
+  "text": "You have to pay by the fifteenth.",
+  "hyp": "you have to pay by the fifteen th",
+  "sim": 0.8,
+  "probs": [
+   0.79,
+   0.9
+  ],
+  "edge": false,
+  "flags": [
+   "extra words: you have to pay by the fifteen th"
+  ],
+  "score": 0.9372421562671661,
+  "first_take_flagged": true
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "of course is there anything else",
+   "flags": [],
+   "probs": [
+    0.0,
+    0.35
+   ],
+   "sim": 1.0
+  },
+  "text": "Of course. Is there anything else?",
+  "hyp": "of course is there anything else",
+  "sim": 1.0,
+  "probs": [
+   0.58,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.175488477945328
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "and twelve listening",
+   "flags": [],
+   "probs": [
+    0.1,
+    0.65
+   ],
+   "sim": 0.67
+  },
+  "text": "Lesson twelve. Listening.",
+  "hyp": "lesson twelve listening",
+  "sim": 1.0,
+  "probs": [
+   0.81,
+   0.81
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2441651791334154
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "sam calls cityphone",
+   "flags": [],
+   "probs": [
+    0.82,
+    0.54
+   ],
+   "sim": 0.57
+  },
+  "text": "Sam calls City Phone.",
+  "hyp": "sam calls sidi phone",
+  "sim": 0.75,
+  "probs": [
+   0.67,
+   0.19
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 1.8077237084507942
+ }
+]

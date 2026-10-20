@@ -1,0 +1,94 @@
+[
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "yeah it's late again",
+   "flags": [
+    "extra words: yeah it's late again"
+   ],
+   "probs": [
+    0.88,
+    1.0
+   ],
+   "sim": 0.86
+  },
+  "text": "It's late again!",
+  "hyp": "it's late again",
+  "sim": 1.0,
+  "probs": [
+   0.91,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2743342727422715
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "are you coming to class tonight",
+   "flags": [
+    "sustained non-speech 320ms"
+   ],
+   "probs": [
+    0.83,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "Are you coming to class tonight?",
+  "hyp": "are you coming to class tonight",
+  "sim": 1.0,
+  "probs": [
+   0.88,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.264858162403107
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "i am",
+   "flags": [],
+   "probs": [
+    0.83,
+    0.84
+   ],
+   "sim": 0.8
+  },
+  "text": "Yes, I am!",
+  "hyp": "yes i am",
+  "sim": 1.0,
+  "probs": [
+   0.92,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.274606615304947
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "do you have the homer page",
+   "flags": [],
+   "probs": [
+    0.94,
+    0.82
+   ],
+   "sim": 0.83
+  },
+  "text": "Do you have the homework page?",
+  "hyp": "do you have the homework page",
+  "sim": 1.0,
+  "probs": [
+   0.95,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.284983366727829
+ }
+]

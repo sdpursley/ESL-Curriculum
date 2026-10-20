@@ -1,6 +1,6 @@
 """Vocabulary images for Lessons 5-13 (same pipeline as make_images.py).
 Emoji graphics: Twemoji (jdecked/twemoji), CC BY 4.0. Composites/drawings made with PIL.
-Run: /workspace/tts/venv/bin/python make_images_v5.py   (does not touch Lessons 1-4 images)
+Run: python make_images_v5.py   (does not touch Lessons 1-4 images)
 """
 import json, math
 from PIL import ImageDraw

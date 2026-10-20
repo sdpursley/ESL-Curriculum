@@ -1,0 +1,280 @@
+[
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "hi i'm an appointment",
+   "flags": [],
+   "probs": [
+    0.08,
+    1.0
+   ],
+   "sim": 0.55
+  },
+  "text": "Hi. I'd like to make an appointment,",
+  "hyp": "hi i'd like to make an appointment",
+  "sim": 1.0,
+  "probs": [
+   0.65,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.196256822347641
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "please i'm sick thank you very much",
+   "flags": [
+    "extra words: please i'm sick thank you very much"
+   ],
+   "probs": [
+    0.76,
+    0.99
+   ],
+   "sim": 0.6
+  },
+  "text": "please. I'm sick.",
+  "hyp": "please i'm sick",
+  "sim": 1.0,
+  "probs": [
+   0.81,
+   0.97
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.242593252658844
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "when when",
+   "flags": [
+    "sound outside words 260ms"
+   ],
+   "probs": [
+    0.86,
+    0.03
+   ],
+   "sim": 0.33
+  },
+  "text": "When did it start?",
+  "hyp": "when did it start",
+  "sim": 1.0,
+  "probs": [
+   0.92,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2755706012248993
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "three days ago",
+   "flags": [],
+   "probs": [
+    0.16,
+    1.0
+   ],
+   "sim": 1.0
+  },
+  "text": "Three days ago.",
+  "hyp": "three days ago",
+  "sim": 1.0,
+  "probs": [
+   0.28,
+   0.98
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.085468831658363
+ },
+ {
+  "attempt": 4,
+  "why_first_failed": {
+   "hyp": "okay the doctor can see you today at ten a fifteen",
+   "flags": [
+    "extra words: okay the doctor can see you today at ten a fifteen"
+   ],
+   "probs": [
+    0.76,
+    0.04
+   ],
+   "sim": 0.95
+  },
+  "text": "Okay. The doctor can see you today at ten fifteen.",
+  "hyp": "okay the doctor can see you today at ten fifteen",
+  "sim": 1.0,
+  "probs": [
+   0.42,
+   0.61
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.12457837164402
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "sorry i can't come at",
+   "flags": [
+    "sound outside words 480ms"
+   ],
+   "probs": [
+    0.55,
+    0.86
+   ],
+   "sim": 0.83
+  },
+  "text": "Sorry, I can't come at ten fifteen.",
+  "hyp": "sorry i can't come at ten fifteen",
+  "sim": 1.0,
+  "probs": [
+   0.9,
+   0.75
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2248113423585893
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "i'll see you next time",
+   "flags": [],
+   "probs": [
+    0.13,
+    0.92
+   ],
+   "sim": 0.2
+  },
+  "text": "Is there a later time?",
+  "hyp": "is there a later time",
+  "sim": 1.0,
+  "probs": [
+   0.66,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.197484862804413
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "what's what's your name please",
+   "flags": [
+    "extra words: what's what's your name please"
+   ],
+   "probs": [
+    0.9,
+    0.98
+   ],
+   "sim": 0.89
+  },
+  "text": "What's your name, please?",
+  "hyp": "what's your name please",
+  "sim": 1.0,
+  "probs": [
+   0.91,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.273663228750229
+ },
+ {
+  "attempt": "6 (best kept, still flagged)",
+  "why_first_failed": {
+   "hyp": "marko silva",
+   "flags": [],
+   "probs": [
+    0.55,
+    0.85
+   ],
+   "sim": 0.5
+  },
+  "text": "Marco Silva.",
+  "hyp": "markle silva",
+  "sim": 0.5,
+  "probs": [
+   0.8,
+   0.75
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 1.2261698365211486
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "for now you should rest and drink a a lot of water",
+   "flags": [
+    "extra words: for now you should rest and drink a a lot of water"
+   ],
+   "probs": [
+    0.96,
+    1.0
+   ],
+   "sim": 0.96
+  },
+  "text": "For now, you should rest and drink a lot of water.",
+  "hyp": "for now you should rest and drink a lot of water",
+  "sim": 1.0,
+  "probs": [
+   0.95,
+   1.0
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2862633526325227
+ },
+ {
+  "attempt": 3,
+  "why_first_failed": {
+   "hyp": "",
+   "flags": [],
+   "probs": [
+    0,
+    0
+   ],
+   "sim": 0.0
+  },
+  "text": "Lesson ten. Listening.",
+  "hyp": "lesson ten listening",
+  "sim": 1.0,
+  "probs": [
+   0.8,
+   0.99
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2407689839601517
+ },
+ {
+  "attempt": 2,
+  "why_first_failed": {
+   "hyp": "marco is is sick",
+   "flags": [
+    "extra words: marco is is sick"
+   ],
+   "probs": [
+    0.03,
+    0.04
+   ],
+   "sim": 0.86
+  },
+  "text": "Marco is sick.",
+  "hyp": "marco is sick",
+  "sim": 1.0,
+  "probs": [
+   0.74,
+   0.82
+  ],
+  "edge": false,
+  "flags": [],
+  "score": 2.2226004600524902
+ }
+]
