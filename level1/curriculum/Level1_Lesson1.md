@@ -16,7 +16,7 @@
 | Part | What's inside | Who uses it |
 |---|---|---|
 | **Teacher Plan** | At a glance, clock-time plan, step-by-step boxes, Letters & Numbers script, listening script, answer key, teacher notes | Volunteer teachers |
-| **Student Pages** | Icon key (first page), How Our Class Works, New Words, Classroom Phrases, Listening, Grammar, Talk Time sign-in sheet, Homework, Letters & Numbers, Progress Check. **Print this part for learners** | Learners |
+| **Student Pages** | How Our Class Works, New Words, Classroom Phrases, Listening, Grammar, Talk Time sign-in sheet, Homework, Letters & Numbers, Progress Check. **Print this part for learners** | Learners |
 | **Picture Credits** | Picture sources and licenses | Coordinators |
 
 ### What Lesson 1 gives Level 2
@@ -34,15 +34,13 @@
 <!-- mode: teacher -->
 ## How to Use This Plan
 
-> **You don't need to speak Spanish or any other language.** Teach in English. Show, point, and gesture. The student pages have a picture icon, a Spanish line, and a "My language" line for every task. Learners read those on their own. You never need to read, translate, or explain them.
+> **You don't need to speak Spanish or any other language.** Teach in English. Show, point, and gesture. The student pages have a Spanish line and a "My language" line for every task. Learners read those on their own. You never need to read, translate, or explain them.
 
-> **The icons:** every task on the student pages starts with the same icons: 👂 listen · 🗣️ say · 📖 read · ✏️ write · ⭕ circle · ✅ check · ☝️ point · 🔗 match · 👥 partner · 👨‍👩‍👧 group · 🚶 walk and talk · 🏠 homework. **Point to the icon when you give an instruction.** After a few weeks, learners know what to do from the icon alone.
-
-> **Instruction rule:** **Model it** (do it with one learner while everyone watches), **check it** (point to the icon: "Listen or write?"), **then go**. Say less, show more. Use the same short words every time: *Listen. Repeat. Point. Circle. Write. Partner. Group.*
+> **Instruction rule:** **Model it** (do it with one learner while everyone watches), **check it** (ask: "Listen or write?"), **then go**. Say less, show more. Use the same short words every time: *Listen. Repeat. Point. Circle. Write. Partner. Group.*
 
 > **Grouping toolkit:** *Pairs:* turn to a neighbor; with an odd number, make one group of 3. *Groups:* 3–4 learners. *Mingle:* everyone stands and talks to many classmates. The teacher joins a pair only if one learner is left over.
 
-> **When a learner is stuck or speaks another language to you:** (1) show it: the picture, a gesture, or the board; (2) give one more short English example; (3) point to the icon and the grammar box on their page; (4) a classmate can help for a few seconds, then back to English. You don't need to understand what classmates say to each other.
+> **When a learner is stuck or speaks another language to you:** (1) show it: the picture, a gesture, or the board; (2) give one more short English example; (3) point to the instruction and the grammar box on their page; (4) a classmate can help for a few seconds, then back to English. You don't need to understand what classmates say to each other.
 
 ---
 ## Lesson 1 (Week 1): Hello! What's Your Name?
@@ -83,7 +81,7 @@
 | Time | Step | Min | Grouping (15 / 7–8) | If running behind |
 |---|---|---|---|---|
 | 6:00–6:10 | **Welcome + Hello Circle** (Week 1 opening) | 10 | Two circles / one circle | Go around once only |
-| 6:10–6:15 | **Orientation:** How Our Class Works + the icons | 5 | Whole class | Show the icon key; say the 3 rules only |
+| 6:10–6:15 | **Orientation:** How Our Class Works | 5 | Whole class | Say the 3 rules only |
 | 6:15–6:25 | **New Words** (picture page) + pair picture game | 10 | Pairs | Teach the ★ words only |
 | 6:25–6:35 | **Listening** (audio) + "Say it" | 10 | Individuals, then pairs check | Play the audio 2 times, not 3 |
 | 6:35–6:45 | **Grammar Q&A:** *What's your name? How do you spell it?* + pair drill | 10 | Whole class, then pairs | Skip the pair drill; Talk Time practices it |
@@ -113,11 +111,11 @@
 :::step Step 2 · 6:10–6:15 · Orientation: How Our Class Works · 5 min
 - **Grouping:** whole class. Open the Student Pages to **How Our Class Works**.
 - **Show the times:** point to the clock and the page: class 6:00, break 6:45, back 7:00, end 7:30.
-- **Show the icons:** point to each icon on the key and do the action: 👂 (hand to ear) "Listen." 🗣️ "Say." ✏️ (mime writing) "Write." 👥 (point to two people) "Partner." Learners copy your gesture.
-- **Say:** "Write your language here," and point to the "My language" column. Learners can fill it in now or at home. **No one has to.**
+- **Show the instruction words:** say each word and do the action: (hand to ear) "Listen." "Say." (mime writing) "Write." (point to two people) "Partner." Learners copy your gesture.
+- **Say:** "Write your language here," and point to a "My language" line. Learners can fill it in now or at home. **No one has to.**
 - **The 3 rules (say and show):** (1) "**English in class.** A classmate can help you for a few seconds. Then back to English." (2) "**Homework every week.** It's short." (3) "**Phones are OK** for the audio and a dictionary."
 - **Also say:** "You can use a real name or a practice name." (See Teacher notes.)
-- **If behind:** show the icon key and say the 3 rules only.
+- **If behind:** say the 3 rules only.
 :::
 
 :::step Step 3 · 6:15–6:25 · New Words · 10 min
@@ -168,7 +166,7 @@
 
 :::step Step 7 · 7:10–7:15 · Exit Ticket + Homework · 5 min · NEVER SKIP
 - **Exit ticket:** each learner **says** one sentence to you at the door ("My name is ___. ___-___-___.") **or writes** one sentence on a slip (*My name is ___.*). Copying from the grammar box is fine.
-- **Homework:** open the Homework page. Do item 1 together. Point to each icon so learners know what to do at home.
+- **Homework:** open the Homework page. Do item 1 together. Point to each instruction so learners know what to do at home.
 :::
 
 :::step Letters & Numbers · 7:15–7:25 · The Alphabet · 10 min
@@ -253,51 +251,28 @@
 - **Learners who can't read or write yet:** they take part fully in all the speaking. In reading and writing tasks, they point instead of circle, and copy from the board or their name tag. Don't make them read aloud.
 - **Typical mistakes this week:** *My name Ana* (no *is*), *I Ana* (no *'m*), and saying the Spanish names of the letters (*E* said as "eh," *I* said as "ee"). Correct by saying the right form clearly; the learner repeats. Learners can read the note on their Grammar page themselves; you don't need to explain it.
 
-<!-- part: Student Workbook | Lesson 1 (Week 1) | Hello! What's Your Name? ;; The Icons · How Our Class Works · New Words · Listening · Grammar · Talk Time · Homework · Letters & Numbers · Progress Check | Level 1 ESL · Lesson 1 · STUDENT WORKBOOK -->
+<!-- part: Student Workbook | Lesson 1 (Week 1) | Hello! What's Your Name? ;; How Our Class Works · New Words · Listening · Grammar · Talk Time · Homework · Letters & Numbers · Progress Check | Level 1 ESL · Lesson 1 · STUDENT WORKBOOK -->
 <!-- mode: student -->
-## How to Use This Workbook: The Icons
-
-Name: ______________________________     Date: ________________
-
-*Every task has an icon. Look at the icon. It tells you what to do.* Write each instruction in your language, if you want.
-
-| Icon | English | Español | My language |
-|---|---|---|---|
-| 👂 | Listen. | Escucha. | <br> |
-| 🗣️ | Say. Repeat. | Di. Repite. | <br> |
-| 📖 | Read. | Lee. | <br> |
-| ✏️ | Write. | Escribe. | <br> |
-| ⭕ | Circle. | Encierra en un círculo. | <br> |
-| ✅ | Check ✓. | Marca ✓. | <br> |
-| ☝️ | Point. | Señala. | <br> |
-| 🔗 | Match. Draw a line. | Une. Dibuja una línea. | <br> |
-| 👥 | Work with a partner. | Trabaja con un compañero. | <br> |
-| 👨‍👩‍👧 | Work in a group. | Trabaja en grupo. | <br> |
-| 🚶 | Walk and talk to classmates. | Camina y habla con tus compañeros. | <br> |
-| 🏠 | Homework. Do it at home. | Tarea. Hazla en casa. | <br> |
-| ★ | Important word. | Palabra importante. | <br> |
-
----
 ## How Our Class Works
 
-### 🕕 Our class
+### Our class
 
 | Time | What |
 |---|---|
-| 6:00–6:45 | 📖 Class |
-| 6:45–7:00 | ☕ Break |
-| 7:00–7:15 | 👥 Class: talk with classmates |
-| 7:15–7:30 | 🔤 Letters & Numbers |
+| 6:00–6:45 | Class |
+| 6:45–7:00 | Break |
+| 7:00–7:15 | Class: talk with classmates |
+| 7:15–7:30 | Letters & Numbers |
 
-- 🗣️ **English in class.** A classmate can help you for a few seconds.
-- 🏠 **Homework every week.** It is short (10 minutes).
-- 📱 **Phones are OK** for the audio and a dictionary.
+- **English in class.** A classmate can help you for a few seconds.
+- **Homework every week.** It is short (10 minutes).
+- **Phones are OK** for the audio and a dictionary.
 
 *Español: Clase de 6:00 a 7:30. Descanso de 6:45 a 7:00. En clase hablamos inglés. Hay tarea corta cada semana. Puedes usar el teléfono para el audio y el diccionario.*
 
 My language: ______________________________________________
 
-> **Nota para hispanohablantes:** Cada tarea tiene un ícono, una línea en español y una línea "My language" para escribir en tu idioma. ¡Pero en clase, habla inglés!
+> **Nota para hispanohablantes:** Cada tarea tiene una línea en español y una línea "My language" para escribir en tu idioma. ¡Pero en clase, habla inglés!
 
 > **For speakers of other languages:** write each instruction in your language on the "My language" line. A classmate or a family member can help you at home.
 
@@ -310,7 +285,7 @@ Name: ______________________________     Date: ________________
 
 ### New Words
 
-👂 🗣️ **Look. Listen. Repeat.** ★ = most important words.
+**Look. Listen. Repeat.** ★ = most important words.
 
 *Español: Mira. Escucha. Repite.*
 
@@ -322,7 +297,7 @@ My language: ______________________________________________
 | ![last name](images/L1_last_name.png)<br>★ **last name** | ![spell](images/L1_spell.png)<br>★ **spell** | ![letter](images/L1_letter.png)<br>**letter** | ![teacher](images/L1_teacher.png)<br>★ **teacher** |
 | ![student](images/L1_student.png)<br>★ **student** | ![classmate](images/L1_classmate.png)<br>**classmate** | ![book](images/L1_book.png)<br>**book** | ![pen](images/L1_pen.png)<br>**pen** |
 
-### 👥 ☝️ 🗣️ Partner game: A points. B says the word.
+### Partner game: A points. B says the word.
 
 *Español: Con un compañero: A señala una imagen. B dice la palabra. Después cambien.*
 
@@ -331,27 +306,27 @@ My language: ______________________________________________
 ---
 ## Lesson 1 (Week 1) · Classroom Phrases
 
-👂 🗣️ **Listen. Repeat. Use these phrases in class.**
+**Listen. Repeat. Use these phrases in class.**
 
 *Español: Escucha. Repite. Usa estas frases en clase.*
 
 My language: ______________________________________________
 
-| | Phrase | Español | My language |
-|---|---|---|---|
-| 👂 | **Listen.** | Escucha. | <br> |
-| 🗣️ | **Repeat.** | Repite. | <br> |
-| ✏️ | **Write.** | Escribe. | <br> |
-| 🔁 | **Can you repeat, please?** | ¿Puede repetir, por favor? | <br> |
-| 🤷 | **I don't understand.** | No entiendo. | <br> |
-| ❓ | **How do you say ___ in English?** | ¿Cómo se dice ___ en inglés? | <br> |
+| Phrase | Español | My language |
+|---|---|---|
+| **Listen.** | Escucha. | <br> |
+| **Repeat.** | Repite. | <br> |
+| **Write.** | Escribe. | <br> |
+| **Can you repeat, please?** | ¿Puede repetir, por favor? | <br> |
+| **I don't understand.** | No entiendo. | <br> |
+| **How do you say ___ in English?** | ¿Cómo se dice ___ en inglés? | <br> |
 
 ---
 ## Lesson 1 (Week 1) · Listening
 
 *Listen to 👩 **Ana** and 👨 **Carlos**. It's the first night of class.*
 
-### A. 👂 ✅ Listen. Who is it? Check ✓ Ana or Carlos.
+### A. Listen. Who is it? Check ✓ Ana or Carlos.
 
 *Español: Escucha. ¿Quién es? Marca ✓ Ana o Carlos.*
 
@@ -364,7 +339,7 @@ My language: ______________________________________________
 | 3. "I'm fine, thanks." | ☐ | ☐ |
 | 4. Gets a book and a pen 📘 🖊️ | ☐ | ☐ |
 
-### B. 👂 ⭕ Listen again. Circle the letters you hear.
+### B. Listen again. Circle the letters you hear.
 
 *Español: Escucha otra vez. Encierra en un círculo las letras que escuchas.*
 
@@ -373,7 +348,7 @@ My language: ______________________________________________
 1. 👩 Ana:   **R**    ( U / O )    ( I / E )    ( Z / S )
 2. 👨 Carlos:   ( V / B )    ( E / I )    ( G / J )    **A**
 
-### C. 👂 ✏️ Listen again. Write the last names.
+### C. Listen again. Write the last names.
 
 *Español: Escucha otra vez. Escribe los apellidos.*
 
@@ -382,16 +357,16 @@ My language: ______________________________________________
 1. 👩 Ana  ___  ___  ___  ___
 2. 👨 Carlos  ___  ___  ___  ___
 
-### 🗣️ Say it: *How do you spell it?* • *Can you repeat, please?*
+### Say it: *How do you spell it?* • *Can you repeat, please?*
 
 *Español: Escucha y repite.*   My language: ______________________________
 
 ---
 ## Lesson 1 (Week 1) · Grammar
 
-👥 🗣️ **Read across. A reads a question (left). B reads an answer (right).** Choose one word from each column.
+**With a partner: read across. A reads a question (left). B reads an answer (right).** Choose one word from each column.
 
-*Español: Lee de izquierda a derecha. A lee una pregunta (izquierda). B lee una respuesta (derecha). Elige una palabra de cada columna.*
+*Español: Con un compañero: lee de izquierda a derecha. A lee una pregunta (izquierda). B lee una respuesta (derecha). Elige una palabra de cada columna.*
 
 My language: ______________________________________________
 
@@ -451,7 +426,7 @@ A: Say each letter in English, with a short stop: *R… U… I… Z.*
 
 A: *Can you repeat, please?* or *I don't understand.*
 
-### ✏️ Practice: Write the missing word.
+### Practice: Write the missing word.
 
 *Español: Escribe la palabra que falta.*
 
@@ -481,7 +456,7 @@ My language: ______________________________________________
 ---
 ## Lesson 1 (Week 1) · Talk Time: Name Mingle
 
-### 🚶 🗣️ ✏️ Walk and talk. Ask 5 or 6 classmates. Write their names.
+### Walk and talk. Ask 5 or 6 classmates. Write their names.
 
 *Español: Camina y habla. Pregunta a 5 o 6 compañeros. Escribe sus nombres.*
 
@@ -491,9 +466,9 @@ My language: ______________________________________________
 > **A:** How do you spell it?   **B:** ___-___-___.
 > **A:** What's your last name? How do you spell it?   **B:** ___-___-___.
 > **A:** Thank you! Goodbye!   **B:** Goodbye!
-> *Help:* 🔁 **Can you repeat, please?**   🤷 **I don't understand.**
+> *Help:* **Can you repeat, please?**   **I don't understand.**
 
-### ✅ Your partner looks. Is it right? Your partner checks ✓.
+### Your partner looks. Is it right? Your partner checks ✓.
 
 *Español: Tu compañero mira. ¿Está bien? Tu compañero marca ✓.*
 
@@ -511,13 +486,13 @@ My language: ______________________________________________
 ---
 ## Lesson 1 (Week 1) · Homework
 
-### 🏠 Homework (10 minutes). Bring it next week!
+### Homework (10 minutes). Bring it next week!
 
 *Español: Tarea (10 minutos). ¡Tráela la próxima semana!*
 
 My language: ______________________________________________
 
-### 1. ✏️ Write your name.
+### 1. Write your name.
 
 *Español: Escribe tu nombre.*
 
@@ -529,7 +504,7 @@ My last name: ______________________________
 
 My name is ______________________________ .
 
-### 2. 🗣️ 👨‍👩‍👧 Ask a friend or a family member. Write the name.
+### 2. Ask a friend or a family member. Write the name.
 
 *Español: Pregunta a un amigo o a un familiar. Escribe el nombre.*
 
@@ -542,7 +517,7 @@ First name: ______________________
 Last name: ______________________
 
 ---
-### 3. 📖 ✏️ Look. Write the word.
+### 3. Look. Write the word.
 
 *Español: Mira. Escribe la palabra.*
 
@@ -554,7 +529,7 @@ My language: ______________________________________________
 |---|---|---|---|
 | ![1](images/L1_book.png)<br>1. ____________ | ![2](images/L1_pen.png)<br>2. ____________ | ![3](images/L1_teacher.png)<br>3. ____________ | ![4](images/L1_student.png)<br>4. ____________ |
 
-### 4. 🗣️ Say the alphabet A to Z. Say it 2 times.
+### 4. Say the alphabet A to Z. Say it 2 times.
 
 *Español: Di el abecedario de la A a la Z, 2 veces.*
 
@@ -563,7 +538,7 @@ My language: ______________________________________________
 ---
 ## Lesson 1 (Week 1) · Letters & Numbers
 
-### A. 👂 🗣️ Look. Listen. Say the alphabet.
+### A. Look. Listen. Say the alphabet.
 
 *Español: Mira. Escucha. Di el abecedario.*
 
@@ -577,7 +552,7 @@ My language: ______________________________________________
 | O o | P p | Q q | R r | S s | T t | U u |
 | V v | W w | X x | Y y | Z z | | |
 
-### ⚠️ 🗣️ Tricky letters: say them slowly.
+### Tricky letters: say them slowly.
 
 *Español: Letras difíciles: dílas despacio.*
 
@@ -596,7 +571,7 @@ My language: ______________________________________________
 | **V v** / **B b** | "vee" / "bee" | **V**-E-G-A / **B**-O-O-K |
 
 ---
-### B. 👂 ⭕ Listen to the teacher. Circle the letter.
+### B. Listen to the teacher. Circle the letter.
 
 *Español: Escucha al profesor. Encierra la letra en un círculo.*
 
@@ -611,7 +586,7 @@ My language: ______________________________________________
 | 4. | G | J | Y |
 | 5. | A | E | I |
 
-### C. ✏️ Write your name in CAPITAL letters and small letters.
+### C. Write your name in CAPITAL letters and small letters.
 
 *Español: Escribe tu nombre con letras MAYÚSCULAS y minúsculas.*
 
@@ -621,7 +596,7 @@ CAPITAL letters (A B C): ______________________________________
 
 small letters (a b c): ______________________________________
 
-### D. 👥 🗣️ ✏️ Spell your name. Your partner writes it.
+### D. Spell your name. Your partner writes it.
 
 *Español: Deletrea tu nombre. Tu compañero lo escribe.*
 
@@ -634,7 +609,7 @@ My partner's name: ______________________________________
 
 Name: ______________________________     Date: ________________
 
-### A. 👂 ⭕ Listen to the teacher. Circle the letter.
+### A. Listen to the teacher. Circle the letter.
 
 *Español: Escucha al profesor. Encierra la letra en un círculo.*
 
@@ -649,13 +624,13 @@ My language: ______________________________________________
 | 4. | A | H | E |
 | 5. | J | G | H |
 
-### B. 📖 🔗 Match the question and the answer. Draw a line.
+### B. Match the question and the answer. Draw a line.
 
 *Español: Une la pregunta con la respuesta. Dibuja una línea.*
 
 My language: ______________________________________________
 
-| Question | ✏️ Draw a line. | Answer |
+| Question | Draw a line. | Answer |
 |---|---|---|
 | 1. What's your name?   ● |  | ●   a. R-U-I-Z. |
 | 2. What's your last name?   ● |  | ●   b. I'm fine, thanks. |
@@ -663,7 +638,7 @@ My language: ______________________________________________
 | 4. How are you?   ● |  | ●   d. It's Ruiz. |
 
 ---
-### C. ✏️ Write.
+### C. Write.
 
 *Español: Escribe.*
 
@@ -673,7 +648,7 @@ My first name: ______________________________
 
 My last name: ______________________________
 
-### D. ✅ How do you feel? Check ✓ one face for each line.
+### D. How do you feel? Check ✓ one face for each line.
 
 *Español: ¿Cómo te sientes? Marca ✓ una cara en cada línea.* 😀 = I can do it. 🙂 = I can do it with a little help. 😐 = Not yet.
 
@@ -694,4 +669,4 @@ My language: ______________________________________________
 
 Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and ID cards, a name tag, speech bubbles, letters, and labels were added. The file-by-file list is in `images/CREDITS.md`.
 
-Task icons on the pages are standard emoji characters shown with the computer's emoji font. Listening audio: synthetic voices made with Chatterbox TTS (Resemble AI, MIT License); each file carries an inaudible Perth watermark marking it as AI-generated. Ana's voice is based on LibriTTS-R speaker 1580 (Koizumi et al. 2023, CC BY 4.0, https://creativecommons.org/licenses/by/4.0/), from LibriVox public-domain readings. Course materials: © 2026 the authors, CC BY-NC-SA 4.0.
+Other small pictures on the pages (for example, the faces on the Progress Check) are standard emoji characters shown with the computer's emoji font. Listening audio: synthetic voices made with Chatterbox TTS (Resemble AI, MIT License); each file carries an inaudible Perth watermark marking it as AI-generated. Ana's voice is based on LibriTTS-R speaker 1580 (Koizumi et al. 2023, CC BY 4.0, https://creativecommons.org/licenses/by/4.0/), from LibriVox public-domain readings. Course materials: © 2026 the authors, CC BY-NC-SA 4.0.

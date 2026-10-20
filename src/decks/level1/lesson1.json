@@ -1490,10 +1490,10 @@
     {
      "id": 2,
      "name": "Shape 0",
-     "x": 544982,
-     "y": 2093062,
-     "w": 6227064,
-     "h": 983894,
+     "x": 548640,
+     "y": 2414015,
+     "w": 6163056,
+     "h": 603504,
      "kind": "sp",
      "geom": "round1Rect",
      "adj": 23087,
@@ -1503,9 +1503,9 @@
      "id": 3,
      "name": "Shape 1",
      "x": 1583741,
-     "y": 2035454,
+     "y": 2414015,
      "w": 5130698,
-     "h": 983894,
+     "h": 603504,
      "kind": "sp",
      "geom": "round1Rect",
      "adj": 23087,
@@ -1563,14 +1563,14 @@
      "id": 8,
      "name": "Text 6",
      "x": 1810512,
-     "y": 2103120,
+     "y": 2414015,
      "w": 4434840,
-     "h": 384048,
+     "h": 603504,
      "kind": "sp",
      "geom": "rect",
      "fill": null,
      "text": {
-      "anchor": "t",
+      "anchor": "ctr",
       "wrap": "square",
       "ins": [
        91440,
@@ -1583,46 +1583,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👂  Listen.",
-          "sz": 20.0,
-          "b": true,
-          "i": false,
-          "color": "#1B2236"
-         }
-        ],
-        "lnSpc": 1.0,
-        "spcAft": 0,
-        "spcBef": 0,
-        "endSz": 20.0
-       }
-      ]
-     }
-    },
-    {
-     "id": 9,
-     "name": "Text 7",
-     "x": 1901952,
-     "y": 2505456,
-     "w": 4343400,
-     "h": 411480,
-     "kind": "sp",
-     "geom": "rect",
-     "fill": null,
-     "text": {
-      "anchor": "t",
-      "wrap": "square",
-      "ins": [
-       0,
-       0,
-       0,
-       0
-      ],
-      "paras": [
-       {
-        "algn": "l",
-        "runs": [
-         {
-          "t": "Every task has an icon.",
+          "t": "Listen.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -1641,7 +1602,7 @@
      "id": 10,
      "name": "Shape 8",
      "x": 6361481,
-     "y": 2230222,
+     "y": 2551175,
      "w": 88697,
      "h": 76810,
      "rot": 180.0,
@@ -1673,7 +1634,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "🗣️  Say. Repeat.",
+          "t": "Say. Repeat.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -1724,7 +1685,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "✏️  Write.",
+          "t": "Write.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -1775,7 +1736,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👥  Work with a partner.",
+          "t": "Work with a partner.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -1826,7 +1787,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "🚶  Walk and talk.",
+          "t": "Walk and talk.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -1857,9 +1818,9 @@
      "id": 19,
      "name": "Shape 17",
      "x": 544982,
-     "y": 2035454,
+     "y": 2414015,
      "w": 1039673,
-     "h": 983894,
+     "h": 603504,
      "kind": "sp",
      "geom": "rect",
      "fill": "#B9D2F7"
@@ -1868,9 +1829,9 @@
      "id": 20,
      "name": "Text 18",
      "x": 686714,
-     "y": 2166214,
+     "y": 2395727,
      "w": 1109167,
-     "h": 646481,
+     "h": 585216,
      "kind": "sp",
      "geom": "rect",
      "fill": null,
@@ -2259,7 +2220,7 @@
      "id": 31,
      "name": "Shape 29",
      "x": 6184087,
-     "y": 1804111,
+     "y": 2176272,
      "w": 727862,
      "h": 687570,
      "kind": "sp",
@@ -2270,7 +2231,7 @@
      "id": 32,
      "name": "Shape 30",
      "x": 6242576,
-     "y": 1795013,
+     "y": 2167127,
      "w": 740860,
      "h": 740860,
      "kind": "sp",
@@ -2281,7 +2242,7 @@
      "id": 33,
      "name": "Shape 31",
      "x": 6444038,
-     "y": 2007523,
+     "y": 2386584,
      "w": 316490,
      "h": 316490,
      "rot": 15.0,
@@ -2298,7 +2259,6 @@
       19,
       20,
       8,
-      9,
       10
      ],
      "effect": "fade"
@@ -2344,7 +2304,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Time: 6:10-6:15 (5 minutes). Whole class.\nClick once for each row. Point to the icon and do the action. Learners copy your gesture.\n👂 Hand to your ear: \"Listen.\"  🗣️ \"Say.\"  ✏️ Mime writing: \"Write.\"  👥 Point to two people: \"Partner.\"  🚶 Walk a few steps: \"Walk and talk.\"\nPoint to the clock: class at 6:00, break at 6:45, back at 7:00, end at 7:30.\nSay the 3 rules: (1) \"English in class. A classmate can help you for a few seconds. Then back to English.\" (2) \"Homework every week. It's short.\" (3) \"Phones are OK for the audio and a dictionary.\"\nAlso say: \"You can use a real name or a practice name.\"\nIf you are behind: show the icons and say the 3 rules only.\nSource: Level1_Lesson1.md, Lesson 1 (Step 2: Orientation; Student Pages: The Icons, How Our Class Works).",
+   "notes": "Time: 6:10-6:15 (5 minutes). Whole class.\nClick once for each row. Say each word and do the action. Learners copy your gesture.\nHand to your ear: \"Listen.\"  \"Say.\"  Mime writing: \"Write.\"  Point to two people: \"Partner.\"  Walk a few steps: \"Walk and talk.\"\nPoint to the clock: class at 6:00, break at 6:45, back at 7:00, end at 7:30.\nSay the 3 rules: (1) \"English in class. A classmate can help you for a few seconds. Then back to English.\" (2) \"Homework every week. It's short.\" (3) \"Phones are OK for the audio and a dictionary.\"\nAlso say: \"You can use a real name or a practice name.\"\nIf you are behind: say the 3 rules only.\nSource: Level1_Lesson1.md, Lesson 1 (Step 2: Orientation; Student Pages: How Our Class Works).",
    "title": "How Our Class Works"
   },
   {
@@ -3100,7 +3060,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👥 ☝️ 🗣️",
+          "t": "Partner game:",
           "sz": 22.0,
           "b": true,
           "i": false,
@@ -3490,7 +3450,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Hold up a real book and a real pen first.\nClick once for each word. Point to the picture and say the word. Learners repeat 2 times.\nPartner game (4 minutes): A points to a picture. B says the word. Then switch.\nPairs: 15 learners = 7 pairs + 1 group of 3. 7-8 learners = 3-4 pairs.\nShow the icons: 👥 partner, ☝️ point, 🗣️ say.\nIf you are behind: teach the ★ words only (teacher, student). The other words stay on the page for home study.\nSource: Level1_Lesson1.md, Lesson 1 (Key vocabulary; Step 3: New Words; Student Pages: New Words, Partner game).\nPictures: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined. ID cards, the name tag, speech bubbles, letter tiles, the table, and labels were drawn for this curriculum.",
+   "notes": "Hold up a real book and a real pen first.\nClick once for each word. Point to the picture and say the word. Learners repeat 2 times.\nPartner game (4 minutes): A points to a picture. B says the word. Then switch.\nPairs: 15 learners = 7 pairs + 1 group of 3. 7-8 learners = 3-4 pairs.\nShow it: point to two people (\"Partner\"), point to a picture (\"Point\"), and say the word (\"Say\").\nIf you are behind: teach the ★ words only (teacher, student). The other words stay on the page for home study.\nSource: Level1_Lesson1.md, Lesson 1 (Key vocabulary; Step 3: New Words; Student Pages: New Words, Partner game).\nPictures: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined. ID cards, the name tag, speech bubbles, letter tiles, the table, and labels were drawn for this curriculum.",
    "title": "More New Words"
   },
   {
@@ -3561,7 +3521,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "☝️ 🗣️  Look at the picture. Say the word.",
+          "t": "Look at the picture. Say the word.",
           "sz": 24.0,
           "b": false,
           "i": false,
@@ -4480,9 +4440,9 @@
     {
      "id": 25,
      "name": "Highlight 1",
-     "x": 5349240,
+     "x": 4389120,
      "y": 4251960,
-     "w": 2606040,
+     "w": 3566160,
      "h": 548640,
      "kind": "sp",
      "geom": "roundRect",
@@ -4490,50 +4450,11 @@
      "fill": "#FFE28C"
     },
     {
-     "id": 26,
-     "name": "Wh 1",
-     "x": 4389120,
-     "y": 4251960,
-     "w": 960120,
-     "h": 548640,
-     "kind": "sp",
-     "geom": "rect",
-     "fill": null,
-     "text": {
-      "anchor": "ctr",
-      "wrap": "square",
-      "ins": [
-       0,
-       36576,
-       0,
-       36576
-      ],
-      "paras": [
-       {
-        "algn": "l",
-        "runs": [
-         {
-          "t": "👂",
-          "sz": 22.0,
-          "b": false,
-          "i": false,
-          "color": "#1B2236"
-         }
-        ],
-        "lnSpc": 1.0,
-        "spcAft": 0,
-        "spcBef": 0,
-        "endSz": 22.0
-       }
-      ]
-     }
-    },
-    {
      "id": 27,
      "name": "Helper 1",
-     "x": 5349240,
+     "x": 4389120,
      "y": 4251960,
-     "w": 2606040,
+     "w": 3566160,
      "h": 548640,
      "kind": "sp",
      "geom": "rect",
@@ -4570,9 +4491,9 @@
     {
      "id": 29,
      "name": "Highlight 2",
-     "x": 5349240,
+     "x": 4389120,
      "y": 5056632,
-     "w": 2606040,
+     "w": 3566160,
      "h": 548640,
      "kind": "sp",
      "geom": "roundRect",
@@ -4580,50 +4501,11 @@
      "fill": "#FFE28C"
     },
     {
-     "id": 30,
-     "name": "Wh 2",
-     "x": 4389120,
-     "y": 5056632,
-     "w": 960120,
-     "h": 548640,
-     "kind": "sp",
-     "geom": "rect",
-     "fill": null,
-     "text": {
-      "anchor": "ctr",
-      "wrap": "square",
-      "ins": [
-       0,
-       36576,
-       0,
-       36576
-      ],
-      "paras": [
-       {
-        "algn": "l",
-        "runs": [
-         {
-          "t": "🗣️",
-          "sz": 22.0,
-          "b": false,
-          "i": false,
-          "color": "#1B2236"
-         }
-        ],
-        "lnSpc": 1.0,
-        "spcAft": 0,
-        "spcBef": 0,
-        "endSz": 22.0
-       }
-      ]
-     }
-    },
-    {
      "id": 31,
      "name": "Helper 2",
-     "x": 5349240,
+     "x": 4389120,
      "y": 5056632,
-     "w": 2606040,
+     "w": 3566160,
      "h": 548640,
      "kind": "sp",
      "geom": "rect",
@@ -4660,9 +4542,9 @@
     {
      "id": 33,
      "name": "Highlight 3",
-     "x": 5349240,
+     "x": 4389120,
      "y": 5861304,
-     "w": 2606040,
+     "w": 3566160,
      "h": 548640,
      "kind": "sp",
      "geom": "roundRect",
@@ -4670,50 +4552,11 @@
      "fill": "#FFE28C"
     },
     {
-     "id": 34,
-     "name": "Wh 3",
-     "x": 4389120,
-     "y": 5861304,
-     "w": 960120,
-     "h": 548640,
-     "kind": "sp",
-     "geom": "rect",
-     "fill": null,
-     "text": {
-      "anchor": "ctr",
-      "wrap": "square",
-      "ins": [
-       0,
-       36576,
-       0,
-       36576
-      ],
-      "paras": [
-       {
-        "algn": "l",
-        "runs": [
-         {
-          "t": "✏️",
-          "sz": 22.0,
-          "b": false,
-          "i": false,
-          "color": "#1B2236"
-         }
-        ],
-        "lnSpc": 1.0,
-        "spcAft": 0,
-        "spcBef": 0,
-        "endSz": 22.0
-       }
-      ]
-     }
-    },
-    {
      "id": 35,
      "name": "Helper 3",
-     "x": 5349240,
+     "x": 4389120,
      "y": 5861304,
-     "w": 2606040,
+     "w": 3566160,
      "h": 548640,
      "kind": "sp",
      "geom": "rect",
@@ -4787,50 +4630,11 @@
      }
     },
     {
-     "id": 38,
-     "name": "Step num 1",
-     "x": 8549640,
-     "y": 1965960,
-     "w": 548640,
-     "h": 548640,
-     "kind": "sp",
-     "geom": "ellipse",
-     "fill": "#FFFFFF",
-     "text": {
-      "anchor": "ctr",
-      "wrap": "square",
-      "ins": [
-       0,
-       36576,
-       0,
-       36576
-      ],
-      "paras": [
-       {
-        "algn": "ctr",
-        "runs": [
-         {
-          "t": "🔁",
-          "sz": 22.0,
-          "b": true,
-          "i": false,
-          "color": "#1B2236"
-         }
-        ],
-        "lnSpc": 1.0,
-        "spcAft": 0,
-        "spcBef": 0,
-        "endSz": 22.0
-       }
-      ]
-     }
-    },
-    {
      "id": 39,
      "name": "Step 1",
-     "x": 9235440,
+     "x": 8549640,
      "y": 1965960,
-     "w": 2377440,
+     "w": 3063240,
      "h": 914400,
      "kind": "sp",
      "geom": "rect",
@@ -4865,50 +4669,11 @@
      }
     },
     {
-     "id": 40,
-     "name": "Step num 2",
-     "x": 8549640,
-     "y": 3017520,
-     "w": 548640,
-     "h": 548640,
-     "kind": "sp",
-     "geom": "ellipse",
-     "fill": "#FFFFFF",
-     "text": {
-      "anchor": "ctr",
-      "wrap": "square",
-      "ins": [
-       0,
-       36576,
-       0,
-       36576
-      ],
-      "paras": [
-       {
-        "algn": "ctr",
-        "runs": [
-         {
-          "t": "🤷",
-          "sz": 22.0,
-          "b": true,
-          "i": false,
-          "color": "#1B2236"
-         }
-        ],
-        "lnSpc": 1.0,
-        "spcAft": 0,
-        "spcBef": 0,
-        "endSz": 22.0
-       }
-      ]
-     }
-    },
-    {
      "id": 41,
      "name": "Step 2",
-     "x": 9235440,
+     "x": 8549640,
      "y": 3017520,
-     "w": 2377440,
+     "w": 3063240,
      "h": 914400,
      "kind": "sp",
      "geom": "rect",
@@ -4943,50 +4708,11 @@
      }
     },
     {
-     "id": 42,
-     "name": "Step num 3",
-     "x": 8549640,
-     "y": 4069080,
-     "w": 548640,
-     "h": 548640,
-     "kind": "sp",
-     "geom": "ellipse",
-     "fill": "#FFFFFF",
-     "text": {
-      "anchor": "ctr",
-      "wrap": "square",
-      "ins": [
-       0,
-       36576,
-       0,
-       36576
-      ],
-      "paras": [
-       {
-        "algn": "ctr",
-        "runs": [
-         {
-          "t": "❓",
-          "sz": 22.0,
-          "b": true,
-          "i": false,
-          "color": "#1B2236"
-         }
-        ],
-        "lnSpc": 1.0,
-        "spcAft": 0,
-        "spcBef": 0,
-        "endSz": 22.0
-       }
-      ]
-     }
-    },
-    {
      "id": 43,
      "name": "Step 3",
-     "x": 9235440,
+     "x": 8549640,
      "y": 4069080,
-     "w": 2377440,
+     "w": 3063240,
      "h": 914400,
      "kind": "sp",
      "geom": "rect",
@@ -5088,7 +4814,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Time: about 2 minutes, at the end of New Words. Whole class.\nClick once for each row. Say the word with its gesture. Learners repeat.\n👂 Hand to your ear: \"Listen.\"  🗣️ Point to your mouth: \"Repeat.\"  ✏️ Mime writing: \"Write.\"\nHelp box: say each phrase slowly. Learners repeat 2 times. Shrug for \"I don't understand.\"\nPractice \"Can you repeat, please?\" right away: say a word very fast, and wait for someone to ask. Smile and say it again slowly.\nUse these phrases every week. Point to this slide when someone is stuck.\nSource: Level1_Lesson1.md, Lesson 1 (Classroom phrases; Step 3: New Words; Student Pages: Classroom Phrases).\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized, with a drawn border.",
+   "notes": "Time: about 2 minutes, at the end of New Words. Whole class.\nClick once for each row. Say the word with its gesture. Learners repeat.\nHand to your ear: \"Listen.\"  Point to your mouth: \"Repeat.\"  Mime writing: \"Write.\"\nHelp box: say each phrase slowly. Learners repeat 2 times. Shrug for \"I don't understand.\"\nPractice \"Can you repeat, please?\" right away: say a word very fast, and wait for someone to ask. Smile and say it again slowly.\nUse these phrases every week. Point to this slide when someone is stuck.\nSource: Level1_Lesson1.md, Lesson 1 (Classroom phrases; Step 3: New Words; Student Pages: Classroom Phrases).\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized, with a drawn border.",
    "title": "Classroom Phrases"
   },
   {
@@ -5207,7 +4933,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👂 ✅  Listen. Who is it?",
+          "t": "Listen. Who is it?",
           "sz": 22.0,
           "b": false,
           "i": false,
@@ -5223,7 +4949,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Ana or Carlos?",
+          "t": "Check ✓ Ana or Carlos.",
           "sz": 22.0,
           "b": true,
           "i": false,
@@ -6749,7 +6475,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👂 ⭕  Listen. Circle the letters.",
+          "t": "Listen. Circle the letters.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -6893,7 +6619,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Listen 2 (Task B). Learners work alone, then check with a partner.\nSay: \"Listen again. Circle the letters.\" Point to the ⭕ icon. R (Ana) and A (Carlos) are already there.\nPlay the audio. Then: \"Show your partner.\"\nClick once for each answer (6 clicks). Ana: R-U-I-Z (U, I, Z). Carlos: V-E-G-A (V, E, G).\nSay each letter slowly. Learners repeat. Watch E / I and G / J: many learners mix them up.\nSource: Level1_Lesson1.md, Lesson 1 (Step 4: Listening; Answer key: Listening Task B; Student Pages: Listening B).\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized, with drawn letter tiles.",
+   "notes": "Listen 2 (Task B). Learners work alone, then check with a partner.\nSay: \"Listen again. Circle the letters.\" R (Ana) and A (Carlos) are already there.\nPlay the audio. Then: \"Show your partner.\"\nClick once for each answer (6 clicks). Ana: R-U-I-Z (U, I, Z). Carlos: V-E-G-A (V, E, G).\nSay each letter slowly. Learners repeat. Watch E / I and G / J: many learners mix them up.\nSource: Level1_Lesson1.md, Lesson 1 (Step 4: Listening; Answer key: Listening Task B; Student Pages: Listening B).\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized, with drawn letter tiles.",
    "title": "Listening B"
   },
   {
@@ -6952,9 +6678,9 @@
     {
      "id": 6,
      "name": "Shape 4",
-     "x": 1583741,
+     "x": 548640,
      "y": 4550054,
-     "w": 5130698,
+     "w": 6163056,
      "h": 602590,
      "kind": "sp",
      "geom": "round1Rect",
@@ -6964,9 +6690,9 @@
     {
      "id": 7,
      "name": "Shape 5",
-     "x": 1583741,
+     "x": 548640,
      "y": 5261458,
-     "w": 5130698,
+     "w": 6163056,
      "h": 602590,
      "kind": "sp",
      "geom": "round1Rect",
@@ -6997,7 +6723,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👂 ✏️  Listen again.",
+          "t": "Listen again.",
           "sz": 20.0,
           "b": true,
           "i": false,
@@ -7132,9 +6858,9 @@
     {
      "id": 15,
      "name": "Text 13",
-     "x": 1810512,
+     "x": 777240,
      "y": 4550054,
-     "w": 4754880,
+     "w": 5760720,
      "h": 602590,
      "kind": "sp",
      "geom": "rect",
@@ -7178,9 +6904,9 @@
     {
      "id": 17,
      "name": "Text 15",
-     "x": 1810512,
+     "x": 777240,
      "y": 5261458,
-     "w": 4754880,
+     "w": 5760720,
      "h": 602590,
      "kind": "sp",
      "geom": "rect",
@@ -7357,106 +7083,6 @@
         "runs": [
          {
           "t": "2",
-          "sz": 32.0,
-          "b": true,
-          "i": false,
-          "color": "#1B2236"
-         }
-        ],
-        "lnSpc": 1.0,
-        "spcAft": 0,
-        "spcBef": 0,
-        "endSz": 32.0
-       }
-      ]
-     }
-    },
-    {
-     "id": 25,
-     "name": "Shape 23",
-     "x": 544982,
-     "y": 4550054,
-     "w": 1039673,
-     "h": 602590,
-     "kind": "sp",
-     "geom": "rect",
-     "fill": "#B9D2F7"
-    },
-    {
-     "id": 26,
-     "name": "Text 24",
-     "x": 686714,
-     "y": 4543654,
-     "w": 1109167,
-     "h": 585216,
-     "kind": "sp",
-     "geom": "rect",
-     "fill": null,
-     "text": {
-      "anchor": "ctr",
-      "wrap": "square",
-      "ins": [
-       91440,
-       45720,
-       91440,
-       45720
-      ],
-      "paras": [
-       {
-        "algn": "ctr",
-        "runs": [
-         {
-          "t": "🗣️",
-          "sz": 32.0,
-          "b": true,
-          "i": false,
-          "color": "#1B2236"
-         }
-        ],
-        "lnSpc": 1.0,
-        "spcAft": 0,
-        "spcBef": 0,
-        "endSz": 32.0
-       }
-      ]
-     }
-    },
-    {
-     "id": 27,
-     "name": "Shape 25",
-     "x": 544982,
-     "y": 5279746,
-     "w": 1039673,
-     "h": 602590,
-     "kind": "sp",
-     "geom": "rect",
-     "fill": "#B9D2F7"
-    },
-    {
-     "id": 28,
-     "name": "Text 26",
-     "x": 686714,
-     "y": 5269687,
-     "w": 1109167,
-     "h": 585216,
-     "kind": "sp",
-     "geom": "rect",
-     "fill": null,
-     "text": {
-      "anchor": "ctr",
-      "wrap": "square",
-      "ins": [
-       91440,
-       45720,
-       91440,
-       45720
-      ],
-      "paras": [
-       {
-        "algn": "ctr",
-        "runs": [
-         {
-          "t": "🗣️",
           "sz": 32.0,
           "b": true,
           "i": false,
@@ -9425,9 +9051,9 @@
     {
      "id": 3,
      "name": "Shape 1",
-     "x": 1583741,
+     "x": 548640,
      "y": 1349654,
-     "w": 5130698,
+     "w": 6163056,
      "h": 983894,
      "kind": "sp",
      "geom": "round1Rect",
@@ -9497,9 +9123,9 @@
     {
      "id": 8,
      "name": "Text 6",
-     "x": 1810512,
+     "x": 777240,
      "y": 1417320,
-     "w": 4434840,
+     "w": 5440680,
      "h": 384048,
      "kind": "sp",
      "geom": "rect",
@@ -9536,9 +9162,9 @@
     {
      "id": 9,
      "name": "Text 7",
-     "x": 1901952,
+     "x": 868680,
      "y": 1819656,
-     "w": 4343400,
+     "w": 5349240,
      "h": 411480,
      "kind": "sp",
      "geom": "rect",
@@ -9843,56 +9469,6 @@
         "spcAft": 0,
         "spcBef": 0,
         "endSz": 20.0
-       }
-      ]
-     }
-    },
-    {
-     "id": 19,
-     "name": "Shape 17",
-     "x": 544982,
-     "y": 1349654,
-     "w": 1039673,
-     "h": 983894,
-     "kind": "sp",
-     "geom": "rect",
-     "fill": "#B9D2F7"
-    },
-    {
-     "id": 20,
-     "name": "Text 18",
-     "x": 686714,
-     "y": 1480414,
-     "w": 1109167,
-     "h": 646481,
-     "kind": "sp",
-     "geom": "rect",
-     "fill": null,
-     "text": {
-      "anchor": "ctr",
-      "wrap": "square",
-      "ins": [
-       91440,
-       45720,
-       91440,
-       45720
-      ],
-      "paras": [
-       {
-        "algn": "ctr",
-        "runs": [
-         {
-          "t": "✏️",
-          "sz": 36.0,
-          "b": true,
-          "i": false,
-          "color": "#1B2236"
-         }
-        ],
-        "lnSpc": 1.0,
-        "spcAft": 0,
-        "spcBef": 0,
-        "endSz": 36.0
        }
       ]
      }
@@ -10531,7 +10107,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Part of Grammar (6:35-6:45). Learners write alone first.\nSay: \"Write one word.\" Point to the ✏️ icon. Do number 1 together.\nPairs check: \"Show your partner.\"\nClick once for each answer: 1 name, 2 What's, 3 spell, 4 repeat, 5 am.\nNumber 5 is a first look at Box 4: \"Are you a student?\" \"Yes, I am.\" Point to yourself: \"Am I a student?\" Class: \"No, you're not. You're a teacher!\" Don't teach more; Lesson 2 does.\nPair drill (last 3-4 minutes): A asks a question, B answers with real information or a practice name. Then switch.\nIf you are behind: skip the pair drill. Talk Time practices the same questions.\nSource: Level1_Lesson1.md, Lesson 1 (Step 5: Grammar Q&A; Student Pages: Practice; Answer key: Grammar practice).",
+   "notes": "Part of Grammar (6:35-6:45). Learners write alone first.\nSay: \"Write one word.\" Do number 1 together.\nPairs check: \"Show your partner.\"\nClick once for each answer: 1 name, 2 What's, 3 spell, 4 repeat, 5 am.\nNumber 5 is a first look at Box 4: \"Are you a student?\" \"Yes, I am.\" Point to yourself: \"Am I a student?\" Class: \"No, you're not. You're a teacher!\" Don't teach more; Lesson 2 does.\nPair drill (last 3-4 minutes): A asks a question, B answers with real information or a practice name. Then switch.\nIf you are behind: skip the pair drill. Talk Time practices the same questions.\nSource: Level1_Lesson1.md, Lesson 1 (Step 5: Grammar Q&A; Student Pages: Practice; Answer key: Grammar practice).",
    "title": "Write the Missing Word"
   },
   {
@@ -11332,7 +10908,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "🚶 🗣️ ✏️",
+          "t": "Walk and talk.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -11647,7 +11223,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "✏️ Write the name.",
+          "t": "Write the name.",
           "sz": 22.0,
           "b": true,
           "i": false,
@@ -11741,7 +11317,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "✅ Your partner checks.",
+          "t": "Your partner checks.",
           "sz": 22.0,
           "b": true,
           "i": false,
@@ -12142,7 +11718,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "🏠 Homework",
+          "t": "Homework",
           "sz": 22.0,
           "b": true,
           "i": false,
@@ -12181,7 +11757,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "1. ✏️ Write your name.",
+          "t": "1. Write your name.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -12197,7 +11773,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "2. 🗣️ Ask a friend's name.",
+          "t": "2. Ask a friend's name.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -12213,7 +11789,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "3. 📖 Write the words.",
+          "t": "3. Write the words.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -12229,7 +11805,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "4. 🗣️ Say A to Z, 2 times.",
+          "t": "4. Say A to Z, 2 times.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -12262,7 +11838,7 @@
     }
    ],
    "steps": [],
-   "notes": "Time: 7:10-7:15 (5 minutes). Never skip this step.\nExit ticket: each learner says one sentence to you at the door: \"My name is ___.\" and a practice phone number (555-01__). Or they write one sentence on a slip: \"My name is ___.\" Copying from the grammar box is fine.\n15 learners: stand at the door and listen to each person quickly. 7-8 learners: each person says it to the whole group.\nHomework (10 minutes): open the Homework page. Do item 1 together. Point to each icon so learners know what to do at home.\nSay: \"Bring it next week!\"\nSource: Level1_Lesson1.md, Lesson 1 (Step 7: Exit Ticket + Homework; Student Pages: Homework).\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized, with a drawn border.",
+   "notes": "Time: 7:10-7:15 (5 minutes). Never skip this step.\nExit ticket: each learner says one sentence to you at the door: \"My name is ___.\" and a practice phone number (555-01__). Or they write one sentence on a slip: \"My name is ___.\" Copying from the grammar box is fine.\n15 learners: stand at the door and listen to each person quickly. 7-8 learners: each person says it to the whole group.\nHomework (10 minutes): open the Homework page. Do item 1 together. Point to each instruction so learners know what to do at home.\nSay: \"Bring it next week!\"\nSource: Level1_Lesson1.md, Lesson 1 (Step 7: Exit Ticket + Homework; Student Pages: Homework).\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized, with a drawn border.",
    "title": "Before You Go"
   },
   {
@@ -13499,7 +13075,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👂 ⭕  Listen to the teacher.",
+          "t": "Listen to the teacher.",
           "sz": 22.0,
           "b": false,
           "i": false,
@@ -14528,7 +14104,7 @@
         "algn": "ctr",
         "runs": [
          {
-          "t": "D. ✅ I can…",
+          "t": "D. I can…",
           "sz": 24.0,
           "b": true,
           "i": false,
@@ -14755,7 +14331,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "📖 🔗 Question",
+          "t": "Match the question",
           "sz": 22.0,
           "b": true,
           "i": false,
@@ -15640,7 +15216,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Task icons are standard emoji characters shown with the computer's emoji font.",
+          "t": "Other small pictures (for example, the faces on the Progress Check) are standard emoji characters shown with the computer's emoji font.",
           "sz": 16.0,
           "b": false,
           "i": false,
