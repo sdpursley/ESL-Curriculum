@@ -51,3 +51,11 @@ a:focus-visible, button:focus-visible { @apply outline-2 outline-offset-2 outlin
   footer { margin-top: 1rem !important; background: none !important; }
   [data-state="inactive"][role="tabpanel"] { display: none; }
 }
+
+/* Level 1 student pages */
+.prose-esl p.es { @apply text-base text-slate-600; }
+.prose-esl p.mylang { @apply text-base text-slate-400; }
+.prose-esl .lgrid { @apply w-fit max-w-full; }
+.prose-esl .lgrid table { @apply w-auto; }
+.prose-esl .lgrid td { @apply min-w-14 border border-slate-200 bg-sky-50/60 px-3 py-2 text-center text-2xl font-semibold text-slate-900; }
+.prose-esl .lgrid td:empty { @apply bg-transparent; }

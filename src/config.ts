@@ -10,3 +10,6 @@ export const LICENSE_URL = 'https://creativecommons.org/licenses/by-nc-sa/4.0/'
 export const DISCLAIMER = 'Provided as-is for educational use, without warranty of any kind.'
 /** Teacher exam files in public/downloads/exams/. */
 export const examPath = (f: string) => `downloads/exams/${f}`
+
+/** Level 1 presenter route (HashRouter), opened in a new tab. Level 1 file paths come from src/content_level1.json. */
+export const level1PresentHref = (n: number) => `#/level1/present/${n}`

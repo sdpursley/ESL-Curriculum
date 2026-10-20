@@ -1,5 +1,5 @@
 import type { Deck } from './types'
-/** Lessons that have a presenter deck. Each deck JSON is loaded on demand as its own chunk. */
+/** Level 2 lessons that have a presenter deck. Each deck JSON is loaded on demand as its own chunk. */
 export const DECK_LESSONS = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
 const loaders: Record<number, () => Promise<{ default: unknown }>> = {
   1: () => import('../decks/lesson1.json'),
@@ -16,5 +16,11 @@ const loaders: Record<number, () => Promise<{ default: unknown }>> = {
   12: () => import('../decks/lesson12.json'),
   13: () => import('../decks/lesson13.json'),
 }
-export const hasDeck = (n: number) => n in loaders
-export const loadDeck = async (n: number) => (await loaders[n]()).default as Deck
+/** Level 1 decks: every src/decks/level1/lesson<N>.json (made by scripts/export_deck.py ... --level 1) is picked up automatically. */
+const level1Files = import.meta.glob('../decks/level1/lesson*.json')
+const level1Loaders: Record<number, () => Promise<{ default: unknown }>> = Object.fromEntries(
+  Object.entries(level1Files).map(([path, load]) => [Number(path.match(/lesson(\d+)\.json$/)![1]), load as () => Promise<{ default: unknown }>]))
+export type Level = 1 | 2
+const table = (level: Level) => (level === 1 ? level1Loaders : loaders)
+export const hasDeck = (n: number, level: Level = 2) => n in table(level)
+export const loadDeck = async (n: number, level: Level = 2) => (await table(level)[n]()).default as Deck
