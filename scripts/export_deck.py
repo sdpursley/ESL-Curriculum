@@ -1,7 +1,8 @@
 """Export a .pptx deck into a JSON slide description for the in-browser presenter.
 Usage: python3 scripts/export_deck.py <deck.pptx> <lesson number>              (Level 2: writes src/decks/lesson<N>.json)
        python3 scripts/export_deck.py <deck.pptx> <lesson number> --level 1    (Level 1: writes src/decks/level1/lesson<N>.json,
-                                                                                 pictures matched against public/level1/images/) Every shape keeps its exact EMU geometry, fill,
+                                                                                 pictures matched against public/level1/images/)
+       python3 scripts/export_deck.py <deck.pptx> <lesson number> --level 3    (Level 3: src/decks/level3/lesson<N>.json, public/level3/images/) Every shape keeps its exact EMU geometry, fill,
 outline, and text runs. Reveal steps come from the pptx animation timeline:
 each clickEffect starts a new step; withEffect/afterEffect join the current step."""
 import sys, re, json, zipfile, os, posixpath
@@ -76,7 +77,9 @@ def shape(el,srels):
     if tag=='pic':
         rid=el.find('.//a:blip',NS).get('{%s}embed'%NS['r'])
         s.update(kind='pic',src=site_image_for(srels[rid]),alt=cnv.get('descr') or '')
-        if s['alt'].startswith('/'): s['alt']=os.path.splitext(os.path.basename(s['alt']))[0].split('_',1)[1].replace('_',' ')
+        if s['alt'].startswith('/'):   # a file path: L1_hello.png -> 'hello' (Level 1), L3_L1_bad_news.png -> 'bad news' (Level 3)
+            stem=os.path.splitext(os.path.basename(s['alt']))[0]
+            s['alt']=(re.sub(r'^L\d+_L\d+_','',stem) if LEVEL==3 else stem.split('_',1)[1]).replace('_',' ')
         return s
     g=sp_pr.find('a:prstGeom',NS); s['kind']='sp'; s['geom']=g.get('prst') if g is not None else 'rect'
     gd=sp_pr.find('a:prstGeom/a:avLst/a:gd',NS)

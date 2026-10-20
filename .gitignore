@@ -32,3 +32,10 @@ level1/**/*.wav
 level1/audio/tools/natural/cache/
 level1/audio/tools/natural/out/
 level1/audio/tools/natural/refs/
+
+# Level 3 build output, caches and audio masters (MP3s are committed, WAV masters are not)
+level3/curriculum/build/
+level3/images/tools/_twemoji_src/
+level3/audio/tools/cache/
+level3/audio/tools/out/
+level3/**/*.wav

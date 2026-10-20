@@ -1,0 +1,275 @@
+{
+ "file": "out/L3_L1_listening.mp3",
+ "duration_s": 90.88,
+ "wer": 0.0243,
+ "errors": 5,
+ "ref_words": 206,
+ "diffs": [
+  {
+   "t": 3.17,
+   "op": "replace",
+   "ref": "elena",
+   "hyp": "alaina",
+   "ctx": "lesson one listening elena and david are neighbors"
+  },
+  {
+   "t": 12.85,
+   "op": "replace",
+   "ref": "elena",
+   "hyp": "alaina",
+   "ctx": "how are you hi elena i'm okay thanks i'm"
+  },
+  {
+   "t": 58.98,
+   "op": "delete",
+   "ref": "really friendly",
+   "hyp": "",
+   "ctx": "because the people are really friendly how do you get"
+  },
+  {
+   "t": 72.78,
+   "op": "replace",
+   "ref": "a",
+   "hyp": "to",
+   "ctx": "away do you want a ride on monday i"
+  }
+ ],
+ "repeats": [
+  "lesson one listening alaina and",
+  "one listening alaina and david",
+  "listening alaina and david are",
+  "alaina and david are neighbors",
+  "how are you hi alaina",
+  "are you hi alaina i'm",
+  "you hi alaina i'm okay",
+  "hi alaina i'm okay thanks",
+  "alaina i'm okay thanks i'm",
+  "because the people are how",
+  "the people are how do",
+  "people are how do you",
+  "are how do you get",
+  "away do you want to",
+  "do you want to ride",
+  "you want to ride on",
+  "want to ride on monday",
+  "to ride on monday i"
+ ],
+ "low_prob_words": [
+  [
+   "really",
+   16.32,
+   0.05
+  ],
+  [
+   "how",
+   58.98,
+   0.32
+  ]
+ ],
+ "n_pauses": 33,
+ "pause_len_min_median_max": [
+  0.3,
+  1.41,
+  2.01
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.4,
+ "peak": 0.882,
+ "clipped_samples": 0,
+ "hyp": "lesson one listening alaina and david are neighbors it's saturday morning and they're at the laundromat listen hi david how are you hi alaina i'm okay thanks i'm just really tired really why because my car broke down on tuesday oh no what happened it just stopped on the highway now it's at the mechanic so i took the bus to work every day this week that's bad news when is it going to be ready maybe next friday what about you how was your week it was great i have good news i got a new job that's wonderful where is it at the hospital on pine street i'm going to work in the kitchen do you like it yes i love it because the people are how do you get there i walk it's only ten minutes from my apartment so i don't need a car lucky you i really need my car because my job is far away do you want to ride on monday i start at seven thanks but i start at six i'm going to take the bus again okay good luck with your car thanks and congratulations on your new job that's the end of the listening",
+ "per_line": [
+  {
+   "t": 9.83,
+   "spk": "Elena",
+   "line": "Hi, David! How are you?",
+   "ok": true,
+   "hyp": "hi david how are you",
+   "min_prob": 0.76,
+   "flags": []
+  },
+  {
+   "t": 12.39,
+   "spk": "David",
+   "line": "Hi, Elena. I'm OK, thanks. I'm just really tired.",
+   "ok": true,
+   "hyp": "hi elena i'm okay thanks i'm just really tired",
+   "min_prob": 0.38,
+   "flags": []
+  },
+  {
+   "t": 16.69,
+   "spk": "Elena",
+   "line": "Really? Why?",
+   "ok": true,
+   "hyp": "really why",
+   "min_prob": 0.85,
+   "flags": []
+  },
+  {
+   "t": 19.42,
+   "spk": "David",
+   "line": "Because my car broke down on Tuesday.",
+   "ok": true,
+   "hyp": "because my car broke down on tuesday",
+   "min_prob": 0.62,
+   "flags": []
+  },
+  {
+   "t": 22.57,
+   "spk": "Elena",
+   "line": "Oh no! What happened?",
+   "ok": true,
+   "hyp": "oh no what happened",
+   "min_prob": 0.72,
+   "flags": []
+  },
+  {
+   "t": 25.89,
+   "spk": "David",
+   "line": "It just stopped on the highway. Now it's at the mechanic, so I took the bus to work every day this week.",
+   "ok": true,
+   "hyp": "it just stopped on the highway now it's at the mechanic so i took the bus to work every day this week",
+   "min_prob": 0.73,
+   "flags": []
+  },
+  {
+   "t": 32.81,
+   "spk": "Elena",
+   "line": "That's bad news. When is it going to be ready?",
+   "ok": true,
+   "hyp": "that's bad news when is it going to be ready",
+   "min_prob": 0.95,
+   "flags": []
+  },
+  {
+   "t": 36.55,
+   "spk": "David",
+   "line": "Maybe next Friday. What about you? How was your week?",
+   "ok": true,
+   "hyp": "maybe next friday what about you how was your week",
+   "min_prob": 0.84,
+   "flags": []
+  },
+  {
+   "t": 40.45,
+   "spk": "Elena",
+   "line": "It was great! I have good news. I got a new job.",
+   "ok": true,
+   "hyp": "it was great i have good news i got a new job",
+   "min_prob": 0.9,
+   "flags": []
+  },
+  {
+   "t": 44.82,
+   "spk": "David",
+   "line": "That's wonderful! Where is it?",
+   "ok": true,
+   "hyp": "that's wonderful where is it",
+   "min_prob": 0.96,
+   "flags": []
+  },
+  {
+   "t": 48.36,
+   "spk": "Elena",
+   "line": "At the hospital on Pine Street. I'm going to work in the kitchen.",
+   "ok": true,
+   "hyp": "at the hospital on pine street i'm going to work in the kitchen",
+   "min_prob": 0.9,
+   "flags": []
+  },
+  {
+   "t": 52.75,
+   "spk": "David",
+   "line": "Do you like it?",
+   "ok": true,
+   "hyp": "do you like it",
+   "min_prob": 0.9,
+   "flags": []
+  },
+  {
+   "t": 54.85,
+   "spk": "Elena",
+   "line": "Yes, I love it, because the people are really friendly.",
+   "ok": true,
+   "hyp": "yes i love it because the people are really friendly",
+   "min_prob": 0.91,
+   "flags": []
+  },
+  {
+   "t": 59.44,
+   "spk": "David",
+   "line": "How do you get there?",
+   "ok": true,
+   "hyp": "how do you get there",
+   "min_prob": 0.85,
+   "flags": []
+  },
+  {
+   "t": 61.94,
+   "spk": "Elena",
+   "line": "I walk. It's only ten minutes from my apartment, so I don't need a car.",
+   "ok": true,
+   "hyp": "i walk it's only ten minutes from my apartment so i don't need a car",
+   "min_prob": 0.43,
+   "flags": []
+  },
+  {
+   "t": 66.82,
+   "spk": "David",
+   "line": "Lucky you! I really need my car, because my job is far away.",
+   "ok": true,
+   "hyp": "lucky you i really need my car because my job is far away",
+   "min_prob": 0.63,
+   "flags": []
+  },
+  {
+   "t": 72.27,
+   "spk": "Elena",
+   "line": "Do you want a ride on Monday? I start at seven.",
+   "ok": true,
+   "hyp": "do you want a ride on monday i start at seven",
+   "min_prob": 0.54,
+   "flags": []
+  },
+  {
+   "t": 76.1,
+   "spk": "David",
+   "line": "Thanks, but I start at six. I'm going to take the bus again.",
+   "ok": true,
+   "hyp": "thanks but i start at six i'm going to take the bus again",
+   "min_prob": 0.48,
+   "flags": []
+  },
+  {
+   "t": 80.52,
+   "spk": "Elena",
+   "line": "OK. Good luck with your car!",
+   "ok": true,
+   "hyp": "okay good luck with your car",
+   "min_prob": 0.68,
+   "flags": []
+  },
+  {
+   "t": 84.08,
+   "spk": "David",
+   "line": "Thanks. And congratulations on your new job!",
+   "ok": true,
+   "hyp": "thanks and congratulations on your new job",
+   "min_prob": 0.85,
+   "flags": []
+  }
+ ],
+ "f0_median_hz_by_speaker": {
+  "Elena": {
+   "median": 228.7,
+   "min_line": 187.1,
+   "max_line": 281.9
+  },
+  "David": {
+   "median": 123.8,
+   "min_line": 107.4,
+   "max_line": 145.9
+  }
+ },
+ "all_lines_ok": true
+}

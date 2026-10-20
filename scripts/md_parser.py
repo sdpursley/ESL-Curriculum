@@ -1,8 +1,10 @@
 """Markdown -> HTML helpers used by scripts/export_content.py (taken from the earlier static-site builder).
 The functions read the global list L (the Markdown lines); export_content.py sets it before use.
-Level 1 settings (export_content.py sets them for the Level 1 pages; the defaults give the Level 2 output):
-  IMG_PREFIX  picture URL folder ('images/' for Level 2, 'level1/images/' for Level 1)
-  L1_STYLE    True: <!-- grid --> tables (alphabet / letter grids), and the "Español: ..." / "My language: ..." lines get their own classes"""
+Level 1 / Level 3 settings (export_content.py sets them for the Level 1 and Level 3 pages; the defaults give the Level 2 output):
+  IMG_PREFIX  picture URL folder ('images/' for Level 2, 'level1/images/' for Level 1, 'level3/images/' for Level 3)
+  L1_STYLE    True: <!-- grid --> tables (alphabet / letter grids), and the "Español: ..." / "My language: ..." lines get their own classes
+              (used for Levels 1 and 3). Level 3 marks its two-sided grammar boxes with <!-- subst -->: the comment is skipped here and
+              the '‖' column makes the two-sided box, the same as in Level 2."""
 import re, html, os
 L = []   # filled in by export_content.py
 IMG_PREFIX = 'images/'
