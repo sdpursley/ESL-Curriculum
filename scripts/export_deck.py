@@ -1,6 +1,7 @@
 """Export a .pptx deck into a JSON slide description for the in-browser presenter.
-Usage: python3 scripts/export_deck.py <deck.pptx> <lesson number>
-Writes src/decks/lesson<N>.json. Every shape keeps its exact EMU geometry, fill,
+Usage: python3 scripts/export_deck.py <deck.pptx> <lesson number>              (Level 2: writes src/decks/lesson<N>.json)
+       python3 scripts/export_deck.py <deck.pptx> <lesson number> --level 1    (Level 1: writes src/decks/level1/lesson<N>.json,
+                                                                                 pictures matched against public/level1/images/) Every shape keeps its exact EMU geometry, fill,
 outline, and text runs. Reveal steps come from the pptx animation timeline:
 each clickEffect starts a new step; withEffect/afterEffect join the current step."""
 import sys, re, json, zipfile, os, posixpath
@@ -9,9 +10,14 @@ NS={'p':'http://schemas.openxmlformats.org/presentationml/2006/main',
     'a':'http://schemas.openxmlformats.org/drawingml/2006/main',
     'r':'http://schemas.openxmlformats.org/officeDocument/2006/relationships',
     'rel':'http://schemas.openxmlformats.org/package/2006/relationships'}
-SRC, N = sys.argv[1], int(sys.argv[2])
+args=sys.argv[1:]; LEVEL=2
+if '--level' in args:
+    k=args.index('--level'); LEVEL=int(args[k+1]); del args[k:k+2]
+SRC, N = args[0], int(args[1])
 HERE=os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SITE_IMAGES=os.path.join(HERE,'public','images')
+IMG_URL='images/' if LEVEL==2 else f'level{LEVEL}/images/'          # picture URL prefix used by the site
+SITE_IMAGES=os.path.join(HERE,'public',*IMG_URL.strip('/').split('/'))
+OUT_DIR=os.path.join(HERE,'src','decks') if LEVEL==2 else os.path.join(HERE,'src','decks',f'level{LEVEL}')
 z=zipfile.ZipFile(SRC)
 X=lambda p: etree.fromstring(z.read(p))
 def rels(part):
@@ -32,7 +38,7 @@ site_imgs={f:Image.open(os.path.join(SITE_IMAGES,f)).convert('RGB') for f in os.
 def site_image_for(media):
     im=Image.open(z.open(media)).convert('RGB')
     for f,s in site_imgs.items():
-        if s.size==im.size and ImageChops.difference(s,im).getbbox() is None: return 'images/'+f
+        if s.size==im.size and ImageChops.difference(s,im).getbbox() is None: return IMG_URL+f
     raise SystemExit(f'no identical site image for {media}')
 def text(sp):
     tb=sp.find('p:txBody',NS)
@@ -112,10 +118,17 @@ for i,sid in enumerate(pres.find('p:sldIdLst',NS),1):
     title=' '.join(t for sz,_,t in sorted(runs,key=lambda r:-r[1]) if sz==best).strip()
     if len(title)<6 or not re.search('[A-Za-z]{2}',title):  # e.g. slide whose biggest text is a single word ('am')
         title=' '.join(t for sz,_,t in sorted(runs,key=lambda r:-r[1]) if sz==max(r[0] for r in runs if r[0]<best)).strip()
+    multi=len({k for sz,k,_ in runs if sz==best})>1
+    if LEVEL!=2 and multi:  # Level 1: biggest text is spread over several boxes (e.g. "What's" / "I'm" cards): use the top box with large text
+        big=[(sh['y'],sh) for sh in shapes if sh.get('text') and any(r.get('sz',0)>=0.85*best and r.get('t','').strip() for p in sh['text']['paras'] for r in p['runs'])]
+        sh=min(big,key=lambda t:t[0])[1]
+        top_is_best=any(r.get('sz')==best for p in sh['text']['paras'] for r in p['runs'])   # stacked title boxes ("Classroom" / "Phrases"): keep
+        t2='' if top_is_best else ' '.join(r['t'].strip() for p in sh['text']['paras'] for r in p['runs'] if r.get('sz',0)>=0.85*best and r.get('t','').strip())
+        if len(t2)>=6 and re.search('[A-Za-z]{2}',t2): title=t2
     slides.append({'n':i,'file':part,'bg':color(bg) or '#FFFFFF','shapes':shapes,'steps':st,'notes':notes,'title':title})
-os.makedirs(os.path.join(HERE,'src','decks'),exist_ok=True)
-json.dump({'lesson':N,'width':W,'height':H,'source':os.path.basename(SRC),'slides':slides},
-          open(os.path.join(HERE,'src','decks',f'lesson{N}.json'),'w'),ensure_ascii=False,indent=1)
+os.makedirs(OUT_DIR,exist_ok=True)
+json.dump({'level':LEVEL,'lesson':N,'width':W,'height':H,'source':os.path.basename(SRC),'slides':slides},
+          open(os.path.join(OUT_DIR,f'lesson{N}.json'),'w'),ensure_ascii=False,indent=1)
 print(len(slides),'slides;',sum(len(s['steps']) for s in slides),'reveal steps;',
       'steps per slide:',{s['n']:len(s['steps']) for s in slides if s['steps']})
 chars=sorted({c for s in slides for sh in s['shapes'] if sh.get('text') for p in sh['text']['paras'] for r in p['runs'] for c in r.get('t','') if ord(c)>126})
