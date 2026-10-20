@@ -75,7 +75,7 @@ function Footer() {
   return (
     <footer className="mt-16 border-t border-slate-200 bg-slate-50 text-sm text-slate-600">
       <div className="mx-auto max-w-6xl space-y-2 px-4 py-8">
-        <p>© 2026 the authors. The authors license these course materials under <a className="link" href={LICENSE_URL}>CC BY-NC-SA 4.0</a>. Audio: Chatterbox TTS by Resemble AI (MIT License); synthetic voices with an inaudible Perth watermark.</p>
+        <p>© 2026 the authors. The authors license these course materials under <a className="link" href={LICENSE_URL}>CC BY-NC-SA 4.0</a>. Audio: Chatterbox TTS by Resemble AI (MIT License), cloned from synthetic Kokoro-82M (Apache 2.0) reference clips; no real people's voices; inaudible Perth watermark.</p>
         <p dangerouslySetInnerHTML={{ __html: ctx === 1 ? level1.creditHtml : content.creditHtml }} />
         <p>{DISCLAIMER} <Link className="link no-print" to="/about">About &amp; Credits</Link></p>
       </div>
