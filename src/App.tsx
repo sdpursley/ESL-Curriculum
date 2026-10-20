@@ -75,7 +75,7 @@ function Footer() {
   return (
     <footer className="mt-16 border-t border-slate-200 bg-slate-50 text-sm text-slate-600">
       <div className="mx-auto max-w-6xl space-y-2 px-4 py-8">
-        <p>The authors license these course materials under <a className="link" href={LICENSE_URL}>CC BY-NC-SA 4.0</a>. Audio: Chatterbox TTS by Resemble AI (MIT License); synthetic voices with an inaudible Perth watermark.</p>
+        <p>© 2026 the authors. The authors license these course materials under <a className="link" href={LICENSE_URL}>CC BY-NC-SA 4.0</a>. Audio: Chatterbox TTS by Resemble AI (MIT License); synthetic voices with an inaudible Perth watermark.</p>
         <p dangerouslySetInnerHTML={{ __html: ctx === 1 ? level1.creditHtml : content.creditHtml }} />
         <p>{DISCLAIMER} <Link className="link no-print" to="/about">About &amp; Credits</Link></p>
       </div>
@@ -302,7 +302,7 @@ function AboutPage() {
     <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">About &amp; Credits</h1>
     <p className="mt-4 text-lg text-slate-700">This is a free curriculum for adult English classes in two levels, Level 1 (beginner) and Level 2 (high beginner), written by volunteers for community programs. It focuses on practical daily life: work, family, health, shopping, and community services.</p>
     <SectionTitle icon={<FileText size={20} />}>License for our materials</SectionTitle>
-    <p className="text-lg text-slate-700">The authors license the lesson text, teacher plans, workbook pages, original drawings (calendars, clock, timeline, phone frame, ID cards, name tag, speech bubbles, letter tiles, arrows, lines, labels), and audio files under <a className="link" href={LICENSE_URL}>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>. You may share and adapt them for noncommercial purposes, with credit, and you must share adaptations under the same license. Program names and logos are not covered by this license. Third-party parts listed below keep their own licenses.</p>
+    <p className="text-lg text-slate-700">© 2026 the authors. The authors license the lesson text, teacher plans, workbook pages, original drawings (calendars, clock, timeline, phone frame, arrows, lines, labels), and audio files under <a className="link" href={LICENSE_URL}>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>. You may share and adapt them for noncommercial purposes, with credit, and you must share adaptations under the same license. Program names and logos are not covered by this license. Third-party parts listed below keep their own licenses.</p>
     <SectionTitle icon={<Star size={20} />}>Picture credits</SectionTitle>
     <blockquote className="rounded-r-2xl border-l-4 border-blue-500 bg-blue-50 p-5 text-lg text-slate-800"><p className="mb-1 font-semibold">Level 2</p><p dangerouslySetInnerHTML={{ __html: content.creditHtml }} /></blockquote>
     <blockquote className="mt-3 rounded-r-2xl border-l-4 border-violet-400 bg-violet-50 p-5 text-lg text-slate-800"><p className="mb-1 font-semibold">Level 1</p><p dangerouslySetInnerHTML={{ __html: level1.creditHtml }} /></blockquote>
