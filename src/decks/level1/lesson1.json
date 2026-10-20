@@ -286,7 +286,7 @@
   },
   {
    "n": 2,
-   "file": "ppt/slides/slide3.xml",
+   "file": "ppt/slides/slide2.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -1125,7 +1125,7 @@
   },
   {
    "n": 3,
-   "file": "ppt/slides/slide2.xml",
+   "file": "ppt/slides/slide3.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -1484,7 +1484,7 @@
   },
   {
    "n": 4,
-   "file": "ppt/slides/slide19.xml",
+   "file": "ppt/slides/slide4.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -2349,7 +2349,7 @@
   },
   {
    "n": 5,
-   "file": "ppt/slides/slide4.xml",
+   "file": "ppt/slides/slide5.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -2936,7 +2936,7 @@
   },
   {
    "n": 6,
-   "file": "ppt/slides/slide5.xml",
+   "file": "ppt/slides/slide6.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -3495,7 +3495,7 @@
   },
   {
    "n": 7,
-   "file": "ppt/slides/slide14.xml",
+   "file": "ppt/slides/slide7.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -4140,7 +4140,7 @@
   },
   {
    "n": 8,
-   "file": "ppt/slides/slide11.xml",
+   "file": "ppt/slides/slide8.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -5093,7 +5093,7 @@
   },
   {
    "n": 9,
-   "file": "ppt/slides/slide6.xml",
+   "file": "ppt/slides/slide9.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -5840,7 +5840,7 @@
   },
   {
    "n": 10,
-   "file": "ppt/slides/slide7.xml",
+   "file": "ppt/slides/slide10.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -6898,7 +6898,7 @@
   },
   {
    "n": 11,
-   "file": "ppt/slides/slide8.xml",
+   "file": "ppt/slides/slide11.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -7706,7 +7706,7 @@
   },
   {
    "n": 12,
-   "file": "ppt/slides/slide9.xml",
+   "file": "ppt/slides/slide12.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -8356,7 +8356,7 @@
   },
   {
    "n": 13,
-   "file": "ppt/slides/slide10.xml",
+   "file": "ppt/slides/slide13.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -8945,7 +8945,7 @@
   },
   {
    "n": 14,
-   "file": "ppt/slides/slide15.xml",
+   "file": "ppt/slides/slide14.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -9407,7 +9407,7 @@
   },
   {
    "n": 15,
-   "file": "ppt/slides/slide20.xml",
+   "file": "ppt/slides/slide15.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -10536,7 +10536,7 @@
   },
   {
    "n": 16,
-   "file": "ppt/slides/slide13.xml",
+   "file": "ppt/slides/slide16.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -11199,7 +11199,7 @@
   },
   {
    "n": 17,
-   "file": "ppt/slides/slide16.xml",
+   "file": "ppt/slides/slide17.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -11801,7 +11801,7 @@
   },
   {
    "n": 18,
-   "file": "ppt/slides/slide17.xml",
+   "file": "ppt/slides/slide18.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -12267,7 +12267,7 @@
   },
   {
    "n": 19,
-   "file": "ppt/slides/slide21.xml",
+   "file": "ppt/slides/slide19.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -13385,7 +13385,7 @@
   },
   {
    "n": 20,
-   "file": "ppt/slides/slide22.xml",
+   "file": "ppt/slides/slide20.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -14472,7 +14472,7 @@
   },
   {
    "n": 21,
-   "file": "ppt/slides/slide12.xml",
+   "file": "ppt/slides/slide21.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -15181,7 +15181,7 @@
   },
   {
    "n": 22,
-   "file": "ppt/slides/slide23.xml",
+   "file": "ppt/slides/slide22.xml",
    "bg": "#F1F5FB",
    "shapes": [
     {
@@ -15460,7 +15460,7 @@
   },
   {
    "n": 23,
-   "file": "ppt/slides/slide18.xml",
+   "file": "ppt/slides/slide23.xml",
    "bg": "#C9B8F2",
    "shapes": [
     {
@@ -15752,8 +15752,8 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Audio: synthetic voices made with Chatterbox TTS (MIT License); each file carries an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).",
-          "sz": 16.0,
+          "t": "Audio: synthetic voices made with Chatterbox TTS (MIT License); each file carries an inaudible Perth watermark marking it as AI-generated. Ana's voice is based on LibriTTS-R speaker 1580 (Koizumi et al. 2023, CC BY 4.0), from LibriVox public-domain readings. Font: Lexend Deca (OFL 1.1).",
+          "sz": 13.5,
           "b": false,
           "i": false,
           "color": "#1B2236"
@@ -15769,7 +15769,7 @@
         "runs": [
          {
           "t": "© 2026 the authors. The authors license this deck under CC BY-NC-SA 4.0.",
-          "sz": 16.0,
+          "sz": 13.5,
           "b": false,
           "i": false,
           "color": "#1B2236"
