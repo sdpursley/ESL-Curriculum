@@ -15763,6 +15763,22 @@
         "spcAft": 6.0,
         "spcBef": 0,
         "endSz": 22.0
+       },
+       {
+        "algn": "l",
+        "runs": [
+         {
+          "t": "© 2026 the authors. The authors license this deck under CC BY-NC-SA 4.0.",
+          "sz": 16.0,
+          "b": false,
+          "i": false,
+          "color": "#1B2236"
+         }
+        ],
+        "lnSpc": 1.0,
+        "spcAft": 6.0,
+        "spcBef": 0,
+        "endSz": 22.0
        }
       ]
      }

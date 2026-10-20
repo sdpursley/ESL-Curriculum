@@ -694,4 +694,4 @@ My language: ______________________________________________
 
 Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and ID cards, a name tag, speech bubbles, letters, and labels were added. The file-by-file list is in `images/CREDITS.md`.
 
-Task icons on the pages are standard emoji characters shown with the computer's emoji font. Listening audio: synthetic voices made with Chatterbox TTS (Resemble AI, MIT License); each file carries an inaudible Perth watermark marking it as AI-generated. Course materials: licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Task icons on the pages are standard emoji characters shown with the computer's emoji font. Listening audio: synthetic voices made with Chatterbox TTS (Resemble AI, MIT License); each file carries an inaudible Perth watermark marking it as AI-generated. Course materials: © 2026 the authors, CC BY-NC-SA 4.0.
