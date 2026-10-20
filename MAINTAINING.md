@@ -80,13 +80,6 @@ npm run dev                            # preview at the address it prints (Ctrl+
 Other page text (home page, About page, Downloads page wording, navigation) lives in `src/App.tsx`, with site settings
 and links in `src/config.ts`. Edit those files directly.
 
-> **Known difference:** `src/content.json` currently has one sentence that was updated by hand and is not yet in the
-> Markdown: in the Teacher Guide introduction, "Audio files are in `audio/` (L1_listening.mp3 … L13_listening.mp3, plus the
-> exam files …)". The Markdown (and the PDF) still say audio exists only for Lessons 1–4. Before you run
-> `export_content.py`, fix that sentence in the Markdown (search for "Audio files are in"), or the website will go back
-> to the old wording. The Markdown also still says "the audio is coming later" in "0. About This Edition" and
-> "Lessons 5–13 and exam audio are not produced yet" in section 6; update those at the same time.
-
 ## 3. Slides (PowerPoint decks)
 
 The `.pptx` files in `public/downloads/slides/` **are** the editable source. (The decks were first made with a

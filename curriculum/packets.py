@@ -10,7 +10,7 @@ LEGAL = '''---
 
 © 2026 the authors. The authors license these materials under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/). Program names and logos are not covered by this license.
 
-Listening audio (when produced): synthetic voices made with Chatterbox TTS by Resemble AI (MIT License); each file carries an inaudible Perth watermark that marks it as AI-generated.
+Listening audio (on the website, for every lesson and both exams): synthetic voices made with Chatterbox TTS by Resemble AI (MIT License); each file carries an inaudible Perth watermark that marks it as AI-generated.
 
 These materials are provided as-is for educational use, without warranty of any kind.
 '''

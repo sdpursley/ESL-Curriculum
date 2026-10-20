@@ -27,7 +27,7 @@ This is the complete semester: **13 lessons**, a **midterm** (Week 8), a **final
 - **Part B** has a teacher plan for every lesson and both exam nights. Teachers need no Spanish.
 - **Part C** is the Student Workbook, with pictures, listening tasks, grammar boxes, short Spanish notes for learners, and homework.
 - **Part E** has the midterm and final papers. Print them separately.
-- Listening audio exists for Lessons 1–4. Scripts for Lessons 5–13 and the exams are in Part B; the audio is coming later. Until then, read the scripts aloud with a volunteer.
+- Listening audio is available for every lesson (Lessons 1–13) and for the midterm and final listening tests. Get it on the website: each lesson page, the Downloads page, and the Exams page. The scripts are in Part B.
 
 ---
 ## 1. The Semester at a Glance
@@ -180,7 +180,7 @@ This is the complete semester: **13 lessons**, a **midterm** (Week 8), a **final
 <!-- mode: teacher -->
 ## 5. Teacher Guide: How to Use the Lesson Plans
 
-> **How to read these plans:** Each lesson has (A) a **Teacher Plan** with clock times, steps, the listening script, and answer keys, and (B) a **Student Page** to print. The student page has the listening tasks, grammar box, Spanish note (*Nota para hispanohablantes*, written for learners to read on their own; teachers don't need to read or explain it), tips for all learners, and the homework. Audio files are in `audio/` (L1_listening.mp3 … L4_listening.mp3; L5–L13 and the exam files `Midterm_listening.mp3` and `Final_listening.mp3` will use the same names once produced). Each file plays the conversation **once**; play the audio again if needed. **No speaker or device?** Read the script aloud with a volunteer learner.
+> **How to read these plans:** Each lesson has (A) a **Teacher Plan** with clock times, steps, the listening script, and answer keys, and (B) a **Student Page** to print. The student page has the listening tasks, grammar box, Spanish note (*Nota para hispanohablantes*, written for learners to read on their own; teachers don't need to read or explain it), tips for all learners, and the homework. Audio files are in `audio/` (L1_listening.mp3 … L13_listening.mp3, plus the exam files `Midterm_listening.mp3` and `Final_listening.mp3`). Each file plays the conversation **once**; play the audio again if needed. **No speaker or device?** Read the script aloud with a volunteer learner.
 
 > **Grouping toolkit:** *Pairs:* turn to a neighbor; with an odd number make one group of 3. *New partners:* matching cards, or line up by birthday month and "fold" the line. *Inside–outside circles:* inner circle faces out, outer circle faces in; the outer circle moves one person clockwise each round. *Instruction rule:* **Model it** (show with one learner), **check it** (ask "Do you write or speak?"), **then go** (start the timer).
 
@@ -753,7 +753,7 @@ This is the complete semester: **13 lessons**, a **midterm** (Week 8), a **final
 - weekend activity picture cards (1 set per group)
 - "Weekend Mingle" sheet (6 boxes)
 - 3 slips of paper per learner (If time)
-- `L5_listening.mp3` (script below; audio to be produced)
+- `L5_listening.mp3` (script below; audio on the website)
 - **Prep time:** 20 min.
 :::
 
@@ -888,7 +888,7 @@ This is the complete semester: **13 lessons**, a **midterm** (Week 8), a **final
 - irregular verb cards (base form / past form) for a memory game
 - blank timeline strips (1 per learner)
 - "Find Someone Who" sheet for If time
-- `L6_listening.mp3` (script below; audio to be produced)
+- `L6_listening.mp3` (script below; audio on the website)
 - **Prep time:** 25 min.
 :::
 
@@ -1024,7 +1024,7 @@ This is the complete semester: **13 lessons**, a **midterm** (Week 8), a **final
 - transport picture cards (pairs)
 - large paper for a class line-up (optional)
 - simple map of the neighborhood (If time)
-- `L7_listening.mp3` (script below; audio to be produced)
+- `L7_listening.mp3` (script below; audio on the website)
 - **Prep time:** 20 min.
 :::
 
@@ -1157,7 +1157,7 @@ This is the complete semester: **13 lessons**, a **midterm** (Week 8), a **final
 :::box Materials
 - **Part E: Assessment Packets**: Midterm Listening Test, Grammar Test, Speaking Task Cards, Speaking Score Sheet, Can-Do Self-Check (1 per learner + 3 spares)
 - Teacher copies: Speaking Interview Card, Answer Key
-- `Midterm_listening.mp3` (script below; audio to be produced) + phone and small speaker
+- `Midterm_listening.mp3` (script below; audio on the website) + phone and small speaker
 - station materials (see the box below); a timer
 - pencils; a quiet corner with 2 chairs + 1 for the interviewer
 - **Prep time:** 40 min (set up stations before class).
@@ -1304,7 +1304,7 @@ Every test item uses a task type learners know from class: circle, true/false, c
 - place picture cards
 - poster paper + markers (1 per group) for the Neighborhood Guide
 - sticky notes (If time)
-- `L8_listening.mp3` (script below; audio to be produced)
+- `L8_listening.mp3` (script below; audio on the website)
 - **Prep time:** 20 min.
 :::
 
@@ -1438,7 +1438,7 @@ Every test item uses a task type learners know from class: circle, true/false, c
 - food picture cards
 - simple menu cards (1 per group; teacher-made, with prices)
 - play money or price cards (If time)
-- `L9_listening.mp3` (script below; audio to be produced)
+- `L9_listening.mp3` (script below; audio on the website)
 - **Prep time:** 25 min.
 :::
 
@@ -1576,7 +1576,7 @@ Every test item uses a task type learners know from class: circle, true/false, c
 - health picture cards
 - patient role cards (invented problems; 1 per learner)
 - appointment calendar slips (If time)
-- `L10_listening.mp3` (script below; audio to be produced)
+- `L10_listening.mp3` (script below; audio on the website)
 - **Prep time:** 20 min.
 :::
 
@@ -1712,7 +1712,7 @@ Every test item uses a task type learners know from class: circle, true/false, c
 - activity picture cards
 - "My Weekend Planner" sheet (Fri / Sat / Sun, morning / afternoon / evening)
 - invitation cards (If time)
-- `L11_listening.mp3` (script below; audio to be produced)
+- `L11_listening.mp3` (script below; audio on the website)
 - **Prep time:** 20 min.
 :::
 
@@ -1848,7 +1848,7 @@ Every test item uses a task type learners know from class: circle, true/false, c
 - errand picture cards
 - phone role cards (customer / agent; fictional companies and 555-01xx numbers)
 - a sample bill with a fictional company name (If time)
-- `L12_listening.mp3` (script below; audio to be produced)
+- `L12_listening.mp3` (script below; audio on the website)
 - **Prep time:** 25 min.
 :::
 
@@ -1989,7 +1989,7 @@ Every test item uses a task type learners know from class: circle, true/false, c
 - tense helper poster (copy the table from the Grammar page)
 - "Then / Now / Next" cards
 - a timer or phone for practice talks
-- `L13_listening.mp3` (script below; audio to be produced)
+- `L13_listening.mp3` (script below; audio on the website)
 - **Prep time:** 20 min.
 :::
 
@@ -2115,7 +2115,7 @@ Every test item uses a task type learners know from class: circle, true/false, c
 :::box Materials
 - **Part E: Assessment Packets**: Final Listening Test, Grammar Test, Speaking Task Cards, Speaking Score Sheet, Can-Do Self-Check (1 per learner + 3 spares)
 - Teacher copies: Speaking Interview Card, Answer Key
-- `Final_listening.mp3` (script below; audio to be produced) + phone and small speaker
+- `Final_listening.mp3` (script below; audio on the website) + phone and small speaker
 - station materials (see the box below); a timer
 - pencils; a quiet corner with 2 chairs + 1 for the interviewer
 - **Prep time:** 40 min (set up stations before class).
@@ -4896,10 +4896,10 @@ The voices had to be **completely free (no paid tier required)**, with a license
 - Each file has a narrator intro, the conversation **once**, and an end cue. Play the audio again if needed (for example, once for each task). Lines are made one at a time, with clear pauses at commas, at the ends of sentences, and between speakers. Files are mono MP3 at 96 kbps, with even loudness.
 - **Voices:** Chatterbox copies a voice from a short sample clip; the sample clips were made with Kokoro-82M (Apache 2.0). Each character keeps the same voice in every lesson.
 - **Quality check:** we transcribed every file with an automatic speech recognizer and checked each line for missing or extra words and odd sounds; bad takes were remade. The transcripts match the scripts, except the recognizer spells "Ana" as "Anna" and "cumbia" as "kumbia."
-- **To regenerate or make Lessons 5–13:** the scripts and the generator are in `audio/scripts.py` and `audio/processor.py` (see `audio/README.txt`).
-- **Lessons 5–13 and exam audio are not produced yet.** Their scripts are in Part B (each lesson's "Listening script" and the Week 8 / Week 15 plans). They are written for Chatterbox TTS: short sentences, clear punctuation, numbers spelled the way they should be spoken ("ten fifteen," "twenty-four fifty"), and the same characters (Rosa, Sam, Ana, Carlos, Marco, Kim, Narrator). New roles: **Server** (Lesson 9), **Receptionist** (Lesson 10), **Agent** (Lesson 12). **Check after generating:** Sam spelling *L-O-P-E-Z* letter by letter and the account number read digit by digit (Lesson 12), and the surname *Silva* (Lesson 10).
+- **To regenerate a file:** the scripts and the generator are in `audio/scripts.py` and `audio/processor.py` (see `audio/README.txt`).
+- **Lessons 5–13 and the exam audio** were made the same way and are listed below. All 15 files are on the website (each lesson page, the Downloads page, and the Exams page). Their scripts are in Part B (each lesson's "Listening script" and the Week 8 / Week 15 plans). They are written for Chatterbox TTS: short sentences, clear punctuation, numbers spelled the way they should be spoken ("ten fifteen," "twenty-four fifty"), and the same characters (Rosa, Sam, Ana, Carlos, Marco, Kim, Narrator). New roles: **Server** (Lesson 9), **Receptionist** (Lesson 10), **Agent** (Lesson 12). **Check after generating:** Sam spelling *L-O-P-E-Z* letter by letter and the account number read digit by digit (Lesson 12), and the surname *Silva* (Lesson 10).
 
-| Planned file | Length (estimate) | Speakers |
+| File | Length | Speakers |
 |---|---|---|
 | `audio/L5_listening.mp3` | about 1:17 | Narrator, Kim, Marco |
 | `audio/L6_listening.mp3` | about 1:08 | Narrator, Sam, Ana |

@@ -17,7 +17,7 @@ Status: design only. No code, routes, or dist changes yet. The v5 lessons and ex
 | Final exam teacher packet (PDF) | `Final_Exam_Teacher_Packet.pdf` | Teachers |
 | Final exam teacher packet (Word) | `Final_Exam_Teacher_Packet.docx` | Teachers (editing) |
 | Final student test (PDF, no answers) | `Final_Student_Test.pdf` | Print for learners |
-| Midterm / Final listening audio | `audio/Midterm_listening.mp3`, `audio/Final_listening.mp3` (not produced yet) | Classroom |
+| Midterm / Final listening audio | `audio/Midterm_listening.mp3`, `audio/Final_listening.mp3` | Classroom |
 
 ## Page layout
 1. **H1 "Exams"** + one line: "Week 8: Midterm (Lessons 1–7) and Week 15: Final Exam (Lessons 1–13). For teachers. Print the student tests separately."
