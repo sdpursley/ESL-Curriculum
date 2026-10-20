@@ -41,15 +41,14 @@ export function Level1Home() {
     <Card><Html html={level1.routine} /></Card>
     <div className="mt-10 grid gap-6 lg:grid-cols-2">
       <div><SectionTitle icon={<Users size={20} />}>For students</SectionTitle><Card>
-        <ul className="space-y-2 text-lg text-slate-700">
-          <li>👂 🗣️ ✏️ Every task starts with an icon. The icon tells you what to do.</li>
-          <li>🇪🇸 Every instruction has a line in Spanish, and a "My language" line for your language.</li>
-          <li>🎧 Listen to the audio on your phone. Play it again if you need to.</li>
-          <li>🏠 Homework is short: about 10 minutes.</li>
+        <ul className="list-disc space-y-2 pl-6 text-lg text-slate-700">
+          <li>Every instruction has a line in Spanish, and a "My language" line for your language.</li>
+          <li>Listen to the audio on your phone. Play it again if you need to.</li>
+          <li>Homework is short: about 10 minutes.</li>
         </ul></Card></div>
       <div><SectionTitle icon={<Presentation size={20} />}>For teachers</SectionTitle><Card>
         <p className="mb-2 text-lg font-semibold text-slate-800">Teachers do not need to speak Spanish.</p>
-        <p className="text-lg text-slate-700">Teach in English. Show, point, and gesture. The student pages give every task a picture icon, a Spanish line, and a "My language" line, so learners can read the instructions on their own. Each lesson has a clock-time teacher plan, slides you can present in the browser, listening audio, and printable student pages.</p>
+        <p className="text-lg text-slate-700">Teach in English. Show, point, and gesture. The student pages give every task a Spanish line and a "My language" line, so learners can read the instructions on their own. Each lesson has a clock-time teacher plan, slides you can present in the browser, listening audio, and printable student pages.</p>
       </Card></div>
     </div>
   </>)
