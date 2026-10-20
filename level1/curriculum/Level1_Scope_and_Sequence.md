@@ -205,7 +205,7 @@ Same format as Level 2: the question side on the left, the answer side on the ri
 
 | Item | Level 1 detail |
 |---|---|
-| **Student Workbook pages** | New Words, Listening, Grammar, Homework (4 pages), plus a Letters & Numbers / Real-World Reading page. Larger font and more white space than Level 2. Task instructions use an icon (👂 listen, 🗣️ say, ✏️ write, 👥 pairs). Spanish notes are on student pages only. |
+| **Student Workbook pages** | New Words, Listening, Grammar, Homework (4 pages), plus a Letters & Numbers / Real-World Reading page. Larger font and more white space than Level 2. Task instructions are plain English words, with no icons; each has a Spanish line and a "My language" line under it. Spanish notes are on student pages only. |
 | **Pictures** | 10–12 per lesson (≈ 150 total), 600×420 PNG cards made from Twemoji graphics (CC BY 4.0), same style and naming as Level 2 (`L1_name.png`). A few words have no good emoji (for example, *refrigerator*, *stove*, *back*, *last name*). Those get a labeled drawing combining emoji shapes, or a simple form/ID-card picture with the field highlighted. Every picture gets a line in `CREDITS.md`. |
 | **Listening audio** | One MP3 per lesson + midterm + final (15 files), same voice cast and tools as Level 2. **Slower and shorter:** about 0:40–1:00, 2 speakers, short lines, clear pauses. Each file plays once; teachers press play again. |
 | **Slides** | One deck per lesson, same look as Level 2: the picture words, the listening tasks, the grammar box with click-to-reveal answers, and Talk Time instructions. |
