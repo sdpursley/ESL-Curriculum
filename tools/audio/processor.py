@@ -1,5 +1,9 @@
 """Engine-agnostic listening-audio builder: clause-level synthesis + controlled pauses + loudness normalization.
-Usage: python processor.py ENGINE [L1 L2 ...]   (ENGINE = kokoro | piper | kitten | chatterbox)
+Usage: python processor.py ENGINE [L1 L2 ...]   (ENGINE = chatterbox | kokoro)
+chatterbox: the published voices, cloned only from the synthetic Kokoro-made clips in samples/refs/ (see make_refs.py).
+kokoro: plain Kokoro-82M voices (Apache 2.0), used for early drafts.
+No engine or voice trained on recordings of real people is supported here (no Piper/LibriTTS voices,
+no Chatterbox built-in default voice).
 Outputs samples/<ENGINE>_<L>.mp3 (never touches the original L*_listening.mp3)."""
 import re, sys, os, subprocess, numpy as np, soundfile as sf, pyloudnorm as pyln
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -13,11 +17,8 @@ SPEED = 0.9
 MIN_WORDS = 1
 ENGINE_VOICES = {
  "kokoro": {"N":"af_sarah","Rosa":"af_heart","Sam":"am_michael","Ana":"af_bella","Marco":"am_adam","Kim":"af_nova","Carlos":"am_eric","Server":"am_puck","Receptionist":"af_river","Agent":"af_kore"},
- "kitten": {"N":"Luna","Rosa":"Bella","Sam":"Jasper","Ana":"Rosie","Marco":"Bruno","Kim":"Kiki","Carlos":"Hugo"},
- "piper":  {},  # filled from PIPER_SPK env/default below
- "chatterbox": {},
+ "chatterbox": {},   # filled in __main__ with samples/refs/<character>.wav (Kokoro-made clips of the voices above)
 }
-PIPER_SPK = {"N":0,"Rosa":0,"Sam":0,"Ana":0,"Marco":0,"Kim":0,"Carlos":0}
 
 def chunks(line):
     """Split into (text, pause_after) by sentence then comma."""
@@ -65,22 +66,16 @@ def make_engine(name):
         from kokoro_onnx import Kokoro
         k = Kokoro(os.environ.get('KOKORO_MODEL', 'models/kokoro-v1.0.onnx'), os.environ.get('KOKORO_VOICES', 'models/voices-v1.0.bin'))
         return lambda t, v: resample(*k.create(t, voice=v, speed=SPEED, lang='en-us'))
-    if name == "kitten":
-        from kittentts import KittenTTS
-        m = KittenTTS("KittenML/kitten-tts-mini-0.8")
-        return lambda t, v: resample(np.asarray(m.generate(t, voice=v, speed=SPEED)).flatten(), 24000)
-    if name == "piper":
-        from piper import PiperVoice, SynthesisConfig
-        pv = PiperVoice.load(os.environ.get('PIPER_MODEL', 'models/en_US-libritts_r-medium.onnx'))
-        def f(t, v):
-            cfg = SynthesisConfig(speaker_id=v, length_scale=1/SPEED, noise_scale=0.6, noise_w_scale=0.7)
-            return resample(np.concatenate([c.audio_float_array for c in pv.synthesize(t, cfg)]), pv.config.sample_rate)
-        return f
     if name == "chatterbox":
         import torch; from chatterbox.tts import ChatterboxTTS
         torch.set_num_threads(int(os.environ.get('NT','8'))); m = ChatterboxTTS.from_pretrained(device="cpu")
-        # Chatterbox voices come from short reference clips (made with Kokoro; Apache-2.0) in samples/refs/
-        return lambda t, v: resample(m.generate(t, audio_prompt_path=v, exaggeration=float(os.environ.get('EXAG','0.55')), cfg_weight=float(os.environ.get('CFG','0.45'))).squeeze().numpy(), m.sr)
+        # Chatterbox voices come from short reference clips (made with Kokoro; Apache-2.0) in samples/refs/.
+        # Always pass a reference clip: without one Chatterbox falls back to its built-in default voice (not allowed).
+        def say(t, v):
+            if not v or not os.path.isfile(v): raise ValueError(f"Chatterbox needs a Kokoro-made reference clip, got {v!r}")
+            return _gen(t, v)
+        _gen = lambda t, v: resample(m.generate(t, audio_prompt_path=v, exaggeration=float(os.environ.get('EXAG','0.55')), cfg_weight=float(os.environ.get('CFG','0.45'))).squeeze().numpy(), m.sr)
+        return say
 
 CHECK = os.environ.get('CLIP_CHECK', '1') == '1'
 REGEN_LOG = []
@@ -164,10 +159,9 @@ def build(engine, key, say, voices):
 
 if __name__ == "__main__":
     global_ = None
-    eng = sys.argv[1]; keys = sys.argv[2:] or list(LESSONS)
-    voices = ENGINE_VOICES[eng]
-    if eng == "piper":
-        import json; voices = json.loads(os.environ.get('PIPER_SPK', 'null')) or PIPER_SPK
+    eng = sys.argv[1]
+    if eng not in ENGINE_VOICES: sys.exit(f"unknown engine {eng!r}: use chatterbox or kokoro")
+    voices = ENGINE_VOICES[eng]; keys = sys.argv[2:] or list(LESSONS)
     if eng == "chatterbox":
         globals()["MIN_WORDS"] = 3
         d = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'samples', 'refs')

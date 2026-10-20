@@ -99,6 +99,6 @@ not committed.
 
 - Vocabulary pictures are modified [Twemoji](https://github.com/twitter/twemoji) graphics, CC BY 4.0 (details in `public/images/CREDITS.md` and `level1/images/CREDITS.md`, `level3/images/CREDITS.md`)
 - Lexend Deca font, SIL Open Font License 1.1
-- Audio made with Chatterbox TTS by Resemble AI (MIT License); synthetic voices cloned only from Kokoro-82M (Apache 2.0) synthetic reference clips, no recordings of real people, carrying an inaudible Perth watermark
+- Audio made with Chatterbox TTS by Resemble AI (MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache 2.0); no recordings of real people; the files carry an inaudible Perth watermark
 
 See the site's About page (`#/about`) for the full notice.

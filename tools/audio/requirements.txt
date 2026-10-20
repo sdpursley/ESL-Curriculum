@@ -16,6 +16,5 @@ pyloudnorm==0.2.0
 scipy==1.17.1
 librosa==0.11.0
 setuptools<81   # perth still imports pkg_resources
-# Optional, only for the older engines in processor.py / make_audio.py (not used for the published files):
+# Optional, only for make_refs.py (remakes the Kokoro voice reference clips) and the kokoro engine in processor.py / make_audio.py:
 # kokoro-onnx==0.6.1
-# piper-tts==1.8.0
