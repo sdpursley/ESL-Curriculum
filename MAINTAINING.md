@@ -132,6 +132,12 @@ reference clips in `tools/audio/samples/refs/` (Rosa, Sam, Ana, Carlos, Marco, K
 those clips were made with Kokoro-82M, Apache 2.0). Every Chatterbox file carries an inaudible **Perth watermark**
 marking it as AI-generated. Do not remove it.
 
+**Voice rule:** every voice must be cloned from a synthetic, Kokoro-made reference clip. Never use a voice based on
+recordings of real people: no LibriVox / LibriTTS / LibriTTS-R audio, no Piper voices trained on them, and not
+Chatterbox's built-in default voice (`processor.py` refuses to run Chatterbox without a reference clip). The
+reference clips are plain Kokoro output: `tools/audio/make_refs.py` remakes them, and `make_refs.py --check`
+confirms that the committed clips match fresh Kokoro output (it needs `kokoro-onnx` and the Kokoro model files).
+
 **Setup** (Python 3.11, separate environment, downloads about 3 GB of model weights on first run):
 
 ```bash
