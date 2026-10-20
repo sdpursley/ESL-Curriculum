@@ -160,19 +160,19 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson1.pdf",
      "label": "PDF, for printing",
-     "size": 763765
+     "size": 764010
     },
     {
      "kind": "docx",
      "href": "level1/downloads/Level1_Lesson1.docx",
      "label": "Word document (DOCX), for editing",
-     "size": 244009
+     "size": 244015
     },
     {
      "kind": "pptx",
      "href": "level1/downloads/slides/Level1_Lesson1_Slides.pptx",
      "label": "Teacher slides (PowerPoint)",
-     "size": 382201
+     "size": 382251
     },
     {
      "kind": "mp3",

@@ -84,7 +84,7 @@ not committed.
 
 ## License and credits
 
-The lesson text, teacher plans, workbook pages, original drawings and audio files (both levels) are licensed under
+© 2026 the authors. The lesson text, teacher plans, workbook pages, original drawings and audio files are licensed under
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Third-party parts keep their own licenses:
 
 - Vocabulary pictures are modified [Twemoji](https://github.com/twitter/twemoji) graphics, CC BY 4.0 (details in `public/images/CREDITS.md` and `level1/images/CREDITS.md`)

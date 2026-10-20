@@ -298,7 +298,7 @@ and no `cache/` or `out/` folders (`.gitignore` already skips them).
 
 ## Licenses (keep these when you change things)
 
-- Course materials (both levels): CC BY-NC-SA 4.0.
+- Course materials: © 2026 the authors, CC BY-NC-SA 4.0.
 - Vocabulary pictures: modified Twemoji graphics, CC BY 4.0 (see `public/images/CREDITS.md` and `level1/images/CREDITS.md`).
 - Font for slides and the presenter: Lexend Deca, SIL Open Font License 1.1 (`src/assets/fonts/`).
 - Audio: made with Chatterbox TTS (Resemble AI, MIT License); synthetic voices with a Perth watermark.
