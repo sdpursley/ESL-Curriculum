@@ -1,11 +1,13 @@
 {
  "settings": {
   "ver": "final",
-  "ana": "Ana_LTTSR1580",
+  "ana": "af_jessica",
   "carlos": "Sam",
   "exag": 0.72,
   "cfg": 0.32,
-  "pause_between_lines": 1.3
+  "pause_between_lines": 1.3,
+  "ana_ref": "level1/audio/tools/natural/kokoro_refs/af_jessica.wav (Kokoro-82M voice af_jessica, synthetic)",
+  "carlos_ref": "tools/audio/samples/refs/Sam.wav (Kokoro-82M, synthetic)"
  },
  "lines": [
   {
@@ -13,21 +15,21 @@
     "spk": "Ana",
     "line": "Hello. Thank you.",
     "tts_text": "Hello. Thank you.",
-    "seed": 49540,
+    "seed": 2026,
     "hyp": "hello thank you",
     "ok": true,
     "edge": false,
     "flags": [],
-    "min_prob": 0.95,
-    "mean_prob": 0.97,
+    "min_prob": 0.92,
+    "mean_prob": 0.96,
     "letter_gaps": [],
-    "dur": 1.2,
-    "score": 1.565,
-    "f0_med": 242.6,
-    "f0_st_sd": 4.49,
-    "f0_range_st": 12.17
+    "dur": 1.71,
+    "score": 1.563,
+    "f0_med": 230.3,
+    "f0_st_sd": 6.01,
+    "f0_range_st": 15.1
    },
-   "tries": 9,
+   "tries": 4,
    "passing": 3
   },
   {
@@ -35,21 +37,21 @@
     "spk": "Ana",
     "line": "My name is Ana.",
     "tts_text": "My name is Ana.",
-    "seed": 89135,
+    "seed": 25783,
     "hyp": "my name is ana",
     "ok": true,
     "edge": false,
     "flags": [],
-    "min_prob": 0.75,
-    "mean_prob": 0.92,
+    "min_prob": 0.76,
+    "mean_prob": 0.91,
     "letter_gaps": [],
-    "dur": 1.12,
-    "score": 1.46,
-    "f0_med": 208.2,
-    "f0_st_sd": 3.61,
-    "f0_range_st": 11.17
+    "dur": 1.16,
+    "score": 1.514,
+    "f0_med": 194.8,
+    "f0_st_sd": 4.3,
+    "f0_range_st": 14.5
    },
-   "tries": 12,
+   "tries": 4,
    "passing": 3
   },
   {
@@ -57,48 +59,48 @@
     "spk": "Ana",
     "line": "It's Ruiz.",
     "tts_text": "It's Ruiz.",
-    "seed": 97054,
+    "seed": 2026,
     "hyp": "it's ruiz",
     "ok": true,
     "edge": false,
     "flags": [],
-    "min_prob": 0.94,
-    "mean_prob": 0.96,
+    "min_prob": 0.93,
+    "mean_prob": 0.94,
     "letter_gaps": [],
-    "dur": 1.16,
-    "score": 1.556,
-    "f0_med": 266.1,
-    "f0_st_sd": 9.85,
-    "f0_range_st": 29.3
+    "dur": 1.09,
+    "score": 1.545,
+    "f0_med": 231.0,
+    "f0_st_sd": 4.0,
+    "f0_range_st": 12.11
    },
-   "tries": 14,
-   "passing": 2
+   "tries": 4,
+   "passing": 3
   },
   {
    "chosen": {
     "spk": "Ana",
     "line": "R, U, I, Z.",
     "tts_text": "R, U, I, Zee.",
-    "seed": 81216,
+    "seed": 2026,
     "hyp": "r u i z",
     "ok": true,
     "edge": false,
     "flags": [],
-    "min_prob": 0.62,
-    "mean_prob": 0.82,
+    "min_prob": 0.64,
+    "mean_prob": 0.83,
     "letter_gaps": [
-     0.14,
-     0.08,
-     0.14
+     0.35,
+     0.29,
+     0.21
     ],
-    "dur": 2.12,
-    "score": 1.469,
-    "f0_med": 200.5,
-    "f0_st_sd": 3.56,
-    "f0_range_st": 10.89
+    "dur": 3.13,
+    "score": 1.741,
+    "f0_med": 226.3,
+    "f0_st_sd": 5.06,
+    "f0_range_st": 14.2
    },
-   "tries": 36,
-   "passing": 2
+   "tries": 3,
+   "passing": 3
   },
   {
    "chosen": {
@@ -132,7 +134,7 @@
     "ok": true,
     "edge": false,
     "flags": [],
-    "min_prob": 0.67,
+    "min_prob": 0.65,
     "mean_prob": 0.87,
     "letter_gaps": [
      0.25,
@@ -140,7 +142,7 @@
      0.08
     ],
     "dur": 2.22,
-    "score": 1.559,
+    "score": 1.554,
     "f0_med": 136.1,
     "f0_st_sd": 3.78,
     "f0_range_st": 12.49
@@ -153,21 +155,21 @@
     "spk": "Carlos",
     "line": "Yes, of course.",
     "tts_text": "Yes, of course.",
-    "seed": 9945,
+    "seed": 25783,
     "hyp": "yes of course",
     "ok": true,
     "edge": false,
     "flags": [],
-    "min_prob": 0.91,
-    "mean_prob": 0.97,
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
     "letter_gaps": [],
-    "dur": 1.29,
-    "score": 1.291,
-    "f0_med": 114.8,
-    "f0_st_sd": 2.16,
-    "f0_range_st": 5.7
+    "dur": 1.19,
+    "score": 1.233,
+    "f0_med": 130.8,
+    "f0_st_sd": 1.87,
+    "f0_range_st": 4.5
    },
-   "tries": 3,
+   "tries": 4,
    "passing": 3
   },
   {
@@ -175,25 +177,25 @@
     "spk": "Carlos",
     "line": "V, E, G, A.",
     "tts_text": "Vee, E, G, A.",
-    "seed": 65378,
+    "seed": 89135,
     "hyp": "v e g a",
     "ok": true,
     "edge": false,
     "flags": [],
-    "min_prob": 0.71,
-    "mean_prob": 0.88,
+    "min_prob": 0.64,
+    "mean_prob": 0.84,
     "letter_gaps": [
-     0.19,
-     0.11,
-     0.15
+     0.23,
+     0.21,
+     0.21
     ],
-    "dur": 2.18,
-    "score": 1.649,
-    "f0_med": 130.0,
-    "f0_st_sd": 4.01,
-    "f0_range_st": 13.86
+    "dur": 2.56,
+    "score": 1.751,
+    "f0_med": 123.4,
+    "f0_st_sd": 6.07,
+    "f0_range_st": 24.07
    },
-   "tries": 9,
+   "tries": 12,
    "passing": 3
   },
   {
@@ -206,11 +208,11 @@
     "ok": true,
     "edge": false,
     "flags": [],
-    "min_prob": 0.93,
+    "min_prob": 0.91,
     "mean_prob": 0.97,
     "letter_gaps": [],
     "dur": 1.95,
-    "score": 1.569,
+    "score": 1.57,
     "f0_med": 120.6,
     "f0_st_sd": 4.27,
     "f0_range_st": 13.6
@@ -228,16 +230,16 @@
     "ok": true,
     "edge": false,
     "flags": [],
-    "min_prob": 0.87,
+    "min_prob": 0.86,
     "mean_prob": 0.91,
     "letter_gaps": [],
     "dur": 1.49,
-    "score": 1.514,
+    "score": 1.509,
     "f0_med": 118.2,
     "f0_st_sd": 5.77,
     "f0_range_st": 15.94
    },
-   "tries": 6,
+   "tries": 4,
    "passing": 3
   }
  ],
@@ -250,118 +252,117 @@
   ],
   [
    12.94,
-   14.14,
+   14.65,
    "Ana",
    "Hello. Thank you."
   ],
   [
-   15.44,
-   16.31,
+   15.95,
+   16.82,
    "Receptionist",
    "What's your name?"
   ],
   [
-   17.61,
-   18.73,
+   18.12,
+   19.28,
    "Ana",
    "My name is Ana."
   ],
   [
-   20.03,
-   21.87,
+   20.58,
+   22.42,
    "Receptionist",
    "Hi, Ana. What's your last name?"
   ],
   [
-   23.17,
-   24.33,
+   23.72,
+   24.81,
    "Ana",
    "It's Ruiz."
   ],
   [
-   25.63,
-   26.77,
+   26.11,
+   27.25,
    "Receptionist",
    "How do you spell it?"
   ],
   [
-   28.07,
-   30.19,
+   28.55,
+   31.68,
    "Ana",
    "{R, U, I, Z.}"
   ],
   [
-   31.49,
-   33.37,
+   32.98,
+   34.86,
    "Receptionist",
    "Thank you, Ana. Next, please!"
   ],
   [
-   34.67,
-   36.03,
+   36.16,
+   37.52,
    "Receptionist",
    "Hello! What's your name?"
   ],
   [
-   37.33,
-   40.27,
+   38.82,
+   41.76,
    "Carlos",
    "Hi. I'm Carlos. My last name is Vega."
   ],
   [
-   41.57,
-   42.71,
+   43.06,
+   44.2,
    "Receptionist",
    "How do you spell it?"
   ],
   [
-   44.01,
-   46.23,
+   45.5,
+   47.72,
    "Carlos",
    "{V, E, G, A.}"
   ],
   [
-   47.53,
-   49.35,
+   49.02,
+   50.84,
    "Receptionist",
    "Sorry. Can you repeat, please?"
   ],
   [
-   50.65,
-   54.57,
+   52.14,
+   56.34,
    "Carlos",
    "Yes, of course. {V, E, G, A.}"
   ],
   [
-   55.87,
-   58.15,
+   57.64,
+   59.92,
    "Receptionist",
    "Thank you, Carlos. How are you?"
   ],
   [
-   59.45,
-   61.4,
+   61.22,
+   63.17,
    "Carlos",
    "I'm fine, thanks. And you?"
   ],
   [
-   62.7,
-   66.16,
+   64.47,
+   67.93,
    "Receptionist",
    "I'm fine, thank you. Here's your book and a pen."
   ],
   [
-   67.46,
-   68.95,
+   69.23,
+   70.72,
    "Carlos",
    "Thank you. Goodbye!"
   ],
   [
-   70.25,
-   70.91,
+   72.02,
+   72.68,
    "Receptionist",
    "Goodbye!"
   ]
- ],
- "note": "Built with level1/audio/tools/natural/build_natural.py (VER=final). Ana and Carlos: whole-line takes, chosen from several seeds; narrator and receptionist: the earlier approved takes from build_L1_audio.py. \"lines\" lists the chosen take for every Ana/Carlos line."
+ ]
 }

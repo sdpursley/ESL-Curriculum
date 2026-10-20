@@ -4,8 +4,9 @@ For every line, several seeds are tried; takes must pass Whisper (exact words) +
 with the best score (confidence + pitch movement) is kept.
 Env: VER=A|B|final  ANA=<ref name or DEFAULT>  CARLOS=<ref name>  EXAG  CFG  NCAND (passing takes wanted)  MAXT (max tries)
 The published file (October 2026), from level1/audio/tools/natural/ with the audio environment (section 5 of MAINTAINING.md):
-  1. ../build_L1_audio.py must have run once (its cache/ holds the narrator + receptionist takes), and fetch_ana_ref.py once.
-  2. VER=final ANA=Ana_LTTSR1580 CARLOS=Sam EXAG=0.72 CFG=0.32 MAXT_SPELL=36 RUIZ_VARIANTS='["R, U, I, Zee.", "R, U, I, Z."]' \
+  1. ../build_L1_audio.py must have run once (its cache/ holds the narrator + receptionist takes).
+     Ana's voice reference is kokoro_refs/af_jessica.wav (committed; made with Kokoro-82M by make_ana_ref.py, no human recording).
+  2. VER=final ANA=af_jessica CARLOS=Sam EXAG=0.72 CFG=0.32 MAXT_SPELL=36 RUIZ_VARIANTS='["R, U, I, Zee.", "R, U, I, Z."]' \
      EXCLUDE='{"Thank you. Goodbye!": [17864]}' python build_natural.py      # -> out/L1_listening_final.wav/.mp3 + _log.json
   3. cd .. && LINE_TIMES=natural/out/L1_listening_final_log.json python check_L1.py natural/out/L1_listening_final.mp3
 "Zee" and "Vee" are only what the voice is given (they come out as clear letters); the written script stays Z and V."""
@@ -21,9 +22,9 @@ from metrics import prosody
 VER = os.environ['VER']; EX = float(os.environ['EXAG']); CF = float(os.environ['CFG'])
 NCAND = int(os.environ.get('NCAND', '3')); MAXT = int(os.environ.get('MAXT', '14')); MAXT_SPELL = int(os.environ.get('MAXT_SPELL', '24'))
 REFS = f'{TOOLS}/samples/refs'
-def ref(n):   # 'DEFAULT', a path to a .wav, a clip in natural/refs/ (Ana_LTTSR1580, from fetch_ana_ref.py), or a name in tools/audio/samples/refs/
+def ref(n):   # 'DEFAULT', a path to a .wav, a clip in natural/kokoro_refs/ (af_jessica, from make_ana_ref.py), or a name in tools/audio/samples/refs/
     if n == 'DEFAULT' or n.endswith('.wav'): return n
-    return f'{HERE}/refs/{n}.wav' if os.path.exists(f'{HERE}/refs/{n}.wav') else f'{REFS}/{n}.wav'
+    return f'{HERE}/kokoro_refs/{n}.wav' if os.path.exists(f'{HERE}/kokoro_refs/{n}.wav') else f'{REFS}/{n}.wav'
 VOICE = {'Ana': ref(os.environ['ANA']), 'Carlos': ref(os.environ['CARLOS'])}
 PAUSE_SPK = float(os.environ.get('PAUSE_SPK', '1.3'))      # silence between speakers (longer pauses BETWEEN lines)
 REC_PAUSE = dict(comma=0.30, sentence=0.45)                # receptionist/narrator joins (approved takes, tighter joins)

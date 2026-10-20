@@ -264,7 +264,7 @@ The website always plays `level1/audio/L1_listening.mp3` (copied to `public/leve
 2. Copy it over the old one with the **same name**: `cp path/to/new_recording.mp3 level1/audio/L1_listening.mp3`
 3. Optional but recommended: check it against the script (needs the audio setup from section 5):
    `.venv-audio/bin/python level1/audio/tools/check_L1.py level1/audio/L1_listening.mp3` (writes `L1_check_results.json` in the current folder; move it into `level1/audio/`).
-4. If the length changed, update "about 1:17" in the listening-script heading of `Level1_Lesson1.md`.
+4. If the length changed, update "about 1:16" (the length) in the listening-script heading of `Level1_Lesson1.md`.
 5. Run the rebuild commands above (`build.sh 1 --publish` only if you changed the Markdown), then publish (section 7).
 
 **Make the audio from scratch** (same Chatterbox setup as section 5; the words are in `level1/audio/tools/script_L1.py`, keep them the same as the Markdown):
@@ -282,8 +282,10 @@ spaced out letter by letter. To redo only pieces that failed (same settings, so 
 
 **The published file (October 2026)** uses more natural voices for Ana and Carlos: `level1/audio/tools/natural/build_natural.py`
 makes each of their lines as one whole take (`EXAG=0.72 CFG=0.32`, several seeds, the best take that passes the checks is kept) and
-reuses the narrator and receptionist takes from the build above (so run `build_L1_audio.py` once first). Ana's voice reference is a
-LibriTTS-R recording (CC BY 4.0, credit it): run `fetch_ana_ref.py` once to download it. The exact command is at the top of `build_natural.py`.
+reuses the narrator and receptionist takes from the build above (so run `build_L1_audio.py` once first). Ana's voice reference is
+`level1/audio/tools/natural/kokoro_refs/af_jessica.wav`, a synthetic clip made with Kokoro-82M (Apache 2.0; no human recording).
+It is committed; `make_ana_ref.py` remakes it (details in `ana_ref.json`). Carlos uses the Kokoro-made `Sam` clip in `tools/audio/samples/refs/`.
+The exact command is at the top of `build_natural.py`. Every voice reference must be a synthetic (Kokoro-made) clip, not a recording of a real person.
 
 ### Add the next lesson (example: Lesson 2)
 
