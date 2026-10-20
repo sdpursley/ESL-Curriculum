@@ -1,0 +1,177 @@
+{
+ "regen": [
+  {
+   "text": "R, U, I, Z.",
+   "seed": 65378,
+   "hyp": "r u i z",
+   "flags": [],
+   "edge": false,
+   "probs": [
+    0.39,
+    0.46,
+    0.99,
+    0.97
+   ],
+   "spread_hyp": "r u i z",
+   "kind": "spell (cached take, re-spaced)",
+   "gap": 0.38,
+   "gaps_inserted": 2
+  },
+  {
+   "text": "Vee, E, G, A.",
+   "seed": 9945,
+   "hyp": "v e g a",
+   "flags": [],
+   "edge": false,
+   "probs": [
+    0.69,
+    0.62,
+    1.0,
+    1.0
+   ],
+   "spread_hyp": "v e g a",
+   "gaps_inserted": 1,
+   "kind": "spell (cached take, re-spaced)",
+   "gap": 0.38
+  },
+  {
+   "text": "Vee, E, G, A.",
+   "seed": 9945,
+   "hyp": "v e g a",
+   "flags": [],
+   "edge": false,
+   "probs": [
+    0.69,
+    0.62,
+    1.0,
+    1.0
+   ],
+   "spread_hyp": "v e g a",
+   "gaps_inserted": 1,
+   "kind": "spell (cached take, re-spaced)",
+   "gap": 0.55
+  }
+ ],
+ "line_times": [
+  [
+   9.74,
+   12.26,
+   "Receptionist",
+   "Hello! Welcome to English class."
+  ],
+  [
+   13.41,
+   15.09,
+   "Ana",
+   "Hello. Thank you."
+  ],
+  [
+   16.24,
+   17.19,
+   "Receptionist",
+   "What's your name?"
+  ],
+  [
+   18.34,
+   19.57,
+   "Ana",
+   "My name is Ana."
+  ],
+  [
+   20.72,
+   22.64,
+   "Receptionist",
+   "Hi, Ana. What's your last name?"
+  ],
+  [
+   23.79,
+   24.94,
+   "Ana",
+   "It's Ruiz."
+  ],
+  [
+   26.09,
+   27.31,
+   "Receptionist",
+   "How do you spell it?"
+  ],
+  [
+   28.46,
+   31.52,
+   "Ana",
+   "{R, U, I, Z.}"
+  ],
+  [
+   32.67,
+   34.63,
+   "Receptionist",
+   "Thank you, Ana. Next, please!"
+  ],
+  [
+   35.78,
+   37.22,
+   "Receptionist",
+   "Hello! What's your name?"
+  ],
+  [
+   38.37,
+   42.16,
+   "Carlos",
+   "Hi. I'm Carlos. My last name is Vega."
+  ],
+  [
+   43.31,
+   44.53,
+   "Receptionist",
+   "How do you spell it?"
+  ],
+  [
+   45.68,
+   48.44,
+   "Carlos",
+   "{V, E, G, A.}"
+  ],
+  [
+   49.59,
+   51.49,
+   "Receptionist",
+   "Sorry. Can you repeat, please?"
+  ],
+  [
+   52.64,
+   57.41,
+   "Carlos",
+   "Yes, of course. {V, E, G, A.}"
+  ],
+  [
+   58.56,
+   61.15,
+   "Receptionist",
+   "Thank you, Carlos. How are you?"
+  ],
+  [
+   62.3,
+   64.28,
+   "Carlos",
+   "I'm fine, thanks. And you?"
+  ],
+  [
+   65.43,
+   69.2,
+   "Receptionist",
+   "I'm fine, thank you. Here's your book and a pen."
+  ],
+  [
+   70.35,
+   71.88,
+   "Carlos",
+   "Thank you. Goodbye!"
+  ],
+  [
+   73.03,
+   73.77,
+   "Receptionist",
+   "Goodbye!"
+  ]
+ ]
+}

@@ -21,3 +21,10 @@ tools/audio/samples/*
 *.pt
 ~$*
 .~lock.*
+
+# Level 1 build output, caches and audio masters (MP3s are committed, WAV masters are not)
+level1/curriculum/build/
+level1/images/tools/_twemoji_src/
+level1/audio/tools/cache/
+level1/audio/tools/out/
+level1/**/*.wav
