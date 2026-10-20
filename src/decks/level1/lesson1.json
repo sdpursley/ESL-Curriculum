@@ -15328,7 +15328,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Audio: synthetic voices made with Chatterbox TTS (MIT License); each file carries an inaudible Perth watermark marking it as AI-generated. Ana's voice is based on LibriTTS-R speaker 1580 (Koizumi et al. 2023, CC BY 4.0), from LibriVox public-domain readings. Font: Lexend Deca (OFL 1.1).",
+          "t": "Audio: synthetic voices made with Chatterbox TTS (MIT License); each file carries an inaudible Perth watermark marking it as AI-generated. The voices are copied from short reference clips made with Kokoro-82M (Apache 2.0); no recordings of real people were used. Font: Lexend Deca (OFL 1.1).",
           "sz": 13.5,
           "b": false,
           "i": false,

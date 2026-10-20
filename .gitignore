@@ -28,6 +28,7 @@ level1/images/tools/_twemoji_src/
 level1/audio/tools/cache/
 level1/audio/tools/out/
 level1/**/*.wav
+!level1/audio/tools/natural/kokoro_refs/*.wav
 level1/audio/tools/natural/cache/
 level1/audio/tools/natural/out/
 level1/audio/tools/natural/refs/

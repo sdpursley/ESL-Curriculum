@@ -1,6 +1,6 @@
 {
  "file": "level1/audio/L1_listening.mp3",
- "duration_s": 74.41,
+ "duration_s": 76.18,
  "wer": 0.0427,
  "errors": 5,
  "ref_words": 117,
@@ -20,21 +20,21 @@
    "ctx": "english class ana and carlos sign in listen hello"
   },
   {
-   "t": 18.23,
+   "t": 18.76,
    "op": "replace",
    "ref": "ana",
    "hyp": "anna",
    "ctx": "name my name is ana hi ana what's your"
   },
   {
-   "t": 20.43,
+   "t": 20.86,
    "op": "replace",
    "ref": "ana",
    "hyp": "anna",
    "ctx": "name is ana hi ana what's your last name"
   },
   {
-   "t": 32.06,
+   "t": 33.56,
    "op": "replace",
    "ref": "ana",
    "hyp": "anna",
@@ -64,20 +64,25 @@
  ],
  "low_prob_words": [
   [
-   "sorry",
-   47.1,
-   0.35
+   "r",
+   28.16,
+   0.37
+  ],
+  [
+   "please",
+   50.17,
+   0.37
   ]
  ],
- "n_pauses": 30,
+ "n_pauses": 33,
  "pause_len_min_median_max": [
   0.3,
-  1.44,
+  1.5,
   1.81
  ],
  "pauses_with_sound_above_minus55dB": [],
  "click_ratio": 4.0,
- "peak": 0.902,
+ "peak": 0.906,
  "clipped_samples": 0,
  "hyp": "lesson one listening it's the first night of english class anna and carlo sign in listen hello welcome to english class hello thank you what's your name my name is anna hi anna what's your last name it's ruiz how do you spell it r u i z thank you anna next please hello what's your name hi i'm carlos my last name is vega how do you spell it v e g a sorry can you repeat please yes of course v e g a thank you carlos how are you i'm fine thanks and you i'm fine thank you here's your book and a pen thank you goodbye goodbye that's the end of the listening",
  "per_line": [
@@ -87,7 +92,7 @@
    "line": "Hello! Welcome to English class.",
    "ok": true,
    "hyp": "hello welcome to english class",
-   "min_prob": 0.9,
+   "min_prob": 0.88,
    "flags": []
   },
   {
@@ -96,11 +101,11 @@
    "line": "Hello. Thank you.",
    "ok": true,
    "hyp": "hello thank you",
-   "min_prob": 0.89,
+   "min_prob": 0.86,
    "flags": []
   },
   {
-   "t": 15.44,
+   "t": 15.95,
    "spk": "Receptionist",
    "line": "What's your name?",
    "ok": true,
@@ -109,34 +114,34 @@
    "flags": []
   },
   {
-   "t": 17.61,
+   "t": 18.12,
    "spk": "Ana",
    "line": "My name is Ana.",
    "ok": false,
    "hyp": "my name is anna",
-   "min_prob": 0.77,
+   "min_prob": 0.74,
    "flags": []
   },
   {
-   "t": 20.03,
+   "t": 20.58,
    "spk": "Receptionist",
    "line": "Hi, Ana. What's your last name?",
    "ok": false,
    "hyp": "hi anna what's your last name",
-   "min_prob": 0.63,
+   "min_prob": 0.64,
    "flags": []
   },
   {
-   "t": 23.17,
+   "t": 23.72,
    "spk": "Ana",
    "line": "It's Ruiz.",
    "ok": true,
    "hyp": "it's ruiz",
-   "min_prob": 0.93,
+   "min_prob": 0.91,
    "flags": []
   },
   {
-   "t": 25.63,
+   "t": 26.11,
    "spk": "Receptionist",
    "line": "How do you spell it?",
    "ok": true,
@@ -145,34 +150,34 @@
    "flags": []
   },
   {
-   "t": 28.07,
+   "t": 28.55,
    "spk": "Ana",
    "line": "R, U, I, Z.",
    "ok": true,
    "hyp": "r u i z",
-   "min_prob": 0.52,
+   "min_prob": 0.68,
    "flags": []
   },
   {
-   "t": 31.49,
+   "t": 32.98,
    "spk": "Receptionist",
    "line": "Thank you, Ana. Next, please!",
    "ok": false,
    "hyp": "thank you anna next please",
-   "min_prob": 0.83,
+   "min_prob": 0.85,
    "flags": []
   },
   {
-   "t": 34.67,
+   "t": 36.16,
    "spk": "Receptionist",
    "line": "Hello! What's your name?",
    "ok": true,
    "hyp": "hello what's your name",
-   "min_prob": 0.89,
+   "min_prob": 0.79,
    "flags": []
   },
   {
-   "t": 37.33,
+   "t": 38.82,
    "spk": "Carlos",
    "line": "Hi. I'm Carlos. My last name is Vega.",
    "ok": true,
@@ -181,52 +186,52 @@
    "flags": []
   },
   {
-   "t": 41.57,
+   "t": 43.06,
    "spk": "Receptionist",
    "line": "How do you spell it?",
    "ok": true,
    "hyp": "how do you spell it",
-   "min_prob": 0.84,
+   "min_prob": 0.83,
    "flags": []
   },
   {
-   "t": 44.01,
+   "t": 45.5,
    "spk": "Carlos",
    "line": "V, E, G, A.",
    "ok": true,
    "hyp": "v e g a",
-   "min_prob": 0.67,
+   "min_prob": 0.65,
    "flags": []
   },
   {
-   "t": 47.53,
+   "t": 49.02,
    "spk": "Receptionist",
    "line": "Sorry. Can you repeat, please?",
    "ok": true,
    "hyp": "sorry can you repeat please",
-   "min_prob": 0.89,
+   "min_prob": 0.85,
    "flags": []
   },
   {
-   "t": 50.65,
+   "t": 52.14,
    "spk": "Carlos",
    "line": "Yes, of course. V, E, G, A.",
    "ok": true,
    "hyp": "yes of course v e g a",
-   "min_prob": 0.75,
+   "min_prob": 0.68,
    "flags": []
   },
   {
-   "t": 55.87,
+   "t": 57.64,
    "spk": "Receptionist",
    "line": "Thank you, Carlos. How are you?",
    "ok": true,
    "hyp": "thank you carlos how are you",
-   "min_prob": 0.66,
+   "min_prob": 0.79,
    "flags": []
   },
   {
-   "t": 59.45,
+   "t": 61.22,
    "spk": "Carlos",
    "line": "I'm fine, thanks. And you?",
    "ok": true,
@@ -235,30 +240,30 @@
    "flags": []
   },
   {
-   "t": 62.7,
+   "t": 64.47,
    "spk": "Receptionist",
    "line": "I'm fine, thank you. Here's your book and a pen.",
    "ok": true,
    "hyp": "i'm fine thank you here's your book and a pen",
-   "min_prob": 0.85,
+   "min_prob": 0.89,
    "flags": []
   },
   {
-   "t": 67.46,
+   "t": 69.23,
    "spk": "Carlos",
    "line": "Thank you. Goodbye!",
    "ok": true,
    "hyp": "thank you goodbye",
-   "min_prob": 0.87,
+   "min_prob": 0.88,
    "flags": []
   },
   {
-   "t": 70.25,
+   "t": 72.02,
    "spk": "Receptionist",
    "line": "Goodbye!",
    "ok": true,
    "hyp": "goodbye",
-   "min_prob": 0.81,
+   "min_prob": 0.79,
    "flags": []
   }
  ]
