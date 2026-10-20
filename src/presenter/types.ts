@@ -9,4 +9,4 @@ export interface Shape {
 }
 export interface Step { show: number[]; effect: 'fade' | 'appear' }
 export interface Slide { n: number; title: string; bg: string; shapes: Shape[]; steps: Step[]; notes: string }
-export interface Deck { lesson: number; width: number; height: number; source: string; slides: Slide[] }
+export interface Deck { level?: number; lesson: number; width: number; height: number; source: string; slides: Slide[] }

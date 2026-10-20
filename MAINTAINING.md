@@ -1,7 +1,8 @@
-# Maintaining the Level 2 ESL Curriculum
+# Maintaining the ESL Curriculum (Level 1 and Level 2)
 
 This guide explains how to change and rebuild everything in this repository: the curriculum book (PDF/DOCX),
 the exams, the website, the slide decks, the vocabulary pictures, and the listening audio.
+Sections 1–7 are about **Level 2** (and the website in general). **Level 1** has its own section: [section 8](#8-level-1).
 You do not need to be a programmer. Copy the commands as written, and run them from the repository folder.
 
 ## What is where
@@ -19,6 +20,9 @@ You do not need to be a programmer. Copy the commands as written, and run them f
 | `scripts/export_deck.py` | Turns a PowerPoint deck into `src/decks/lessonN.json` for the in-browser presenter. |
 | `tools/images/` | Scripts that drew the vocabulary pictures. |
 | `tools/audio/` | Scripts that made the listening audio with Chatterbox, plus the voice reference clips. |
+| `level1/` | **Level 1 sources**: `curriculum/` (lesson Markdown, scope and sequence, build script), `images/`, `audio/`, `slides/`. See section 8. |
+| `public/level1/` | Level 1 files the website serves (pictures, MP3, PDF/DOCX/PPTX downloads). Refreshed from `level1/` by the scripts; don't edit here. |
+| `src/content_level1.json`, `src/decks/level1/` | Level 1 lesson pages and presenter slides (generated). Level 1 page code: `src/level1.tsx`. |
 
 ## One-time setup
 
@@ -187,6 +191,9 @@ npm run build      # must finish with no errors
 npm run preview    # opens the built site locally; click through Lessons, a lesson's Teacher tab, Downloads, Exams, Present
 ```
 
+Also check the level picker (`#/`), Level 1 (`#/level1`, `#/level1/lesson/1` and its Teacher and Downloads tabs, `#/level1/present/1`),
+and that the old Level 2 links still work (`#/lesson/3`, `#/present/3`, `#/downloads`, `#/exams`).
+
 ## 7. Publish
 
 ```bash
@@ -196,6 +203,9 @@ git commit -m "Describe your change"
 git push origin main
 ```
 
+For bigger changes you can work on a branch instead (`git switch -c my-change`, push it, open a pull request on GitHub,
+and merge it into `main` with **Create a merge commit**). Nothing is published until the change is on `main`.
+
 Pushing to `main` starts the **Deploy to GitHub Pages** workflow (`.github/workflows/pages.yml`). It builds the site and
 publishes it to https://sdpursley.github.io/ESL-Curriculum/ in 1–2 minutes. Watch it on the repository's **Actions** tab;
 a red X means the build failed (click it to see why) and the old site stays online. The repository's Pages source
@@ -204,9 +214,91 @@ must stay set to **GitHub Actions** (Settings → Pages).
 You can also make small text edits directly on github.com (open a file, click the pencil, "Commit changes"); that
 publishes the same way. Rebuilding the PDF, pictures, or audio needs a computer.
 
+## 8. Level 1
+
+Level 1 (beginner) is built **one lesson at a time**. Lesson 1 is finished; Lessons 2–13 show as "coming soon" on the website
+until their Markdown file exists. Level 1 uses the same tools as Level 2, with its files kept apart so names never collide
+(Level 1 pictures are also called `L1_*.png`, but they live in `level1/images/` and `public/level1/images/`).
+
+### What is where (Level 1)
+
+| Folder / file | What it is |
+|---|---|
+| `level1/curriculum/Level1_Scope_and_Sequence.md` | The plan for all 16 weeks. **The website takes the Level 1 lesson list, titles, weeks, semester table, and class routine from here** (section 5 "The Semester at a Glance" and 4.1). |
+| `level1/curriculum/Level1_Lesson1.md` | **Lesson 1 text**: teacher plan + student pages. The lesson page, the PDF, and the DOCX all come from this file. |
+| `level1/curriculum/build.sh`, `md2docx_L1.py` | Build the lesson DOCX + PDF. `md2docx_L1.py` is the Level 2 converter plus one table type (`<!-- grid -->`, for the alphabet grids). |
+| `level1/images/` | Vocabulary pictures (600×420 PNG), `images_L1.json` (what each picture shows), `CREDITS.md`, and `tools/make_images_L1.py` (the drawing script). |
+| `level1/audio/` | `L1_listening.mp3` (**the published audio**), check results and regen log, `README.md`, and `tools/` (script, build, check, and fix scripts). The WAV master is not committed. |
+| `level1/slides/Level1_Lesson1_Slides.pptx` | **The editable slide deck** (source for the download and the in-browser presenter). |
+| `public/level1/` | What the website serves. **Don't edit here**: it is refreshed from the folders above. |
+
+### Rebuild after a change (any Level 1 file)
+
+```bash
+PYTHON=.venv-docs/bin/python level1/curriculum/build.sh 1 --publish    # Lesson 1 DOCX + PDF -> public/level1/downloads/
+python3 scripts/export_deck.py level1/slides/Level1_Lesson1_Slides.pptx 1 --level 1   # only if the slides changed
+python3 scripts/export_content.py                                     # lesson pages + copies pictures, MP3, PPTX into public/level1/
+npm run dev                                                           # check #/level1/lesson/1 and #/level1/present/1
+```
+
+`export_content.py` rebuilds the Level 2 data too; it produces exactly the same Level 2 files if you didn't change Level 2.
+Without `--publish`, `build.sh` writes to `level1/curriculum/build/` (not committed) so you can look first.
+
+**Lesson text:** edit `level1/curriculum/Level1_Lesson1.md`. Keep the headings and the `<!-- part: ... -->` comments:
+the website finds the teacher plan between `<!-- part: Teacher Plan` and `<!-- part: Student Workbook`, and makes one
+student section for each `## ` heading after that (`## Lesson 1 (Week 1): ...` = New Words, `## Lesson 1 (Week 1) · Listening`, …) up to
+`## Picture Credits`. The New Words picture table becomes the word cards; the audio player goes at the top of the Listening section.
+
+**Slides:** open `level1/slides/Level1_Lesson1_Slides.pptx` in PowerPoint or LibreOffice Impress, edit, save with the same name
+(.pptx), then run the deck export and `export_content.py` above. Each "on click" entrance animation is one reveal step.
+Pictures in the deck must be identical to a file in `level1/images/` (the export stops and names the picture if not).
+
+**Pictures:** see section 4. For Level 1, run the script from its folder:
+`cd level1/images/tools && ../../../.venv-img/bin/python make_images_L1.py` (writes into `level1/images/`), and add a line to `level1/images/CREDITS.md`.
+
+### Swap the listening audio (for example, a new recording)
+
+The website always plays `level1/audio/L1_listening.mp3` (copied to `public/level1/audio/L1_listening.mp3`). To use a different recording:
+
+1. Listen to the whole new file. It should play the conversation **once** (intro → conversation → "That's the end of the listening.").
+2. Copy it over the old one with the **same name**: `cp path/to/new_recording.mp3 level1/audio/L1_listening.mp3`
+3. Optional but recommended: check it against the script (needs the audio setup from section 5):
+   `.venv-audio/bin/python level1/audio/tools/check_L1.py level1/audio/L1_listening.mp3` (writes `L1_check_results.json` in the current folder; move it into `level1/audio/`).
+4. If the length changed, update "about 1:17" in the listening-script heading of `Level1_Lesson1.md`.
+5. Run the rebuild commands above (`build.sh 1 --publish` only if you changed the Markdown), then publish (section 7).
+
+**Make the audio from scratch** (same Chatterbox setup as section 5; the words are in `level1/audio/tools/script_L1.py`, keep them the same as the Markdown):
+
+```bash
+cd level1/audio/tools
+SINGLE=1 TRIES=6 SEED0=2026 EXAG=0.55 CFG=0.45 ../../../.venv-audio/bin/python build_L1_audio.py     # -> out/L1_listening.wav + .mp3 + L1_regen_log.json
+LINE_TIMES=out/L1_regen_log.json ../../../.venv-audio/bin/python check_L1.py out/L1_listening.mp3   # -> L1_check_results.json
+```
+
+Level 1 differences from Level 2: longer pauses, and spelled names (`{R, U, I, Z.}` in the script) are made as one piece and then
+spaced out letter by letter. To redo only pieces that failed (same settings, so the build finds them in its cache):
+`SEED0=2026 EXAG=0.55 CFG=0.45 JOBS='[["Ana", "Hello. Thank you."]]' ../../../.venv-audio/bin/python fix_chunks.py`, then run
+`build_L1_audio.py` again (it reuses everything else from `cache/`). `out/` and `cache/` are not committed; copy the finished MP3 and the two JSON files into `level1/audio/`.
+
+### Add the next lesson (example: Lesson 2)
+
+1. Write `level1/curriculum/Level1_Lesson2.md`, starting from a copy of `Level1_Lesson1.md`, with the same parts and heading pattern
+   (`## Lesson 2 (Week 2): Where Are You From?`, `## Lesson 2 (Week 2) · Listening`, …). Use the title and week from the scope and sequence.
+2. Pictures: `level1/images/L2_<word>.png` (Level 1 lesson numbers, so `L2_` = Level 1 Lesson 2); link them as `images/L2_<word>.png` in the Markdown.
+3. Audio: `level1/audio/L2_listening.mp3` (copy and adapt the scripts in `level1/audio/tools/`).
+4. Slides: `level1/slides/Level1_Lesson2_Slides.pptx`, then `python3 scripts/export_deck.py level1/slides/Level1_Lesson2_Slides.pptx 2 --level 1`.
+5. `level1/curriculum/build.sh 2 --publish`, then `python3 scripts/export_content.py`.
+   The lesson page, presenter (`#/level1/present/2`), downloads, and lesson list update by themselves; no website code changes are needed.
+6. Update the home-page note "Lesson 1 is ready. Lessons 2–13 are coming soon." in `src/level1.tsx` (the level picker counts ready lessons by itself).
+
+### Publish
+
+The same as Level 2 (sections 6–7). Before you commit, check that `git status` shows no `.wav` files, no `level1/curriculum/build/`,
+and no `cache/` or `out/` folders (`.gitignore` already skips them).
+
 ## Licenses (keep these when you change things)
 
-- Course materials: © 2026 the authors, CC BY-NC-SA 4.0.
-- Vocabulary pictures: modified Twemoji graphics, CC BY 4.0 (see `public/images/CREDITS.md`).
+- Course materials (both levels): CC BY-NC-SA 4.0.
+- Vocabulary pictures: modified Twemoji graphics, CC BY 4.0 (see `public/images/CREDITS.md` and `level1/images/CREDITS.md`).
 - Font for slides and the presenter: Lexend Deca, SIL Open Font License 1.1 (`src/assets/fonts/`).
 - Audio: made with Chatterbox TTS (Resemble AI, MIT License); synthetic voices with a Perth watermark.

@@ -1,28 +1,34 @@
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router-dom'
 import { ChevronLeft, ChevronRight, Maximize, Minimize, StickyNote, LayoutGrid, X, Download } from 'lucide-react'
-import { hasDeck, loadDeck } from './decks'
+import { hasDeck, loadDeck, type Level } from './decks'
 import type { Deck } from './types'
 import { SlideView, EMU } from './SlideView'
 import { SLIDES_AVAILABLE, slidePath } from '../config'
+import level1 from '../content_level1.json'
 import './presenter.css'
 
-export default function PresenterRoute() {
+/** Level 1: the "Download PowerPoint" link appears when the lesson's .pptx was exported (src/content_level1.json). */
+const level1Pptx = (n: number) => (level1.lessons as { n: number; slides?: string }[]).find(l => l.n === n)?.slides || ''
+
+export default function PresenterRoute({ level = 2 }: { level?: Level }) {
   const { n } = useParams()
   const num = Number(n)
   const [deck, setDeck] = useState<Deck | null | undefined>(undefined)
   useEffect(() => {
     let live = true
-    if (!hasDeck(num)) { setDeck(null); return }
-    loadDeck(num).then(d => { if (live) setDeck(d) }, () => { if (live) setDeck(null) })
+    if (!hasDeck(num, level)) { setDeck(null); return }
+    loadDeck(num, level).then(d => { if (live) setDeck(d) }, () => { if (live) setDeck(null) })
     return () => { live = false }
-  }, [num])
+  }, [num, level])
   if (deck === undefined) return <div className="pz-root" aria-busy="true" />
-  if (deck === null) return <div className="pz-missing"><p>Slides for this lesson are not available yet.</p><Link to="/">Back to the course</Link></div>
-  return <Presenter key={num} deck={deck} />
+  if (deck === null) return <div className="pz-missing"><p>Slides for this lesson are not available yet.</p><Link to={level === 1 ? '/level1' : '/level2'}>Back to the course</Link></div>
+  return <Presenter key={`${level}-${num}`} deck={deck} level={level} />
 }
 
-function Presenter({ deck }: { deck: Deck }) {
+function Presenter({ deck, level }: { deck: Deck; level: Level }) {
+  const label = level === 1 ? `Level 1 · Lesson ${deck.lesson}` : `Lesson ${deck.lesson}`
+  const pptx = level === 1 ? level1Pptx(deck.lesson) : SLIDES_AVAILABLE(deck.lesson) ? slidePath(deck.lesson) : ''
   const [params, setParams] = useSearchParams()
   const clampSlide = (v: number) => deck ? Math.min(Math.max(v, 1), deck.slides.length) : 1
   const [pos, setPos] = useState(() => {
@@ -57,7 +63,7 @@ function Presenter({ deck }: { deck: Deck }) {
   }, [])
 
   useEffect(() => { const f = () => setFull(!!document.fullscreenElement); document.addEventListener('fullscreenchange', f); return () => document.removeEventListener('fullscreenchange', f) }, [])
-  useEffect(() => { if (deck) document.title = `Lesson ${deck.lesson} slides · ${deck.slides[pos.s - 1].title}` }, [deck, pos.s])
+  useEffect(() => { if (deck) document.title = `${label} slides · ${deck.slides[pos.s - 1].title}` }, [deck, pos.s])
   // follow the URL if someone edits it or uses a link (?s=slide&k=click)
   const qs = params.get('s'), qk = params.get('k')
   const written = useRef('')
@@ -129,11 +135,11 @@ function Presenter({ deck }: { deck: Deck }) {
         <button onClick={() => setGrid(true)} aria-label="All slides (G)" title="All slides (G)"><LayoutGrid /></button>
         <button onClick={() => setNotes(v => !v)} aria-pressed={notes} aria-label="Speaker notes (N)" title="Speaker notes (N)"><StickyNote /></button>
         <button onClick={toggleFull} aria-label={full ? 'Exit full screen (Esc)' : 'Full screen (F)'} title={full ? 'Exit full screen (Esc)' : 'Full screen (F)'}>{full ? <Minimize /> : <Maximize />}</button>
-        {SLIDES_AVAILABLE(deck.lesson) && <a href={slidePath(deck.lesson)} download aria-label="Download PowerPoint" title="Download PowerPoint (.pptx)"><Download /></a>}
+        {pptx && <a href={pptx} download aria-label="Download PowerPoint" title="Download PowerPoint (.pptx)"><Download /></a>}
       </nav>
       {grid && (
         <div className="pz-grid" role="dialog" aria-label="All slides">
-          <div className="pz-grid-head"><h2>Lesson {deck.lesson} · {total} slides</h2><button onClick={() => setGrid(false)} aria-label="Close (Esc)"><X /></button></div>
+          <div className="pz-grid-head"><h2>{label} · {total} slides</h2><button onClick={() => setGrid(false)} aria-label="Close (Esc)"><X /></button></div>
           <ol>
             {deck.slides.map(sl => (
               <li key={sl.n}><button onClick={() => go(sl.n)} aria-current={sl.n === pos.s} aria-label={`Go to slide ${sl.n}: ${sl.title}`}>

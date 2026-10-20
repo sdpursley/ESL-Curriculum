@@ -1,0 +1,117 @@
+[
+ {
+  "file": "L1_hello.png",
+  "lesson": "Level1-L1",
+  "word": "hello",
+  "twemoji": [
+   "1f642",
+   "1f44b"
+  ],
+  "note": "smiling face + waving hand, speech bubble \"Hi!\" (drawn)"
+ },
+ {
+  "file": "L1_goodbye.png",
+  "lesson": "Level1-L1",
+  "word": "goodbye",
+  "twemoji": [
+   "1f6aa",
+   "1f6b6",
+   "1f44b"
+  ],
+  "note": "person walking to a door + waving hand, speech bubble \"Bye!\" (drawn)"
+ },
+ {
+  "file": "L1_name.png",
+  "lesson": "Level1-L1",
+  "word": "name",
+  "twemoji": [],
+  "note": "\"HELLO my name is Ana\" name tag (drawn)"
+ },
+ {
+  "file": "L1_first_name.png",
+  "lesson": "Level1-L1",
+  "word": "first name",
+  "twemoji": [
+   "1f469"
+  ],
+  "note": "ID card, FIRST NAME field highlighted (card drawn) + woman"
+ },
+ {
+  "file": "L1_last_name.png",
+  "lesson": "Level1-L1",
+  "word": "last name",
+  "twemoji": [
+   "1f469"
+  ],
+  "note": "ID card, LAST NAME field highlighted (card drawn) + woman"
+ },
+ {
+  "file": "L1_spell.png",
+  "lesson": "Level1-L1",
+  "word": "spell",
+  "twemoji": [
+   "1f5e3"
+  ],
+  "note": "speaking head + letter tiles A N A and \"A - N - A\" (drawn)"
+ },
+ {
+  "file": "L1_letter.png",
+  "lesson": "Level1-L1",
+  "word": "letter (A, B, C…)",
+  "twemoji": [
+   "1f520",
+   "1f524"
+  ],
+  "note": "capital-letters + small-letters symbols, \"A a\" (drawn)"
+ },
+ {
+  "file": "L1_teacher.png",
+  "lesson": "Level1-L1",
+  "word": "teacher",
+  "twemoji": [
+   "1f9d1-200d-1f3eb"
+  ],
+  "note": "teacher at a board"
+ },
+ {
+  "file": "L1_student.png",
+  "lesson": "Level1-L1",
+  "word": "student",
+  "twemoji": [
+   "1f9d1-200d-1f393",
+   "1f4dd"
+  ],
+  "note": "student (cap) + paper and pencil"
+ },
+ {
+  "file": "L1_classmate.png",
+  "lesson": "Level1-L1",
+  "word": "classmate",
+  "twemoji": [
+   "1f9d1",
+   "1f469",
+   "1f9d1-200d-1f3eb",
+   "1f4d6"
+  ],
+  "note": "two learners side by side at one table with open books, teacher behind (table drawn)"
+ },
+ {
+  "file": "L1_book.png",
+  "lesson": "Level1-L1",
+  "word": "book",
+  "twemoji": [
+   "1f4d6",
+   "1f4d8"
+  ],
+  "note": "open book + closed blue book"
+ },
+ {
+  "file": "L1_pen.png",
+  "lesson": "Level1-L1",
+  "word": "pen",
+  "twemoji": [
+   "1f58a"
+  ],
+  "note": "pen"
+ }
+]

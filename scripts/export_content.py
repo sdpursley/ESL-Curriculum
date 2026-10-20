@@ -1,4 +1,5 @@
-# Exports curriculum content from the approved Markdown (v5 public edition) into src/content.json and src/sizes.json.
+# Exports curriculum content from the approved Markdown (v5 public edition) into src/content.json and src/sizes.json,
+# and the Level 1 pages (level1/curriculum/*.md) into src/content_level1.json (see export_level1() at the end).
 # Usage (from the repo root): python3 scripts/export_content.py
 # Reads curriculum/Level2_Curriculum_v5_public.md. Media already live in public/ (images/, audio/, downloads/);
 # run curriculum/build.sh --publish first if you changed the curriculum text and want fresh PDF/DOCX downloads.
@@ -70,3 +71,97 @@ json.dump(data,open(HERE+'/src/content.json','w',encoding='utf-8'),ensure_ascii=
 json.dump(sizes,open(HERE+'/src/sizes.json','w'),indent=1)
 open(pub+'/.nojekyll','w').close()
 print(len(used),'images;',len(lessons),'lessons; audio for',[l['n'] for l in lessons if l['audio']],'; slides',slides,'; exams',exams)
+
+# ---------------------------------------------------------------- Level 1 ----------------------------------------------------------------
+# Sources (edit these):  level1/curriculum/Level1_Scope_and_Sequence.md   lesson list, titles, weeks, semester table, weekly routine
+#                        level1/curriculum/Level1_Lesson<N>.md            one file per finished lesson (Lesson 1 is the model)
+#                        level1/images/*.png (+ CREDITS.md), level1/audio/L<N>_listening.mp3, level1/slides/Level1_Lesson<N>_Slides.pptx
+# The website copies (public/level1/images, audio, downloads/slides) are refreshed from those folders by this script.
+# PDF/DOCX downloads come from level1/curriculum/build.sh <N> --publish (into public/level1/downloads/).
+# A lesson in the scope and sequence without a Level1_Lesson<N>.md file is listed as "coming soon".
+def export_level1():
+    L1=os.path.join(HERE,'level1'); P1=os.path.join(pub,'level1')
+    g1={}; exec(open(os.path.join(HERE,'scripts','md_parser.py'),encoding='utf-8').read(),g1)
+    g1['IMG_PREFIX']='level1/images/'; g1['L1_STYLE']=True
+    # 1. refresh the website copies of the Level 1 media
+    for sub_,pat,dst in [('images',r'.+\.png$|^CREDITS\.md$','images'),('audio',r'^L\d+_listening\.mp3$','audio'),('slides',r'^Level1_Lesson\d+_Slides\.pptx$','downloads/slides')]:
+        os.makedirs(os.path.join(P1,dst),exist_ok=True)
+        for f in sorted(os.listdir(os.path.join(L1,sub_))):
+            if re.match(pat,f): shutil.copy2(os.path.join(L1,sub_,f),os.path.join(P1,dst,f))
+    size=lambda rel: os.path.getsize(os.path.join(pub,rel)) if os.path.exists(os.path.join(pub,rel)) else 0
+    # 2. scope and sequence: lesson list + home-page tables
+    g1['L']=open(os.path.join(L1,'curriculum','Level1_Scope_and_Sequence.md'),encoding='utf-8').read().split('\n')
+    S,find1,md1,inline1=g1['L'],g1['find'],g1['md'],g1['inline']
+    def sect1(a,b): i=find1(a); return S[i+1:find1(b,i+1)]
+    out={'semester':md1(sect1('## 5. The Semester at a Glance','**Grammar in teaching order')),
+         'routine':md1([l for l in sect1('### 4.1 Weekly routine','> **Timing is loose') if not l.startswith('Teachers and learners')])}
+    rows={}; out['milestones']=[]
+    for l in sect1('## 5. The Semester at a Glance','**Grammar in teaching order'):   # Week 8 midterm, Week 15 final, Week 16 graduation
+        m=re.match(r'\|\s*\d+\s*\|\s*\*\*Week (\d+): (.+?)\*\*\s*\|(.+?)\|(.+?)\|\s*$',l)
+        if m: out['milestones'].append(dict(week=int(m.group(1)),title=m.group(2).strip(),note=' · '.join(x.strip() for x in (m.group(3),m.group(4)) if x.strip() not in ('—',''))))
+    for l in sect1('## 5. The Semester at a Glance','**Grammar in teaching order'):
+        m=re.match(r'\|\s*\d+\s*\|\s*\*\*Lesson (\d+) \(Week (\d+)\):\*\*\s*(.+?)\s*\|(.+?)\|(.+?)\|\s*$',l)
+        if m: rows[int(m.group(1))]=dict(week=int(m.group(2)),title=m.group(3).strip(),focus=inline1(m.group(4).strip()),function=m.group(5).strip())
+    lessons=[]
+    for n in sorted(rows):
+        r=rows[n]; les=dict(n=n,week=r['week'],title=r['title'],focusHtml=r['focus'],function=r['function'],ready=False)
+        src=os.path.join(L1,'curriculum',f'Level1_Lesson{n}.md')
+        if os.path.exists(src): les.update(lesson1_page(n,src,g1,size)); les['ready']=True
+        lessons.append(les)
+    out['lessons']=lessons
+    out['credit']=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
+                   'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and ID cards, a name tag, speech bubbles, '
+                   'letters, and labels were added.')
+    out['creditHtml']=inline1(out['credit'])
+    missing=[f for f in sorted(g1['used_imgs']) if not os.path.exists(os.path.join(P1,'images',f))]
+    if missing: raise SystemExit(f'Missing images in level1/images/: {missing}')
+    json.dump(out,open(HERE+'/src/content_level1.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
+    print('Level 1:',len(lessons),'lessons in the plan; built:',[l['n'] for l in lessons if l['ready']],
+          '; audio',[l['n'] for l in lessons if l.get('audio')],'; downloads',{l['n']:[d['kind'] for d in l['downloads']] for l in lessons if l['ready']})
+
+def lesson1_page(n,src,g1,size):
+    """One Level 1 lesson page from Level1_Lesson<N>.md. Expected layout (see Level1_Lesson1.md):
+    <!-- part: Teacher Plan ... --> teacher plan ... <!-- part: Student Workbook ... --> '## ...' student pages ... '## Picture Credits'."""
+    g1['L']=open(src,encoding='utf-8').read().split('\n')
+    M,find1,md1,inline1=g1['L'],g1['find'],g1['md'],g1['inline']
+    ti=find1('<!-- part: Teacher Plan'); si=find1('<!-- part: Student Workbook',ti); ci=find1('## Picture Credits',si)
+    head=next(l for l in M[si:] if re.match(rf'## Lesson {n} \(Week \d+\): ',l))
+    week,title=re.match(rf'## Lesson {n} \(Week (\d+)\): (.+)',head).groups()
+    topic=next((l[2:].strip() for l in M[:ti] if l.startswith('> **Topic:**')),'')
+    topic=re.sub(r'^\*\*Topic:\*\*\s*','',topic)
+    word_re=re.compile(r'!\[([^\]]*)\]\(images/([^)]+)\)<br>(★ )?\*\*(.+?)\*\*')
+    starts=[i for i in range(si+1,ci) if M[i].startswith('## ')]+[ci]
+    sections=[]; words=[]
+    for a,b in zip(starts,starts[1:]):
+        h=M[a][3:].strip(); body=M[a+1:b]; kind='page'
+        if h.startswith(f'Lesson {n} (Week') and ' · ' in h: name=h.split(' · ',1)[1]
+        elif h.startswith(f'Lesson {n} (Week'): name='New Words'; kind='words'
+        elif h.startswith('How to Use This Workbook'): name='The Icons'
+        else: name=h
+        sec={}
+        if kind=='words':   # the picture table becomes the word cards on the site: text before it, cards, text after it
+            rows_=[k for k,l in enumerate(body) if word_re.search(l)]
+            for l in body:
+                for m in word_re.finditer(l):
+                    g1['used_imgs'].add(m.group(2)); words.append(dict(img='level1/images/'+m.group(2),word=m.group(4),star=bool(m.group(3))))
+            k0=rows_[0]
+            while k0>0 and body[k0-1].strip().startswith('|'): k0-=1      # the empty header row + |---| line of the picture table
+            before=[l for l in body[:k0] if l.strip()!='### New Words']
+            sec['htmlAfter']=md1(body[rows_[-1]+1:],1); body=before
+        name=name.split(':')[0] if name.startswith('Talk Time') else name
+        if name=='Listening': kind='listening'
+        sid=re.sub(r'[^a-z0-9]+','-',name.lower()).strip('-')
+        sections.append(dict(id=sid,title=name,kind=kind,html=md1(body,1),**sec))
+    teacher=md1(M[ti+1:si],1)
+    mp3=f'level1/audio/L{n}_listening.mp3'
+    dl=[]
+    for kind,rel,label in [('pdf',f'level1/downloads/Level1_Lesson{n}.pdf','PDF, for printing'),
+                           ('docx',f'level1/downloads/Level1_Lesson{n}.docx','Word document (DOCX), for editing'),
+                           ('pptx',f'level1/downloads/slides/Level1_Lesson{n}_Slides.pptx','Teacher slides (PowerPoint)'),
+                           ('mp3',mp3,'Listening audio (MP3)')]:
+        if size(rel): dl.append(dict(kind=kind,href=rel,label=label,size=size(rel)))
+    return dict(week=int(week),title=title,topic=inline1(topic) if topic else '',words=words,
+                audio=mp3 if size(mp3) else '',audioSize=size(mp3),sections=sections,teacher=teacher,downloads=dl,
+                slides=f'level1/downloads/slides/Level1_Lesson{n}_Slides.pptx' if size(f'level1/downloads/slides/Level1_Lesson{n}_Slides.pptx') else '')
+
+if os.path.isdir(os.path.join(HERE,'level1')): export_level1()

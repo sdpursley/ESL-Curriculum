@@ -1,7 +1,12 @@
 """Markdown -> HTML helpers used by scripts/export_content.py (taken from the earlier static-site builder).
-The functions read the global list L (the Markdown lines); export_content.py sets it before use."""
+The functions read the global list L (the Markdown lines); export_content.py sets it before use.
+Level 1 settings (export_content.py sets them for the Level 1 pages; the defaults give the Level 2 output):
+  IMG_PREFIX  picture URL folder ('images/' for Level 2, 'level1/images/' for Level 1)
+  L1_STYLE    True: <!-- grid --> tables (alphabet / letter grids), and the "Español: ..." / "My language: ..." lines get their own classes"""
 import re, html, os
 L = []   # filled in by export_content.py
+IMG_PREFIX = 'images/'
+L1_STYLE = False
 def find(prefix,start=0):
     for i in range(start,len(L)):
         if L[i].startswith(prefix): return i
@@ -13,7 +18,7 @@ def inline(t):
     t=html.escape(t,quote=False).replace('&lt;br&gt;','<br>')
     def img(m):
         p=m.group(2); used_imgs.add(os.path.basename(p))
-        return f'<img src="images/{os.path.basename(p)}" alt="{m.group(1)}" width="300" height="210" loading="lazy">'
+        return f'<img src="{IMG_PREFIX}{os.path.basename(p)}" alt="{m.group(1)}" width="300" height="210" loading="lazy">'
     t=re.sub(r'!\[([^\]]*)\]\(([^)]+)\)',img,t)
     t=re.sub(r'\[([^\]]+)\]\(([^)]+)\)',r'<a href="\2">\1</a>',t)
     t=re.sub(r'`([^`]+)`',r'<code>\1</code>',t)
@@ -29,6 +34,10 @@ def inline(t):
 def cells(row): return [c.strip() for c in row.strip().strip('|').split('|')]
 def table(rows,cls=''):
     hdr=cells(rows[0]); body=[cells(r) for r in rows[2:]]
+    if cls=='grid':  # header-less grid of large centered letters (Level 1 alphabet / letter items)
+        if any(hdr): body=[hdr]+body
+        trs=''.join('<tr>'+''.join(f'<td>{inline(v)}</td>' for v in r)+'</tr>\n' for r in body)
+        return f'<div class="tablewrap lgrid"><table><tbody>\n{trs}</tbody></table></div>'
     if '‖' in hdr:  # two-sided grammar box
         k=hdr.index('‖')
         def grid(side):
@@ -68,9 +77,10 @@ def table(rows,cls=''):
     trs=''.join('<tr>'+''.join(f'<td>{inline(v)}</td>' for v in r)+'</tr>\n' for r in body)
     return f'<div class="tablewrap"><table><thead><tr>{th}</tr></thead><tbody>\n{trs}</tbody></table></div>'
 def md(lines,shift=0):
-    out=[]; i=0; n=len(lines)
+    out=[]; i=0; n=len(lines); grid=False
     while i<n:
         s=lines[i]; st=s.strip()
+        if L1_STYLE and st=='<!-- grid -->': grid=True; i+=1; continue
         if not st or st.startswith('<!--') or st=='---' or re.fullmatch(r'_+',st) and False: i+=1; continue
         if re.fullmatch(r'_{10,}',st):
             out.append('<div class="writeline"></div>'); i+=1; continue
@@ -86,7 +96,7 @@ def md(lines,shift=0):
         if st.startswith('|'):
             j=i
             while j<n and lines[j].strip().startswith('|'): j+=1
-            out.append(table(lines[i:j])); i=j; continue
+            out.append(table(lines[i:j],'grid' if grid else '')); grid=False; i=j; continue
         if st.startswith('>'):
             j=i; q=[]
             while j<n and lines[j].strip().startswith('>'): q.append(lines[j].strip()[1:].strip()); j+=1
@@ -108,6 +118,9 @@ def md(lines,shift=0):
         while j<n and lines[j].strip() and not re.match(r'(#|\||>|- |\d+\. |:::|---|<!--)',lines[j].strip()):
             p.append(lines[j].strip()); j+=1
         if not p: p=[st]; j=i+1
-        out.append(f'<p>{inline(" ".join(p))}</p>'); i=j
+        txt=" ".join(p); attr=''
+        if L1_STYLE and txt.startswith('*Español:'): attr=' class="es" lang="es"'
+        elif L1_STYLE and txt.startswith('My language:'): attr=' class="mylang"'
+        out.append(f'<p{attr}>{inline(txt)}</p>'); i=j
     return '\n'.join(out)
 
