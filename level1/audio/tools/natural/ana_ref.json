@@ -1,0 +1,14 @@
+{
+ "name": "Ana_LTTSR1580",
+ "used_for": "Ana's voice in level1/audio/L1_listening.mp3 (Chatterbox voice reference clip)",
+ "dataset": "LibriTTS-R (Koizumi et al. 2023, 'LibriTTS-R: A Restored Multi-Speaker Text-to-Speech Corpus'), test-clean split",
+ "hf_dataset": "mythicinfinity/libritts_r", "hf_config": "clean", "hf_split": "test.clean", "hf_row_index": 4511,
+ "speaker_id": "1580", "utterance_id": "1580_141083_000001_000002",
+ "text": "With due discretion the incident itself may, however, be described, since it serves to illustrate some of those qualities for which my friend was remarkable. I will endeavour, in my statement, to avoid such terms as would serve to limit the events to any particular place, or give a clue as to the people concerned.",
+ "license": "CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+ "origin": "LibriVox public-domain audiobook readings (via LibriSpeech / LibriTTS)",
+ "credit": "Ana's voice is based on LibriTTS-R speaker 1580 (Koizumi et al. 2023, CC BY 4.0), from LibriVox public-domain readings.",
+ "processing": "one utterance, 16.7 s; resampled to 24 kHz (librosa), peak-normalized to 0.9; no other edits",
+ "sha256_of_processed_wav": "723afcac381e1c6e01d18efc51b3ffe84ac4771ea96e8bc5bbf71ce0d5ac9483",
+ "why_this_voice": "chosen by the user from three auditions (clearly female, natural, different from the receptionist)"
+}

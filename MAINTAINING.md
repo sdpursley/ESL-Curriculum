@@ -280,6 +280,11 @@ spaced out letter by letter. To redo only pieces that failed (same settings, so 
 `SEED0=2026 EXAG=0.55 CFG=0.45 JOBS='[["Ana", "Hello. Thank you."]]' ../../../.venv-audio/bin/python fix_chunks.py`, then run
 `build_L1_audio.py` again (it reuses everything else from `cache/`). `out/` and `cache/` are not committed; copy the finished MP3 and the two JSON files into `level1/audio/`.
 
+**The published file (October 2026)** uses more natural voices for Ana and Carlos: `level1/audio/tools/natural/build_natural.py`
+makes each of their lines as one whole take (`EXAG=0.72 CFG=0.32`, several seeds, the best take that passes the checks is kept) and
+reuses the narrator and receptionist takes from the build above (so run `build_L1_audio.py` once first). Ana's voice reference is a
+LibriTTS-R recording (CC BY 4.0, credit it): run `fetch_ana_ref.py` once to download it. The exact command is at the top of `build_natural.py`.
+
 ### Add the next lesson (example: Lesson 2)
 
 1. Write `level1/curriculum/Level1_Lesson2.md`, starting from a copy of `Level1_Lesson1.md`, with the same parts and heading pattern

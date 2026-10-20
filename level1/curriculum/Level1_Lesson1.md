@@ -192,7 +192,7 @@
 :::
 
 ---
-### Listening script: `L1_listening.mp3` (about 1:17; the conversation plays once, so play the audio again if needed)
+### Listening script: `L1_listening.mp3` (about 1:14; the conversation plays once, so play the audio again if needed)
 
 > **Audio:** play from a phone + small speaker. No speaker? Read the script with a volunteer. Read slowly and spell each letter clearly, with a short pause between letters.
 
@@ -694,4 +694,4 @@ My language: ______________________________________________
 
 Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and ID cards, a name tag, speech bubbles, letters, and labels were added. The file-by-file list is in `images/CREDITS.md`.
 
-Task icons on the pages are standard emoji characters shown with the computer's emoji font. Listening audio: synthetic voices made with Chatterbox TTS (Resemble AI, MIT License); each file carries an inaudible Perth watermark marking it as AI-generated. Course materials: © 2026 the authors, CC BY-NC-SA 4.0.
+Task icons on the pages are standard emoji characters shown with the computer's emoji font. Listening audio: synthetic voices made with Chatterbox TTS (Resemble AI, MIT License); each file carries an inaudible Perth watermark marking it as AI-generated. Ana's voice is based on LibriTTS-R speaker 1580 (Koizumi et al. 2023, CC BY 4.0, https://creativecommons.org/licenses/by/4.0/), from LibriVox public-domain readings. Course materials: © 2026 the authors, CC BY-NC-SA 4.0.
