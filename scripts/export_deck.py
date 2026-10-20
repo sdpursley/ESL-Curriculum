@@ -120,7 +120,12 @@ for i,sid in enumerate(pres.find('p:sldIdLst',NS),1):
     best=max(runs)[0] if runs else 0
     title=' '.join(t for sz,_,t in sorted(runs,key=lambda r:-r[1]) if sz==best).strip()
     if len(title)<6 or not re.search('[A-Za-z]{2}',title):  # e.g. slide whose biggest text is a single word ('am')
-        title=' '.join(t for sz,_,t in sorted(runs,key=lambda r:-r[1]) if sz==max(r[0] for r in runs if r[0]<best)).strip()
+        sz2=max(r[0] for r in runs if r[0]<best)
+        title=' '.join(t for sz,_,t in sorted(runs,key=lambda r:-r[1]) if sz==sz2).strip()
+        boxes={k for sz,k,_ in runs if sz==sz2}
+        if len(boxes)>1:  # that size is in several boxes (Level 3 slide 16: title + a "because" label): use the top box only
+            k_top=min(boxes,key=lambda k:shapes[-k]['y'])
+            title=' '.join(t for sz,k,t in runs if sz==sz2 and k==k_top).strip()
     multi=len({k for sz,k,_ in runs if sz==best})>1
     if LEVEL!=2 and multi:  # Level 1: biggest text is spread over several boxes (e.g. "What's" / "I'm" cards): use the top box with large text
         big=[(sh['y'],sh) for sh in shapes if sh.get('text') and any(r.get('sz',0)>=0.85*best and r.get('t','').strip() for p in sh['text']['paras'] for r in p['runs'])]
