@@ -49,3 +49,6 @@ level1/images/CREDITS_*.new.md
 level1/exams/build/out/
 level1/exams/build/consistency_report.txt
 level1/exams/build/audio/out/
+
+# Slide decks built by scripts/slides/build_deck.py (default --out) and their renders
+/build/

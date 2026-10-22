@@ -6,6 +6,8 @@ All commands run from the repository root unless a step says `cd`.
 
 **Get the owner's approval before you publish anything** (before merging into `main`: a push to `main` deploys the public website).
 
+**Contents:** [1. Project layout](#1-project-layout) · [2. Content rules](#2-content-rules) · [3. Audio rules](#3-audio-rules) · [4. Audio check rules](#4-audio-check-rules) · [5. Step by step: add a lesson](#5-step-by-step-add-a-lesson-example-level-1-lesson-n-level-3-is-the-same-with-level3--l3) · [6. Slide decks (all levels)](#6-slide-decks-all-levels) · [7. Never commit](#7-never-commit) · [8. Repository rules](#8-repository-rules)
+
 ---
 
 ## 1. Project layout
@@ -32,6 +34,7 @@ Shared scripts:
 - `scripts/export_content.py`: writes all the website data (`src/content*.json`, `src/sizes.json`) and copies the Level 1 / Level 3 pictures, MP3s, and PPTX from `level1/`, `level3/` into `public/level1/`, `public/level3/`. It also copies the Level 1 exam MP3s and lists the exam files. It rebuilds Level 2 data too; unchanged sources give byte-identical files.
 - `scripts/export_deck.py <pptx> <N> [--level 1|3]`: PowerPoint deck → presenter JSON. It stops if a picture in the deck is not identical to a file in the level's `public/.../images/`.
 - `scripts/check_slides.py <pptx ...>`: every click animation targets a shape that exists.
+- `scripts/slides/`: the slide deck tools (build a deck from a lesson spec, inspect, check, render, compare). See section 6.
 - `scripts/md_parser.py`: Markdown → page HTML (used by `export_content.py`).
 
 Python environments (not committed): `.venv-docs` (`tools/requirements-docs.txt`), `.venv-img` (`tools/images/requirements.txt`: Pillow, cairosvg),
@@ -225,7 +228,7 @@ The repo's `tools/audio/processor.py` is the one to use (resampling, trimming, s
      - the check results, as `L1_L<N>_check_results.json`
    - Write `L1_L<N>_README.md`: voices, settings, results, and the vote line.
    - Put the real length in the Markdown.
-6. **Slides.** Make or edit `level1/slides/Level1_Lesson<N>_Slides.pptx`. **Presenter rules:**
+6. **Slides.** Make or edit `level1/slides/Level1_Lesson<N>_Slides.pptx` (Level 3 and up: build it with `scripts/slides/build_deck.py`). **Follow section 6** for the format, the notes, and the checks. **Presenter rules:**
    - Each slide title is in the **top title box**, and it is the largest text on the slide. The presenter takes the title from there.
    - **Every click animation targets a shape that exists on that slide.** Check with `python3 scripts/check_slides.py level1/slides/Level1_Lesson<N>_Slides.pptx`.
    - **Answers appear on click.** Questions show first; each answer is an "on click" entrance animation. Each click = one reveal step.
@@ -241,7 +244,7 @@ The repo's `tools/audio/processor.py` is the one to use (resampling, trimming, s
    - `#/level1/present/<N>`: click through every slide. Answers appear on click, there are no empty or stuck steps, and the counter ends on the last slide.
    - `#/level1/downloads`, `#/level1/exams`, and the Level 2 and Level 3 pages.
    - No browser console errors, and every image, PDF, DOCX, PPTX, and MP3 link returns 200.
-10. **PR.** Follow section 7 and ask the owner for approval before you merge.
+10. **PR.** Follow section 8 and ask the owner for approval before you merge.
 
 **Exams (Level 1 Week 8 Midterm, Week 15 Final)**
 
@@ -258,22 +261,393 @@ The repo's `tools/audio/processor.py` is the one to use (resampling, trimming, s
 - Set `IMGPY=.venv-img/bin/python` for the pictures.
 - `BANNED_EXTRA="word1,word2"` adds words to the checker's banned list.
 
+## 6. Slide decks (all levels)
+
+This section is the complete recipe for the teacher slide decks (`.pptx`), from the lesson page to the live presenter.
+It is written so that a coding agent with no other context can make a new deck that matches the published ones
+**exactly in format** (same slide sizes, shapes, fonts, colors, picture boxes, click reveals, and notes style). Every
+number below was measured from the published decks with `scripts/slides/inspect_deck.py`. When this text and a published
+deck disagree, the deck wins: inspect it.
+
+**Tools** (all in `scripts/slides/`; set up once with `bash scripts/slides/setup_tools.sh`, see 6.7):
+
+| Script | What it does |
+|---|---|
+| `build_deck.py` | Builds `Level<V>_Lesson<N>_Slides.pptx` from the previous lesson's deck plus a lesson spec (`level<V>/slides/specs/Level<V>_Lesson<N>.py`). Levels 3, 4, 5. |
+| `deckspec.py` | Helpers the specs import (`from deckspec import *`): alt text from `CREDITS.md`, word cards from the lesson's New Words table, the audio and credits wording, the listening script for the notes. |
+| `inspect_deck.py` | Prints every slide's kind, shapes (id, name, position, size, fill), text runs (size, bold, color, font), click steps and notes. |
+| `lesson_outline.py` | Prints the slide-relevant parts of a lesson Markdown file, in order, to write or check a spec. |
+| `check_deck.py` | Rule checks on finished decks (size, slide count, click targets, pictures, emoji, Spanish, forbidden words, lesson numbers, credits line, notes style). |
+| `render_deck.sh` | Renders every slide to `slide-NN.jpg` (LibreOffice + pdftoppm). |
+| `contact_sheet.py` | All rendered slides on one labeled image; `--compare` puts two decks side by side. |
+| `compare_decks.py` | Slide-by-slide structural comparison of two decks (shapes, geometry, text runs, picture bytes, clicks, notes). |
+| `requirements.txt`, `setup_tools.sh` | Python packages (python-pptx, lxml, Pillow) and the one-time setup (LibreOffice, poppler, fonts). |
+
+The site scripts are `scripts/check_slides.py` (click targets), `scripts/export_deck.py` (deck → presenter JSON), and `scripts/export_content.py` (site data).
+
+### 6.1 Inputs: the lesson is the only source
+
+- **Lesson text:** `level<V>/curriculum/Level<V>_Lesson<N>.md`. While a lesson is still a draft it may live on a branch as `level<V>/drafts/curriculum/Level<V>_Lesson<N>.md` (for example, Level 3 Lessons 2–13 are on the branch `level3-L2-13-audio-handoff`). Read it without switching branches: `git show origin/<branch>:level<V>/drafts/curriculum/Level<V>_Lesson<N>.md > /tmp/Level<V>_Lesson<N>.md`, then pass `--md /tmp/Level<V>_Lesson<N>.md`.
+- **Pictures:** `level<V>/images/L<V>_L<N>_<name>.png` and the level's `level<V>/images/CREDITS.md` (one table row per file: file, word, what it shows, Twemoji source). The alt text of every picture on the slides is built from that row.
+- **Answer keys:** the lesson's teacher plan and answer key sections. Every answer revealed on a slide must be the key's answer, word for word.
+- **Everything on a slide comes from the lesson page.** Same words, same order, same item numbers, same answers, same names, same times. Never invent an item, an example, a name, a word, or an answer. If a slide needs text the lesson does not have, change the slide (fewer rows), not the content. If the lesson itself looks wrong, stop and report it; do not "fix" it on the slide.
+- `python3 scripts/slides/lesson_outline.py <lesson.md>` prints the parts that go on slides (it leaves out the how-to-use pages, the clock-time table, the word list pages and the credits). `--full` also prints the speaker lines of the listening script.
+
+### 6.2 Template and chaining: always start from an existing deck
+
+Never build a deck from a blank presentation, and never change the theme, slide size, fonts or colors.
+
+| You are making | Start deck (`--start`) | Fallback deck (`--fallback`, for slide kinds or parts the start deck lacks) |
+|---|---|---|
+| Level V, Lesson N (N ≥ 2) | `level<V>/slides/Level<V>_Lesson<N-1>_Slides.pptx` (the previous lesson) | `level<V>/slides/Level<V>_Lesson1_Slides.pptx` |
+| Level V, Lesson 1 (new level) | the last deck of the level below: `level<V-1>/slides/Level<V-1>_Lesson13_Slides.pptx` (or the closest existing deck) | `level<V-1>/slides/Level<V-1>_Lesson1_Slides.pptx` |
+
+`build_deck.py` uses exactly these defaults; for Lesson 1 of a new level you must pass `--start`. Examples: Level 4 Lesson 1 starts from `level3/slides/Level3_Lesson13_Slides.pptx` (fallback `level3/slides/Level3_Lesson1_Slides.pptx`); Level 4 Lesson 2 starts from `level4/slides/Level4_Lesson1_Slides.pptx`. Level 5 Lesson 1 starts from `level4/slides/Level4_Lesson13_Slides.pptx`.
+
+How the builder uses them: every slide of the new deck is a **copy of the first slide of the same kind** in the start deck that has all the standard parts (for example, a `checksay` slide with its `head chip`); kinds or parts missing there come from the fallback deck. Then it rewrites the text, swaps in the lesson's own pictures, adds or removes rows, rebuilds the click animations, and writes the notes. Old slides are removed and unused parts pruned.
+
+**Level 1 decks** (`level1/slides/`) are older, hand-made decks without kind tags or role names, and Level 1 is complete (13 decks). The builder does not handle them. To change a Level 1 deck, edit that deck in place with python-pptx (6.8.4) and keep its layout.
+
+### 6.3 The slide sequence and the exact format
+
+**Common format (all levels).**
+
+- Slide size **13.333 × 7.5 in** (16:9, 12192000 × 6858000 EMU). Every slide uses the layout `DEFAULT`; there are no placeholders: every box is a free shape.
+- Font **Lexend Deca** for every text run (bold for titles, numbers and labels).
+- Text colors: ink **`1B2236`** (almost all text), accent purple **`5B3FC4`** (highlighted words: `*word*` in the spec), green **`1E6B45`** and red **`B42318`** (Say / Don't say marks); white text on the colored word labels.
+- Fills: background **`F1F5FB`** (the credits slide uses `C9B8F2`); cards **`FFFFFF`**; card shadows **`8FAFE3`** (the same card shape offset down-left by about 0.05 in); chips and side panels **`B9D2F7`**; answer boxes and the middle check card **`C9B8F2`**; highlights and answer circles **`FFE28C`**; light panels **`DCE6F5`**. Cards are `round1Rect` / `roundRect`.
+- Pictures: the lesson's PNG files (600 × 420 px cards), placed **byte-identical** (never re-encode, crop or recolor them), usually 2.1 × 1.5 in (word cards), 3.0 × 2.1 in (side pictures), 3.6–5.2 in wide (big pictures). Every picture has alt text: `Word: what it shows` from `CREDITS.md`.
+- **Titles** are the largest text on the slide and sit in the top/left title box (the presenter reads the title from the largest text).
+- **Click reveals:** questions and items show first; each answer, row or highlight appears **on click** (entrance animation). One click = one step. The parts of one row (card, chip, number, text) appear together: the first part is "on click", the rest "with previous". Every animation must target a shape that exists on that slide.
+- Slide count: **about 24–27** (Level 1: 23–24; Level 3: 25–27).
+
+**Level 3 sequence (the model for Levels 4 and 5).** Each slide carries its kind in `<p:cSld name="L<V>:<kind>">` and its shapes have role names (`title`, `R1 card`, `R1 ans`, …). Measured from `level3/slides/Level3_Lesson2_Slides.pptx` (26 slides):
+
+| # | Kind | Purpose | Clicks |
+|---|---|---|---|
+| 1 | `title` | Lesson title, "Lesson N · Level V", "Today you will:" + 3 bullets, picture | none |
+| 2 | `goals` | "Today's Goals": the lesson's "I can…" objectives, numbered 01–06 | one per row |
+| 3 | `warmup` | Opening Talk (kicker "OPENING TALK · 6:00"), two instruction boxes, picture | one per box |
+| 4 | `numlist` | Opening Talk cards (numbered list) | one per row |
+| 5–6 | `words` ×2 | New Words: 6 picture cards each (12 words, starred words first, in the lesson's order) | one per card |
+| 7 | `check` | Check the Meaning: 3 picture questions, answers on click | one per answer |
+| 8 | `before` | Before You Listen: context line, picture, numbered voices, "Listen for:", audio length, "Play 1: Task A" | one per voice |
+| 9–10 | `choice` ×2 | Listening A / B: statements with answer options, the right one circled on click | one per row |
+| 11 | `gaps` | Listening C: gap sentences, answers on click | one per row |
+| 12 | `checksay` | Say It (pronunciation lines) | one per line |
+| 13–17 | `qa` / `table` (×5) | Grammar Boxes 1–5: two-sided question / answer boxes, answers on click | one per answer |
+| 18–19 | `gaps`, `checksay` | Practice A / B | one per answer |
+| 20 | `mistakes` | Common Mistakes: Don't say / Say, the Say side on click | one per row |
+| 21 | `drill` | Pair Drill: Student A / Student B | one per side |
+| 22 | `talk` | Talk Time: name, grouping, time "7:00–7:12", numbered steps | one per step |
+| 23 | `go` | Before You Go "7:12–7:17": 01 Exit ticket, 02 Homework | none |
+| 24 | `progress` | Progress Check "7:25": items, answers on click, "D. I can…" box with 😀 🙂 😐 | one per answer |
+| 25 | `goodbye` | "Goodbye! See You Next Week!", "Now you can:" + the 3 bullets | none |
+| 26 | `credits` | Credits (pictures, names and story, audio and font, © line) | none |
+
+Other lessons add or drop a `words`/`talk`/`table`/`numlist` slide, or use `free` (a grammar box with a line, two example blocks and two side words, e.g. Level 3 Lesson 3 "used to"). Kinds: `title goals warmup numlist words check before choice gaps checksay qa table free mistakes drill talk go progress goodbye credits`.
+
+**Level 3 shape geometry** (left, top in inches; width × height; font size in pt; all Lexend Deca; ink unless noted):
+
+| Kind | Shapes |
+|---|---|
+| `title` / `goodbye` | left card (white on `8FAFE3` shadow) with `title` at (0.95, 1.45) 6.35 × 2.2, **50 pt bold** (goodbye 44); `lead` 24 bold ("Today you will:" / "Now you can:"); `bullets` 22 with "•  "; right panel `round1Rect` `B9D2F7` at (7.9, 1.0) 4.9 × 5.6 with `pic` (8.45, 1.82) 3.8 × 2.66 and `lesson` 22 bold "Lesson N  ·  Level V" |
+| `goals` / `numlist` | `title` at (8.35, 1.95) 40 bold; `side` 20; rows `R<k>` = `shadow` (`8FAFE3`) + `card` (white `round1Rect`) + `chip` (`B9D2F7`) + `num` 36/32 bold "01" + `text` 18–20 (+ `sub` 20 on goals row 1) + `dot` triangle |
+| `warmup` | `kicker` 20 bold "OPENING TALK  ·  6:00"; `title` 40 bold; `box1` / `box2` 22; `pic` (7.44, 2.0) 5.2 × 3.64 |
+| `words` | `title` 49 bold "New Words" / "More New Words"; `instr` card + `instr` 22; per word `Word picture k` 2.1 × 1.5 and `Word label k` 20 bold white "★ word" (★ = starred word in the lesson); 6 per slide |
+| `check` | `title` 43 bold; `sub` 24; rows `R<k>`: `shadow`, `card` (middle card `C9B8F2`), `circle` (`FFE28C`), `num` 25 bold, `q` 18, `pic` 2.1 × 1.5, `ans` 28 bold on `FFE28C` (on click) |
+| `before` | `title1` / `title2` 44 bold "Before You" / "Listen"; `context` 20; `pic` (0.175, 2.65) 3.0 × 2.1; voices `R<k>`: `num` 36 bold, `hl` (`FFE28C`, on click), `voice` 22; `listen head` 24 bold "Listen for:", `listen 1/2` 22; `audio` 22 "Audio: about 1:20. It plays once."; `play` 22 "Play 1: Task A" |
+| `choice` | `title` 48 bold; `instr` 22; rows `R<k>`: `stmt` 20 + `opt1..4` 20 white on colored chips + `circle` ellipse (on click); optional row picture |
+| `gaps` | head card (`head shadow`, `head card`, `head1` / `head2` 20); `title` at (8.8, 1.9) 40 bold; `side` 20; rows `R<k>`: `card`, `chip`, `num` 32 bold, `text` 18, `ans` 20 bold on `C9B8F2` (on click) |
+| `checksay` | head card parts; `title` "Say It"; `side`; lines `S<k>`: `card` + `text` 24 (`*STRONG*` part in accent); optional `head chip` / `head num` |
+| `qa` | `head` 18 / 28 bold ("Grammar Box k  ·  topic" + question title); `pic` (8.55, 1.25) 3.0 × 2.1; `left panel` white, `right panel` `B9D2F7`; `Q head` / `A head` 20 bold "QUESTION" / "ANSWER"; per row `Highlight k` (`FFE28C`), `Helper k` 22, `Question k` 20, `Answer bg k` white, `Answer k` 17 (on click) |
+| `table` | full-height `left panel` `B9D2F7` with `pic` (0.5, 2.5) 3.6 × 2.5 and `head` 20 / 34 bold; `Q head` / `A head`; `Question k` 18; `Answer bg k` `C9B8F2` + `Answer k` 18 (on click) |
+| `mistakes` | `title` 43 bold "Common Mistakes"; small `pic` top right; `Dont head` "Don't say" / `Say head` "Say" 22 bold; `Bad k` / `Good k` 16 (Good on click) |
+| `drill` | `title` 40 bold "Pair Drill"; `sub` 20; `s1 label` / `s2 label` 22 bold; `s1 body` / `s2 body` 22; `pic` (1.4, 4.0) 3.8 × 2.6 |
+| `talk` | `head` 26 / 40 bold ("Talk Time" + activity name); `grouping` 20; `time` 20 "7:00–7:12"; `Step num k` 22 bold on `FFE28C`; `Step k` 20–22; `pic` (0.8, 3.7) 4.2 × 3.0 |
+| `go` | `title` 38 bold "Before You Go" + 22 "7:12–7:17"; `pic`; `Num 01/02` 30 bold; `Label 01/02` 22 bold "Exit ticket" / "Homework"; `Body 01/02` 18 |
+| `progress` | `title` 43 bold "Progress Check" + "7:25"; `A head` 20 bold; `Bad k` 15 (items), `Good k` 24 (answers, on click); `ican` box "D. I can…", "😀   🙂   😐", "Check one face." + the "I can" lines |
+| `credits` | background `C9B8F2`; `title` 54 bold "Credits"; three text boxes `pictures`, `names`, `audio` (16–20 pt headings, 13 pt audio text), the © line last |
+
+To see any value exactly: `python3 scripts/slides/inspect_deck.py level3/slides/Level3_Lesson2_Slides.pptx 8` (slide 8), or `--short` for all slides.
+
+**Level differences.**
+
+| | Level 1 (beginner) | Level 3 (low intermediate), Levels 4–5 |
+|---|---|---|
+| Deck | 23–24 slides, hand-made (no kind tags), "Slide N" shape names | 25–27 slides, kind tags + role names, built with `build_deck.py` |
+| Sequence | title · Today's Goals · Hello + Review · New Words · More New Words · Before You Listen · Listening A/B/C · grammar boxes with the question as title (e.g. "What do you do?") · Preview · practice · Common Mistakes · Talk Time + a 2nd activity (e.g. Find Someone Who) · Before You Go "7:10–7:15" · **literacy block 7:15–7:30** (2–3 slides: "Letters & Numbers · 7:15", e.g. "a or an?", "Letters: Task B", "Read the Signs") · Progress Check "7:25" · "Great Work! See You Next Week!" · Credits | as in the table above; no literacy block; Before You Go 7:12–7:17 |
+| Spanish | Student pages have English + Spanish + "My language: ____" lines; the **slides are English only** (no Spanish lines) | no Spanish anywhere |
+| Listening | about 1:00–1:20, 2–3 voices | about 1:30 at most, **up to 3 speakers** (Narrator + 2 characters) |
+
+### 6.4 Speaker notes
+
+Every slide has notes for a first-time volunteer teacher. Write them from the lesson's teacher plan, in this order:
+
+1. **Timing line** on the first slide of each step: `Step k · 6:18–6:30 · Listening + "Say it" · 12 min (slides 8 to 12). Individuals, then pairs check.` Following slides of the step start with `Step k, continued.` or with the task (`Play 1 → Task A.`). Breaks and group sizes come from the plan ("15 learners: 7 pairs + 1 group of 3").
+2. **What to say and do**, click by click ("Click to show the answer."). Answers are the key's answers.
+3. A fallback line where useful ("If behind: one card only.", "No speaker? Read the script with a volunteer at a normal, friendly speed.").
+4. **`Lesson plan: (...)`**: the last content line names the lesson parts the slide comes from, e.g. `Lesson plan: Step 3; Listening script; Listening page.` Never name a file (no `Level3_Lesson2.md`, no `AUDIO_STATUS.md`, no `drafts/` path). In the spec you write `f'{SRC} (Step 3; Listening script; Listening page).'` with `SRC = 'Source: Level<V>_Lesson<N>.md'`; `build_deck.py` turns it into the `Lesson plan:` line.
+5. The picture credit line for slides with pictures: `Picture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (...); <changes> (images/CREDITS.md).` (`pic_credit(MOD)` in the spec).
+
+**Listening audio and the notes.** The audio sentence in the Before You Listen notes depends on whether `level<V>/audio/L<V>_L<N>_listening.mp3` exists when you build:
+
+- **Recorded:** `The audio (L3_L1_listening.mp3, about 1:31) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.` and the notes line `Audio: synthetic voices, computer-generated (Chatterbox TTS cloned from Kokoro-82M reference clips). No recordings of real people. The names and the story are invented.`
+- **Not recorded yet ("coming soon"):** `The audio (about 1:20) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.` and **the whole listening script is appended to the Before You Listen notes**, one `Speaker: line` per line, after the heading `Listening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):`.
+
+Write the recorded sentence in the spec; the builder switches to the coming-soon wording and appends the script automatically when the MP3 is missing. **When the audio arrives, rebuild the deck** (same command): the notes and the credits slide switch to the recorded wording.
+
+### 6.5 Credits slide (always the last slide)
+
+Three boxes, then the license line. The text (from `credits_slide()` in `deckspec.py`):
+
+- **Pictures:** `Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). <what was changed, from the lesson's Picture Credits>` + `The faces on the Progress Check are standard emoji characters shown with the computer's emoji font.`
+- **Names and story:** `<all names in the lesson> are invented names. The listening story is invented.`
+- **Audio and font**, recorded: `Audio: synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people were used. Each file carries an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).`
+- **Audio and font**, coming soon: `Audio (coming soon): synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people. Each file will carry an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).`
+- **License line (never change it):** `© 2026 the authors. The authors license this deck under CC BY-NC-SA 4.0.` The notes repeat it as `Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).` and end with `Lesson plan: Picture Credits. Picture list: images/CREDITS.md.`
+
+### 6.6 Content rules for slides
+
+All of section 2 applies. For slides in particular:
+
+- **No instruction icons and no decorative emoji.** The only emoji are the self-check faces **😀 🙂 😐** on the Progress Check. Plain marks ✓ ✗ ★ ☐ ↗ are allowed where the lesson uses them (★ marks starred words). The published Level 1 Lesson 1 deck still has 👩 / 👨 speaker marks on slides 10–11 (older deck); do not copy them.
+- **Pictures:** Twemoji (CC BY 4.0) or drawn in code, made by the level's picture scripts, **listed in the level's `CREDITS.md`**, and placed in the deck **byte-identical** to the file in `level<V>/images/` (the site exporter refuses anything else). Never use a picture from the internet, a stock site or an AI image generator. Every picture needs alt text.
+- **No religious content** (holidays, places of worship, prayers, scripture). Never describe the curriculum as "secular". Never name any other ESL program, curriculum, publisher, or test. All names, stores, prices and addresses are invented (as in the lesson).
+- **No "Draft" wording** in a published deck: no "Draft", "Draft for review", "TODO", placeholder text, or file names that are not on the site. (A lesson may legitimately use the word "draft" as content, e.g. "write a draft"; that is fine in the notes.)
+- Keep "© 2026 the authors"; no copyright-registration claims.
+- `scripts/slides/check_deck.py` checks most of this (add the names of other programs or publishers to look for with `--forbid 'Name1,Name2'`; the repository never writes them down); it does not replace reading every slide.
+
+### 6.7 One-time setup
+
+```bash
+bash scripts/slides/setup_tools.sh
+```
+
+It installs, if missing: LibreOffice Impress (`soffice`), poppler-utils (`pdftoppm`), Noto Color Emoji and DejaVu fonts, the Python packages in `scripts/slides/requirements.txt` (python-pptx ≥ 1.0.2, lxml, Pillow), and the **Lexend Deca** TTF (SIL OFL 1.1, from https://github.com/google/fonts/tree/main/ofl/lexenddeca) into `~/.local/share/fonts` (`fc-cache -f`). The repository only has the web font `src/assets/fonts/LexendDeca-Variable.woff2`, which LibreOffice cannot use; without the TTF, renders use a fallback font and line breaks are wrong. Do not commit the TTF. Check: `fc-match "Lexend Deca"` must print `Lexend Deca`.
+
+### 6.8 Step by step: make a deck (example: Level 3 Lesson N; for Level 4/5 replace `3`)
+
+Work on a feature branch (section 8). Set the numbers once:
+
+```bash
+V=3; N=5; P=$((N-1))
+```
+
+**1. Read the lesson.** Get the lesson Markdown (6.1) and print the slide parts:
+
+```bash
+MD=level$V/curriculum/Level${V}_Lesson$N.md      # or the /tmp copy from a draft branch
+python3 scripts/slides/lesson_outline.py $MD | less
+```
+
+**2. Check the pictures.** Every picture the deck will show must already be in `level$V/images/` and in `level$V/images/CREDITS.md`:
+
+```bash
+ls level$V/images/L${V}_L${N}_*.png; grep -c "L${V}_L${N}_" level$V/images/CREDITS.md
+```
+
+**3. Write the spec.** Copy the previous lesson's spec and rewrite it for this lesson:
+
+```bash
+cp level$V/slides/specs/Level${V}_Lesson$P.py level$V/slides/specs/Level${V}_Lesson$N.py
+```
+
+A spec is a Python file:
+
+```python
+"""Level 3 Lesson 5 deck spec. Build: python3 scripts/slides/build_deck.py --level 3 --lesson 5 (AGENTS.md section 6)."""
+from deckspec import *
+N = 5
+DECK_TITLE = "Level 3 Lesson 5: <title from the lesson>"
+MOD = '<what was changed in the pictures: from the lesson Picture Credits>'
+PC = pic_credit(MOD); PCS = pic_credit(MOD, True)
+I = lambda stem: f'L3_L5_{stem}.png'            # picture file of this lesson
+A = lambda stem: alt(N, I(stem))                # its alt text, from CREDITS.md
+SRC = 'Source: Level3_Lesson5.md'               # becomes "Lesson plan: (...)" in the notes
+BUL = ['<objective 1>', '<objective 2>', '<objective 3>']   # title + goodbye bullets
+W = newwords(N)                                 # the 12 word cards straight from the New Words table
+SLIDES = [
+  {'kind': 'title', 'title': '<lesson title>', 'bullets': BUL, 'pic': I('<stem>'), 'alt': A('<stem>'),
+   'notes': ['Welcome learners as they arrive.', ..., f'{SRC} (Topic; At a glance: Objectives).', PC]},
+  ...,
+  credits_slide(N, '<all invented names>', '<changes sentence>', [audio_note(N, '1:20')]),
+]
+```
+
+- Keep the **same list of slides and kinds** as the previous spec unless the lesson's sections differ; then add or remove slides of the matching kind (see 6.3).
+- Each slide is a dict: `kind`, the kind's text keys, and `notes` (a list of lines). The keys per kind are in the existing specs (`level3/slides/specs/Level3_Lesson2.py` … `Level3_Lesson13.py` cover every kind) and in the `r_<kind>()` functions of `build_deck.py`. Optional size keys (`title_sz`, `sz`, `asz`, `aw`, `pic_box`, `pitch_max`, …) only fine-tune font sizes, widths and boxes when a lesson's text is longer; start without them and add them only if the render shows overflow.
+- Text markup inside strings: `**bold**`, `*accent purple*`, `^regular weight^` (in a bold box).
+- Row counts follow the lesson: 6 goals; 12 words (2 slides × 6); 3 meaning checks; the listening items exactly as numbered in the lesson; 5 grammar boxes; up to 7 mistakes; the Progress Check items of the lesson.
+- `words(N, [(stem, label, star), ...])` is the manual alternative to `newwords(N)`.
+
+**4. Build** (output goes to `build/slides/`, which is gitignored):
+
+```bash
+python3 scripts/slides/build_deck.py --level $V --lesson $N --md $MD --out build/slides/Level${V}_Lesson${N}_Slides.pptx
+```
+
+It prints the start, fallback, spec, Markdown, picture folders and whether the audio is ready, then the slide count. Lesson 1 of a new level: add `--start level$((V-1))/slides/Level$((V-1))_Lesson13_Slides.pptx`. Errors name the slide and kind (`slide 12 (checksay): KeyError(...)`): fix the spec.
+
+**5. Check:**
+
+```bash
+D=build/slides/Level${V}_Lesson${N}_Slides.pptx
+python3 scripts/check_slides.py $D
+python3 scripts/slides/check_deck.py --level $V --lesson $N $D
+```
+
+Both must print `OK` with no warnings for a new deck.
+
+**6. Render every slide and look at each one:**
+
+```bash
+scripts/slides/render_deck.sh $D build/slides/render_L${V}_L${N}
+python3 scripts/slides/contact_sheet.py build/slides/render_L${V}_L${N} build/slides/L${V}_L${N}_sheet.jpg
+```
+
+(`render_deck.sh` runs `soffice --headless --convert-to pdf` and `pdftoppm -jpeg -r 60`.) Open the contact sheet and **every** `slide-NN.jpg` (an image viewer, or the image-reading tool of your agent). Visual QA checklist, every slide:
+
+- [ ] no text overflows its box, is cut off, or overlaps another shape; no text runs off the slide
+- [ ] titles fit on their lines (one or two lines as in the previous deck); nothing is tiny compared with the same slide in the previous deck
+- [ ] every picture shows the right word/scene, not stretched; no empty picture frame
+- [ ] row counts match the lesson; numbers 01, 02 … are in order; no leftover rows or text from the previous lesson
+- [ ] colors, fonts and positions look the same as the same kind of slide in the previous deck (compare: `contact_sheet.py <new> out.jpg --compare <render of the previous deck>`)
+- [ ] the renders show **all** text, including answers that appear on click: check that answers sit in their boxes
+- [ ] the credits slide has the right names, audio wording and the © line
+
+If something overflows: shorten nothing that comes from the lesson; instead set a smaller size key for that slide (`sz`, `title_sz`, `asz`, …) or a wider box (`aw`, `ow`), rebuild, and render again.
+
+**7. Read the text and notes once, slide by slide,** against the lesson: `python3 scripts/slides/inspect_deck.py $D --short` lists all texts; `python3 - <<'EOF'` with python-pptx can print the notes (`slide.notes_slide.notes_text_frame.text`). Check the timing lines, the answers, and the `Lesson plan:` lines.
+
+**8. Put the deck in place and export it for the site:**
+
+```bash
+cp $D level$V/slides/Level${V}_Lesson${N}_Slides.pptx
+python3 scripts/export_deck.py level$V/slides/Level${V}_Lesson${N}_Slides.pptx $N --level $V
+python3 scripts/export_content.py
+git status --short     # expect: the pptx, the spec, src/decks/level$V/lesson$N.json, src/content_level$V.json, public/level$V/downloads/slides/...
+```
+
+`export_deck.py` stops if a picture is not byte-identical to a file in `public/level$V/images/` (run `export_content.py` first if you added pictures). It prints the reveal steps per slide: compare them with the clicks you expect.
+
+**9. Build and preview the site:**
+
+```bash
+npm ci            # once
+npm run build
+npm run preview   # http://localhost:4173/
+```
+
+**10. Presenter click-through:** open `http://localhost:4173/#/level$V/present/$N`, press → (or click) through every slide: each click reveals one step, answers appear in order, nothing is stuck or empty, the counter ends on the last slide, and the PowerPoint download link works. Also open `#/level$V/lesson/$N` and `#/level$V/downloads`. No browser console errors.
+
+**11. Commit and open a PR** (section 8). Commit the deck, the spec, and the generated site files together.
+
+#### 6.8.1 Reproduce a published deck (to check your setup)
+
+Before your first new deck, rebuild a published one and compare. This was done for all of Level 3 Lessons 2–13: every rebuild was identical to the published deck (`compare_decks.py` "SAME", and identical renders).
+
+```bash
+git show origin/level3-L2-13-audio-handoff:level3/drafts/curriculum/Level3_Lesson2.md > /tmp/Level3_Lesson2.md
+python3 scripts/slides/build_deck.py --level 3 --lesson 2 --md /tmp/Level3_Lesson2.md --out /tmp/repro/Level3_Lesson2_Slides.pptx
+python3 scripts/slides/compare_decks.py level3/slides/Level3_Lesson2_Slides.pptx /tmp/repro/Level3_Lesson2_Slides.pptx   # must print SAME
+scripts/slides/render_deck.sh level3/slides/Level3_Lesson2_Slides.pptx /tmp/repro/pub
+scripts/slides/render_deck.sh /tmp/repro/Level3_Lesson2_Slides.pptx /tmp/repro/new
+python3 scripts/slides/contact_sheet.py /tmp/repro/pub /tmp/repro/compare.jpg --compare /tmp/repro/new
+```
+
+Never write a reproduction over a published deck.
+
+#### 6.8.2 Level 4 or Level 5: the first deck
+
+1. Lesson 1 Markdown, pictures and `CREDITS.md` exist under `level4/` (same names as Level 3: `level4/curriculum/Level4_Lesson1.md`, `level4/images/L4_L1_*.png`).
+2. Copy the closest Level 3 spec (`level3/slides/specs/Level3_Lesson13.py`) to `level4/slides/specs/Level4_Lesson1.py`; change `N`, `DECK_TITLE`, the `I` prefix (`L4_L1_`), `SRC`, and all content.
+3. `python3 scripts/slides/build_deck.py --level 4 --lesson 1 --start level3/slides/Level3_Lesson13_Slides.pptx --md level4/curriculum/Level4_Lesson1.md` (the fallback defaults to `level3/slides/Level3_Lesson1_Slides.pptx`). The slides are tagged `L4:<kind>` and the title reads "Lesson 1 · Level 4".
+4. Steps 5–11 as above, plus the site changes in 6.9.
+
+#### 6.8.3 Small fixes to one slide
+
+Change the spec and rebuild the whole deck (steps 4–11). Do not hand-edit a built Level 3+ deck: the next rebuild would undo it.
+
+#### 6.8.4 Editing with python-pptx directly (Level 1, or a one-off fix)
+
+Rules: copy the deck first; change text **inside the existing runs** (keeps font, size, color); never delete and re-add a shape that an animation targets (the click steps point to shape ids: `check_slides.py` fails if an id disappears); swap a picture by replacing the image part's bytes, not the shape.
+
+```python
+from pptx import Presentation
+prs = Presentation('level1/slides/Level1_Lesson5_Slides.pptx')
+s = prs.slides[6]                                   # slide 7
+for sh in s.shapes:
+    print(sh.shape_id, sh.name, sh.has_text_frame and sh.text_frame.text[:40])
+box = next(sh for sh in s.shapes if sh.shape_id == 12)
+run = box.text_frame.paragraphs[0].runs[0]
+run.text = 'new text from the lesson'               # keep the run: keeps Lexend Deca, size, bold, color
+for r in box.text_frame.paragraphs[0].runs[1:]: r.text = ''
+pic = next(sh for sh in s.shapes if sh.shape_type == 13)       # a picture; swap its image bytes:
+img_part = s.part.related_part(pic._element.blipFill.blip.rEmbed)
+img_part._blob = open('level1/images/L1_L5_cashier.png', 'rb').read()   # byte-identical file from the images folder
+pic._element.nvPicPr.cNvPr.set('descr', 'Cashier: ...')                 # alt text from CREDITS.md
+s.notes_slide.notes_text_frame.text = 'Notes line 1\nNotes line 2'
+prs.save('/tmp/Level1_Lesson5_Slides.pptx')
+```
+
+Then run steps 5–11 on the saved file. (An image part can be shared by several slides: only swap it if every use should change.)
+
+### 6.9 Site side
+
+**How a lesson appears** (`scripts/export_content.py`, `export_level()` and `lesson_page()`):
+
+- **Ready:** `level<V>/curriculum/Level<V>_Lesson<N>.md` is on `main`. The lesson gets its pages, PDF/DOCX (`level<V>/curriculum/build.sh <N> --publish`), MP3 (if `level<V>/audio/L<V>_L<N>_listening.mp3` exists), and the slides.
+- **Slides only:** no lesson Markdown on `main`, but `level<V>/slides/Level<V>_Lesson<N>_Slides.pptx` exists. The lessons list shows **"Slides ready"** and **"Lesson book soon"**; the lesson page shows only the slide card (present + PowerPoint download); the Downloads page lists it under "Teacher slides". This is how Level 3 Lessons 2–13 are published now (`slidesOnly` in `src/level3.tsx`).
+- **Coming soon:** neither file.
+
+**From slides-only to fully ready** (Level 3 Lessons 2–13 when their lesson books are approved):
+
+1. Add `level3/curriculum/Level3_Lesson<N>.md` to `main` (plus its pictures and `CREDITS.md` rows if not there yet).
+2. `level3/curriculum/build.sh <N> --publish` (PDF + DOCX).
+3. If the audio is ready: add `level3/audio/L3_L<N>_listening.mp3` (+ check files, section 4), then **rebuild the deck** (6.8 step 4, same spec): the notes and credits switch to the recorded wording and the script leaves the notes.
+4. `export_deck.py`, `export_content.py`, build, preview, PR (6.8 steps 8–11).
+5. The Level 3 home and level picker texts count ready lessons automatically (`readyLessons3`, `l3Ready`).
+
+**Adding Level 4 (or 5) to the site.** Copy what Level 3 does; search the code for `level3` / `Level3` / `l3`:
+
+| Where | What to add |
+|---|---|
+| `scripts/export_content.py` `LEVELS` | a `4: dict(audio=lambda n: f'L4_L{n}_listening.mp3', audio_re=r'^L4_L\d+_listening\.mp3$', routine_end='> **Timing is loose', credit=...)` entry; `export_level(4)` then writes `src/content_level4.json` and copies `level4/images`, `audio`, `slides` into `public/level4/` |
+| `scripts/export_deck.py` | nothing: `--level 4` writes `src/decks/level4/lesson<N>.json` and checks pictures against `public/level4/images/` (`IMG_URL`, `OUT_DIR`) |
+| `src/presenter/decks.ts` | `level4Files = import.meta.glob('../decks/level4/lesson*.json')`, a `level4Loaders` table, `Level = 1 \| 2 \| 3 \| 4`, and the branch in `table()` |
+| `src/presenter/Presenter.tsx` | `import level4 from '../content_level4.json'`, `level4Pptx()`, and the `level === 4` cases (back link, PowerPoint link) |
+| `src/config.ts` | `level4PresentHref = (n) => \`#/level4/present/${n}\`` |
+| `src/content_level4.ts`, `src/level4.tsx` | copies of `content_level3.ts` / `level3.tsx` with 3 → 4 (home, lessons, lesson page, downloads; the slides-only handling comes with it) |
+| `src/App.tsx` | the imports; the nav entry `4: [...]` and the level detection (`path.startsWith('/level4')`); the credit line; the `LevelPicker` card (`l4Ready`); the routes `/level4`, `/level4/lessons`, `/level4/lesson/:n`, `/level4/lesson/:n/:tab`, `/level4/downloads`, `/level4/*`, and `/level4/present/:n` (also in the presenter path check) |
+| `AGENTS.md` section 1 | a Level 4 column |
+
+Then `npm run build`, preview every Level 1–4 page, and check that Level 1–3 data stay byte-identical (`git status`).
+
+### 6.10 Branch and publish rules for decks
+
+- One **feature branch** per job (e.g. `level4-L1-slides`), made from the current `origin/main`. Commit the spec, the deck, and the generated site files together.
+- Test before pushing: 6.8 steps 5–10 (checks, renders, export, `npm run build`, presenter click-through).
+- **Never commit** `node_modules/`, `dist/`, `build/` (renders, rebuilt decks), virtual environments, model weights, WAV files, fonts, or secrets (section 7).
+- Push the branch normally (no force-push), open a PR into `main`, and **wait for the owner's approval**. Merge with a **merge commit**, delete the branch, wait for the "Deploy to GitHub Pages" run, and check the live site: `https://sdpursley.github.io/ESL-Curriculum/#/level<V>/present/<N>` clicks through, the PowerPoint link returns 200 (section 8).
+- Never change the repository visibility or the Pages settings.
+
 ---
 
-## 6. Never commit
+## 7. Never commit
 
 - `node_modules/` or `dist/`
 - Python environments (`.venv*`)
 - Model weights (`models/`, `*.onnx`, `*.bin`, `*.pt`, `*.safetensors`)
 - WAV files, except the committed reference clips in `tools/audio/samples/refs/` and `level1/audio/tools/natural/kokoro_refs/`
-- `cache/`, `out/`, or `build/` output folders
+- `cache/`, `out/`, or `build/` output folders (including `build/slides/`: rebuilt decks and renders)
 - `_twemoji_src/`
 - `__pycache__/`
 - Secrets or tokens of any kind
 
 `.gitignore` covers most of these. Still check `git status` before every commit.
 
-## 7. Repository rules
+## 8. Repository rules
 
 - Work on a **feature branch**, then open a **pull request** into `main`.
 - Merge with a **merge commit** (not squash or rebase), then delete the branch.

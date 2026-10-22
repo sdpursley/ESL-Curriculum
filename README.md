@@ -75,7 +75,7 @@ Unknown routes redirect to `#/` (unknown `#/level1/...` routes to `#/level1`, un
 ## Maintaining everything else
 
 **[AGENTS.md](AGENTS.md)** is the exact handoff guide (layout, content rules, voices, audio checks, step-by-step for a new
-lesson or exam, repository rules) for another AI coding tool or a person continuing the work.
+lesson or exam, how to build slide decks for any level (section 6), repository rules) for another AI coding tool or a person continuing the work.
 
 **See [MAINTAINING.md](MAINTAINING.md)** for step-by-step instructions on editing lessons and rebuilding the curriculum
 PDF/DOCX and exams (`curriculum/`), updating the slide decks, vocabulary pictures (`tools/images/`), and listening audio
