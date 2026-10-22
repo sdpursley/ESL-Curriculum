@@ -1,0 +1,123 @@
+[
+ {
+  "file": "L1_L9_calendar.png",
+  "lesson": "Level1-L9",
+  "word": "calendar",
+  "twemoji": [],
+  "note": "week calendar strip (drawn)",
+  "drawn": "all drawn (calendar)"
+ },
+ {
+  "file": "L1_L9_month.png",
+  "lesson": "Level1-L9",
+  "word": "month",
+  "twemoji": [],
+  "note": "MONTH / May label (drawn)",
+  "drawn": "all drawn (text)"
+ },
+ {
+  "file": "L1_L9_date.png",
+  "lesson": "Level1-L9",
+  "word": "date",
+  "twemoji": [
+   "1f4c5"
+  ],
+  "note": "calendar + May 5th / 5/5",
+  "drawn": "date label"
+ },
+ {
+  "file": "L1_L9_birthday.png",
+  "lesson": "Level1-L9",
+  "word": "birthday",
+  "twemoji": [
+   "1f382",
+   "1f388"
+  ],
+  "note": "cake + balloon",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L9_appointment.png",
+  "lesson": "Level1-L9",
+  "word": "appointment",
+  "twemoji": [],
+  "note": "appointment card: Thursday, May 10, 10:30 (drawn)",
+  "drawn": "all drawn (card + text)"
+ },
+ {
+  "file": "L1_L9_today.png",
+  "lesson": "Level1-L9",
+  "word": "today",
+  "twemoji": [
+   "1f4c5"
+  ],
+  "note": "calendar + TODAY label",
+  "drawn": "label"
+ },
+ {
+  "file": "L1_L9_tomorrow.png",
+  "lesson": "Level1-L9",
+  "word": "tomorrow",
+  "twemoji": [
+   "1f4c5"
+  ],
+  "note": "calendar + TOMORROW label",
+  "drawn": "label"
+ },
+ {
+  "file": "L1_L9_sunny.png",
+  "lesson": "Level1-L9",
+  "word": "sunny",
+  "twemoji": [
+   "2600"
+  ],
+  "note": "sun",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L9_rainy.png",
+  "lesson": "Level1-L9",
+  "word": "rainy",
+  "twemoji": [
+   "1f327"
+  ],
+  "note": "cloud with rain",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L9_cold.png",
+  "lesson": "Level1-L9",
+  "word": "cold",
+  "twemoji": [
+   "1f976"
+  ],
+  "note": "cold face",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L9_hot.png",
+  "lesson": "Level1-L9",
+  "word": "hot",
+  "twemoji": [
+   "1f975"
+  ],
+  "note": "hot face",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L9_months.png",
+  "lesson": "Level1-L9",
+  "word": "months (Jan–Dec)",
+  "twemoji": [],
+  "note": "12 month tiles January–December (drawn)",
+  "drawn": "all drawn (tiles + text)"
+ },
+ {
+  "file": "L1_L9_ordinals.png",
+  "lesson": "Level1-L9",
+  "word": "ordinals 1st–5th",
+  "twemoji": [],
+  "note": "tiles 1st 2nd 3rd 4th 5th (drawn)",
+  "drawn": "all drawn (tiles + text)"
+ }
+]

@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 1 Adult ESL Curriculum: Scope and Sequence (Draft for Review)
 
-**Status:** Plan only. No lessons, pictures, audio, or slides have been built yet. Nothing has been published.
+**Status:** All 13 lessons are built and published (lesson text, pictures, listening audio, and slides).
 
 **Date:** October 19, 2026
 

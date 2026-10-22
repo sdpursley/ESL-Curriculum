@@ -2,7 +2,7 @@
 
 Source for the public website of the free **Adult ESL Curriculum**. The home page lets visitors choose a level:
 
-- **Level 1** (beginner): 13 lessons planned over 16 weeks. **Lessons 1–4 are published**; Lessons 5–13 are listed as "coming soon".
+- **Level 1** (beginner): 13 lessons planned over 16 weeks. **all 13 lessons (1–13) are published**.
 - **Level 2** (high beginner): 13 lessons plus midterm and final exams.
 - **Level 3** (low intermediate): 13 lessons planned over 16 weeks. **Lesson 1 is published**; Lessons 2–13 are listed as "coming soon".
 
@@ -28,7 +28,7 @@ Live site: https://sdpursley.github.io/ESL-Curriculum/
 | `#/` | Home: choose Level 1, 2 or 3 |
 | `#/about` | About, license and credits (all levels) |
 | **Level 1** | |
-| `#/level1` | Level 1 overview (lesson list with "coming soon" lessons, semester plan, class routine) |
+| `#/level1` | Level 1 overview (lesson list, semester plan, class routine) |
 | `#/level1/lessons` | Level 1 lesson list |
 | `#/level1/lesson/:n` | Level 1 lesson *n* (`#/level1/lesson/:n/:tab`, tab = `student`, `teacher` or `downloads`) |
 | `#/level1/downloads` | Level 1 downloads |
@@ -74,7 +74,7 @@ Unknown routes redirect to `#/` (unknown `#/level1/...` routes to `#/level1`, un
 
 **See [MAINTAINING.md](MAINTAINING.md)** for step-by-step instructions on editing lessons and rebuilding the curriculum
 PDF/DOCX and exams (`curriculum/`), updating the slide decks, vocabulary pictures (`tools/images/`), and listening audio
-(`tools/audio/`, Chatterbox TTS). **Level 1** (rebuilding, swapping the audio, adding the next lesson; Lessons 1–4) is section 8 of MAINTAINING.md; **Level 3** is section 9. Python requirements: `tools/requirements-docs.txt`, `tools/images/requirements.txt`,
+(`tools/audio/`, Chatterbox TTS). **Level 1** (rebuilding, swapping the audio, Lessons 1–13) is section 8 of MAINTAINING.md; **Level 3** is section 9. Python requirements: `tools/requirements-docs.txt`, `tools/images/requirements.txt`,
 `tools/audio/requirements.txt`. System programs: LibreOffice (PDFs), ffmpeg (audio), Cairo and DejaVu fonts (pictures).
 
 ## Local development

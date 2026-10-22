@@ -1,0 +1,159 @@
+[
+ {
+  "file": "L1_L8_breakfast.png",
+  "lesson": "Level1-L8",
+  "word": "breakfast",
+  "twemoji": [
+   "1f95a",
+   "1f35e",
+   "2615"
+  ],
+  "note": "egg + bread + coffee + breakfast label",
+  "drawn": "sign + text"
+ },
+ {
+  "file": "L1_L8_lunch.png",
+  "lesson": "Level1-L8",
+  "word": "lunch",
+  "twemoji": [
+   "1f32e",
+   "1f964"
+  ],
+  "note": "taco + drink + lunch label",
+  "drawn": "sign + text"
+ },
+ {
+  "file": "L1_L8_dinner.png",
+  "lesson": "Level1-L8",
+  "word": "dinner",
+  "twemoji": [
+   "1f35d",
+   "1f37d"
+  ],
+  "note": "spaghetti + plate + dinner label",
+  "drawn": "sign + text"
+ },
+ {
+  "file": "L1_L8_beans.png",
+  "lesson": "Level1-L8",
+  "word": "beans",
+  "twemoji": [
+   "1f372"
+  ],
+  "note": "bowl of food (beans/stew)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L8_tortillas.png",
+  "lesson": "Level1-L8",
+  "word": "tortillas",
+  "twemoji": [
+   "1f32e"
+  ],
+  "note": "taco / tortilla",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L8_meat.png",
+  "lesson": "Level1-L8",
+  "word": "meat",
+  "twemoji": [
+   "1f357"
+  ],
+  "note": "meat (poultry leg)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L8_fish.png",
+  "lesson": "Level1-L8",
+  "word": "fish",
+  "twemoji": [
+   "1f41f"
+  ],
+  "note": "fish",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L8_fruit.png",
+  "lesson": "Level1-L8",
+  "word": "fruit",
+  "twemoji": [
+   "1f34e",
+   "1f34c",
+   "1f347"
+  ],
+  "note": "apple + banana + grapes",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L8_vegetables.png",
+  "lesson": "Level1-L8",
+  "word": "vegetables",
+  "twemoji": [
+   "1f345",
+   "1f966",
+   "1f955"
+  ],
+  "note": "tomato + broccoli + carrot",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L8_juice.png",
+  "lesson": "Level1-L8",
+  "word": "juice",
+  "twemoji": [
+   "1f9c3"
+  ],
+  "note": "juice box",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L8_soda.png",
+  "lesson": "Level1-L8",
+  "word": "soda",
+  "twemoji": [
+   "1f964"
+  ],
+  "note": "cup with straw (soda)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L8_pizza.png",
+  "lesson": "Level1-L8",
+  "word": "pizza",
+  "twemoji": [
+   "1f355"
+  ],
+  "note": "pizza",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L8_menu.png",
+  "lesson": "Level1-L8",
+  "word": "picture menu",
+  "twemoji": [],
+  "note": "taco truck menu with prices (drawn, invented)",
+  "drawn": "all drawn (menu + text)"
+ },
+ {
+  "file": "L1_L8_for_here.png",
+  "lesson": "Level1-L8",
+  "word": "for here",
+  "twemoji": [
+   "1f37d",
+   "1f6cb"
+  ],
+  "note": "plate + seat (for here)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L8_to_go.png",
+  "lesson": "Level1-L8",
+  "word": "to go",
+  "twemoji": [
+   "1f372"
+  ],
+  "note": "takeout box / bowl",
+  "drawn": "border only"
+ }
+]

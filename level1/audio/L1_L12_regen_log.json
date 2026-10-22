@@ -1,0 +1,727 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Rosa": "refs/Rosa.wav",
+   "Marco": "refs/Marco.wav",
+   "Operator": "refs/Receptionist.wav",
+   "Ana": "refs/Ana_af_jessica.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson twelve. Listening.",
+    "tts_text": "Lesson twelve. Listening.",
+    "seed": 9945,
+    "hyp": "lesson 12 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.91,
+    "dur": 2.0,
+    "raw_peak": 0.674,
+    "pitch_ok": true,
+    "score": 1.501,
+    "f0_med": 202.8,
+    "f0_st_sd": 3.91,
+    "f0_range_st": 12.9
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Part one. Rosa and Marco are at work. Listen.",
+    "tts_text": "Part one. Rosa and Marco are at work. Listen.",
+    "seed": 9945,
+    "hyp": "part 1 rosa and marco are at work listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.57,
+    "mean_prob": 0.88,
+    "dur": 3.13,
+    "raw_peak": 0.878,
+    "pitch_ok": true,
+    "score": 1.483,
+    "f0_med": 177.1,
+    "f0_st_sd": 4.01,
+    "f0_range_st": 12.59
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Marco, are you OK?",
+    "tts_text": "Marco, are you OK?",
+    "seed": 33702,
+    "hyp": "marco are you ok",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.85,
+    "dur": 1.89,
+    "raw_peak": 0.681,
+    "pitch_ok": true,
+    "score": 1.411,
+    "f0_med": 225.0,
+    "f0_st_sd": 3.76,
+    "f0_range_st": 12.37
+   },
+   "tries": 8,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "No, I'm not. I feel sick.",
+    "tts_text": "No, I'm not, I feel sick.",
+    "seed": 25783,
+    "hyp": "no i'm not i feel sick",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.51,
+    "raw_peak": 1.014,
+    "pitch_ok": true,
+    "score": 1.505,
+    "f0_med": 129.3,
+    "f0_st_sd": 3.52,
+    "f0_range_st": 10.92
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "What's wrong?",
+    "tts_text": "What's wrong?",
+    "seed": 2026,
+    "hyp": "what's wrong",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.96,
+    "dur": 1.28,
+    "raw_peak": 0.454,
+    "pitch_ok": true,
+    "score": 1.468,
+    "f0_med": 313.7,
+    "f0_st_sd": 3.4,
+    "f0_range_st": 9.08
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "It hurts here. My stomach.",
+    "tts_text": "It hurts here. My stomach.",
+    "seed": 73297,
+    "hyp": "it hurts here my stomach",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.95,
+    "dur": 1.71,
+    "raw_peak": 0.954,
+    "pitch_ok": true,
+    "score": 1.554,
+    "f0_med": 117.8,
+    "f0_st_sd": 4.31,
+    "f0_range_st": 11.5
+   },
+   "tries": 16,
+   "passing": 2
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Sit down. Do you need water?",
+    "tts_text": "Sit down. Do you need water?",
+    "seed": 2026,
+    "hyp": "sit down do you need water",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.86,
+    "raw_peak": 0.447,
+    "pitch_ok": true,
+    "score": 1.574,
+    "f0_med": 232.3,
+    "f0_st_sd": 4.2,
+    "f0_range_st": 13.09
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Yes, please. Then I want to go home.",
+    "tts_text": "Yes, please. Then I want to go home.",
+    "seed": 17864,
+    "hyp": "yes please then i want to go home",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.65,
+    "mean_prob": 0.9,
+    "dur": 2.04,
+    "raw_peak": 0.95,
+    "pitch_ok": true,
+    "score": 1.496,
+    "f0_med": 124.8,
+    "f0_st_sd": 3.94,
+    "f0_range_st": 12.8
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Do you need a doctor?",
+    "tts_text": "Do you need a doctor?",
+    "seed": 2026,
+    "hyp": "do you need a doctor",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.2,
+    "raw_peak": 0.42,
+    "pitch_ok": true,
+    "score": 1.59,
+    "f0_med": 205.2,
+    "f0_st_sd": 4.05,
+    "f0_range_st": 11.79
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Yes. I need a doctor.",
+    "tts_text": "Yes. I need a doctor.",
+    "seed": 9945,
+    "hyp": "yes i need a doctor",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.93,
+    "dur": 1.53,
+    "raw_peak": 0.936,
+    "pitch_ok": true,
+    "score": 1.357,
+    "f0_med": 140.1,
+    "f0_st_sd": 2.83,
+    "f0_range_st": 8.36
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "OK. Go home.",
+    "tts_text": "Okay. Go home.",
+    "seed": 25783,
+    "hyp": "ok go home",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.89,
+    "dur": 1.6,
+    "raw_peak": 0.495,
+    "pitch_ok": true,
+    "score": 1.486,
+    "f0_med": 211.8,
+    "f0_st_sd": 4.37,
+    "f0_range_st": 11.83
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Call the doctor.",
+    "tts_text": "Call the doctor.",
+    "seed": 41621,
+    "hyp": "call the doctor",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.91,
+    "dur": 1.15,
+    "raw_peak": 0.46,
+    "pitch_ok": true,
+    "score": 1.508,
+    "f0_med": 233.0,
+    "f0_st_sd": 6.36,
+    "f0_range_st": 15.66
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Part two. Practice only.",
+    "tts_text": "Part two. Practice only.",
+    "seed": 2026,
+    "hyp": "part 2 practice only",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.65,
+    "mean_prob": 0.78,
+    "dur": 2.19,
+    "raw_peak": 0.767,
+    "pitch_ok": true,
+    "score": 1.384,
+    "f0_med": 177.6,
+    "f0_st_sd": 4.38,
+    "f0_range_st": 14.21
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "This is not a real emergency.",
+    "tts_text": "This is not a real emergency.",
+    "seed": 25783,
+    "hyp": "this is not a real emergency",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.71,
+    "raw_peak": 0.789,
+    "pitch_ok": true,
+    "score": 1.506,
+    "f0_med": 192.5,
+    "f0_st_sd": 3.53,
+    "f0_range_st": 10.47
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "A caller talks to 9 1 1. Listen.",
+    "tts_text": "A caller talks to 9 1 1. Listen.",
+    "seed": 33702,
+    "hyp": "a caller talks to 911 listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.93,
+    "dur": 2.43,
+    "raw_peak": 0.687,
+    "pitch_ok": true,
+    "score": 1.372,
+    "f0_med": 213.6,
+    "f0_st_sd": 2.92,
+    "f0_range_st": 9.05
+   },
+   "tries": 16,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Operator",
+    "text": "9 1 1.",
+    "tts_text": "Nine one one.",
+    "seed": 25783,
+    "hyp": "911",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.76,
+    "dur": 1.14,
+    "raw_peak": 0.79,
+    "pitch_ok": true,
+    "score": 1.176,
+    "f0_med": 167.6,
+    "f0_st_sd": 2.8,
+    "f0_range_st": 9.69
+   },
+   "tries": 10,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Operator",
+    "text": "What's your emergency?",
+    "tts_text": "What's your emergency?",
+    "seed": 41621,
+    "hyp": "what's your emergency",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.95,
+    "dur": 1.3,
+    "raw_peak": 0.489,
+    "pitch_ok": true,
+    "score": 1.549,
+    "f0_med": 183.3,
+    "f0_st_sd": 5.86,
+    "f0_range_st": 21.74
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "I need help. I'm hurt.",
+    "tts_text": "I need help. I'm hurt.",
+    "seed": 104973,
+    "hyp": "i need help i'm hurt",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 2.15,
+    "raw_peak": 0.86,
+    "pitch_ok": true,
+    "score": 1.351,
+    "f0_med": 247.5,
+    "f0_st_sd": 2.48,
+    "f0_range_st": 7.09
+   },
+   "tries": 16,
+   "passing": 2
+  },
+  {
+   "chosen": {
+    "spk": "Operator",
+    "text": "What's wrong? Where does it hurt?",
+    "tts_text": "What's wrong? Where does it hurt?",
+    "seed": 25783,
+    "hyp": "what's wrong where does it hurt",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.77,
+    "raw_peak": 0.57,
+    "pitch_ok": true,
+    "score": 1.486,
+    "f0_med": 198.2,
+    "f0_st_sd": 3.38,
+    "f0_range_st": 10.42
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "It hurts here. My arm.",
+    "tts_text": "It hurts here. My arm.",
+    "seed": 17864,
+    "hyp": "it hurts here my arm",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.31,
+    "raw_peak": 0.606,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 260.0,
+    "f0_st_sd": 5.33,
+    "f0_range_st": 16.73
+   },
+   "tries": 10,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Operator",
+    "text": "What's the address?",
+    "tts_text": "What's the address?",
+    "seed": 2026,
+    "hyp": "what's the address",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.97,
+    "dur": 1.18,
+    "raw_peak": 0.853,
+    "pitch_ok": true,
+    "score": 1.313,
+    "f0_med": 189.2,
+    "f0_st_sd": 2.27,
+    "f0_range_st": 7.8
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Two ten Pine Street.",
+    "tts_text": "Two ten Pine Street.",
+    "seed": 33702,
+    "hyp": "210 pine street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.92,
+    "dur": 1.82,
+    "raw_peak": 0.494,
+    "pitch_ok": true,
+    "score": 1.517,
+    "f0_med": 175.5,
+    "f0_st_sd": 4.69,
+    "f0_range_st": 11.6
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Operator",
+    "text": "OK. Help is coming.",
+    "tts_text": "Okay. Help is coming.",
+    "seed": 2026,
+    "hyp": "ok help is coming",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.89,
+    "dur": 1.43,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.491,
+    "f0_med": 197.0,
+    "f0_st_sd": 4.43,
+    "f0_range_st": 12.96
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Operator",
+    "text": "Stay on the phone.",
+    "tts_text": "Stay on the phone.",
+    "seed": 2026,
+    "hyp": "stay on the phone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.18,
+    "raw_peak": 0.428,
+    "pitch_ok": true,
+    "score": 1.568,
+    "f0_med": 171.5,
+    "f0_st_sd": 4.02,
+    "f0_range_st": 10.9
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Thank you.",
+    "tts_text": "Thank you.",
+    "seed": 25783,
+    "hyp": "thank you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.91,
+    "dur": 1.03,
+    "raw_peak": 0.525,
+    "pitch_ok": true,
+    "score": 1.51,
+    "f0_med": 217.4,
+    "f0_st_sd": 5.28,
+    "f0_range_st": 18.41
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 17864,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.65,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.506,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 11.73
+   },
+   "tries": 3,
+   "passing": 3
+  }
+ ],
+ "line_times": [
+  [
+   7.78,
+   9.67,
+   "Rosa",
+   "Marco, are you OK?"
+  ],
+  [
+   11.07,
+   12.58,
+   "Marco",
+   "No, I'm not. I feel sick."
+  ],
+  [
+   13.98,
+   15.26,
+   "Rosa",
+   "What's wrong?"
+  ],
+  [
+   16.66,
+   18.37,
+   "Marco",
+   "It hurts here. My stomach."
+  ],
+  [
+   19.77,
+   21.63,
+   "Rosa",
+   "Sit down. Do you need water?"
+  ],
+  [
+   23.03,
+   25.07,
+   "Marco",
+   "Yes, please. Then I want to go home."
+  ],
+  [
+   26.47,
+   27.67,
+   "Rosa",
+   "Do you need a doctor?"
+  ],
+  [
+   29.07,
+   30.6,
+   "Marco",
+   "Yes. I need a doctor."
+  ],
+  [
+   32.0,
+   35.3,
+   "Rosa",
+   "OK. Go home. Call the doctor."
+  ],
+  [
+   36.7,
+   44.13,
+   "Narrator",
+   "Part two. Practice only. This is not a real emergency. A caller talks to 9 1 1. Listen."
+  ],
+  [
+   45.53,
+   48.52,
+   "Operator",
+   "9 1 1. What's your emergency?"
+  ],
+  [
+   49.92,
+   52.07,
+   "Ana",
+   "I need help. I'm hurt."
+  ],
+  [
+   53.47,
+   55.24,
+   "Operator",
+   "What's wrong? Where does it hurt?"
+  ],
+  [
+   56.64,
+   58.95,
+   "Ana",
+   "It hurts here. My arm."
+  ],
+  [
+   60.35,
+   61.53,
+   "Operator",
+   "What's the address?"
+  ],
+  [
+   62.93,
+   64.75,
+   "Ana",
+   "Two ten Pine Street."
+  ],
+  [
+   66.15,
+   69.31,
+   "Operator",
+   "OK. Help is coming. Stay on the phone."
+  ],
+  [
+   70.71,
+   71.74,
+   "Ana",
+   "Thank you."
+  ]
+ ]
+}

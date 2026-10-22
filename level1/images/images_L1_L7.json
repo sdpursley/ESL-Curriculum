@@ -1,0 +1,337 @@
+[
+ {
+  "file": "L1_L7_dollar.png",
+  "lesson": "Level1-L7",
+  "word": "dollar",
+  "twemoji": [
+   "1f4b5"
+  ],
+  "note": "banknote + \"$1 one dollar\" label",
+  "drawn": "label"
+ },
+ {
+  "file": "L1_L7_cent.png",
+  "lesson": "Level1-L7",
+  "word": "cent",
+  "twemoji": [
+   "1fa99"
+  ],
+  "note": "coin + \"1¢ one cent\" and \"100¢ = $1\"",
+  "drawn": "labels"
+ },
+ {
+  "file": "L1_L7_coin.png",
+  "lesson": "Level1-L7",
+  "word": "coin",
+  "twemoji": [
+   "1fa99"
+  ],
+  "note": "three coins",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L7_cash.png",
+  "lesson": "Level1-L7",
+  "word": "cash",
+  "twemoji": [
+   "1f4b5",
+   "1fa99"
+  ],
+  "note": "bills and coins",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L7_credit_card.png",
+  "lesson": "Level1-L7",
+  "word": "credit card",
+  "twemoji": [
+   "1f4b3"
+  ],
+  "note": "credit card",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L7_receipt.png",
+  "lesson": "Level1-L7",
+  "word": "receipt",
+  "twemoji": [],
+  "note": "store receipt: pants $15, shirt $10, total $25, cash $30, change $5",
+  "drawn": "all drawn (receipt + text)"
+ },
+ {
+  "file": "L1_L7_shirt.png",
+  "lesson": "Level1-L7",
+  "word": "shirt",
+  "twemoji": [
+   "1f455"
+  ],
+  "note": "blue shirt",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L7_pants.png",
+  "lesson": "Level1-L7",
+  "word": "pants",
+  "twemoji": [
+   "1f456"
+  ],
+  "note": "pants, recolored black",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_shoes.png",
+  "lesson": "Level1-L7",
+  "word": "shoes",
+  "twemoji": [
+   "1f45f"
+  ],
+  "note": "two red shoes",
+  "drawn": "recolor + two copies"
+ },
+ {
+  "file": "L1_L7_jacket.png",
+  "lesson": "Level1-L7",
+  "word": "jacket",
+  "twemoji": [
+   "1f9e5"
+  ],
+  "note": "jacket, recolored green",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_dress.png",
+  "lesson": "Level1-L7",
+  "word": "dress",
+  "twemoji": [
+   "1f457"
+  ],
+  "note": "dress, recolored yellow",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_colors.png",
+  "lesson": "Level1-L7",
+  "word": "colors",
+  "twemoji": [],
+  "note": "six color swatches with names: red, blue, black, white, green, yellow",
+  "drawn": "all drawn (swatches + text)"
+ },
+ {
+  "file": "L1_L7_this_that.png",
+  "lesson": "Level1-L7",
+  "word": "this / that",
+  "twemoji": [
+   "1f449",
+   "1f455"
+  ],
+  "note": "hand pointing to a near red shirt (this) and a far blue shirt (that)",
+  "drawn": "recolor, labels, near/far line"
+ },
+ {
+  "file": "L1_L7_these_those.png",
+  "lesson": "Level1-L7",
+  "word": "these / those",
+  "twemoji": [
+   "1f449",
+   "1f45f"
+  ],
+  "note": "hand pointing to near black shoes (these) and far white shoes (those)",
+  "drawn": "recolor, labels, near/far line"
+ },
+ {
+  "file": "L1_L7_shirt_red.png",
+  "lesson": "Level1-L7",
+  "word": "red shirt (listening choice)",
+  "twemoji": [
+   "1f455"
+  ],
+  "note": "red shirt",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_shirt_blue.png",
+  "lesson": "Level1-L7",
+  "word": "blue shirt (listening choice)",
+  "twemoji": [
+   "1f455"
+  ],
+  "note": "blue shirt",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_shirt_white.png",
+  "lesson": "Level1-L7",
+  "word": "white shirt (listening choice)",
+  "twemoji": [
+   "1f455"
+  ],
+  "note": "white shirt",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_shoes_black.png",
+  "lesson": "Level1-L7",
+  "word": "black shoes (listening choice)",
+  "twemoji": [
+   "1f45f"
+  ],
+  "note": "black shoes",
+  "drawn": "recolor + two copies"
+ },
+ {
+  "file": "L1_L7_shoes_white.png",
+  "lesson": "Level1-L7",
+  "word": "white shoes (listening choice)",
+  "twemoji": [
+   "1f45f"
+  ],
+  "note": "white shoes",
+  "drawn": "recolor + two copies"
+ },
+ {
+  "file": "L1_L7_shoes_red.png",
+  "lesson": "Level1-L7",
+  "word": "red shoes (listening choice)",
+  "twemoji": [
+   "1f45f"
+  ],
+  "note": "red shoes",
+  "drawn": "recolor + two copies"
+ },
+ {
+  "file": "L1_L7_store1_dress_price.png",
+  "lesson": "Level1-L7",
+  "word": "store 1: red dress with price tag",
+  "twemoji": [
+   "1f457"
+  ],
+  "note": "red dress with a price tag $25",
+  "drawn": "recolor + price tag"
+ },
+ {
+  "file": "L1_L7_store1_dress.png",
+  "lesson": "Level1-L7",
+  "word": "store 1: red dress, no price",
+  "twemoji": [
+   "1f457"
+  ],
+  "note": "red dress",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_store1_pants_price.png",
+  "lesson": "Level1-L7",
+  "word": "store 1: black pants with price tag",
+  "twemoji": [
+   "1f456"
+  ],
+  "note": "black pants with a price tag $18",
+  "drawn": "recolor + price tag"
+ },
+ {
+  "file": "L1_L7_store1_pants.png",
+  "lesson": "Level1-L7",
+  "word": "store 1: black pants, no price",
+  "twemoji": [
+   "1f456"
+  ],
+  "note": "black pants",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_store1_shoes_price.png",
+  "lesson": "Level1-L7",
+  "word": "store 1: white shoes with price tag",
+  "twemoji": [
+   "1f45f"
+  ],
+  "note": "white shoes with a price tag $35",
+  "drawn": "recolor + price tag"
+ },
+ {
+  "file": "L1_L7_store1_shoes.png",
+  "lesson": "Level1-L7",
+  "word": "store 1: white shoes, no price",
+  "twemoji": [
+   "1f45f"
+  ],
+  "note": "white shoes",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_store2_jacket_price.png",
+  "lesson": "Level1-L7",
+  "word": "store 2: green jacket with price tag",
+  "twemoji": [
+   "1f9e5"
+  ],
+  "note": "green jacket with a price tag $40",
+  "drawn": "recolor + price tag"
+ },
+ {
+  "file": "L1_L7_store2_jacket.png",
+  "lesson": "Level1-L7",
+  "word": "store 2: green jacket, no price",
+  "twemoji": [
+   "1f9e5"
+  ],
+  "note": "green jacket",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_store2_shirt_price.png",
+  "lesson": "Level1-L7",
+  "word": "store 2: yellow shirt with price tag",
+  "twemoji": [
+   "1f455"
+  ],
+  "note": "yellow shirt with a price tag $9",
+  "drawn": "recolor + price tag"
+ },
+ {
+  "file": "L1_L7_store2_shirt.png",
+  "lesson": "Level1-L7",
+  "word": "store 2: yellow shirt, no price",
+  "twemoji": [
+   "1f455"
+  ],
+  "note": "yellow shirt",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_store2_pants_price.png",
+  "lesson": "Level1-L7",
+  "word": "store 2: blue pants with price tag",
+  "twemoji": [
+   "1f456"
+  ],
+  "note": "blue pants with a price tag $22",
+  "drawn": "recolor + price tag"
+ },
+ {
+  "file": "L1_L7_store2_pants.png",
+  "lesson": "Level1-L7",
+  "word": "store 2: blue pants, no price",
+  "twemoji": [
+   "1f456"
+  ],
+  "note": "blue pants",
+  "drawn": "recolor"
+ },
+ {
+  "file": "L1_L7_play_money.png",
+  "lesson": "Level1-L7",
+  "word": "play money page",
+  "twemoji": [],
+  "note": "printable play money: $1, $5, $10, $20 bills and 25¢, 10¢, 5¢, 1¢ coins, all marked PLAY MONEY",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L7_receipt_page.png",
+  "lesson": "Level1-L7",
+  "word": "receipt (Letters & Numbers)",
+  "twemoji": [],
+  "note": "receipt: jacket $40, dress $25, 2 shirts $18, total $83, cash $100, change $17",
+  "drawn": "all drawn"
+ }
+]

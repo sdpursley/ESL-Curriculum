@@ -1,0 +1,226 @@
+{
+ "file": "L1_L5_listening.mp3",
+ "duration_s": 67.86,
+ "wer": 0.0081,
+ "errors": 1,
+ "ref_words": 123,
+ "diffs": [
+  {
+   "op": "delete",
+   "ref": "marco",
+   "hyp": "",
+   "ctx": "you i'm fine thanks marco what do you do"
+  }
+ ],
+ "low_prob_words": [],
+ "lines_ok": "14/15",
+ "lines_with_flags": [
+  {
+   "t": 39.41,
+   "spk": "Rosa",
+   "line": "Yes, I do. I work on Saturday and Sunday.",
+   "ok": true,
+   "hyp": "yes i do i work on saturday and sunday",
+   "min_prob": 0.87,
+   "flags": [
+    "noisy/hissy 320ms"
+   ],
+   "f0_med": 208.8
+  },
+  {
+   "t": 47.56,
+   "spk": "Rosa",
+   "line": "Yes, it is. Does your wife work, too?",
+   "ok": true,
+   "hyp": "yes it is does your wife work too",
+   "min_prob": 0.71,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 233.0
+  }
+ ],
+ "lines_not_exact": [
+  {
+   "t": 18.92,
+   "spk": "Marco",
+   "line": "I'm a cook. I work at a restaurant on Main Street.",
+   "ok": false,
+   "hyp": "i'm a cook cook i work at a restaurant on main street",
+   "min_prob": 0.0,
+   "flags": [],
+   "f0_med": 99.4
+  }
+ ],
+ "pitch_median_hz": {
+  "Rosa": 214.8,
+  "Marco": 118.5,
+  "Narrator": 193.7
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.8,
+ "peak": 0.895,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 9.12,
+   "spk": "Rosa",
+   "line": "Good morning, Marco!",
+   "ok": true,
+   "hyp": "good morning marco",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 222.5
+  },
+  {
+   "t": 11.6,
+   "spk": "Marco",
+   "line": "Hi, Rosa. How are you?",
+   "ok": true,
+   "hyp": "hi rosa how are you",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 138.5
+  },
+  {
+   "t": 14.33,
+   "spk": "Rosa",
+   "line": "I'm fine, thanks. Marco, what do you do?",
+   "ok": true,
+   "hyp": "i'm fine thanks marco what do you do",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 200.5
+  },
+  {
+   "t": 18.92,
+   "spk": "Marco",
+   "line": "I'm a cook. I work at a restaurant on Main Street.",
+   "ok": false,
+   "hyp": "i'm a cook cook i work at a restaurant on main street",
+   "min_prob": 0.0,
+   "flags": [],
+   "f0_med": 99.4
+  },
+  {
+   "t": 23.47,
+   "spk": "Rosa",
+   "line": "Do you work at night?",
+   "ok": true,
+   "hyp": "do you work at night",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 229.0
+  },
+  {
+   "t": 26.27,
+   "spk": "Marco",
+   "line": "Yes, I do. I don't work in the morning. And you? What do you do?",
+   "ok": true,
+   "hyp": "yes i do i don't work in the morning and you what do you do",
+   "min_prob": 0.62,
+   "flags": [],
+   "f0_med": 118.5
+  },
+  {
+   "t": 32.4,
+   "spk": "Rosa",
+   "line": "I'm a cashier. I work at a store.",
+   "ok": true,
+   "hyp": "i'm a cashier i work at a store",
+   "min_prob": 0.95,
+   "flags": [],
+   "f0_med": 216.1
+  },
+  {
+   "t": 36.7,
+   "spk": "Marco",
+   "line": "Do you work on weekends?",
+   "ok": true,
+   "hyp": "do you work on weekends",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 129.3
+  },
+  {
+   "t": 39.41,
+   "spk": "Rosa",
+   "line": "Yes, I do. I work on Saturday and Sunday.",
+   "ok": true,
+   "hyp": "yes i do i work on saturday and sunday",
+   "min_prob": 0.87,
+   "flags": [
+    "noisy/hissy 320ms"
+   ],
+   "f0_med": 208.8
+  },
+  {
+   "t": 44.87,
+   "spk": "Marco",
+   "line": "Oh, that's a lot of work!",
+   "ok": true,
+   "hyp": "oh that's a lot of work",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 115.1
+  },
+  {
+   "t": 47.56,
+   "spk": "Rosa",
+   "line": "Yes, it is. Does your wife work, too?",
+   "ok": true,
+   "hyp": "yes it is does your wife work too",
+   "min_prob": 0.71,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 233.0
+  },
+  {
+   "t": 52.17,
+   "spk": "Marco",
+   "line": "Yes, she does. She's a nurse.",
+   "ok": true,
+   "hyp": "yes she does she's a nurse",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 114.5
+  },
+  {
+   "t": 56.32,
+   "spk": "Rosa",
+   "line": "Nice. My husband is a mechanic.",
+   "ok": true,
+   "hyp": "nice my husband is a mechanic",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 213.6
+  },
+  {
+   "t": 59.84,
+   "spk": "Marco",
+   "line": "Great! OK, see you later, Rosa.",
+   "ok": true,
+   "hyp": "great ok see you later rosa",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 127.0
+  },
+  {
+   "t": 63.25,
+   "spk": "Rosa",
+   "line": "Bye, Marco!",
+   "ok": true,
+   "hyp": "bye marco",
+   "min_prob": 0.76,
+   "flags": [],
+   "f0_med": 201.1
+  }
+ ],
+ "hyp": "lesson 5 listening rosa and marco are neighbors they talk about their jobs listen good morning marco hi rosa how are you i'm fine thanks what do you do i'm a cook i work at a restaurant on main street do you work at night yes i do i don't work in the morning and you what do you do i'm a cashier i work at a store do you work on weekends yes i do i work on saturday and sunday oh that's a lot of work yes it is does your wife work too yes she does she's a nurse nice my husband is a mechanic great ok see you later rosa bye marco that's the end of the listening"
+}

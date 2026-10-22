@@ -1,0 +1,175 @@
+{
+ "file": "L1_L6_listening.mp3",
+ "duration_s": 61.24,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 111,
+ "diffs": [],
+ "low_prob_words": [
+  [
+   "Part",
+   19.52,
+   0.3
+  ]
+ ],
+ "lines_ok": "11/11",
+ "lines_with_flags": [
+  {
+   "t": 35.14,
+   "spk": "Kim",
+   "line": "Six o'clock. OK. What day is the class?",
+   "ok": true,
+   "hyp": "6 oclock ok what day is the class",
+   "min_prob": 0.44,
+   "flags": [
+    "sustained non-speech 320ms"
+   ],
+   "f0_med": 176.6
+  },
+  {
+   "t": 46.63,
+   "spk": "Receptionist",
+   "line": "Yes, it is. It's open from nine to three. It's closed on the weekend.",
+   "ok": true,
+   "hyp": "yes it is it's open from 9 to 3 it's closed on the weekend",
+   "min_prob": 0.77,
+   "flags": [
+    "noisy/hissy 340ms"
+   ],
+   "f0_med": 186.0
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Message": 115.1,
+  "Narrator": 208.7,
+  "Receptionist": 199.3,
+  "Kim": 195.6
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.5,
+ "peak": 0.896,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.8,
+ "per_line": [
+  {
+   "t": 9.44,
+   "spk": "Message",
+   "line": "Thank you for calling City Laundromat. We are open Monday to Saturday, from seven in the morning to nine at night. We are closed on Sunday. Thank you.",
+   "ok": true,
+   "hyp": "thank you for calling city laundromat we are open monday to saturday from 7 in the morning to 9 at night we are closed on sunday thank you",
+   "min_prob": 0.76,
+   "flags": [],
+   "f0_med": 115.1
+  },
+  {
+   "t": 20.02,
+   "spk": "Narrator",
+   "line": "Part two. Kim calls the adult school. Listen.",
+   "ok": true,
+   "hyp": "part 2 kim calls the adult school listen",
+   "min_prob": 0.08,
+   "flags": [],
+   "f0_med": 222.5
+  },
+  {
+   "t": 24.26,
+   "spk": "Receptionist",
+   "line": "Good afternoon. Riverside Adult School.",
+   "ok": true,
+   "hyp": "good afternoon riverside adult school",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 243.3
+  },
+  {
+   "t": 28.25,
+   "spk": "Kim",
+   "line": "Hi. What time is the English class?",
+   "ok": true,
+   "hyp": "hi what time is the english class",
+   "min_prob": 0.81,
+   "flags": [],
+   "f0_med": 204.0
+  },
+  {
+   "t": 32.32,
+   "spk": "Receptionist",
+   "line": "It's at six o'clock.",
+   "ok": true,
+   "hyp": "it's at 6 oclock",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 199.3
+  },
+  {
+   "t": 35.14,
+   "spk": "Kim",
+   "line": "Six o'clock. OK. What day is the class?",
+   "ok": true,
+   "hyp": "6 oclock ok what day is the class",
+   "min_prob": 0.44,
+   "flags": [
+    "sustained non-speech 320ms"
+   ],
+   "f0_med": 176.6
+  },
+  {
+   "t": 40.53,
+   "spk": "Receptionist",
+   "line": "It's on Monday and Wednesday.",
+   "ok": true,
+   "hyp": "it's on monday and wednesday",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 181.7
+  },
+  {
+   "t": 43.57,
+   "spk": "Kim",
+   "line": "Is the school open on Friday?",
+   "ok": true,
+   "hyp": "is the school open on friday",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 252.6
+  },
+  {
+   "t": 46.63,
+   "spk": "Receptionist",
+   "line": "Yes, it is. It's open from nine to three. It's closed on the weekend.",
+   "ok": true,
+   "hyp": "yes it is it's open from 9 to 3 it's closed on the weekend",
+   "min_prob": 0.77,
+   "flags": [
+    "noisy/hissy 340ms"
+   ],
+   "f0_med": 186.0
+  },
+  {
+   "t": 53.79,
+   "spk": "Kim",
+   "line": "OK. Thank you!",
+   "ok": true,
+   "hyp": "ok thank you",
+   "min_prob": 0.47,
+   "flags": [],
+   "f0_med": 187.1
+  },
+  {
+   "t": 56.49,
+   "spk": "Receptionist",
+   "line": "You're welcome. Bye!",
+   "ok": true,
+   "hyp": "you're welcome bye",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 206.4
+  }
+ ],
+ "hyp": "lesson 6 listening part 1 kim calls a laundromat she hears a message listen thank you for calling city laundromat we are open monday to saturday from 7 in the morning to 9 at night we are closed on sunday thank you part 2 kim calls the adult school listen good afternoon riverside adult school hi what time is the english class it's at 6 oclock 6 oclock ok what day is the class it's on monday and wednesday is the school open on friday yes it is it's open from 9 to 3 it's closed on the weekend ok thank you you're welcome bye that's the end of the listening"
+}

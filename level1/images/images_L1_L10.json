@@ -1,0 +1,135 @@
+[
+ {
+  "file": "L1_L10_house.png",
+  "lesson": "Level1-L10",
+  "word": "house",
+  "twemoji": [
+   "1f3e0"
+  ],
+  "note": "house",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L10_apartment.png",
+  "lesson": "Level1-L10",
+  "word": "apartment",
+  "twemoji": [
+   "1f3e2"
+  ],
+  "note": "apartment building",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L10_kitchen.png",
+  "lesson": "Level1-L10",
+  "word": "kitchen",
+  "twemoji": [
+   "1f373",
+   "1f37d"
+  ],
+  "note": "pan + plate (kitchen)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L10_bedroom.png",
+  "lesson": "Level1-L10",
+  "word": "bedroom",
+  "twemoji": [
+   "1f6cf"
+  ],
+  "note": "bed",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L10_bathroom.png",
+  "lesson": "Level1-L10",
+  "word": "bathroom",
+  "twemoji": [
+   "1f6bd"
+  ],
+  "note": "toilet",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L10_living_room.png",
+  "lesson": "Level1-L10",
+  "word": "living room",
+  "twemoji": [
+   "1f6cb"
+  ],
+  "note": "couch / living room",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L10_bed.png",
+  "lesson": "Level1-L10",
+  "word": "bed",
+  "twemoji": [
+   "1f6cf"
+  ],
+  "note": "bed",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L10_table.png",
+  "lesson": "Level1-L10",
+  "word": "table",
+  "twemoji": [],
+  "note": "table (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L10_chair.png",
+  "lesson": "Level1-L10",
+  "word": "chair",
+  "twemoji": [
+   "1fa91"
+  ],
+  "note": "chair",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L10_sofa.png",
+  "lesson": "Level1-L10",
+  "word": "sofa",
+  "twemoji": [
+   "1f6cb"
+  ],
+  "note": "sofa / couch",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L10_refrigerator.png",
+  "lesson": "Level1-L10",
+  "word": "refrigerator",
+  "twemoji": [],
+  "note": "refrigerator (drawn — no Twemoji fridge)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L10_window.png",
+  "lesson": "Level1-L10",
+  "word": "window",
+  "twemoji": [
+   "1fa9f"
+  ],
+  "note": "window",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L10_apartment_ad.png",
+  "lesson": "Level1-L10",
+  "word": "apartment ad",
+  "twemoji": [],
+  "note": "FOR RENT ad 2BR 1BA $900 (drawn, invented)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L10_floor_plan.png",
+  "lesson": "Level1-L10",
+  "word": "floor plan",
+  "twemoji": [],
+  "note": "simple 4-room floor plan (drawn)",
+  "drawn": "all drawn"
+ }
+]

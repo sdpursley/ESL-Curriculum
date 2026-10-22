@@ -1,0 +1,148 @@
+[
+ {
+  "file": "L1_L11_bank.png",
+  "lesson": "Level1-L11",
+  "word": "bank",
+  "twemoji": [
+   "1f3e6"
+  ],
+  "note": "bank",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L11_pharmacy.png",
+  "lesson": "Level1-L11",
+  "word": "pharmacy",
+  "twemoji": [
+   "1f48a"
+  ],
+  "note": "pill (pharmacy)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L11_school.png",
+  "lesson": "Level1-L11",
+  "word": "school",
+  "twemoji": [
+   "1f3eb"
+  ],
+  "note": "school",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L11_hospital.png",
+  "lesson": "Level1-L11",
+  "word": "hospital",
+  "twemoji": [
+   "1f3e5"
+  ],
+  "note": "hospital",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L11_bus_stop.png",
+  "lesson": "Level1-L11",
+  "word": "bus stop",
+  "twemoji": [
+   "1f68f"
+  ],
+  "note": "bus stop",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L11_store.png",
+  "lesson": "Level1-L11",
+  "word": "store",
+  "twemoji": [
+   "1f3ea"
+  ],
+  "note": "convenience store",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L11_park.png",
+  "lesson": "Level1-L11",
+  "word": "park",
+  "twemoji": [
+   "1f333"
+  ],
+  "note": "tree (park)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L11_restaurant.png",
+  "lesson": "Level1-L11",
+  "word": "restaurant",
+  "twemoji": [
+   "1f37d"
+  ],
+  "note": "fork and knife",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L11_street.png",
+  "lesson": "Level1-L11",
+  "word": "street",
+  "twemoji": [
+   "1f6e3"
+  ],
+  "note": "motorway / street",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L11_corner.png",
+  "lesson": "Level1-L11",
+  "word": "corner",
+  "twemoji": [],
+  "note": "CORNER label (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L11_left.png",
+  "lesson": "Level1-L11",
+  "word": "left",
+  "twemoji": [],
+  "note": "left arrow (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L11_right.png",
+  "lesson": "Level1-L11",
+  "word": "right",
+  "twemoji": [],
+  "note": "right arrow (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L11_map.png",
+  "lesson": "Level1-L11",
+  "word": "street map",
+  "twemoji": [],
+  "note": "simple street map with places (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L11_sign_exit.png",
+  "lesson": "Level1-L11",
+  "word": "EXIT",
+  "twemoji": [],
+  "note": "EXIT sign (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L11_sign_push.png",
+  "lesson": "Level1-L11",
+  "word": "PUSH / PULL",
+  "twemoji": [],
+  "note": "PUSH / PULL sign (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L11_sign_one_way.png",
+  "lesson": "Level1-L11",
+  "word": "ONE WAY",
+  "twemoji": [],
+  "note": "ONE WAY sign (drawn)",
+  "drawn": "all drawn"
+ }
+]
