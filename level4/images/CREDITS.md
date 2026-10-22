@@ -2,7 +2,7 @@
 
 **Status:** Draft for review; not published.
 
-**24 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
+**48 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
 `tools/l4img.py` (copied from the Level 3 `l3img.py`; same card style as Levels 1-3). Vocabulary cards are 600×420.
 
 ## Sources and licenses
@@ -56,5 +56,43 @@ No photos or stock-site images are used.
 | L4_L2_since.png | since (2020) | a calendar [sign: SINCE 2020] | [1f4c5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c5.svg) |
 | L4_L2_roommate.png | roommate | two people and a house | [1f3e0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3e0.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
 | L4_L2_lease.png | lease | a document and a key [sign: LEASE: 1 YEAR] | [1f4c4](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c4.svg), [1f511](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f511.svg) |
+
+### Lesson 3
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L3.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L3_to_do_list.png | to-do list | a note and a pencil [sign: TO DO] | [1f4dd](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4dd.svg) |
+| L4_L3_task.png | task | a broom and a sponge [sign: TASK: CLEAN] | [1f9f9](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9f9.svg), [1f9fd](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9fd.svg) |
+| L4_L3_checklist.png | checklist | a clipboard with a check mark | [1f4cb](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4cb.svg) |
+| L4_L3_supervisor.png | supervisor | a woman at work [sign: SUPERVISOR] | [1f469-200d-1f4bc](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f469-200d-1f4bc.svg) |
+| L4_L3_deadline.png | deadline | a calendar and an alarm clock [sign: DUE: FRIDAY] | [1f4c5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c5.svg), [23f0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/23f0.svg) |
+| L4_L3_restock.png | restock | a shopping cart and cans [sign: RESTOCK] | [1f6d2](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6d2.svg), [1f96b](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f96b.svg) |
+| L4_L3_inventory.png | inventory | a box and numbers [sign: INVENTORY] | [1f4e6](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4e6.svg), [1f522](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f522.svg) |
+| L4_L3_clock_in.png | clock in | a clock and an arrow [sign: IN 9:00] | [1f558](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f558.svg), [27a1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/27a1.svg) |
+| L4_L3_clock_out.png | clock out | a clock and an arrow [sign: OUT 5:00] | [1f554](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f554.svg), [2b05](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2b05.svg) |
+| L4_L3_break_room.png | break room | coffee and a chair [sign: BREAK ROOM] | [1fa91](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1fa91.svg), [2615](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2615.svg) |
+| L4_L3_feedback.png | feedback | a thumbs-up and a speech bubble [sign: GOOD JOB!] | [1f44d](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f44d.svg), [1f4ac](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4ac.svg) |
+| L4_L3_check_in.png | check-in (a short meeting) | a supervisor and a worker talking | [1f469-200d-1f4bc](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f469-200d-1f4bc.svg), [1f4ac](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4ac.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
+
+### Lesson 4
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L4.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L4_checkup.png | checkup | a stethoscope and a clipboard [sign: CHECKUP] | [1f4cb](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4cb.svg), [1fa7a](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1fa7a.svg) |
+| L4_L4_health_history.png | health history | a clipboard and a pen [sign: HEALTH HISTORY] | [1f4cb](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4cb.svg), [1f58a](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f58a.svg) |
+| L4_L4_symptom.png | symptom | a person with a fever and a person sneezing [sign: SYMPTOMS] | [1f912](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f912.svg), [1f927](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f927.svg) |
+| L4_L4_allergy.png | allergy | peanuts and a person sneezing [sign: ALLERGY: PEANUTS] | [1f927](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f927.svg), [1f95c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f95c.svg) |
+| L4_L4_blood_pressure.png | blood pressure | a stethoscope and an arm [sign: 120/80] | [1f4aa](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4aa.svg), [1fa7a](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1fa7a.svg) |
+| L4_L4_rash.png | rash | a hand [sign: RASH] | [1f91a](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f91a.svg) |
+| L4_L4_dizzy.png | dizzy | a dizzy face | [1f635-200d-1f4ab](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f635-200d-1f4ab.svg) |
+| L4_L4_teeth_cleaning.png | teeth cleaning | a tooth and a toothbrush [sign: CLEANING] | [1f9b7](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9b7.svg), [1faa5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1faa5.svg) |
+| L4_L4_cavity.png | cavity | a tooth and a magnifying glass [sign: CAVITY] | [1f50d](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f50d.svg), [1f9b7](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9b7.svg) |
+| L4_L4_flu_shot.png | flu shot | a syringe [sign: FLU SHOT] | [1f489](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f489.svg) |
+| L4_L4_prescription.png | prescription | pills and a paper [sign: Rx] | [1f48a](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f48a.svg), [1f4c4](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c4.svg) |
+| L4_L4_copay.png | copay | a card and money [sign: COPAY $20] | [1f4b3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4b3.svg), [1f4b5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4b5.svg) |
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0.

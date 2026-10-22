@@ -110,7 +110,7 @@ def card(codes, sign_text=None, mark=None, size=None, sign_size=34):
     row(codes, size=size, y=y, img=img, gap=30)
     if sign_text:
         lines = sign_text.count('\n') + 1; h = 30 + 42*lines
-        w = min(540, max(220, 24*max(len(t) for t in sign_text.split('\n'))))
+        w = min(560, max(220, 48 + int(max(font(sign_size).getlength(t) for t in sign_text.split('\n')))))
         sign(img, (W-w)//2, H-h-30, w, h, sign_text, size=sign_size)
     if mark == 'check': check(img, W-110, 30, 70)
     if mark == 'cross': cross(img, W-110, 30, 70)

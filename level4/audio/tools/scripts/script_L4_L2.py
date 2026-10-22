@@ -4,9 +4,9 @@
 LESSON = 2
 TITLE = 'How Long Have You Lived Here?'
 VOICES = {'Narrator': 'N', 'Marisol': 'Ana_af_jessica', 'Mr. Chen': 'Carlos'}
-FEMALE = {'Marisol', 'Narrator'}
-NAMES = {'Marisol', 'Chen'}
-SAME = {}
+FEMALE = {'Narrator', 'Marisol'}
+NAMES = {'marisol', 'chen'}
+SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson two. Marisol is at a leasing office. She wants to rent an apartment, and Mr. Chen helps her.'
 LINES = [

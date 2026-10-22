@@ -52,3 +52,10 @@ level1/exams/build/audio/out/
 
 # Slide decks built by scripts/slides/build_deck.py (default --out) and their renders
 /build/
+
+# Level 4 (Lessons 1-13): build caches, generated reference clips, local audio runs
+level4/images/tools/_twemoji_src/
+level4/audio/tools/refs/
+level4/audio/tools/cache/
+level4/audio/tools/out/
+level4/**/*.wav

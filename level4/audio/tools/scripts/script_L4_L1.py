@@ -4,9 +4,9 @@
 LESSON = 1
 TITLE = 'Have You Ever…?'
 VOICES = {'Narrator': 'N', 'Lucía': 'Rosa', 'Ahmed': 'Marco', 'Ms. Grant': 'Kim'}
-FEMALE = {'Ms. Grant', 'Lucía', 'Narrator'}
-NAMES = {'Ahmed', 'Lucía', 'Grant'}
-SAME = {}
+FEMALE = {'Narrator', 'Lucía', 'Ms. Grant'}
+NAMES = {'lucía', 'ahmed', 'grant'}
+SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = "Lesson one. It's the first night of an English class at a community center. Lucía and Ahmed meet before class."
 LINES = [

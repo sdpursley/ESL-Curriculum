@@ -8,8 +8,8 @@ When audio is made, it will use synthetic voices made with Chatterbox TTS (Resem
 |---|---|---|---|---|
 | 1 | Have You Ever…? | `scripts/script_L4_L1.py` | `cast/cast_L4_L1.json` | to do |
 | 2 | How Long Have You Lived Here? | `scripts/script_L4_L2.py` | `cast/cast_L4_L2.json` | to do |
-| 3 | Have You Finished Yet? | to write | to write | to do |
-| 4 | How Long Have You Had It? | to write | to write | to do |
+| 3 | Have You Finished Yet? | `scripts/script_L4_L3.py` | `cast/cast_L4_L3.json` | to do |
+| 4 | How Long Have You Had It? | `scripts/script_L4_L4.py` | `cast/cast_L4_L4.json` | to do |
 | 5 | Would You Mind…? | to write | to write | to do |
 | 6 | What Would You Do? | to write | to write | to do |
 | 7 | Too Early or On Time? | to write | to write | to do |

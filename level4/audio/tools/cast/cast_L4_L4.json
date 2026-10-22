@@ -1,0 +1,25 @@
+{
+ "TITLE": "How Long Have You Had It?",
+ "VOICES": {
+  "Narrator": "N",
+  "Amina": "Rosa",
+  "Daniel": "Marco",
+  "Ms. Park": "Receptionist"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Amina",
+  "Ms. Park"
+ ],
+ "NAMES": [
+  "Amina",
+  "Daniel",
+  "Park"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 273,
+  "seconds": 127
+ }
+}
