@@ -2,7 +2,7 @@
 
 **Status:** Draft for review; not published.
 
-**96 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
+**120 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
 `tools/l4img.py` (copied from the Level 3 `l3img.py`; same card style as Levels 1-3). Vocabulary cards are 600×420.
 
 ## Sources and licenses
@@ -170,5 +170,43 @@ No photos or stock-site images are used.
 | L4_L8_announce.png | announce | a person and a loudspeaker | [1f4e2](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4e2.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
 | L4_L8_update.png | update | a phone and refresh arrows [sign: UPDATE] | [1f4f1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f1.svg), [1f504](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f504.svg) |
 | L4_L8_local.png | local | houses and a map pin | [1f3d8](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3d8.svg), [1f4cd](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4cd.svg) |
+
+### Lesson 9
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L9.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L9_opinion.png | opinion | a person and a speech bubble [sign: I THINK…] | [1f4ac](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4ac.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
+| L4_L9_agree.png | agree | a person and a thumbs-up | [1f44d](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f44d.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
+| L4_L9_disagree.png | disagree | a person and a thumbs-down | [1f44e](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f44e.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
+| L4_L9_point.png | point (I see your point) | eyes and a light bulb | [1f440](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f440.svg), [1f4a1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4a1.svg) |
+| L4_L9_community_meeting.png | community meeting | two people holding hands and a chair [sign: MEETING 7 PM] | [1f9d1-200d-1f91d-200d-1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1-200d-1f91d-200d-1f9d1.svg), [1fa91](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1fa91.svg) |
+| L4_L9_empty_lot.png | empty lot | a barrier and tall grass [sign: EMPTY LOT] | [1f33e](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f33e.svg), [1f6a7](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6a7.svg) |
+| L4_L9_community_garden.png | community garden | a sunflower and a carrot | [1f33b](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f33b.svg), [1f955](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f955.svg) |
+| L4_L9_parking_lot.png | parking lot | a parking sign and a car | [1f17f](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f17f.svg), [1f697](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f697.svg) |
+| L4_L9_playground.png | playground | a playground slide and a child | [1f6dd](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6dd.svg), [1f9d2](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d2.svg) |
+| L4_L9_survey.png | survey | a clipboard and a pencil [sign: SURVEY] | [1f4cb](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4cb.svg), [270f](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/270f.svg) |
+| L4_L9_vote.png | vote (raise your hand) | a person raising a hand and a raised hand | [1f64b](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f64b.svg), [270b](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/270b.svg) |
+| L4_L9_advantage.png | advantage / disadvantage | a plus sign and a minus sign | [2795](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2795.svg), [2796](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2796.svg) |
+
+### Lesson 10
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L10.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L10_utility_bill.png | utility bill | a receipt and a lightning bolt [sign: AMOUNT DUE] | [1f9fe](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9fe.svg), [26a1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/26a1.svg) |
+| L4_L10_electricity.png | electricity | a lightning bolt and a light bulb | [1f4a1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4a1.svg), [26a1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/26a1.svg) |
+| L4_L10_thermostat.png | thermostat | a thermometer and a house [sign: 68 DEGREES] | [1f321](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f321.svg), [1f3e0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3e0.svg) |
+| L4_L10_save_energy.png | save energy | a light bulb and a check mark [sign: SAVE ENERGY] | [1f4a1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4a1.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L4_L10_unplug.png | unplug | a plug and a red X | [1f50c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f50c.svg), [274c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/274c.svg) |
+| L4_L10_charger.png | charger | a plug and a phone | [1f4f1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f1.svg), [1f50c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f50c.svg) |
+| L4_L10_outlet.png | outlet | a plug [sign: OUTLET] | [1f50c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f50c.svg) |
+| L4_L10_fan.png | fan | a wind face and a puff of air [sign: FAN] | [1f32c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f32c.svg), [1f4a8](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4a8.svg) |
+| L4_L10_deadbolt.png | deadbolt | a lock and a door | [1f512](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f512.svg), [1f6aa](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6aa.svg) |
+| L4_L10_peephole.png | peephole | an eye and a door | [1f441](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f441.svg), [1f6aa](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6aa.svg) |
+| L4_L10_fire_extinguisher.png | fire extinguisher | a fire extinguisher | [1f9ef](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9ef.svg) |
+| L4_L10_usage.png | usage | a bar chart and a lightning bolt [sign: USAGE] | [1f4ca](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4ca.svg), [26a1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/26a1.svg) |
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0.

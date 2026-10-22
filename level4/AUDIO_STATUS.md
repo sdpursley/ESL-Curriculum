@@ -14,8 +14,8 @@ When audio is made, it will use synthetic voices made with Chatterbox TTS (Resem
 | 6 | What Would You Do? | `scripts/script_L4_L6.py` | `cast/cast_L4_L6.json` | to do |
 | 7 | Too Early or On Time? | `scripts/script_L4_L7.py` | `cast/cast_L4_L7.json` | to do |
 | 8 | In the News | `scripts/script_L4_L8.py` | `cast/cast_L4_L8.json` | to do |
-| 9 | I See Your Point | to write | to write | to do |
-| 10 | Turn It Off | to write | to write | to do |
+| 9 | I See Your Point | `scripts/script_L4_L9.py` | `cast/cast_L4_L9.json` | to do |
+| 10 | Turn It Off | `scripts/script_L4_L10.py` | `cast/cast_L4_L10.json` | to do |
 | 11 | Time Off | to write | to write | to do |
 | 12 | Is It a Scam? | to write | to write | to do |
 | 13 | My Story So Far | to write | to write | to do |
