@@ -17,7 +17,7 @@ Audio: not rendered (scripts + cast only). Slides: not started (by request).
 | 10 | Turn It Off | 29 | 278 words, about 2:07 | Hana (Ana_af_jessica, F), Paul (Server, M), Sofia (Rosa, F) | pass | yes |
 | 11 | Time Off | 29 | 249 words, about 1:52 | Luis (Marco, M), Ms. Adams (Receptionist, F), Rosa (Rosa, F) | pass | yes |
 | 12 | Is It a Scam? | 29 | 261 words, about 1:56 | Caller (Carlos, M), Daniel (Sam, M), Mrs. Lopez (Kim, F) | pass | yes |
-| 13 | My Story So Far | 29 | 267 words, about 1:54 | Mariana (Ana_af_jessica, F), Mr. Hill (Carlos, M) | pass | no |
+| 13 | My Story So Far | 29 | 267 words, about 1:54 | Mariana (Ana_af_jessica, F), Mr. Hill (Carlos, M) | pass | yes |
 
 ## Notes
 - Tools written: render_L4.py, std.py, check_lesson_L4.py, make_script_L4.py, make_credits_L4.py, l4img.py (card, vocab_run), md2docx_L4.py (= L3 md2docx), build_lesson_L4.sh.
