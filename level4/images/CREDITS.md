@@ -2,7 +2,7 @@
 
 **Status:** Draft for review; not published.
 
-**120 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
+**144 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
 `tools/l4img.py` (copied from the Level 3 `l3img.py`; same card style as Levels 1-3). Vocabulary cards are 600×420.
 
 ## Sources and licenses
@@ -208,5 +208,43 @@ No photos or stock-site images are used.
 | L4_L10_peephole.png | peephole | an eye and a door | [1f441](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f441.svg), [1f6aa](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6aa.svg) |
 | L4_L10_fire_extinguisher.png | fire extinguisher | a fire extinguisher | [1f9ef](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9ef.svg) |
 | L4_L10_usage.png | usage | a bar chart and a lightning bolt [sign: USAGE] | [1f4ca](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4ca.svg), [26a1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/26a1.svg) |
+
+### Lesson 11
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L11.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L11_time_off.png | time off | a calendar and a palm tree [sign: DAY OFF] | [1f334](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f334.svg), [1f4c5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c5.svg) |
+| L4_L11_vacation_days.png | vacation days | a beach with an umbrella and a calendar | [1f3d6](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3d6.svg), [1f4c5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c5.svg) |
+| L4_L11_request_form.png | request form | a paper and a pencil [sign: REQUEST] | [1f4dd](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4dd.svg) |
+| L4_L11_approve.png | approve | an office worker and a check mark | [1f9d1-200d-1f4bc](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1-200d-1f4bc.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L4_L11_pack.png | pack | a shirt and a suitcase | [1f455](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f455.svg), [1f9f3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9f3.svg) |
+| L4_L11_suitcase.png | suitcase | a suitcase | [1f9f3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9f3.svg) |
+| L4_L11_carry_on.png | carry-on bag | a backpack and an airplane | [1f392](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f392.svg), [2708](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2708.svg) |
+| L4_L11_round_trip.png | round-trip ticket | a ticket and a repeat arrow | [1f3ab](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3ab.svg), [1f501](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f501.svg) |
+| L4_L11_boarding_pass.png | boarding pass | a ticket and an airplane [sign: GATE 12] | [1f3ab](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3ab.svg), [2708](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2708.svg) |
+| L4_L11_toiletries.png | toiletries | a toothbrush and a lotion bottle | [1f9f4](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9f4.svg), [1faa5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1faa5.svg) |
+| L4_L11_voicemail.png | voicemail | a phone and a speaking head | [1f4f1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f1.svg), [1f5e3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f5e3.svg) |
+| L4_L11_itinerary.png | itinerary | a map and a clipboard [sign: FRI 8:00 AM] | [1f4cb](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4cb.svg), [1f5fa](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f5fa.svg) |
+
+### Lesson 12
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L12.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L12_scam.png | scam | a fishing pole and flying money | [1f3a3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3a3.svg), [1f4b8](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4b8.svg) |
+| L4_L12_warning_sign.png | warning sign | a warning triangle | [26a0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/26a0.svg) |
+| L4_L12_suspicious.png | suspicious | a thinking face and a phone | [1f4f1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f1.svg), [1f914](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f914.svg) |
+| L4_L12_fake.png | fake | a dollar bill and a red X [sign: FAKE] | [1f4b5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4b5.svg), [274c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/274c.svg) |
+| L4_L12_official.png | official | an official building and a check mark | [1f3db](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3db.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L4_L12_gift_card.png | gift card | a gift and a card | [1f381](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f381.svg), [1f4b3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4b3.svg) |
+| L4_L12_prize.png | prize | a trophy and a party popper | [1f389](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f389.svg), [1f3c6](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3c6.svg) |
+| L4_L12_link.png | link | a phone and a link | [1f4f1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f1.svg), [1f517](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f517.svg) |
+| L4_L12_pin.png | PIN | a card and numbers | [1f4b3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4b3.svg), [1f522](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f522.svg) |
+| L4_L12_hang_up.png | hang up | a phone and a waving hand | [1f44b](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f44b.svg), [1f4de](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4de.svg) |
+| L4_L12_block.png | block (a number) | a phone and a no sign | [1f4f1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f1.svg), [1f6ab](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6ab.svg) |
+| L4_L12_trust.png | trust | a handshake and a check mark | [1f91d](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f91d.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0.

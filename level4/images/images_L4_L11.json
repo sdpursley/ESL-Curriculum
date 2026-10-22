@@ -1,0 +1,132 @@
+[
+ {
+  "file": "L4_L11_time_off.png",
+  "lesson": "Level4-L11",
+  "word": "time off",
+  "kind": "vocab",
+  "twemoji": [
+   "1f334",
+   "1f4c5"
+  ],
+  "note": "a calendar and a palm tree [sign: DAY OFF]"
+ },
+ {
+  "file": "L4_L11_vacation_days.png",
+  "lesson": "Level4-L11",
+  "word": "vacation days",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3d6",
+   "1f4c5"
+  ],
+  "note": "a beach with an umbrella and a calendar"
+ },
+ {
+  "file": "L4_L11_request_form.png",
+  "lesson": "Level4-L11",
+  "word": "request form",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4dd"
+  ],
+  "note": "a paper and a pencil [sign: REQUEST]"
+ },
+ {
+  "file": "L4_L11_approve.png",
+  "lesson": "Level4-L11",
+  "word": "approve",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1-200d-1f4bc",
+   "2705"
+  ],
+  "note": "an office worker and a check mark"
+ },
+ {
+  "file": "L4_L11_pack.png",
+  "lesson": "Level4-L11",
+  "word": "pack",
+  "kind": "vocab",
+  "twemoji": [
+   "1f455",
+   "1f9f3"
+  ],
+  "note": "a shirt and a suitcase"
+ },
+ {
+  "file": "L4_L11_suitcase.png",
+  "lesson": "Level4-L11",
+  "word": "suitcase",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9f3"
+  ],
+  "note": "a suitcase"
+ },
+ {
+  "file": "L4_L11_carry_on.png",
+  "lesson": "Level4-L11",
+  "word": "carry-on bag",
+  "kind": "vocab",
+  "twemoji": [
+   "1f392",
+   "2708"
+  ],
+  "note": "a backpack and an airplane"
+ },
+ {
+  "file": "L4_L11_round_trip.png",
+  "lesson": "Level4-L11",
+  "word": "round-trip ticket",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3ab",
+   "1f501"
+  ],
+  "note": "a ticket and a repeat arrow"
+ },
+ {
+  "file": "L4_L11_boarding_pass.png",
+  "lesson": "Level4-L11",
+  "word": "boarding pass",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3ab",
+   "2708"
+  ],
+  "note": "a ticket and an airplane [sign: GATE 12]"
+ },
+ {
+  "file": "L4_L11_toiletries.png",
+  "lesson": "Level4-L11",
+  "word": "toiletries",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9f4",
+   "1faa5"
+  ],
+  "note": "a toothbrush and a lotion bottle"
+ },
+ {
+  "file": "L4_L11_voicemail.png",
+  "lesson": "Level4-L11",
+  "word": "voicemail",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f1",
+   "1f5e3"
+  ],
+  "note": "a phone and a speaking head"
+ },
+ {
+  "file": "L4_L11_itinerary.png",
+  "lesson": "Level4-L11",
+  "word": "itinerary",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "1f5fa"
+  ],
+  "note": "a map and a clipboard [sign: FRI 8:00 AM]"
+ }
+]
