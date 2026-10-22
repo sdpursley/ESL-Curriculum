@@ -306,13 +306,13 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson2.pdf",
      "label": "PDF, for printing",
-     "size": 600107
+     "size": 599963
     },
     {
      "kind": "docx",
      "href": "level1/downloads/Level1_Lesson2.docx",
      "label": "Word document (DOCX), for editing",
-     "size": 211186
+     "size": 211184
     },
     {
      "kind": "pptx",
@@ -464,13 +464,13 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson3.pdf",
      "label": "PDF, for printing",
-     "size": 658114
+     "size": 658053
     },
     {
      "kind": "docx",
      "href": "level1/downloads/Level1_Lesson3.docx",
      "label": "Word document (DOCX), for editing",
-     "size": 211499
+     "size": 211500
     },
     {
      "kind": "pptx",
@@ -632,13 +632,13 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson4.pdf",
      "label": "PDF, for printing",
-     "size": 745929
+     "size": 745833
     },
     {
      "kind": "docx",
      "href": "level1/downloads/Level1_Lesson4.docx",
      "label": "Word document (DOCX), for editing",
-     "size": 370792
+     "size": 370793
     },
     {
      "kind": "pptx",
@@ -794,7 +794,7 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson5.pdf",
      "label": "PDF, for printing",
-     "size": 653631
+     "size": 653527
     },
     {
      "kind": "docx",
@@ -952,7 +952,7 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson6.pdf",
      "label": "PDF, for printing",
-     "size": 709142
+     "size": 709162
     },
     {
      "kind": "docx",
@@ -1116,7 +1116,7 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson7.pdf",
      "label": "PDF, for printing",
-     "size": 879155
+     "size": 879034
     },
     {
      "kind": "docx",
@@ -1274,13 +1274,13 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson8.pdf",
      "label": "PDF, for printing",
-     "size": 366215
+     "size": 366266
     },
     {
      "kind": "docx",
      "href": "level1/downloads/Level1_Lesson8.docx",
      "label": "Word document (DOCX), for editing",
-     "size": 55417
+     "size": 55409
     },
     {
      "kind": "pptx",
@@ -1443,13 +1443,13 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson9.pdf",
      "label": "PDF, for printing",
-     "size": 338575
+     "size": 338524
     },
     {
      "kind": "docx",
      "href": "level1/downloads/Level1_Lesson9.docx",
      "label": "Word document (DOCX), for editing",
-     "size": 53206
+     "size": 53198
     },
     {
      "kind": "pptx",
@@ -1601,13 +1601,13 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson10.pdf",
      "label": "PDF, for printing",
-     "size": 343360
+     "size": 343346
     },
     {
      "kind": "docx",
      "href": "level1/downloads/Level1_Lesson10.docx",
      "label": "Word document (DOCX), for editing",
-     "size": 53277
+     "size": 53269
     },
     {
      "kind": "pptx",
@@ -1759,13 +1759,13 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson11.pdf",
      "label": "PDF, for printing",
-     "size": 339341
+     "size": 339306
     },
     {
      "kind": "docx",
      "href": "level1/downloads/Level1_Lesson11.docx",
      "label": "Word document (DOCX), for editing",
-     "size": 53071
+     "size": 53060
     },
     {
      "kind": "pptx",
@@ -1917,13 +1917,13 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson12.pdf",
      "label": "PDF, for printing",
-     "size": 334876
+     "size": 334803
     },
     {
      "kind": "docx",
      "href": "level1/downloads/Level1_Lesson12.docx",
      "label": "Word document (DOCX), for editing",
-     "size": 53046
+     "size": 53037
     },
     {
      "kind": "pptx",
@@ -2091,13 +2091,13 @@
      "kind": "pdf",
      "href": "level1/downloads/Level1_Lesson13.pdf",
      "label": "PDF, for printing",
-     "size": 332127
+     "size": 332065
     },
     {
      "kind": "docx",
      "href": "level1/downloads/Level1_Lesson13.docx",
      "label": "Word document (DOCX), for editing",
-     "size": 52819
+     "size": 52810
     },
     {
      "kind": "pptx",
@@ -2113,6 +2113,154 @@
     }
    ],
    "slides": "level1/downloads/slides/Level1_Lesson13_Slides.pptx"
+  }
+ ],
+ "exams": [
+  {
+   "key": "midterm",
+   "week": 8,
+   "title": "Midterm",
+   "covers": "Lessons 1–7",
+   "parts": [
+    {
+     "part": "A. Listening",
+     "what": "Listen to a short conversation. Circle a picture or a word (7 items). Write one number (1 item).",
+     "points": "8",
+     "time": "15 min (6:10–6:25)"
+    },
+    {
+     "part": "B. Words",
+     "what": "Look at a picture. Circle the word.",
+     "points": "6",
+     "time": "20 min for B + C (6:25–6:45)"
+    },
+    {
+     "part": "C. Grammar",
+     "what": "Circle the correct word (2 choices).",
+     "points": "12",
+     "time": "(with B)"
+    },
+    {
+     "part": "D. Form",
+     "what": "Copy the information from a practice card onto a form.",
+     "points": "6",
+     "time": "10 min (7:00–7:10)"
+    },
+    {
+     "part": "<strong>Written total</strong>",
+     "what": "",
+     "points": "<strong>32</strong>",
+     "time": "<strong>45 min</strong>"
+    },
+    {
+     "part": "Speaking interview",
+     "what": "Pairs (or one-on-one) with the teacher. Scored with the rubric, not added to the written total.",
+     "points": "3–9",
+     "time": "3 min per pair"
+    }
+   ],
+   "noteHtml": "Covers Lessons 1–7. Every item uses only words and grammar from these lessons, and the same task types as the lessons (circle, check, write one number, copy onto a form, pair questions).",
+   "audio": "level1/audio/L1_Midterm_listening.mp3",
+   "audioSeconds": 83,
+   "downloads": [
+    {
+     "kind": "pdf",
+     "href": "level1/downloads/exams/Level1_Midterm_Exam_Teacher_Packet.pdf",
+     "label": "Teacher packet (PDF): directions, script, answer key, speaking papers",
+     "size": 360098
+    },
+    {
+     "kind": "docx",
+     "href": "level1/downloads/exams/Level1_Midterm_Exam_Teacher_Packet.docx",
+     "label": "Teacher packet (DOCX), for editing",
+     "size": 108456
+    },
+    {
+     "kind": "pdf",
+     "href": "level1/downloads/exams/Level1_Midterm_Student_Test.pdf",
+     "label": "Student test (PDF), 1 per learner, no answers",
+     "size": 310292
+    },
+    {
+     "kind": "mp3",
+     "href": "level1/audio/L1_Midterm_listening.mp3",
+     "label": "Listening audio (MP3)",
+     "size": 999614
+    }
+   ]
+  },
+  {
+   "key": "final",
+   "week": 15,
+   "title": "Final Exam",
+   "covers": "Lessons 1–13 (focus on 8–13)",
+   "parts": [
+    {
+     "part": "A. Listening",
+     "what": "Listen to a short conversation. Circle a picture or a word (7 items). Write one number (1 item).",
+     "points": "8",
+     "time": "15 min (6:10–6:25)"
+    },
+    {
+     "part": "B. Words",
+     "what": "Look at a picture. Circle the word.",
+     "points": "6",
+     "time": "20 min for B + C (6:25–6:45)"
+    },
+    {
+     "part": "C. Grammar",
+     "what": "Circle the correct word (2 choices).",
+     "points": "15",
+     "time": "(with B)"
+    },
+    {
+     "part": "D. Form",
+     "what": "Copy the information from a practice card onto a job application.",
+     "points": "6",
+     "time": "10 min (7:00–7:10)"
+    },
+    {
+     "part": "<strong>Written total</strong>",
+     "what": "",
+     "points": "<strong>35</strong>",
+     "time": "<strong>45 min</strong>"
+    },
+    {
+     "part": "Speaking interview",
+     "what": "Pairs (or one-on-one) with the teacher. Scored with the rubric, not added to the written total.",
+     "points": "3–9",
+     "time": "3 min per pair"
+    }
+   ],
+   "noteHtml": "Covers Lessons 1–13 (focus on 8–13). Every item uses only words and grammar from these lessons, and the same task types as the lessons (circle, check, write one number, copy onto a form, pair questions).",
+   "audio": "level1/audio/L1_Final_listening.mp3",
+   "audioSeconds": 77,
+   "downloads": [
+    {
+     "kind": "pdf",
+     "href": "level1/downloads/exams/Level1_Final_Exam_Teacher_Packet.pdf",
+     "label": "Teacher packet (PDF): directions, script, answer key, speaking papers",
+     "size": 343510
+    },
+    {
+     "kind": "docx",
+     "href": "level1/downloads/exams/Level1_Final_Exam_Teacher_Packet.docx",
+     "label": "Teacher packet (DOCX), for editing",
+     "size": 82280
+    },
+    {
+     "kind": "pdf",
+     "href": "level1/downloads/exams/Level1_Final_Student_Test.pdf",
+     "label": "Student test (PDF), 1 per learner, no answers",
+     "size": 348482
+    },
+    {
+     "kind": "mp3",
+     "href": "level1/audio/L1_Final_listening.mp3",
+     "label": "Listening audio (MP3)",
+     "size": 919841
+    }
+   ]
   }
  ],
  "credit": "Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and ID cards, a name tag, forms, family-tree lines, signs, clocks, price tags, receipts, play money, speech bubbles, letters, and labels were added.",

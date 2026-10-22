@@ -11,7 +11,7 @@ from faster_whisper import WhisperModel
 spec = importlib.util.spec_from_file_location('S', sys.argv[1]); S = importlib.util.module_from_spec(spec); spec.loader.exec_module(S)
 tts = {l[1]: (l[2] if len(l) > 2 else l[1]) for l in S.LINES}; SAME = getattr(S, 'SAME', {})
 L = json.load(open(sys.argv[3])); x, sr = sf.read(sys.argv[2]); x = x.astype(np.float32); only = sys.argv[4:]
-M = WhisperModel('small.en', device='cpu', compute_type='int8')
+M = WhisperModel('small.en', device='cpu', compute_type='int8', cpu_threads=1)
 for a, b, spk, line in L['line_times']:
     if only and not any(o in line for o in only): continue
     seg = x[int((a-0.15)*sr):int((b+0.15)*sr)]; fl = detect(seg, sr, tts[line], None)[0]

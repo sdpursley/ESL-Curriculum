@@ -10,6 +10,9 @@ export interface L1Lesson {
   downloads?: L1Download[]; slides?: string
 }
 export interface L1Milestone { week: number; title: string; note: string }
-export interface L1Content { semester: string; routine: string; lessons: L1Lesson[]; milestones: L1Milestone[]; credit: string; creditHtml: string }
+/** Level 1 Week 8 Midterm / Week 15 Final (sources in level1/exams/; files in public/level1/downloads/exams/ and public/level1/audio/). */
+export interface L1ExamPart { part: string; what: string; points: string; time: string }
+export interface L1Exam { key: string; week: number; title: string; covers: string; parts: L1ExamPart[]; noteHtml: string; audio: string; audioSeconds: number; downloads: L1Download[] }
+export interface L1Content { semester: string; routine: string; lessons: L1Lesson[]; milestones: L1Milestone[]; exams?: L1Exam[]; credit: string; creditHtml: string }
 export const level1 = raw as L1Content
 export const readyLessons = level1.lessons.filter(l => l.ready)

@@ -1,0 +1,690 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Kim": "refs/Kim.wav",
+   "Carlos": "refs/Sam.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "This is the final exam listening.",
+    "tts_text": "This is the final exam listening.",
+    "seed": 17864,
+    "hyp": "this is the final exam listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.95,
+    "dur": 2.51,
+    "raw_peak": 0.816,
+    "pitch_ok": true,
+    "score": 1.49,
+    "f0_med": 182.3,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 10.98
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Kim and Carlos are at English class.",
+    "tts_text": "Kim and Carlos are at English class.",
+    "seed": 9945,
+    "hyp": "kim and carlos are at english class",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 2.12,
+    "raw_peak": 0.642,
+    "pitch_ok": true,
+    "score": 1.556,
+    "f0_med": 221.2,
+    "f0_st_sd": 4.15,
+    "f0_range_st": 13.78
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "It's the break. Listen.",
+    "tts_text": "It's the break. Listen.",
+    "seed": 120811,
+    "hyp": "it's the break listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.96,
+    "dur": 1.86,
+    "raw_peak": 0.64,
+    "pitch_ok": true,
+    "score": 1.516,
+    "f0_med": 206.4,
+    "f0_st_sd": 3.7,
+    "f0_range_st": 12.64
+   },
+   "tries": 16,
+   "passing": 2
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "Kim, do you want a taco?",
+    "tts_text": "Kim, do you want a taco?",
+    "seed": 9945,
+    "hyp": "kim do you want a taco",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.94,
+    "dur": 1.65,
+    "raw_peak": 0.589,
+    "pitch_ok": true,
+    "score": 1.539,
+    "f0_med": 130.4,
+    "f0_st_sd": 4.96,
+    "f0_range_st": 19.17
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "The restaurant is across from the school.",
+    "tts_text": "The restaurant is across from the school.",
+    "seed": 17864,
+    "hyp": "the restaurant is across from the school",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 2.14,
+    "raw_peak": 0.608,
+    "pitch_ok": true,
+    "score": 1.358,
+    "f0_med": 127.0,
+    "f0_st_sd": 2.6,
+    "f0_range_st": 7.86
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "No, thanks. I don't feel well. I'm sick.",
+    "tts_text": "No, thanks. I don't feel well. I'm sick.",
+    "seed": 49540,
+    "hyp": "no thanks i don't feel well i'm sick",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.97,
+    "dur": 3.35,
+    "raw_peak": 0.303,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 204.0,
+    "f0_st_sd": 4.76,
+    "f0_range_st": 15.28
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "Oh, no! What's wrong?",
+    "tts_text": "Oh, no! What's wrong?",
+    "seed": 73297,
+    "hyp": "oh no what's wrong",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.9,
+    "dur": 1.82,
+    "raw_peak": 0.828,
+    "pitch_ok": true,
+    "score": 1.503,
+    "f0_med": 132.3,
+    "f0_st_sd": 6.23,
+    "f0_range_st": 18.7
+   },
+   "tries": 11,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "It hurts here. My ear.",
+    "tts_text": "It hurts here. My ear.",
+    "seed": 73297,
+    "hyp": "it hurts here my ear",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.96,
+    "dur": 2.02,
+    "raw_peak": 0.219,
+    "pitch_ok": true,
+    "score": 1.561,
+    "f0_med": 166.7,
+    "f0_st_sd": 4.06,
+    "f0_range_st": 16.92
+   },
+   "tries": 10,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "Do you need a doctor?",
+    "tts_text": "Do you need a doctor?",
+    "seed": 2026,
+    "hyp": "do you need a doctor",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 1.43,
+    "raw_peak": 0.462,
+    "pitch_ok": true,
+    "score": 1.577,
+    "f0_med": 133.8,
+    "f0_st_sd": 4.58,
+    "f0_range_st": 14.61
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "Yes. I have an appointment on Friday.",
+    "tts_text": "Yes. I have an appointment on Friday.",
+    "seed": 33702,
+    "hyp": "yes i have an appointment on friday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 2.23,
+    "raw_peak": 0.329,
+    "pitch_ok": true,
+    "score": 1.576,
+    "f0_med": 177.6,
+    "f0_st_sd": 5.95,
+    "f0_range_st": 24.44
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "On Friday? What's the date?",
+    "tts_text": "On Friday? What's the date?",
+    "seed": 25783,
+    "hyp": "on friday what's the date",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.95,
+    "dur": 1.86,
+    "raw_peak": 0.747,
+    "pitch_ok": true,
+    "score": 1.483,
+    "f0_med": 143.0,
+    "f0_st_sd": 3.56,
+    "f0_range_st": 10.0
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "It's May twelfth, at nine thirty in the morning.",
+    "tts_text": "It's May twelfth, at nine thirty in the morning.",
+    "seed": 17864,
+    "hyp": "it's may twelfth at 930 in the morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.92,
+    "dur": 3.29,
+    "raw_peak": 0.294,
+    "pitch_ok": true,
+    "score": 1.388,
+    "f0_med": 193.7,
+    "f0_st_sd": 3.14,
+    "f0_range_st": 9.9
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "Where is the clinic?",
+    "tts_text": "Where is the clinic?",
+    "seed": 9945,
+    "hyp": "where is the clinic",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.94,
+    "dur": 1.12,
+    "raw_peak": 0.354,
+    "pitch_ok": true,
+    "score": 1.538,
+    "f0_med": 109.7,
+    "f0_st_sd": 5.31,
+    "f0_range_st": 12.8
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "It's on Pine Street, next to the bank.",
+    "tts_text": "It's on Pine Street, next to the bank.",
+    "seed": 25783,
+    "hyp": "it's on pine street next to the bank",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 2.72,
+    "raw_peak": 0.289,
+    "pitch_ok": true,
+    "score": 1.577,
+    "f0_med": 176.1,
+    "f0_st_sd": 4.72,
+    "f0_range_st": 16.62
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "Can you drive there?",
+    "tts_text": "Can you drive there?",
+    "seed": 9945,
+    "hyp": "can you drive there",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.91,
+    "dur": 1.18,
+    "raw_peak": 0.401,
+    "pitch_ok": true,
+    "score": 1.487,
+    "f0_med": 135.4,
+    "f0_st_sd": 3.87,
+    "f0_range_st": 14.74
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "No, I can't.",
+    "tts_text": "No, I can't.",
+    "seed": 17864,
+    "hyp": "no i can't",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.39,
+    "raw_peak": 0.271,
+    "pitch_ok": true,
+    "score": 1.567,
+    "f0_med": 221.2,
+    "f0_st_sd": 5.86,
+    "f0_range_st": 15.97
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "I can't drive.",
+    "tts_text": "I can't drive.",
+    "seed": 17864,
+    "hyp": "i can't drive",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.96,
+    "dur": 1.28,
+    "raw_peak": 0.313,
+    "pitch_ok": true,
+    "score": 1.563,
+    "f0_med": 225.0,
+    "f0_st_sd": 4.59,
+    "f0_range_st": 14.3
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "But there's a bus stop near the clinic.",
+    "tts_text": "But there's a bus stop near the clinic.",
+    "seed": 9945,
+    "hyp": "but there's a bus stop near the clinic",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.96,
+    "dur": 2.11,
+    "raw_peak": 0.303,
+    "pitch_ok": true,
+    "score": 1.56,
+    "f0_med": 169.1,
+    "f0_st_sd": 6.6,
+    "f0_range_st": 24.59
+   },
+   "tries": 8,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "OK. It's rainy today.",
+    "tts_text": "Okay. It's rainy today.",
+    "seed": 33702,
+    "hyp": "ok it's rainy today",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.56,
+    "mean_prob": 0.84,
+    "dur": 1.57,
+    "raw_peak": 0.324,
+    "pitch_ok": true,
+    "score": 1.419,
+    "f0_med": 115.1,
+    "f0_st_sd": 3.84,
+    "f0_range_st": 11.31
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "Take your jacket!",
+    "tts_text": "Take your jacket!",
+    "seed": 2026,
+    "hyp": "take your jacket",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.93,
+    "dur": 1.02,
+    "raw_peak": 0.28,
+    "pitch_ok": true,
+    "score": 1.53,
+    "f0_med": 118.5,
+    "f0_st_sd": 5.78,
+    "f0_range_st": 17.62
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "Thanks, Carlos. You're a good friend.",
+    "tts_text": "Thanks, Carlos. You're a good friend.",
+    "seed": 49540,
+    "hyp": "thanks carlos you're a good friend",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.96,
+    "dur": 2.21,
+    "raw_peak": 0.243,
+    "pitch_ok": true,
+    "score": 1.563,
+    "f0_med": 180.7,
+    "f0_st_sd": 5.06,
+    "f0_range_st": 16.8
+   },
+   "tries": 10,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "Do you want juice?",
+    "tts_text": "Do you want juice?",
+    "seed": 9945,
+    "hyp": "do you want juice",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.97,
+    "dur": 1.22,
+    "raw_peak": 0.313,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 128.5,
+    "f0_st_sd": 4.16,
+    "f0_range_st": 13.69
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Carlos",
+    "text": "I have juice.",
+    "tts_text": "I have juice.",
+    "seed": 2026,
+    "hyp": "i have juice",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.94,
+    "dur": 1.05,
+    "raw_peak": 0.411,
+    "pitch_ok": true,
+    "score": 1.42,
+    "f0_med": 106.2,
+    "f0_st_sd": 3.18,
+    "f0_range_st": 11.5
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "Yes, please. I like juice. Thank you!",
+    "tts_text": "Yes, please. I like juice. Thank you!",
+    "seed": 2026,
+    "hyp": "yes please i like juice thank you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.96,
+    "dur": 2.79,
+    "raw_peak": 0.296,
+    "pitch_ok": true,
+    "score": 1.563,
+    "f0_med": 165.2,
+    "f0_st_sd": 4.29,
+    "f0_range_st": 13.27
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 17864,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.65,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.51,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 11.73
+   },
+   "tries": 3,
+   "passing": 3
+  }
+ ],
+ "line_times": [
+  [
+   9.69,
+   14.03,
+   "Carlos",
+   "Kim, do you want a taco? The restaurant is across from the school."
+  ],
+  [
+   15.43,
+   18.78,
+   "Kim",
+   "No, thanks. I don't feel well. I'm sick."
+  ],
+  [
+   20.18,
+   22.0,
+   "Carlos",
+   "Oh, no! What's wrong?"
+  ],
+  [
+   23.4,
+   25.42,
+   "Kim",
+   "It hurts here. My ear."
+  ],
+  [
+   26.82,
+   28.25,
+   "Carlos",
+   "Do you need a doctor?"
+  ],
+  [
+   29.65,
+   31.88,
+   "Kim",
+   "Yes. I have an appointment on Friday."
+  ],
+  [
+   33.28,
+   35.14,
+   "Carlos",
+   "On Friday? What's the date?"
+  ],
+  [
+   36.54,
+   39.83,
+   "Kim",
+   "It's May twelfth, at nine thirty in the morning."
+  ],
+  [
+   41.23,
+   42.35,
+   "Carlos",
+   "Where is the clinic?"
+  ],
+  [
+   43.75,
+   46.47,
+   "Kim",
+   "It's on Pine Street, next to the bank."
+  ],
+  [
+   47.87,
+   49.05,
+   "Carlos",
+   "Can you drive there?"
+  ],
+  [
+   50.45,
+   56.33,
+   "Kim",
+   "No, I can't. I can't drive. But there's a bus stop near the clinic."
+  ],
+  [
+   57.73,
+   60.87,
+   "Carlos",
+   "OK. It's rainy today. Take your jacket!"
+  ],
+  [
+   62.27,
+   64.48,
+   "Kim",
+   "Thanks, Carlos. You're a good friend."
+  ],
+  [
+   65.88,
+   68.7,
+   "Carlos",
+   "Do you want juice? I have juice."
+  ],
+  [
+   70.1,
+   72.89,
+   "Kim",
+   "Yes, please. I like juice. Thank you!"
+  ]
+ ]
+}

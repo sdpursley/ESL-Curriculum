@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 1 Adult ESL Curriculum · Lesson 9 (Week 10): What's the Date?
 
-**Status:** Draft for review (expanded to match Lessons 5–7 depth). **Date:** October 2026
+**Status:** Complete lesson (all 13 Level 1 lessons are published). **Date:** October 2026
 
 **Companion files:** `audio/L1_L9_listening.mp3`, `images/` (see CREDITS.md)
 

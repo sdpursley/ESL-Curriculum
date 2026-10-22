@@ -1,0 +1,466 @@
+{
+ "file": "L1_Midterm_listening.mp3",
+ "duration_s": 83.2,
+ "wer": 0.0504,
+ "errors": 7,
+ "ref_words": 139,
+ "diffs": [
+  {
+   "op": "delete",
+   "ref": "listen",
+   "hyp": "",
+   "ctx": "talks to the receptionist listen hello welcome to riverside"
+  },
+  {
+   "op": "delete",
+   "ref": "tuesday and thursday at 630 great",
+   "hyp": "",
+   "ctx": "and thursday at 630 tuesday and thursday at 630 great and here's your book"
+  }
+ ],
+ "low_prob_words": [
+  [
+   "is",
+   15.21,
+   0.0
+  ],
+  [
+   "Lima.",
+   15.47,
+   0.0
+  ],
+  [
+   "How",
+   17.53,
+   0.06
+  ],
+  [
+   "name?",
+   18.47,
+   0.03
+  ],
+  [
+   "L",
+   21.11,
+   0.03
+  ],
+  [
+   "-I",
+   21.51,
+   0.03
+  ],
+  [
+   "-M",
+   21.91,
+   0.04
+  ],
+  [
+   "-A.",
+   21.93,
+   0.06
+  ],
+  [
+   "Thank",
+   23.17,
+   0.06
+  ],
+  [
+   "Where",
+   24.17,
+   0.02
+  ],
+  [
+   "are",
+   24.21,
+   0.01
+  ],
+  [
+   "you",
+   24.29,
+   0.11
+  ],
+  [
+   "I'm",
+   25.17,
+   0.15
+  ],
+  [
+   "from",
+   27.51,
+   0.01
+  ],
+  [
+   "Guatemala.",
+   27.51,
+   0.0
+  ],
+  [
+   "What's",
+   30.59,
+   0.15
+  ],
+  [
+   "your",
+   31.99,
+   0.0
+  ],
+  [
+   "phone",
+   32.27,
+   0.0
+  ],
+  [
+   "number?",
+   32.27,
+   0.0
+  ],
+  [
+   "It's",
+   32.27,
+   0.06
+  ],
+  [
+   "555",
+   32.27,
+   0.0
+  ],
+  [
+   "-0186.",
+   32.27,
+   0.0
+  ],
+  [
+   "Sorry,",
+   35.17,
+   0.27
+  ],
+  [
+   "You.",
+   50.23,
+   0.18
+  ],
+  [
+   "And",
+   65.76,
+   0.35
+  ],
+  [
+   "OK,",
+   70.0,
+   0.19
+  ],
+  [
+   "-",
+   72.9,
+   0.0
+  ]
+ ],
+ "lines_ok": "13/20",
+ "lines_with_flags": [
+  {
+   "t": 57.02,
+   "spk": "Receptionist",
+   "line": "OK. The English class is on Tuesday and Thursday, at six thirty.",
+   "ok": false,
+   "hyp": "",
+   "min_prob": 0,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 190.3
+  }
+ ],
+ "lines_not_exact": [
+  {
+   "t": 8.92,
+   "spk": "Receptionist",
+   "line": "Hello! Welcome to Riverside Adult School. What's your name?",
+   "ok": false,
+   "hyp": "hello welcome welcome to riverside adult school what's your name",
+   "min_prob": 0.0,
+   "flags": [],
+   "f0_med": 193.1
+  },
+  {
+   "t": 31.69,
+   "spk": "Marco",
+   "line": "It's 555-0186.",
+   "ok": false,
+   "hyp": "is 5550186",
+   "min_prob": 0.0,
+   "flags": [],
+   "f0_med": 130.0
+  },
+  {
+   "t": 35.36,
+   "spk": "Receptionist",
+   "line": "Sorry. Can you repeat, please?",
+   "ok": false,
+   "hyp": "so can you repeat please",
+   "min_prob": 0.23,
+   "flags": [],
+   "f0_med": 206.4
+  },
+  {
+   "t": 57.02,
+   "spk": "Receptionist",
+   "line": "OK. The English class is on Tuesday and Thursday, at six thirty.",
+   "ok": false,
+   "hyp": "",
+   "min_prob": 0,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 190.3
+  },
+  {
+   "t": 62.12,
+   "spk": "Marco",
+   "line": "Tuesday and Thursday, at six thirty. Great!",
+   "ok": false,
+   "hyp": "tuesday and thursday great",
+   "min_prob": 0.0,
+   "flags": [],
+   "f0_med": 137.3
+  },
+  {
+   "t": 70.28,
+   "spk": "Marco",
+   "line": "OK. Here's $20.",
+   "ok": false,
+   "hyp": "20 dollars",
+   "min_prob": 0.16,
+   "flags": [],
+   "f0_med": 113.8
+  },
+  {
+   "t": 78.22,
+   "spk": "Marco",
+   "line": "Thank you. Goodbye!",
+   "ok": false,
+   "hyp": "thank you good bye",
+   "min_prob": 0.56,
+   "flags": [],
+   "f0_med": 112.2
+  }
+ ],
+ "pitch_median_hz": {
+  "Receptionist": 191.9,
+  "Marco": 111.7,
+  "Narrator": 201.6
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.7,
+ "peak": 0.891,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.8,
+ "per_line": [
+  {
+   "t": 8.92,
+   "spk": "Receptionist",
+   "line": "Hello! Welcome to Riverside Adult School. What's your name?",
+   "ok": false,
+   "hyp": "hello welcome welcome to riverside adult school what's your name",
+   "min_prob": 0.0,
+   "flags": [],
+   "f0_med": 193.1
+  },
+  {
+   "t": 14.21,
+   "spk": "Marco",
+   "line": "Hi. My name is Marco Lima.",
+   "ok": true,
+   "hyp": "hi my name is marco lima",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 111.2
+  },
+  {
+   "t": 17.49,
+   "spk": "Receptionist",
+   "line": "How do you spell your last name?",
+   "ok": true,
+   "hyp": "how do you spell your last name",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 205.2
+  },
+  {
+   "t": 20.39,
+   "spk": "Marco",
+   "line": "L, I, M, A.",
+   "ok": true,
+   "hyp": "l i m a",
+   "min_prob": 0.22,
+   "flags": [],
+   "f0_med": 79.1
+  },
+  {
+   "t": 23.47,
+   "spk": "Receptionist",
+   "line": "Thank you. Where are you from, Marco?",
+   "ok": true,
+   "hyp": "thank you where are you from marco",
+   "min_prob": 0.81,
+   "flags": [],
+   "f0_med": 191.4
+  },
+  {
+   "t": 26.57,
+   "spk": "Marco",
+   "line": "I'm from Guatemala.",
+   "ok": true,
+   "hyp": "i'm from guatemala",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 106.2
+  },
+  {
+   "t": 29.14,
+   "spk": "Receptionist",
+   "line": "What's your phone number?",
+   "ok": true,
+   "hyp": "what's your phone number",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 180.2
+  },
+  {
+   "t": 31.69,
+   "spk": "Marco",
+   "line": "It's 555-0186.",
+   "ok": false,
+   "hyp": "is 5550186",
+   "min_prob": 0.0,
+   "flags": [],
+   "f0_med": 130.0
+  },
+  {
+   "t": 35.36,
+   "spk": "Receptionist",
+   "line": "Sorry. Can you repeat, please?",
+   "ok": false,
+   "hyp": "so can you repeat please",
+   "min_prob": 0.23,
+   "flags": [],
+   "f0_med": 206.4
+  },
+  {
+   "t": 38.95,
+   "spk": "Marco",
+   "line": "Sure. 555-0186.",
+   "ok": true,
+   "hyp": "sure 5550186",
+   "min_prob": 0.3,
+   "flags": [],
+   "f0_med": 112.5
+  },
+  {
+   "t": 42.97,
+   "spk": "Receptionist",
+   "line": "Thank you. What do you do?",
+   "ok": true,
+   "hyp": "thank you what do you do",
+   "min_prob": 0.24,
+   "flags": [],
+   "f0_med": 192.5
+  },
+  {
+   "t": 46.03,
+   "spk": "Marco",
+   "line": "I'm a cook. I work at a restaurant.",
+   "ok": true,
+   "hyp": "i'm a cook i work at a restaurant",
+   "min_prob": 0.7,
+   "flags": [],
+   "f0_med": 109.3
+  },
+  {
+   "t": 49.9,
+   "spk": "Receptionist",
+   "line": "Do you have kids?",
+   "ok": true,
+   "hyp": "do you have kids",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 171.5
+  },
+  {
+   "t": 52.51,
+   "spk": "Marco",
+   "line": "Yes, I do. I have two kids.",
+   "ok": true,
+   "hyp": "yes i do i have 2 kids",
+   "min_prob": 0.62,
+   "flags": [],
+   "f0_med": 103.8
+  },
+  {
+   "t": 57.02,
+   "spk": "Receptionist",
+   "line": "OK. The English class is on Tuesday and Thursday, at six thirty.",
+   "ok": false,
+   "hyp": "",
+   "min_prob": 0,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 190.3
+  },
+  {
+   "t": 62.12,
+   "spk": "Marco",
+   "line": "Tuesday and Thursday, at six thirty. Great!",
+   "ok": false,
+   "hyp": "tuesday and thursday great",
+   "min_prob": 0.0,
+   "flags": [],
+   "f0_med": 137.3
+  },
+  {
+   "t": 66.28,
+   "spk": "Receptionist",
+   "line": "And here's your book. It's $12.",
+   "ok": true,
+   "hyp": "and here's your book it's 12 dollars",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 205.8
+  },
+  {
+   "t": 70.28,
+   "spk": "Marco",
+   "line": "OK. Here's $20.",
+   "ok": false,
+   "hyp": "20 dollars",
+   "min_prob": 0.16,
+   "flags": [],
+   "f0_med": 113.8
+  },
+  {
+   "t": 73.39,
+   "spk": "Receptionist",
+   "line": "Thank you. Your change is $8. See you on Tuesday!",
+   "ok": true,
+   "hyp": "thank you your change is 8 dollars see you on tuesday",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 184.9
+  },
+  {
+   "t": 78.22,
+   "spk": "Marco",
+   "line": "Thank you. Goodbye!",
+   "ok": false,
+   "hyp": "thank you good bye",
+   "min_prob": 0.56,
+   "flags": [],
+   "f0_med": 112.2
+  }
+ ],
+ "hyp": "this is the midterm listening marco is at the adult school he talks to the receptionist hello welcome to riverside adult school what's your name hi my name is marco lima how do you spell your last name l i m a thank you where are you from marco i'm from guatemala what's your phone number it's 5550186 sorry can you repeat please sure 5550186 thank you what do you do i'm a cook i work at a restaurant do you have kids yes i do i have 2 kids ok the english class is on tuesday and thursday at 630 and here's your book it's 12 dollars ok here's 20 dollars thank you your change is 8 dollars see you on tuesday thank you goodbye that's the end of the listening"
+}

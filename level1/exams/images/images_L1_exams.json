@@ -1,0 +1,451 @@
+[
+ {
+  "file": "L1_EX_flag_mexico.png",
+  "word": "Mexico",
+  "twemoji": [
+   "1f1f2-1f1fd"
+  ],
+  "note": "flag of Mexico",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_flag_guatemala.png",
+  "word": "Guatemala",
+  "twemoji": [
+   "1f1ec-1f1f9"
+  ],
+  "note": "flag of Guatemala",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_flag_honduras.png",
+  "word": "Honduras",
+  "twemoji": [
+   "1f1ed-1f1f3"
+  ],
+  "note": "flag of Honduras",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_job_cook.png",
+  "word": "cook",
+  "twemoji": [
+   "1f9d1-200d-1f373",
+   "1f373"
+  ],
+  "note": "cook + frying pan",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_job_driver.png",
+  "word": "driver",
+  "twemoji": [
+   "1f9d1",
+   "1f69a"
+  ],
+  "note": "person + delivery truck",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_job_cashier.png",
+  "word": "cashier",
+  "twemoji": [
+   "1f9d1",
+   "1f6d2"
+  ],
+  "note": "person + shopping cart",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_kids_1.png",
+  "word": "1 child",
+  "twemoji": [
+   "1f9d2"
+  ],
+  "note": "one child",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_kids_2.png",
+  "word": "2 children",
+  "twemoji": [
+   "1f467",
+   "1f466"
+  ],
+  "note": "two children (girl + boy)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_kids_3.png",
+  "word": "3 children",
+  "twemoji": [
+   "1f467",
+   "1f466",
+   "1f9d2"
+  ],
+  "note": "three children",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_clock_600.png",
+  "word": "6:00",
+  "twemoji": [],
+  "note": "clock face showing 6:00 (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_EX_clock_630.png",
+  "word": "6:30",
+  "twemoji": [],
+  "note": "clock face showing 6:30 (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_EX_clock_730.png",
+  "word": "7:30",
+  "twemoji": [],
+  "note": "clock face showing 7:30 (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_EX_teacher.png",
+  "word": "teacher",
+  "twemoji": [
+   "1f9d1-200d-1f3eb"
+  ],
+  "note": "teacher at a board",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_phone_number.png",
+  "word": "phone number",
+  "twemoji": [
+   "1f4f1"
+  ],
+  "note": "mobile phone + practice number 555-0123",
+  "drawn": "number label"
+ },
+ {
+  "file": "L1_EX_daughter.png",
+  "word": "daughter",
+  "twemoji": [
+   "1f467",
+   "1f469",
+   "1f468"
+  ],
+  "note": "girl (big, blue circle) with her parents (small)",
+  "drawn": "blue circle"
+ },
+ {
+  "file": "L1_EX_nurse.png",
+  "word": "nurse",
+  "twemoji": [
+   "1f9d1-200d-2695-fe0f",
+   "1fa7a"
+  ],
+  "note": "health worker + stethoscope",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_morning.png",
+  "word": "morning",
+  "twemoji": [
+   "1f305"
+  ],
+  "note": "sunrise (morning)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_shoes.png",
+  "word": "shoes",
+  "twemoji": [
+   "1f45f"
+  ],
+  "note": "shoes",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_card_rosa.png",
+  "word": "practice ID card",
+  "twemoji": [
+   "1f469"
+  ],
+  "note": "practice ID card, invented person and address (card drawn) + woman",
+  "drawn": "card, text"
+ },
+ {
+  "file": "L1_EX_tag_shirt.png",
+  "word": "shirt $15",
+  "twemoji": [
+   "1f455"
+  ],
+  "note": "shirt + price tag $15",
+  "drawn": "price tag"
+ },
+ {
+  "file": "L1_EX_tag_jacket.png",
+  "word": "jacket $40",
+  "twemoji": [
+   "1f9e5"
+  ],
+  "note": "jacket + price tag $40",
+  "drawn": "price tag"
+ },
+ {
+  "file": "L1_EX_tag_shoes.png",
+  "word": "shoes $30",
+  "twemoji": [
+   "1f45f"
+  ],
+  "note": "shoes + price tag $30",
+  "drawn": "price tag"
+ },
+ {
+  "file": "L1_EX_tag_pants.png",
+  "word": "pants $20",
+  "twemoji": [
+   "1f456"
+  ],
+  "note": "pants + price tag $20",
+  "drawn": "price tag"
+ },
+ {
+  "file": "L1_EX_eye.png",
+  "word": "eye",
+  "twemoji": [
+   "1f441"
+  ],
+  "note": "eye",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_ear.png",
+  "word": "ear",
+  "twemoji": [
+   "1f442"
+  ],
+  "note": "ear",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_hand.png",
+  "word": "hand",
+  "twemoji": [
+   "270b"
+  ],
+  "note": "raised hand",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_clock_900.png",
+  "word": "9:00",
+  "twemoji": [],
+  "note": "clock face showing 9:00 (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_EX_clock_930.png",
+  "word": "9:30",
+  "twemoji": [],
+  "note": "clock face showing 9:30 (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_EX_clock_1030.png",
+  "word": "10:30",
+  "twemoji": [],
+  "note": "clock face showing 10:30 (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_EX_bank.png",
+  "word": "bank",
+  "twemoji": [
+   "1f3e6"
+  ],
+  "note": "bank",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_park.png",
+  "word": "park",
+  "twemoji": [
+   "1f333"
+  ],
+  "note": "two trees (park)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_school.png",
+  "word": "school",
+  "twemoji": [
+   "1f3eb"
+  ],
+  "note": "school",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_sunny.png",
+  "word": "sunny",
+  "twemoji": [
+   "2600"
+  ],
+  "note": "sun",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_rainy.png",
+  "word": "rainy",
+  "twemoji": [
+   "1f327"
+  ],
+  "note": "cloud with rain",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_hot.png",
+  "word": "hot",
+  "twemoji": [
+   "1f975"
+  ],
+  "note": "hot face",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_taco.png",
+  "word": "taco",
+  "twemoji": [
+   "1f32e"
+  ],
+  "note": "taco",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_juice.png",
+  "word": "juice",
+  "twemoji": [
+   "1f9c3"
+  ],
+  "note": "juice box",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_pizza.png",
+  "word": "pizza",
+  "twemoji": [
+   "1f355"
+  ],
+  "note": "pizza",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_drive.png",
+  "word": "drive",
+  "twemoji": [
+   "1f697"
+  ],
+  "note": "car (drive)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_fish.png",
+  "word": "fish",
+  "twemoji": [
+   "1f41f"
+  ],
+  "note": "fish",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_birthday.png",
+  "word": "birthday",
+  "twemoji": [
+   "1f382",
+   "1f388"
+  ],
+  "note": "cake + balloon",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_bed.png",
+  "word": "bed",
+  "twemoji": [
+   "1f6cf"
+  ],
+  "note": "bed",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_pharmacy.png",
+  "word": "pharmacy",
+  "twemoji": [
+   "1f3ea",
+   "1f48a"
+  ],
+  "note": "store building + pill (pharmacy)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_foot.png",
+  "word": "foot",
+  "twemoji": [
+   "1f9b6"
+  ],
+  "note": "foot",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_swim.png",
+  "word": "swim",
+  "twemoji": [
+   "1f3ca"
+  ],
+  "note": "swimmer",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_card_carlos.png",
+  "word": "practice information card",
+  "twemoji": [
+   "1f468"
+  ],
+  "note": "practice information card, invented person (card drawn) + man",
+  "drawn": "card, text"
+ },
+ {
+  "file": "L1_EX_skill_drive.png",
+  "word": "drive",
+  "twemoji": [
+   "1f697"
+  ],
+  "note": "car (drive)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_skill_cook.png",
+  "word": "cook",
+  "twemoji": [
+   "1f9d1-200d-1f373"
+  ],
+  "note": "cook",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_skill_clean.png",
+  "word": "clean",
+  "twemoji": [
+   "1f9f9"
+  ],
+  "note": "broom (clean)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_EX_skill_computer.png",
+  "word": "use a computer",
+  "twemoji": [
+   "1f5a5"
+  ],
+  "note": "desktop computer",
+  "drawn": "border only"
+ }
+]

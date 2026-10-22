@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 1 Adult ESL Curriculum · Lesson 3 (Week 3): My Phone Number and Address
 
-**Status:** Draft for review (all 13 Level 1 lessons are built).
+**Status:** Complete lesson (all 13 Level 1 lessons are published).
 
 **Date:** October 2026
 

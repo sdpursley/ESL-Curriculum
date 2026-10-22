@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 1 Adult ESL Curriculum · Lesson 8 (Week 9): Let's Eat!
 
-**Status:** Draft for review (expanded to match Lessons 5–7 depth).
+**Status:** Complete lesson (all 13 Level 1 lessons are published).
 
 **Date:** October 2026
 

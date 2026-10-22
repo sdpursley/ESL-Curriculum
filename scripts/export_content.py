@@ -88,7 +88,8 @@ LEVELS={
         routine_end='> **Timing is loose',
         credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
                 'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and ID cards, a name tag, forms, family-tree lines, '
-                'signs, clocks, price tags, receipts, play money, speech bubbles, letters, and labels were added.')),
+                'signs, clocks, price tags, receipts, play money, speech bubbles, letters, and labels were added.'),
+        exams=[('Midterm',8),('Final',15)]),   # level1/exams/: see level1/exams/build/build_all.sh
  3:dict(audio=lambda n:f'L3_L{n}_listening.mp3', audio_re=r'^L3_L\d+_listening\.mp3$',
         routine_end='> **Timing is loose',
         credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
@@ -124,6 +125,7 @@ def export_level(V):
         if os.path.exists(src): les.update(lesson_page(V,n,src,gv,size)); les['ready']=True
         lessons.append(les)
     out['lessons']=lessons
+    if cfg.get('exams'): out['exams']=[exam_entry(V,K,W,gv,size) for K,W in cfg['exams']]
     out['credit']=cfg['credit']
     out['creditHtml']=inlinev(out['credit'])
     missing=[f for f in sorted(gv['used_imgs']) if not os.path.exists(os.path.join(PV,'images',f))]
@@ -131,6 +133,34 @@ def export_level(V):
     json.dump(out,open(HERE+f'/src/content_level{V}.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
     print(f'Level {V}:',len(lessons),'lessons in the plan; built:',[l['n'] for l in lessons if l['ready']],
           '; audio',[l['n'] for l in lessons if l.get('audio')],'; downloads',{l['n']:[d['kind'] for d in l['downloads']] for l in lessons if l['ready']})
+
+def exam_entry(V,K,W,gv,size):
+    """One exam card (Level 1 Week 8 Midterm / Week 15 Final). Sources: level<V>/exams/ (Markdown, audio/);
+    the PDF/DOCX come from level<V>/exams/build/build_all.sh --publish (into public/level<V>/downloads/exams/).
+    The MP3 is copied here from level<V>/exams/audio/ into public/level<V>/audio/."""
+    X=os.path.join(HERE,f'level{V}','exams'); PV=os.path.join(pub,f'level{V}')
+    mp3=f'L{V}_{K}_listening.mp3'
+    if os.path.exists(os.path.join(X,'audio',mp3)): shutil.copy2(os.path.join(X,'audio',mp3),os.path.join(PV,'audio',mp3))
+    P=open(os.path.join(X,f'Level{V}_{K}_Exam_Teacher_Packet.md'),encoding='utf-8').read().split('\n')
+    title=re.match(r'# Level \d+ · Week \d+: (.+?): Teacher Packet',P[[i for i,l in enumerate(P) if l.startswith('# ')][0]]).group(1)
+    covers=re.match(r'\*\*.+? · (.+?)\*\*',[l for l in P if l.startswith('**') and ' · ' in l][0]).group(1)
+    i=P.index('### What the test has'); parts=[]
+    for l in P[i+1:]:
+        if l.startswith('|'):
+            c=[x.strip() for x in l.strip().strip('|').split('|')]
+            if c[0] not in ('Part','---'): parts.append(dict(part=gv['inline'](c[0]),what=gv['inline'](c[1]),points=gv['inline'](c[2]),time=gv['inline'](c[3])))
+        elif parts: break
+    note=[l for l in P[i+1:] if l.startswith('*Covers')]
+    cr=os.path.join(X,'audio',f'L{V}_{K}_check_results.json')
+    dur=json.load(open(cr))['duration_s'] if os.path.exists(cr) else 0
+    files=[]
+    for kind,rel,label in [('pdf',f'level{V}/downloads/exams/Level{V}_{K}_Exam_Teacher_Packet.pdf','Teacher packet (PDF): directions, script, answer key, speaking papers'),
+                           ('docx',f'level{V}/downloads/exams/Level{V}_{K}_Exam_Teacher_Packet.docx','Teacher packet (DOCX), for editing'),
+                           ('pdf',f'level{V}/downloads/exams/Level{V}_{K}_Student_Test.pdf','Student test (PDF), 1 per learner, no answers'),
+                           ('mp3',f'level{V}/audio/{mp3}','Listening audio (MP3)')]:
+        if size(rel): files.append(dict(kind=kind,href=rel,label=label,size=size(rel)))
+    return dict(key=K.lower(),week=W,title=title,covers=covers,parts=parts,noteHtml=gv['inline'](note[0].strip('*')) if note else '',
+                audio=f'level{V}/audio/{mp3}' if size(f'level{V}/audio/{mp3}') else '',audioSeconds=round(dur),downloads=files)
 
 def lesson_page(V,n,src,gv,size):
     """One Level 1 / Level 3 lesson page from Level<V>_Lesson<N>.md. Expected layout (see level1/curriculum/Level1_Lesson1.md):

@@ -13,7 +13,7 @@ from faster_whisper import WhisperModel
 SCRIPT, MP3, LOGF, OUT = sys.argv[1:5]
 spec = importlib.util.spec_from_file_location('S', SCRIPT); S = importlib.util.module_from_spec(spec); spec.loader.exec_module(S)
 SAME = getattr(S, 'SAME', {})
-m = WhisperModel('small.en', device='cpu', compute_type='int8')
+m = WhisperModel('small.en', device='cpu', compute_type='int8', cpu_threads=1)
 wav = tempfile.mktemp(suffix='.wav'); subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', MP3, '-ac', '1', '-ar', '16000', wav], check=True)
 a, sr = sf.read(wav, dtype='float32'); os.remove(wav)
 def tr(x):
