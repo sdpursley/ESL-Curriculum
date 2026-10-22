@@ -1,0 +1,25 @@
+{
+ "TITLE": "What Would You Do?",
+ "VOICES": {
+  "Narrator": "N",
+  "Mike": "Server",
+  "Grace": "Ana_af_jessica",
+  "Teresa": "Rosa"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Grace",
+  "Teresa"
+ ],
+ "NAMES": [
+  "Mike",
+  "Grace",
+  "Teresa"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 250,
+  "seconds": 111
+ }
+}

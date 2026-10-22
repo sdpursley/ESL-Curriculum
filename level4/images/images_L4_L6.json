@@ -1,0 +1,134 @@
+[
+ {
+  "file": "L4_L6_imagine.png",
+  "lesson": "Level4-L6",
+  "word": "imagine",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ad",
+   "1f9d1"
+  ],
+  "note": "a person and a thought bubble"
+ },
+ {
+  "file": "L4_L6_choose.png",
+  "lesson": "Level4-L6",
+  "word": "choose",
+  "kind": "vocab",
+  "twemoji": [
+   "1f34c",
+   "1f34e",
+   "1f914"
+  ],
+  "note": "an apple, a thinking face, and a banana"
+ },
+ {
+  "file": "L4_L6_honest.png",
+  "lesson": "Level4-L6",
+  "word": "honest",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1",
+   "2705"
+  ],
+  "note": "a person and a check mark [sign: HONEST]"
+ },
+ {
+  "file": "L4_L6_tell_the_truth.png",
+  "lesson": "Level4-L6",
+  "word": "tell the truth",
+  "kind": "vocab",
+  "twemoji": [
+   "1f5e3",
+   "2705"
+  ],
+  "note": "a person speaking and a check mark"
+ },
+ {
+  "file": "L4_L6_keep.png",
+  "lesson": "Level4-L6",
+  "word": "keep (it)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f45b",
+   "1f932"
+  ],
+  "note": "open hands and a wallet [sign: KEEP IT?]"
+ },
+ {
+  "file": "L4_L6_give_back.png",
+  "lesson": "Level4-L6",
+  "word": "give back",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b5",
+   "1f932"
+  ],
+  "note": "open hands and money [sign: GIVE IT BACK]"
+ },
+ {
+  "file": "L4_L6_owner.png",
+  "lesson": "Level4-L6",
+  "word": "owner",
+  "kind": "vocab",
+  "twemoji": [
+   "1f45c",
+   "1f9d1"
+  ],
+  "note": "a person and a handbag [sign: OWNER]"
+ },
+ {
+  "file": "L4_L6_envelope.png",
+  "lesson": "Level4-L6",
+  "word": "envelope",
+  "kind": "vocab",
+  "twemoji": [
+   "2709"
+  ],
+  "note": "an envelope"
+ },
+ {
+  "file": "L4_L6_extra_money.png",
+  "lesson": "Level4-L6",
+  "word": "extra money",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b5",
+   "2795"
+  ],
+  "note": "money and a plus sign [sign: + $10]"
+ },
+ {
+  "file": "L4_L6_mistake.png",
+  "lesson": "Level4-L6",
+  "word": "mistake",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9fe",
+   "274c"
+  ],
+  "note": "a receipt and an X [sign: MISTAKE]"
+ },
+ {
+  "file": "L4_L6_magic_wand.png",
+  "lesson": "Level4-L6",
+  "word": "magic wand",
+  "kind": "vocab",
+  "twemoji": [
+   "1fa84",
+   "2728"
+  ],
+  "note": "a magic wand and sparkles"
+ },
+ {
+  "file": "L4_L6_dream_job.png",
+  "lesson": "Level4-L6",
+  "word": "dream job",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ad",
+   "1f9d1-200d-1f373"
+  ],
+  "note": "a thought bubble and a cook [sign: DREAM JOB]"
+ }
+]

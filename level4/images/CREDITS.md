@@ -2,7 +2,7 @@
 
 **Status:** Draft for review; not published.
 
-**48 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
+**72 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
 `tools/l4img.py` (copied from the Level 3 `l3img.py`; same card style as Levels 1-3). Vocabulary cards are 600×420.
 
 ## Sources and licenses
@@ -94,5 +94,43 @@ No photos or stock-site images are used.
 | L4_L4_flu_shot.png | flu shot | a syringe [sign: FLU SHOT] | [1f489](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f489.svg) |
 | L4_L4_prescription.png | prescription | pills and a paper [sign: Rx] | [1f48a](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f48a.svg), [1f4c4](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c4.svg) |
 | L4_L4_copay.png | copay | a card and money [sign: COPAY $20] | [1f4b3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4b3.svg), [1f4b5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4b5.svg) |
+
+### Lesson 5
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L5.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L5_favor.png | favor | a person raising a hand and a handshake [sign: A FAVOR?] | [1f64b](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f64b.svg), [1f91d](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f91d.svg) |
+| L4_L5_borrow.png | borrow | a ladder [sign: BORROW] | [1fa9c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1fa9c.svg) |
+| L4_L5_water_the_plants.png | water the plants | a plant and a drop of water | [1f4a7](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4a7.svg), [1fab4](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1fab4.svg) |
+| L4_L5_feed_the_cat.png | feed the cat | a cat and a bowl | [1f408](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f408.svg), [1f963](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f963.svg) |
+| L4_L5_get_the_mail.png | get the mail | a mailbox and a letter | [1f4ec](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4ec.svg), [2709](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2709.svg) |
+| L4_L5_spare_key.png | spare key | two keys [sign: SPARE] | [1f511](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f511.svg) |
+| L4_L5_package.png | package | a package | [1f4e6](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4e6.svg) |
+| L4_L5_switch_shifts.png | switch shifts | a calendar and arrows [sign: SAT → SUN] | [1f4c5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c5.svg), [1f504](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f504.svg) |
+| L4_L5_cover_a_shift.png | cover a shift | a person raising a hand and a clock [sign: COVER: SAT] | [1f550](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f550.svg), [1f64b](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f64b.svg) |
+| L4_L5_be_away.png | be away | a suitcase and a plane | [1f9f3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9f3.svg), [2708](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2708.svg) |
+| L4_L5_owe.png | owe (someone) | a handshake [sign: I OWE YOU ONE] | [1f91d](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f91d.svg) |
+| L4_L5_thank_you_note.png | thank-you note | a note and flowers [sign: THANK YOU!] | [1f490](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f490.svg), [1f4dd](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4dd.svg) |
+
+### Lesson 6
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L6.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L6_imagine.png | imagine | a person and a thought bubble | [1f4ad](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4ad.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
+| L4_L6_choose.png | choose | an apple, a thinking face, and a banana | [1f34c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f34c.svg), [1f34e](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f34e.svg), [1f914](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f914.svg) |
+| L4_L6_honest.png | honest | a person and a check mark [sign: HONEST] | [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L4_L6_tell_the_truth.png | tell the truth | a person speaking and a check mark | [1f5e3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f5e3.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L4_L6_keep.png | keep (it) | open hands and a wallet [sign: KEEP IT?] | [1f45b](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f45b.svg), [1f932](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f932.svg) |
+| L4_L6_give_back.png | give back | open hands and money [sign: GIVE IT BACK] | [1f4b5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4b5.svg), [1f932](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f932.svg) |
+| L4_L6_owner.png | owner | a person and a handbag [sign: OWNER] | [1f45c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f45c.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
+| L4_L6_envelope.png | envelope | an envelope | [2709](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2709.svg) |
+| L4_L6_extra_money.png | extra money | money and a plus sign [sign: + $10] | [1f4b5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4b5.svg), [2795](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2795.svg) |
+| L4_L6_mistake.png | mistake | a receipt and an X [sign: MISTAKE] | [1f9fe](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9fe.svg), [274c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/274c.svg) |
+| L4_L6_magic_wand.png | magic wand | a magic wand and sparkles | [1fa84](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1fa84.svg), [2728](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2728.svg) |
+| L4_L6_dream_job.png | dream job | a thought bubble and a cook [sign: DREAM JOB] | [1f4ad](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4ad.svg), [1f9d1-200d-1f373](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1-200d-1f373.svg) |
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0.
