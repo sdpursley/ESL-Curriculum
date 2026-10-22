@@ -2,7 +2,7 @@
 
 Source for the public website of the free **Adult ESL Curriculum**. The home page lets visitors choose a level:
 
-- **Level 1** (beginner): 13 lessons planned over 16 weeks. **all 13 lessons (1–13) are published**.
+- **Level 1** (beginner): 13 lessons planned over 16 weeks. **all 13 lessons (1–13) are published**, plus the Week 8 midterm and Week 15 final exams.
 - **Level 2** (high beginner): 13 lessons plus midterm and final exams.
 - **Level 3** (low intermediate): 13 lessons planned over 16 weeks. **Lesson 1 is published**; Lessons 2–13 are listed as "coming soon".
 
@@ -33,6 +33,7 @@ Live site: https://sdpursley.github.io/ESL-Curriculum/
 | `#/level1/lesson/:n` | Level 1 lesson *n* (`#/level1/lesson/:n/:tab`, tab = `student`, `teacher` or `downloads`) |
 | `#/level1/downloads` | Level 1 downloads |
 | `#/level1/present/:n` | Full-screen slide presenter for Level 1 lesson *n* |
+| `#/level1/exams` | Level 1 Week 8 midterm and Week 15 final (teacher packet, student test, listening audio); `#/level1/exams#midterm`, `#/level1/exams#final` jump to one exam |
 | **Level 3** | |
 | `#/level3` | Level 3 overview (lesson list with "coming soon" lessons, semester plan, class routine) |
 | `#/level3/lessons` | Level 3 lesson list |
@@ -61,10 +62,11 @@ Unknown routes redirect to `#/` (unknown `#/level1/...` routes to `#/level1`, un
 - **Image sizes**: `src/sizes.json` (picture dimensions used for layout)
 - **Static files** (copied as-is into the build): `public/images/` (vocabulary pictures, `CREDITS.md`),
   `public/audio/` (listening MP3s), `public/downloads/` (slides, exams, curriculum DOCX/PDF), `public/.nojekyll`
-- **Level 1 static files**: `public/level1/` (`images/`, `audio/`, `downloads/` incl. `slides/`), copied from the Level 1 sources in `level1/` by the scripts
+- **Level 1 static files**: `public/level1/` (`images/`, `audio/`, `downloads/` incl. `slides/` and `exams/`), copied from the Level 1 sources in `level1/` by the scripts
 - **Level 3 static files**: `public/level3/` (same layout), copied from the Level 3 sources in `level3/` by the scripts
 - **Curriculum source**: `curriculum/Level2_Curriculum_v5_public.md`, built into PDF/DOCX and exam packets by `curriculum/build.sh`;
-  Level 1: `level1/` (`curriculum/` lesson Markdown + scope and sequence + `build.sh`, `images/`, `audio/`, `slides/`); Level 3: `level3/` (same layout)
+  Level 1: `level1/` (`curriculum/` lesson Markdown + scope and sequence + `build.sh`, `images/`, `audio/`, `slides/`,
+  `exams/` = midterm and final sources, pictures, audio and build scripts, built by `level1/exams/build/build_all.sh`); Level 3: `level3/` (same layout)
 - **Generation tools**: `tools/audio/` (Chatterbox TTS audio pipeline, voice reference clips, ASR checks) and `tools/images/`
   (vocabulary picture generators). They are not part of the site build; see MAINTAINING.md.
 - `EXAMS_PAGE_PLAN.md`: design notes for the exams page
@@ -72,9 +74,12 @@ Unknown routes redirect to `#/` (unknown `#/level1/...` routes to `#/level1`, un
 
 ## Maintaining everything else
 
+**[AGENTS.md](AGENTS.md)** is the exact handoff guide (layout, content rules, voices, audio checks, step-by-step for a new
+lesson or exam, repository rules) for another AI coding tool or a person continuing the work.
+
 **See [MAINTAINING.md](MAINTAINING.md)** for step-by-step instructions on editing lessons and rebuilding the curriculum
 PDF/DOCX and exams (`curriculum/`), updating the slide decks, vocabulary pictures (`tools/images/`), and listening audio
-(`tools/audio/`, Chatterbox TTS). **Level 1** (rebuilding, swapping the audio, Lessons 1–13) is section 8 of MAINTAINING.md; **Level 3** is section 9. Python requirements: `tools/requirements-docs.txt`, `tools/images/requirements.txt`,
+(`tools/audio/`, Chatterbox TTS). **Level 1** (rebuilding, swapping the audio, Lessons 1–13, exams) is section 8 of MAINTAINING.md; **Level 3** is section 9. Python requirements: `tools/requirements-docs.txt`, `tools/images/requirements.txt`,
 `tools/audio/requirements.txt`. System programs: LibreOffice (PDFs), ffmpeg (audio), Cairo and DejaVu fonts (pictures).
 
 ## Local development
@@ -97,7 +102,7 @@ not committed.
 © 2026 the authors. The lesson text, teacher plans, workbook pages, original drawings and audio files are licensed under
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Third-party parts keep their own licenses:
 
-- Vocabulary pictures are modified [Twemoji](https://github.com/twitter/twemoji) graphics, CC BY 4.0 (details in `public/images/CREDITS.md` and `level1/images/CREDITS.md` (one section per lesson), `level3/images/CREDITS.md`)
+- Vocabulary pictures are modified [Twemoji](https://github.com/twitter/twemoji) graphics, CC BY 4.0 (details in `public/images/CREDITS.md` and `level1/images/CREDITS.md` (one section per lesson), `level1/exams/images/CREDITS.md` (Level 1 exams), `level3/images/CREDITS.md`)
 - Lexend Deca font, SIL Open Font License 1.1
 - Audio made with Chatterbox TTS by Resemble AI (MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache 2.0); no recordings of real people; the files carry an inaudible Perth watermark
 

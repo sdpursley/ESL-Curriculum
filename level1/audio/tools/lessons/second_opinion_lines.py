@@ -10,7 +10,7 @@ spec = importlib.util.spec_from_file_location('S', sys.argv[1]); S = importlib.u
 SAME = getattr(S, 'SAME', {}); LT = json.load(open(sys.argv[3]))['line_times']
 x, sr = librosa.load(sys.argv[2], sr=16000)
 segs = [(0.0, LT[0][0] - 0.5, 'Narrator', S.INTRO if isinstance(S.INTRO, str) else ' '.join(S.INTRO))] + [tuple(l) for l in LT] + [(LT[-1][1] + 0.5, len(x)/sr, 'Narrator', S.END)]
-M = WhisperModel('medium.en', device='cpu', compute_type='int8'); err = tot = 0; bad = []
+M = WhisperModel('medium.en', device='cpu', compute_type='int8', cpu_threads=1); err = tot = 0; bad = []
 for a, b, spk, line in segs:
     clip = np.concatenate([np.zeros(int(0.6*sr), np.float32), x[max(0, int((a-0.3)*sr)):int((b+0.3)*sr)], np.zeros(int(0.6*sr), np.float32)])
     h = canon(' '.join(s.text for s in M.transcribe(clip, beam_size=5, language='en', condition_on_previous_text=False)[0]), SAME)

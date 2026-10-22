@@ -9,6 +9,7 @@ TENS = {'20', '30', '40', '50', '60', '70', '80', '90'}
 def canon(s, same=None):
     same = same or {}
     s = s.lower().replace('’', "'")
+    s = re.sub(r'\bmid[- ]term\b', 'midterm', s)   # exams: Whisper may write 'mid term'
     s = re.sub(r"\$(\d+)(?:\.00)?\b", r"\1 dollars", s)               # $12 -> 12 dollars (same as "twelve dollars")
     s = re.sub(r"\b(\d{1,2}):00\b", r"\1 o'clock", s)                # 7:00 -> 7 o'clock
     s = re.sub(r"\b(\d{1,2}):(\d\d)\b", r"\1 \2", s)                 # 6:30 -> 6 30 (same as "six thirty")

@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 1 Adult ESL Curriculum · Lesson 7 (Week 7): How Much Is It?
 
-**Status:** Draft for review (all 13 Level 1 lessons are built).
+**Status:** Complete lesson (all 13 Level 1 lessons are published).
 
 **Date:** October 2026
 

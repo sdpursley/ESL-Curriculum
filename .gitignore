@@ -44,3 +44,8 @@ level1/audio/tools/lessons/cache/
 level1/audio/tools/lessons/out/
 level1/images/tools/lib/_twemoji_src/
 level1/images/CREDITS_*.new.md
+
+# Level 1 exams build output (DOCX/PDF go to public/level1/downloads/exams/ with --publish)
+level1/exams/build/out/
+level1/exams/build/consistency_report.txt
+level1/exams/build/audio/out/

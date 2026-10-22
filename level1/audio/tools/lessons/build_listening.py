@@ -23,7 +23,7 @@ def ref(spk): return ref_path(S.VOICES[spk])
 EXCLUDE = json.loads(os.environ.get('EXCLUDE', '{}'))        # {"sentence": [seed, ...]} takes rejected by listening / whole-file check
 SAME = getattr(S, 'SAME', {})                                 # same-sound spellings Whisper may use (e.g. anna -> ana)
 from faster_whisper import WhisperModel
-ASR = WhisperModel('small.en', device='cpu', compute_type='int8')
+ASR = WhisperModel('small.en', device='cpu', compute_type='int8', cpu_threads=1)   # 1 thread: multi-threaded int8 gives different text from run to run under load
 def asr(a):
     x = np.concatenate([P.sil(.3), a, P.sil(.3)])
     x16 = np.interp(np.linspace(0, len(x), int(len(x)*16000/P.SR), endpoint=False), np.arange(len(x)), x).astype(np.float32)
@@ -114,7 +114,7 @@ subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', STEM + '_prelimit.wa
                 '-ar', str(P.SR), '-c:a', 'pcm_f32le', STEM + '.wav'], check=True)
 os.remove(STEM + '_prelimit.wav'); audio, _ = sf.read(STEM + '.wav', dtype='float32')
 subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', STEM + '.wav', '-ac', '1', '-b:a', '96k',
-                '-metadata', f'title=Level 1 Lesson {S.LESSON} Listening', '-metadata',
+                '-metadata', 'title=' + getattr(S, 'TITLE', f'Level 1 Lesson {S.LESSON} Listening'), '-metadata',
                 'comment=Synthetic voices (Chatterbox TTS, Resemble AI, MIT License, cloned from Kokoro-82M clips; contains an inaudible Perth watermark). Script CC BY-NC-SA 4.0.',
                 STEM + '.mp3'], check=True)
 json.dump(dict(settings=dict(exag=EX, cfg=CF, pause_between_speakers=PAUSE_SPK, pause_same_speaker=PAUSE_SAME, pause_between_sentences=PAUSE_SENT,

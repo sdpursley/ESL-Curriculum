@@ -1,11 +1,13 @@
 // Level 1 pages: overview, lesson list, lesson page (Student / Teacher / Downloads tabs), downloads.
 // Lesson text comes from src/content_level1.json (scripts/export_content.py); page wording lives here.
-import { Link, Navigate, useParams } from 'react-router-dom'
+import { Link, Navigate, useLocation, useParams } from 'react-router-dom'
+import { useEffect } from 'react'
 import * as Tabs from '@radix-ui/react-tabs'
 import { ArrowLeft, ArrowRight, BookOpen, CalendarDays, Clock, Download, FileAudio, FileText, Headphones, MonitorPlay,
-  Presentation, Printer, Users, Star, MessageSquareText, NotebookPen, Info, MessagesSquare, CheckSquare, Type, Footprints, Hourglass } from 'lucide-react'
+  Presentation, Printer, Users, Star, MessageSquareText, NotebookPen, Info, MessagesSquare, CheckSquare, Type, Footprints, Hourglass,
+  ClipboardCheck, PartyPopper, AlertTriangle } from 'lucide-react'
 import type { ReactNode } from 'react'
-import { level1, readyLessons, L1Lesson, L1Section } from './content_level1'
+import { level1, readyLessons, L1Lesson, L1Section, L1Exam } from './content_level1'
 import { mb } from './content'
 import { Card, Html, SectionTitle, DlRow, WordCards } from './ui'
 import { level1PresentHref } from './config'
@@ -34,6 +36,7 @@ export function Level1Home() {
       <div className="mt-3 flex flex-row flex-wrap gap-2">
         {firstReady && <Link to={lessonHref(firstReady.n)} className="btn whitespace-nowrap bg-blue-600 !gap-1.5 !px-3 !py-2 !text-sm text-white sm:!px-4 sm:!text-base hover:bg-blue-700">Start Lesson {firstReady.n} <ArrowRight size={18} aria-hidden="true" /></Link>}
         <Link to="/level1/downloads" className="btn whitespace-nowrap border border-slate-300 bg-white !gap-1.5 !px-3 !py-2 !text-sm text-slate-700 sm:!px-4 sm:!text-base hover:bg-slate-50"><Download size={18} aria-hidden="true" /> Downloads</Link>
+        {exams.length > 0 && <Link to="/level1/exams" className="btn whitespace-nowrap border border-slate-300 bg-white !gap-1.5 !px-3 !py-2 !text-sm text-slate-700 sm:!px-4 sm:!text-base hover:bg-slate-50"><ClipboardCheck size={18} aria-hidden="true" /> Exams</Link>}
       </div>
     </section>
     <SectionTitle icon={<BookOpen size={20} />}>Lessons</SectionTitle>
@@ -57,13 +60,19 @@ export function Level1Home() {
   </>)
 }
 
+const exams: L1Exam[] = level1.exams ?? []
+const examOf = (week: number) => exams.find(e => e.week === week)
 function Milestone({ week, title, note }: { week: number; title: string; note: string }) {
-  return (
-    <div className="rounded-2xl border border-dashed border-violet-200 bg-violet-50/50 p-5">
+  const exam = examOf(week)
+  const body = (<>
       <div className="text-sm font-semibold uppercase tracking-wide text-violet-700">Week {week}</div>
       <div className="mt-1 text-xl font-bold text-slate-800">{title === 'Graduation' ? '🎓 ' : '📝 '}{title}</div>
       <div className="mt-2 text-slate-600">{note}</div>
-    </div>)
+      {exam && <div className="mt-3 inline-flex items-center gap-1 font-semibold text-violet-800">Teacher packet, student test, and audio <ArrowRight size={16} aria-hidden="true" /></div>}
+    </>)
+  return exam
+    ? <Link to={`/level1/exams#${exam.key}`} data-exam={exam.key} className="block rounded-2xl border border-dashed border-violet-300 bg-violet-50/50 p-5 transition hover:border-violet-500 hover:bg-violet-50">{body}</Link>
+    : <div className="rounded-2xl border border-dashed border-violet-200 bg-violet-50/50 p-5">{body}</div>
 }
 
 const SoonBadge = () => <span className="inline-flex items-center gap-1 rounded-full bg-white px-3 py-1 text-sm font-semibold text-violet-800 ring-1 ring-violet-200"><Hourglass size={14} aria-hidden="true" /> Coming soon</span>
@@ -219,7 +228,70 @@ export function Level1DownloadsPage() {
       <div className="mt-4"><PresentButtons lesson={l} /></div>
     </section>))}
     {soon.length > 0 && <p className="mt-8 text-lg text-slate-700"><strong>Lessons {soon[0].n}–{soon[soon.length - 1].n}:</strong> coming soon.</p>}
+    {exams.length > 0 && (<section>
+      <SectionTitle icon={<ClipboardCheck size={20} />}>Exams: Week 8 Midterm and Week 15 Final</SectionTitle>
+      <p className="mb-4 text-lg text-slate-700">Teacher packets (with answer keys), student tests to print, and the listening audio. <Link className="link font-semibold" to="/level1/exams">Go to the Level 1 exams page →</Link></p>
+      {exams.map(e => <ExamDownloads key={e.key} exam={e} />)}
+    </section>)}
     <SectionTitle icon={<Printer size={20} />}>Print a lesson</SectionTitle>
     <p className="text-lg text-slate-700">Open a lesson, choose the Student or Teacher tab, and press <strong>Print this tab</strong>. Menus and audio players are hidden on paper.</p>
   </>)
+}
+
+const mmss = (s: number) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`
+const examTitle = (e: L1Exam) => `Week ${e.week}: ${e.title}`
+function ExamDownloads({ exam }: { exam: L1Exam }) {
+  return (<div className="mb-3 grid gap-3 md:grid-cols-2">
+    {exam.downloads.map(d => <DlRow key={d.href} href={d.href} icon={KIND_ICON[d.kind]} title={`${exam.title}: ${d.label}`} meta={`${d.kind.toUpperCase()} · ${mb(d.size)}`} />)}
+  </div>)
+}
+
+/** #/level1/exams (#midterm, #final): Week 8 Midterm and Week 15 Final from src/content_level1.json "exams". */
+export function Level1ExamsPage() {
+  const loc = useLocation()
+  useEffect(() => {
+    if (!loc.hash) return
+    const t = window.setTimeout(() => document.getElementById(loc.hash.slice(1))?.scrollIntoView({ behavior: 'smooth' }), 50)
+    return () => window.clearTimeout(t)
+  }, [loc.hash])
+  const grad = level1.milestones.find(m => m.week === 16)
+  return (<div className="max-w-4xl">
+    <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">Level 1 exams</h1>
+    <p className="mt-2 text-lg text-slate-700">{exams.map(e => `${examTitle(e)} (${e.covers})`).join(' and ')}. For teachers. Each test is one class: listening, words, grammar, and a form (45 minutes), plus a short speaking interview in pairs. Print the student tests separately.</p>
+    {exams.map(e => (
+      <section key={e.key} id={e.key} className="scroll-mt-24">
+        <SectionTitle icon={<ClipboardCheck size={20} />}>{examTitle(e)}</SectionTitle>
+        <Card>
+          <p className="mb-3 text-lg text-slate-700">The teacher packet has step-by-step directions, a clock-time plan, the listening script, the speaking interview card, rubric, task cards and score sheet, the can-do self-check, and the answer key.</p>
+          <div className="mb-4 overflow-x-auto">
+            <table className="w-full text-left text-slate-700">
+              <thead><tr className="border-b border-slate-200 text-sm uppercase tracking-wide text-slate-500"><th className="py-2 pr-3">Part</th><th className="py-2 pr-3">What learners do</th><th className="py-2 pr-3">Points</th><th className="py-2">Time</th></tr></thead>
+              <tbody>{e.parts.map((p, i) => <tr key={i} className="border-b border-slate-100 align-top">
+                <td className="py-2 pr-3" dangerouslySetInnerHTML={{ __html: p.part }} /><td className="py-2 pr-3" dangerouslySetInnerHTML={{ __html: p.what }} />
+                <td className="py-2 pr-3" dangerouslySetInnerHTML={{ __html: p.points }} /><td className="py-2" dangerouslySetInnerHTML={{ __html: p.time }} /></tr>)}</tbody>
+            </table>
+          </div>
+          {e.noteHtml && <p className="mb-4 text-slate-600" dangerouslySetInnerHTML={{ __html: e.noteHtml }} />}
+          <ExamDownloads exam={e} />
+          {e.audio
+            ? <div className="audio-box my-4 rounded-2xl bg-blue-50 p-4 ring-1 ring-blue-100">
+                <div className="mb-2 flex items-center gap-2 font-semibold text-blue-900"><Headphones size={20} aria-hidden="true" /> {e.title} listening audio{e.audioSeconds ? ` (about ${mmss(e.audioSeconds)})` : ''}</div>
+                <audio controls preload="none" src={e.audio} className="no-print w-full">Your browser cannot play audio.</audio>
+                <p className="mt-2 text-sm text-slate-600">The conversation is in the file once. Press play again for each listen.</p>
+              </div>
+            : <div className="mt-4 flex items-start gap-3 rounded-2xl bg-amber-50 p-4 text-amber-950 ring-1 ring-amber-200">
+                <Headphones size={20} className="mt-0.5 shrink-0" aria-hidden="true" />
+                <p><strong>Listening audio coming soon:</strong> read the script aloud. The script is in the teacher packet.</p>
+              </div>}
+        </Card>
+      </section>))}
+    {grad && (<>
+      <SectionTitle icon={<PartyPopper size={20} />}>Week 16: {grad.title}</SectionTitle>
+      <Card><p className="text-lg text-slate-700">Week 16 is graduation: {grad.note ? grad.note.replace(/;\s*/g, ', ') : 'certificates'}. No new content and no downloads.</p></Card>
+    </>)}
+    <div className="mt-8 flex items-start gap-3 rounded-2xl border-l-4 border-amber-400 bg-amber-50 p-5 text-lg text-amber-950">
+      <AlertTriangle size={22} className="mt-1 shrink-0" aria-hidden="true" />
+      <p>Keep teacher packets away from learners (they contain answer keys). The student tests have no answers.</p>
+    </div>
+  </div>)
 }

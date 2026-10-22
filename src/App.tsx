@@ -7,7 +7,7 @@ import { BookOpen, CalendarDays, Clock, Download, FileText, GraduationCap, Headp
 import { content, sizes, mb, Lesson } from './content'
 import { Card, Html, Badge, SectionTitle, DlRow, WordCards } from './ui'
 import { level1 } from './content_level1'
-import { Level1Home, Level1LessonsPage, Level1LessonPage, Level1DownloadsPage } from './level1'
+import { Level1Home, Level1LessonsPage, Level1LessonPage, Level1DownloadsPage, Level1ExamsPage } from './level1'
 import { level3 } from './content_level3'
 import { Level3Home, Level3LessonsPage, Level3LessonPage, Level3DownloadsPage } from './level3'
 import { SLIDES_AVAILABLE, slidePath, presentHref, examPath, LICENSE_URL, DISCLAIMER } from './config'
@@ -25,7 +25,8 @@ const NAV: Record<Ctx, { to: string; label: string; icon: typeof Home; match?: (
   0: [{ to: '/', label: 'Home', icon: Home }],
   1: [{ to: '/level1', label: 'Level 1 home', icon: Home },
       { to: '/level1/lessons', label: 'Lessons', icon: BookOpen, match: p => p.startsWith('/level1/lesson') },
-      { to: '/level1/downloads', label: 'Downloads', icon: Download }],
+      { to: '/level1/downloads', label: 'Downloads', icon: Download },
+      { to: '/level1/exams', label: 'Exams', icon: ClipboardCheck }],
   2: [{ to: '/level2', label: 'Level 2 home', icon: Home },
       { to: '/lessons', label: 'Lessons', icon: BookOpen, match: p => p.startsWith('/lesson') },
       { to: '/downloads', label: 'Downloads', icon: Download },
@@ -311,11 +312,12 @@ function AboutPage() {
     <p className="text-lg text-slate-700">© 2026 the authors. The authors license the lesson text, teacher plans, workbook pages, original drawings (calendars, clock, timeline, phone frame, arrows, lines, labels), and audio files under <a className="link" href={LICENSE_URL}>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>. You may share and adapt them for noncommercial purposes, with credit, and you must share adaptations under the same license. Program names and logos are not covered by this license. Third-party parts listed below keep their own licenses.</p>
     <SectionTitle icon={<Star size={20} />}>Picture credits</SectionTitle>
     <blockquote className="rounded-r-2xl border-l-4 border-blue-500 bg-blue-50 p-5 text-lg text-slate-800"><p className="mb-1 font-semibold">Level 2</p><p dangerouslySetInnerHTML={{ __html: content.creditHtml }} /></blockquote>
-    <blockquote className="mt-3 rounded-r-2xl border-l-4 border-violet-400 bg-violet-50 p-5 text-lg text-slate-800"><p className="mb-1 font-semibold">Level 1</p><p dangerouslySetInnerHTML={{ __html: level1.creditHtml }} /></blockquote>
+    <blockquote className="mt-3 rounded-r-2xl border-l-4 border-violet-400 bg-violet-50 p-5 text-lg text-slate-800"><p className="mb-1 font-semibold">Level 1</p><p dangerouslySetInnerHTML={{ __html: level1.creditHtml }} />
+      <p className="mt-2">The Level 1 Week 8 Midterm and Week 15 Final Exam pictures also use Twemoji graphics (CC BY 4.0), resized and combined, with added clock faces, price tags, practice cards, and labels (see level1/exams/images/CREDITS.md in the source files).</p></blockquote>
     <blockquote className="mt-3 rounded-r-2xl border-l-4 border-emerald-400 bg-emerald-50 p-5 text-lg text-slate-800"><p className="mb-1 font-semibold">Level 3</p><p dangerouslySetInnerHTML={{ __html: level3.creditHtml }} /></blockquote>
     <p className="mt-4 text-lg text-slate-700">The vocabulary pictures are modified versions of the original Twemoji graphics: the SVGs were rendered to PNG, resized, and combined with other emoji on a white card with a border, and some cards have added arrows, lines, calendars, clocks, ID cards, a name tag, forms, family-tree lines, speech bubbles, signs, letter tiles, or text labels. The Twemoji parts remain under CC BY 4.0. Text labels use the DejaVu Sans font (free font license). No photos or stock images are used.</p>
     <SectionTitle icon={<Headphones size={20} />}>Audio</SectionTitle>
-    <p className="text-lg text-slate-700">The listening audio was made with the free Chatterbox text-to-speech model by Resemble AI (MIT License). The voices are synthetic, not real people, and each file carries an inaudible Perth watermark that marks it as AI-generated. Chatterbox copied each voice from a short reference clip, and every reference clip was made with the Kokoro-82M text-to-speech model (Apache 2.0). No recordings of real people were used. This is true for all three levels: in Level 1, the narrator, Ana, Carlos, Rosa, Marco, Kim, the receptionist, the cashier, the server, the rental agent, the 911 operator, the manager, and the phone message are synthetic voices cloned from Kokoro-82M reference clips; in Level 3, the narrator, Elena, and David are synthetic voices cloned from Kokoro-82M reference clips.</p>
+    <p className="text-lg text-slate-700">The listening audio was made with the free Chatterbox text-to-speech model by Resemble AI (MIT License). The voices are synthetic, not real people, and each file carries an inaudible Perth watermark that marks it as AI-generated. Chatterbox copied each voice from a short reference clip, and every reference clip was made with the Kokoro-82M text-to-speech model (Apache 2.0). No recordings of real people were used. This is true for all three levels: in Level 1, the narrator, Ana, Carlos, Rosa, Marco, Kim, the receptionist, the cashier, the server, the rental agent, the 911 operator, the manager, and the phone message are synthetic voices cloned from Kokoro-82M reference clips, and the Week 8 Midterm and Week 15 Final Exam listening files use the same synthetic narrator, receptionist, Marco, Kim, and Carlos voices; in Level 3, the narrator, Elena, and David are synthetic voices cloned from Kokoro-82M reference clips.</p>
     <SectionTitle icon={<Presentation size={20} />}>Fonts</SectionTitle>
     <p className="text-lg text-slate-700">The teacher slides and the in-browser presenter use the Lexend Deca font by The Lexend Project Authors, licensed under the <a className="link" href="https://openfontlicense.org">SIL Open Font License 1.1</a>.</p>
     <SectionTitle icon={<FileText size={20} />}>Disclaimer</SectionTitle>
@@ -420,6 +422,7 @@ export default function App() {
         <Route path="/level1/lesson/:n" element={<Level1LessonPage />} />
         <Route path="/level1/lesson/:n/:tab" element={<Level1LessonPage />} />
         <Route path="/level1/downloads" element={<Level1DownloadsPage />} />
+        <Route path="/level1/exams" element={<Level1ExamsPage />} />
         <Route path="/level1/*" element={<Navigate to="/level1" replace />} />
         {/* Level 3 (same layout as Level 1) */}
         <Route path="/level3" element={<Level3Home />} />

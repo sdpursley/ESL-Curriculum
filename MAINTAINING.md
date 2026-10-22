@@ -5,6 +5,9 @@ the exams, the website, the slide decks, the vocabulary pictures, and the listen
 Sections 1–7 are about **Level 2** (and the website in general). **Level 1** has its own section: [section 8](#8-level-1); **Level 3** is [section 9](#9-level-3).
 You do not need to be a programmer. Copy the commands as written, and run them from the repository folder.
 
+**[AGENTS.md](AGENTS.md)** is the short, exact handoff guide (layout, content rules, voices, audio checks, step-by-step for a new lesson
+or exam, repository rules) for another AI coding tool or a person continuing the work. Read it first; this file has the longer how-to.
+
 ## What is where
 
 | Folder / file | What it is |
@@ -20,7 +23,7 @@ You do not need to be a programmer. Copy the commands as written, and run them f
 | `scripts/export_deck.py` | Turns a PowerPoint deck into `src/decks/lessonN.json` for the in-browser presenter. |
 | `tools/images/` | Scripts that drew the vocabulary pictures. |
 | `tools/audio/` | Scripts that made the listening audio with Chatterbox, plus the voice reference clips. |
-| `level1/` | **Level 1 sources**: `curriculum/` (lesson Markdown, scope and sequence, build script), `images/`, `audio/`, `slides/`. See section 8. |
+| `level1/` | **Level 1 sources**: `curriculum/` (lesson Markdown, scope and sequence, build script), `images/`, `audio/`, `slides/`, `exams/` (midterm and final). See section 8. |
 | `public/level1/` | Level 1 files the website serves (pictures, MP3, PDF/DOCX/PPTX downloads). Refreshed from `level1/` by the scripts; don't edit here. |
 | `src/content_level1.json`, `src/decks/level1/` | Level 1 lesson pages and presenter slides (generated). Level 1 page code: `src/level1.tsx`. |
 | `level3/`, `public/level3/`, `src/content_level3.json`, `src/decks/level3/` | **Level 3**, laid out the same way as Level 1 (page code: `src/level3.tsx`). See section 9. |
@@ -238,6 +241,7 @@ whose Markdown file is missing shows as "coming soon" on the website. Level 1 us
 | `level1/images/` | Vocabulary pictures (600×420 PNG), `images_L1.json` / `images_L1_L<N>.json` (what each picture shows), `CREDITS.md` (one section per lesson), and `tools/make_images_L1.py`, `tools/make_images_L1_L<N>.py` (the drawing scripts; Lessons 2+ use the helpers in `tools/lib/`). |
 | `level1/audio/` | `L1_listening.mp3` and `L1_L<N>_listening.mp3` (**the published audio**), check results and regen logs, `README.md` (Lesson 1) and `L1_L<N>_README.md`, and `tools/` (Lesson 1 scripts; `tools/lessons/` = the shared builder and checker for Lessons 2+, with `script_L1_L<N>.py`). The WAV masters are not committed. |
 | `level1/slides/Level1_Lesson<N>_Slides.pptx` | **The editable slide decks** (source for the downloads and the in-browser presenter). |
+| `level1/exams/` | **Week 8 Midterm and Week 15 Final**: the four Markdown files (teacher packet + student test for each), `images/` (+ `CREDITS.md`), `audio/` (`L1_Midterm_listening.mp3`, `L1_Final_listening.mp3`, check results, READMEs), and `build/` (`exam_data.py` = every item and key, `make_exam_md.py`, `build_all.sh`, `check_consistency.py`, `audio/` scripts). See "Exams" below. |
 | `public/level1/` | What the website serves. **Don't edit here**: it is refreshed from the folders above. |
 
 ### Rebuild after a change (any Level 1 file)
@@ -325,6 +329,12 @@ artifact, and pitch checks is kept). If a take is rejected later, add `EXCLUDE='
 (takes are cached in `cache/`). Copy `out/L1_L<N>_listening.mp3` into `level1/audio/`, the log as `L1_L<N>_regen_log.json` and the
 check as `L1_L<N>_check_results.json`; `out/` and `cache/` are not committed. Details for each lesson: `level1/audio/L1_L<N>_README.md`.
 
+**Second checks and the vote.** `takes_medium.py` runs Whisper medium.en on each chosen take, and `vote_takes.py script_L1_L<N>.py out/L1_L<N>_listening_log.json 3`
+runs small.en and medium.en (float32, `cpu_threads=1`) three times on each take: a take is OK if **either** model hears it exactly in most runs.
+Retake a line only when both checkers fail it, or for pitch (male voices under about 150 Hz) or clipping. Spelled letters and digit strings always score low: check those by ear.
+All Level 1 checkers use `cpu_threads=1` (multi-threaded int8 gave different text from run to run on a busy machine).
+**Run only one Chatterbox or Whisper process at a time** (two ran out of memory on a 15 GB machine): put `flock /tmp/chatterbox.lock` in front of each command.
+
 ### Add or replace a lesson (example: Lesson 5)
 
 All 13 lessons exist, so this is now the recipe for rewriting one.
@@ -340,10 +350,36 @@ All 13 lessons exist, so this is now the recipe for rewriting one.
    The lesson page, presenter (`#/level1/present/5`), downloads, lesson list, and the "ready" notes update by themselves;
    no website code changes are needed.
 
+### Exams (Week 8 Midterm, Week 15 Final)
+
+The website page is `#/level1/exams` (the Week 8 and Week 15 cards on the Level 1 home page link to it). The items, answers, and points
+are in `level1/exams/build/exam_data.py`; everything else is made from it.
+
+```bash
+IMGPY=.venv-img/bin/python PYTHON=.venv-docs/bin/python level1/exams/build/build_all.sh            # pictures + 4 Markdown files + DOCX/PDF in level1/exams/build/out/ + consistency check
+IMGPY=.venv-img/bin/python PYTHON=.venv-docs/bin/python level1/exams/build/build_all.sh --publish  # same, and copies the packets (PDF+DOCX) and student tests (PDF) to public/level1/downloads/exams/
+python3 scripts/export_content.py                                                                   # exam cards, parts tables, file sizes; copies the exam MP3s to public/level1/audio/
+```
+
+`check_consistency.py` must end with **0 failed**: it checks that the student test, the teacher steps, and the key agree item by item,
+that every picture exists, and that no banned word appears (add more with `BANNED_EXTRA="word1,word2"`). Its report is
+`level1/exams/build/consistency_report.txt` (not committed). Packets are 14 pages, student tests 4 pages.
+
+**Exam audio** (same Chatterbox setup, `EXAG=0.72 CFG=0.32`; Midterm = Narrator, Receptionist, Marco; Final = Narrator, Kim, Carlos (the `Sam` clip)):
+
+```bash
+cd level1/exams/build/audio
+bash run_audio.sh Midterm        # Chatterbox build under flock $LOCK (default /tmp/chatterbox.lock) -> out/ (not committed)
+bash finish_audio.sh Midterm     # every check + the vote; copies MP3, log, check results and README into level1/exams/audio/
+```
+
+If a line fails both checkers, run `EXCLUDE='{"<sentence>": [<seed>]}' bash run_audio.sh Midterm` and `finish_audio.sh` again. The length
+("about 1:17") is read from `level1/exams/audio/L1_<Midterm|Final>_check_results.json`, so run `build_all.sh --publish` again afterwards. Every voice is a Kokoro-made clip (see `level1/audio/tools/lessons/REFS.md`).
+
 ### Publish
 
 The same as Level 2 (sections 6–7). Before you commit, check that `git status` shows no `.wav` files, no `level1/curriculum/build/`,
-and no `cache/` or `out/` folders (`.gitignore` already skips them).
+no `level1/exams/build/out/`, and no `cache/` or `out/` folders (`.gitignore` already skips them).
 
 ## 9. Level 3
 
@@ -413,6 +449,6 @@ and no `cache/` or `out/` folders.
 ## Licenses (keep these when you change things)
 
 - Course materials: © 2026 the authors, CC BY-NC-SA 4.0.
-- Vocabulary pictures: modified Twemoji graphics, CC BY 4.0 (see `public/images/CREDITS.md` and `level1/images/CREDITS.md`, `level3/images/CREDITS.md`).
+- Vocabulary pictures: modified Twemoji graphics, CC BY 4.0 (see `public/images/CREDITS.md` and `level1/images/CREDITS.md`, `level1/exams/images/CREDITS.md`, `level3/images/CREDITS.md`).
 - Font for slides and the presenter: Lexend Deca, SIL Open Font License 1.1 (`src/assets/fonts/`).
 - Audio: made with Chatterbox TTS (Resemble AI, MIT License); synthetic voices with a Perth watermark. Every voice reference is a synthetic Kokoro-82M clip (Apache 2.0), never a recording of a real person.

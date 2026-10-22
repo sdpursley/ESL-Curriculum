@@ -5,7 +5,7 @@ from canon import canon
 from faster_whisper import WhisperModel
 spec = importlib.util.spec_from_file_location('S', sys.argv[1]); S = importlib.util.module_from_spec(spec); spec.loader.exec_module(S)
 SAME = getattr(S, 'SAME', {})
-segs, _ = WhisperModel('medium.en', device='cpu', compute_type='int8').transcribe(sys.argv[2], beam_size=5, language='en', condition_on_previous_text=False)
+segs, _ = WhisperModel('medium.en', device='cpu', compute_type='int8', cpu_threads=1).transcribe(sys.argv[2], beam_size=5, language='en', condition_on_previous_text=False)
 H = canon(' '.join(s.text for s in segs), SAME)
 R = canon((S.INTRO if isinstance(S.INTRO, str) else ' '.join(S.INTRO)) + ' ' + ' '.join(L[1] for L in S.LINES) + ' ' + S.END, SAME)
 ops = [o for o in difflib.SequenceMatcher(None, R, H, autojunk=False).get_opcodes() if o[0] != 'equal']

@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 1 Adult ESL Curriculum · Lesson 4 (Week 4): This Is My Family
 
-**Status:** Draft for review (all 13 Level 1 lessons are built).
+**Status:** Complete lesson (all 13 Level 1 lessons are published).
 
 **Date:** October 2026
 

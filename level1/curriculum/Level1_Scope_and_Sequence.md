@@ -1,5 +1,5 @@
 <!-- mode: guide -->
-# Level 1 Adult ESL Curriculum: Scope and Sequence (Draft for Review)
+# Level 1 Adult ESL Curriculum: Scope and Sequence
 
 **Status:** All 13 lessons are built and published (lesson text, pictures, listening audio, and slides).
 

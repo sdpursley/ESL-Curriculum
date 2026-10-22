@@ -1,0 +1,337 @@
+{
+ "file": "L1_Final_listening.mp3",
+ "duration_s": 76.54,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 135,
+ "diffs": [],
+ "low_prob_words": [
+  [
+   "This",
+   -0.3,
+   0.04
+  ],
+  [
+   "final",
+   1.24,
+   0.01
+  ],
+  [
+   "exam,",
+   1.56,
+   0.0
+  ],
+  [
+   "listening.",
+   2.44,
+   0.0
+  ],
+  [
+   "Kim",
+   3.78,
+   0.0
+  ],
+  [
+   "Carlos",
+   4.0,
+   0.0
+  ],
+  [
+   "are",
+   4.32,
+   0.03
+  ],
+  [
+   "at",
+   4.62,
+   0.37
+  ],
+  [
+   "English",
+   4.74,
+   0.0
+  ],
+  [
+   "class.",
+   5.08,
+   0.0
+  ],
+  [
+   "It's",
+   6.26,
+   0.14
+  ],
+  [
+   "break,",
+   6.72,
+   0.0
+  ],
+  [
+   "listen!",
+   7.44,
+   0.0
+  ],
+  [
+   "Kim,",
+   9.46,
+   0.0
+  ],
+  [
+   "do",
+   10.3,
+   0.0
+  ],
+  [
+   "you",
+   10.42,
+   0.21
+  ],
+  [
+   "want",
+   10.52,
+   0.0
+  ],
+  [
+   "taco?",
+   10.86,
+   0.0
+  ]
+ ],
+ "lines_ok": "16/16",
+ "lines_with_flags": [
+  {
+   "t": 9.69,
+   "spk": "Carlos",
+   "line": "Kim, do you want a taco? The restaurant is across from the school.",
+   "ok": true,
+   "hyp": "kim do you want a taco the restaurant is across from the school",
+   "min_prob": 0.7,
+   "flags": [
+    "noisy/hissy 420ms"
+   ],
+   "f0_med": 129.3
+  },
+  {
+   "t": 15.43,
+   "spk": "Kim",
+   "line": "No, thanks. I don't feel well. I'm sick.",
+   "ok": true,
+   "hyp": "no thanks i don't feel well i'm sick",
+   "min_prob": 0.72,
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "f0_med": 204.0
+  },
+  {
+   "t": 50.45,
+   "spk": "Kim",
+   "line": "No, I can't. I can't drive. But there's a bus stop near the clinic.",
+   "ok": true,
+   "hyp": "no i can't i can't drive but there's a bus stop near the clinic",
+   "min_prob": 0.83,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 177.6
+  },
+  {
+   "t": 57.73,
+   "spk": "Carlos",
+   "line": "OK. It's rainy today. Take your jacket!",
+   "ok": true,
+   "hyp": "ok it's rainy today take your jacket",
+   "min_prob": 0.26,
+   "flags": [
+    "noisy/hissy 340ms"
+   ],
+   "f0_med": 123.4
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Carlos": 131.6,
+  "Kim": 178.3,
+  "Narrator": 198.8
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 6.0,
+ "peak": 0.884,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 9.69,
+   "spk": "Carlos",
+   "line": "Kim, do you want a taco? The restaurant is across from the school.",
+   "ok": true,
+   "hyp": "kim do you want a taco the restaurant is across from the school",
+   "min_prob": 0.7,
+   "flags": [
+    "noisy/hissy 420ms"
+   ],
+   "f0_med": 129.3
+  },
+  {
+   "t": 15.43,
+   "spk": "Kim",
+   "line": "No, thanks. I don't feel well. I'm sick.",
+   "ok": true,
+   "hyp": "no thanks i don't feel well i'm sick",
+   "min_prob": 0.72,
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "f0_med": 204.0
+  },
+  {
+   "t": 20.18,
+   "spk": "Carlos",
+   "line": "Oh, no! What's wrong?",
+   "ok": true,
+   "hyp": "oh no what's wrong",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 147.2
+  },
+  {
+   "t": 23.4,
+   "spk": "Kim",
+   "line": "It hurts here. My ear.",
+   "ok": true,
+   "hyp": "it hurts here my ear",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 166.7
+  },
+  {
+   "t": 26.82,
+   "spk": "Carlos",
+   "line": "Do you need a doctor?",
+   "ok": true,
+   "hyp": "do you need a doctor",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 133.8
+  },
+  {
+   "t": 29.65,
+   "spk": "Kim",
+   "line": "Yes. I have an appointment on Friday.",
+   "ok": true,
+   "hyp": "yes i have an appointment on friday",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 179.1
+  },
+  {
+   "t": 33.28,
+   "spk": "Carlos",
+   "line": "On Friday? What's the date?",
+   "ok": true,
+   "hyp": "on friday what's the date",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 144.2
+  },
+  {
+   "t": 36.54,
+   "spk": "Kim",
+   "line": "It's May twelfth, at nine thirty in the morning.",
+   "ok": true,
+   "hyp": "it's may twelfth at 930 in the morning",
+   "min_prob": 0.81,
+   "flags": [],
+   "f0_med": 188.1
+  },
+  {
+   "t": 41.23,
+   "spk": "Carlos",
+   "line": "Where is the clinic?",
+   "ok": true,
+   "hyp": "where is the clinic",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 121.3
+  },
+  {
+   "t": 43.75,
+   "spk": "Kim",
+   "line": "It's on Pine Street, next to the bank.",
+   "ok": true,
+   "hyp": "it's on pine street next to the bank",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 177.6
+  },
+  {
+   "t": 47.87,
+   "spk": "Carlos",
+   "line": "Can you drive there?",
+   "ok": true,
+   "hyp": "can you drive there",
+   "min_prob": 0.52,
+   "flags": [],
+   "f0_med": 137.7
+  },
+  {
+   "t": 50.45,
+   "spk": "Kim",
+   "line": "No, I can't. I can't drive. But there's a bus stop near the clinic.",
+   "ok": true,
+   "hyp": "no i can't i can't drive but there's a bus stop near the clinic",
+   "min_prob": 0.83,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 177.6
+  },
+  {
+   "t": 57.73,
+   "spk": "Carlos",
+   "line": "OK. It's rainy today. Take your jacket!",
+   "ok": true,
+   "hyp": "ok it's rainy today take your jacket",
+   "min_prob": 0.26,
+   "flags": [
+    "noisy/hissy 340ms"
+   ],
+   "f0_med": 123.4
+  },
+  {
+   "t": 62.27,
+   "spk": "Kim",
+   "line": "Thanks, Carlos. You're a good friend.",
+   "ok": true,
+   "hyp": "thanks carlos you're a good friend",
+   "min_prob": 0.0,
+   "flags": [],
+   "f0_med": 186.5
+  },
+  {
+   "t": 65.88,
+   "spk": "Carlos",
+   "line": "Do you want juice? I have juice.",
+   "ok": true,
+   "hyp": "do you want juice i have juice",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 112.5
+  },
+  {
+   "t": 70.1,
+   "spk": "Kim",
+   "line": "Yes, please. I like juice. Thank you!",
+   "ok": true,
+   "hyp": "yes please i like juice thank you",
+   "min_prob": 0.0,
+   "flags": [],
+   "f0_med": 164.7
+  }
+ ],
+ "hyp": "this is the final exam listening kim and carlos are at english class it's the break listen kim do you want a taco the restaurant is across from the school no thanks i don't feel well i'm sick oh no what's wrong it hurts here my ear do you need a doctor yes i have an appointment on friday on friday what's the date it's may twelfth at 930 in the morning where is the clinic it's on pine street next to the bank can you drive there no i can't i can't drive but there's a bus stop near the clinic ok it's rainy today take your jacket thanks carlos you're a good friend do you want juice i have juice yes please i like juice thank you that's the end of the listening"
+}

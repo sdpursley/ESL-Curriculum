@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 1 Adult ESL Curriculum · Lesson 12 (Week 13): I Don't Feel Well
 
-**Status:** Draft for review (expanded to match Lessons 5–7 depth). **Date:** October 2026
+**Status:** Complete lesson (all 13 Level 1 lessons are published). **Date:** October 2026
 
 **Companion files:** `audio/L1_L12_listening.mp3`, `images/` (see CREDITS.md)
 
