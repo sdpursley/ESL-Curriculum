@@ -4,8 +4,8 @@ LESSON = 6
 TITLE = 'Be Ready'
 VOICES = {'Narrator': 'N', 'Nadia': 'Ana_af_jessica', 'Ben': 'Server'}
 FEMALE = {'Nadia', 'Narrator'}
-NAMES = {'nadia', 'green', 'ben'}
-SAME = {'okay': 'ok', 'fridge': 'fridge'}
+NAMES = {'ben', 'nadia', 'green'}
+SAME = {'okay': 'ok', 'fridge': 'fridge', 'greene': 'green'}
 INTRO = 'Lesson six. Listening. First, listen to a weather alert on the radio. Then listen to two roommates, Nadia and Ben.'
 LINES = [
  ('Narrator', "This is a weather alert for Green County. A big storm will arrive tonight at about nine o'clock. There will probably be strong wind and heavy rain. The power will probably go out in some areas."),
