@@ -189,7 +189,16 @@
    "title": "Who's Who?",
    "focusHtml": "<em>What does she look like? / What's she like?</em>; object pronouns (<em>me, him, her, us, them</em>)",
    "function": "Describe people; find someone you've never met",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson2_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson2_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 428120
+    }
+   ]
   },
   {
    "n": 3,
@@ -197,7 +206,16 @@
    "title": "When I Was Young",
    "focusHtml": "<em>used to / didn't use to</em>; <em>Did you use to…?</em>",
    "function": "Compare life then and now",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson3_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson3_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 365043
+    }
+   ]
   },
   {
    "n": 4,
@@ -205,7 +223,16 @@
    "title": "It Happened So Fast",
    "focusHtml": "Past continuous; <em>when / while</em> + simple past",
    "function": "Report an accident or incident; fill out an incident report",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson4_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson4_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 401782
+    }
+   ]
   },
   {
    "n": 5,
@@ -213,7 +240,16 @@
    "title": "Don't Worry, I'll Do It",
    "focusHtml": "<em>will</em> for offers, promises, quick decisions; <em>will</em> vs. <em>going to</em>",
    "function": "Offer help at work, at home, and at a school event",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson5_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson5_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 356121
+    }
+   ]
   },
   {
    "n": 6,
@@ -221,7 +257,16 @@
    "title": "Be Ready",
    "focusHtml": "First conditional (<em>If…, …will…</em>); <em>will</em> + <em>probably / maybe</em> for predictions",
    "function": "Weather alerts, power outages, an emergency plan",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson6_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson6_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 326834
+    }
+   ]
   },
   {
    "n": 7,
@@ -229,7 +274,16 @@
    "title": "Can I Exchange This?",
    "focusHtml": "<em>I'd like to</em> + verb; <em>Could I / Can I / May I…?</em>; reasons with <em>because</em>",
    "function": "Return or exchange an item; change or cancel an appointment",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson7_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson7_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 264390
+    }
+   ]
   },
   {
    "n": 8,
@@ -237,7 +291,16 @@
    "title": "Lost and Found",
    "focusHtml": "<em>Whose…?</em>; possessive pronouns (<em>mine, yours, his, hers, ours, theirs</em>)",
    "function": "Report and describe a lost item; say who owns what",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson8_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson8_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 335424
+    }
+   ]
   },
   {
    "n": 9,
@@ -245,7 +308,16 @@
    "title": "My Strengths",
    "focusHtml": "<em>good at / interested in / bad at</em> + <em>-ing</em>; <em>enjoy / don't mind</em> + <em>-ing</em>",
    "function": "Talk about skills and strengths in a job interview",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson9_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson9_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 332242
+    }
+   ]
   },
   {
    "n": 10,
@@ -253,7 +325,16 @@
    "title": "Step by Step",
    "focusHtml": "Sequence words (<em>first, next, then, after that, finally</em>) + imperatives; <em>How do I…?</em>",
    "function": "Give and follow instructions at home, at work, and on a label",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson10_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson10_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 344734
+    }
+   ]
   },
   {
    "n": 11,
@@ -261,7 +342,16 @@
    "title": "Bored or Boring?",
    "focusHtml": "<em>-ed / -ing</em> adjectives; <em>How was it? I thought it was…</em>",
    "function": "Give an opinion of an event; read and write a short review",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson11_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson11_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 415669
+    }
+   ]
   },
   {
    "n": 12,
@@ -269,7 +359,16 @@
    "title": "Something's Wrong",
    "focusHtml": "<em>something / anything / nothing; someone / anyone / no one; somewhere / anywhere</em>",
    "function": "Report a problem at home; ask for a repair",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson12_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson12_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 276624
+    }
+   ]
   },
   {
    "n": 13,
@@ -277,7 +376,16 @@
    "title": "Where I'm Going",
    "focusHtml": "Future review: <em>will, going to,</em> present continuous; <em>hope to / plan to / want to</em> + verb; <em>I hope (that) I'll…</em>",
    "function": "Talk about goals; prepare the graduation talk",
-   "ready": false
+   "ready": false,
+   "slides": "level3/downloads/slides/Level3_Lesson13_Slides.pptx",
+   "downloads": [
+    {
+     "kind": "pptx",
+     "href": "level3/downloads/slides/Level3_Lesson13_Slides.pptx",
+     "label": "Teacher slides (PowerPoint)",
+     "size": 307365
+    }
+   ]
   }
  ],
  "credit": "Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and speech bubbles, signs, and labels were added.",
