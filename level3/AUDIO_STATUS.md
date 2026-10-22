@@ -4,7 +4,7 @@ Draft for review. These lessons live in `level3/drafts/` and are **not on the we
 `level3/curriculum`, `level3/images`, `level3/audio` and `level3/slides`). How to record a lesson: AGENTS.md, section
 "Running audio locally". Update this file in the same commit as each finished MP3.
 
-Status as of 22 Oct 2026, 17:20 CDT. Lessons marked **done** below passed the gate on this computer (CPU, faster-whisper float32).
+Status as of 22 Oct 2026, 18:45 CDT. Lessons marked **done** below passed the gate on this computer (CPU, faster-whisper float32).
 **Takes from the build computer are not in the repo and cannot be reused:** the take cache is keyed by file paths, and the same seed gives a
 different take on another computer or device. Every lesson that is not "done" must be recorded **from line 1** on the local
 computer. The notes below only say which lines gave trouble there, so watch them closely.
@@ -15,7 +15,7 @@ computer. The notes below only say which lines gave trouble there, so watch them
 | 3 | Narrator, Daniel (M, am_puck), Teresa (F, af_bella) | intro + 15 + end | **done** | `drafts/audio/L3_L3_listening.mp3`, 1:15, gate PASS. Recorded from line 1 on this computer. Human listen still outstanding. |
 | 4 | Narrator, Elena (F, af_heart), Mark (M, am_adam) | intro + 16 + end | **done** | `drafts/audio/L3_L4_listening.mp3`, 1:18, gate PASS (two-checker rule). |
 | 5 | Narrator, Carmen (F, af_river), David (M, am_michael) | intro + 14 + end | **done** | `drafts/audio/L3_L5_listening.mp3`, 1:17, gate PASS. |
-| 6 | Narrator, Nadia (F, af_jessica), Ben (M, am_puck) | intro + 11 + end | to-do | all lines |
+| 6 | Narrator, Nadia (F, af_jessica), Ben (M, am_puck) | intro + 11 + end | **done** | `drafts/audio/L3_L6_listening.mp3`, 1:16, gate PASS. Recorded from line 1 on this computer. Human listen still outstanding. |
 | 7 | Narrator, Lina (F, af_heart), Clerk (M, am_puck) | intro + 16 + end | to-do | all lines |
 | 8 | Narrator, Joan (F, af_river), David (M, am_michael) | intro + 15 + end | to-do | all lines |
 | 9 | Narrator, Lucia (F, af_jessica), Mr. Hall (M, am_michael) | intro + 14 + end | to-do | all lines |
@@ -28,7 +28,7 @@ The Narrator is always the `N` clip (Kokoro af_sarah, female). The full line tex
 `drafts/audio/tools/scripts/script_L3_L<N>.py` (`INTRO`, `LINES` = speaker + line, `END`), generated from the lesson Markdown by
 `make_script_L3.py`; voices and settings are in `drafts/audio/tools/cast/cast_L3_L<N>.json` and the AGENTS.md rules.
 
-**Summary:** done 4 (Lessons 2, 3, 4, 5) · partial 0 · to-do 8 (Lessons 6, 7, 8, 9, 10, 11, 12, 13).
+**Summary:** done 5 (Lessons 2, 3, 4, 5, 6) · partial 0 · to-do 7 (Lessons 7, 8, 9, 10, 11, 12, 13).
 
 ## Notes from the build-computer runs
 

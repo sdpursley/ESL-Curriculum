@@ -169,7 +169,7 @@
 :::
 
 ---
-### Listening script: `L3_L6_listening.mp3` (about 1:20; it plays once, so press play again for the second listen)
+### Listening script: `L3_L6_listening.mp3` (about 1:16; it plays once, so press play again for the second listen)
 
 > **Audio:** play from a phone + small speaker. No speaker? Read the script with a volunteer, at a normal, friendly speed. The weather alert is read by the narrator.
 
