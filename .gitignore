@@ -39,3 +39,8 @@ level3/images/tools/_twemoji_src/
 level3/audio/tools/cache/
 level3/audio/tools/out/
 level3/**/*.wav
+# Level 1 Lessons 2+ (shared lesson tools)
+level1/audio/tools/lessons/cache/
+level1/audio/tools/lessons/out/
+level1/images/tools/lib/_twemoji_src/
+level1/images/CREDITS_*.new.md

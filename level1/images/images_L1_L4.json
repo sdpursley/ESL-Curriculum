@@ -1,0 +1,202 @@
+[
+ {
+  "file": "L1_L4_mother.png",
+  "lesson": "Level1-L4",
+  "word": "mother",
+  "twemoji": [
+   "1f469",
+   "1f467"
+  ],
+  "note": "woman (big, blue circle) with her daughter (small)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_father.png",
+  "lesson": "Level1-L4",
+  "word": "father",
+  "twemoji": [
+   "1f468",
+   "1f466"
+  ],
+  "note": "man (big, blue circle) with his son (small)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_parents.png",
+  "lesson": "Level1-L4",
+  "word": "parents",
+  "twemoji": [
+   "1f469",
+   "1f468",
+   "1f467"
+  ],
+  "note": "woman + man (big, blue circles) with their child (small)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_husband.png",
+  "lesson": "Level1-L4",
+  "word": "husband",
+  "twemoji": [
+   "1f468",
+   "1f469",
+   "1f48d"
+  ],
+  "note": "man (big, blue circle), his wife (small), wedding ring",
+  "drawn": "light-blue highlight circles + ring layout"
+ },
+ {
+  "file": "L1_L4_wife.png",
+  "lesson": "Level1-L4",
+  "word": "wife",
+  "twemoji": [
+   "1f469",
+   "1f468",
+   "1f48d"
+  ],
+  "note": "woman (big, blue circle), her husband (small), wedding ring",
+  "drawn": "light-blue highlight circles + ring layout"
+ },
+ {
+  "file": "L1_L4_son.png",
+  "lesson": "Level1-L4",
+  "word": "son",
+  "twemoji": [
+   "1f466",
+   "1f469",
+   "1f468"
+  ],
+  "note": "boy (big, blue circle) with his parents (small)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_daughter.png",
+  "lesson": "Level1-L4",
+  "word": "daughter",
+  "twemoji": [
+   "1f467",
+   "1f469",
+   "1f468"
+  ],
+  "note": "girl (big, blue circle) with her parents (small)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_children.png",
+  "lesson": "Level1-L4",
+  "word": "children (kids)",
+  "twemoji": [
+   "1f467",
+   "1f466",
+   "1f469"
+  ],
+  "note": "girl + boy (big, blue circles) with their mother (small)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_brother.png",
+  "lesson": "Level1-L4",
+  "word": "brother",
+  "twemoji": [
+   "1f466",
+   "1f467"
+  ],
+  "note": "boy (big, blue circle) with his sister (small)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_sister.png",
+  "lesson": "Level1-L4",
+  "word": "sister",
+  "twemoji": [
+   "1f467",
+   "1f466"
+  ],
+  "note": "girl (big, blue circle) with her brother (small)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_baby.png",
+  "lesson": "Level1-L4",
+  "word": "baby",
+  "twemoji": [
+   "1f476"
+  ],
+  "note": "baby (big, blue circle)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_grandmother.png",
+  "lesson": "Level1-L4",
+  "word": "grandmother",
+  "twemoji": [
+   "1f475",
+   "1f467"
+  ],
+  "note": "old woman (big, blue circle) with her grandchild (small)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_grandfather.png",
+  "lesson": "Level1-L4",
+  "word": "grandfather",
+  "twemoji": [
+   "1f474",
+   "1f466"
+  ],
+  "note": "old man (big, blue circle) with his grandchild (small)",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_family.png",
+  "lesson": "Level1-L4",
+  "word": "family",
+  "twemoji": [
+   "1f468",
+   "1f469",
+   "1f467",
+   "1f466"
+  ],
+  "note": "family: man, woman, girl and boy, all with circles",
+  "drawn": "light-blue highlight circles"
+ },
+ {
+  "file": "L1_L4_tree_carlos.png",
+  "lesson": "Level1-L4",
+  "word": "Carlos's family tree (listening Task B)",
+  "twemoji": [
+   "1f475",
+   "1f474",
+   "1f468",
+   "1f469",
+   "1f466",
+   "1f467",
+   "1f476"
+  ],
+  "note": "family tree: Carlos, his parents, his wife and 3 children; blank lines for the names",
+  "drawn": "tree lines, blank lines, labels"
+ },
+ {
+  "file": "L1_L4_tree_blank.png",
+  "lesson": "Level1-L4",
+  "word": "blank family tree (Talk Time)",
+  "twemoji": [],
+  "note": "empty family tree boxes: mother, father, brother/sister, ME, husband/wife, son/daughter (all drawn)",
+  "drawn": "all drawn (boxes, lines, labels)"
+ },
+ {
+  "file": "L1_L4_card_family.png",
+  "lesson": "Level1-L4",
+  "word": "picture-card family (Talk Time option)",
+  "twemoji": [
+   "1f475",
+   "1f474",
+   "1f469",
+   "1f468",
+   "1f466",
+   "1f467"
+  ],
+  "note": "invented family with names and ages: Lucia 68, Tomas 70, Ana 35, Miguel 37, Diego 9, Mia 4",
+  "drawn": "tree lines, names, ages, title"
+ }
+]

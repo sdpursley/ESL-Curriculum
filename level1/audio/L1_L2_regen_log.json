@@ -1,0 +1,805 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Rosa": "refs/Rosa.wav",
+   "Marco": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson two. Listening.",
+    "tts_text": "Lesson two. Listening.",
+    "seed": 9945,
+    "hyp": "lesson 2 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.93,
+    "dur": 1.94,
+    "raw_peak": 0.51,
+    "pitch_ok": true,
+    "score": 1.533,
+    "f0_med": 194.9,
+    "f0_st_sd": 5.62,
+    "f0_range_st": 16.14
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "It's the break at English class.",
+    "tts_text": "It's the break at English class.",
+    "seed": 2026,
+    "hyp": "it's the break at english class",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.92,
+    "dur": 1.94,
+    "raw_peak": 0.66,
+    "pitch_ok": true,
+    "score": 1.518,
+    "f0_med": 204.6,
+    "f0_st_sd": 4.09,
+    "f0_range_st": 12.37
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Rosa and Marco are new students. Listen.",
+    "tts_text": "Rosa and Marco are new students. Listen.",
+    "seed": 9945,
+    "hyp": "rosa and marco are new students listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 3.08,
+    "raw_peak": 0.841,
+    "pitch_ok": true,
+    "score": 1.566,
+    "f0_med": 195.9,
+    "f0_st_sd": 3.96,
+    "f0_range_st": 13.48
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Hi! I'm Rosa.",
+    "tts_text": "Hi! I'm Rosa.",
+    "seed": 17864,
+    "hyp": "hi i'm rosa",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.97,
+    "dur": 1.58,
+    "raw_peak": 0.434,
+    "pitch_ok": true,
+    "score": 1.575,
+    "f0_med": 182.8,
+    "f0_st_sd": 4.01,
+    "f0_range_st": 10.47
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "What's your name?",
+    "tts_text": "What's your name?",
+    "seed": 17864,
+    "hyp": "what's your name",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.96,
+    "dur": 0.92,
+    "raw_peak": 0.416,
+    "pitch_ok": true,
+    "score": 1.564,
+    "f0_med": 204.0,
+    "f0_st_sd": 4.1,
+    "f0_range_st": 13.66
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Hi, Rosa. I'm Marco.",
+    "tts_text": "Hi, Rosa. I'm Marco.",
+    "seed": 17864,
+    "hyp": "hi rosa i'm marco",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.9,
+    "dur": 1.54,
+    "raw_peak": 1.024,
+    "pitch_ok": true,
+    "score": 1.447,
+    "f0_med": 127.0,
+    "f0_st_sd": 3.66,
+    "f0_range_st": 9.22
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Nice to meet you.",
+    "tts_text": "Nice to meet you.",
+    "seed": 2026,
+    "hyp": "nice to meet you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.96,
+    "dur": 0.86,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.52,
+    "f0_med": 149.3,
+    "f0_st_sd": 3.73,
+    "f0_range_st": 11.02
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Nice to meet you, too.",
+    "tts_text": "Nice to meet you, too.",
+    "seed": 17864,
+    "hyp": "nice to meet you too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 1.34,
+    "raw_peak": 0.394,
+    "pitch_ok": true,
+    "score": 1.556,
+    "f0_med": 229.0,
+    "f0_st_sd": 3.91,
+    "f0_range_st": 12.52
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Where are you from, Marco?",
+    "tts_text": "Where are you from, Marco?",
+    "seed": 41621,
+    "hyp": "where are you from marco",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.94,
+    "dur": 1.4,
+    "raw_peak": 0.541,
+    "pitch_ok": true,
+    "score": 1.542,
+    "f0_med": 207.6,
+    "f0_st_sd": 4.25,
+    "f0_range_st": 11.6
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "I'm from Mexico.",
+    "tts_text": "I'm from Mexico.",
+    "seed": 2026,
+    "hyp": "i'm from mexico",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.97,
+    "dur": 1.05,
+    "raw_peak": 0.994,
+    "pitch_ok": true,
+    "score": 1.255,
+    "f0_med": 110.6,
+    "f0_st_sd": 1.91,
+    "f0_range_st": 5.97
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Oh, nice! What city?",
+    "tts_text": "Oh, nice! What city?",
+    "seed": 33702,
+    "hyp": "oh nice what city",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.93,
+    "dur": 2.17,
+    "raw_peak": 0.558,
+    "pitch_ok": true,
+    "score": 1.532,
+    "f0_med": 244.0,
+    "f0_st_sd": 4.04,
+    "f0_range_st": 12.41
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Guadalajara. And you?",
+    "tts_text": "Guadalajara. And you?",
+    "seed": 2026,
+    "hyp": "guadalajara and you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 0.98,
+    "dur": 1.42,
+    "raw_peak": 0.738,
+    "pitch_ok": true,
+    "score": 1.583,
+    "f0_med": 105.3,
+    "f0_st_sd": 5.25,
+    "f0_range_st": 14.14
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Are you from Mexico, too?",
+    "tts_text": "Are you from Mexico, too?",
+    "seed": 2026,
+    "hyp": "are you from mexico too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.9,
+    "dur": 1.37,
+    "raw_peak": 0.927,
+    "pitch_ok": true,
+    "score": 1.495,
+    "f0_med": 113.8,
+    "f0_st_sd": 3.97,
+    "f0_range_st": 12.74
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "No, I'm not.",
+    "tts_text": "No, I'm not.",
+    "seed": 25783,
+    "hyp": "no i'm not",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 1.13,
+    "raw_peak": 0.357,
+    "pitch_ok": true,
+    "score": 1.5,
+    "f0_med": 212.4,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 9.18
+   },
+   "tries": 8,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "I'm from El Salvador.",
+    "tts_text": "I'm from El Salvador.",
+    "seed": 9945,
+    "hyp": "i'm from el salvador",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 0.99,
+    "dur": 1.4,
+    "raw_peak": 0.803,
+    "pitch_ok": true,
+    "score": 1.592,
+    "f0_med": 234.3,
+    "f0_st_sd": 4.78,
+    "f0_range_st": 12.76
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Oh, OK. What city?",
+    "tts_text": "Oh, OK. What city?",
+    "seed": 81216,
+    "hyp": "oh ok what city",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.82,
+    "dur": 1.74,
+    "raw_peak": 0.897,
+    "pitch_ok": true,
+    "score": 1.313,
+    "f0_med": 120.6,
+    "f0_st_sd": 3.29,
+    "f0_range_st": 10.37
+   },
+   "tries": 11,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "San Salvador. My son is here, too.",
+    "tts_text": "San Salvador. My son is here, too.",
+    "seed": 2026,
+    "hyp": "san salvador my son is here too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.94,
+    "dur": 2.77,
+    "raw_peak": 0.48,
+    "pitch_ok": true,
+    "score": 1.543,
+    "f0_med": 246.1,
+    "f0_st_sd": 4.36,
+    "f0_range_st": 11.89
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "He's in the kids' class.",
+    "tts_text": "He's in the kids' class.",
+    "seed": 17864,
+    "hyp": "he's in the kids' class",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.63,
+    "mean_prob": 0.86,
+    "dur": 1.22,
+    "raw_peak": 0.406,
+    "pitch_ok": true,
+    "score": 1.402,
+    "f0_med": 239.8,
+    "f0_st_sd": 3.64,
+    "f0_range_st": 10.4
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Oh, how old is he?",
+    "tts_text": "Oh, how old is he?",
+    "seed": 33702,
+    "hyp": "oh how old is he",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.95,
+    "dur": 1.22,
+    "raw_peak": 0.948,
+    "pitch_ok": true,
+    "score": 1.504,
+    "f0_med": 142.6,
+    "f0_st_sd": 3.69,
+    "f0_range_st": 10.3
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "He's twelve years old.",
+    "tts_text": "He's twelve years old.",
+    "seed": 25783,
+    "hyp": "he's 12 years old",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.92,
+    "dur": 1.24,
+    "raw_peak": 0.504,
+    "pitch_ok": true,
+    "score": 1.454,
+    "f0_med": 270.7,
+    "f0_st_sd": 3.55,
+    "f0_range_st": 11.3
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Twelve? That's great.",
+    "tts_text": "Twelve? That's great.",
+    "seed": 9945,
+    "hyp": "12 that's great",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.63,
+    "mean_prob": 0.85,
+    "dur": 1.6,
+    "raw_peak": 0.922,
+    "pitch_ok": true,
+    "score": 1.26,
+    "f0_med": 145.1,
+    "f0_st_sd": 2.73,
+    "f0_range_st": 7.14
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "My friends are here, too.",
+    "tts_text": "My friends are here, too.",
+    "seed": 2026,
+    "hyp": "my friends are here too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.91,
+    "dur": 1.25,
+    "raw_peak": 0.889,
+    "pitch_ok": true,
+    "score": 1.51,
+    "f0_med": 115.1,
+    "f0_st_sd": 5.7,
+    "f0_range_st": 14.35
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "They're from Honduras.",
+    "tts_text": "They're from Honduras.",
+    "seed": 17864,
+    "hyp": "they're from honduras",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 1.14,
+    "raw_peak": 0.999,
+    "pitch_ok": true,
+    "score": 1.371,
+    "f0_med": 90.9,
+    "f0_st_sd": 2.73,
+    "f0_range_st": 9.27
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Is the teacher from Mexico?",
+    "tts_text": "Is the teacher from Mexico?",
+    "seed": 17864,
+    "hyp": "is the teacher from mexico",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 1.74,
+    "raw_peak": 0.351,
+    "pitch_ok": true,
+    "score": 1.555,
+    "f0_med": 190.3,
+    "f0_st_sd": 4.93,
+    "f0_range_st": 15.64
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "No, she isn't.",
+    "tts_text": "No, she isn't.",
+    "seed": 25783,
+    "hyp": "no she isn't",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.94,
+    "dur": 1.31,
+    "raw_peak": 0.706,
+    "pitch_ok": true,
+    "score": 1.395,
+    "f0_med": 84.8,
+    "f0_st_sd": 3.04,
+    "f0_range_st": 10.21
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "She's from the United States.",
+    "tts_text": "She's from the United States.",
+    "seed": 2026,
+    "hyp": "she's from the united states",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.51,
+    "raw_peak": 0.834,
+    "pitch_ok": true,
+    "score": 1.381,
+    "f0_med": 100.2,
+    "f0_st_sd": 2.78,
+    "f0_range_st": 8.51
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "OK. Time for class!",
+    "tts_text": "OK. Time for class!",
+    "seed": 9945,
+    "hyp": "ok time for class",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.71,
+    "mean_prob": 0.92,
+    "dur": 1.64,
+    "raw_peak": 0.453,
+    "pitch_ok": true,
+    "score": 1.522,
+    "f0_med": 275.5,
+    "f0_st_sd": 4.06,
+    "f0_range_st": 11.11
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "See you later, Marco.",
+    "tts_text": "See you later, Marco.",
+    "seed": 9945,
+    "hyp": "see you later marco",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.91,
+    "dur": 1.59,
+    "raw_peak": 0.317,
+    "pitch_ok": true,
+    "score": 1.217,
+    "f0_med": 201.6,
+    "f0_st_sd": 2.05,
+    "f0_range_st": 6.3
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "See you later!",
+    "tts_text": "See you later!",
+    "seed": 17864,
+    "hyp": "see you later",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.95,
+    "dur": 0.78,
+    "raw_peak": 0.761,
+    "pitch_ok": true,
+    "score": 1.382,
+    "f0_med": 122.4,
+    "f0_st_sd": 2.91,
+    "f0_range_st": 8.19
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 17864,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.65,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.506,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 11.73
+   },
+   "tries": 3,
+   "passing": 3
+  }
+ ],
+ "line_times": [
+  [
+   10.16,
+   13.21,
+   "Rosa",
+   "Hi! I'm Rosa. What's your name?"
+  ],
+  [
+   14.61,
+   17.56,
+   "Marco",
+   "Hi, Rosa. I'm Marco. Nice to meet you."
+  ],
+  [
+   18.96,
+   22.25,
+   "Rosa",
+   "Nice to meet you, too. Where are you from, Marco?"
+  ],
+  [
+   23.65,
+   24.7,
+   "Marco",
+   "I'm from Mexico."
+  ],
+  [
+   26.1,
+   28.27,
+   "Rosa",
+   "Oh, nice! What city?"
+  ],
+  [
+   29.67,
+   33.01,
+   "Marco",
+   "Guadalajara. And you? Are you from Mexico, too?"
+  ],
+  [
+   34.41,
+   37.49,
+   "Rosa",
+   "No, I'm not. I'm from El Salvador."
+  ],
+  [
+   38.89,
+   40.63,
+   "Marco",
+   "Oh, OK. What city?"
+  ],
+  [
+   42.03,
+   46.57,
+   "Rosa",
+   "San Salvador. My son is here, too. He's in the kids' class."
+  ],
+  [
+   47.97,
+   49.19,
+   "Marco",
+   "Oh, how old is he?"
+  ],
+  [
+   50.59,
+   51.83,
+   "Rosa",
+   "He's twelve years old."
+  ],
+  [
+   53.23,
+   58.32,
+   "Marco",
+   "Twelve? That's great. My friends are here, too. They're from Honduras."
+  ],
+  [
+   59.72,
+   61.46,
+   "Rosa",
+   "Is the teacher from Mexico?"
+  ],
+  [
+   62.86,
+   66.23,
+   "Marco",
+   "No, she isn't. She's from the United States."
+  ],
+  [
+   67.63,
+   71.41,
+   "Rosa",
+   "OK. Time for class! See you later, Marco."
+  ],
+  [
+   72.81,
+   73.59,
+   "Marco",
+   "See you later!"
+  ]
+ ]
+}

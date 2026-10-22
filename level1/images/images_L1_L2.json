@@ -1,0 +1,129 @@
+[
+ {
+  "file": "L1_L2_country.png",
+  "lesson": "Level1-L2",
+  "word": "country",
+  "twemoji": [
+   "1f5fa",
+   "1f1f2-1f1fd",
+   "1f1ec-1f1f9",
+   "1f1fa-1f1f8"
+  ],
+  "note": "world map + three flags (Mexico, Guatemala, United States)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L2_city.png",
+  "lesson": "Level1-L2",
+  "word": "city",
+  "twemoji": [
+   "1f3d9",
+   "1f3e2"
+  ],
+  "note": "city buildings + office building",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L2_mexico.png",
+  "lesson": "Level1-L2",
+  "word": "Mexico",
+  "twemoji": [
+   "1f1f2-1f1fd"
+  ],
+  "note": "flag of Mexico",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L2_guatemala.png",
+  "lesson": "Level1-L2",
+  "word": "Guatemala",
+  "twemoji": [
+   "1f1ec-1f1f9"
+  ],
+  "note": "flag of Guatemala",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L2_honduras.png",
+  "lesson": "Level1-L2",
+  "word": "Honduras",
+  "twemoji": [
+   "1f1ed-1f1f3"
+  ],
+  "note": "flag of Honduras",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L2_el_salvador.png",
+  "lesson": "Level1-L2",
+  "word": "El Salvador",
+  "twemoji": [
+   "1f1f8-1f1fb"
+  ],
+  "note": "flag of El Salvador",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L2_colombia.png",
+  "lesson": "Level1-L2",
+  "word": "Colombia",
+  "twemoji": [
+   "1f1e8-1f1f4"
+  ],
+  "note": "flag of Colombia",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L2_united_states.png",
+  "lesson": "Level1-L2",
+  "word": "the United States",
+  "twemoji": [
+   "1f1fa-1f1f8"
+  ],
+  "note": "flag of the United States",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L2_he.png",
+  "lesson": "Level1-L2",
+  "word": "he",
+  "twemoji": [
+   "1f468"
+  ],
+  "note": "man + the word \"he\" (drawn label)",
+  "drawn": "text label \"he\""
+ },
+ {
+  "file": "L1_L2_she.png",
+  "lesson": "Level1-L2",
+  "word": "she",
+  "twemoji": [
+   "1f469"
+  ],
+  "note": "woman + the word \"she\" (drawn label)",
+  "drawn": "text label \"she\""
+ },
+ {
+  "file": "L1_L2_they.png",
+  "lesson": "Level1-L2",
+  "word": "they",
+  "twemoji": [
+   "1f468",
+   "1f469",
+   "1f9d1"
+  ],
+  "note": "man, woman, person + the word \"they\" (drawn label)",
+  "drawn": "text label \"they\""
+ },
+ {
+  "file": "L1_L2_how_old.png",
+  "lesson": "Level1-L2",
+  "word": "How old?",
+  "twemoji": [
+   "1f382",
+   "2753"
+  ],
+  "note": "birthday cake + question mark",
+  "drawn": "border only"
+ }
+]

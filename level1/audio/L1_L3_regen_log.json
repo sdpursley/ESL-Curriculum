@@ -1,0 +1,580 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Receptionist": "refs/Receptionist.wav",
+   "Ana": "refs/Ana_af_jessica.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson three. Listening.",
+    "tts_text": "Lesson three. Listening.",
+    "seed": 9945,
+    "hyp": "lesson 3 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.96,
+    "dur": 1.98,
+    "raw_peak": 0.503,
+    "pitch_ok": true,
+    "score": 1.561,
+    "f0_med": 181.7,
+    "f0_st_sd": 4.5,
+    "f0_range_st": 14.15
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Ana is at a clinic.",
+    "tts_text": "Ana is at a clinic.",
+    "seed": 17864,
+    "hyp": "ana is at a clinic",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 1.25,
+    "raw_peak": 0.721,
+    "pitch_ok": true,
+    "score": 1.438,
+    "f0_med": 186.0,
+    "f0_st_sd": 3.27,
+    "f0_range_st": 8.46
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "She is a new patient. Listen.",
+    "tts_text": "She is a new patient. Listen.",
+    "seed": 9945,
+    "hyp": "she is a new patient listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 2.11,
+    "raw_peak": 0.567,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 221.2,
+    "f0_st_sd": 4.37,
+    "f0_range_st": 13.64
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Receptionist",
+    "text": "Good morning. Can I help you?",
+    "tts_text": "Good morning. Can I help you?",
+    "seed": 9945,
+    "hyp": "good morning can i help you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 1.37,
+    "raw_peak": 0.58,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 176.1,
+    "f0_st_sd": 5.32,
+    "f0_range_st": 15.23
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Hi. I'm a new patient.",
+    "tts_text": "Hi. I'm a new patient.",
+    "seed": 2026,
+    "hyp": "hi i'm a new patient",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 1.68,
+    "raw_peak": 0.773,
+    "pitch_ok": true,
+    "score": 1.549,
+    "f0_med": 252.6,
+    "f0_st_sd": 4.4,
+    "f0_range_st": 12.53
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "My name is Ana Ruiz.",
+    "tts_text": "My name is Ana Ruiz.",
+    "seed": 17864,
+    "hyp": "my name is ana ruiz",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.9,
+    "dur": 1.77,
+    "raw_peak": 0.663,
+    "pitch_ok": true,
+    "score": 1.422,
+    "f0_med": 237.7,
+    "f0_st_sd": 3.46,
+    "f0_range_st": 10.29
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Receptionist",
+    "text": "OK, Ana. What's your phone number?",
+    "tts_text": "OK, Ana. What's your phone number?",
+    "seed": 33702,
+    "hyp": "ok ana what's your phone number",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.91,
+    "dur": 1.96,
+    "raw_peak": 0.612,
+    "pitch_ok": true,
+    "score": 1.514,
+    "f0_med": 184.9,
+    "f0_st_sd": 4.35,
+    "f0_range_st": 13.3
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "It's 555-0142.",
+    "tts_text": "It's five five five, oh one four two.",
+    "seed": 25783,
+    "hyp": "it's 5550142",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.92,
+    "dur": 2.59,
+    "raw_peak": 0.631,
+    "pitch_ok": true,
+    "score": 1.518,
+    "f0_med": 200.5,
+    "f0_st_sd": 4.04,
+    "f0_range_st": 11.2
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Receptionist",
+    "text": "Sorry. Can you repeat, please?",
+    "tts_text": "Sorry. Can you repeat, please?",
+    "seed": 2026,
+    "hyp": "sorry can you repeat please",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.97,
+    "dur": 2.19,
+    "raw_peak": 0.523,
+    "pitch_ok": true,
+    "score": 1.536,
+    "f0_med": 206.4,
+    "f0_st_sd": 3.8,
+    "f0_range_st": 12.96
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Sure. 555-0142.",
+    "tts_text": "Sure. Five five five, oh one four two.",
+    "seed": 33702,
+    "hyp": "sure 5550142",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.85,
+    "dur": 3.1,
+    "raw_peak": 0.762,
+    "pitch_ok": true,
+    "score": 1.441,
+    "f0_med": 227.7,
+    "f0_st_sd": 3.94,
+    "f0_range_st": 12.49
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Receptionist",
+    "text": "Thank you. And what's your address?",
+    "tts_text": "Thank you. And what's your address?",
+    "seed": 25783,
+    "hyp": "thank you and what's your address",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.74,
+    "raw_peak": 0.621,
+    "pitch_ok": true,
+    "score": 1.577,
+    "f0_med": 195.9,
+    "f0_st_sd": 4.24,
+    "f0_range_st": 12.89
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "It's 210 Pine Street, Apartment 3.",
+    "tts_text": "It's two ten Pine Street, apartment three.",
+    "seed": 57459,
+    "hyp": "it's 210 pine street apartment 3",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.92,
+    "dur": 3.0,
+    "raw_peak": 0.603,
+    "pitch_ok": true,
+    "score": 1.519,
+    "f0_med": 225.0,
+    "f0_st_sd": 4.02,
+    "f0_range_st": 12.5
+   },
+   "tries": 13,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Receptionist",
+    "text": "210 Pine Street, Apartment 3.",
+    "tts_text": "Two ten Pine Street, apartment three.",
+    "seed": 17864,
+    "hyp": "210 pine street apartment 3",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.89,
+    "dur": 1.76,
+    "raw_peak": 0.585,
+    "pitch_ok": true,
+    "score": 1.334,
+    "f0_med": 170.5,
+    "f0_st_sd": 2.94,
+    "f0_range_st": 9.74
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Receptionist",
+    "text": "What's the city?",
+    "tts_text": "What's the city?",
+    "seed": 41621,
+    "hyp": "what's the city",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.9,
+    "dur": 1.04,
+    "raw_peak": 0.549,
+    "pitch_ok": true,
+    "score": 1.289,
+    "f0_med": 186.0,
+    "f0_st_sd": 2.58,
+    "f0_range_st": 7.38
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Riverside. The ZIP code is 54107.",
+    "tts_text": "Riverside. The ZIP code is five four one oh seven.",
+    "seed": 17864,
+    "hyp": "riverside the zip code is 54107",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.9,
+    "dur": 3.81,
+    "raw_peak": 0.6,
+    "pitch_ok": true,
+    "score": 1.504,
+    "f0_med": 234.3,
+    "f0_st_sd": 4.36,
+    "f0_range_st": 14.84
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Receptionist",
+    "text": "Thank you. Please write your email here.",
+    "tts_text": "Thank you. Please write your email here.",
+    "seed": 33702,
+    "hyp": "thank you please write your email here",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 2.65,
+    "raw_peak": 0.603,
+    "pitch_ok": true,
+    "score": 1.492,
+    "f0_med": 187.6,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 10.75
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Receptionist",
+    "text": "And sign here, please.",
+    "tts_text": "And sign here, please.",
+    "seed": 49540,
+    "hyp": "and sign here please",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.5,
+    "mean_prob": 0.85,
+    "dur": 1.41,
+    "raw_peak": 0.546,
+    "pitch_ok": true,
+    "score": 1.453,
+    "f0_med": 195.3,
+    "f0_st_sd": 4.21,
+    "f0_range_st": 15.65
+   },
+   "tries": 16,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "OK. Here you go.",
+    "tts_text": "OK. Here you go.",
+    "seed": 25783,
+    "hyp": "ok here you go",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.9,
+    "dur": 1.4,
+    "raw_peak": 0.413,
+    "pitch_ok": true,
+    "score": 1.498,
+    "f0_med": 233.0,
+    "f0_st_sd": 4.68,
+    "f0_range_st": 14.31
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Receptionist",
+    "text": "Thank you, Ana.",
+    "tts_text": "Thank you, Ana.",
+    "seed": 65378,
+    "hyp": "thank you ana",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.89,
+    "dur": 1.07,
+    "raw_peak": 0.609,
+    "pitch_ok": true,
+    "score": 1.492,
+    "f0_med": 202.8,
+    "f0_st_sd": 4.31,
+    "f0_range_st": 14.6
+   },
+   "tries": 9,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Receptionist",
+    "text": "Please sit down.",
+    "tts_text": "Please sit down.",
+    "seed": 25783,
+    "hyp": "please sit down",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.93,
+    "dur": 0.96,
+    "raw_peak": 0.429,
+    "pitch_ok": true,
+    "score": 1.533,
+    "f0_med": 200.5,
+    "f0_st_sd": 4.69,
+    "f0_range_st": 15.65
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 17864,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.65,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.506,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 11.73
+   },
+   "tries": 3,
+   "passing": 3
+  }
+ ],
+ "line_times": [
+  [
+   8.54,
+   9.91,
+   "Receptionist",
+   "Good morning. Can I help you?"
+  ],
+  [
+   11.31,
+   15.31,
+   "Ana",
+   "Hi. I'm a new patient. My name is Ana Ruiz."
+  ],
+  [
+   16.71,
+   18.67,
+   "Receptionist",
+   "OK, Ana. What's your phone number?"
+  ],
+  [
+   20.07,
+   22.66,
+   "Ana",
+   "It's 555-0142."
+  ],
+  [
+   24.06,
+   26.25,
+   "Receptionist",
+   "Sorry. Can you repeat, please?"
+  ],
+  [
+   27.65,
+   30.75,
+   "Ana",
+   "Sure. 555-0142."
+  ],
+  [
+   32.15,
+   33.89,
+   "Receptionist",
+   "Thank you. And what's your address?"
+  ],
+  [
+   35.29,
+   38.29,
+   "Ana",
+   "It's 210 Pine Street, Apartment 3."
+  ],
+  [
+   39.69,
+   43.04,
+   "Receptionist",
+   "210 Pine Street, Apartment 3. What's the city?"
+  ],
+  [
+   44.44,
+   48.25,
+   "Ana",
+   "Riverside. The ZIP code is 54107."
+  ],
+  [
+   49.65,
+   54.26,
+   "Receptionist",
+   "Thank you. Please write your email here. And sign here, please."
+  ],
+  [
+   55.66,
+   57.06,
+   "Ana",
+   "OK. Here you go."
+  ],
+  [
+   58.46,
+   61.04,
+   "Receptionist",
+   "Thank you, Ana. Please sit down."
+  ]
+ ]
+}

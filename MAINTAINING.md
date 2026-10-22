@@ -224,27 +224,27 @@ publishes the same way. Rebuilding the PDF, pictures, or audio needs a computer.
 
 ## 8. Level 1
 
-Level 1 (beginner) is built **one lesson at a time**. Lesson 1 is finished; Lessons 2–13 show as "coming soon" on the website
+Level 1 (beginner) is built **one lesson at a time**. Lessons 1–4 are finished; Lessons 5–13 show as "coming soon" on the website
 until their Markdown file exists. Level 1 uses the same tools as Level 2, with its files kept apart so names never collide
-(Level 1 pictures are also called `L1_*.png`, but they live in `level1/images/` and `public/level1/images/`).
+(Level 1 pictures live in `level1/images/` and `public/level1/images/`: Lesson 1 = `L1_<word>.png`, Lessons 2+ = `L1_L<N>_<word>.png`).
 
 ### What is where (Level 1)
 
 | Folder / file | What it is |
 |---|---|
 | `level1/curriculum/Level1_Scope_and_Sequence.md` | The plan for all 16 weeks. **The website takes the Level 1 lesson list, titles, weeks, semester table, and class routine from here** (section 5 "The Semester at a Glance" and 4.1). |
-| `level1/curriculum/Level1_Lesson1.md` | **Lesson 1 text**: teacher plan + student pages. The lesson page, the PDF, and the DOCX all come from this file. |
-| `level1/curriculum/build.sh`, `md2docx_L1.py` | Build the lesson DOCX + PDF. `md2docx_L1.py` is the Level 2 converter plus one table type (`<!-- grid -->`, for the alphabet grids). |
-| `level1/images/` | Vocabulary pictures (600×420 PNG), `images_L1.json` (what each picture shows), `CREDITS.md`, and `tools/make_images_L1.py` (the drawing script). |
-| `level1/audio/` | `L1_listening.mp3` (**the published audio**), check results and regen log, `README.md`, and `tools/` (script, build, check, and fix scripts). The WAV master is not committed. |
-| `level1/slides/Level1_Lesson1_Slides.pptx` | **The editable slide deck** (source for the download and the in-browser presenter). |
+| `level1/curriculum/Level1_Lesson1.md` … `Level1_Lesson4.md` | **Lesson text**: teacher plan + student pages. The lesson page, the PDF, and the DOCX all come from this file. |
+| `level1/curriculum/build.sh`, `md2docx_L1.py` | Build the lesson DOCX + PDF. `md2docx_L1.py` is the Level 2 converter plus one table type (`<!-- grid -->`, for the alphabet grids); a one-picture table prints as one big picture (Lesson 4 family trees). |
+| `level1/images/` | Vocabulary pictures (600×420 PNG), `images_L1.json` / `images_L1_L<N>.json` (what each picture shows), `CREDITS.md` (one section per lesson), and `tools/make_images_L1.py`, `tools/make_images_L1_L<N>.py` (the drawing scripts; Lessons 2+ use the helpers in `tools/lib/`). |
+| `level1/audio/` | `L1_listening.mp3` and `L1_L<N>_listening.mp3` (**the published audio**), check results and regen logs, `README.md` (Lesson 1) and `L1_L<N>_README.md`, and `tools/` (Lesson 1 scripts; `tools/lessons/` = the shared builder and checker for Lessons 2+, with `script_L1_L<N>.py`). The WAV masters are not committed. |
+| `level1/slides/Level1_Lesson<N>_Slides.pptx` | **The editable slide decks** (source for the downloads and the in-browser presenter). |
 | `public/level1/` | What the website serves. **Don't edit here**: it is refreshed from the folders above. |
 
 ### Rebuild after a change (any Level 1 file)
 
 ```bash
-PYTHON=.venv-docs/bin/python level1/curriculum/build.sh 1 --publish    # Lesson 1 DOCX + PDF -> public/level1/downloads/
-python3 scripts/export_deck.py level1/slides/Level1_Lesson1_Slides.pptx 1 --level 1   # only if the slides changed
+PYTHON=.venv-docs/bin/python level1/curriculum/build.sh 1 --publish    # Lesson 1 DOCX + PDF -> public/level1/downloads/ (2, 3, 4 for the other lessons)
+python3 scripts/export_deck.py level1/slides/Level1_Lesson1_Slides.pptx 1 --level 1   # only if the slides changed (same for Lesson<N>, N)
 python3 scripts/export_content.py                                     # lesson pages + copies pictures, MP3, PPTX into public/level1/
 npm run dev                                                           # check #/level1/lesson/1 and #/level1/present/1
 ```
@@ -254,7 +254,7 @@ Without `--publish`, `build.sh` writes to `level1/curriculum/build/` (not commit
 
 **Lesson text:** edit `level1/curriculum/Level1_Lesson1.md`. Keep the headings and the `<!-- part: ... -->` comments:
 the website finds the teacher plan between `<!-- part: Teacher Plan` and `<!-- part: Student Workbook`, and makes one
-student section for each `## ` heading after that (`## Lesson 1 (Week 1): ...` = New Words, `## Lesson 1 (Week 1) · Listening`, …) up to
+student section for each `## ` heading after that (`## Lesson 1 (Week 1): ...` = New Words in Lesson 1; from Lesson 2 on, that first page is named after its first task, e.g. Hello + Review, and `· New Words` holds the pictures; `## Lesson 1 (Week 1) · Listening`, …) up to
 `## Picture Credits`. The New Words picture table becomes the word cards; the audio player goes at the top of the Listening section.
 
 **Slides:** open `level1/slides/Level1_Lesson1_Slides.pptx` in PowerPoint or LibreOffice Impress, edit, save with the same name
@@ -295,16 +295,41 @@ reuses the narrator and receptionist takes from the build above (so run `build_L
 It is committed; `make_ana_ref.py` remakes it (details in `ana_ref.json`). Carlos uses the Kokoro-made `Sam` clip in `tools/audio/samples/refs/`.
 The exact command is at the top of `build_natural.py`. Every voice reference must be a synthetic (Kokoro-made) clip, not a recording of a real person.
 
-### Add the next lesson (example: Lesson 2)
+### Lessons 2–4: pictures and audio
 
-1. Write `level1/curriculum/Level1_Lesson2.md`, starting from a copy of `Level1_Lesson1.md`, with the same parts and heading pattern
-   (`## Lesson 2 (Week 2): Where Are You From?`, `## Lesson 2 (Week 2) · Listening`, …). Use the title and week from the scope and sequence.
-2. Pictures: `level1/images/L2_<word>.png` (Level 1 lesson numbers, so `L2_` = Level 1 Lesson 2); link them as `images/L2_<word>.png` in the Markdown.
-3. Audio: `level1/audio/L2_listening.mp3` (copy and adapt the scripts in `level1/audio/tools/`).
-4. Slides: `level1/slides/Level1_Lesson2_Slides.pptx`, then `python3 scripts/export_deck.py level1/slides/Level1_Lesson2_Slides.pptx 2 --level 1`.
-5. `level1/curriculum/build.sh 2 --publish`, then `python3 scripts/export_content.py`.
-   The lesson page, presenter (`#/level1/present/2`), downloads, and lesson list update by themselves; no website code changes are needed.
-6. Update the home-page note "Lesson 1 is ready. Lessons 2–13 are coming soon." in `src/level1.tsx` (the level picker counts ready lessons by itself).
+**Pictures:** `cd level1/images/tools && ../../../.venv-img/bin/python make_images_L1_L2.py` (or `_L3`, `_L4`) writes the PNGs and
+`images_L1_L<N>.json` into `level1/images/`. The helpers are in `tools/lib/make_images.py` (Twemoji SVGs are downloaded into
+`tools/lib/_twemoji_src/`, not committed). `tools/lib/make_credits.py N ../..` drafts that lesson's credits section
+(`CREDITS_L1_L<N>.new.md`, not committed); paste it over the lesson's section in `level1/images/CREDITS.md`.
+
+**Audio:** the shared builder is `level1/audio/tools/lessons/build_listening.py`; the words for each lesson are in
+`script_L1_L<N>.py` (keep them the same as the Markdown). Every voice is a synthetic Kokoro-82M clip (`refs.py`, `REFS.md`):
+the clips in `tools/audio/samples/refs/` and Ana's `level1/audio/tools/natural/kokoro_refs/af_jessica.wav`. `engine.py` refuses any other file.
+
+```bash
+cd level1/audio/tools/lessons
+../../../../.venv-audio/bin/python build_listening.py script_L1_L2.py $PWD/out/L1_L2_listening      # -> out/L1_L2_listening.wav/.mp3 + _log.json
+../../../../.venv-audio/bin/python check_listening.py script_L1_L2.py out/L1_L2_listening.mp3 out/L1_L2_listening_log.json out/L1_L2_check_results.json
+../../../../.venv-audio/bin/python second_opinion.py script_L1_L2.py out/L1_L2_listening.mp3       # optional: Whisper medium.en
+```
+
+Each sentence is one whole Chatterbox take (`EXAG=0.72 CFG=0.32`, several seeds; the best take that passes Whisper, edge,
+artifact, and pitch checks is kept). If a take is rejected later, add `EXCLUDE='{"<sentence>": [<seed>]}'` and run the build again
+(takes are cached in `cache/`). Copy `out/L1_L<N>_listening.mp3` into `level1/audio/`, the log as `L1_L<N>_regen_log.json` and the
+check as `L1_L<N>_check_results.json`; `out/` and `cache/` are not committed. Details for each lesson: `level1/audio/L1_L<N>_README.md`.
+
+### Add the next lesson (example: Lesson 5)
+
+1. Write `level1/curriculum/Level1_Lesson5.md`, starting from a copy of `Level1_Lesson4.md`, with the same parts and heading pattern
+   (`## Lesson 5 (Week 5): ...` = the first page, `## Lesson 5 (Week 5) · New Words` = the picture page, `## Lesson 5 (Week 5) · Listening`, …).
+   Use the title and week from the scope and sequence. If there are two Talk Time pages, the website keeps both full names.
+2. Pictures: `level1/images/L1_L5_<word>.png` (made by `level1/images/tools/make_images_L1_L5.py`); link them as `images/L1_L5_<word>.png`
+   in the Markdown, and add a Lesson 5 section to `level1/images/CREDITS.md`.
+3. Audio: `level1/audio/L1_L5_listening.mp3` (write `level1/audio/tools/lessons/script_L1_L5.py` and build it as above).
+4. Slides: `level1/slides/Level1_Lesson5_Slides.pptx`, then `python3 scripts/export_deck.py level1/slides/Level1_Lesson5_Slides.pptx 5 --level 1`.
+5. `level1/curriculum/build.sh 5 --publish`, then `python3 scripts/export_content.py`.
+   The lesson page, presenter (`#/level1/present/5`), downloads, lesson list, and the "Lessons 1–N are ready" notes update by themselves;
+   no website code changes are needed.
 
 ### Publish
 

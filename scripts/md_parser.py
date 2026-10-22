@@ -70,6 +70,8 @@ def table(rows,cls=''):
     vocab=all(not h for h in hdr) and '<img' in inline(rows[2])
     if vocab:
         items=[c for r in body for c in r if c]
+        if not any('<br>' in c for c in items):   # one big picture with no caption (Level 1 Lesson 4 family trees)
+            return '<div class="pictures">'+''.join(f'<figure>{inline(c)}</figure>' for c in items)+'</div>'
         out=[]
         for c in items:
             m=re.match(r'(!\[[^\]]*\]\([^)]+\))<br>(.*)',c)

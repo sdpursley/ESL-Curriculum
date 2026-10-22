@@ -1,0 +1,181 @@
+{
+ "file": "L1_L3_listening.mp3",
+ "duration_s": 64.69,
+ "wer": 0.0309,
+ "errors": 3,
+ "ref_words": 97,
+ "diffs": [
+  {
+   "op": "delete",
+   "ref": "here you go",
+   "hyp": "",
+   "ctx": "sign here please ok here you go thank you ana please"
+  }
+ ],
+ "low_prob_words": [],
+ "lines_ok": "13/13",
+ "lines_with_flags": [
+  {
+   "t": 35.29,
+   "spk": "Ana",
+   "line": "It's 210 Pine Street, Apartment 3.",
+   "ok": true,
+   "hyp": "it's 210 pine street apartment 3",
+   "min_prob": 0.79,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 227.7
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Receptionist": 190.3,
+  "Ana": 235.8,
+  "Narrator": 187.1
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.1,
+ "peak": 0.895,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 8.54,
+   "spk": "Receptionist",
+   "line": "Good morning. Can I help you?",
+   "ok": true,
+   "hyp": "good morning can i help you",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 173.5
+  },
+  {
+   "t": 11.31,
+   "spk": "Ana",
+   "line": "Hi. I'm a new patient. My name is Ana Ruiz.",
+   "ok": true,
+   "hyp": "hi i'm a new patient my name is ana ruiz",
+   "min_prob": 0.2,
+   "flags": [],
+   "f0_med": 244.0
+  },
+  {
+   "t": 16.71,
+   "spk": "Receptionist",
+   "line": "OK, Ana. What's your phone number?",
+   "ok": true,
+   "hyp": "ok ana what's your phone number",
+   "min_prob": 0.61,
+   "flags": [],
+   "f0_med": 190.3
+  },
+  {
+   "t": 20.07,
+   "spk": "Ana",
+   "line": "It's 555-0142.",
+   "ok": true,
+   "hyp": "it's 5550142",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 198.8
+  },
+  {
+   "t": 24.06,
+   "spk": "Receptionist",
+   "line": "Sorry. Can you repeat, please?",
+   "ok": true,
+   "hyp": "sorry can you repeat please",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 206.4
+  },
+  {
+   "t": 27.65,
+   "spk": "Ana",
+   "line": "Sure. 555-0142.",
+   "ok": true,
+   "hyp": "sure 5550142",
+   "min_prob": 0.19,
+   "flags": [],
+   "f0_med": 229.0
+  },
+  {
+   "t": 32.15,
+   "spk": "Receptionist",
+   "line": "Thank you. And what's your address?",
+   "ok": true,
+   "hyp": "thank you and what's your address",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 219.3
+  },
+  {
+   "t": 35.29,
+   "spk": "Ana",
+   "line": "It's 210 Pine Street, Apartment 3.",
+   "ok": true,
+   "hyp": "it's 210 pine street apartment 3",
+   "min_prob": 0.79,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 227.7
+  },
+  {
+   "t": 39.69,
+   "spk": "Receptionist",
+   "line": "210 Pine Street, Apartment 3. What's the city?",
+   "ok": true,
+   "hyp": "210 pine street apartment 3 what's the city",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 170.5
+  },
+  {
+   "t": 44.44,
+   "spk": "Ana",
+   "line": "Riverside. The ZIP code is 54107.",
+   "ok": true,
+   "hyp": "riverside the zip code is 54107",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 242.6
+  },
+  {
+   "t": 49.65,
+   "spk": "Receptionist",
+   "line": "Thank you. Please write your email here. And sign here, please.",
+   "ok": true,
+   "hyp": "thank you please write your email here and sign here please",
+   "min_prob": 0.29,
+   "flags": [],
+   "f0_med": 189.2
+  },
+  {
+   "t": 55.66,
+   "spk": "Ana",
+   "line": "OK. Here you go.",
+   "ok": true,
+   "hyp": "ok here you go",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 245.4
+  },
+  {
+   "t": 58.46,
+   "spk": "Receptionist",
+   "line": "Thank you, Ana. Please sit down.",
+   "ok": true,
+   "hyp": "thank you ana please sit down",
+   "min_prob": 0.81,
+   "flags": [],
+   "f0_med": 195.3
+  }
+ ],
+ "hyp": "lesson 3 listening ana is at a clinic she is a new patient listen good morning can i help you hi i'm a new patient my name is ana ruiz ok ana what's your phone number it's 5550142 sorry can you repeat please sure 5550142 thank you and what's your address it's 210 pine street apartment 3210 pine street apartment 3 what's the city riverside the zip code is 54107 thank you please write your email here and sign here please ok thank you ana please sit down that's the end of the listening"
+}

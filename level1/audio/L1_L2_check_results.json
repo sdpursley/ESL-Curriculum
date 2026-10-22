@@ -1,0 +1,215 @@
+{
+ "file": "L1_L2_listening.mp3",
+ "duration_s": 77.24,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 128,
+ "diffs": [],
+ "low_prob_words": [
+  [
+   "San",
+   41.99,
+   0.23
+  ],
+  [
+   "twelve",
+   50.87,
+   0.25
+  ]
+ ],
+ "lines_ok": "16/16",
+ "lines_with_flags": [
+  {
+   "t": 42.03,
+   "spk": "Rosa",
+   "line": "San Salvador. My son is here, too. He's in the kids' class.",
+   "ok": true,
+   "hyp": "san salvador my son is here too he's in the kids' class",
+   "min_prob": 0.45,
+   "flags": [
+    "noisy/hissy 620ms"
+   ],
+   "f0_med": 241.2
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Rosa": 218.9,
+  "Marco": 115.6,
+  "Narrator": 200.5
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.6,
+ "peak": 0.88,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 10.16,
+   "spk": "Rosa",
+   "line": "Hi! I'm Rosa. What's your name?",
+   "ok": true,
+   "hyp": "hi i'm rosa what's your name",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 186.0
+  },
+  {
+   "t": 14.61,
+   "spk": "Marco",
+   "line": "Hi, Rosa. I'm Marco. Nice to meet you.",
+   "ok": true,
+   "hyp": "hi rosa i'm marco nice to meet you",
+   "min_prob": 0.67,
+   "flags": [],
+   "f0_med": 131.5
+  },
+  {
+   "t": 18.96,
+   "spk": "Rosa",
+   "line": "Nice to meet you, too. Where are you from, Marco?",
+   "ok": true,
+   "hyp": "nice to meet you too where are you from marco",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 216.7
+  },
+  {
+   "t": 23.65,
+   "spk": "Marco",
+   "line": "I'm from Mexico.",
+   "ok": true,
+   "hyp": "i'm from mexico",
+   "min_prob": 0.95,
+   "flags": [],
+   "f0_med": 111.2
+  },
+  {
+   "t": 26.1,
+   "spk": "Rosa",
+   "line": "Oh, nice! What city?",
+   "ok": true,
+   "hyp": "oh nice what city",
+   "min_prob": 0.76,
+   "flags": [],
+   "f0_med": 246.2
+  },
+  {
+   "t": 29.67,
+   "spk": "Marco",
+   "line": "Guadalajara. And you? Are you from Mexico, too?",
+   "ok": true,
+   "hyp": "guadalajara and you are you from mexico too",
+   "min_prob": 0.6,
+   "flags": [],
+   "f0_med": 106.8
+  },
+  {
+   "t": 34.41,
+   "spk": "Rosa",
+   "line": "No, I'm not. I'm from El Salvador.",
+   "ok": true,
+   "hyp": "no i'm not i'm from el salvador",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 221.2
+  },
+  {
+   "t": 38.89,
+   "spk": "Marco",
+   "line": "Oh, OK. What city?",
+   "ok": true,
+   "hyp": "oh ok what city",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 121.3
+  },
+  {
+   "t": 42.03,
+   "spk": "Rosa",
+   "line": "San Salvador. My son is here, too. He's in the kids' class.",
+   "ok": true,
+   "hyp": "san salvador my son is here too he's in the kids' class",
+   "min_prob": 0.45,
+   "flags": [
+    "noisy/hissy 620ms"
+   ],
+   "f0_med": 241.2
+  },
+  {
+   "t": 47.97,
+   "spk": "Marco",
+   "line": "Oh, how old is he?",
+   "ok": true,
+   "hyp": "oh how old is he",
+   "min_prob": 0.56,
+   "flags": [],
+   "f0_med": 141.8
+  },
+  {
+   "t": 50.59,
+   "spk": "Rosa",
+   "line": "He's twelve years old.",
+   "ok": true,
+   "hyp": "he's 12 years old",
+   "min_prob": 0.67,
+   "flags": [],
+   "f0_med": 272.3
+  },
+  {
+   "t": 53.23,
+   "spk": "Marco",
+   "line": "Twelve? That's great. My friends are here, too. They're from Honduras.",
+   "ok": true,
+   "hyp": "12 that's great my friends are here too they're from honduras",
+   "min_prob": 0.31,
+   "flags": [],
+   "f0_med": 111.2
+  },
+  {
+   "t": 59.72,
+   "spk": "Rosa",
+   "line": "Is the teacher from Mexico?",
+   "ok": true,
+   "hyp": "is the teacher from mexico",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 192.5
+  },
+  {
+   "t": 62.86,
+   "spk": "Marco",
+   "line": "No, she isn't. She's from the United States.",
+   "ok": true,
+   "hyp": "no she isn't she's from the united states",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 95.7
+  },
+  {
+   "t": 67.63,
+   "spk": "Rosa",
+   "line": "OK. Time for class! See you later, Marco.",
+   "ok": true,
+   "hyp": "ok time for class see you later marco",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 214.3
+  },
+  {
+   "t": 72.81,
+   "spk": "Marco",
+   "line": "See you later!",
+   "ok": true,
+   "hyp": "see you later",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 119.9
+  }
+ ],
+ "hyp": "lesson 2 listening it's the break at english class rosa and marco are new students listen hi i'm rosa what's your name hi rosa i'm marco nice to meet you nice to meet you too where are you from marco i'm from mexico oh nice what city guadalajara and you are you from mexico too no i'm not i'm from el salvador oh ok what city san salvador my son is here too he's in the kids' class oh how old is he he's 12 years old 12 that's great my friends are here too they're from honduras is the teacher from mexico no she isn't she's from the united states ok time for class see you later marco see you later that's the end of the listening"
+}
