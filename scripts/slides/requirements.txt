@@ -1,0 +1,4 @@
+# Slide deck tools (scripts/slides/*.py). Install: python3 -m pip install -r scripts/slides/requirements.txt
+python-pptx>=1.0.2
+lxml>=5.0
+Pillow>=10.0

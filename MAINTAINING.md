@@ -6,7 +6,7 @@ Sections 1–7 are about **Level 2** (and the website in general). **Level 1** h
 You do not need to be a programmer. Copy the commands as written, and run them from the repository folder.
 
 **[AGENTS.md](AGENTS.md)** is the short, exact handoff guide (layout, content rules, voices, audio checks, step-by-step for a new lesson
-or exam, repository rules) for another AI coding tool or a person continuing the work. Read it first; this file has the longer how-to.
+or exam, how to build slide decks for any level in its section 6, repository rules) for another AI coding tool or a person continuing the work. Read it first; this file has the longer how-to.
 
 ## What is where
 
@@ -438,7 +438,7 @@ Whisper results can differ slightly between runs; if one line fails the whole-fi
 ### Add the next lesson (example: Lesson 2)
 
 As in section 8: `level3/curriculum/Level3_Lesson2.md`, pictures `level3/images/L3_L2_<word>.png`, audio `level3/audio/L3_L2_listening.mp3`,
-slides `level3/slides/Level3_Lesson2_Slides.pptx` (`export_deck.py ... 2 --level 3`), then `level3/curriculum/build.sh 2 --publish` and
+slides `level3/slides/Level3_Lesson2_Slides.pptx` (built with `scripts/slides/build_deck.py` from `level3/slides/specs/`, see AGENTS.md section 6; then `export_deck.py ... 2 --level 3`), then `level3/curriculum/build.sh 2 --publish` and
 `python3 scripts/export_content.py`. Update the "Lesson 1 is ready" sentence on the Level 3 overview in `src/level3.tsx`.
 
 ### Publish
