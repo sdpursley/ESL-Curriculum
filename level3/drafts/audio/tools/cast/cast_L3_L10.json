@@ -1,0 +1,20 @@
+{
+ "TITLE": "Step by Step",
+ "VOICES": {
+  "Narrator": "N",
+  "Maria": "Rosa",
+  "Tom": "Marco"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Maria"
+ ],
+ "NAMES": [
+  "maria",
+  "tom"
+ ],
+ "SAME": {
+  "okay": "ok"
+ },
+ "TTS": {}
+}

@@ -1,0 +1,21 @@
+{
+ "TITLE": "Where I'm Going",
+ "VOICES": {
+  "Narrator": "N",
+  "Mr. Novak": "Server",
+  "Sofia": "Rosa"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Sofia"
+ ],
+ "NAMES": [
+  "sofia",
+  "novak"
+ ],
+ "SAME": {
+  "okay": "ok",
+  "mister": "mr"
+ },
+ "TTS": {}
+}

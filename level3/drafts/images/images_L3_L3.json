@@ -1,0 +1,151 @@
+[
+ {
+  "file": "L3_L3_childhood.png",
+  "lesson": "Level3-L3",
+  "word": "childhood",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1",
+   "1f9d2"
+  ],
+  "note": "a child, an arrow, an adult; the child is circled, label \"childhood = when you were a child\" (frame, arrow, labels drawn)"
+ },
+ {
+  "file": "L3_L3_village.png",
+  "lesson": "Level3-L3",
+  "word": "village",
+  "kind": "vocab",
+  "twemoji": [
+   "1f333",
+   "1f3d8"
+  ],
+  "note": "small houses and trees, label \"a small village\""
+ },
+ {
+  "file": "L3_L3_farm.png",
+  "lesson": "Level3-L3",
+  "word": "farm",
+  "kind": "vocab",
+  "twemoji": [
+   "1f33e",
+   "1f404",
+   "1f69c"
+  ],
+  "note": "a tractor, a cow and a sheaf of rice/grain, label"
+ },
+ {
+  "file": "L3_L3_river.png",
+  "lesson": "Level3-L3",
+  "word": "river",
+  "kind": "vocab",
+  "twemoji": [
+   "1f333",
+   "1f6f6"
+  ],
+  "note": "a blue river with two trees and a small boat (river drawn)"
+ },
+ {
+  "file": "L3_L3_climb_trees.png",
+  "lesson": "Level3-L3",
+  "word": "climb trees",
+  "kind": "vocab",
+  "twemoji": [
+   "1f333",
+   "1f9d2"
+  ],
+  "note": "a child climbs a big tree and holds a branch (body, arms, branch drawn), label"
+ },
+ {
+  "file": "L3_L3_chores.png",
+  "lesson": "Level3-L3",
+  "word": "chores",
+  "kind": "vocab",
+  "twemoji": [
+   "1f37d",
+   "1f9f9",
+   "1f9fa"
+  ],
+  "note": "broom, laundry basket, plate; labels \"chores\", \"sweep • wash clothes • wash dishes\""
+ },
+ {
+  "file": "L3_L3_feed_the_animals.png",
+  "lesson": "Level3-L3",
+  "word": "feed the animals",
+  "kind": "vocab",
+  "twemoji": [
+   "1f33d",
+   "1f414",
+   "1f416",
+   "1f9d1-200d-1f33e"
+  ],
+  "note": "a farmer, corn, a chicken and a pig, label"
+ },
+ {
+  "file": "L3_L3_radio.png",
+  "lesson": "Level3-L3",
+  "word": "radio",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3b5",
+   "1f4fb"
+  ],
+  "note": "an old radio + music notes, label"
+ },
+ {
+  "file": "L3_L3_letter.png",
+  "lesson": "Level3-L3",
+  "word": "letter (mail)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ec",
+   "2709"
+  ],
+  "note": "an envelope + a mailbox, label \"a letter (mail)\""
+ },
+ {
+  "file": "L3_L3_landline_phone.png",
+  "lesson": "Level3-L3",
+  "word": "landline phone",
+  "kind": "vocab",
+  "twemoji": [
+   "260e"
+  ],
+  "note": "a telephone with a cord, label, \"at home\""
+ },
+ {
+  "file": "L3_L3_jump_rope.png",
+  "lesson": "Level3-L3",
+  "word": "jump rope",
+  "kind": "vocab",
+  "twemoji": [
+   "1f467"
+  ],
+  "note": "a girl inside a turning jump rope (rope drawn), label"
+ },
+ {
+  "file": "L3_L3_then_now.png",
+  "lesson": "Level3-L3",
+  "word": "then / now",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4bb",
+   "1f4f1",
+   "1f4fb",
+   "2709"
+  ],
+  "note": "THEN: radio and letter | NOW: phone and laptop (dividing line and labels drawn)"
+ },
+ {
+  "file": "L3_L3_old_photo.png",
+  "lesson": "Level3-L3",
+  "word": "Listening picture (an old photo)",
+  "kind": "activity",
+  "twemoji": [
+   "1f333",
+   "1f3e1",
+   "1f404",
+   "1f467"
+  ],
+  "note": "an old photo: a farmhouse, a tree, a cow, a river and two girls (photo frame and river drawn)"
+ }
+]

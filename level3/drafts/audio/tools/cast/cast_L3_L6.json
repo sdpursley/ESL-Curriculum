@@ -1,0 +1,6 @@
+{"TITLE": "Be Ready",
+ "VOICES": {"Narrator": "N", "Nadia": "Ana_af_jessica", "Ben": "Server"},
+ "FEMALE": ["Narrator", "Nadia"],
+ "NAMES": ["nadia", "ben", "green"],
+ "SAME": {"okay": "ok", "fridge": "fridge"},
+ "TTS": {}}

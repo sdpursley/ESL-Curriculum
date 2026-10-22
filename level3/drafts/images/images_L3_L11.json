@@ -1,0 +1,147 @@
+[
+ {
+  "file": "L3_L11_exciting.png",
+  "lesson": "Level3-L11",
+  "word": "exciting / excited",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3a2",
+   "1f929"
+  ],
+  "note": "a roller coaster, an arrow, a star-struck face"
+ },
+ {
+  "file": "L3_L11_boring.png",
+  "lesson": "Level3-L11",
+  "word": "boring / bored",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c3",
+   "1f971"
+  ],
+  "note": "a long page, an arrow, a yawning face"
+ },
+ {
+  "file": "L3_L11_interesting.png",
+  "lesson": "Level3-L11",
+  "word": "interesting / interested",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4d6",
+   "1f9d0"
+  ],
+  "note": "an open book, an arrow, a face with a monocle"
+ },
+ {
+  "file": "L3_L11_confusing.png",
+  "lesson": "Level3-L11",
+  "word": "confusing / confused",
+  "kind": "vocab",
+  "twemoji": [
+   "1f5fa",
+   "1f615"
+  ],
+  "note": "a map, an arrow, a confused face"
+ },
+ {
+  "file": "L3_L11_relaxing.png",
+  "lesson": "Level3-L11",
+  "word": "relaxing / relaxed",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3d6",
+   "1f60c"
+  ],
+  "note": "a beach, an arrow, a relieved face"
+ },
+ {
+  "file": "L3_L11_tiring.png",
+  "lesson": "Level3-L11",
+  "word": "tiring / tired",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3c3",
+   "1f62b"
+  ],
+  "note": "a runner, an arrow, a tired face"
+ },
+ {
+  "file": "L3_L11_surprising.png",
+  "lesson": "Level3-L11",
+  "word": "surprising / surprised",
+  "kind": "vocab",
+  "twemoji": [
+   "1f381",
+   "1f62e"
+  ],
+  "note": "a gift, an arrow, a surprised face"
+ },
+ {
+  "file": "L3_L11_festival.png",
+  "lesson": "Level3-L11",
+  "word": "festival",
+  "kind": "vocab",
+  "twemoji": [
+   "1f32e",
+   "1f388",
+   "1f3aa"
+  ],
+  "note": "a tent, a balloon, a taco"
+ },
+ {
+  "file": "L3_L11_concert.png",
+  "lesson": "Level3-L11",
+  "word": "concert",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3a4",
+   "1f3b6",
+   "1f3b8"
+  ],
+  "note": "a microphone, a guitar, music notes"
+ },
+ {
+  "file": "L3_L11_museum.png",
+  "lesson": "Level3-L11",
+  "word": "museum",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3db",
+   "1f5bc"
+  ],
+  "note": "a classical building and a framed picture"
+ },
+ {
+  "file": "L3_L11_fair.png",
+  "lesson": "Level3-L11",
+  "word": "fair",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3a1"
+  ],
+  "note": "a Ferris wheel"
+ },
+ {
+  "file": "L3_L11_review.png",
+  "lesson": "Level3-L11",
+  "word": "review (stars)",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "a drawn review card: 4 of 5 stars, \"Great food! The music was fun.\""
+ },
+ {
+  "file": "L3_L11_event_cards.png",
+  "lesson": "Level3-L11",
+  "word": "Talk Time: six event cards",
+  "kind": "activity",
+  "twemoji": [
+   "1f32e",
+   "1f3a1",
+   "1f3b5",
+   "1f4bb",
+   "1f697",
+   "26bd"
+  ],
+  "note": "six numbered cards: a taco, music notes, a car, a Ferris wheel, a laptop, a soccer ball; cards, stars, text drawn"
+ }
+]

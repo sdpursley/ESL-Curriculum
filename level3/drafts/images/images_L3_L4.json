@@ -1,0 +1,183 @@
+[
+ {
+  "file": "L3_L4_accident.png",
+  "lesson": "Level3-L4",
+  "word": "accident",
+  "kind": "vocab",
+  "twemoji": [
+   "1f697",
+   "1f699"
+  ],
+  "note": "two cars touching, a small dent circled, labels \"a small accident\", \"no one is hurt\" (dent mark, labels drawn)"
+ },
+ {
+  "file": "L3_L4_intersection.png",
+  "lesson": "Level3-L4",
+  "word": "intersection",
+  "kind": "vocab",
+  "twemoji": [
+   "1f697",
+   "1f6a6"
+  ],
+  "note": "two crossing roads seen from above, a car and a traffic light (roads drawn)"
+ },
+ {
+  "file": "L3_L4_traffic_light.png",
+  "lesson": "Level3-L4",
+  "word": "traffic light",
+  "kind": "vocab",
+  "twemoji": [
+   "1f6a6"
+  ],
+  "note": "a traffic light; \"red = stop\", \"yellow = slow\", \"green = go\""
+ },
+ {
+  "file": "L3_L4_stop_sign.png",
+  "lesson": "Level3-L4",
+  "word": "stop sign",
+  "kind": "vocab",
+  "twemoji": [
+   "1f6d1"
+  ],
+  "note": "a stop sign, label"
+ },
+ {
+  "file": "L3_L4_hit.png",
+  "lesson": "Level3-L4",
+  "word": "hit (a car)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f697",
+   "1f699"
+  ],
+  "note": "one car moves into another car (motion lines, arrow, small dent drawn), label"
+ },
+ {
+  "file": "L3_L4_dent.png",
+  "lesson": "Level3-L4",
+  "word": "dent",
+  "kind": "vocab",
+  "twemoji": [
+   "1f697"
+  ],
+  "note": "a car with a small dent circled (dent mark drawn), label"
+ },
+ {
+  "file": "L3_L4_driver.png",
+  "lesson": "Level3-L4",
+  "word": "driver",
+  "kind": "vocab",
+  "twemoji": [
+   "1f697",
+   "1f9d1"
+  ],
+  "note": "a person in a car, label"
+ },
+ {
+  "file": "L3_L4_police_officer.png",
+  "lesson": "Level3-L4",
+  "word": "police officer",
+  "kind": "vocab",
+  "twemoji": [
+   "1f46e",
+   "1f693"
+  ],
+  "note": "a police officer and a police car, label"
+ },
+ {
+  "file": "L3_L4_witness.png",
+  "lesson": "Level3-L4",
+  "word": "witness",
+  "kind": "vocab",
+  "twemoji": [
+   "1f440",
+   "1f697",
+   "1f699",
+   "1f9cd-200d-2640-fe0f"
+  ],
+  "note": "a woman, eyes, two cars; bubble \"I saw it.\" (bubble drawn)"
+ },
+ {
+  "file": "L3_L4_insurance_card.png",
+  "lesson": "Level3-L4",
+  "word": "insurance card",
+  "kind": "vocab",
+  "twemoji": [
+   "1f697"
+  ],
+  "note": "a drawn card \"INSURANCE CARD\" with Name / Policy # / Car lines + a car"
+ },
+ {
+  "file": "L3_L4_report.png",
+  "lesson": "Level3-L4",
+  "word": "report",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4dd"
+  ],
+  "note": "a drawn form \"ACCIDENT REPORT\" (Date, Time, Place, What happened?) + a pencil and paper"
+ },
+ {
+  "file": "L3_L4_wet_floor.png",
+  "lesson": "Level3-L4",
+  "word": "wet floor",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a7"
+  ],
+  "note": "a yellow \"WET FLOOR\" sign, a puddle and water drops (sign, puddle drawn)"
+ },
+ {
+  "file": "L3_L4_street.png",
+  "lesson": "Level3-L4",
+  "word": "Talk Time picture 1: Main Street",
+  "kind": "activity",
+  "twemoji": [
+   "1f366",
+   "1f415",
+   "1f467",
+   "1f468",
+   "1f4f1",
+   "1f697",
+   "1f699",
+   "1f6a6",
+   "1f6b4-200d-2642-fe0f",
+   "1f6b6-200d-2640-fe0f",
+   "1f6b6-200d-2642-fe0f",
+   "1f9cd-200d-2640-fe0f"
+  ],
+  "note": "a street corner: two cars, a traffic light, a woman crossing, a man on a bike, a man with a dog, a woman at the bus stop, a man on the phone, a girl with ice cream (roads, crosswalk, signs drawn)"
+ },
+ {
+  "file": "L3_L4_parking_lot.png",
+  "lesson": "Level3-L4",
+  "word": "Talk Time picture 2: a parking lot",
+  "kind": "activity",
+  "twemoji": [
+   "1f3c3-200d-2640-fe0f",
+   "1f415",
+   "1f468",
+   "1f469",
+   "1f4e6",
+   "1f697",
+   "1f699",
+   "1f69a",
+   "1f6d2",
+   "1f9d1",
+   "2615"
+  ],
+  "note": "a store parking lot: cars, a truck, a woman with a shopping cart, a man with a box, a woman running, a person with coffee, a dog, a small dent (lot, signs drawn)"
+ },
+ {
+  "file": "L3_L4_story.png",
+  "lesson": "Level3-L4",
+  "word": "Read & Write picture story",
+  "kind": "activity",
+  "twemoji": [
+   "1f697",
+   "1f69a",
+   "1f6d1"
+  ],
+  "note": "four panels: driving to work at 8:10; stopping at a stop sign; a truck hits the car; a small dent, no one hurt (panels, captions, arrow, dent drawn)"
+ }
+]

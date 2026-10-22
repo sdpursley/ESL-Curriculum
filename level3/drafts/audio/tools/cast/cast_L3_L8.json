@@ -1,0 +1,6 @@
+{"TITLE": "Lost and Found",
+ "VOICES": {"Narrator": "N", "Joan": "Receptionist", "David": "Sam"},
+ "FEMALE": ["Narrator", "Joan"],
+ "NAMES": ["joan", "david"],
+ "SAME": {"okay": "ok"},
+ "TTS": {}}

@@ -1,0 +1,20 @@
+{
+ "TITLE": "Can I Exchange This?",
+ "VOICES": {
+  "Narrator": "N",
+  "Lina": "Rosa",
+  "Clerk": "Server"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Lina"
+ ],
+ "NAMES": [
+  "lina",
+  "valley"
+ ],
+ "SAME": {
+  "okay": "ok"
+ },
+ "TTS": {}
+}
