@@ -1,0 +1,133 @@
+[
+ {
+  "file": "L4_L8_news.png",
+  "lesson": "Level4-L8",
+  "word": "news",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f0",
+   "1f4fb"
+  ],
+  "note": "a newspaper and a radio"
+ },
+ {
+  "file": "L4_L8_reporter.png",
+  "lesson": "Level4-L8",
+  "word": "reporter",
+  "kind": "vocab",
+  "twemoji": [
+   "1f399",
+   "1f9d1"
+  ],
+  "note": "a person and a microphone [sign: NEWS]"
+ },
+ {
+  "file": "L4_L8_headline.png",
+  "lesson": "Level4-L8",
+  "word": "headline",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f0"
+  ],
+  "note": "a newspaper [sign: NEW STORE OPENS]"
+ },
+ {
+  "file": "L4_L8_road_closure.png",
+  "lesson": "Level4-L8",
+  "word": "road closure",
+  "kind": "vocab",
+  "twemoji": [
+   "1f6a7",
+   "1f6e3"
+  ],
+  "note": "a construction barrier and a road [sign: ROAD CLOSED]"
+ },
+ {
+  "file": "L4_L8_detour.png",
+  "lesson": "Level4-L8",
+  "word": "detour",
+  "kind": "vocab",
+  "twemoji": [
+   "1f68c",
+   "21aa"
+  ],
+  "note": "a bus and a turning arrow [sign: DETOUR]"
+ },
+ {
+  "file": "L4_L8_construction.png",
+  "lesson": "Level4-L8",
+  "word": "construction",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3d7",
+   "1f477"
+  ],
+  "note": "a construction worker and a crane"
+ },
+ {
+  "file": "L4_L8_water_pipe.png",
+  "lesson": "Level4-L8",
+  "word": "water pipe",
+  "kind": "vocab",
+  "twemoji": [
+   "1f527",
+   "1f6b0"
+  ],
+  "note": "a water tap and a wrench"
+ },
+ {
+  "file": "L4_L8_bus_route.png",
+  "lesson": "Level4-L8",
+  "word": "bus route",
+  "kind": "vocab",
+  "twemoji": [
+   "1f5fa",
+   "1f68c"
+  ],
+  "note": "a bus and a map [sign: ROUTE 12]"
+ },
+ {
+  "file": "L4_L8_delay.png",
+  "lesson": "Level4-L8",
+  "word": "delay",
+  "kind": "vocab",
+  "twemoji": [
+   "1f68f",
+   "23f3"
+  ],
+  "note": "a bus stop and an hourglass [sign: +15 MIN]"
+ },
+ {
+  "file": "L4_L8_announce.png",
+  "lesson": "Level4-L8",
+  "word": "announce",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4e2",
+   "1f9d1"
+  ],
+  "note": "a person and a loudspeaker"
+ },
+ {
+  "file": "L4_L8_update.png",
+  "lesson": "Level4-L8",
+  "word": "update",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f1",
+   "1f504"
+  ],
+  "note": "a phone and refresh arrows [sign: UPDATE]"
+ },
+ {
+  "file": "L4_L8_local.png",
+  "lesson": "Level4-L8",
+  "word": "local",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3d8",
+   "1f4cd"
+  ],
+  "note": "houses and a map pin"
+ }
+]

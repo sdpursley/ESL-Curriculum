@@ -2,7 +2,7 @@
 
 **Status:** Draft for review; not published.
 
-**72 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
+**96 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
 `tools/l4img.py` (copied from the Level 3 `l3img.py`; same card style as Levels 1-3). Vocabulary cards are 600×420.
 
 ## Sources and licenses
@@ -132,5 +132,43 @@ No photos or stock-site images are used.
 | L4_L6_mistake.png | mistake | a receipt and an X [sign: MISTAKE] | [1f9fe](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9fe.svg), [274c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/274c.svg) |
 | L4_L6_magic_wand.png | magic wand | a magic wand and sparkles | [1fa84](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1fa84.svg), [2728](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2728.svg) |
 | L4_L6_dream_job.png | dream job | a thought bubble and a cook [sign: DREAM JOB] | [1f4ad](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4ad.svg), [1f9d1-200d-1f373](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1-200d-1f373.svg) |
+
+### Lesson 7
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L7.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L7_on_time.png | on time | an alarm clock and a check mark [sign: 7:00] | [23f0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/23f0.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L4_L7_early.png | early | a sunrise and an alarm clock [sign: 6:50] | [1f305](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f305.svg), [23f0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/23f0.svg) |
+| L4_L7_late.png | late | a person running and an alarm clock [sign: 7:20] | [1f3c3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3c3.svg), [23f0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/23f0.svg) |
+| L4_L7_dress_code.png | dress code | a clipboard and a shirt with a tie [sign: DRESS CODE] | [1f454](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f454.svg), [1f4cb](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4cb.svg) |
+| L4_L7_uniform.png | uniform | a safety vest and a cap [sign: UNIFORM] | [1f9ba](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9ba.svg), [1f9e2](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9e2.svg) |
+| L4_L7_casual.png | casual | a T-shirt and jeans | [1f455](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f455.svg), [1f456](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f456.svg) |
+| L4_L7_formal.png | formal | a shirt with a tie and dress shoes | [1f454](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f454.svg), [1f45e](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f45e.svg) |
+| L4_L7_closed_toe_shoes.png | closed-toe shoes | a sneaker and a check mark [sign: CLOSED-TOE] | [1f45f](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f45f.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L4_L7_name_badge.png | name badge | a name badge [sign: HI, I'M NADIA] | [1f4db](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4db.svg) |
+| L4_L7_invitation.png | invitation | an envelope and a party popper [sign: PARTY SAT 7:00] | [1f389](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f389.svg), [2709](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2709.svg) |
+| L4_L7_rsvp.png | RSVP | a phone and a check mark [sign: RSVP BY FRI] | [1f4f1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f1.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L4_L7_host.png | host | a person and a house [sign: HOST] | [1f3e0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3e0.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
+
+### Lesson 8
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L8.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L8_news.png | news | a newspaper and a radio | [1f4f0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f0.svg), [1f4fb](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4fb.svg) |
+| L4_L8_reporter.png | reporter | a person and a microphone [sign: NEWS] | [1f399](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f399.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
+| L4_L8_headline.png | headline | a newspaper [sign: NEW STORE OPENS] | [1f4f0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f0.svg) |
+| L4_L8_road_closure.png | road closure | a construction barrier and a road [sign: ROAD CLOSED] | [1f6a7](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6a7.svg), [1f6e3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6e3.svg) |
+| L4_L8_detour.png | detour | a bus and a turning arrow [sign: DETOUR] | [1f68c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f68c.svg), [21aa](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/21aa.svg) |
+| L4_L8_construction.png | construction | a construction worker and a crane | [1f3d7](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3d7.svg), [1f477](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f477.svg) |
+| L4_L8_water_pipe.png | water pipe | a water tap and a wrench | [1f527](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f527.svg), [1f6b0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6b0.svg) |
+| L4_L8_bus_route.png | bus route | a bus and a map [sign: ROUTE 12] | [1f5fa](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f5fa.svg), [1f68c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f68c.svg) |
+| L4_L8_delay.png | delay | a bus stop and an hourglass [sign: +15 MIN] | [1f68f](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f68f.svg), [23f3](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/23f3.svg) |
+| L4_L8_announce.png | announce | a person and a loudspeaker | [1f4e2](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4e2.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
+| L4_L8_update.png | update | a phone and refresh arrows [sign: UPDATE] | [1f4f1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f1.svg), [1f504](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f504.svg) |
+| L4_L8_local.png | local | houses and a map pin | [1f3d8](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3d8.svg), [1f4cd](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4cd.svg) |
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0.
