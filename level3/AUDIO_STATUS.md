@@ -4,14 +4,14 @@ Draft for review. These lessons live in `level3/drafts/` and are **not on the we
 `level3/curriculum`, `level3/images`, `level3/audio` and `level3/slides`). How to record a lesson: AGENTS.md, section
 "Running audio locally". Update this file in the same commit as each finished MP3.
 
-Status as of 22 Oct 2026, 14:05 CDT, when the audio work stopped on the build computer and moved to a local computer.
+Status as of 22 Oct 2026, 16:15 CDT. Lessons marked **done** below passed the gate on this computer (CPU, faster-whisper float32).
 **Takes from the build computer are not in the repo and cannot be reused:** the take cache is keyed by file paths, and the same seed gives a
 different take on another computer or device. Every lesson that is not "done" must be recorded **from line 1** on the local
 computer. The notes below only say which lines gave trouble there, so watch them closely.
 
 | Lesson | Topic voices (cast) | Lines | Status | Result / what remains |
 |---|---|---|---|---|
-| 2 | Narrator, Linda (F, af_jessica), Omar (M, am_adam) | intro + 17 + end | **partial** | Build-computer run 1 FAILED (see notes). Script already trimmed to 17 lines. Record all lines again, then checks + gate. |
+| 2 | Narrator, Linda (F, af_jessica), Omar (M, am_adam) | intro + 17 + end | **done** | `drafts/audio/L3_L2_listening.mp3`, 1:28, gate PASS. Recorded from line 1 on this computer with local retakes. Human listen still outstanding. |
 | 3 | Narrator, Daniel (M, am_puck), Teresa (F, af_bella) | intro + 15 + end | **partial** | Build-computer gate FAILED at 1:15; a retake was stopped halfway. Record all lines again, then checks + gate. |
 | 4 | Narrator, Elena (F, af_heart), Mark (M, am_adam) | intro + 16 + end | **done** | `drafts/audio/L3_L4_listening.mp3`, 1:18, gate PASS (two-checker rule). |
 | 5 | Narrator, Carmen (F, af_river), David (M, am_michael) | intro + 14 + end | **done** | `drafts/audio/L3_L5_listening.mp3`, 1:17, gate PASS. |
@@ -28,7 +28,7 @@ The Narrator is always the `N` clip (Kokoro af_sarah, female). The full line tex
 `drafts/audio/tools/scripts/script_L3_L<N>.py` (`INTRO`, `LINES` = speaker + line, `END`), generated from the lesson Markdown by
 `make_script_L3.py`; voices and settings are in `drafts/audio/tools/cast/cast_L3_L<N>.json` and the AGENTS.md rules.
 
-**Summary:** done 2 (Lessons 4, 5) · partial 2 (Lessons 2, 3; re-record from line 1) · to-do 8 (Lessons 6-13).
+**Summary:** done 3 (Lessons 2, 4, 5) · partial 1 (Lessons 3) · to-do 8 (Lessons 6, 7, 8, 9, 10, 11, 12, 13).
 
 ## Notes from the build-computer runs
 
