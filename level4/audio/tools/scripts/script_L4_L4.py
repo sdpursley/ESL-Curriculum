@@ -4,8 +4,8 @@
 LESSON = 4
 TITLE = 'How Long Have You Had It?'
 VOICES = {'Narrator': 'N', 'Amina': 'Rosa', 'Daniel': 'Marco', 'Ms. Park': 'Receptionist'}
-FEMALE = {'Narrator', 'Amina', 'Ms. Park'}
-NAMES = {'park', 'amina', 'daniel'}
+FEMALE = {'Amina', 'Narrator', 'Ms. Park'}
+NAMES = {'amina', 'park', 'daniel'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson four. Amina is at a clinic. First, she talks to Daniel, the medical assistant.'

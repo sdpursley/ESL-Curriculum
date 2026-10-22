@@ -2,7 +2,7 @@
 
 **Status:** Draft for review; not published.
 
-**144 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
+**156 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
 `tools/l4img.py` (copied from the Level 3 `l3img.py`; same card style as Levels 1-3). Vocabulary cards are 600×420.
 
 ## Sources and licenses
@@ -246,5 +246,24 @@ No photos or stock-site images are used.
 | L4_L12_hang_up.png | hang up | a phone and a waving hand | [1f44b](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f44b.svg), [1f4de](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4de.svg) |
 | L4_L12_block.png | block (a number) | a phone and a no sign | [1f4f1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4f1.svg), [1f6ab](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f6ab.svg) |
 | L4_L12_trust.png | trust | a handshake and a check mark | [1f91d](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f91d.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+
+### Lesson 13
+
+12 files: 12 vocabulary cards. Made by `tools/make_images_L4_L13.py`.
+
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L4_L13_milestone.png | milestone | a checkered flag and a calendar | [1f3c1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3c1.svg), [1f4c5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c5.svg) |
+| L4_L13_challenge.png | challenge | a mountain and a person climbing | [1f9d7](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d7.svg), [26f0](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/26f0.svg) |
+| L4_L13_succeed.png | succeed | a target and a check mark | [1f3af](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3af.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L4_L13_confident.png | confident | a person standing and a strong arm | [1f4aa](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4aa.svg), [1f9cd](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9cd.svg) |
+| L4_L13_get_used_to.png | get used to | a city and a person [sign: DAY 1 → DAY 100] | [1f3d9](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3d9.svg), [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg) |
+| L4_L13_make_friends.png | make friends | two people holding hands and a waving hand | [1f44b](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f44b.svg), [1f9d1-200d-1f91d-200d-1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1-200d-1f91d-200d-1f9d1.svg) |
+| L4_L13_be_able_to.png | be able to | a paper and a check mark | [1f4dd](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4dd.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L4_L13_support.png | support | a handshake and a family | [1f468-200d-1f469-200d-1f467](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f468-200d-1f469-200d-1f467.svg), [1f91d](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f91d.svg) |
+| L4_L13_celebrate.png | celebrate | a party popper and a cake | [1f382](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f382.svg), [1f389](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f389.svg) |
+| L4_L13_timeline.png | timeline | a calendar and an arrow | [1f4c5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c5.svg), [27a1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/27a1.svg) |
+| L4_L13_speech.png | speech | a microphone and a teacher | [1f3a4](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3a4.svg), [1f9d1-200d-1f3eb](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1-200d-1f3eb.svg) |
+| L4_L13_audience.png | audience | two people and clapping hands | [1f44f](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f44f.svg), [1f465](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f465.svg) |
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0.

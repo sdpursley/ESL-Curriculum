@@ -4,7 +4,7 @@
 LESSON = 2
 TITLE = 'How Long Have You Lived Here?'
 VOICES = {'Narrator': 'N', 'Marisol': 'Ana_af_jessica', 'Mr. Chen': 'Carlos'}
-FEMALE = {'Narrator', 'Marisol'}
+FEMALE = {'Marisol', 'Narrator'}
 NAMES = {'marisol', 'chen'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}

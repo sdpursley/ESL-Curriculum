@@ -4,8 +4,8 @@
 LESSON = 6
 TITLE = 'What Would You Do?'
 VOICES = {'Narrator': 'N', 'Mike': 'Server', 'Grace': 'Ana_af_jessica', 'Teresa': 'Rosa'}
-FEMALE = {'Grace', 'Narrator', 'Teresa'}
-NAMES = {'grace', 'teresa', 'mike'}
+FEMALE = {'Teresa', 'Grace', 'Narrator'}
+NAMES = {'teresa', 'mike', 'grace'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson six. This is a radio show called What Would You Do? Mike is the host. Two people call the show.'

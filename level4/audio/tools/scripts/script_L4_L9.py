@@ -4,8 +4,8 @@
 LESSON = 9
 TITLE = 'I See Your Point'
 VOICES = {'Narrator': 'N', 'Mrs. Okafor': 'Kim', 'Ray': 'Sam', 'Lin': 'Ana_af_jessica'}
-FEMALE = {'Mrs. Okafor', 'Narrator', 'Lin'}
-NAMES = {'okafor', 'cedar', 'lin', 'ray'}
+FEMALE = {'Lin', 'Mrs. Okafor', 'Narrator'}
+NAMES = {'okafor', 'lin', 'ray', 'cedar'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson nine. Neighbors are at a community meeting. They are talking about the empty lot on Cedar Street.'

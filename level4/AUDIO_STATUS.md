@@ -18,4 +18,4 @@ When audio is made, it will use synthetic voices made with Chatterbox TTS (Resem
 | 10 | Turn It Off | `scripts/script_L4_L10.py` | `cast/cast_L4_L10.json` | to do |
 | 11 | Time Off | `scripts/script_L4_L11.py` | `cast/cast_L4_L11.json` | to do |
 | 12 | Is It a Scam? | `scripts/script_L4_L12.py` | `cast/cast_L4_L12.json` | to do |
-| 13 | My Story So Far | to write | to write | to do |
+| 13 | My Story So Far | `scripts/script_L4_L13.py` | `cast/cast_L4_L13.json` | to do |

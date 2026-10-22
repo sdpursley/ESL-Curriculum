@@ -4,8 +4,8 @@
 LESSON = 11
 TITLE = 'Time Off'
 VOICES = {'Narrator': 'N', 'Luis': 'Marco', 'Ms. Adams': 'Receptionist', 'Rosa': 'Rosa'}
-FEMALE = {'Ms. Adams', 'Rosa', 'Narrator'}
-NAMES = {'ana', 'ben', 'san antonio', 'rosa', 'luis', 'adams'}
+FEMALE = {'Narrator', 'Rosa', 'Ms. Adams'}
+NAMES = {'luis', 'ana', 'rosa', 'san antonio', 'ben', 'adams'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson eleven. Luis asks his supervisor for time off. Then he leaves a voicemail for his sister.'

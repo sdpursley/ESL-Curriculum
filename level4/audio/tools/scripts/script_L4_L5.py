@@ -4,8 +4,8 @@
 LESSON = 5
 TITLE = 'Would You Mind…?'
 VOICES = {'Narrator': 'N', 'Patricia': 'Kim', 'Mr. Wilson': 'Carlos', 'Omar': 'Sam'}
-FEMALE = {'Narrator', 'Patricia'}
-NAMES = {'wilson', 'omar', 'patricia', 'lina'}
+FEMALE = {'Patricia', 'Narrator'}
+NAMES = {'patricia', 'wilson', 'omar', 'lina'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson five. Patricia is going away for a week. First, she talks to her neighbor, Mr. Wilson.'

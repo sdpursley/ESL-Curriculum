@@ -17,7 +17,7 @@ md = open(f'{D}/Level4_Lesson{N}.md').read(); lines = md.split('\n'); bad = []
 ALLOWED = set('¡©«·»¿áéíñóúÁÉÍÓÚü–—‖•…→★☐✓✗↗↘') | {'😀', '🙂', '😐'}
 chars = sorted({c for c in md if ord(c) > 127 and c not in ALLOWED})
 if chars: bad.append(f'characters not allowed: {chars}')
-for w in ['Intercambio', 'secular', 'church', 'God', 'pray', 'prayer', 'Christmas', 'Easter', 'Ramadan', 'Hanukkah', 'temple', 'mosque', 'bible', 'blessed', 'religion', 'religious', 'copyright registration', 'registered copyright', 'Registered']:
+for w in ['Inter' + 'cambio', 'secular', 'church', 'God', 'pray', 'prayer', 'Christmas', 'Easter', 'Ramadan', 'Hanukkah', 'temple', 'mosque', 'bible', 'blessed', 'religion', 'religious', 'copyright registration', 'registered copyright', 'Registered']:
     if re.search(r'\b' + w + r'\b', md, re.I): bad.append(f'word found: {w}')
 if '© 2026 the authors, licensed under CC BY-NC-SA 4.0' not in md: bad.append('missing © 2026 the authors, CC BY-NC-SA 4.0')
 if re.search(r'\{\{|\}\}|\{[A-Z_]+\}|(?<![!\]])\[[a-z][^\]]*\](?!\()', md): bad.append('leftover spec markup ({{…}}, {EST} or [blank])')

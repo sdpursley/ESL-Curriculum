@@ -15,8 +15,9 @@ Audio: not rendered (scripts + cast only). Slides: not started (by request).
 | 8 | In the News | 29 | 267 words, about 1:59 | Diane Lee (Receptionist, F), Joy (Kim, F), Marco (Marco, M) | pass | yes |
 | 9 | I See Your Point | 29 | 244 words, about 1:48 | Lin (Ana_af_jessica, F), Mrs. Okafor (Kim, F), Ray (Sam, M) | pass | yes |
 | 10 | Turn It Off | 29 | 278 words, about 2:07 | Hana (Ana_af_jessica, F), Paul (Server, M), Sofia (Rosa, F) | pass | yes |
-| 11 | Time Off | 29 | 249 words, about 1:52 | Luis (Marco, M), Ms. Adams (Receptionist, F), Rosa (Rosa, F) | pass | no |
-| 12 | Is It a Scam? | 29 | 261 words, about 1:56 | Caller (Carlos, M), Daniel (Sam, M), Mrs. Lopez (Kim, F) | pass | no |
+| 11 | Time Off | 29 | 249 words, about 1:52 | Luis (Marco, M), Ms. Adams (Receptionist, F), Rosa (Rosa, F) | pass | yes |
+| 12 | Is It a Scam? | 29 | 261 words, about 1:56 | Caller (Carlos, M), Daniel (Sam, M), Mrs. Lopez (Kim, F) | pass | yes |
+| 13 | My Story So Far | 29 | 267 words, about 1:54 | Mariana (Ana_af_jessica, F), Mr. Hill (Carlos, M) | pass | no |
 
 ## Notes
 - Tools written: render_L4.py, std.py, check_lesson_L4.py, make_script_L4.py, make_credits_L4.py, l4img.py (card, vocab_run), md2docx_L4.py (= L3 md2docx), build_lesson_L4.sh.

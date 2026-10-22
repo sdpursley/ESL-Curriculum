@@ -4,8 +4,8 @@
 LESSON = 12
 TITLE = 'Is It a Scam?'
 VOICES = {'Narrator': 'N', 'Mrs. Lopez': 'Kim', 'Caller': 'Carlos', 'Daniel': 'Sam'}
-FEMALE = {'Narrator', 'Mrs. Lopez'}
-NAMES = {'daniel', 'city power', 'lopez', 'mike'}
+FEMALE = {'Mrs. Lopez', 'Narrator'}
+NAMES = {'lopez', 'daniel', 'city power', 'mike'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson twelve. Mrs. Lopez gets a phone call. Later, she talks to her son, Daniel.'

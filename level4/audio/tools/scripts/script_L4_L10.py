@@ -4,8 +4,8 @@
 LESSON = 10
 TITLE = 'Turn It Off'
 VOICES = {'Narrator': 'N', 'Sofia': 'Rosa', 'Hana': 'Ana_af_jessica', 'Paul': 'Server'}
-FEMALE = {'Narrator', 'Hana', 'Sofia'}
-NAMES = {'sofia', 'hana', 'paul', 'city power'}
+FEMALE = {'Hana', 'Narrator', 'Sofia'}
+NAMES = {'city power', 'sofia', 'hana', 'paul'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson ten. Two roommates, Sofia and Hana, look at their electric bill. Then Sofia calls the electric company.'
