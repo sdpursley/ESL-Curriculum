@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 4 Adult ESL Curriculum: Scope and Sequence (Draft for Review)
 
-**Status:** Plan only. No Level 4 lessons, pictures, audio, or slides have been built yet. Nothing has been published.
+**Status:** Plan approved on October 22, 2026, with the decisions in Section 8. The Level 4 lesson books are being built from it as drafts for review (no audio or slides yet). Nothing has been published.
 
 **Date:** October 22, 2026
 
@@ -22,7 +22,7 @@
 | 5. Semester at a glance | One table for all 16 weeks, and where every grammar strand is taught |
 | 6. Week by week | Every lesson: theme, can-do goals, grammar Q&A, words, listening, Read & Write, Talk Time, exit ticket |
 | 7. Midterm, final, and graduation | What each one covers and how it works |
-| 8. Open questions | Decisions for you before the full build |
+| 8. Decisions | The seven review decisions (approved), recorded for the lesson build |
 
 ---
 ## 1. Rationale and Research Basis
@@ -176,7 +176,7 @@ Every exit can-do, core grammar strand, and life-skill theme in the Level 4 outl
 | *could / was able to* for past ability (strand table, Level 4 = P) | Placed in Lesson 13 (life stories) | What you couldn't do before and can do now is the heart of the graduation talk |
 | *as … as / not as … as* (strand table, Level 4 = P) | Placed in Lesson 9 (opinions) as practice of comparatives | Comparing two plans is how people support an opinion |
 | "Give, ask for, and politely disagree with an opinion" | Taught as a functional-language box in Lesson 9, not a grammar strand | There is no single structure for it; the box gives fixed phrases |
-| Health history, insurance basics, dental and preventive care | All in Lesson 4; insurance is limited to reading an insurance card and the word *copay* | One health lesson keeps the topic practical and calm; insurance claims are a Level 5 theme |
+| Health history, insurance basics, dental and preventive care | All in Lesson 4; insurance is limited to reading an insurance card and the words *copay* and *deductible* (Decision 3) | One health lesson keeps the topic practical and calm; insurance claims are a Level 5 theme |
 | "Ask for time off and plan a trip," "leave a detailed voicemail," travel and packing | Merged into Lesson 11 | One real situation (time off to visit family) needs all three |
 | Local news and community meetings | Split: news in Lesson 8, a community meeting in Lesson 9 | News pairs with *might*; meetings pair with opinions |
 | Workplace theme (performance, scheduling, time off, dress codes) | Spread over Lessons 3 (checking tasks, a check-in), 5 (switching a shift), 7 (dress codes, being on time), 11 (time off) | Workplace English comes back four times; "performance" is a short, positive check-in, not a formal review |
@@ -198,7 +198,7 @@ Learners coming from Level 3 will recognize every step. Level 4 changes four thi
 | 6:00–6:08 | 1. **Opening Talk + Homework Check** | 8 min | Same partner for both. A question card on last week's grammar; partners answer in **3 sentences** and ask one follow-up question. Then compare homework. The teacher corrects only 2 items on the board. Late arrivals join a pair. |
 | 6:08–6:15 | 2. **New Words** | 7 min | Picture page: point, say, repeat; a quick pair game. Learners add any word they want to their **personal word list** (the *My language* column; optional). |
 | 6:15–6:30 | 3. **Listening + "Hear it, say it"** | 15 min | Before you listen → **Play 1:** Task A (main idea) → press play again → **Play 2:** Tasks B and C (details, grammar fill-in) → "Hear it": 2 reduced forms from the audio (*gonna, wanna*) → repeat 2 lines. A third play is OK if the class needs it. |
-| 6:30–6:45 | 4. **Grammar Q&A + pair check** | 15 min | The two-sided question/answer box; rule of thumb; Questions and answers; Common mistakes; optional contrast tip; then 3–5 minutes of pair practice. |
+| 6:30–6:45 | 4. **Grammar Q&A + pair check** | 15 min | The two-sided question/answer box; rule of thumb; Questions and answers; Common mistakes; an optional contrast tip where a common mix-up exists; then 3–5 minutes of pair practice. |
 | 6:45–7:00 | **BREAK** | 15 min | |
 | 7:00–7:15 | 5. **Talk Time** | 15 min | The main pair or group activity of the night, usually in two rounds. Every answer needs a reason; every partner asks a follow-up. |
 | 7:15–7:25 | 6. **Read & Write** | 10 min | A real-world text (150–250 words) with 4–5 questions, then a writing task (an email of 5–8 sentences, a form, or an opinion paragraph). Learners start the writing in class and finish it as homework. |
@@ -228,16 +228,16 @@ Level 3 has no Spanish line under instructions, a task-words page with *Español
 | **Instruction icons** | **None** (decided for all levels) | Instructions are short, plain English with the same task words every week |
 | **Spanish line under each instruction** | **None** (as in Levels 2 and 3) | Learners know the task words |
 | **"My language" line under each instruction** | **None** | Not needed at this level |
-| **Task-words page** | Optional reference page at the **back** of the workbook (Open Question 1) | Learners new to the program can still use it; others skip it |
+| **Task-words page** | Optional reference page at the **back** of the workbook (Decision 1) | Learners new to the program can still use it; others skip it |
 | **Personal word list** | **Keep** the *My language* column on the New Words page (optional; filled in by the learner) | A personal bilingual list stays useful for new, less concrete words |
-| **Spanish note + tip for other languages** | **Replaced** by one optional **"Contrast tip"** box per Grammar page, written for any language, with Spanish as one example | Fair to every learner; still catches the most common Spanish-transfer errors |
+| **Spanish note + tip for other languages** | **Replaced** by an optional **"Contrast tip"** box, only on Grammar pages where a common mix-up exists (Decision 2), written for any language, with Spanish as one example | Fair to every learner; still catches the most common Spanish-transfer errors |
 | **Teacher pages** | English only, as always | Teachers need no Spanish |
 
 > **Teacher-friendly:** volunteers never read, translate, or explain the contrast tip aloud; it is for learners to read on their own. When a learner is stuck: show it (picture, gesture, board timeline), give one more English example, point to the grammar box, let a classmate help for a few seconds, then back to English.
 
 ### 4.4 Grammar format: two-sided question-and-answer boxes
 
-Same format as Levels 1–3: the question side on the left, the answer side on the right, one word from each column. Each box has a one-line **rule of thumb** in plain words, a short "Questions and answers" section, a "Common mistakes" table (✗ → ✓), and an optional contrast tip (student pages only). Level 4 boxes have up to 6 rows, and the present perfect lessons add a **timeline** the teacher draws on the board (a line from "my life" to "now," with X's for experiences). Example (Lesson 2):
+Same format as Levels 1–3: the question side on the left, the answer side on the right, one word from each column. Each box has a one-line **rule of thumb** in plain words, a short "Questions and answers" section, a "Common mistakes" table (✗ → ✓), and, where a common mix-up exists, an optional contrast tip (student pages only). Level 4 boxes have up to 6 rows, and the present perfect lessons add a **timeline** the teacher draws on the board (a line from "my life" to "now," with X's for experiences). Example (Lesson 2):
 
 <!-- subst -->
 | QUESTION | < | < | ‖ | ANSWER | < | < |
@@ -256,7 +256,7 @@ Same format as Levels 1–3: the question side on the left, the answer side on t
 |---|---|
 | **Student Workbook pages** | New Words (with a *My language* column), Listening, Grammar, Talk Time sheet, Homework, and a Read & Write page. No instruction icons. Same page look as Level 3. |
 | **Pictures** | 12 per lesson (≈ 156 total), 600×420 PNG cards made from Twemoji graphics (CC BY 4.0), same style as Levels 1–3, named `L4_L<lesson>_<word>.png` (for example `L4_L10_thermostat.png`) so they never collide with Level 1–3 files. Abstract words (*milestone, suspicious, reference, copay, deadline*) get a labeled combination of two emoji or a simple form picture with the field highlighted. Avoid emoji with unclear or mixed meanings (for example, folded hands). Every picture gets a line in `CREDITS.md`. |
-| **Listening audio** | One MP3 per lesson + midterm + final (15 files), Chatterbox TTS cloned from **synthetic reference voices only** (no recordings of real people), same pipeline as Level 3. **About 1:30–2:15**, **2–3 speakers**, natural speed with some reductions (*gonna, wanna*). **Female characters have clearly female voices and male characters clearly male voices** (each lesson in Section 6 lists the voices). Each file plays the conversation **once** (it never repeats inside the file); the teacher presses play again for the second listen. |
+| **Listening audio** | One MP3 per lesson + midterm + final (15 files), Chatterbox TTS cloned from **synthetic reference voices only** (no recordings of real people), same pipeline as Level 3. **About 1:30–2:15**, **2–3 speakers**, natural speed with only two reductions, *gonna* and *wanna* (Decision 5). **Female characters have clearly female voices and male characters clearly male voices** (each lesson in Section 6 lists the voices). Each file plays the conversation **once** (it never repeats inside the file); the teacher presses play again for the second listen. |
 | **Slides** | One deck per lesson, same look as Level 3: picture words, listening tasks, the grammar box with click-to-reveal answers, Talk Time instructions, and the Read & Write text. |
 | **Teacher plan** | At a glance, clock-time plan, step-by-step boxes, listening script, answer key, board timelines, and teacher notes in plain English. Every step says exactly what to say and show. **Teachers need no Spanish.** |
 
@@ -344,7 +344,7 @@ Same format as Levels 1–3: the question side on the left, the answer side on t
 | **Listening** | **Situation:** two learners chat on the first night of an evening class at a community center; the teacher joins and asks them to find two things they have both done. **Speakers and voices:** Lucía, a learner (F); Ahmed, a learner (M); Ms. Grant, the teacher (F). **Target length:** about 1:45. **Tasks:** A: what have they both done? B: true / false on the details; C: write *have / has / did*. |
 | **Read & Write** | **Read:** a "Meet Our Class" page with three short learner profiles (about 180 words total: *I've lived…, I've worked…, I've never…*). **Write:** a 5-sentence introduction email to the teacher: who you are, two experiences, one thing you've never done, and one goal for this class. |
 | **Exit ticket** | *Tell me about something you have done (or never done).* 3 sentences: the experience, when it happened (or why not), and how it was, with *because* or *so*. |
-| **Pronunciation** | Contractions *I've, she's (= she has), haven't*; weak *have* in questions (*Have you ever…?* → "Havya ever"). |
+| **Pronunciation** | Contractions *I've, she's (= she has), haven't*; weak *have* /həv/ in questions (*Have you ever…?*). |
 | **Contrast tip (optional)** | Spanish has a similar form (*¿Alguna vez has trabajado…?*), but English never uses a finished time with it: *I worked there in 2020* (not *I've worked there in 2020*). What does your language do? |
 | **Teacher tip** | Draw a timeline: one long line, "my life → now," with X's and no dates = present perfect. Learners choose what to share; places, foods, and jobs are always safe. Never ask how or when learners came to the U.S. |
 
@@ -376,7 +376,7 @@ Same format as Levels 1–3: the question side on the left, the answer side on t
 | **Listening** | **Situation:** the end of the evening shift at a grocery store; the night supervisor checks with two workers what is done (shelves restocked, a delivery put away) and what isn't done yet (the cooler), then gives quick positive feedback. **Speakers and voices:** Ms. Rivera, the supervisor (F); Jamal, a worker (M); Kim, a worker (F). **Target length:** about 2:00. **Tasks:** A: is all the work finished? B: check *done / not yet* on the checklist; C: write *already / yet / just*. |
 | **Read & Write** | **Read:** an email from a supervisor with a weekly checklist and a reminder about a training deadline (about 170 words; invented). **Write:** a 5–6 sentence reply email: what you've already done, what you haven't done yet, when you'll finish it, and one question. (Writing check 1.) |
 | **Exit ticket** | *What have you done this week, and what haven't you done yet?* 3 sentences with *already* and *yet*, and one reason. |
-| **Pronunciation** | Hearing *'s* = *has* (*It's just arrived*); *Have you… yet?* → "Havya… yet?"; stress on *JUST* and *alREADY*. |
+| **Pronunciation** | Hearing *'s* = *has* (*It's just arrived*); weak *have* in *Have you… yet?*; stress on *JUST* and *alREADY*. |
 | **Contrast tip (optional)** | Spanish *ya* can mean *already* (*Ya terminé* = *I've already finished*) and *yet* in questions (*¿Ya terminaste?* = *Have you finished yet?*). *Todavía no* = *not yet*. In English, *yet* goes at the end. |
 | **Teacher tip** | Draw a checklist on the board and tick items as you say *I've already…*. Performance talk stays positive and invented; learners never discuss real problems with real bosses. |
 
@@ -384,17 +384,17 @@ Same format as Levels 1–3: the question side on the left, the answer side on t
 
 | Part | Plan |
 |---|---|
-| **Theme and life skill** | Health: a new-patient health history form, describing a mild, ongoing symptom at a clinic, dental and preventive care (checkups, cleanings, a flu shot), and reading an insurance card (member ID, copay). Practical and calm. |
+| **Theme and life skill** | Health: a new-patient health history form, describing a mild, ongoing symptom at a clinic, dental and preventive care (checkups, cleanings, a flu shot), and reading an insurance card (member ID, copay, deductible). Practical and calm. |
 | **Can-do goals** | I can describe a symptom and say how long I've had it. • I can answer health history questions (*Have you ever had…?*). • I can suggest an idea with *Why don't you…? / You could… / It's a good idea to…* • I can find key information on an insurance card and a clinic letter. |
 | **Grammar Q&A focus** | **P:** present perfect for health: *How long have you had this rash? → I've had it for three days. / since Monday.* • *Have you ever had surgery? → No, never. / Yes, I had knee surgery in 2018.* • **I:** suggestions: *My back hurts. → Why don't you call the clinic? / You could try a heating pad. / It's a good idea to get a checkup every year.* • **P:** *should* (Level 2) = stronger advice; *could* = a softer idea. • **Rule of thumb:** after *could, why don't you,* and *it's a good idea to*, use the base verb (*call, try, get*). |
-| **Vocabulary (12)** | ★ checkup • ★ health history • ★ symptom • ★ allergy • ★ blood pressure • ★ rash • ★ dizzy • ★ teeth cleaning • ★ cavity • ★ flu shot • ★ prescription • copay |
+| **Vocabulary (12)** | ★ checkup • ★ health history • ★ symptom • ★ allergy • ★ blood pressure • ★ rash • ★ dizzy • ★ teeth cleaning • ★ cavity • ★ flu shot • ★ prescription • copay • *on the insurance card (Read & Write):* deductible |
 | **Talk Time** | **Round 1, Clinic Intake (back to back):** A is a medical assistant with an 8-question health history form; B is a patient with an invented symptom card (*a rash for 3 days; a backache since Saturday; a sensitive tooth for a week*); switch. **Round 2, Good Idea Circle:** each learner reads a small problem card (*I sit all day at work.*); the next two people suggest something; the first person chooses one and says why. **15:** pairs, then 3 circles of 5. **7–8:** pairs, then one circle. **5 or fewer:** one circle; the teacher adds cards. |
 | **Listening** | **Situation:** a patient checks in at a clinic: the medical assistant asks how long she has had back pain, about allergies, and what she has taken; at checkout the receptionist reminds her about a dental cleaning and her copay. **Speakers and voices:** Amina, the patient (F); Daniel, the medical assistant (M); Ms. Park, the receptionist (F). **Target length:** about 2:00. **Tasks:** A: why is she at the clinic? B: complete the form (symptom, since when, allergy); C: write *for / since / ever*. |
 | **Read & Write** | **Read:** a clinic "Stay healthy" reminder letter (about 180 words: yearly checkup, a dental cleaning every 6 months, bring your insurance card, copay; invented) and an invented insurance card. **Write:** a health history section for an invented patient, then a 3-sentence suggestion note to a friend. |
 | **Exit ticket** | *A friend has had a backache for a week.* 3 sentences: ask how long, give a suggestion (*Why don't you… / You could…*), and give a reason. |
-| **Pronunciation** | Reductions: *Why don't you* → "Whydontcha" (understand it; say it slowly); stress on the key words (*I've had a RASH since MONday*). |
+| **Pronunciation** | *Why don't you…?* said as one smooth group, with falling intonation (a suggestion, not a real question); stress on the key words (*I've had a RASH since MONday*). |
 | **Contrast tip (optional)** | *¿Por qué no llamas…?* = *Why don't you call…?*: a suggestion, not a real question, in Spanish and many languages. Spanish speakers often say *I have a rash since Monday*; English says *I've had a rash since Monday.* |
-| **Teacher tip** | All patients and symptoms are invented and mild; never ask learners about their own health, medicines, or insurance. Insurance stays at "read the card; know *copay*." Say: "For a real health question, ask your doctor or pharmacist. In an emergency, call 911." |
+| **Teacher tip** | All patients and symptoms are invented and mild; never ask learners about their own health, medicines, or insurance. Insurance stays at "read the card; know *copay* and *deductible*" (Decision 3). Say: "For a real health question, ask your doctor or pharmacist. In an emergency, call 911." |
 
 ### Lesson 5 (Week 5): Would You Mind…?
 
@@ -408,7 +408,7 @@ Same format as Levels 1–3: the question side on the left, the answer side on t
 | **Listening** | **Situation:** two short scenes: (1) a woman asks her older neighbor to get her mail and water her plants while she's away; he agrees and asks where the spare key will be; (2) a coworker asks her to cover his Saturday shift; she says she can't and suggests another way. **Speakers and voices:** Patricia (F); Mr. Wilson, the neighbor (M, older); Omar, the coworker (M). **Target length:** about 2:00. **Tasks:** A: what favors do they ask for? B: yes or no, and why; C: write the *-ing* word after *mind*. |
 | **Read & Write** | **Read:** a building notice about packages and a neighbor's note asking a favor (about 160 words; invented). **Write:** a 5–7 sentence email or note to a neighbor asking for a favor while you're away: the dates, what to do, where the key is, thanks, and an offer to help back. |
 | **Exit ticket** | *Ask a classmate for a favor with* Would you mind…? 3 sentences: your question, their answer, and the reason (*because*). |
-| **Pronunciation** | Polite intonation; *Would you* → "Wouldja"; *Do you mind if I…?* → "D'you mind if I…?" (understand it). |
+| **Pronunciation** | Polite intonation; *Would you mind…?* and *Do you mind if I…?* said smoothly, with a friendly rise. |
 | **Contrast tip (optional)** | In many languages, a *yes* answer means "I'll help." *Would you mind…?* asks "Is it a problem for you?", so **No** means "No problem." Spanish *¿Te importaría…? No, para nada* works the same way. |
 | **Teacher tip** | Practice the "no = yes" answer first with a thumbs-up: *No, not at all!* All favor cards, keys, and addresses are invented. Shift switches follow each employer's rules: add "Ask your supervisor first." |
 
@@ -418,13 +418,13 @@ Same format as Levels 1–3: the question side on the left, the answer side on t
 |---|---|
 | **Theme and life skill** | Imaginary situations and everyday choices: what you would do if you found money at work, if a cashier gave you too much change, if a coworker were always late, if you had a free week. Learning and thinking skills (problem solving, giving reasons). |
 | **Can-do goals** | I can ask *What would you do if…?* • I can answer *If I…, I would…* • I can tell a real possibility (*If it rains, I'll…*) from an imaginary one (*If I had a car, I'd…*). • I can explain my choice with a reason. |
-| **Grammar Q&A focus** | **I:** second conditional: *What would you do if you found $50 at work? → If I found $50, I'd give it to my supervisor.* • *If I had more time, I'd take a computer class.* • *Would you tell your coworker? → Yes, I would. / No, I wouldn't. I'd talk to my supervisor.* • *If I were you, I'd…* (advice; *were* for every person; *If I was* is common in speech and OK). • **P:** first vs. second conditional (Level 3 Lesson 6): *If I get the job, I'll buy a car.* (possible) vs. *If I had a car, I'd drive to work.* (imaginary) • **R:** suggestions (Lesson 4). • **Rule of thumb:** imaginary → past form after *if*, *would* in the other half. Never *would* right after *if*. |
+| **Grammar Q&A focus** | **I:** second conditional: *What would you do if you found $50 at work? → If I found $50, I'd give it to my supervisor.* • *If I had more time, I'd take a computer class.* • *Would you tell your coworker? → Yes, I would. / No, I wouldn't. I'd talk to my supervisor.* • *If I were you, I'd…* (advice; *were* for every person; teach *If I were*, and accept *If I was* in speaking: Decision 6). • **P:** first vs. second conditional (Level 3 Lesson 6): *If I get the job, I'll buy a car.* (possible) vs. *If I had a car, I'd drive to work.* (imaginary) • **R:** suggestions (Lesson 4). • **Rule of thumb:** imaginary → past form after *if*, *would* in the other half. Never *would* right after *if*. |
 | **Vocabulary (12)** | ★ imagine • ★ choose • ★ honest • ★ tell the truth • ★ keep (it) • ★ give back • ★ owner • ★ envelope • ★ extra money • ★ mistake • magic wand • dream job |
 | **Talk Time** | **Round 1, What Would You Do? Cards:** groups get 8 everyday cards (*You find $50 on the floor at work. A cashier gives you too much change. Your neighbor's door is open at night. A friend asks you to tell a small lie.*). Each person says what they would do and why; the group finds the most common answer. **Round 2, Magic Wand Chain:** *If I had a magic wand, I'd…* → the next person starts with the last idea (*If I…, I'd…*). **15:** 4 groups of 3–4. **7–8:** 2 groups. **5 or fewer:** one group; the teacher reads the cards. |
 | **Listening** | **Situation:** a radio call-in segment, "What Would You Do?": the host reads a situation (a cashier gives you $10 too much change); two callers say what they would do and why, and one tells what she actually did once. **Speakers and voices:** Mike, the host (M); Grace, a caller (F); Teresa, a caller (F). **Target length:** about 2:00. **Tasks:** A: what is the situation? B: match caller → choice → reason; C: write *would / 'd / had / were*. |
 | **Read & Write** | **Read:** a short advice column (about 200 words): a reader asks, "My coworker takes long breaks, and I do extra work. What would you do?" The answer uses *If I were you, I'd…*. **Write:** a 5–6 sentence reply to a different letter (*If I were you, I would… because…*). |
 | **Exit ticket** | *What would you do if you had a free week?* 3 sentences: an *if*-sentence, a second idea, and a reason. |
-| **Pronunciation** | Hearing *I'd* /aɪd/ vs. *I* (*I'd go / I go*); *wouldn't* /ˈwʊdənt/; *What would you* → "Whadja" (understand it). |
+| **Pronunciation** | Hearing *I'd* /aɪd/ vs. *I* (*I'd go / I go*); *wouldn't* /ˈwʊdənt/; *What would you do?* said smoothly, with stress on *DO*. |
 | **Contrast tip (optional)** | Spanish works the same way: *Si tuviera tiempo, tomaría una clase* = *If I had time, I'd take a class.* English *would* never changes and never goes right after *if* (not *If I would have time*). |
 | **Teacher tip** | Choices are light and everyday. Avoid cards about the police, immigration, lending money between classmates, or anything with a "right" answer the teacher grades. Any answer with a reason is a good answer. |
 
@@ -526,7 +526,7 @@ See Section 7. Covers Lessons 1–7. No new content.
 | **Exit ticket** | *What is one warning sign of a scam, and what should you do?* 3 sentences with *who* or *that*, and one reason. |
 | **Pronunciation** | Weak *that* /ðət/ in relative clauses; stress on the key words (*NEVER, GIFT cards*); a calm, firm tone for *No, thank you. Goodbye.* |
 | **Contrast tip (optional)** | Spanish uses *que* for people and things: *el hombre que llamó, el mensaje que llegó.* English uses *who* (or *that*) for people and *that* for things: *the man who called, the message that came.* Many languages repeat the pronoun (*the man who he called*); English doesn't. |
-| **Teacher tip** | Keep it calm and practical: "Most calls and texts are real. A few are scams. Stop, check, and ask." No scary stories; never ask learners whether they lost money. All messages are invented, with no real numbers or links. List a local consumer-help line on the "Keep practicing" sheet (check it locally). |
+| **Teacher tip** | Keep it calm and practical: "Most calls and texts are real. A few are scams. Stop, check, and ask." No scary stories; never ask learners whether they lost money. All messages are invented, with no real numbers or links. List a local consumer-help line on the "Keep practicing" sheet (check it locally). **Teacher-only (Decision 4):** if asked about fake "legal help" or "immigration help" services, point only to local legal aid. |
 
 ### Lesson 13 (Week 14): My Story So Far
 
@@ -571,16 +571,16 @@ Same evening structure as Level 3 (Opening → review stations with speaking int
 **Week 16: Graduation.** No new content. Each learner gives a **2-minute "My Story So Far" talk** prepared in Lesson 13 (reading from paper is fine; learners who need it may give a shorter talk). Certificates of completion. Optional potluck: ask about allergies, and don't require anyone to bring food. Hand out a "Keep practicing" sheet with the website, QR codes for all audio, and local community resources (adult education, library, consumer help, bill-help programs).
 
 ---
-## 8. Open Questions
+## 8. Decisions (approved October 22, 2026)
 
-Short decisions for you before the Level 4 build. Each has a recommendation; say "OK" or change it.
+The seven open questions from the review are now decisions. The lesson build follows them.
 
-1. **Task-words page:** keep it as an optional page at the back of the workbook, or drop it in Level 4? *(Recommendation: optional back page.)*
-2. **Contrast tip:** one on every Grammar page (with Spanish as one example), or only where a common transfer error exists? *(Recommendation: every page, 1–2 lines.)*
-3. **Lesson 4 insurance:** is "read an insurance card + the word *copay*" the right depth, or should insurance wait for Level 5 (insurance claims)? *(Recommendation: keep it at this depth.)*
-4. **Lesson 12 scams:** add an optional teacher note about fake legal-help or immigration-help services (a common scam in many immigrant communities), pointing only to local legal aid, or leave the topic out? *(Recommendation: a short teacher note only; nothing on student pages.)*
-5. **Audio reductions:** only *gonna / wanna* (as in the five-level map), or also *gotta, hafta, whaddaya*? *(Recommendation: add them for listening only; learners never have to say or write them.)*
-6. **Lesson 6:** teach *If I were* and accept *If I was* in speaking and on exams? *(Recommendation: yes.)*
-7. **"Ready for Level 5" standard:** confirm the standard in Section 7.
+1. **Task-words page:** an optional page at the **back** of each Level 4 workbook.
+2. **Contrast tip:** an optional box **only on Grammar pages where a common mix-up exists** (written for any language, with Spanish as one example). Pages without a common mix-up have no box.
+3. **Lesson 4 insurance:** stays at **reading the card** and the words ***copay*** and ***deductible***. Insurance claims stay in Level 5.
+4. **Lesson 12 scams:** add a **short teacher-only note** on fake legal-help and immigration-help services, pointing only to local legal aid. Nothing on student pages.
+5. **Audio reductions:** ***gonna*** and ***wanna*** **only** (for listening; learners never have to say or write them). Other reduced forms are not taught; the pronunciation rows in Section 6 were adjusted to match.
+6. **Lesson 6:** teach ***If I were***; **accept *If I was* in speaking**.
+7. **"Ready for Level 5" standard:** stays as drafted in Section 7.
 
 © 2026 the authors, CC BY-NC-SA 4.0
