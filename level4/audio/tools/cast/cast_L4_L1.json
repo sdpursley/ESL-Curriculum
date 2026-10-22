@@ -1,0 +1,25 @@
+{
+ "TITLE": "Have You Ever…?",
+ "VOICES": {
+  "Narrator": "N",
+  "Lucía": "Rosa",
+  "Ahmed": "Marco",
+  "Ms. Grant": "Kim"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Lucía",
+  "Ms. Grant"
+ ],
+ "NAMES": [
+  "Lucía",
+  "Ahmed",
+  "Grant"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 268,
+  "seconds": 124
+ }
+}
