@@ -78,17 +78,17 @@ print(len(used),'images;',len(lessons),'lessons; audio for',[l['n'] for l in les
 # Sources (edit these):  level<V>/curriculum/Level<V>_Scope_and_Sequence.md   lesson list, titles, weeks, semester table, weekly routine
 #                        level<V>/curriculum/Level<V>_Lesson<N>.md            one file per finished lesson (Lesson 1 is the model)
 #                        level<V>/images/*.png (+ CREDITS.md), level<V>/audio/<audio name>, level<V>/slides/Level<V>_Lesson<N>_Slides.pptx
-#                        audio name: Level 1 = L<N>_listening.mp3, Level 3 = L3_L<N>_listening.mp3
+#                        audio name: Level 1 = L1_listening.mp3 (Lesson 1) and L1_L<N>_listening.mp3 (Lessons 2+), Level 3 = L3_L<N>_listening.mp3
 # The website copies (public/level<V>/images, audio, downloads/slides) are refreshed from those folders by this script.
 # PDF/DOCX downloads come from level<V>/curriculum/build.sh <N> --publish (into public/level<V>/downloads/).
 # A lesson in the scope and sequence without a Level<V>_Lesson<N>.md file is listed as "coming soon".
 # Output: src/content_level<V>.json
 LEVELS={
- 1:dict(audio=lambda n:f'L{n}_listening.mp3', audio_re=r'^L\d+_listening\.mp3$',
+ 1:dict(audio=lambda n:'L1_listening.mp3' if n==1 else f'L1_L{n}_listening.mp3', audio_re=r'^L1_(L\d+_)?listening\.mp3$',
         routine_end='> **Timing is loose',
         credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
-                'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and ID cards, a name tag, speech bubbles, '
-                'letters, and labels were added.')),
+                'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and ID cards, a name tag, forms, family-tree lines, '
+                'speech bubbles, letters, and labels were added.')),
  3:dict(audio=lambda n:f'L3_L{n}_listening.mp3', audio_re=r'^L3_L\d+_listening\.mp3$',
         routine_end='> **Timing is loose',
         credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
@@ -145,10 +145,18 @@ def lesson_page(V,n,src,gv,size):
     word_re=re.compile(r'!\[([^\]]*)\]\(images/([^)]+)\)<br>(★ )?\*\*(.+?)\*\*')
     starts=[i for i in range(si+1,ci) if M[i].startswith('## ')]+[ci]
     sections=[]; words=[]
+    heads=[M[a][3:].strip() for a in starts[:-1]]
+    talk=[h for h in heads if ' · Talk Time' in h]   # several Talk Time pages (Level 1 Lesson 4): keep their full names
     for a,b in zip(starts,starts[1:]):
         h=M[a][3:].strip(); body=M[a+1:b]; kind='page'
-        if h.startswith(f'Lesson {n} (Week') and ' · ' in h: name=h.split(' · ',1)[1]
-        elif h.startswith(f'Lesson {n} (Week'): name='New Words'; kind='words'
+        pics=any(word_re.search(l) for l in body)
+        if h.startswith(f'Lesson {n} (Week') and ' · ' in h:
+            name=h.split(' · ',1)[1]
+            if name=='New Words' and pics: kind='words'
+        elif h.startswith(f'Lesson {n} (Week') and (pics or not any(x.startswith(f'Lesson {n} (Week') and x.endswith(' · New Words') for x in heads)):
+            name='New Words'; kind='words'
+        elif h.startswith(f'Lesson {n} (Week'):   # the lesson title page before a separate New Words page: name it after its first task ('Hello + Review')
+            first=next((l[4:] for l in body if l.startswith('### ')),'Warm-up'); name=re.split(r'[:.]',first)[0].strip()
         elif h.startswith('How to Use This Workbook'): name='The Icons'
         else: name=h
         sec={}
@@ -161,7 +169,7 @@ def lesson_page(V,n,src,gv,size):
             while k0>0 and body[k0-1].strip().startswith('|'): k0-=1      # the empty header row + |---| line of the picture table
             before=[l for l in body[:k0] if l.strip()!='### New Words']
             sec['htmlAfter']=mdv(body[rows_[-1]+1:],1); body=before
-        name=name.split(':')[0] if name.startswith('Talk Time') else name
+        name=name.split(':')[0] if name.startswith('Talk Time') and len(talk)<2 else name
         if name=='Listening': kind='listening'
         sid=re.sub(r'[^a-z0-9]+','-',name.lower()).strip('-')
         sections.append(dict(id=sid,title=name,kind=kind,html=mdv(body,1),**sec))

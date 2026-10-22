@@ -28,6 +28,8 @@ a:focus-visible, button:focus-visible { @apply outline-2 outline-offset-2 outlin
 .prose-esl .step { @apply border-l-4 border-l-emerald-500; }
 .prose-esl .step h4 { @apply text-emerald-800; }
 .prose-esl .writeline { @apply h-10 border-b border-slate-400; }
+.prose-esl .pictures { @apply my-4 flex flex-wrap justify-center gap-4; break-inside: avoid; }
+.prose-esl .pictures img { @apply h-auto w-full max-w-xl rounded-xl ring-1 ring-slate-200; }
 /* Two-sided grammar boxes */
 .prose-esl .gbox { @apply my-5 flex flex-col items-stretch gap-2 md:flex-row; break-inside: avoid; }
 .prose-esl .gside { @apply flex-1 overflow-hidden rounded-2xl bg-white ring-2 ring-blue-500; }

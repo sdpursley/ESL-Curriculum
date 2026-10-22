@@ -2,7 +2,7 @@
 
 Source for the public website of the free **Adult ESL Curriculum**. The home page lets visitors choose a level:
 
-- **Level 1** (beginner): 13 lessons planned over 16 weeks. **Lesson 1 is published**; Lessons 2–13 are listed as "coming soon".
+- **Level 1** (beginner): 13 lessons planned over 16 weeks. **Lessons 1–4 are published**; Lessons 5–13 are listed as "coming soon".
 - **Level 2** (high beginner): 13 lessons plus midterm and final exams.
 - **Level 3** (low intermediate): 13 lessons planned over 16 weeks. **Lesson 1 is published**; Lessons 2–13 are listed as "coming soon".
 
@@ -74,7 +74,7 @@ Unknown routes redirect to `#/` (unknown `#/level1/...` routes to `#/level1`, un
 
 **See [MAINTAINING.md](MAINTAINING.md)** for step-by-step instructions on editing lessons and rebuilding the curriculum
 PDF/DOCX and exams (`curriculum/`), updating the slide decks, vocabulary pictures (`tools/images/`), and listening audio
-(`tools/audio/`, Chatterbox TTS). **Level 1** (rebuilding, swapping the audio, adding the next lesson) is section 8 of MAINTAINING.md; **Level 3** is section 9. Python requirements: `tools/requirements-docs.txt`, `tools/images/requirements.txt`,
+(`tools/audio/`, Chatterbox TTS). **Level 1** (rebuilding, swapping the audio, adding the next lesson; Lessons 1–4) is section 8 of MAINTAINING.md; **Level 3** is section 9. Python requirements: `tools/requirements-docs.txt`, `tools/images/requirements.txt`,
 `tools/audio/requirements.txt`. System programs: LibreOffice (PDFs), ffmpeg (audio), Cairo and DejaVu fonts (pictures).
 
 ## Local development
@@ -97,7 +97,7 @@ not committed.
 © 2026 the authors. The lesson text, teacher plans, workbook pages, original drawings and audio files are licensed under
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Third-party parts keep their own licenses:
 
-- Vocabulary pictures are modified [Twemoji](https://github.com/twitter/twemoji) graphics, CC BY 4.0 (details in `public/images/CREDITS.md` and `level1/images/CREDITS.md`, `level3/images/CREDITS.md`)
+- Vocabulary pictures are modified [Twemoji](https://github.com/twitter/twemoji) graphics, CC BY 4.0 (details in `public/images/CREDITS.md` and `level1/images/CREDITS.md` (one section per lesson), `level3/images/CREDITS.md`)
 - Lexend Deca font, SIL Open Font License 1.1
 - Audio made with Chatterbox TTS by Resemble AI (MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache 2.0); no recordings of real people; the files carry an inaudible Perth watermark
 

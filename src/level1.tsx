@@ -16,10 +16,12 @@ const SECTION_ICON: Record<string, ReactNode> = {
   'the-icons': <Info size={20} />, 'how-our-class-works': <Clock size={20} />, 'new-words': <Star size={20} />,
   'classroom-phrases': <MessagesSquare size={20} />, listening: <Headphones size={20} />, grammar: <MessageSquareText size={20} />,
   'talk-time': <Footprints size={20} />, homework: <NotebookPen size={20} />, 'letters-numbers': <Type size={20} />,
-  'progress-check': <CheckSquare size={20} />,
+  'progress-check': <CheckSquare size={20} />, 'hello-review': <MessagesSquare size={20} />,
 }
 const KIND_ICON = { pdf: <FileText />, docx: <FileText />, pptx: <Presentation />, mp3: <FileAudio /> }
 const firstReady = readyLessons[0]
+const readyNote = (readyLessons.length === 1 ? 'Lesson 1 is ready.' : `Lessons 1–${readyLessons.length} are ready.`) + ` Lessons ${readyLessons.length + 1}–13 are coming soon.`
+const sectionIcon = (id: string) => SECTION_ICON[id] ?? (id.startsWith('talk-time') ? SECTION_ICON['talk-time'] : <FileText size={20} />)
 
 export function Level1Home() {
   return (<>
@@ -27,7 +29,7 @@ export function Level1Home() {
       <span className="inline-block rounded-full bg-white/80 px-2.5 py-0.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200">Free · Beginner · 16 weeks</span>
       <h1 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">🌱 Level 1 Adult ESL</h1>
       <p className="mt-2 max-w-2xl text-[15px] leading-snug text-slate-700 sm:text-lg sm:leading-relaxed">A free course for adults who are just starting English: greetings and names, the alphabet and numbers, family, work, time, money, and daily life. 13 lessons with pictures, listening, grammar, and full teacher plans.</p>
-      <p className="mt-2 text-sm font-medium text-violet-800">Lesson 1 is ready. Lessons 2–13 are coming soon.</p>
+      <p className="mt-2 text-sm font-medium text-violet-800">{readyNote}</p>
       <div className="mt-3 flex flex-row flex-wrap gap-2">
         {firstReady && <Link to={lessonHref(firstReady.n)} className="btn whitespace-nowrap bg-blue-600 !gap-1.5 !px-3 !py-2 !text-sm text-white sm:!px-4 sm:!text-base hover:bg-blue-700">Start Lesson {firstReady.n} <ArrowRight size={18} aria-hidden="true" /></Link>}
         <Link to="/level1/downloads" className="btn whitespace-nowrap border border-slate-300 bg-white !gap-1.5 !px-3 !py-2 !text-sm text-slate-700 sm:!px-4 sm:!text-base hover:bg-slate-50"><Download size={18} aria-hidden="true" /> Downloads</Link>
@@ -93,7 +95,7 @@ export function Level1Grid() {
 export function Level1LessonsPage() {
   return (<>
     <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">Level 1 lessons</h1>
-    <p className="mt-2 mb-6 text-lg text-slate-700">13 lessons over 16 weeks. Week 8 is the midterm, Week 15 is the final exam, and Week 16 is graduation. Lesson 1 is ready; the other lessons are coming soon.</p>
+    <p className="mt-2 mb-6 text-lg text-slate-700">13 lessons over 16 weeks. Week 8 is the midterm, Week 15 is the final exam, and Week 16 is graduation. {readyNote}</p>
     <Level1Grid />
   </>)
 }
@@ -121,7 +123,7 @@ function PresentButtons({ lesson }: { lesson: L1Lesson }) {
 
 function StudentSection({ s, lesson }: { s: L1Section; lesson: L1Lesson }) {
   return (<>
-    <SectionTitle id={s.id} icon={SECTION_ICON[s.id] ?? <FileText size={20} />}>{s.title}</SectionTitle>
+    <SectionTitle id={s.id} icon={sectionIcon(s.id)}>{s.title}</SectionTitle>
     {s.kind === 'words'
       ? <><Card className="mb-4"><Html html={s.html} /></Card><WordCards words={lesson.words ?? []} intro={false} />{s.htmlAfter && <Card className="mt-4"><Html html={s.htmlAfter} /></Card>}</>
       : <Card>{s.kind === 'listening' && <AudioPlayer lesson={lesson} />}<Html html={s.html} /></Card>}

@@ -1,0 +1,116 @@
+[
+ {
+  "file": "L1_L3_phone_number.png",
+  "lesson": "Level1-L3",
+  "word": "phone number",
+  "twemoji": [
+   "1f4f1"
+  ],
+  "note": "mobile phone + the practice number 555-0142",
+  "drawn": "number label"
+ },
+ {
+  "file": "L1_L3_address.png",
+  "lesson": "Level1-L3",
+  "word": "address",
+  "twemoji": [
+   "1f3e0"
+  ],
+  "note": "house + address sign \"210 Pine Street\"",
+  "drawn": "address sign + text"
+ },
+ {
+  "file": "L1_L3_street.png",
+  "lesson": "Level1-L3",
+  "word": "street",
+  "twemoji": [
+   "1f6e3"
+  ],
+  "note": "road + green street sign \"Pine St\"",
+  "drawn": "street sign + text"
+ },
+ {
+  "file": "L1_L3_apartment.png",
+  "lesson": "Level1-L3",
+  "word": "apartment (Apt.)",
+  "twemoji": [
+   "1f3e2"
+  ],
+  "note": "building + door sign \"Apt. 3\"",
+  "drawn": "door sign + text"
+ },
+ {
+  "file": "L1_L3_city.png",
+  "lesson": "Level1-L3",
+  "word": "city (on a form)",
+  "twemoji": [],
+  "note": "address form, CITY line highlighted (drawn)",
+  "drawn": "whole form (drawn) + text"
+ },
+ {
+  "file": "L1_L3_zip_code.png",
+  "lesson": "Level1-L3",
+  "word": "ZIP code",
+  "twemoji": [
+   "2709"
+  ],
+  "note": "envelope + \"ZIP code 54107\" label",
+  "drawn": "label + text"
+ },
+ {
+  "file": "L1_L3_email.png",
+  "lesson": "Level1-L3",
+  "word": "email",
+  "twemoji": [
+   "1f4e7"
+  ],
+  "note": "e-mail envelope + \"ana@mail.com\"",
+  "drawn": "text"
+ },
+ {
+  "file": "L1_L3_form.png",
+  "lesson": "Level1-L3",
+  "word": "form",
+  "twemoji": [
+   "270f"
+  ],
+  "note": "simple form with first name, last name, phone, city filled in + pencil",
+  "drawn": "whole form (drawn) + text"
+ },
+ {
+  "file": "L1_L3_signature.png",
+  "lesson": "Level1-L3",
+  "word": "signature",
+  "twemoji": [
+   "1f58a"
+  ],
+  "note": "signature line with the handwritten name \"Ana Ruiz\" + pen",
+  "drawn": "signature box, line, handwritten name (Dancing Script font, SIL OFL)"
+ },
+ {
+  "file": "L1_L3_id_card.png",
+  "lesson": "Level1-L3",
+  "word": "ID card",
+  "twemoji": [
+   "1faaa"
+  ],
+  "note": "identification card + \"ID\" label",
+  "drawn": "text label"
+ },
+ {
+  "file": "L1_L3_zero.png",
+  "lesson": "Level1-L3",
+  "word": "zero (\"oh\")",
+  "twemoji": [],
+  "note": "big 0 with \"zero\" and \"oh\" (drawn)",
+  "drawn": "all drawn (text)"
+ },
+ {
+  "file": "L1_L3_numbers.png",
+  "lesson": "Level1-L3",
+  "word": "numbers 21–100",
+  "twemoji": [],
+  "note": "number tiles 21, 30, 45, 50, 78, 100 (drawn)",
+  "drawn": "all drawn (tiles + text)"
+ }
+]

@@ -173,7 +173,7 @@ def add_pic_table(cells,n):
             segs=[x.strip() for x in txt.split('<br>')]
             for k,seg in enumerate(segs):
                 m=IMG_RE.fullmatch(seg)
-                if m: p.add_run().add_picture(os.path.join(BASE,m.group(2)),width=Inches(min(1.75,W/n-0.3)))
+                if m: p.add_run().add_picture(os.path.join(BASE,m.group(2)),width=Inches(min(1.75,W/n-0.3) if n>1 else min(5.4,W-0.4)))
                 elif seg: inline(p,seg,size=12.5 if mode=='student' else 11)
                 if k<len(segs)-1: p.add_run().add_break()
     gap_para(10)

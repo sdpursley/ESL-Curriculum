@@ -1,0 +1,223 @@
+{
+ "file": "L1_L4_listening.mp3",
+ "duration_s": 76.62,
+ "wer": 0.0226,
+ "errors": 3,
+ "ref_words": 133,
+ "diffs": [
+  {
+   "op": "delete",
+   "ref": "but i have",
+   "hyp": "",
+   "ctx": "kids no i don't but i have 2 brothers that's the"
+  }
+ ],
+ "low_prob_words": [],
+ "lines_ok": "13/13",
+ "lines_with_flags": [
+  {
+   "t": 10.34,
+   "spk": "Kim",
+   "line": "Carlos, are those photos of your family?",
+   "ok": true,
+   "hyp": "carlos are those photos of your family",
+   "min_prob": 0.89,
+   "flags": [
+    "sustained non-speech 320ms"
+   ],
+   "f0_med": 189.2
+  },
+  {
+   "t": 35.06,
+   "spk": "Carlos",
+   "line": "Yes, she is. This is my daughter, Sofia. She's six.",
+   "ok": true,
+   "hyp": "yes she is this is my daughter sofia she's 6",
+   "min_prob": 0.66,
+   "flags": [
+    "noisy/hissy 460ms"
+   ],
+   "f0_med": 122.0
+  },
+  {
+   "t": 52.41,
+   "spk": "Carlos",
+   "line": "Yes, I do. I have three kids. And these are my parents, Carmen and Pedro.",
+   "ok": true,
+   "hyp": "yes i do i have 3 kids and these are my parents carmen and pedro",
+   "min_prob": 0.52,
+   "flags": [
+    "noisy/hissy 520ms"
+   ],
+   "f0_med": 117.2
+  },
+  {
+   "t": 62.41,
+   "spk": "Carlos",
+   "line": "No. They're in Colombia. What about you, Kim? Do you have kids?",
+   "ok": true,
+   "hyp": "no they're in colombia what about you kim do you have kids",
+   "min_prob": 0.31,
+   "flags": [
+    "noisy/hissy 340ms"
+   ],
+   "f0_med": 130.0
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Kim": 198.2,
+  "Carlos": 119.6,
+  "Narrator": 207.6
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.2,
+ "peak": 0.87,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 10.34,
+   "spk": "Kim",
+   "line": "Carlos, are those photos of your family?",
+   "ok": true,
+   "hyp": "carlos are those photos of your family",
+   "min_prob": 0.89,
+   "flags": [
+    "sustained non-speech 320ms"
+   ],
+   "f0_med": 189.2
+  },
+  {
+   "t": 14.46,
+   "spk": "Carlos",
+   "line": "Yes, they are. Look. This is my wife. Her name is Elena.",
+   "ok": true,
+   "hyp": "yes they are look this is my wife her name is elena",
+   "min_prob": 0.64,
+   "flags": [],
+   "f0_med": 115.8
+  },
+  {
+   "t": 21.25,
+   "spk": "Kim",
+   "line": "Oh, nice. And who's this?",
+   "ok": true,
+   "hyp": "oh nice and who's this",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 219.9
+  },
+  {
+   "t": 25.17,
+   "spk": "Carlos",
+   "line": "This is my son. His name is Daniel. He's ten.",
+   "ok": true,
+   "hyp": "this is my son his name is daniel he's 10",
+   "min_prob": 0.55,
+   "flags": [],
+   "f0_med": 111.2
+  },
+  {
+   "t": 30.41,
+   "spk": "Kim",
+   "line": "And this girl? Is she your daughter?",
+   "ok": true,
+   "hyp": "and this girl is she your daughter",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 202.8
+  },
+  {
+   "t": 35.06,
+   "spk": "Carlos",
+   "line": "Yes, she is. This is my daughter, Sofia. She's six.",
+   "ok": true,
+   "hyp": "yes she is this is my daughter sofia she's 6",
+   "min_prob": 0.66,
+   "flags": [
+    "noisy/hissy 460ms"
+   ],
+   "f0_med": 122.0
+  },
+  {
+   "t": 41.42,
+   "spk": "Kim",
+   "line": "Oh, and who's this? A baby!",
+   "ok": true,
+   "hyp": "oh and who's this a baby",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 186.5
+  },
+  {
+   "t": 44.92,
+   "spk": "Carlos",
+   "line": "That's our baby, Leo. He's one.",
+   "ok": true,
+   "hyp": "that's our baby leo he's 1",
+   "min_prob": 0.53,
+   "flags": [],
+   "f0_med": 129.3
+  },
+  {
+   "t": 49.0,
+   "spk": "Kim",
+   "line": "So you have three children!",
+   "ok": true,
+   "hyp": "so you have 3 children",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 198.2
+  },
+  {
+   "t": 52.41,
+   "spk": "Carlos",
+   "line": "Yes, I do. I have three kids. And these are my parents, Carmen and Pedro.",
+   "ok": true,
+   "hyp": "yes i do i have 3 kids and these are my parents carmen and pedro",
+   "min_prob": 0.52,
+   "flags": [
+    "noisy/hissy 520ms"
+   ],
+   "f0_med": 117.2
+  },
+  {
+   "t": 59.4,
+   "spk": "Kim",
+   "line": "Your parents are here, too?",
+   "ok": true,
+   "hyp": "your parents are here too",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 233.0
+  },
+  {
+   "t": 62.41,
+   "spk": "Carlos",
+   "line": "No. They're in Colombia. What about you, Kim? Do you have kids?",
+   "ok": true,
+   "hyp": "no they're in colombia what about you kim do you have kids",
+   "min_prob": 0.31,
+   "flags": [
+    "noisy/hissy 340ms"
+   ],
+   "f0_med": 130.0
+  },
+  {
+   "t": 69.54,
+   "spk": "Kim",
+   "line": "No, I don't. But I have two brothers.",
+   "ok": true,
+   "hyp": "no i don't but i have 2 brothers",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 184.9
+  }
+ ],
+ "hyp": "lesson 4 listening carlos and kim are at english class carlos has photos of his family on his phone listen carlos are those photos of your family yes they are look this is my wife her name is elena oh nice and who's this this is my son his name is daniel he's 10 and this girl is she your daughter yes she is this is my daughter sofia she's 60 and who's this a baby that's our baby leo he's 1 so you have 3 children yes i do i have 3 kids and these are my parents carmen and pedro your parents are here too no they're in colombia what about you kim do you have kids no i don't 2 brothers that's the end of the listening"
+}
