@@ -21,6 +21,9 @@ const SECTION_ICON: Record<string, ReactNode> = {
 }
 const KIND_ICON = { pdf: <FileText />, docx: <FileText />, pptx: <Presentation />, mp3: <FileAudio /> }
 const firstReady = readyLessons[0]
+/** Lessons without a lesson book yet whose teacher slides are published (slides only: no student pages, PDF/DOCX, or audio yet). */
+const slidesOnly = level3.lessons.filter(l => !l.ready && !!l.slides)
+const range = (ls: { n: number }[]) => ls.length === 1 ? `Lesson ${ls[0].n}` : `Lessons ${ls[0].n}–${ls[ls.length - 1].n}`
 
 export function Level3Home() {
   return (<>
@@ -28,7 +31,7 @@ export function Level3Home() {
       <span className="inline-block rounded-full bg-white/80 px-2.5 py-0.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200">Free · Low intermediate · 16 weeks</span>
       <h1 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">🌳 Level 3 Adult ESL</h1>
       <p className="mt-2 max-w-2xl text-[15px] leading-snug text-slate-700 sm:text-lg sm:leading-relaxed">A free course for adults who finished Level 2: keep a conversation going, give reasons, describe people, tell what happened, make offers and promises, and handle problems at home, at work, and in town. 13 lessons with pictures, listening, grammar, reading and writing, and full teacher plans.</p>
-      <p className="mt-2 text-sm font-medium text-emerald-800">{readyLessons.length === 1 ? 'Lesson 1 is ready.' : `Lessons 1–${readyLessons.length} are ready.`} Lessons {readyLessons.length + 1}–13 are coming soon.</p>
+      <p className="mt-2 text-sm font-medium text-emerald-800">{readyLessons.length === 1 ? 'Lesson 1 is ready.' : `Lessons 1–${readyLessons.length} are ready.`} Lessons {readyLessons.length + 1}–13 are coming soon.{slidesOnly.length > 0 && ` Teacher slides for ${range(slidesOnly)} are ready now.`}</p>
       <div className="mt-3 flex flex-row flex-wrap gap-2">
         {firstReady && <Link to={lessonHref(firstReady.n)} className="btn whitespace-nowrap bg-blue-600 !gap-1.5 !px-3 !py-2 !text-sm text-white sm:!px-4 sm:!text-base hover:bg-blue-700">Start Lesson {firstReady.n} <ArrowRight size={18} aria-hidden="true" /></Link>}
         <Link to="/level3/downloads" className="btn whitespace-nowrap border border-slate-300 bg-white !gap-1.5 !px-3 !py-2 !text-sm text-slate-700 sm:!px-4 sm:!text-base hover:bg-slate-50"><Download size={18} aria-hidden="true" /> Downloads</Link>
@@ -66,7 +69,8 @@ function Milestone({ week, title, note }: { week: number; title: string; note: s
     </div>)
 }
 
-const SoonBadge = () => <span className="inline-flex items-center gap-1 rounded-full bg-white px-3 py-1 text-sm font-semibold text-emerald-800 ring-1 ring-emerald-200"><Hourglass size={14} aria-hidden="true" /> Coming soon</span>
+const SoonBadge = ({ label = 'Coming soon' }: { label?: string }) => <span className="inline-flex items-center gap-1 rounded-full bg-white px-3 py-1 text-sm font-semibold text-emerald-800 ring-1 ring-emerald-200"><Hourglass size={14} aria-hidden="true" /> {label}</span>
+const SlidesBadge = () => <span className="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-3 py-1 text-sm font-semibold text-indigo-800 ring-1 ring-indigo-200"><MonitorPlay size={14} aria-hidden="true" /> Slides ready</span>
 
 export function Level3Grid() {
   const items: ReactNode[] = [], placed = new Set<number>()
@@ -85,7 +89,7 @@ export function Level3Grid() {
           <div className="text-sm font-semibold uppercase tracking-wide text-slate-500">Lesson {l.n} · Week {l.week}</div>
           <div className="mt-1 text-xl font-bold text-slate-700">{l.title}</div>
           <div className="mt-2 text-slate-500">{l.function}</div>
-          <div className="mt-3"><SoonBadge /></div>
+          <div className="mt-3 flex flex-wrap gap-2">{l.slides ? <SlidesBadge /> : null}<SoonBadge label={l.slides ? 'Lesson book soon' : undefined} /></div>
         </Link>)
   }
   for (const m of level3.milestones) if (!placed.has(m.week)) milestone(m)
@@ -95,7 +99,7 @@ export function Level3Grid() {
 export function Level3LessonsPage() {
   return (<>
     <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">Level 3 lessons</h1>
-    <p className="mt-2 mb-6 text-lg text-slate-700">13 lessons over 16 weeks. Week 8 is the midterm, Week 15 is the final exam, and Week 16 is graduation. Lesson 1 is ready; the other lessons are coming soon.</p>
+    <p className="mt-2 mb-6 text-lg text-slate-700">13 lessons over 16 weeks. Week 8 is the midterm, Week 15 is the final exam, and Week 16 is graduation. Lesson 1 is ready; the other lessons are coming soon.{slidesOnly.length > 0 && ` The teacher slides for ${range(slidesOnly)} are ready: open a lesson to present them or download the PowerPoint.`}</p>
     <Level3Grid />
   </>)
 }
@@ -158,9 +162,14 @@ export function Level3LessonPage() {
     </div>)
   if (!lesson.ready) return (<>
     <div className="mb-6">{header}</div>
+    {lesson.slides && <Card className="mb-6 max-w-3xl bg-emerald-50/60">
+      <div className="mb-3"><SlidesBadge /></div>
+      <p className="text-lg text-slate-700">The teacher slides for this lesson are ready. <strong>Present</strong> opens them in a new browser tab (press N for the teacher notes). The student pages, the full teacher plan, the PDF and Word files, and the listening audio are coming soon; until the audio is ready, the teacher reads the listening script aloud (it is in the notes of the Before You Listen slide).</p>
+      <div className="mt-4"><PresentButtons lesson={lesson} /></div>
+    </Card>}
     <Card className="max-w-3xl">
-      <div className="mb-3"><SoonBadge /></div>
-      <p className="text-lg text-slate-700">This lesson is not built yet. Here is the plan:</p>
+      <div className="mb-3"><SoonBadge label={lesson.slides ? 'Lesson book coming soon' : undefined} /></div>
+      <p className="text-lg text-slate-700">{lesson.slides ? 'The lesson book is not built yet.' : 'This lesson is not built yet.'} Here is the plan:</p>
       <p className="mt-3 text-lg"><strong>Grammar Q&amp;A focus:</strong> <span className="prose-esl" dangerouslySetInnerHTML={{ __html: lesson.focusHtml }} /></p>
       <p className="mt-3 text-lg"><Link className="link font-semibold" to="/level3/lessons">See all Level 3 lessons →</Link></p>
     </Card>
@@ -209,7 +218,7 @@ export function Level3LessonPage() {
 }
 
 export function Level3DownloadsPage() {
-  const soon = level3.lessons.filter(l => !l.ready)
+  const soon = level3.lessons.filter(l => !l.ready && !l.slides)
   return (<>
     <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">Level 3 downloads</h1>
     <p className="mt-2 text-lg text-slate-700">For each finished lesson: the lesson document (teacher plan + student pages) as PDF and Word, the teacher slides, and the listening audio. Each audio file has a short intro and plays the conversation once; play it again if needed.</p>
@@ -218,7 +227,16 @@ export function Level3DownloadsPage() {
       <DownloadList lesson={l} />
       <div className="mt-4"><PresentButtons lesson={l} /></div>
     </section>))}
-    {soon.length > 0 && <p className="mt-8 text-lg text-slate-700"><strong>Lessons {soon[0].n}–{soon[soon.length - 1].n}:</strong> coming soon.</p>}
+    {slidesOnly.length > 0 && <>
+      <SectionTitle icon={<Presentation size={20} />}>Teacher slides: {range(slidesOnly)}</SectionTitle>
+      <p className="mb-4 max-w-3xl text-lg text-slate-700">The slides for these lessons are ready. The lesson books (PDF and Word) and the listening audio are coming soon; until the audio is ready, read the listening script aloud (it is in the notes of the Before You Listen slide).</p>
+      {slidesOnly.map(l => (<section key={l.n} className="mb-6">
+        <h3 className="mb-2 text-xl font-bold text-slate-800"><Link className="link" to={lessonHref(l.n)}>Lesson {l.n}: {l.title}</Link></h3>
+        <DownloadList lesson={l} />
+        <div className="mt-3"><PresentButtons lesson={l} /></div>
+      </section>))}
+    </>}
+    {soon.length > 0 && <p className="mt-8 text-lg text-slate-700"><strong>{range(soon)}:</strong> coming soon.</p>}
     <SectionTitle icon={<Printer size={20} />}>Print a lesson</SectionTitle>
     <p className="text-lg text-slate-700">Open a lesson, choose the Student or Teacher tab, and press <strong>Print this tab</strong>. Menus and audio players are hidden on paper.</p>
   </>)

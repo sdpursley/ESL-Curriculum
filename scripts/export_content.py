@@ -81,7 +81,8 @@ print(len(used),'images;',len(lessons),'lessons; audio for',[l['n'] for l in les
 #                        audio name: Level 1 = L1_listening.mp3 (Lesson 1) and L1_L<N>_listening.mp3 (Lessons 2+), Level 3 = L3_L<N>_listening.mp3
 # The website copies (public/level<V>/images, audio, downloads/slides) are refreshed from those folders by this script.
 # PDF/DOCX downloads come from level<V>/curriculum/build.sh <N> --publish (into public/level<V>/downloads/).
-# A lesson in the scope and sequence without a Level<V>_Lesson<N>.md file is listed as "coming soon".
+# A lesson in the scope and sequence without a Level<V>_Lesson<N>.md file is listed as "coming soon"; if its slide deck
+# (level<V>/slides/Level<V>_Lesson<N>_Slides.pptx) exists, it also gets 'slides' + a PowerPoint download (slides-only lesson).
 # Output: src/content_level<V>.json
 LEVELS={
  1:dict(audio=lambda n:'L1_listening.mp3' if n==1 else f'L1_L{n}_listening.mp3', audio_re=r'^L1_(L\d+_)?listening\.mp3$',
@@ -123,6 +124,9 @@ def export_level(V):
         r=rows[n]; les=dict(n=n,week=r['week'],title=r['title'],focusHtml=r['focus'],function=r['function'],ready=False)
         src=os.path.join(LV,'curriculum',f'Level{V}_Lesson{n}.md')
         if os.path.exists(src): les.update(lesson_page(V,n,src,gv,size)); les['ready']=True
+        else:   # no lesson book yet: the teacher slides can still be published on their own (slides only, no PDF/DOCX/MP3)
+            pptx=f'level{V}/downloads/slides/Level{V}_Lesson{n}_Slides.pptx'
+            if size(pptx): les.update(slides=pptx,downloads=[dict(kind='pptx',href=pptx,label='Teacher slides (PowerPoint)',size=size(pptx))])
         lessons.append(les)
     out['lessons']=lessons
     if cfg.get('exams'): out['exams']=[exam_entry(V,K,W,gv,size) for K,W in cfg['exams']]
@@ -132,7 +136,8 @@ def export_level(V):
     if missing: raise SystemExit(f'Missing images in level{V}/images/: {missing}')
     json.dump(out,open(HERE+f'/src/content_level{V}.json','w',encoding='utf-8'),ensure_ascii=False,indent=1)
     print(f'Level {V}:',len(lessons),'lessons in the plan; built:',[l['n'] for l in lessons if l['ready']],
-          '; audio',[l['n'] for l in lessons if l.get('audio')],'; downloads',{l['n']:[d['kind'] for d in l['downloads']] for l in lessons if l['ready']})
+          '; audio',[l['n'] for l in lessons if l.get('audio')],'; downloads',{l['n']:[d['kind'] for d in l['downloads']] for l in lessons if l['ready']},
+          '; slides only',[l['n'] for l in lessons if not l['ready'] and l.get('slides')])
 
 def exam_entry(V,K,W,gv,size):
     """One exam card (Level 1 Week 8 Midterm / Week 15 Final). Sources: level<V>/exams/ (Markdown, audio/);
