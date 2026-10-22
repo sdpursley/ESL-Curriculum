@@ -119,14 +119,26 @@ for i,sid in enumerate(pres.find('p:sldIdLst',NS),1):
     runs=[(r['sz'],-k,r['t']) for k,s in enumerate(shapes) if s.get('text') for p in s['text']['paras'] for r in p['runs'] if r.get('t','').strip()]
     best=max(runs)[0] if runs else 0
     title=' '.join(t for sz,_,t in sorted(runs,key=lambda r:-r[1]) if sz==best).strip()
+    if len({k for sz,k,_ in runs if sz==best})>1:  # Level 1 Lessons 6-13: the title shares its size with short labels ('at' / 'on', '1'): drop those
+        t2=' '.join(t for sz,_,t in sorted(runs,key=lambda r:-r[1]) if sz==best and len(t.strip())>2).strip()
+        if len(t2)>=6 and re.search('[A-Za-z]{2}',t2): title=t2
     if len(title)<6 or not re.search('[A-Za-z]{2}',title):  # e.g. slide whose biggest text is a single word ('am')
+        title0=title
         sz2=max(r[0] for r in runs if r[0]<best)
         title=' '.join(t for sz,_,t in sorted(runs,key=lambda r:-r[1]) if sz==sz2).strip()
         boxes={k for sz,k,_ in runs if sz==sz2}
         if len(boxes)>1:  # that size is in several boxes (Level 3 slide 16: title + a "because" label): use the top box only
             k_top=min(boxes,key=lambda k:shapes[-k]['y'])
             title=' '.join(t for sz,k,t in runs if sz==sz2 and k==k_top).strip()
+        if re.search('[A-Za-z]{2}',title0) and not re.search('[A-Za-z]{2}',title): title=title0   # Level 1 Lesson 11: 'Signs' beats a '1' / '2' / '3' number label
     multi=len({k for sz,k,_ in runs if sz==best})>1
+    if LEVEL!=2 and not multi:  # Level 1 Lesson 11: one big example word ('straight') sits below the real title ('Directions'): use the top box with large text
+        big=[(sh['y'],sh) for sh in shapes if sh.get('text') and any(r.get('sz',0)>=0.85*best and r.get('t','').strip() for p in sh['text']['paras'] for r in p['runs'])]
+        sh=min(big,key=lambda t:t[0])[1]
+        best_y=min(x['y'] for x in shapes if x.get('text') and any(r.get('sz')==best and r.get('t','').strip() for p in x['text']['paras'] for r in p['runs']))
+        if sh['y']<best_y and not any(r.get('sz')==best for p in sh['text']['paras'] for r in p['runs']):
+            t2=' '.join(r['t'].strip() for p in sh['text']['paras'] for r in p['runs'] if r.get('sz',0)>=0.85*best and r.get('t','').strip())
+            if len(t2)>=6 and re.search('[A-Za-z]{2}',t2): title=t2
     if LEVEL!=2 and multi:  # Level 1: biggest text is spread over several boxes (e.g. "What's" / "I'm" cards): use the top box with large text
         big=[(sh['y'],sh) for sh in shapes if sh.get('text') and any(r.get('sz',0)>=0.85*best and r.get('t','').strip() for p in sh['text']['paras'] for r in p['runs'])]
         sh=min(big,key=lambda t:t[0])[1]

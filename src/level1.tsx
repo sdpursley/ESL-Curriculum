@@ -20,7 +20,8 @@ const SECTION_ICON: Record<string, ReactNode> = {
 }
 const KIND_ICON = { pdf: <FileText />, docx: <FileText />, pptx: <Presentation />, mp3: <FileAudio /> }
 const firstReady = readyLessons[0]
-const readyNote = (readyLessons.length === 1 ? 'Lesson 1 is ready.' : `Lessons 1–${readyLessons.length} are ready.`) + ` Lessons ${readyLessons.length + 1}–13 are coming soon.`
+const readyNote = readyLessons.length === 13 ? 'All 13 lessons are ready.'
+  : (readyLessons.length === 1 ? 'Lesson 1 is ready.' : `Lessons 1–${readyLessons.length} are ready.`) + ` Lessons ${readyLessons.length + 1}–13 are coming soon.`
 const sectionIcon = (id: string) => SECTION_ICON[id] ?? (id.startsWith('talk-time') ? SECTION_ICON['talk-time'] : <FileText size={20} />)
 
 export function Level1Home() {
@@ -62,7 +63,6 @@ function Milestone({ week, title, note }: { week: number; title: string; note: s
       <div className="text-sm font-semibold uppercase tracking-wide text-violet-700">Week {week}</div>
       <div className="mt-1 text-xl font-bold text-slate-800">{title === 'Graduation' ? '🎓 ' : '📝 '}{title}</div>
       <div className="mt-2 text-slate-600">{note}</div>
-      {title !== 'Graduation' && <div className="mt-3"><SoonBadge /></div>}
     </div>)
 }
 

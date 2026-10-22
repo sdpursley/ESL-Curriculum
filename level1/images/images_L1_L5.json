@@ -1,0 +1,178 @@
+[
+ {
+  "file": "L1_L5_cook.png",
+  "lesson": "Level1-L5",
+  "word": "cook",
+  "twemoji": [
+   "1f9d1-200d-1f373",
+   "1f373"
+  ],
+  "note": "cook + frying pan",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L5_cleaner.png",
+  "lesson": "Level1-L5",
+  "word": "cleaner (housekeeper)",
+  "twemoji": [
+   "1f9d1",
+   "1f9f9",
+   "1faa3"
+  ],
+  "note": "person + broom + bucket",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L5_construction_worker.png",
+  "lesson": "Level1-L5",
+  "word": "construction worker",
+  "twemoji": [
+   "1f477",
+   "1f3d7"
+  ],
+  "note": "construction worker + building crane",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L5_cashier.png",
+  "lesson": "Level1-L5",
+  "word": "cashier",
+  "twemoji": [
+   "1f9d1",
+   "1f6d2"
+  ],
+  "note": "person + shopping cart + register screen \"$12.50\"",
+  "drawn": "register screen + price"
+ },
+ {
+  "file": "L1_L5_driver.png",
+  "lesson": "Level1-L5",
+  "word": "driver",
+  "twemoji": [
+   "1f9d1",
+   "1f69a"
+  ],
+  "note": "person + delivery truck",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L5_mechanic.png",
+  "lesson": "Level1-L5",
+  "word": "mechanic",
+  "twemoji": [
+   "1f9d1-200d-1f527",
+   "1f697"
+  ],
+  "note": "mechanic + car",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L5_server.png",
+  "lesson": "Level1-L5",
+  "word": "server",
+  "twemoji": [
+   "1f9d1",
+   "1f37d",
+   "2615"
+  ],
+  "note": "person + plate + coffee",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L5_nurse.png",
+  "lesson": "Level1-L5",
+  "word": "nurse",
+  "twemoji": [
+   "1f9d1-200d-2695-fe0f",
+   "1fa7a"
+  ],
+  "note": "health worker + stethoscope",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L5_painter.png",
+  "lesson": "Level1-L5",
+  "word": "painter",
+  "twemoji": [
+   "1f9d1",
+   "1f58c",
+   "1faa3"
+  ],
+  "note": "person + paintbrush + paint can + half-painted wall",
+  "drawn": "wall + paint stripe"
+ },
+ {
+  "file": "L1_L5_factory.png",
+  "lesson": "Level1-L5",
+  "word": "factory",
+  "twemoji": [
+   "1f3ed"
+  ],
+  "note": "factory + sign FACTORY",
+  "drawn": "sign + text"
+ },
+ {
+  "file": "L1_L5_office.png",
+  "lesson": "Level1-L5",
+  "word": "office",
+  "twemoji": [
+   "1f5a5",
+   "1f4bc",
+   "1f4cb"
+  ],
+  "note": "computer + briefcase + clipboard + sign OFFICE",
+  "drawn": "sign + text"
+ },
+ {
+  "file": "L1_L5_restaurant.png",
+  "lesson": "Level1-L5",
+  "word": "restaurant",
+  "twemoji": [
+   "1f32e",
+   "1f37d",
+   "1f964"
+  ],
+  "note": "taco + plate + drink + sign RESTAURANT",
+  "drawn": "sign + text"
+ },
+ {
+  "file": "L1_L5_student.png",
+  "lesson": "Level1-L5",
+  "word": "student",
+  "twemoji": [
+   "1f9d1",
+   "1f4da",
+   "270f"
+  ],
+  "note": "person + books + pencil",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L5_homemaker.png",
+  "lesson": "Level1-L5",
+  "word": "homemaker",
+  "twemoji": [
+   "1f9d1",
+   "1f3e0",
+   "1f9fa"
+  ],
+  "note": "person + house + laundry basket",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L5_sign_now_hiring.png",
+  "lesson": "Level1-L5",
+  "word": "sign: NOW HIRING",
+  "twemoji": [],
+  "note": "store window sign NOW HIRING (drawn)",
+  "drawn": "all drawn (sign + text)"
+ },
+ {
+  "file": "L1_L5_sign_employees_only.png",
+  "lesson": "Level1-L5",
+  "word": "sign: EMPLOYEES ONLY",
+  "twemoji": [],
+  "note": "door sign EMPLOYEES ONLY (drawn)",
+  "drawn": "all drawn (sign + text)"
+ }
+]

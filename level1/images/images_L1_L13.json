@@ -1,0 +1,150 @@
+[
+ {
+  "file": "L1_L13_drive.png",
+  "lesson": "Level1-L13",
+  "word": "drive",
+  "twemoji": [
+   "1f697"
+  ],
+  "note": "car (drive)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_cook.png",
+  "lesson": "Level1-L13",
+  "word": "cook",
+  "twemoji": [
+   "1f9d1-200d-1f373"
+  ],
+  "note": "cook",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_clean.png",
+  "lesson": "Level1-L13",
+  "word": "clean",
+  "twemoji": [
+   "1f9f9"
+  ],
+  "note": "broom (clean)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_fix.png",
+  "lesson": "Level1-L13",
+  "word": "fix (cars)",
+  "twemoji": [
+   "1f527",
+   "1f697"
+  ],
+  "note": "wrench + car",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_paint.png",
+  "lesson": "Level1-L13",
+  "word": "paint",
+  "twemoji": [
+   "1f58c"
+  ],
+  "note": "paintbrush",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_computer.png",
+  "lesson": "Level1-L13",
+  "word": "use a computer",
+  "twemoji": [
+   "1f5a5"
+  ],
+  "note": "desktop computer",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_speak_english.png",
+  "lesson": "Level1-L13",
+  "word": "speak English",
+  "twemoji": [
+   "1f5e3",
+   "1f1fa-1f1f8"
+  ],
+  "note": "speaking head + US flag",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_take_care.png",
+  "lesson": "Level1-L13",
+  "word": "take care of (kids)",
+  "twemoji": [
+   "1f9d1",
+   "1f9d2"
+  ],
+  "note": "adult + child",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_lift.png",
+  "lesson": "Level1-L13",
+  "word": "lift (heavy things)",
+  "twemoji": [
+   "1f4aa"
+  ],
+  "note": "flexed biceps (lift)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_swim.png",
+  "lesson": "Level1-L13",
+  "word": "swim",
+  "twemoji": [
+   "1f3ca"
+  ],
+  "note": "swimmer",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_job_interview.png",
+  "lesson": "Level1-L13",
+  "word": "job interview",
+  "twemoji": [
+   "1f9d1-200d-1f4bc",
+   "1f4cb"
+  ],
+  "note": "office worker + clipboard",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_skill.png",
+  "lesson": "Level1-L13",
+  "word": "skill",
+  "twemoji": [
+   "1f3af"
+  ],
+  "note": "bullseye (skill)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L13_can.png",
+  "lesson": "Level1-L13",
+  "word": "I can",
+  "twemoji": [],
+  "note": "I can label (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L13_cant.png",
+  "lesson": "Level1-L13",
+  "word": "I can't",
+  "twemoji": [],
+  "note": "I can't label (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L13_job_application.png",
+  "lesson": "Level1-L13",
+  "word": "job application",
+  "twemoji": [],
+  "note": "simple job application form (drawn)",
+  "drawn": "all drawn"
+ }
+]

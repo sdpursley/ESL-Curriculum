@@ -1,0 +1,134 @@
+[
+ {
+  "file": "L1_L12_head.png",
+  "lesson": "Level1-L12",
+  "word": "head",
+  "twemoji": [
+   "1f9d1"
+  ],
+  "note": "person (head)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L12_eye.png",
+  "lesson": "Level1-L12",
+  "word": "eye",
+  "twemoji": [
+   "1f441"
+  ],
+  "note": "eye",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L12_ear.png",
+  "lesson": "Level1-L12",
+  "word": "ear",
+  "twemoji": [
+   "1f442"
+  ],
+  "note": "ear",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L12_mouth.png",
+  "lesson": "Level1-L12",
+  "word": "mouth",
+  "twemoji": [
+   "1f444"
+  ],
+  "note": "mouth",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L12_arm.png",
+  "lesson": "Level1-L12",
+  "word": "arm",
+  "twemoji": [
+   "1f4aa"
+  ],
+  "note": "flexed biceps (arm)",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L12_hand.png",
+  "lesson": "Level1-L12",
+  "word": "hand",
+  "twemoji": [
+   "270b"
+  ],
+  "note": "raised hand",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L12_leg.png",
+  "lesson": "Level1-L12",
+  "word": "leg",
+  "twemoji": [
+   "1f9b5"
+  ],
+  "note": "leg",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L12_foot.png",
+  "lesson": "Level1-L12",
+  "word": "foot",
+  "twemoji": [
+   "1f9b6"
+  ],
+  "note": "foot",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L12_back.png",
+  "lesson": "Level1-L12",
+  "word": "back",
+  "twemoji": [],
+  "note": "body drawing labeled back",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L12_stomach.png",
+  "lesson": "Level1-L12",
+  "word": "stomach",
+  "twemoji": [],
+  "note": "body drawing labeled stomach",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L12_sick.png",
+  "lesson": "Level1-L12",
+  "word": "sick",
+  "twemoji": [
+   "1f912"
+  ],
+  "note": "face with thermometer",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L12_doctor.png",
+  "lesson": "Level1-L12",
+  "word": "doctor",
+  "twemoji": [
+   "1f9d1-200d-2695-fe0f"
+  ],
+  "note": "health worker",
+  "drawn": "border only"
+ },
+ {
+  "file": "L1_L12_medicine_label.png",
+  "lesson": "Level1-L12",
+  "word": "medicine label",
+  "twemoji": [],
+  "note": "Take 2 tablets / Every 6 hours (drawn)",
+  "drawn": "all drawn"
+ },
+ {
+  "file": "L1_L12_emergency_card.png",
+  "lesson": "Level1-L12",
+  "word": "emergency card",
+  "twemoji": [],
+  "note": "My Emergency Card with invented info (drawn)",
+  "drawn": "all drawn"
+ }
+]

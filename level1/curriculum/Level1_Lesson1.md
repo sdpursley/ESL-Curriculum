@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 1 Adult ESL Curriculum · Lesson 1 (Week 1): Hello! What's Your Name?
 
-**Status:** Complete sample lesson (Lessons 2–13 are coming soon).
+**Status:** Complete sample lesson (all 13 Level 1 lessons are published).
 
 **Date:** October 2026
 

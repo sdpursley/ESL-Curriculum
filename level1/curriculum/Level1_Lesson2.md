@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 1 Adult ESL Curriculum · Lesson 2 (Week 2): Where Are You From?
 
-**Status:** Draft for review (Lessons 1–4 built; Lessons 5–13 are coming soon).
+**Status:** Draft for review (all 13 Level 1 lessons are built).
 
 **Date:** October 2026
 

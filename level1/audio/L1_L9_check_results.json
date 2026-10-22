@@ -1,0 +1,210 @@
+{
+ "file": "L1_L9_listening.mp3",
+ "duration_s": 68.57,
+ "wer": 0.0174,
+ "errors": 2,
+ "ref_words": 115,
+ "diffs": [
+  {
+   "op": "delete",
+   "ref": "you're welcome",
+   "hyp": "",
+   "ctx": "morning ok thank you you're welcome see you thursday part"
+  }
+ ],
+ "low_prob_words": [
+  [
+   "See",
+   32.24,
+   0.23
+  ]
+ ],
+ "lines_ok": "14/15",
+ "lines_with_flags": [],
+ "lines_not_exact": [
+  {
+   "t": 20.41,
+   "spk": "Kim",
+   "line": "Thursday, May tenth, at ten thirty. Is that in the morning?",
+   "ok": false,
+   "hyp": "thursday may 10 at 1030 is that in the morning",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 176.6
+  }
+ ],
+ "pitch_median_hz": {
+  "Receptionist": 184.9,
+  "Kim": 186.0,
+  "Narrator": 210.3,
+  "Marco": 127.0
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [
+  [
+   50.55,
+   50.96,
+   -55.0
+  ]
+ ],
+ "click_ratio": 3.7,
+ "peak": 0.882,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 9.37,
+   "spk": "Receptionist",
+   "line": "Good morning. Riverside Clinic.",
+   "ok": true,
+   "hyp": "good morning riverside clinic",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 188.1
+  },
+  {
+   "t": 13.32,
+   "spk": "Kim",
+   "line": "Hi. I need an appointment, please.",
+   "ok": true,
+   "hyp": "hi i need an appointment please",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 178.6
+  },
+  {
+   "t": 16.67,
+   "spk": "Receptionist",
+   "line": "OK. How about Thursday, May tenth, at ten thirty?",
+   "ok": true,
+   "hyp": "ok how about thursday may tenth at 1030",
+   "min_prob": 0.61,
+   "flags": [],
+   "f0_med": 182.8
+  },
+  {
+   "t": 20.41,
+   "spk": "Kim",
+   "line": "Thursday, May tenth, at ten thirty. Is that in the morning?",
+   "ok": false,
+   "hyp": "thursday may 10 at 1030 is that in the morning",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 176.6
+  },
+  {
+   "t": 25.34,
+   "spk": "Receptionist",
+   "line": "Yes, it is. Ten thirty in the morning.",
+   "ok": true,
+   "hyp": "yes it is 1030 in the morning",
+   "min_prob": 0.65,
+   "flags": [],
+   "f0_med": 184.9
+  },
+  {
+   "t": 29.66,
+   "spk": "Kim",
+   "line": "OK. Thank you!",
+   "ok": true,
+   "hyp": "ok thank you",
+   "min_prob": 0.48,
+   "flags": [],
+   "f0_med": 190.3
+  },
+  {
+   "t": 32.32,
+   "spk": "Receptionist",
+   "line": "You're welcome. See you Thursday.",
+   "ok": true,
+   "hyp": "you're welcome see you thursday",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 184.9
+  },
+  {
+   "t": 35.59,
+   "spk": "Narrator",
+   "line": "Part two. Kim and Marco talk about the weather and birthdays. Listen.",
+   "ok": true,
+   "hyp": "part 2 kim and marco talk about the weather and birthdays listen",
+   "min_prob": 0.48,
+   "flags": [],
+   "f0_med": 208.2
+  },
+  {
+   "t": 41.55,
+   "spk": "Kim",
+   "line": "Hi, Marco. How's the weather today?",
+   "ok": true,
+   "hyp": "hi marco how's the weather today",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 186.0
+  },
+  {
+   "t": 45.13,
+   "spk": "Marco",
+   "line": "It's sunny and hot. I like sunny days.",
+   "ok": true,
+   "hyp": "it's sunny and hot i like sunny days",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 95.7
+  },
+  {
+   "t": 49.87,
+   "spk": "Kim",
+   "line": "Me too. When is your birthday?",
+   "ok": true,
+   "hyp": "me too when is your birthday",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 206.4
+  },
+  {
+   "t": 53.5,
+   "spk": "Marco",
+   "line": "It's on May fifth. Next week!",
+   "ok": true,
+   "hyp": "it's on may fifth next week",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 127.0
+  },
+  {
+   "t": 57.06,
+   "spk": "Kim",
+   "line": "Oh, soon! My birthday is in October.",
+   "ok": true,
+   "hyp": "oh soon my birthday is in october",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 187.1
+  },
+  {
+   "t": 60.92,
+   "spk": "Marco",
+   "line": "Nice. See you later, Kim!",
+   "ok": true,
+   "hyp": "nice see you later kim",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 134.6
+  },
+  {
+   "t": 64.06,
+   "spk": "Kim",
+   "line": "Bye, Marco!",
+   "ok": true,
+   "hyp": "bye marco",
+   "min_prob": 0.47,
+   "flags": [],
+   "f0_med": 173.5
+  }
+ ],
+ "hyp": "lesson 9 listening part 1 kim calls the clinic she makes an appointment listen good morning riverside clinic hi i need an appointment please ok how about thursday may tenth at 1030 thursday may tenth at 1030 is that in the morning yes it is 1030 in the morning ok thank you see you thursday part 2 kim and marco talk about the weather and birthdays listen hi marco how's the weather today it's sunny and hot i like sunny days me too when is your birthday it's on may fifth next week oh soon my birthday is in october nice see you later kim bye marco that's the end of the listening"
+}

@@ -88,7 +88,7 @@ LEVELS={
         routine_end='> **Timing is loose',
         credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
                 'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and ID cards, a name tag, forms, family-tree lines, '
-                'speech bubbles, letters, and labels were added.')),
+                'signs, clocks, price tags, receipts, play money, speech bubbles, letters, and labels were added.')),
  3:dict(audio=lambda n:f'L3_L{n}_listening.mp3', audio_re=r'^L3_L\d+_listening\.mp3$',
         routine_end='> **Timing is loose',
         credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
@@ -142,7 +142,8 @@ def lesson_page(V,n,src,gv,size):
     week,title=re.match(rf'## Lesson {n} \(Week (\d+)\): (.+)',head).groups()
     topic=next((l[2:].strip() for l in M[:ti] if l.startswith('> **Topic:**')),'')
     topic=re.sub(r'^\*\*Topic:\*\*\s*','',topic)
-    word_re=re.compile(r'!\[([^\]]*)\]\(images/([^)]+)\)<br>(★ )?\*\*(.+?)\*\*')
+    # picture cell: ![alt](images/x.png)<br>(★ )**word**   (Lessons 8+ also write the word without bold)
+    word_re=re.compile(r'!\[([^\]]*)\]\(images/([^)]+)\)<br>(★ )?(?:\*\*(.+?)\*\*|([^|*<]+?)(?=\s*(?:\||$)))')
     starts=[i for i in range(si+1,ci) if M[i].startswith('## ')]+[ci]
     sections=[]; words=[]
     heads=[M[a][3:].strip() for a in starts[:-1]]
@@ -164,7 +165,7 @@ def lesson_page(V,n,src,gv,size):
             rows_=[k for k,l in enumerate(body) if word_re.search(l)]
             for l in body:
                 for m in word_re.finditer(l):
-                    gv['used_imgs'].add(m.group(2)); words.append(dict(img=f'level{V}/images/'+m.group(2),word=m.group(4),star=bool(m.group(3))))
+                    gv['used_imgs'].add(m.group(2)); words.append(dict(img=f'level{V}/images/'+m.group(2),word=(m.group(4) or m.group(5)).strip(),star=bool(m.group(3))))
             k0=rows_[0]
             while k0>0 and body[k0-1].strip().startswith('|'): k0-=1      # the empty header row + |---| line of the picture table
             before=[l for l in body[:k0] if l.strip()!='### New Words']

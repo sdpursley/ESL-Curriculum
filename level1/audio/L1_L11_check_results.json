@@ -1,0 +1,185 @@
+{
+ "file": "L1_L11_listening.mp3",
+ "duration_s": 61.69,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 116,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "12/13",
+ "lines_with_flags": [
+  {
+   "t": 47.75,
+   "spk": "Ana",
+   "line": "Between the park and the store. Thank you so much!",
+   "ok": true,
+   "hyp": "between the park and the store thank you so much",
+   "min_prob": 0.58,
+   "flags": [
+    "noisy/hissy 380ms"
+   ],
+   "f0_med": 218.6
+  }
+ ],
+ "lines_not_exact": [
+  {
+   "t": 18.77,
+   "spk": "Marco",
+   "line": "Go straight two blocks.",
+   "ok": false,
+   "hyp": "i",
+   "min_prob": 0.06,
+   "flags": [],
+   "f0_med": 111.2
+  }
+ ],
+ "pitch_median_hz": {
+  "Ana": 218.6,
+  "Marco": 114.6,
+  "Narrator": 202.2
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.4,
+ "peak": 0.931,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.9,
+ "per_line": [
+  {
+   "t": 10.27,
+   "spk": "Ana",
+   "line": "Excuse me. Where's the pharmacy?",
+   "ok": true,
+   "hyp": "excuse me where is the pharmacy",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 225.0
+  },
+  {
+   "t": 13.69,
+   "spk": "Marco",
+   "line": "It's on Main Street.",
+   "ok": true,
+   "hyp": "it's on main street",
+   "min_prob": 0.44,
+   "flags": [],
+   "f0_med": 111.2
+  },
+  {
+   "t": 16.3,
+   "spk": "Ana",
+   "line": "How do I get there?",
+   "ok": true,
+   "hyp": "how do i get there",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 211.2
+  },
+  {
+   "t": 18.77,
+   "spk": "Marco",
+   "line": "Go straight two blocks.",
+   "ok": false,
+   "hyp": "i",
+   "min_prob": 0.06,
+   "flags": [],
+   "f0_med": 111.2
+  },
+  {
+   "t": 21.51,
+   "spk": "Ana",
+   "line": "Go straight two blocks. OK.",
+   "ok": true,
+   "hyp": "go straight 2 blocks ok",
+   "min_prob": 0.55,
+   "flags": [],
+   "f0_med": 231.6
+  },
+  {
+   "t": 24.5,
+   "spk": "Marco",
+   "line": "Then turn left at the corner. It's next to the bank.",
+   "ok": true,
+   "hyp": "then turn left at the corner it's next to the bank",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 111.9
+  },
+  {
+   "t": 29.12,
+   "spk": "Ana",
+   "line": "Turn left at the corner. Next to the bank.",
+   "ok": true,
+   "hyp": "turn left at the corner next to the bank",
+   "min_prob": 0.61,
+   "flags": [],
+   "f0_med": 179.6
+  },
+  {
+   "t": 33.36,
+   "spk": "Marco",
+   "line": "Yes. It's across from the park.",
+   "ok": true,
+   "hyp": "yes it's across from the park",
+   "min_prob": 0.64,
+   "flags": [],
+   "f0_med": 117.2
+  },
+  {
+   "t": 37.18,
+   "spk": "Ana",
+   "line": "Across from the park. Is it near the school?",
+   "ok": true,
+   "hyp": "across from the park is it near the school",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 216.1
+  },
+  {
+   "t": 41.56,
+   "spk": "Marco",
+   "line": "Yes, it is. The school is on the same street, between the park and the store.",
+   "ok": true,
+   "hyp": "yes it is the school is on the same street between the park and the store",
+   "min_prob": 0.58,
+   "flags": [],
+   "f0_med": 119.2
+  },
+  {
+   "t": 47.75,
+   "spk": "Ana",
+   "line": "Between the park and the store. Thank you so much!",
+   "ok": true,
+   "hyp": "between the park and the store thank you so much",
+   "min_prob": 0.58,
+   "flags": [
+    "noisy/hissy 380ms"
+   ],
+   "f0_med": 218.6
+  },
+  {
+   "t": 53.13,
+   "spk": "Marco",
+   "line": "You're welcome. Have a nice day!",
+   "ok": true,
+   "hyp": "you're welcome have a nice day",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 138.5
+  },
+  {
+   "t": 56.2,
+   "spk": "Ana",
+   "line": "You too. Bye!",
+   "ok": true,
+   "hyp": "you too bye",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 245.4
+  }
+ ],
+ "hyp": "lesson 11 listening ana is on the street she asks marco for directions to the pharmacy listen excuse me where is the pharmacy it's on main street how do i get there go straight 2 blocks go straight 2 blocks ok then turn left at the corner it's next to the bank turn left at the corner next to the bank yes it's across from the park across from the park is it near the school yes it is the school is on the same street between the park and the store between the park and the store thank you so much you're welcome have a nice day you too bye that's the end of the listening"
+}

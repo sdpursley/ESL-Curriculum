@@ -1,0 +1,217 @@
+{
+ "file": "L1_L7_listening.mp3",
+ "duration_s": 67.5,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 116,
+ "diffs": [],
+ "low_prob_words": [
+  [
+   "Good.",
+   37.5,
+   0.1
+  ],
+  [
+   "fifty",
+   47.82,
+   0.31
+  ]
+ ],
+ "lines_ok": "11/14",
+ "lines_with_flags": [],
+ "lines_not_exact": [
+  {
+   "t": 37.81,
+   "spk": "Ana",
+   "line": "Good. The blue shirt and the black shoes, please.",
+   "ok": false,
+   "hyp": "good the blue shirt shoes please",
+   "min_prob": 0.48,
+   "flags": [],
+   "f0_med": 257.8
+  },
+  {
+   "t": 50.07,
+   "spk": "Cashier",
+   "line": "Thank you. Your change is $8.",
+   "ok": false,
+   "hyp": "thank you thank you",
+   "min_prob": 0.13,
+   "flags": [],
+   "f0_med": 149.3
+  },
+  {
+   "t": 57.41,
+   "spk": "Cashier",
+   "line": "Sure. Here's your receipt. Have a nice day!",
+   "ok": false,
+   "hyp": "here's your receipt have a nice day",
+   "min_prob": 0.48,
+   "flags": [],
+   "f0_med": 130.8
+  }
+ ],
+ "pitch_median_hz": {
+  "Cashier": 143.4,
+  "Ana": 245.4,
+  "Narrator": 191.4
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [
+  [
+   32.78,
+   33.21,
+   -51.9
+  ]
+ ],
+ "click_ratio": 4.0,
+ "peak": 0.903,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 9.05,
+   "spk": "Cashier",
+   "line": "Hi! Can I help you?",
+   "ok": true,
+   "hyp": "hi can i help you",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 143.4
+  },
+  {
+   "t": 11.76,
+   "spk": "Ana",
+   "line": "Yes, please. How much is this shirt?",
+   "ok": true,
+   "hyp": "yes please how much is this shirt",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 264.5
+  },
+  {
+   "t": 15.92,
+   "spk": "Cashier",
+   "line": "The blue shirt? It's $12.",
+   "ok": true,
+   "hyp": "the blue shirt it's 12 dollars",
+   "min_prob": 0.81,
+   "flags": [],
+   "f0_med": 136.1
+  },
+  {
+   "t": 20.06,
+   "spk": "Ana",
+   "line": "Do you have this shirt in red?",
+   "ok": true,
+   "hyp": "do you have this shirt in red",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 218.6
+  },
+  {
+   "t": 23.25,
+   "spk": "Cashier",
+   "line": "No, sorry. Only blue and white.",
+   "ok": true,
+   "hyp": "no sorry only blue and white",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 145.9
+  },
+  {
+   "t": 27.38,
+   "spk": "Ana",
+   "line": "OK, blue is good. And how much are these shoes?",
+   "ok": true,
+   "hyp": "ok blue is good and how much are these shoes",
+   "min_prob": 0.66,
+   "flags": [],
+   "f0_med": 218.0
+  },
+  {
+   "t": 32.68,
+   "spk": "Cashier",
+   "line": "The black shoes? They're $30.",
+   "ok": true,
+   "hyp": "the black shoes they're 30 dollars",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 145.5
+  },
+  {
+   "t": 37.81,
+   "spk": "Ana",
+   "line": "Good. The blue shirt and the black shoes, please.",
+   "ok": false,
+   "hyp": "good the blue shirt shoes please",
+   "min_prob": 0.48,
+   "flags": [],
+   "f0_med": 257.8
+  },
+  {
+   "t": 42.04,
+   "spk": "Cashier",
+   "line": "OK. That's $42. Cash or credit card?",
+   "ok": true,
+   "hyp": "ok that's 42 dollars cash or credit card",
+   "min_prob": 0.5,
+   "flags": [],
+   "f0_med": 141.8
+  },
+  {
+   "t": 46.56,
+   "spk": "Ana",
+   "line": "Cash, please. Here's $50.",
+   "ok": true,
+   "hyp": "cash please here's 50 dollars",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 214.3
+  },
+  {
+   "t": 50.07,
+   "spk": "Cashier",
+   "line": "Thank you. Your change is $8.",
+   "ok": false,
+   "hyp": "thank you thank you",
+   "min_prob": 0.13,
+   "flags": [],
+   "f0_med": 149.3
+  },
+  {
+   "t": 53.64,
+   "spk": "Ana",
+   "line": "Thank you. Can I have the receipt, please?",
+   "ok": true,
+   "hyp": "thank you can i have the receipt please",
+   "min_prob": 0.72,
+   "flags": [],
+   "f0_med": 283.5
+  },
+  {
+   "t": 57.41,
+   "spk": "Cashier",
+   "line": "Sure. Here's your receipt. Have a nice day!",
+   "ok": false,
+   "hyp": "here's your receipt have a nice day",
+   "min_prob": 0.48,
+   "flags": [],
+   "f0_med": 130.8
+  },
+  {
+   "t": 62.01,
+   "spk": "Ana",
+   "line": "You too. Bye!",
+   "ok": true,
+   "hyp": "you too bye",
+   "min_prob": 0.72,
+   "flags": [],
+   "f0_med": 245.4
+  }
+ ],
+ "hyp": "lesson 7 listening ana is at a clothing store she talks too the cashier listen hi can i help you yes please how much is this shirt the blue shirt it's 12 dollars do you have this shirt in red no sorry only blue and white ok blue is good and how much are these shoes the black shoes they're 30 dollars good the blue shirt and the black shoes please ok that's 42 dollars cash or credit card cash please here's 50 dollars thank you your change is 8 dollars thank you can i have the receipt please sure here's your receipt have a nice day you too bye that's the end of the listening"
+}

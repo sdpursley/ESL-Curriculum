@@ -1,0 +1,632 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Server": "refs/Server.wav",
+   "Ana": "refs/Ana_af_jessica.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson eight. Listening.",
+    "tts_text": "Lesson eight. Listening.",
+    "seed": 9945,
+    "hyp": "lesson 8 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.95,
+    "dur": 1.98,
+    "raw_peak": 0.748,
+    "pitch_ok": true,
+    "score": 1.55,
+    "f0_med": 193.7,
+    "f0_st_sd": 3.98,
+    "f0_range_st": 10.78
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Ana is at a taco truck.",
+    "tts_text": "Ana is at a taco truck.",
+    "seed": 25783,
+    "hyp": "ana is at a taco truck",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.95,
+    "dur": 1.83,
+    "raw_peak": 0.634,
+    "pitch_ok": true,
+    "score": 1.446,
+    "f0_med": 213.6,
+    "f0_st_sd": 3.33,
+    "f0_range_st": 9.35
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "She talks to the server about food she likes. Listen.",
+    "tts_text": "She talks to the server about food she likes. Listen.",
+    "seed": 2026,
+    "hyp": "she talks too the server about food she likes listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 3.11,
+    "raw_peak": 0.957,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 200.5,
+    "f0_st_sd": 4.07,
+    "f0_range_st": 13.59
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "Hi! What do you want today?",
+    "tts_text": "Hi! What do you want today?",
+    "seed": 9945,
+    "hyp": "hi what do you want today",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.73,
+    "raw_peak": 0.917,
+    "pitch_ok": true,
+    "score": 1.577,
+    "f0_med": 131.1,
+    "f0_st_sd": 4.74,
+    "f0_range_st": 14.83
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Hi. Do you like the fish tacos?",
+    "tts_text": "Hi. Do you like the fish tacos?",
+    "seed": 9945,
+    "hyp": "hi do you like the fish tacos",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.53,
+    "raw_peak": 0.681,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 269.2,
+    "f0_st_sd": 4.76,
+    "f0_range_st": 13.2
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "Yes, I do.",
+    "tts_text": "Yes, I do.",
+    "seed": 25783,
+    "hyp": "yes i do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 1.26,
+    "raw_peak": 0.871,
+    "pitch_ok": true,
+    "score": 1.505,
+    "f0_med": 96.0,
+    "f0_st_sd": 3.67,
+    "f0_range_st": 9.3
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "They're really good.",
+    "tts_text": "They're really good.",
+    "seed": 2026,
+    "hyp": "they're really good",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 0.96,
+    "raw_peak": 0.846,
+    "pitch_ok": true,
+    "score": 1.565,
+    "f0_med": 126.7,
+    "f0_st_sd": 3.91,
+    "f0_range_st": 12.03
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Do you like the bean tacos, too?",
+    "tts_text": "Do you like the bean tacos, too?",
+    "seed": 17864,
+    "hyp": "do you like the bean tacos too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.53,
+    "mean_prob": 0.88,
+    "dur": 1.58,
+    "raw_peak": 0.54,
+    "pitch_ok": true,
+    "score": 1.4,
+    "f0_med": 249.7,
+    "f0_st_sd": 3.48,
+    "f0_range_st": 13.08
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "Yes, I do.",
+    "tts_text": "Yes, I do.",
+    "seed": 25783,
+    "hyp": "yes i do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.95,
+    "dur": 1.26,
+    "raw_peak": 0.871,
+    "pitch_ok": true,
+    "score": 1.505,
+    "f0_med": 96.0,
+    "f0_st_sd": 3.67,
+    "f0_range_st": 9.3
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "A lot of people like them.",
+    "tts_text": "A lot of people like them.",
+    "seed": 41621,
+    "hyp": "a lot of people like them",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.96,
+    "dur": 1.28,
+    "raw_peak": 1.038,
+    "pitch_ok": true,
+    "score": 1.563,
+    "f0_med": 129.6,
+    "f0_st_sd": 4.42,
+    "f0_range_st": 15.42
+   },
+   "tries": 16,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "OK. I want a fish taco and a soda, please.",
+    "tts_text": "Okay, I want a fish taco and a soda, please.",
+    "seed": 89135,
+    "hyp": "ok i want a fish taco and a soda please",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.63,
+    "mean_prob": 0.94,
+    "dur": 2.71,
+    "raw_peak": 0.765,
+    "pitch_ok": true,
+    "score": 1.422,
+    "f0_med": 206.4,
+    "f0_st_sd": 3.21,
+    "f0_range_st": 10.42
+   },
+   "tries": 16,
+   "passing": 2
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "For here or to go?",
+    "tts_text": "For here or to go?",
+    "seed": 89135,
+    "hyp": "for here or too go",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.88,
+    "dur": 1.2,
+    "raw_peak": 0.583,
+    "pitch_ok": true,
+    "score": 1.485,
+    "f0_med": 121.6,
+    "f0_st_sd": 5.18,
+    "f0_range_st": 14.94
+   },
+   "tries": 12,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "To go, please.",
+    "tts_text": "To go, please.",
+    "seed": 9945,
+    "hyp": "too go please",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.88,
+    "dur": 1.23,
+    "raw_peak": 0.492,
+    "pitch_ok": true,
+    "score": 1.478,
+    "f0_med": 273.9,
+    "f0_st_sd": 4.03,
+    "f0_range_st": 13.1
+   },
+   "tries": 10,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "Anything else? Juice or fruit?",
+    "tts_text": "Anything else? Juice or fruit?",
+    "seed": 41621,
+    "hyp": "anything else juice or fruit",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.92,
+    "dur": 2.4,
+    "raw_peak": 0.645,
+    "pitch_ok": true,
+    "score": 1.524,
+    "f0_med": 119.9,
+    "f0_st_sd": 4.64,
+    "f0_range_st": 18.53
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "No, thanks. How much is it?",
+    "tts_text": "No, thanks. How much is it?",
+    "seed": 9945,
+    "hyp": "no thanks how much is it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.39,
+    "raw_peak": 0.514,
+    "pitch_ok": true,
+    "score": 1.581,
+    "f0_med": 257.0,
+    "f0_st_sd": 5.18,
+    "f0_range_st": 14.2
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "The taco is three dollars.",
+    "tts_text": "The taco is three dollars.",
+    "seed": 89135,
+    "hyp": "the taco is 3 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.84,
+    "dur": 1.4,
+    "raw_peak": 0.974,
+    "pitch_ok": true,
+    "score": 1.436,
+    "f0_med": 105.9,
+    "f0_st_sd": 4.37,
+    "f0_range_st": 13.62
+   },
+   "tries": 12,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "The soda is two dollars.",
+    "tts_text": "The soda is two dollars.",
+    "seed": 2026,
+    "hyp": "the soda is 2 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.92,
+    "dur": 1.32,
+    "raw_peak": 0.941,
+    "pitch_ok": true,
+    "score": 1.519,
+    "f0_med": 68.9,
+    "f0_st_sd": 4.64,
+    "f0_range_st": 12.54
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "That's five dollars.",
+    "tts_text": "That's five dollars.",
+    "seed": 33702,
+    "hyp": "that's 5 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.87,
+    "dur": 1.24,
+    "raw_peak": 0.942,
+    "pitch_ok": true,
+    "score": 1.463,
+    "f0_med": 86.0,
+    "f0_st_sd": 3.96,
+    "f0_range_st": 10.82
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "OK. Here's ten dollars.",
+    "tts_text": "Okay. Here's ten dollars.",
+    "seed": 25783,
+    "hyp": "ok here's 10 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.58,
+    "mean_prob": 0.8,
+    "dur": 1.67,
+    "raw_peak": 0.403,
+    "pitch_ok": true,
+    "score": 1.405,
+    "f0_med": 270.7,
+    "f0_st_sd": 7.9,
+    "f0_range_st": 29.98
+   },
+   "tries": 12,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "Thank you. Your change is five dollars.",
+    "tts_text": "Thank you. Your change is five dollars.",
+    "seed": 25783,
+    "hyp": "thank you your change is 5 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.93,
+    "dur": 2.16,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.533,
+    "f0_med": 104.1,
+    "f0_st_sd": 5.46,
+    "f0_range_st": 15.1
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Server",
+    "text": "Have a nice day!",
+    "tts_text": "Have a nice day!",
+    "seed": 33702,
+    "hyp": "have a nice day",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 1.06,
+    "raw_peak": 1.052,
+    "pitch_ok": true,
+    "score": 1.562,
+    "f0_med": 130.8,
+    "f0_st_sd": 3.84,
+    "f0_range_st": 13.5
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "You too. Bye!",
+    "tts_text": "You too. Bye!",
+    "seed": 2026,
+    "hyp": "you too bye",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.68,
+    "mean_prob": 0.84,
+    "dur": 1.84,
+    "raw_peak": 0.72,
+    "pitch_ok": true,
+    "score": 1.324,
+    "f0_med": 246.8,
+    "f0_st_sd": 3.23,
+    "f0_range_st": 13.2
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 17864,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.65,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.506,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 11.73
+   },
+   "tries": 4,
+   "passing": 3
+  }
+ ],
+ "line_times": [
+  [
+   10.12,
+   11.85,
+   "Server",
+   "Hi! What do you want today?"
+  ],
+  [
+   13.25,
+   15.78,
+   "Ana",
+   "Hi. Do you like the fish tacos?"
+  ],
+  [
+   17.18,
+   19.95,
+   "Server",
+   "Yes, I do. They're really good."
+  ],
+  [
+   21.35,
+   22.93,
+   "Ana",
+   "Do you like the bean tacos, too?"
+  ],
+  [
+   24.33,
+   27.42,
+   "Server",
+   "Yes, I do. A lot of people like them."
+  ],
+  [
+   28.82,
+   31.53,
+   "Ana",
+   "OK. I want a fish taco and a soda, please."
+  ],
+  [
+   32.93,
+   34.13,
+   "Server",
+   "For here or to go?"
+  ],
+  [
+   35.53,
+   36.76,
+   "Ana",
+   "To go, please."
+  ],
+  [
+   38.16,
+   40.56,
+   "Server",
+   "Anything else? Juice or fruit?"
+  ],
+  [
+   41.96,
+   44.35,
+   "Ana",
+   "No, thanks. How much is it?"
+  ],
+  [
+   45.75,
+   50.81,
+   "Server",
+   "The taco is three dollars. The soda is two dollars. That's five dollars."
+  ],
+  [
+   52.21,
+   53.88,
+   "Ana",
+   "OK. Here's ten dollars."
+  ],
+  [
+   55.28,
+   59.05,
+   "Server",
+   "Thank you. Your change is five dollars. Have a nice day!"
+  ],
+  [
+   60.45,
+   62.29,
+   "Ana",
+   "You too. Bye!"
+  ]
+ ]
+}

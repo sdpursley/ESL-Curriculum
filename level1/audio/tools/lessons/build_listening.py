@@ -1,4 +1,4 @@
-"""Level 1 listening builder (Lessons 2-4). Chatterbox TTS on CPU, every voice cloned from a Kokoro-82M clip (see refs.py / REFS.md).
+"""Level 1 listening builder (Lessons 2-13). Chatterbox TTS on CPU, every voice cloned from a Kokoro-82M clip (see refs.py / REFS.md).
 Usage:  python build_listening.py path/to/script_LN.py OUT_STEM
 script_LN.py defines: LESSON, VOICES {speaker: clip name, see refs.py}, FEMALE {speakers}, INTRO [sentences], LINES [(spk, text, tts_text|None)], END
 Every sentence is ONE whole take (no comma splitting, no splicing, no time-stretch). For each sentence several seeds are tried;
@@ -83,6 +83,15 @@ def take(display, tts, spk):
     return P.norm(a, -20)
 def line(spk, text, tts=None):
     ds = split_sents(text); ts = split_sents(tts) if tts else ds
+    if len(ds) != len(ts):   # group display sentences the same way as the TTS text (e.g. "It's $12." is 2 words, "It's twelve dollars." is 3)
+        import re
+        raw = lambda t: [x.strip() for x in re.findall(r'[^.!?]+[.!?]+|[^.!?]+$', t) if x.strip()]
+        rd, rt = raw(text), raw(tts)
+        if len(rd) != len(rt): ds, ts = [text], [tts]   # TTS text punctuated differently: the whole line is one take
+        else:
+            ds = []; k = 0
+            for t in ts:
+                n = len(raw(t)); ds.append(' '.join(rd[k:k+n])); k += n
     assert len(ds) == len(ts), (text, tts)
     seg = []
     for i, (d, t) in enumerate(zip(ds, ts)):

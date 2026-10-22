@@ -1,0 +1,160 @@
+[
+ {
+  "file": "L1_L6_clock.png",
+  "lesson": "Level1-L6",
+  "word": "clock",
+  "twemoji": [
+   "1f570",
+   "23f0"
+  ],
+  "note": "clock + alarm clock + digital clock 6:00",
+  "drawn": "digital clock + time"
+ },
+ {
+  "file": "L1_L6_oclock.png",
+  "lesson": "Level1-L6",
+  "word": "o'clock",
+  "twemoji": [
+   "1f558"
+  ],
+  "note": "drawn clock face 9:00 + small Twemoji clock + digital 9:00 + \"nine o'clock\"",
+  "drawn": "drawn clock face + digital clock + text"
+ },
+ {
+  "file": "L1_L6_thirty.png",
+  "lesson": "Level1-L6",
+  "word": "thirty (half past)",
+  "twemoji": [
+   "1f564"
+  ],
+  "note": "drawn clock face 9:30 + small Twemoji clock + digital 9:30 + \"nine thirty / half past nine\"",
+  "drawn": "drawn clock face + digital clock + text"
+ },
+ {
+  "file": "L1_L6_morning.png",
+  "lesson": "Level1-L6",
+  "word": "morning",
+  "twemoji": [
+   "1f305"
+  ],
+  "note": "sunrise + 7:00",
+  "drawn": "digital clock"
+ },
+ {
+  "file": "L1_L6_afternoon.png",
+  "lesson": "Level1-L6",
+  "word": "afternoon",
+  "twemoji": [
+   "2600"
+  ],
+  "note": "sun + 3:00",
+  "drawn": "digital clock"
+ },
+ {
+  "file": "L1_L6_evening.png",
+  "lesson": "Level1-L6",
+  "word": "evening / night",
+  "twemoji": [
+   "1f303"
+  ],
+  "note": "night city with stars + 9:00",
+  "drawn": "digital clock"
+ },
+ {
+  "file": "L1_L6_day.png",
+  "lesson": "Level1-L6",
+  "word": "day",
+  "twemoji": [
+   "2600",
+   "1f319"
+  ],
+  "note": "sun + moon + \"Monday, 1 day\"",
+  "drawn": "day box + text"
+ },
+ {
+  "file": "L1_L6_week.png",
+  "lesson": "Level1-L6",
+  "word": "week",
+  "twemoji": [],
+  "note": "Mon-Sun strip, all 7 days highlighted (drawn)",
+  "drawn": "all drawn (week strip + text)"
+ },
+ {
+  "file": "L1_L6_weekend.png",
+  "lesson": "Level1-L6",
+  "word": "weekend",
+  "twemoji": [],
+  "note": "Mon-Sun strip, Saturday and Sunday highlighted (drawn)",
+  "drawn": "all drawn (week strip + text)"
+ },
+ {
+  "file": "L1_L6_open.png",
+  "lesson": "Level1-L6",
+  "word": "open",
+  "twemoji": [
+   "1f513"
+  ],
+  "note": "green OPEN sign + open lock",
+  "drawn": "sign + text"
+ },
+ {
+  "file": "L1_L6_closed.png",
+  "lesson": "Level1-L6",
+  "word": "closed",
+  "twemoji": [
+   "1f512"
+  ],
+  "note": "red CLOSED sign + closed lock",
+  "drawn": "sign + text"
+ },
+ {
+  "file": "L1_L6_days_of_week.png",
+  "lesson": "Level1-L6",
+  "word": "days of the week",
+  "twemoji": [
+   "1f4c5"
+  ],
+  "note": "calendar + Monday-Sunday with short forms",
+  "drawn": "list of days (text)"
+ },
+ {
+  "file": "L1_L6_time_600.png",
+  "lesson": "Level1-L6",
+  "word": "clock 6:00",
+  "twemoji": [],
+  "note": "drawn clock face showing 6:00 (Letters & Numbers)",
+  "drawn": "all drawn (clock face)"
+ },
+ {
+  "file": "L1_L6_time_615.png",
+  "lesson": "Level1-L6",
+  "word": "clock 6:15",
+  "twemoji": [],
+  "note": "drawn clock face showing 6:15 (Letters & Numbers)",
+  "drawn": "all drawn (clock face)"
+ },
+ {
+  "file": "L1_L6_time_630.png",
+  "lesson": "Level1-L6",
+  "word": "clock 6:30",
+  "twemoji": [],
+  "note": "drawn clock face showing 6:30 (Letters & Numbers)",
+  "drawn": "all drawn (clock face)"
+ },
+ {
+  "file": "L1_L6_time_645.png",
+  "lesson": "Level1-L6",
+  "word": "clock 6:45",
+  "twemoji": [],
+  "note": "drawn clock face showing 6:45 (Letters & Numbers)",
+  "drawn": "all drawn (clock face)"
+ },
+ {
+  "file": "L1_L6_hours_sign.png",
+  "lesson": "Level1-L6",
+  "word": "store hours sign",
+  "twemoji": [],
+  "note": "store hours sign: OPEN Mon.-Fri. 9 AM-5 PM, Sat. 10 AM-2 PM, Sun. CLOSED (drawn, invented hours)",
+  "drawn": "all drawn (sign + text)"
+ }
+]

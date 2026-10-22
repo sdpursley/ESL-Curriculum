@@ -63,6 +63,7 @@ def table(rows,cls=''):
                     tds.append(f'<td{rs}>{inline(v)}</td>')
                 out.append('<tr>'+''.join(tds)+'</tr>')
             return '\n'.join(out)
+        W=len(hdr); body=[r+['<']*(W-len(r)) for r in body]   # a short row (Level 1 Lesson 10): the last cell spans the missing columns
         q=[r[:k] for r in body]; a=[r[k+1:] for r in body]
         return (f'<div class="gbox"><div class="gside q"><div class="glabel">{inline(hdr[0])}</div><table>{grid(q)}</table></div>'
                 f'<div class="garrow" aria-hidden="true">→</div>'

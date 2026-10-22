@@ -1,0 +1,662 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Agent": "refs/Agent.wav",
+   "Rosa": "refs/Rosa.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson ten. Listening.",
+    "tts_text": "Lesson ten. Listening.",
+    "seed": 9945,
+    "hyp": "lesson 10 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.96,
+    "dur": 2.0,
+    "raw_peak": 0.785,
+    "pitch_ok": true,
+    "score": 1.559,
+    "f0_med": 204.0,
+    "f0_st_sd": 4.1,
+    "f0_range_st": 11.09
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Rosa calls about an apartment.",
+    "tts_text": "Rosa calls about an apartment.",
+    "seed": 9945,
+    "hyp": "rosa calls about an apartment",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.64,
+    "raw_peak": 0.642,
+    "pitch_ok": true,
+    "score": 1.448,
+    "f0_med": 200.5,
+    "f0_st_sd": 3.13,
+    "f0_range_st": 10.1
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "She talks to the rental agent. Listen.",
+    "tts_text": "She talks to the rental agent. Listen.",
+    "seed": 17864,
+    "hyp": "she talks to the rental agent listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.2,
+    "raw_peak": 0.492,
+    "pitch_ok": true,
+    "score": 1.584,
+    "f0_med": 184.4,
+    "f0_st_sd": 4.25,
+    "f0_range_st": 14.49
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "Hello. Green Street Apartments.",
+    "tts_text": "Hello. Green Street Apartments.",
+    "seed": 17864,
+    "hyp": "hello green street apartments",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.94,
+    "dur": 2.74,
+    "raw_peak": 0.884,
+    "pitch_ok": true,
+    "score": 1.545,
+    "f0_med": 227.0,
+    "f0_st_sd": 5.88,
+    "f0_range_st": 17.11
+   },
+   "tries": 8,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Hi. Is there an apartment for rent?",
+    "tts_text": "Hi. Is there an apartment for rent?",
+    "seed": 9945,
+    "hyp": "hi is there an apartment for rent",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.96,
+    "dur": 2.61,
+    "raw_peak": 0.65,
+    "pitch_ok": true,
+    "score": 1.562,
+    "f0_med": 227.7,
+    "f0_st_sd": 4.27,
+    "f0_range_st": 13.26
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "Yes, there is.",
+    "tts_text": "Yes, there is.",
+    "seed": 81216,
+    "hyp": "yes there is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.12,
+    "raw_peak": 0.823,
+    "pitch_ok": true,
+    "score": 1.577,
+    "f0_med": 169.1,
+    "f0_st_sd": 4.98,
+    "f0_range_st": 14.9
+   },
+   "tries": 11,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "There are two bedrooms and one bathroom.",
+    "tts_text": "There are two bedrooms and one bathroom.",
+    "seed": 33702,
+    "hyp": "there are 2 bedrooms and 1 bathroom",
+    "ok": false,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.76,
+    "raw_peak": 0.88,
+    "pitch_ok": false,
+    "score": 1.578,
+    "f0_med": 149.3,
+    "f0_st_sd": 5.04,
+    "f0_range_st": 15.72
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Is there a washing machine?",
+    "tts_text": "Is there a washing machine?",
+    "seed": 17864,
+    "hyp": "is there a washing machine",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.34,
+    "raw_peak": 0.416,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 258.5,
+    "f0_st_sd": 4.49,
+    "f0_range_st": 13.26
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "No, there isn't.",
+    "tts_text": "No, there isn't.",
+    "seed": 57459,
+    "hyp": "no there isn't",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.64,
+    "raw_peak": 0.873,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 187.1,
+    "f0_st_sd": 5.9,
+    "f0_range_st": 17.17
+   },
+   "tries": 8,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "But there is a refrigerator in the kitchen.",
+    "tts_text": "But there is a refrigerator in the kitchen.",
+    "seed": 49540,
+    "hyp": "but there is a refrigerator in the kitchen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.98,
+    "dur": 2.4,
+    "raw_peak": 0.639,
+    "pitch_ok": true,
+    "score": 1.575,
+    "f0_med": 217.4,
+    "f0_st_sd": 5.63,
+    "f0_range_st": 17.4
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "OK. Are there windows in the kitchen?",
+    "tts_text": "Okay. Are there windows in the kitchen?",
+    "seed": 49540,
+    "hyp": "ok are there windows in the kitchen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.63,
+    "mean_prob": 0.94,
+    "dur": 2.61,
+    "raw_peak": 0.513,
+    "pitch_ok": true,
+    "score": 1.486,
+    "f0_med": 242.6,
+    "f0_st_sd": 3.64,
+    "f0_range_st": 11.36
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "Yes, there are.",
+    "tts_text": "Yes, there are.",
+    "seed": 65378,
+    "hyp": "yes there are",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 1.48,
+    "raw_peak": 0.901,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 183.8,
+    "f0_st_sd": 5.13,
+    "f0_range_st": 15.84
+   },
+   "tries": 15,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "There are two windows.",
+    "tts_text": "There are two windows.",
+    "seed": 2026,
+    "hyp": "there are 2 windows",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.96,
+    "dur": 1.59,
+    "raw_peak": 0.754,
+    "pitch_ok": true,
+    "score": 1.563,
+    "f0_med": 176.6,
+    "f0_st_sd": 7.06,
+    "f0_range_st": 23.29
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "How many bedrooms are there?",
+    "tts_text": "How many bedrooms are there?",
+    "seed": 2026,
+    "hyp": "how many bedrooms are there",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.96,
+    "dur": 1.57,
+    "raw_peak": 0.455,
+    "pitch_ok": true,
+    "score": 1.441,
+    "f0_med": 217.4,
+    "f0_st_sd": 3.18,
+    "f0_range_st": 10.42
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "There are two bedrooms.",
+    "tts_text": "There are two bedrooms.",
+    "seed": 25783,
+    "hyp": "there are 2 bedrooms",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.95,
+    "dur": 1.31,
+    "raw_peak": 0.755,
+    "pitch_ok": true,
+    "score": 1.551,
+    "f0_med": 222.5,
+    "f0_st_sd": 6.02,
+    "f0_range_st": 19.17
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "The living room is big.",
+    "tts_text": "The living room is big.",
+    "seed": 33702,
+    "hyp": "the living room is big",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.86,
+    "raw_peak": 0.826,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 199.3,
+    "f0_st_sd": 4.35,
+    "f0_range_st": 15.3
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Is the living room big?",
+    "tts_text": "Is the living room big?",
+    "seed": 17864,
+    "hyp": "is the living room big",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.93,
+    "dur": 1.7,
+    "raw_peak": 0.357,
+    "pitch_ok": true,
+    "score": 1.443,
+    "f0_med": 207.6,
+    "f0_st_sd": 3.41,
+    "f0_range_st": 10.4
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "Yes, it is.",
+    "tts_text": "Yes, it is.",
+    "seed": 57459,
+    "hyp": "yes it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.97,
+    "dur": 0.89,
+    "raw_peak": 0.903,
+    "pitch_ok": true,
+    "score": 1.565,
+    "f0_med": 180.7,
+    "f0_st_sd": 3.95,
+    "f0_range_st": 11.2
+   },
+   "tries": 9,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "The living room is big.",
+    "tts_text": "The living room is big.",
+    "seed": 33702,
+    "hyp": "the living room is big",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.86,
+    "raw_peak": 0.826,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 199.3,
+    "f0_st_sd": 4.35,
+    "f0_range_st": 15.3
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "When is the rent due?",
+    "tts_text": "When is the rent due?",
+    "seed": 9945,
+    "hyp": "when is the rent due",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.86,
+    "dur": 1.23,
+    "raw_peak": 0.489,
+    "pitch_ok": true,
+    "score": 1.429,
+    "f0_med": 207.0,
+    "f0_st_sd": 3.77,
+    "f0_range_st": 10.49
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "The rent is due on the first of the month.",
+    "tts_text": "The rent is due on the first of the month.",
+    "seed": 65378,
+    "hyp": "the rent is due on the first of the month",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.36,
+    "raw_peak": 0.688,
+    "pitch_ok": true,
+    "score": 1.576,
+    "f0_med": 205.8,
+    "f0_st_sd": 4.87,
+    "f0_range_st": 13.94
+   },
+   "tries": 9,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "OK. Thank you. Goodbye.",
+    "tts_text": "Okay. Thank you. Goodbye.",
+    "seed": 2026,
+    "hyp": "ok thank you goodbye",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.92,
+    "dur": 1.64,
+    "raw_peak": 0.746,
+    "pitch_ok": true,
+    "score": 1.307,
+    "f0_med": 216.1,
+    "f0_st_sd": 2.56,
+    "f0_range_st": 7.58
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Agent",
+    "text": "Goodbye. Have a nice day!",
+    "tts_text": "Goodbye. Have a nice day!",
+    "seed": 33702,
+    "hyp": "goodbye have a nice day",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.95,
+    "dur": 1.92,
+    "raw_peak": 0.94,
+    "pitch_ok": true,
+    "score": 1.549,
+    "f0_med": 207.6,
+    "f0_st_sd": 4.31,
+    "f0_range_st": 16.48
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 17864,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.65,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.508,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 11.73
+   },
+   "tries": 3,
+   "passing": 3
+  }
+ ],
+ "line_times": [
+  [
+   9.04,
+   11.78,
+   "Agent",
+   "Hello. Green Street Apartments."
+  ],
+  [
+   13.18,
+   15.79,
+   "Rosa",
+   "Hi. Is there an apartment for rent?"
+  ],
+  [
+   17.19,
+   21.62,
+   "Agent",
+   "Yes, there is. There are two bedrooms and one bathroom."
+  ],
+  [
+   23.02,
+   24.36,
+   "Rosa",
+   "Is there a washing machine?"
+  ],
+  [
+   25.76,
+   30.35,
+   "Agent",
+   "No, there isn't. But there is a refrigerator in the kitchen."
+  ],
+  [
+   31.75,
+   34.36,
+   "Rosa",
+   "OK. Are there windows in the kitchen?"
+  ],
+  [
+   35.76,
+   39.38,
+   "Agent",
+   "Yes, there are. There are two windows."
+  ],
+  [
+   40.78,
+   42.35,
+   "Rosa",
+   "How many bedrooms are there?"
+  ],
+  [
+   43.75,
+   47.47,
+   "Agent",
+   "There are two bedrooms. The living room is big."
+  ],
+  [
+   48.87,
+   50.57,
+   "Rosa",
+   "Is the living room big?"
+  ],
+  [
+   51.97,
+   55.27,
+   "Agent",
+   "Yes, it is. The living room is big."
+  ],
+  [
+   56.67,
+   57.9,
+   "Rosa",
+   "When is the rent due?"
+  ],
+  [
+   59.3,
+   61.66,
+   "Agent",
+   "The rent is due on the first of the month."
+  ],
+  [
+   63.06,
+   64.7,
+   "Rosa",
+   "OK. Thank you. Goodbye."
+  ],
+  [
+   66.1,
+   68.02,
+   "Agent",
+   "Goodbye. Have a nice day!"
+  ]
+ ]
+}

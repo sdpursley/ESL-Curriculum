@@ -1,0 +1,203 @@
+{
+ "file": "L1_L8_listening.mp3",
+ "duration_s": 65.94,
+ "wer": 0.025,
+ "errors": 3,
+ "ref_words": 120,
+ "diffs": [
+  {
+   "op": "delete",
+   "ref": "listen",
+   "hyp": "",
+   "ctx": "about food she likes listen hi what do you"
+  },
+  {
+   "op": "delete",
+   "ref": "here's 10",
+   "hyp": "",
+   "ctx": "that's 5 dollars ok here's 10 dollars thank you your"
+  }
+ ],
+ "low_prob_words": [
+  [
+   "five",
+   56.48,
+   0.38
+  ]
+ ],
+ "lines_ok": "14/14",
+ "lines_with_flags": [
+  {
+   "t": 28.82,
+   "spk": "Ana",
+   "line": "OK. I want a fish taco and a soda, please.",
+   "ok": true,
+   "hyp": "ok i want a fish taco and a soda please",
+   "min_prob": 0.59,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 207.6
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Server": 120.6,
+  "Ana": 257.0,
+  "Narrator": 211.2
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.7,
+ "peak": 0.884,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 10.12,
+   "spk": "Server",
+   "line": "Hi! What do you want today?",
+   "ok": true,
+   "hyp": "hi what do you want today",
+   "min_prob": 0.72,
+   "flags": [],
+   "f0_med": 131.5
+  },
+  {
+   "t": 13.25,
+   "spk": "Ana",
+   "line": "Hi. Do you like the fish tacos?",
+   "ok": true,
+   "hyp": "hi do you like the fish tacos",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 269.2
+  },
+  {
+   "t": 17.18,
+   "spk": "Server",
+   "line": "Yes, I do. They're really good.",
+   "ok": true,
+   "hyp": "yes i do they're really good",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 105.6
+  },
+  {
+   "t": 21.35,
+   "spk": "Ana",
+   "line": "Do you like the bean tacos, too?",
+   "ok": true,
+   "hyp": "do you like the bean tacos too",
+   "min_prob": 0.45,
+   "flags": [],
+   "f0_med": 244.0
+  },
+  {
+   "t": 24.33,
+   "spk": "Server",
+   "line": "Yes, I do. A lot of people like them.",
+   "ok": true,
+   "hyp": "yes i do a lot of people like them",
+   "min_prob": 0.2,
+   "flags": [],
+   "f0_med": 110.6
+  },
+  {
+   "t": 28.82,
+   "spk": "Ana",
+   "line": "OK. I want a fish taco and a soda, please.",
+   "ok": true,
+   "hyp": "ok i want a fish taco and a soda please",
+   "min_prob": 0.59,
+   "flags": [
+    "noisy/hissy 300ms"
+   ],
+   "f0_med": 207.6
+  },
+  {
+   "t": 32.93,
+   "spk": "Server",
+   "line": "For here or to go?",
+   "ok": true,
+   "hyp": "for here or too go",
+   "min_prob": 0.52,
+   "flags": [],
+   "f0_med": 122.0
+  },
+  {
+   "t": 35.53,
+   "spk": "Ana",
+   "line": "To go, please.",
+   "ok": true,
+   "hyp": "too go please",
+   "min_prob": 0.61,
+   "flags": [],
+   "f0_med": 257.0
+  },
+  {
+   "t": 38.16,
+   "spk": "Server",
+   "line": "Anything else? Juice or fruit?",
+   "ok": true,
+   "hyp": "anything else juice or fruit",
+   "min_prob": 0.72,
+   "flags": [],
+   "f0_med": 120.6
+  },
+  {
+   "t": 41.96,
+   "spk": "Ana",
+   "line": "No, thanks. How much is it?",
+   "ok": true,
+   "hyp": "no thanks how much is it",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 257.0
+  },
+  {
+   "t": 45.75,
+   "spk": "Server",
+   "line": "The taco is three dollars. The soda is two dollars. That's five dollars.",
+   "ok": true,
+   "hyp": "the taco is 3 dollars the soda is 2 dollars that's 5 dollars",
+   "min_prob": 0.33,
+   "flags": [],
+   "f0_med": 81.9
+  },
+  {
+   "t": 52.21,
+   "spk": "Ana",
+   "line": "OK. Here's ten dollars.",
+   "ok": true,
+   "hyp": "ok here's 10 dollars",
+   "min_prob": 0.55,
+   "flags": [],
+   "f0_med": 270.7
+  },
+  {
+   "t": 55.28,
+   "spk": "Server",
+   "line": "Thank you. Your change is five dollars. Have a nice day!",
+   "ok": true,
+   "hyp": "thank you your change is 5 dollars have a nice day",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 121.3
+  },
+  {
+   "t": 60.45,
+   "spk": "Ana",
+   "line": "You too. Bye!",
+   "ok": true,
+   "hyp": "you too bye",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 245.4
+  }
+ ],
+ "hyp": "lesson 8 listening ana is at a taco truck she talks too the server about food she likes hi what do you want today hi do you like the fish tacos yes i do they're really good do you like the bean tacos too yes i do a lot of people like them ok i want a fish taco and a soda please for here or too go too go please anything else juice or fruit no thanks how much is it the taco is 3 dollars the soda is 2 dollars that's 5 dollars ok dollars thank you your change is 5 dollars have a nice day you too bye that's the end of the listening"
+}

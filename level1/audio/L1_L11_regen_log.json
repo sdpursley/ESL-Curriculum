@@ -1,0 +1,603 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Ana": "refs/Ana_af_jessica.wav",
+   "Marco": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson eleven. Listening.",
+    "tts_text": "Lesson eleven. Listening.",
+    "seed": 9945,
+    "hyp": "lesson 11 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.94,
+    "dur": 2.14,
+    "raw_peak": 0.549,
+    "pitch_ok": true,
+    "score": 1.539,
+    "f0_med": 198.2,
+    "f0_st_sd": 4.95,
+    "f0_range_st": 14.88
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Ana is on the street.",
+    "tts_text": "Ana is on the street.",
+    "seed": 2026,
+    "hyp": "ana is on the street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.95,
+    "dur": 1.24,
+    "raw_peak": 0.611,
+    "pitch_ok": true,
+    "score": 1.529,
+    "f0_med": 165.2,
+    "f0_st_sd": 3.87,
+    "f0_range_st": 12.1
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "She asks Marco for directions to the pharmacy. Listen.",
+    "tts_text": "She asks Marco for directions to the pharmacy. Listen.",
+    "seed": 17864,
+    "hyp": "she asks marco for directions to the pharmacy listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.96,
+    "dur": 3.69,
+    "raw_peak": 0.753,
+    "pitch_ok": true,
+    "score": 1.563,
+    "f0_med": 216.1,
+    "f0_st_sd": 4.15,
+    "f0_range_st": 13.45
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Excuse me. Where's the pharmacy?",
+    "tts_text": "Excuse me. Where's the pharmacy?",
+    "seed": 17864,
+    "hyp": "excuse me where is the pharmacy",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 2.02,
+    "raw_peak": 0.638,
+    "pitch_ok": true,
+    "score": 1.569,
+    "f0_med": 223.7,
+    "f0_st_sd": 4.04,
+    "f0_range_st": 14.84
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "It's on Main Street.",
+    "tts_text": "It's on Main Street.",
+    "seed": 25783,
+    "hyp": "it's on main street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.87,
+    "dur": 1.21,
+    "raw_peak": 0.812,
+    "pitch_ok": true,
+    "score": 1.247,
+    "f0_med": 110.6,
+    "f0_st_sd": 2.54,
+    "f0_range_st": 6.9
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "How do I get there?",
+    "tts_text": "How do I get there?",
+    "seed": 25783,
+    "hyp": "how do i get there",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.07,
+    "raw_peak": 0.374,
+    "pitch_ok": true,
+    "score": 1.572,
+    "f0_med": 217.4,
+    "f0_st_sd": 4.36,
+    "f0_range_st": 13.63
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Go straight two blocks.",
+    "tts_text": "Go straight two blocks.",
+    "seed": 17864,
+    "hyp": "go straight 2 blocks",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.89,
+    "dur": 1.34,
+    "raw_peak": 0.85,
+    "pitch_ok": true,
+    "score": 1.285,
+    "f0_med": 113.2,
+    "f0_st_sd": 2.63,
+    "f0_range_st": 7.06
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Go straight two blocks. OK.",
+    "tts_text": "Go straight two blocks, okay.",
+    "seed": 17864,
+    "hyp": "go straight 2 blocks ok",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.71,
+    "mean_prob": 0.89,
+    "dur": 1.59,
+    "raw_peak": 0.614,
+    "pitch_ok": true,
+    "score": 1.488,
+    "f0_med": 237.0,
+    "f0_st_sd": 4.07,
+    "f0_range_st": 13.0
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Then turn left at the corner.",
+    "tts_text": "Then turn left at the corner.",
+    "seed": 2026,
+    "hyp": "then turn left at the corner",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.56,
+    "mean_prob": 0.91,
+    "dur": 1.36,
+    "raw_peak": 0.834,
+    "pitch_ok": true,
+    "score": 1.249,
+    "f0_med": 112.5,
+    "f0_st_sd": 2.24,
+    "f0_range_st": 6.0
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "It's next to the bank.",
+    "tts_text": "It's next to the bank.",
+    "seed": 97054,
+    "hyp": "it's next to the bank",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.31,
+    "raw_peak": 0.903,
+    "pitch_ok": true,
+    "score": 1.47,
+    "f0_med": 109.6,
+    "f0_st_sd": 3.29,
+    "f0_range_st": 10.53
+   },
+   "tries": 16,
+   "passing": 2
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Turn left at the corner.",
+    "tts_text": "Turn left at the corner.",
+    "seed": 2026,
+    "hyp": "turn left at the corner",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.93,
+    "dur": 1.21,
+    "raw_peak": 0.541,
+    "pitch_ok": true,
+    "score": 1.533,
+    "f0_med": 191.4,
+    "f0_st_sd": 4.25,
+    "f0_range_st": 13.59
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Next to the bank.",
+    "tts_text": "Next to the bank.",
+    "seed": 25783,
+    "hyp": "next to the bank",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.92,
+    "dur": 1.08,
+    "raw_peak": 0.6,
+    "pitch_ok": true,
+    "score": 1.522,
+    "f0_med": 173.5,
+    "f0_st_sd": 6.82,
+    "f0_range_st": 23.46
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Yes. It's across from the park.",
+    "tts_text": "Yes. It's across from the park.",
+    "seed": 2026,
+    "hyp": "yes it's across from the park",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.93,
+    "dur": 2.42,
+    "raw_peak": 1.022,
+    "pitch_ok": true,
+    "score": 1.456,
+    "f0_med": 116.2,
+    "f0_st_sd": 3.52,
+    "f0_range_st": 11.92
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Across from the park.",
+    "tts_text": "Across from the park.",
+    "seed": 17864,
+    "hyp": "across from the park",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.51,
+    "mean_prob": 0.86,
+    "dur": 1.22,
+    "raw_peak": 0.855,
+    "pitch_ok": true,
+    "score": 1.458,
+    "f0_med": 255.5,
+    "f0_st_sd": 4.08,
+    "f0_range_st": 12.68
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Is it near the school?",
+    "tts_text": "Is it near the school?",
+    "seed": 2026,
+    "hyp": "is it near the school",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.21,
+    "raw_peak": 0.559,
+    "pitch_ok": true,
+    "score": 1.57,
+    "f0_med": 201.1,
+    "f0_st_sd": 4.21,
+    "f0_range_st": 13.3
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Yes, it is.",
+    "tts_text": "Yes, it is.",
+    "seed": 17864,
+    "hyp": "yes it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.96,
+    "dur": 0.88,
+    "raw_peak": 0.919,
+    "pitch_ok": true,
+    "score": 1.55,
+    "f0_med": 135.4,
+    "f0_st_sd": 3.92,
+    "f0_range_st": 9.44
+   },
+   "tries": 12,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "The school is on the same street, between the park and the store.",
+    "tts_text": "The school is on the same street, between the park and the store.",
+    "seed": 17864,
+    "hyp": "the school is on the same street between the park and the store",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.98,
+    "dur": 3.36,
+    "raw_peak": 0.844,
+    "pitch_ok": true,
+    "score": 1.509,
+    "f0_med": 119.2,
+    "f0_st_sd": 3.52,
+    "f0_range_st": 11.66
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Between the park and the store.",
+    "tts_text": "Between the park and the store.",
+    "seed": 25783,
+    "hyp": "between the park and the store",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.53,
+    "mean_prob": 0.91,
+    "dur": 1.98,
+    "raw_peak": 0.663,
+    "pitch_ok": true,
+    "score": 1.514,
+    "f0_med": 246.1,
+    "f0_st_sd": 4.1,
+    "f0_range_st": 11.7
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Thank you so much!",
+    "tts_text": "Thank you so much!",
+    "seed": 17864,
+    "hyp": "thank you so much",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.97,
+    "dur": 1.45,
+    "raw_peak": 0.553,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 208.8,
+    "f0_st_sd": 4.12,
+    "f0_range_st": 12.85
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "You're welcome. Have a nice day!",
+    "tts_text": "You're welcome. Have a nice day!",
+    "seed": 2026,
+    "hyp": "you're welcome have a nice day",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.67,
+    "raw_peak": 0.993,
+    "pitch_ok": true,
+    "score": 1.582,
+    "f0_med": 138.5,
+    "f0_st_sd": 4.42,
+    "f0_range_st": 13.3
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "You too. Bye!",
+    "tts_text": "You too. Bye!",
+    "seed": 2026,
+    "hyp": "you too bye",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.88,
+    "dur": 1.84,
+    "raw_peak": 0.72,
+    "pitch_ok": true,
+    "score": 1.369,
+    "f0_med": 246.8,
+    "f0_st_sd": 3.23,
+    "f0_range_st": 13.2
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 17864,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.65,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.506,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 11.73
+   },
+   "tries": 3,
+   "passing": 3
+  }
+ ],
+ "line_times": [
+  [
+   10.27,
+   12.29,
+   "Ana",
+   "Excuse me. Where's the pharmacy?"
+  ],
+  [
+   13.69,
+   14.9,
+   "Marco",
+   "It's on Main Street."
+  ],
+  [
+   16.3,
+   17.37,
+   "Ana",
+   "How do I get there?"
+  ],
+  [
+   18.77,
+   20.11,
+   "Marco",
+   "Go straight two blocks."
+  ],
+  [
+   21.51,
+   23.1,
+   "Ana",
+   "Go straight two blocks. OK."
+  ],
+  [
+   24.5,
+   27.72,
+   "Marco",
+   "Then turn left at the corner. It's next to the bank."
+  ],
+  [
+   29.12,
+   31.96,
+   "Ana",
+   "Turn left at the corner. Next to the bank."
+  ],
+  [
+   33.36,
+   35.78,
+   "Marco",
+   "Yes. It's across from the park."
+  ],
+  [
+   37.18,
+   40.16,
+   "Ana",
+   "Across from the park. Is it near the school?"
+  ],
+  [
+   41.56,
+   46.35,
+   "Marco",
+   "Yes, it is. The school is on the same street, between the park and the store."
+  ],
+  [
+   47.75,
+   51.73,
+   "Ana",
+   "Between the park and the store. Thank you so much!"
+  ],
+  [
+   53.13,
+   54.8,
+   "Marco",
+   "You're welcome. Have a nice day!"
+  ],
+  [
+   56.2,
+   58.04,
+   "Ana",
+   "You too. Bye!"
+  ]
+ ]
+}

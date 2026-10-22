@@ -9,6 +9,16 @@ TENS = {'20', '30', '40', '50', '60', '70', '80', '90'}
 def canon(s, same=None):
     same = same or {}
     s = s.lower().replace('’', "'")
+    s = re.sub(r"\$(\d+)(?:\.00)?\b", r"\1 dollars", s)               # $12 -> 12 dollars (same as "twelve dollars")
+    s = re.sub(r"\b(\d{1,2}):00\b", r"\1 o'clock", s)                # 7:00 -> 7 o'clock
+    s = re.sub(r"\b(\d{1,2}):(\d\d)\b", r"\1 \2", s)                 # 6:30 -> 6 30 (same as "six thirty")
+    s = s.replace("o 'clock", 'oclock').replace("o'clock", 'oclock').replace('o clock', 'oclock')
+    # ordinals: Whisper often writes 10th / 5th while the script has tenth / fifth
+    import re as _re
+    _ord = {'1st':'first','2nd':'second','3rd':'third','4th':'fourth','5th':'fifth','6th':'sixth','7th':'seventh','8th':'eighth','9th':'ninth','10th':'tenth','11th':'eleventh','12th':'twelfth','13th':'thirteenth','14th':'fourteenth','15th':'fifteenth','16th':'sixteenth','17th':'seventeenth','18th':'eighteenth','19th':'nineteenth','20th':'twentieth','21st':'twenty first','22nd':'twenty second','23rd':'twenty third','24th':'twenty fourth','25th':'twenty fifth','26th':'twenty sixth','27th':'twenty seventh','28th':'twenty eighth','29th':'twenty ninth','30th':'thirtieth','31st':'thirty first'}
+    s = _re.sub(r'\b(\d+)(st|nd|rd|th)\b', lambda m: _ord.get(m.group(0), m.group(0)), s)
+
+    s = re.sub(r"\b(\d+) ?(a\.? ?m\.?|p\.? ?m\.?)", r"\1", s)
     s = re.sub(r"(?<=\d)[-.,\s]+(?=\d)", '', s)            # 555-0142 / 555 0142 -> 5550142
     s = re.sub(r"[^a-z0-9' ]", ' ', s.replace('-', ' '))
     toks = [same.get(t, t) for t in s.split()]
@@ -29,5 +39,5 @@ def canon(s, same=None):
         i += 1
     return out
 if __name__ == '__main__':
-    for x in ["It's five five five, oh one four two.", "It's 555-0142.", "Oh, nice!", "He's twelve.", "He's 12.", "two ten Pine Street", "210 Pine Street", "twenty-one", "ZIP code is 6 0 6 1 4"]:
+    for x in ["It's $12.", "It's twelve dollars.", "It's 6:30.", "It's six thirty.", "at seven o'clock", "at 7:00", "at 7 o'clock", "It's five five five, oh one four two.", "It's 555-0142.", "Oh, nice!", "He's twelve.", "He's 12.", "two ten Pine Street", "210 Pine Street", "twenty-one", "ZIP code is 6 0 6 1 4"]:
         print(x, canon(x))

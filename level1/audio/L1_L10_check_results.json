@@ -1,0 +1,237 @@
+{
+ "file": "L1_L10_listening.mp3",
+ "duration_s": 71.67,
+ "wer": 0.0244,
+ "errors": 3,
+ "ref_words": 123,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "apartment for rent",
+   "hyp": "apart part",
+   "ctx": "hi is there an apartment for rent yes there is there"
+  }
+ ],
+ "low_prob_words": [
+  [
+   "there",
+   17.46,
+   0.32
+  ],
+  [
+   "Okay.",
+   31.8,
+   0.35
+  ]
+ ],
+ "lines_ok": "14/15",
+ "lines_with_flags": [
+  {
+   "t": 9.04,
+   "spk": "Agent",
+   "line": "Hello. Green Street Apartments.",
+   "ok": true,
+   "hyp": "hello green street apartments",
+   "min_prob": 0.89,
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "f0_med": 229.0
+  },
+  {
+   "t": 25.76,
+   "spk": "Agent",
+   "line": "No, there isn't. But there is a refrigerator in the kitchen.",
+   "ok": true,
+   "hyp": "no there isn't but there is a refrigerator in the kitchen",
+   "min_prob": 0.92,
+   "flags": [
+    "noisy/hissy 320ms"
+   ],
+   "f0_med": 212.4
+  }
+ ],
+ "lines_not_exact": [
+  {
+   "t": 48.87,
+   "spk": "Rosa",
+   "line": "Is the living room big?",
+   "ok": false,
+   "hyp": "is the room big",
+   "min_prob": 0.02,
+   "flags": [],
+   "f0_med": 210.0
+  }
+ ],
+ "pitch_median_hz": {
+  "Agent": 205.2,
+  "Rosa": 216.1,
+  "Narrator": 188.1
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.8,
+ "peak": 0.878,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.6,
+ "per_line": [
+  {
+   "t": 9.04,
+   "spk": "Agent",
+   "line": "Hello. Green Street Apartments.",
+   "ok": true,
+   "hyp": "hello green street apartments",
+   "min_prob": 0.89,
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "f0_med": 229.0
+  },
+  {
+   "t": 13.18,
+   "spk": "Rosa",
+   "line": "Hi. Is there an apartment for rent?",
+   "ok": true,
+   "hyp": "hi is there an apartment for rent",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 231.6
+  },
+  {
+   "t": 17.19,
+   "spk": "Agent",
+   "line": "Yes, there is. There are two bedrooms and one bathroom.",
+   "ok": true,
+   "hyp": "yes there is there are 2 bedrooms and 1 bathroom",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 154.6
+  },
+  {
+   "t": 23.02,
+   "spk": "Rosa",
+   "line": "Is there a washing machine?",
+   "ok": true,
+   "hyp": "is there a washing machine",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 252.6
+  },
+  {
+   "t": 25.76,
+   "spk": "Agent",
+   "line": "No, there isn't. But there is a refrigerator in the kitchen.",
+   "ok": true,
+   "hyp": "no there isn't but there is a refrigerator in the kitchen",
+   "min_prob": 0.92,
+   "flags": [
+    "noisy/hissy 320ms"
+   ],
+   "f0_med": 212.4
+  },
+  {
+   "t": 31.75,
+   "spk": "Rosa",
+   "line": "OK. Are there windows in the kitchen?",
+   "ok": true,
+   "hyp": "ok are there windows in the kitchen",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 252.6
+  },
+  {
+   "t": 35.76,
+   "spk": "Agent",
+   "line": "Yes, there are. There are two windows.",
+   "ok": true,
+   "hyp": "yes there are there are 2 windows",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 170.5
+  },
+  {
+   "t": 40.78,
+   "spk": "Rosa",
+   "line": "How many bedrooms are there?",
+   "ok": true,
+   "hyp": "how many bedrooms are there",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 216.1
+  },
+  {
+   "t": 43.75,
+   "spk": "Agent",
+   "line": "There are two bedrooms. The living room is big.",
+   "ok": true,
+   "hyp": "there are 2 bedrooms the living room is big",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 205.2
+  },
+  {
+   "t": 48.87,
+   "spk": "Rosa",
+   "line": "Is the living room big?",
+   "ok": false,
+   "hyp": "is the room big",
+   "min_prob": 0.02,
+   "flags": [],
+   "f0_med": 210.0
+  },
+  {
+   "t": 51.97,
+   "spk": "Agent",
+   "line": "Yes, it is. The living room is big.",
+   "ok": true,
+   "hyp": "yes it is the living room is big",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 197.0
+  },
+  {
+   "t": 56.67,
+   "spk": "Rosa",
+   "line": "When is the rent due?",
+   "ok": true,
+   "hyp": "when is the rent due",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 207.6
+  },
+  {
+   "t": 59.3,
+   "spk": "Agent",
+   "line": "The rent is due on the first of the month.",
+   "ok": true,
+   "hyp": "the rent is due on the first of the month",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 207.0
+  },
+  {
+   "t": 63.06,
+   "spk": "Rosa",
+   "line": "OK. Thank you. Goodbye.",
+   "ok": true,
+   "hyp": "ok thank you goodbye",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 214.9
+  },
+  {
+   "t": 66.1,
+   "spk": "Agent",
+   "line": "Goodbye. Have a nice day!",
+   "ok": true,
+   "hyp": "goodbye have a nice day",
+   "min_prob": 0.72,
+   "flags": [],
+   "f0_med": 205.2
+  }
+ ],
+ "hyp": "lesson 10 listening rosa calls about an apartment she talks to the rental agent listen hello green street apartments hi is there an apart part yes there is there are 2 bedrooms and 1 bathroom is there a washing machine no there isn't but there is a refrigerator in the kitchen ok are there windows in the kitchen yes there are there are 2 windows how many bedrooms are there there are 2 bedrooms the living room is big is the living room big yes it is the living room is big when is the rent due the rent is due on the first of the month ok thank you goodbye goodbye have a nice day that's the end of the listening"
+}

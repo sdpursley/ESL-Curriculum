@@ -1,0 +1,609 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Cashier": "refs/Carlos.wav",
+   "Ana": "refs/Ana_af_jessica.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson seven. Listening.",
+    "tts_text": "Lesson seven. Listening.",
+    "seed": 2026,
+    "hyp": "lesson 7 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.94,
+    "dur": 1.93,
+    "raw_peak": 0.564,
+    "pitch_ok": true,
+    "score": 1.542,
+    "f0_med": 170.5,
+    "f0_st_sd": 4.29,
+    "f0_range_st": 14.15
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Ana is at a clothing store.",
+    "tts_text": "Ana is at a clothing store.",
+    "seed": 17864,
+    "hyp": "ana is at a clothing store",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.96,
+    "dur": 1.88,
+    "raw_peak": 0.655,
+    "pitch_ok": true,
+    "score": 1.562,
+    "f0_med": 187.1,
+    "f0_st_sd": 4.08,
+    "f0_range_st": 12.48
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "She talks to the cashier. Listen.",
+    "tts_text": "She talks to the cashier. Listen.",
+    "seed": 17864,
+    "hyp": "she talks too the cashier listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 2.04,
+    "raw_peak": 0.646,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 210.0,
+    "f0_st_sd": 4.08,
+    "f0_range_st": 12.41
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Cashier",
+    "text": "Hi! Can I help you?",
+    "tts_text": "Hi! Can I help you?",
+    "seed": 104973,
+    "hyp": "hi can i help you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.31,
+    "raw_peak": 0.456,
+    "pitch_ok": true,
+    "score": 1.58,
+    "f0_med": 143.4,
+    "f0_st_sd": 4.63,
+    "f0_range_st": 14.56
+   },
+   "tries": 14,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Yes, please. How much is this shirt?",
+    "tts_text": "Yes, please. How much is this shirt?",
+    "seed": 25783,
+    "hyp": "yes please how much is this shirt",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.97,
+    "dur": 2.76,
+    "raw_peak": 0.662,
+    "pitch_ok": true,
+    "score": 1.567,
+    "f0_med": 269.2,
+    "f0_st_sd": 4.08,
+    "f0_range_st": 12.22
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Cashier",
+    "text": "The blue shirt?",
+    "tts_text": "The blue shirt?",
+    "seed": 81216,
+    "hyp": "the blue shirt",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.65,
+    "mean_prob": 0.86,
+    "dur": 0.9,
+    "raw_peak": 0.371,
+    "pitch_ok": true,
+    "score": 1.458,
+    "f0_med": 136.9,
+    "f0_st_sd": 4.51,
+    "f0_range_st": 13.35
+   },
+   "tries": 16,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Cashier",
+    "text": "It's $12.",
+    "tts_text": "It's twelve dollars.",
+    "seed": 49540,
+    "hyp": "it's 12 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.85,
+    "dur": 1.29,
+    "raw_peak": 0.403,
+    "pitch_ok": true,
+    "score": 1.452,
+    "f0_med": 137.7,
+    "f0_st_sd": 4.76,
+    "f0_range_st": 16.96
+   },
+   "tries": 16,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Do you have this shirt in red?",
+    "tts_text": "Do you have this shirt in red?",
+    "seed": 9945,
+    "hyp": "do you have this shirt in red",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 0.99,
+    "dur": 1.79,
+    "raw_peak": 0.448,
+    "pitch_ok": true,
+    "score": 1.585,
+    "f0_med": 221.2,
+    "f0_st_sd": 3.94,
+    "f0_range_st": 12.0
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Cashier",
+    "text": "No, sorry. Only blue and white.",
+    "tts_text": "No, sorry. Only blue and white.",
+    "seed": 41621,
+    "hyp": "no sorry only blue and white",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.96,
+    "dur": 2.73,
+    "raw_peak": 0.414,
+    "pitch_ok": true,
+    "score": 1.557,
+    "f0_med": 146.8,
+    "f0_st_sd": 4.0,
+    "f0_range_st": 12.88
+   },
+   "tries": 16,
+   "passing": 2
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "OK, blue is good.",
+    "tts_text": "OK, blue is good.",
+    "seed": 25783,
+    "hyp": "ok blue is good",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.89,
+    "dur": 1.9,
+    "raw_peak": 0.517,
+    "pitch_ok": true,
+    "score": 1.492,
+    "f0_med": 214.9,
+    "f0_st_sd": 4.72,
+    "f0_range_st": 14.37
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "And how much are these shoes?",
+    "tts_text": "And how much are these shoes?",
+    "seed": 2026,
+    "hyp": "and how much are these shoes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.97,
+    "dur": 1.45,
+    "raw_peak": 0.503,
+    "pitch_ok": true,
+    "score": 1.568,
+    "f0_med": 251.9,
+    "f0_st_sd": 4.37,
+    "f0_range_st": 12.72
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Cashier",
+    "text": "The black shoes?",
+    "tts_text": "The black shoes?",
+    "seed": 33702,
+    "hyp": "the black shoes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.84,
+    "dur": 1.64,
+    "raw_peak": 0.404,
+    "pitch_ok": true,
+    "score": 1.439,
+    "f0_med": 147.2,
+    "f0_st_sd": 4.05,
+    "f0_range_st": 13.71
+   },
+   "tries": 16,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Cashier",
+    "text": "They're $30.",
+    "tts_text": "They're thirty dollars.",
+    "seed": 33702,
+    "hyp": "they're 30 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.83,
+    "dur": 1.54,
+    "raw_peak": 0.406,
+    "pitch_ok": true,
+    "score": 1.388,
+    "f0_med": 143.4,
+    "f0_st_sd": 3.73,
+    "f0_range_st": 12.86
+   },
+   "tries": 16,
+   "passing": 2
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Good. The blue shirt and the black shoes, please.",
+    "tts_text": "Good. The blue shirt and the black shoes, please.",
+    "seed": 25783,
+    "hyp": "good the blue shirt and the black shoes please",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 2.83,
+    "raw_peak": 0.582,
+    "pitch_ok": true,
+    "score": 1.572,
+    "f0_med": 260.0,
+    "f0_st_sd": 4.61,
+    "f0_range_st": 13.39
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Cashier",
+    "text": "OK. That's $42. Cash or credit card?",
+    "tts_text": "Okay, that's forty-two dollars, cash or credit card?",
+    "seed": 104973,
+    "hyp": "ok that's 42 dollars cash or credit card",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.91,
+    "dur": 3.12,
+    "raw_peak": 0.463,
+    "pitch_ok": true,
+    "score": 1.365,
+    "f0_med": 143.4,
+    "f0_st_sd": 3.04,
+    "f0_range_st": 8.78
+   },
+   "tries": 16,
+   "passing": 2
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Cash, please. Here's $50.",
+    "tts_text": "Cash, please. Here's fifty dollars.",
+    "seed": 9945,
+    "hyp": "cash please here's 50 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.93,
+    "dur": 2.11,
+    "raw_peak": 0.764,
+    "pitch_ok": true,
+    "score": 1.528,
+    "f0_med": 211.2,
+    "f0_st_sd": 4.28,
+    "f0_range_st": 13.34
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Cashier",
+    "text": "Thank you. Your change is $8.",
+    "tts_text": "Thank you. Your change is eight dollars.",
+    "seed": 97054,
+    "hyp": "thank you your change is 8 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.95,
+    "dur": 2.17,
+    "raw_peak": 0.389,
+    "pitch_ok": true,
+    "score": 1.554,
+    "f0_med": 149.3,
+    "f0_st_sd": 4.75,
+    "f0_range_st": 15.33
+   },
+   "tries": 16,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "Thank you. Can I have the receipt, please?",
+    "tts_text": "Thank you. Can I have the receipt, please?",
+    "seed": 9945,
+    "hyp": "thank you can i have the receipt please",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.98,
+    "dur": 2.37,
+    "raw_peak": 0.407,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 280.3,
+    "f0_st_sd": 5.11,
+    "f0_range_st": 15.6
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Cashier",
+    "text": "Sure. Here's your receipt.",
+    "tts_text": "Sure. Here's your receipt.",
+    "seed": 2026,
+    "hyp": "sure here's your receipt",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 1.45,
+    "raw_peak": 0.418,
+    "pitch_ok": true,
+    "score": 1.557,
+    "f0_med": 140.1,
+    "f0_st_sd": 4.46,
+    "f0_range_st": 15.1
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Cashier",
+    "text": "Have a nice day!",
+    "tts_text": "Have a nice day!",
+    "seed": 112892,
+    "hyp": "have a nice day",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.2,
+    "raw_peak": 0.444,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 131.5,
+    "f0_st_sd": 3.93,
+    "f0_range_st": 13.36
+   },
+   "tries": 16,
+   "passing": 2
+  },
+  {
+   "chosen": {
+    "spk": "Ana",
+    "text": "You too. Bye!",
+    "tts_text": "You too. Bye!",
+    "seed": 2026,
+    "hyp": "you too bye",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.88,
+    "dur": 1.84,
+    "raw_peak": 0.72,
+    "pitch_ok": true,
+    "score": 1.369,
+    "f0_med": 246.8,
+    "f0_st_sd": 3.23,
+    "f0_range_st": 13.2
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 17864,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.65,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.506,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 11.73
+   },
+   "tries": 3,
+   "passing": 3
+  }
+ ],
+ "line_times": [
+  [
+   9.05,
+   10.36,
+   "Cashier",
+   "Hi! Can I help you?"
+  ],
+  [
+   11.76,
+   14.52,
+   "Ana",
+   "Yes, please. How much is this shirt?"
+  ],
+  [
+   15.92,
+   18.66,
+   "Cashier",
+   "The blue shirt? It's $12."
+  ],
+  [
+   20.06,
+   21.85,
+   "Ana",
+   "Do you have this shirt in red?"
+  ],
+  [
+   23.25,
+   25.98,
+   "Cashier",
+   "No, sorry. Only blue and white."
+  ],
+  [
+   27.38,
+   31.28,
+   "Ana",
+   "OK, blue is good. And how much are these shoes?"
+  ],
+  [
+   32.68,
+   36.41,
+   "Cashier",
+   "The black shoes? They're $30."
+  ],
+  [
+   37.81,
+   40.64,
+   "Ana",
+   "Good. The blue shirt and the black shoes, please."
+  ],
+  [
+   42.04,
+   45.16,
+   "Cashier",
+   "OK. That's $42. Cash or credit card?"
+  ],
+  [
+   46.56,
+   48.67,
+   "Ana",
+   "Cash, please. Here's $50."
+  ],
+  [
+   50.07,
+   52.24,
+   "Cashier",
+   "Thank you. Your change is $8."
+  ],
+  [
+   53.64,
+   56.01,
+   "Ana",
+   "Thank you. Can I have the receipt, please?"
+  ],
+  [
+   57.41,
+   60.61,
+   "Cashier",
+   "Sure. Here's your receipt. Have a nice day!"
+  ],
+  [
+   62.01,
+   63.85,
+   "Ana",
+   "You too. Bye!"
+  ]
+ ]
+}

@@ -1,0 +1,730 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Rosa": "refs/Rosa.wav",
+   "Marco": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson five. Listening.",
+    "tts_text": "Lesson five. Listening.",
+    "seed": 2026,
+    "hyp": "lesson 5 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 1.91,
+    "raw_peak": 0.61,
+    "pitch_ok": true,
+    "score": 1.546,
+    "f0_med": 207.6,
+    "f0_st_sd": 4.83,
+    "f0_range_st": 14.38
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Rosa and Marco are neighbors.",
+    "tts_text": "Rosa and Marco are neighbors.",
+    "seed": 25783,
+    "hyp": "rosa and marco are neighbors",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.93,
+    "dur": 1.83,
+    "raw_peak": 0.559,
+    "pitch_ok": true,
+    "score": 1.475,
+    "f0_med": 205.2,
+    "f0_st_sd": 3.62,
+    "f0_range_st": 11.21
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "They talk about their jobs. Listen.",
+    "tts_text": "They talk about their jobs. Listen.",
+    "seed": 9945,
+    "hyp": "they talk about their jobs listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 2.18,
+    "raw_peak": 0.511,
+    "pitch_ok": true,
+    "score": 1.511,
+    "f0_med": 189.2,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 13.22
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Good morning, Marco!",
+    "tts_text": "Good morning, Marco!",
+    "seed": 9945,
+    "hyp": "good morning marco",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.9,
+    "dur": 1.08,
+    "raw_peak": 0.443,
+    "pitch_ok": true,
+    "score": 1.503,
+    "f0_med": 226.3,
+    "f0_st_sd": 4.94,
+    "f0_range_st": 14.6
+   },
+   "tries": 10,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Hi, Rosa. How are you?",
+    "tts_text": "Hi, Rosa. How are you?",
+    "seed": 2026,
+    "hyp": "hi rosa how are you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.94,
+    "dur": 1.33,
+    "raw_peak": 1.013,
+    "pitch_ok": true,
+    "score": 1.538,
+    "f0_med": 138.1,
+    "f0_st_sd": 4.63,
+    "f0_range_st": 11.67
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "I'm fine, thanks.",
+    "tts_text": "I'm fine, thanks.",
+    "seed": 25783,
+    "hyp": "i'm fine thanks",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.96,
+    "dur": 1.23,
+    "raw_peak": 0.533,
+    "pitch_ok": true,
+    "score": 1.547,
+    "f0_med": 192.5,
+    "f0_st_sd": 3.89,
+    "f0_range_st": 13.05
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Marco, what do you do?",
+    "tts_text": "Marco, what do you do?",
+    "seed": 2026,
+    "hyp": "marco what do you do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.92,
+    "dur": 1.41,
+    "raw_peak": 0.475,
+    "pitch_ok": true,
+    "score": 1.517,
+    "f0_med": 205.2,
+    "f0_st_sd": 4.94,
+    "f0_range_st": 15.5
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "I'm a cook.",
+    "tts_text": "I'm a cook.",
+    "seed": 17864,
+    "hyp": "i'm a cook",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.88,
+    "dur": 0.78,
+    "raw_peak": 0.789,
+    "pitch_ok": true,
+    "score": 1.09,
+    "f0_med": 113.2,
+    "f0_st_sd": 1.37,
+    "f0_range_st": 3.56
+   },
+   "tries": 16,
+   "passing": 2
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "I work at a restaurant on Main Street.",
+    "tts_text": "I work at a restaurant on Main Street.",
+    "seed": 17864,
+    "hyp": "i work at a restaurant on main street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.95,
+    "dur": 1.82,
+    "raw_peak": 0.98,
+    "pitch_ok": true,
+    "score": 1.538,
+    "f0_med": 111.2,
+    "f0_st_sd": 3.91,
+    "f0_range_st": 13.32
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Do you work at night?",
+    "tts_text": "Do you work at night?",
+    "seed": 9945,
+    "hyp": "do you work at night",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.4,
+    "raw_peak": 0.362,
+    "pitch_ok": true,
+    "score": 1.549,
+    "f0_med": 226.3,
+    "f0_st_sd": 3.83,
+    "f0_range_st": 12.02
+   },
+   "tries": 6,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Yes, I do.",
+    "tts_text": "Yes, I do.",
+    "seed": 49540,
+    "hyp": "yes i do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.91,
+    "dur": 0.88,
+    "raw_peak": 0.803,
+    "pitch_ok": true,
+    "score": 1.431,
+    "f0_med": 120.6,
+    "f0_st_sd": 3.5,
+    "f0_range_st": 11.79
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "I don't work in the morning.",
+    "tts_text": "I don't work in the morning.",
+    "seed": 2026,
+    "hyp": "i don't work in the morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.97,
+    "dur": 1.21,
+    "raw_peak": 0.946,
+    "pitch_ok": true,
+    "score": 1.57,
+    "f0_med": 108.7,
+    "f0_st_sd": 4.2,
+    "f0_range_st": 11.72
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "And you? What do you do?",
+    "tts_text": "And you? What do you do?",
+    "seed": 49540,
+    "hyp": "and you what do you do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.95,
+    "dur": 1.54,
+    "raw_peak": 0.928,
+    "pitch_ok": true,
+    "score": 1.549,
+    "f0_med": 139.7,
+    "f0_st_sd": 6.82,
+    "f0_range_st": 18.21
+   },
+   "tries": 8,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "I'm a cashier.",
+    "tts_text": "I'm a cashier.",
+    "seed": 33702,
+    "hyp": "i'm a cashier",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.92,
+    "dur": 1.12,
+    "raw_peak": 0.606,
+    "pitch_ok": true,
+    "score": 1.277,
+    "f0_med": 229.0,
+    "f0_st_sd": 2.39,
+    "f0_range_st": 7.95
+   },
+   "tries": 8,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "I work at a store.",
+    "tts_text": "I work at a store.",
+    "seed": 33702,
+    "hyp": "i work at a store",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 1.23,
+    "raw_peak": 0.622,
+    "pitch_ok": true,
+    "score": 1.551,
+    "f0_med": 179.6,
+    "f0_st_sd": 3.82,
+    "f0_range_st": 12.5
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Do you work on weekends?",
+    "tts_text": "Do you work on weekends?",
+    "seed": 9945,
+    "hyp": "do you work on weekends",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 1.31,
+    "raw_peak": 0.742,
+    "pitch_ok": true,
+    "score": 1.537,
+    "f0_med": 122.0,
+    "f0_st_sd": 3.74,
+    "f0_range_st": 10.22
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Yes, I do.",
+    "tts_text": "Yes, I do.",
+    "seed": 9945,
+    "hyp": "yes i do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.96,
+    "dur": 1.37,
+    "raw_peak": 0.466,
+    "pitch_ok": true,
+    "score": 1.497,
+    "f0_med": 234.3,
+    "f0_st_sd": 3.6,
+    "f0_range_st": 9.69
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "I work on Saturday and Sunday.",
+    "tts_text": "I work on Saturday and Sunday.",
+    "seed": 17864,
+    "hyp": "i work on saturday and sunday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 2.14,
+    "raw_peak": 0.497,
+    "pitch_ok": true,
+    "score": 1.497,
+    "f0_med": 189.8,
+    "f0_st_sd": 3.4,
+    "f0_range_st": 10.57
+   },
+   "tries": 5,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Oh, that's a lot of work!",
+    "tts_text": "Oh, that's a lot of work!",
+    "seed": 2026,
+    "hyp": "oh that's a lot of work",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.29,
+    "raw_peak": 1.011,
+    "pitch_ok": true,
+    "score": 1.543,
+    "f0_med": 105.0,
+    "f0_st_sd": 3.87,
+    "f0_range_st": 11.32
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Yes, it is.",
+    "tts_text": "Yes, it is.",
+    "seed": 17864,
+    "hyp": "yes it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 1.18,
+    "raw_peak": 0.71,
+    "pitch_ok": true,
+    "score": 1.559,
+    "f0_med": 267.6,
+    "f0_st_sd": 4.71,
+    "f0_range_st": 12.42
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Does your wife work, too?",
+    "tts_text": "Does your wife work, too?",
+    "seed": 25783,
+    "hyp": "does your wife work too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.92,
+    "dur": 1.48,
+    "raw_peak": 0.514,
+    "pitch_ok": true,
+    "score": 1.372,
+    "f0_med": 237.0,
+    "f0_st_sd": 3.01,
+    "f0_range_st": 9.2
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Yes, she does.",
+    "tts_text": "Yes, she does.",
+    "seed": 49540,
+    "hyp": "yes she does",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.88,
+    "dur": 1.2,
+    "raw_peak": 0.983,
+    "pitch_ok": true,
+    "score": 1.358,
+    "f0_med": 105.4,
+    "f0_st_sd": 3.19,
+    "f0_range_st": 8.72
+   },
+   "tries": 7,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "She's a nurse.",
+    "tts_text": "She's a nurse.",
+    "seed": 9945,
+    "hyp": "she's a nurse",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.96,
+    "dur": 1.0,
+    "raw_peak": 0.822,
+    "pitch_ok": true,
+    "score": 1.413,
+    "f0_med": 118.5,
+    "f0_st_sd": 3.01,
+    "f0_range_st": 8.65
+   },
+   "tries": 3,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Nice. My husband is a mechanic.",
+    "tts_text": "Nice. My husband is a mechanic.",
+    "seed": 57459,
+    "hyp": "nice my husband is a mechanic",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 2.12,
+    "raw_peak": 0.379,
+    "pitch_ok": true,
+    "score": 1.569,
+    "f0_med": 213.0,
+    "f0_st_sd": 4.0,
+    "f0_range_st": 10.39
+   },
+   "tries": 9,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Great! OK, see you later, Rosa.",
+    "tts_text": "Great! OK, see you later, Rosa.",
+    "seed": 9945,
+    "hyp": "great ok see you later rosa",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.9,
+    "dur": 2.01,
+    "raw_peak": 0.982,
+    "pitch_ok": true,
+    "score": 1.412,
+    "f0_med": 130.0,
+    "f0_st_sd": 3.43,
+    "f0_range_st": 10.13
+   },
+   "tries": 4,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Bye, Marco!",
+    "tts_text": "Bye, Marco!",
+    "seed": 65378,
+    "hyp": "bye marco",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.65,
+    "mean_prob": 0.77,
+    "dur": 0.96,
+    "raw_peak": 0.71,
+    "pitch_ok": true,
+    "score": 1.276,
+    "f0_med": 199.3,
+    "f0_st_sd": 3.35,
+    "f0_range_st": 8.6
+   },
+   "tries": 9,
+   "passing": 3
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 17864,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.65,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.506,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 11.73
+   },
+   "tries": 3,
+   "passing": 3
+  }
+ ],
+ "line_times": [
+  [
+   9.12,
+   10.2,
+   "Rosa",
+   "Good morning, Marco!"
+  ],
+  [
+   11.6,
+   12.93,
+   "Marco",
+   "Hi, Rosa. How are you?"
+  ],
+  [
+   14.33,
+   17.52,
+   "Rosa",
+   "I'm fine, thanks. Marco, what do you do?"
+  ],
+  [
+   18.92,
+   22.07,
+   "Marco",
+   "I'm a cook. I work at a restaurant on Main Street."
+  ],
+  [
+   23.47,
+   24.87,
+   "Rosa",
+   "Do you work at night?"
+  ],
+  [
+   26.27,
+   31.0,
+   "Marco",
+   "Yes, I do. I don't work in the morning. And you? What do you do?"
+  ],
+  [
+   32.4,
+   35.3,
+   "Rosa",
+   "I'm a cashier. I work at a store."
+  ],
+  [
+   36.7,
+   38.01,
+   "Marco",
+   "Do you work on weekends?"
+  ],
+  [
+   39.41,
+   43.47,
+   "Rosa",
+   "Yes, I do. I work on Saturday and Sunday."
+  ],
+  [
+   44.87,
+   46.16,
+   "Marco",
+   "Oh, that's a lot of work!"
+  ],
+  [
+   47.56,
+   50.77,
+   "Rosa",
+   "Yes, it is. Does your wife work, too?"
+  ],
+  [
+   52.17,
+   54.92,
+   "Marco",
+   "Yes, she does. She's a nurse."
+  ],
+  [
+   56.32,
+   58.44,
+   "Rosa",
+   "Nice. My husband is a mechanic."
+  ],
+  [
+   59.84,
+   61.85,
+   "Marco",
+   "Great! OK, see you later, Rosa."
+  ],
+  [
+   63.25,
+   64.21,
+   "Rosa",
+   "Bye, Marco!"
+  ]
+ ]
+}
