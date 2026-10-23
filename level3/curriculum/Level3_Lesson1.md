@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 3 Adult ESL Curriculum · Lesson 1 (Week 1): Tell Me More
 
-**Status:** Complete sample lesson (Lessons 2–13 are coming soon). Draft for review; not published.
+**Status:** Complete sample lesson (all 13 Level 3 lessons are published).
 
 **Date:** October 2026
 

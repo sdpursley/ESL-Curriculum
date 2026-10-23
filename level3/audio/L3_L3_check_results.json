@@ -1,0 +1,236 @@
+{
+ "file": "L3_L3_listening.mp3",
+ "duration_s": 74.63,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 176,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "15/15",
+ "lines_with_flags": [
+  {
+   "t": 11.2,
+   "spk": "Teresa",
+   "line": "Yes! That's me with my sister. We used to live in a small village.",
+   "ok": true,
+   "hyp": "yes that's me with my sister we use to live in a small village",
+   "min_prob": 0.82,
+   "flags": [
+    "HF whine 280ms"
+   ],
+   "f0_med": 225.0
+  },
+  {
+   "t": 43.71,
+   "spk": "Teresa",
+   "line": "We used to do our chores. Then we used to climb trees and swim in the river.",
+   "ok": true,
+   "hyp": "we use to do our chores then we use to climb trees and swim in the river",
+   "min_prob": 0.88,
+   "flags": [
+    "HF whine 260ms"
+   ],
+   "f0_med": 227.7
+  },
+  {
+   "t": 52.05,
+   "spk": "Teresa",
+   "line": "No, we didn't use to have a TV. We used to listen to the radio at night.",
+   "ok": true,
+   "hyp": "no we didn't use to have a tv we use to listen to the radio at night",
+   "min_prob": 0.7,
+   "flags": [
+    "HF whine 220ms"
+   ],
+   "f0_med": 197.0
+  },
+  {
+   "t": 60.9,
+   "spk": "Teresa",
+   "line": "No. We used to write letters to my aunt in the city. Now I send you text messages every day!",
+   "ok": true,
+   "hyp": "no we use to write letters to my aunt in the city now i send you text messages every day",
+   "min_prob": 0.79,
+   "flags": [
+    "HF whine 340ms"
+   ],
+   "f0_med": 214.9
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Daniel": 137.4,
+  "Teresa": 213.6,
+  "Narrator": 174.5
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.5,
+ "peak": 0.884,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.6,
+ "per_line": [
+  {
+   "t": 8.22,
+   "spk": "Daniel",
+   "line": "Mom, is this you in the photo?",
+   "ok": true,
+   "hyp": "mom is this you in the photo",
+   "min_prob": 0.72,
+   "flags": [],
+   "f0_med": 135.4
+  },
+  {
+   "t": 11.2,
+   "spk": "Teresa",
+   "line": "Yes! That's me with my sister. We used to live in a small village.",
+   "ok": true,
+   "hyp": "yes that's me with my sister we use to live in a small village",
+   "min_prob": 0.82,
+   "flags": [
+    "HF whine 280ms"
+   ],
+   "f0_med": 225.0
+  },
+  {
+   "t": 17.65,
+   "spk": "Daniel",
+   "line": "Is that your house?",
+   "ok": true,
+   "hyp": "is that your house",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 145.1
+  },
+  {
+   "t": 20.02,
+   "spk": "Teresa",
+   "line": "Yes. We used to live on a farm near a river.",
+   "ok": true,
+   "hyp": "yes we use to live on a farm near a river",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 213.6
+  },
+  {
+   "t": 24.29,
+   "spk": "Daniel",
+   "line": "Did you use to help on the farm?",
+   "ok": true,
+   "hyp": "did you use to help on the farm",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 139.3
+  },
+  {
+   "t": 27.33,
+   "spk": "Teresa",
+   "line": "Yes, I did. Every morning, I used to feed the animals before school.",
+   "ok": true,
+   "hyp": "yes i did every morning i use to feed the animals before school",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 204.0
+  },
+  {
+   "t": 33.16,
+   "spk": "Daniel",
+   "line": "Wow. Did you use to walk to school?",
+   "ok": true,
+   "hyp": "wow did you use to walk to school",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 135.4
+  },
+  {
+   "t": 36.46,
+   "spk": "Teresa",
+   "line": "Yes. It was far, so we used to walk for an hour.",
+   "ok": true,
+   "hyp": "yes it was far so we use to walk for an hour",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 212.4
+  },
+  {
+   "t": 40.85,
+   "spk": "Daniel",
+   "line": "What did you do after school?",
+   "ok": true,
+   "hyp": "what did you do after school",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 140.9
+  },
+  {
+   "t": 43.71,
+   "spk": "Teresa",
+   "line": "We used to do our chores. Then we used to climb trees and swim in the river.",
+   "ok": true,
+   "hyp": "we use to do our chores then we use to climb trees and swim in the river",
+   "min_prob": 0.88,
+   "flags": [
+    "HF whine 260ms"
+   ],
+   "f0_med": 227.7
+  },
+  {
+   "t": 49.51,
+   "spk": "Daniel",
+   "line": "Did you have a TV?",
+   "ok": true,
+   "hyp": "did you have a tv",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 127.8
+  },
+  {
+   "t": 52.05,
+   "spk": "Teresa",
+   "line": "No, we didn't use to have a TV. We used to listen to the radio at night.",
+   "ok": true,
+   "hyp": "no we didn't use to have a tv we use to listen to the radio at night",
+   "min_prob": 0.7,
+   "flags": [
+    "HF whine 220ms"
+   ],
+   "f0_med": 197.0
+  },
+  {
+   "t": 58.38,
+   "spk": "Daniel",
+   "line": "And did you have a phone?",
+   "ok": true,
+   "hyp": "and did you have a phone",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 118.5
+  },
+  {
+   "t": 60.9,
+   "spk": "Teresa",
+   "line": "No. We used to write letters to my aunt in the city. Now I send you text messages every day!",
+   "ok": true,
+   "hyp": "no we use to write letters to my aunt in the city now i send you text messages every day",
+   "min_prob": 0.79,
+   "flags": [
+    "HF whine 340ms"
+   ],
+   "f0_med": 214.9
+  },
+  {
+   "t": 68.61,
+   "spk": "Daniel",
+   "line": "That's true. Life is really different now.",
+   "ok": true,
+   "hyp": "that's true life is really different now",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 148.5
+  }
+ ],
+ "hyp": "lesson 3 listening daniel and his mother teresa are looking at an old photo listen mom is this you in the photo yes that's me with my sister we use to live in a small village is that your house yes we use to live on a farm near a river did you use to help on the farm yes i did every morning i use to feed the animals before school wow did you use to walk to school yes it was far so we use to walk for an hour what did you do after school we use to do our chores then we use to climb trees and swim in the river did you have a tv no we didn't use to have a tv we use to listen to the radio at night and did you have a phone no we use to write letters to my aunt in the city now i send you text messages every day that's true life is really different now that's the end of the listening"
+}

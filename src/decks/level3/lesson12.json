@@ -4405,7 +4405,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Audio: about 1:15. It plays once.",
+          "t": "Audio: about 1:16. It plays once.",
           "sz": 22.0,
           "b": false,
           "i": false,
@@ -4488,7 +4488,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:18–6:30 · Listening + \"Say it\" · 12 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (1 min). Say: \"Sara lives in an apartment. She's calling the building office. What problems does she have? Listen.\"\nThere are three voices: a Narrator, Sara, and Mr. Grant (the building manager). Each click highlights the next voice.\nThe audio (about 1:15) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a normal, friendly speed.\nAudio: the listening audio for this lesson (about 1:15) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with speech bubbles, signs, and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson twelve. Listening. Sara lives in an apartment. She's calling the building office about some problems. Listen.\nMr. Grant: Maple Court Apartments, this is Mr. Grant. How can I help you?\nSara: Hi, this is Sara in apartment 4B. Something is wrong with my kitchen sink. It's leaking.\nMr. Grant: Oh no. Is there any water on the floor?\nSara: Yes, a little. I put a towel under it. And there's something else. The heater doesn't work.\nMr. Grant: Do you see anything on the screen?\nSara: No, I don't see anything. The screen is black, and the apartment is really cold.\nMr. Grant: OK. I'll send someone tomorrow morning. Is anyone home at nine?\nSara: No, no one is home in the morning. I work until two.\nMr. Grant: How about Tuesday at three?\nSara: Tuesday at three is fine. If it gets worse tonight, I'll call you.\nMr. Grant: Great. The repair person will fix both things. Until then, don't use the sink.\nSara: OK, I won't. Thank you so much.\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:18–6:30 · Listening + \"Say it\" · 12 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (1 min). Say: \"Sara lives in an apartment. She's calling the building office. What problems does she have? Listen.\"\nThere are three voices: a Narrator, Sara, and Mr. Grant (the building manager). Each click highlights the next voice.\nThe audio (L3_L12_listening.mp3, about 1:16) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.\nNo speaker? Read the script with a volunteer at a normal, friendly speed.\nAudio: synthetic voices, computer-generated (Chatterbox TTS cloned from Kokoro-82M reference clips). No recordings of real people. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with speech bubbles, signs, and labels (images/CREDITS.md).",
    "title": "Before You Listen"
   },
   {
@@ -16091,7 +16091,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Audio (coming soon): synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people. Each file will carry an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).",
+          "t": "Audio: synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people were used. Each file carries an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).",
           "sz": 13.5,
           "b": false,
           "i": false,
@@ -16124,7 +16124,7 @@
     }
    ],
    "steps": [],
-   "notes": "Credits. You don't need to read this slide in class.\nPictures: Twemoji graphics by Twitter, Inc. and other contributors, CC BY 4.0; the file-by-file list is in images/CREDITS.md.\nAudio: the listening audio for this lesson (about 1:15) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nCourse materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).\nLesson plan: Picture Credits. Picture list: images/CREDITS.md.",
+   "notes": "Credits. You don't need to read this slide in class.\nPictures: Twemoji graphics by Twitter, Inc. and other contributors, CC BY 4.0; the file-by-file list is in images/CREDITS.md.\nAudio: synthetic voices, computer-generated (Chatterbox TTS cloned from Kokoro-82M reference clips). No recordings of real people. The names and the story are invented.\nCourse materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).\nLesson plan: Picture Credits. Picture list: images/CREDITS.md.",
    "title": "Credits"
   }
  ]

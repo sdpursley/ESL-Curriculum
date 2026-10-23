@@ -24,6 +24,8 @@ const firstReady = readyLessons[0]
 /** Lessons without a lesson book yet whose teacher slides are published (slides only: no student pages, PDF/DOCX, or audio yet). */
 const slidesOnly = level3.lessons.filter(l => !l.ready && !!l.slides)
 const range = (ls: { n: number }[]) => ls.length === 1 ? `Lesson ${ls[0].n}` : `Lessons ${ls[0].n}–${ls[ls.length - 1].n}`
+const readyNote = readyLessons.length === 13 ? 'All 13 lessons are ready.'
+  : (readyLessons.length === 1 ? 'Lesson 1 is ready.' : `Lessons 1–${readyLessons.length} are ready.`) + ` Lessons ${readyLessons.length + 1}–13 are coming soon.`
 
 export function Level3Home() {
   return (<>
@@ -31,7 +33,7 @@ export function Level3Home() {
       <span className="inline-block rounded-full bg-white/80 px-2.5 py-0.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200">Free · Low intermediate · 16 weeks</span>
       <h1 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">🌳 Level 3 Adult ESL</h1>
       <p className="mt-2 max-w-2xl text-[15px] leading-snug text-slate-700 sm:text-lg sm:leading-relaxed">A free course for adults who finished Level 2: keep a conversation going, give reasons, describe people, tell what happened, make offers and promises, and handle problems at home, at work, and in town. 13 lessons with pictures, listening, grammar, reading and writing, and full teacher plans.</p>
-      <p className="mt-2 text-sm font-medium text-emerald-800">{readyLessons.length === 1 ? 'Lesson 1 is ready.' : `Lessons 1–${readyLessons.length} are ready.`} Lessons {readyLessons.length + 1}–13 are coming soon.{slidesOnly.length > 0 && ` Teacher slides for ${range(slidesOnly)} are ready now.`}</p>
+      <p className="mt-2 text-sm font-medium text-emerald-800">{readyNote}{slidesOnly.length > 0 && ` Teacher slides for ${range(slidesOnly)} are ready now.`}</p>
       <div className="mt-3 flex flex-row flex-wrap gap-2">
         {firstReady && <Link to={lessonHref(firstReady.n)} className="btn whitespace-nowrap bg-blue-600 !gap-1.5 !px-3 !py-2 !text-sm text-white sm:!px-4 sm:!text-base hover:bg-blue-700">Start Lesson {firstReady.n} <ArrowRight size={18} aria-hidden="true" /></Link>}
         <Link to="/level3/downloads" className="btn whitespace-nowrap border border-slate-300 bg-white !gap-1.5 !px-3 !py-2 !text-sm text-slate-700 sm:!px-4 sm:!text-base hover:bg-slate-50"><Download size={18} aria-hidden="true" /> Downloads</Link>
@@ -99,7 +101,7 @@ export function Level3Grid() {
 export function Level3LessonsPage() {
   return (<>
     <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">Level 3 lessons</h1>
-    <p className="mt-2 mb-6 text-lg text-slate-700">13 lessons over 16 weeks. Week 8 is the midterm, Week 15 is the final exam, and Week 16 is graduation. Lesson 1 is ready; the other lessons are coming soon.{slidesOnly.length > 0 && ` The teacher slides for ${range(slidesOnly)} are ready: open a lesson to present them or download the PowerPoint.`}</p>
+    <p className="mt-2 mb-6 text-lg text-slate-700">13 lessons over 16 weeks. Week 8 is the midterm, Week 15 is the final exam, and Week 16 is graduation. {readyNote}{slidesOnly.length > 0 && ` The teacher slides for ${range(slidesOnly)} are ready: open a lesson to present them or download the PowerPoint.`}</p>
     <Level3Grid />
   </>)
 }
