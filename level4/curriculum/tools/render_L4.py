@@ -85,7 +85,7 @@ def render(L):
     # script
     est = L['_est']
     a(f'---\n### Listening script (not recorded yet; about {est} when recorded; the conversation plays once, so press play again for the second listen)\n')
-    a('> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. Say *gonna* and *wanna* where the script has them.\n')
+    a('> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.\n')
     a(f'> **Narrator:** {S["intro"]}')
     for s, t in S['lines']: a(f'> **{s}:** {t}')
     a("> **Narrator:** That's the end of the listening.\n")

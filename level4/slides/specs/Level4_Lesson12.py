@@ -22,7 +22,7 @@ TN2 = 'All messages are invented, with no real numbers or links. List a local co
 TN3 = 'Teacher-only: if a learner asks about "legal help" or "immigration help" services that ask for money, point only to local legal aid. Don\'t give advice yourself.'
 TN4 = 'Listening: in the scope, a real utility agent confirms the account. To keep 3 speakers, Daniel checks the account on the company website instead. The message is the same: no money is lost.'
 TN5 = 'Spanish and other languages: the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.'
-TN6 = 'Reductions: the listening has gonna. Learners need to understand it; they can always say going to.'
+TN6 = 'Reductions: the listening says going to. People often say gonna. Learners only need to recognize it.'
 SLIDES = [
  {'kind': 'title', 'title': 'Is It a Scam?', 'bullets': BUL, 'pic': I('scam'), 'alt': A('scam'),
   'notes': ['Welcome learners as they arrive.',
@@ -80,7 +80,7 @@ SLIDES = [
             'Before you listen (2 min). Say: "Mrs. Lopez gets a phone call from a man who says he\'s from the electric company. Later, she talks to her son, Daniel. Listen: was it a scam?"',
             'There are 3 people: Caller, Mrs. Lopez and Daniel. A narrator starts and ends the listening. Each click highlights the next person.',
             f'The audio (L4_L12_listening.mp3, about {LEN}) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
-            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.',
+            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.',
             audio_note(N, LEN, False),
             f'{SRC} (Step 3; Listening script; Listening page).',
             PC]},
@@ -101,10 +101,10 @@ SLIDES = [
   'notes': ['Task C (play 2). Click to show each answer (one click per item, 1 to 6): 1 that, 2 who, 3 that, 4 who, 5 that, 6 who.',
             'If behind: do Task C together on the board, reading the lines yourself.',
             f'{SRC} (Step 3; Listening Task C; Answer key).']},
- {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['You will hear *gonna*.', 'Say it in a *calm, firm* voice.', 'Say each line *two times.*'],
+ {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['*gonna* is a short form. This listening says *going to*.', 'Say it in a *calm, firm* voice.', 'Say each line *two times.*'],
   'head1': 'Hear it: gonna = going to', 'head2': 'Say it: weak that, and the stress', 'head_chip': None, 'head_sz': 18, 'say_sz': 18,
-  'says': ["We're *gonna* turn off your power.", 'a text *that* asks ("thut")', '*NEVER* • *GIFT* cards', 'No, thank you. Goodbye.'],
-  'notes': ['"Hear it, say it" (3 min): Point to the script line. gonna = going to: "We\'re gonna turn off your power." Then practice the weak that (it sounds like "thut"): a text that asks. Stress the key words: NEVER, GIFT cards. Practice a calm, firm voice: No, thank you. Goodbye. The class repeats the two lines twice.',
+  'says': ["We're *going to* turn off your power.", 'a text *that* asks ("thut")', '*NEVER* • *GIFT* cards', 'No, thank you. Goodbye.'],
+  'notes': ['"Hear it, say it" (3 min): Point to the script line. gonna = going to: "We\'re going to turn off your power." Then practice the weak that (it sounds like "thut"): a text that asks. Stress the key words: NEVER, GIFT cards. Practice a calm, firm voice: No, thank you. Goodbye. The class repeats the two lines twice.',
             TN6,
             f'{SRC} (Step 3: "Hear it, say it"; Listening page: Hear it, say it; Teacher notes).']},
  {'kind': 'table', 'head': ['Grammar Box 1', 'describing with who / that'], 'title_sz': 24, 'qhead': 'QUESTION', 'ahead': 'ANSWER',

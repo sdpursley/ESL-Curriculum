@@ -4,8 +4,8 @@
 LESSON = 1
 TITLE = 'Have You Ever…?'
 VOICES = {'Narrator': 'N', 'Lucía': 'Rosa', 'Ahmed': 'Marco', 'Ms. Grant': 'Kim'}
-FEMALE = {'Narrator', 'Lucía', 'Ms. Grant'}
-NAMES = {'lucia', 'grant', 'lucía', 'ahmed'}
+FEMALE = {'Ms. Grant', 'Lucía', 'Narrator'}
+NAMES = {'ahmed', 'lucía', 'grant', 'lucia'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = "Lesson one. It's the first night of an English class at a community center. Lucía and Ahmed meet before class."
@@ -16,7 +16,7 @@ LINES = [
  ('Lucía', "No, I haven't. But my sister has. What kind of work do you do?"),
  ('Ahmed', 'I work at a warehouse. Have you ever worked in a restaurant?'),
  ('Lucía', 'Yes, I have. I worked in a pizza restaurant in 2019. It was hard, but I liked it.'),
- ('Ms. Grant', "Good evening! I'm Ms. Grant, your teacher. Tonight we're gonna find things we have in common."),
+ ('Ms. Grant', "Good evening! I'm Ms. Grant, your teacher. Tonight we're going to find things we have in common."),
  ('Ms. Grant', "Lucía and Ahmed, find two things you've both done."),
  ('Lucía', 'OK. Ahmed, have you ever seen snow?'),
  ('Ahmed', 'Yes! I saw snow for the first time last winter. It was cold, but beautiful.'),
@@ -28,8 +28,8 @@ LINES = [
  ('Ahmed', "Yes, I ran a 5k last year. I didn't win, but I finished!", "Yes, I ran a five K last year. I didn't win, but I finished!"),
  ('Lucía', "I've run a race, too. My company has a race every summer."),
  ('Ahmed', "Great. So we've both seen snow, and we've both run a race."),
- ('Ms. Grant', 'Good job! Now, what have you never done, but you wanna try?'),
- ('Ahmed', "I wanna go camping. I've never slept in a tent."),
- ('Lucía', "And I wanna try sushi. I've never eaten it."),
+ ('Ms. Grant', 'Good job! Now, what have you never done, but you want to try?'),
+ ('Ahmed', "I want to go camping. I've never slept in a tent."),
+ ('Lucía', "And I want to try sushi. I've never eaten it."),
 ]
 END = "That's the end of the listening."

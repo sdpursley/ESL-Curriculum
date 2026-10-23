@@ -32,7 +32,7 @@ L['steps'] = [
   'ask "If a cashier gives you extra money, is it a mistake?" (yes) • "Is the owner the person who found it or the person it belongs to?" (it belongs to) • "If you tell the truth, are you honest?" (yes).',
   'If I found a wallet, I\'d give it back to the owner.'),
  step3('This is a radio show called *What Would You Do?* Mike is the host. He tells a situation, and two people call the show with their answers. Listen: what is the situation?',
-  'Point to the script lines. *wanna* = want to: "I **wanna** hear your ideas." *gonna* = going to: "If you\'re **gonna** call, call early!" Then practice *I\'d* (say the *d*): *I\'d give it back*, and *What would you DO?* with the stress on *do*.', '{EST}'),
+  'Point to the script lines. *wanna* = want to: "I **want to** hear your ideas." *gonna* = going to: "If you\'re **going to** call, call early!" Then practice *I\'d* (say the *d*): *I\'d give it back*, and *What would you DO?* with the stress on *do*.', '{EST}'),
  step4('*What would you do if…? / If I had…, I\'d…*', 'hold up a pencil as a magic wand. Say, "I don\'t have a magic wand. But **if I had** a magic wand, **I\'d** fix all the potholes in this city." Write it in two halves: *If I **had** a magic wand, | I**\'d fix** the potholes.* Say: "It\'s not real. We use the past form after *if* and *would* in the other half."',
   'Box 1: read across: *What would you do if you found $50 at work? → If I found $50, I\'d give it to my supervisor.* Box 2: possible (*If it rains, I\'ll…*) vs. imaginary (*If I had a car, I\'d…*). Box 3: *I\'d* and *wouldn\'t*. Box 4: *If I were you, I\'d…* for advice.',
   '"Do I have a magic wand?" (no) "So do I say *If I have* or *If I had*?" (*If I had*) • "*If I would have time* or *If I had time*?" (*If I had time*) • "*If I were you* or *If I am you*?" (*If I were you*).',
@@ -67,7 +67,7 @@ L['listen'] = dict(title='What Would You Do?', voices={'Narrator': 'N', 'Mike': 
   ('Mike', 'And what would you do if it were only one dollar?'),
   ('Teresa', 'Hmm. If it were one dollar, I\'d probably keep it. But I\'d feel a little bad.'),
   ('Mike', 'Ha! That\'s an honest answer, too. Thank you, Teresa.'),
-  ('Mike', 'Next week\'s question is this: what would you do if you found an envelope with money at work? I wanna hear your ideas. And if you\'re gonna call, call early!'),
+  ('Mike', 'Next week\'s question is this: what would you do if you found an envelope with money at work? I want to hear your ideas. And if you\'re going to call, call early!'),
  ],
  A=dict(q='What is the situation?', opts=['A cashier gives you too much change.', 'You find money on the floor at work.', 'A friend asks you to tell a small lie.'], ans=0),
  B=dict(head='Who says it, and what? Circle the answer.', kind='choice', items=[
@@ -81,7 +81,7 @@ L['listen'] = dict(title='What Would You Do?', voices={'Narrator': 'N', 'Mike': 
  C=dict(head='Write the missing word: *would*, *were*, *I\'d*, or a past verb.', items=[
   'Really? Why [would] you go back?', 'If I [kept] the money, she would have a problem at the end of her shift.', 'And what would you do if it [were] only one dollar?',
   'If it were one dollar, [I\'d] probably keep it.', 'But [I\'d] feel a little bad.', 'what would you do if you [found] an envelope with money at work?']),
- hear='*wanna* = want to: "I **wanna** hear your ideas." • *gonna* = going to: "If you\'re **gonna** call, call early!" You can say *want to* and *going to*. Listen for *I\'d* (= I would): the *d* is short but it is there. In *What would you **do**?*, the stress is on *do*.',
+ hear='*wanna* = want to: "I **want to** hear your ideas." • *gonna* = going to: "If you\'re **going to** call, call early!" You can say *want to* and *going to*. Listen for *I\'d* (= I would): the *d* is short but it is there. In *What would you **do**?*, the stress is on *do*.',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: *What would you do if…?*
@@ -206,4 +206,4 @@ L['notes'] = [
  '**Personal topics:** learners never need to talk about real money problems. *If I won $1,000* is just a game.',
  '***I\'d*:** learners often drop the *d*. Model *I\'d give* slowly, then smoothly.',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.']
+ '**Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.']

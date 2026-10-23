@@ -35,7 +35,7 @@ L['steps'] = [
   '*I\'ve seen the ocean. / I\'ve never ridden a horse.*',
   extra=['**Show the two new pages (1 min):** the **My Words** page (a personal word list, optional) and the **Task Words** page at the back (optional). Say: "These pages are for you. Use them if you want."']),
  step3('This is the first night of an English class. Lucía and Ahmed meet. Then the teacher, Ms. Grant, gives them a job. Listen: what have they both done?',
-  'Point to the script lines. *gonna* = going to: "Tonight we\'re **gonna** find things we have in common." *wanna* = want to: "I **wanna** go camping." Say: "You will hear *gonna* and *wanna*. You can say *going to* and *want to*." Then practice the weak, short *have* (it sounds like "h\'v"): *Have you ever seen snow?* and the contraction: *I\'ve never ridden a horse.*', '{EST}'),
+  'Point to the script lines. *gonna* = going to: "Tonight we\'re **going to** find things we have in common." *wanna* = want to: "I **want to** go camping." Say: "People often say *gonna* and *wanna*. This listening uses *going to* and *want to*." Then practice the weak, short *have* (it sounds like "h\'v"): *Have you ever seen snow?* and the contraction: *I\'ve never ridden a horse.*', '{EST}'),
  step4('present perfect for experiences', 'draw a long line on the board: "my life → now." Put three X\'s on the line with no dates: "I\'ve seen snow. I\'ve run a race. I\'ve never ridden a horse." Then write a date under one X: "I ran a race **in 2023**." Say: "No time → *have* + past participle. A time → simple past."',
   'Box 1: read across: *Have you ever worked in a restaurant? → Yes, I have. / No, I haven\'t.* Point out *Has* with *he / she*. Box 2: the follow-up in the simple past: *When did you go there? → I went in 2022. How was it? → It was exciting.* Box 3: read the 20 verbs together once; learners circle 5 they want to learn first. Box 4: which one? No time or a time.',
   '"*I have seen snow in 2022.* Right or wrong?" (wrong: *I saw snow in 2022.*) • "*Have you ever eat sushi?* Right or wrong?" (wrong: *eaten*) • "*She\'s lived in three cities.* *She\'s* = she is or she has?" (she has).',
@@ -67,7 +67,7 @@ L['listen'] = dict(title='Have You Ever…?', voices={'Narrator': 'N', 'Lucía':
   ('Lucía', 'No, I haven\'t. But my sister has. What kind of work do you do?'),
   ('Ahmed', 'I work at a warehouse. Have you ever worked in a restaurant?'),
   ('Lucía', 'Yes, I have. I worked in a pizza restaurant in 2019. It was hard, but I liked it.'),
-  ('Ms. Grant', 'Good evening! I\'m Ms. Grant, your teacher. Tonight we\'re gonna find things we have in common.'),
+  ('Ms. Grant', 'Good evening! I\'m Ms. Grant, your teacher. Tonight we\'re going to find things we have in common.'),
   ('Ms. Grant', 'Lucía and Ahmed, find two things you\'ve both done.'),
   ('Lucía', 'OK. Ahmed, have you ever seen snow?'),
   ('Ahmed', 'Yes! I saw snow for the first time last winter. It was cold, but beautiful.'),
@@ -79,9 +79,9 @@ L['listen'] = dict(title='Have You Ever…?', voices={'Narrator': 'N', 'Lucía':
   ('Ahmed', 'Yes, I ran a 5k last year. I didn\'t win, but I finished!'),
   ('Lucía', 'I\'ve run a race, too. My company has a race every summer.'),
   ('Ahmed', 'Great. So we\'ve both seen snow, and we\'ve both run a race.'),
-  ('Ms. Grant', 'Good job! Now, what have you never done, but you wanna try?'),
-  ('Ahmed', 'I wanna go camping. I\'ve never slept in a tent.'),
-  ('Lucía', 'And I wanna try sushi. I\'ve never eaten it.'),
+  ('Ms. Grant', 'Good job! Now, what have you never done, but you want to try?'),
+  ('Ahmed', 'I want to go camping. I\'ve never slept in a tent.'),
+  ('Lucía', 'And I want to try sushi. I\'ve never eaten it.'),
  ],
  A=dict(q='What have Lucía and Ahmed both done?', opts=['ridden a horse and gone camping', 'seen snow and run a race', 'worked in a restaurant and eaten sushi'], ans=1),
  B=dict(head='Check ✓ True or False.', kind='tf', items=[
@@ -90,12 +90,12 @@ L['listen'] = dict(title='Have You Ever…?', voices={'Narrator': 'N', 'Lucía':
   dict(s='Ahmed saw snow for the first time last winter.', a=True, ev='I saw snow for the first time last winter'),
   dict(s='Ahmed has ridden a horse.', a=False, fix='he has never ridden a horse', ev='I\'ve never ridden a horse'),
   dict(s='Ahmed won his race.', a=False, fix='he didn\'t win, but he finished', ev='I didn\'t win, but I finished'),
-  dict(s='Lucía has never eaten sushi.', a=True, ev='I wanna try sushi. I\'ve never eaten it.'),
+  dict(s='Lucía has never eaten sushi.', a=True, ev='I want to try sushi. I\'ve never eaten it.'),
  ]),
  C=dict(head='Write *have*, *has*, or *did*.', items=[
   '[Have] you ever taken a class at this center?', 'No, I haven\'t. But my sister [has].', '[Have] you ever worked in a restaurant?',
   'Really? When [did] you do that?', 'Ahmed, [have] you ever seen snow?', 'I\'ve run a race, too. My company [has] a race every summer.']),
- hear='*gonna* = going to: "Tonight we\'re **gonna** find things we have in common." • *wanna* = want to: "I **wanna** go camping." You can say *going to* and *want to*. Say it: *Have you ever seen snow?* • *I\'ve never ridden a horse.*',
+ hear='*gonna* = going to: "Tonight we\'re **going to** find things we have in common." • *wanna* = want to: "I **want to** go camping." You can say *going to* and *want to*. Say it: *Have you ever seen snow?* • *I\'ve never ridden a horse.*',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: *Have you ever…?* (sometime in your life)
@@ -231,4 +231,4 @@ L['notes'] = [
  '**Baseline snapshot:** for each learner you hear (about 5 tonight), note three things: (1) 3 connected sentences? (2) a follow-up question? (3) any present perfect? Keep the notes private. Hear everyone by Week 3. The same notes help in Weeks 8 and 15.',
  '**Can-Do Self-Check:** the faces are 😀 I can do it, 🙂 with a little help, 😐 not yet. Read each line aloud. Keep the pages; learners compare in Week 8.',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.']
+ '**Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.']

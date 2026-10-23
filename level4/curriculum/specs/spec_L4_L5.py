@@ -32,7 +32,7 @@ L['steps'] = [
   'ask "If I borrow your pen, do I give it back?" (yes) • "If you cover my shift, who works?" (you do) • "Is a spare key the first key or an extra key?" (an extra key).',
   'Would you mind getting my mail? → No, not at all.'),
  step3('Patricia is going away for a week. First, she talks to her neighbor, Mr. Wilson. Then, at work, her coworker Omar asks her for a favor. Listen: what favors do they ask for?',
-  'Point to the script lines. *gonna* = going to: "I\'m **gonna** be away next week." *wanna* = want to: "I **wanna** help, but I can\'t." Then practice *Would you mind…?* and *Do you mind if I…?* said smoothly, with a friendly rise.', '{EST}'),
+  'Point to the script lines. *gonna* = going to: "I\'m **going to** be away next week." *wanna* = want to: "I **want to** help, but I can\'t." Then practice *Would you mind…?* and *Do you mind if I…?* said smoothly, with a friendly rise.', '{EST}'),
  step4('*Would you mind…? / Do you mind if I…?*', 'give a learner your key. Say, "I\'m going to be away. **Would you mind getting** my mail?" Show a thumbs-up and help the learner say, "**No, not at all.**" Write: *Would you mind + -ing?* → *No* = "No problem. I\'ll do it." Then ask, "**Do you mind if I open** the window?" Help them say, "No, go ahead."',
   'Box 1: read across: *Would you mind getting my mail? → No, not at all. I\'ll do it. / Sorry, I can\'t.* Box 2: permission: *Do you mind if I…? → No, go ahead.* Box 3: saying yes and saying no politely. Box 4: how polite?',
   '"*Would you mind helping me?* You want to help. Do you say *yes* or *no*?" (*No, not at all.*) • "*Would you mind to get* or *getting*?" (*getting*) • "*Do you mind if I leaving* or *if I leave*?" (*if I leave*).',
@@ -55,17 +55,17 @@ L['listen'] = dict(title='Would You Mind…?', voices={'Narrator': 'N', 'Patrici
  lines=[
   ('Patricia', 'Hi, Mr. Wilson. Could I ask you a favor?'),
   ('Mr. Wilson', 'Of course, Patricia. What is it?'),
-  ('Patricia', 'I\'m gonna be away next week. I\'m visiting my sister. Would you mind getting my mail?'),
+  ('Patricia', 'I\'m going to be away next week. I\'m visiting my sister. Would you mind getting my mail?'),
   ('Mr. Wilson', 'No, not at all. I\'m home all week.'),
   ('Patricia', 'Thank you! And would you mind watering my plants? Just two times, on Tuesday and Friday.'),
   ('Mr. Wilson', 'No problem. Where will the key be?'),
-  ('Patricia', 'I\'m gonna give you my spare key tonight. Oh, and would you mind feeding my cat, too?'),
+  ('Patricia', 'I\'m going to give you my spare key tonight. Oh, and would you mind feeding my cat, too?'),
   ('Mr. Wilson', 'Sure, I\'ll do it. I love cats. Do you mind if I put your packages inside, too?'),
   ('Patricia', 'No, go ahead. That\'s very kind.'),
   ('Mr. Wilson', 'Have a good trip. Don\'t worry about anything.'),
   ('Narrator', 'The next day, at work, Patricia talks to her coworker, Omar.'),
   ('Omar', 'Hey, Patricia. Would you mind covering my Saturday shift? My son has a soccer game.'),
-  ('Patricia', 'Oh, I\'m sorry, I can\'t. I\'ll be away on Saturday. I wanna help, but I can\'t.'),
+  ('Patricia', 'Oh, I\'m sorry, I can\'t. I\'ll be away on Saturday. I want to help, but I can\'t.'),
   ('Omar', 'Oh, right. You told me.'),
   ('Patricia', 'Why don\'t you ask Lina? She wants more hours this month.'),
   ('Omar', 'Good idea. Do you mind if I tell her you suggested it?'),
@@ -77,7 +77,7 @@ L['listen'] = dict(title='Would You Mind…?', voices={'Narrator': 'N', 'Patrici
  B=dict(head='Yes or no, and why? Circle the answer.', kind='choice', items=[
   dict(s='The mail: Mr. Wilson says {{*yes|no}}.', ev='No, not at all. I\'m home all week.'),
   dict(s='The plants: water them on {{*Tuesday and Friday|Monday and Thursday}}.', ev='Just two times, on Tuesday and Friday.'),
-  dict(s='The key: Patricia will give him {{*her spare key|her car key}} tonight.', ev='I\'m gonna give you my spare key tonight'),
+  dict(s='The key: Patricia will give him {{*her spare key|her car key}} tonight.', ev='I\'m going to give you my spare key tonight'),
   dict(s='The packages: Mr. Wilson can put them {{*inside|at the office}}.', ev='Do you mind if I put your packages inside, too?'),
   dict(s='The Saturday shift: Patricia says {{yes|*no}}.', ev='Oh, I\'m sorry, I can\'t.'),
   dict(s='Why? She {{*will be away|has a soccer game}}.', ev='I\'ll be away on Saturday.'),
@@ -85,7 +85,7 @@ L['listen'] = dict(title='Would You Mind…?', voices={'Narrator': 'N', 'Patrici
  C=dict(head='Write the missing word: an *-ing* word or *if*.', items=[
   'Would you mind [getting] my mail?', 'And would you mind [watering] my plants?', 'Oh, and would you mind [feeding] my cat, too?',
   'Do you mind [if] I put your packages inside, too?', 'Would you mind [covering] my Saturday shift?', 'Do you mind [if] I tell her you suggested it?']),
- hear='*gonna* = going to: "I\'m **gonna** be away next week." • *wanna* = want to: "I **wanna** help, but I can\'t." You can say *going to* and *want to*. Say *Would you mind…?* and *Do you mind if I…?* smoothly, with a friendly rise at the end. Answer with a thumbs-up: *No, not at all!*',
+ hear='*gonna* = going to: "I\'m **going to** be away next week." • *wanna* = want to: "I **want to** help, but I can\'t." You can say *going to* and *want to*. Say *Would you mind…?* and *Do you mind if I…?* smoothly, with a friendly rise at the end. Answer with a thumbs-up: *No, not at all!*',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: *Would you mind* + *-ing*?
@@ -219,4 +219,4 @@ L['notes'] = [
  '***mind* + -ing:** *Would you mind getting…?* But *Do you mind if I* + the base verb: *Do you mind if I leave…?*',
  '**Saying no:** model *sorry + a reason + another idea*. A polite no is a good answer.',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.']
+ '**Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.']

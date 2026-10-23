@@ -32,7 +32,7 @@ L['steps'] = [
   'ask "Is a challenge easy or hard?" (hard) • "When you are confident, are you sure or not sure?" (sure) • "Do you celebrate a milestone or a problem?" (a milestone).',
   'After I finish this class, I\'ll celebrate.'),
  step3('Mariana was a learner here. Now she is giving a short talk at graduation. Then her old teacher, Mr. Hill, asks her two questions. Listen: what is her main message?',
-  'Point to the script line. *gonna* = going to: "I\'m **gonna** take a training class." Then practice the pause at the comma: *When I started, (pause) I couldn\'t understand the bus driver.* Stress the key words: *NOW I can…, NEXT…*', '{EST}'),
+  'Point to the script line. *gonna* = going to: "I\'m **going to** take a training class." Then practice the pause at the comma: *When I started, (pause) I couldn\'t understand the bus driver.* Stress the key words: *NOW I can…, NEXT…*', '{EST}'),
  step4('*before / after / when*', 'draw a line on the board with 2 events: *I finished school. → I got a job.* Say, "**After I finished school,** I got a job." Point to the comma. Then: "I got a job **after I finished school.**" No comma. Then the future: "**After I finish this class, I\'ll** take Level 5." Cross out *When I will finish*.',
   'Box 1: read across: *What did you do after you finished school? → After I finished school, I worked in a store.* Box 2: *couldn\'t / was able to*, past continuous. Box 3: the comma. Box 4: the talk frame.',
   '"Time clause first: comma or no comma?" (comma) • "*When I will finish* or *When I finish*?" (*When I finish*) • "Last month, *I could call* the clinic one time, or *I was able to call*?" (*I was able to call*).',
@@ -56,7 +56,7 @@ L['listen'] = dict(title='My Story So Far', voices={'Narrator': 'N', 'Mariana': 
   ('Mariana', 'The first year was hard. I was working at a restaurant at night, and I was always tired. But my classmates helped me, and I made friends.'),
   ('Mariana', 'After I finished Level 2, I got a new job at a hotel. Before I started that job, I practiced my interview with my teacher. Last year, I was able to call the clinic by myself for the first time. That was a big milestone for me.'),
   ('Mariana', 'Now I can talk to guests at work, and I help my kids with their homework. I\'m more confident.'),
-  ('Mariana', 'What\'s next? After I finish Level 5, I\'m gonna take a training class to be a front desk manager. My advice to you is simple: come to class, and don\'t be afraid to make mistakes. Thank you.'),
+  ('Mariana', 'What\'s next? After I finish Level 5, I\'m going to take a training class to be a front desk manager. My advice to you is simple: come to class, and don\'t be afraid to make mistakes. Thank you.'),
   ('Mr. Hill', 'Thank you, Mariana. That was wonderful. Can I ask you two questions?'),
   ('Mariana', 'Of course.'),
   ('Mr. Hill', 'What was the biggest challenge for you?'),
@@ -77,7 +77,7 @@ L['listen'] = dict(title='My Story So Far', voices={'Narrator': 'N', 'Mariana': 
  C=dict(head='Write *before*, *after*, or *when*.', items=[
   '[When] I started English classes here, I couldn\'t understand the bus driver', '[After] I finished Level 2, I got a new job at a hotel.', '[Before] I started that job, I practiced my interview with my teacher.',
   '[When] I called someone, I couldn\'t understand them very well.', '[When] I was tired, they supported me.', '[After] class ended, we often studied together.']),
- hear='*gonna* = going to: "I\'m **gonna** take a training class." You can say *going to*. Listen for the short pause at the comma: *When I started, (pause) I couldn\'t…* Do the same in your talk. Stress the key words: *NOW I can…, NEXT…*',
+ hear='*gonna* = going to: "I\'m **going to** take a training class." You can say *going to*. Listen for the short pause at the comma: *When I started, (pause) I couldn\'t…* Do the same in your talk. Stress the key words: *NOW I can…, NEXT…*',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: *before / after / when*
@@ -212,4 +212,4 @@ L['notes'] = [
  '**Next weeks:** Week 15 is the final exam; Week 16 is graduation, where learners can give their talk.',
  '**Pronunciation:** pause at the comma after a time clause: *When I started, (pause) I couldn\'t…*',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna*. Learners need to understand it; they can always say *going to*.']
+ '**Reductions:** the listening says *going to*. People often say *gonna*. Learners only need to recognize it; they can always say the full form.']

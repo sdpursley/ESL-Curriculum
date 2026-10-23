@@ -4563,7 +4563,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Luis asks his supervisor, Ms. Adams, for time off. Then he leaves a voicemail for his sister, Rosa, and she calls back. Listen: why does he need time off?\"\nThere are 3 people: Luis, Ms. Adams and Rosa. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:52) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.\nAudio: the listening audio for this lesson (about 1:52) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson eleven. Luis asks his supervisor for time off. Then he leaves a voicemail for his sister.\nLuis: Ms. Adams, do you have a minute? I'd like to ask for some time off.\nMs. Adams: Sure, Luis. When do you wanna take it?\nLuis: Next month, from Thursday, June fifth, to Saturday, June seventh. That's three days.\nMs. Adams: And why are you taking time off?\nLuis: To visit my mother in San Antonio. It's her seventieth birthday.\nMs. Adams: How nice! Did you fill out the request form?\nLuis: Yes, I've already filled it out. Here it is.\nMs. Adams: Thanks. Who can cover your shifts?\nLuis: Ana has agreed to cover Thursday and Friday. I'm still looking for someone for Saturday.\nMs. Adams: Ask Ben. He doesn't mind working on weekends. Then I can approve it.\nLuis: Great. Thank you, Ms. Adams.\nLuis: Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm gonna take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!\nRosa: Hi, Luis! I got your message. Yes, I can pick you up at six thirty.\nLuis: Thanks, Rosa. Mom doesn't know I'm coming, right?\nRosa: No, it's a surprise. She's gonna be so happy. I enjoy planning surprises!\nLuis: Me too. See you on Thursday!\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Luis asks his supervisor, Ms. Adams, for time off. Then he leaves a voicemail for his sister, Rosa, and she calls back. Listen: why does he need time off?\"\nThere are 3 people: Luis, Ms. Adams and Rosa. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:52) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.\nAudio: the listening audio for this lesson (about 1:52) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson eleven. Luis asks his supervisor for time off. Then he leaves a voicemail for his sister.\nLuis: Ms. Adams, do you have a minute? I'd like to ask for some time off.\nMs. Adams: Sure, Luis. When do you want to take it?\nLuis: Next month, from Thursday, June fifth, to Saturday, June seventh. That's three days.\nMs. Adams: And why are you taking time off?\nLuis: To visit my mother in San Antonio. It's her seventieth birthday.\nMs. Adams: How nice! Did you fill out the request form?\nLuis: Yes, I've already filled it out. Here it is.\nMs. Adams: Thanks. Who can cover your shifts?\nLuis: Ana has agreed to cover Thursday and Friday. I'm still looking for someone for Saturday.\nMs. Adams: Ask Ben. He doesn't mind working on weekends. Then I can approve it.\nLuis: Great. Thank you, Ms. Adams.\nLuis: Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm going to take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!\nRosa: Hi, Luis! I got your message. Yes, I can pick you up at six thirty.\nLuis: Thanks, Rosa. Mom doesn't know I'm coming, right?\nRosa: No, it's a surprise. She's going to be so happy. I enjoy planning surprises!\nLuis: Me too. See you on Thursday!\nNarrator: That's the end of the listening.",
    "title": "Before You Listen"
   },
   {
@@ -7234,13 +7234,6 @@
         "algn": "l",
         "runs": [
          {
-          "t": "You will hear ",
-          "sz": 20.0,
-          "b": false,
-          "i": false,
-          "color": "#1B2236"
-         },
-         {
           "t": "gonna",
           "sz": 20.0,
           "b": true,
@@ -7262,7 +7255,7 @@
           "color": "#5B3FC4"
          },
          {
-          "t": ".",
+          "t": " are short forms. This listening uses the full forms.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -7373,7 +7366,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "wanna",
+          "t": "want to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7438,7 +7431,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "gonna",
+          "t": "going to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7513,7 +7506,7 @@
     }
    ],
    "steps": [],
-   "notes": "\"Hear it, say it\" (3 min): Point to the script lines. wanna = want to: \"When do you wanna take it?\" gonna = going to: \"I'm gonna take the bus.\" Then practice the phone number in groups with pauses: 555 · 214 · 8830. The class repeats the two lines twice.\nReductions: the listening has gonna and wanna. Learners need to understand them; saying them is optional, and they never write them.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
+   "notes": "\"Hear it, say it\" (3 min): Point to the script lines. wanna = want to: \"When do you want to take it?\" gonna = going to: \"I'm going to take the bus.\" Then practice the phone number in groups with pauses: 555 · 214 · 8830. The class repeats the two lines twice.\nReductions: the listening says going to and want to. People often say gonna and wanna. Learners only need to recognize the short forms, and they never write them.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
    "title": "Hear It, Say It"
   },
   {

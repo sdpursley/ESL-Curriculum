@@ -4514,7 +4514,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Amina is at a clinic. First, Daniel, the medical assistant, asks her some questions. Then she talks to Ms. Park, the receptionist. Listen: why is Amina at the clinic?\"\nThere are three people: Amina, Daniel (the medical assistant), and Ms. Park (the receptionist). A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 2:07) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.\nAudio: the listening audio for this lesson (about 2:07) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson four. Amina is at a clinic. First, she talks to Daniel, the medical assistant.\nDaniel: Hi, Amina. I'm Daniel. I'm gonna ask you a few questions for your health history. What brings you in today?\nAmina: My lower back hurts. It isn't very bad, but it hasn't stopped.\nDaniel: I'm sorry to hear that. How long have you had the back pain?\nAmina: I've had it for about two weeks. It started when I moved some heavy boxes.\nDaniel: OK. Have you ever had back problems before?\nAmina: No, never. This is the first time.\nDaniel: Have you ever had surgery?\nAmina: Yes, I had knee surgery in 2018.\nDaniel: Thank you. Do you have any allergies?\nAmina: Yes, I'm allergic to penicillin. I get a rash.\nDaniel: I'll write that down. Have you tried anything for the pain?\nAmina: I've used a heating pad a few times. It helps a little.\nDaniel: Have you felt dizzy?\nAmina: No, I haven't.\nDaniel: Good. Now let me check your blood pressure. It's one eighteen over seventy-six. That's fine. The doctor's gonna see you in a few minutes.\nNarrator: Later, at checkout, Amina talks to Ms. Park, the receptionist.\nMs. Park: Hi, Amina. Your copay today is twenty dollars.\nAmina: OK. Here's my new insurance card. I've had it since January.\nMs. Park: Thank you. Also, you haven't had a teeth cleaning for a year, and you haven't had a checkup since last spring. It's a good idea to get one every six months.\nAmina: You're right. I wanna make an appointment with the dentist.\nMs. Park: Why don't you call the dental office tomorrow? Here's the number. And you could get a flu shot here next week.\nAmina: Good idea. Thank you!\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Amina is at a clinic. First, Daniel, the medical assistant, asks her some questions. Then she talks to Ms. Park, the receptionist. Listen: why is Amina at the clinic?\"\nThere are three people: Amina, Daniel (the medical assistant), and Ms. Park (the receptionist). A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 2:07) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.\nAudio: the listening audio for this lesson (about 2:07) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson four. Amina is at a clinic. First, she talks to Daniel, the medical assistant.\nDaniel: Hi, Amina. I'm Daniel. I'm going to ask you a few questions for your health history. What brings you in today?\nAmina: My lower back hurts. It isn't very bad, but it hasn't stopped.\nDaniel: I'm sorry to hear that. How long have you had the back pain?\nAmina: I've had it for about two weeks. It started when I moved some heavy boxes.\nDaniel: OK. Have you ever had back problems before?\nAmina: No, never. This is the first time.\nDaniel: Have you ever had surgery?\nAmina: Yes, I had knee surgery in 2018.\nDaniel: Thank you. Do you have any allergies?\nAmina: Yes, I'm allergic to penicillin. I get a rash.\nDaniel: I'll write that down. Have you tried anything for the pain?\nAmina: I've used a heating pad a few times. It helps a little.\nDaniel: Have you felt dizzy?\nAmina: No, I haven't.\nDaniel: Good. Now let me check your blood pressure. It's one eighteen over seventy-six. That's fine. The doctor's going to see you in a few minutes.\nNarrator: Later, at checkout, Amina talks to Ms. Park, the receptionist.\nMs. Park: Hi, Amina. Your copay today is twenty dollars.\nAmina: OK. Here's my new insurance card. I've had it since January.\nMs. Park: Thank you. Also, you haven't had a teeth cleaning for a year, and you haven't had a checkup since last spring. It's a good idea to get one every six months.\nAmina: You're right. I want to make an appointment with the dentist.\nMs. Park: Why don't you call the dental office tomorrow? Here's the number. And you could get a flu shot here next week.\nAmina: Good idea. Thank you!\nNarrator: That's the end of the listening.",
    "title": "Before You Listen"
   },
   {
@@ -7308,13 +7308,6 @@
         "algn": "l",
         "runs": [
          {
-          "t": "You will hear ",
-          "sz": 20.0,
-          "b": false,
-          "i": false,
-          "color": "#1B2236"
-         },
-         {
           "t": "gonna",
           "sz": 20.0,
           "b": true,
@@ -7336,7 +7329,7 @@
           "color": "#5B3FC4"
          },
          {
-          "t": ".",
+          "t": " are short forms. This listening uses the full forms.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -7454,7 +7447,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "gonna",
+          "t": "going to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7519,7 +7512,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "wanna",
+          "t": "want to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7680,7 +7673,7 @@
     }
    ],
    "steps": [],
-   "notes": "\"Hear it, say it\" (3 min). Point to the script lines. gonna = going to: \"The doctor's gonna see you in a few minutes.\" wanna = want to: \"I wanna make an appointment.\" You can say going to and want to.\nThen practice Why don't you…? as one smooth group with falling intonation (a suggestion, not a real question), and the stress: I've had a RASH since MONday. The class repeats the two lines twice.\nReductions: learners need to understand gonna and wanna; they can always say going to and want to.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
+   "notes": "\"Hear it, say it\" (3 min). Point to the script lines. gonna = going to: \"The doctor's going to see you in a few minutes.\" wanna = want to: \"I want to make an appointment.\" You can say going to and want to.\nThen practice Why don't you…? as one smooth group with falling intonation (a suggestion, not a real question), and the stress: I've had a RASH since MONday. The class repeats the two lines twice.\nReductions: the listening says going to and want to. People often say gonna and wanna. Learners only need to recognize the short forms.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
    "title": "Hear It, Say It"
   },
   {

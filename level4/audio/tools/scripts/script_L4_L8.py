@@ -4,8 +4,8 @@
 LESSON = 8
 TITLE = 'In the News'
 VOICES = {'Narrator': 'N', 'Diane Lee': 'Receptionist', 'Marco': 'Marco', 'Joy': 'Kim'}
-FEMALE = {'Narrator', 'Diane Lee', 'Joy'}
-NAMES = {'lee', 'pine', 'joy', 'marco', 'diane', 'oak'}
+FEMALE = {'Narrator', 'Joy', 'Diane Lee'}
+NAMES = {'lee', 'pine', 'joy', 'oak', 'diane', 'marco'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson eight. First, listen to a short news report on the radio. Then two coworkers talk about the news.'
@@ -16,7 +16,7 @@ LINES = [
  ('Narrator', 'Later that morning, at work, Marco and Joy talk about the news.'),
  ('Marco', "Joy, did you hear the news? They're closing Oak Street on Monday."),
  ('Joy', 'Oh no. I take the number twelve bus on Oak Street every day.'),
- ('Marco', 'The bus is gonna take a detour on Pine Street. It might be fifteen minutes late.'),
+ ('Marco', 'The bus is going to take a detour on Pine Street. It might be fifteen minutes late.'),
  ('Joy', 'Fifteen minutes? I might be late for work. Do you know when the bus leaves Pine Street?'),
  ('Marco', "I'm not sure. You could check the city website."),
  ('Joy', 'Good idea. Do you know how long the closure is?'),
@@ -24,7 +24,7 @@ LINES = [
  ('Joy', "Hmm. Maybe I'll take the earlier bus. I don't want to be late."),
  ('Marco', 'Or I could give you a ride. I drive past your street.'),
  ('Joy', 'Really? That would be great. Do you know where the detour starts?'),
- ('Marco', "I think it starts at First Avenue. I'm gonna look at the map tonight."),
+ ('Marco', "I think it starts at First Avenue. I'm going to look at the map tonight."),
  ('Joy', 'Thanks, Marco!'),
 ]
 END = "That's the end of the listening."

@@ -32,7 +32,7 @@ L['steps'] = [
   'ask "Is a fake message real or not real?" (not real) • "Do you give your PIN to a caller or to nobody?" (nobody) • "When a call is suspicious, do you hang up or pay?" (hang up).',
   'Never give your PIN to anyone.'),
  step3('Mrs. Lopez gets a phone call from a man who says he\'s from the electric company. Later, she talks to her son, Daniel. Listen: was it a scam?',
-  'Point to the script line. *gonna* = going to: "We\'re **gonna** turn off your power." Then practice the weak *that* (it sounds like "thut"): *a text that asks*. Stress the key words: *NEVER, GIFT cards*. Practice a calm, firm voice: *No, thank you. Goodbye.*', '{EST}'),
+  'Point to the script line. *gonna* = going to: "We\'re **going to** turn off your power." Then practice the weak *that* (it sounds like "thut"): *a text that asks*. Stress the key words: *NEVER, GIFT cards*. Practice a calm, firm voice: *No, thank you. Goodbye.*', '{EST}'),
  step4('*who / that*', 'hold up your phone and say, "This morning I got a text. The text said I won a prize. → I got a text **that** said I won a prize." Then: "A man called. The man wanted my PIN. → A man **who** called wanted my PIN." Write: *who* = people, *that* = things (and people). Cross out *a man who he called*.',
   'Box 1: read across: *What\'s a scam? → It\'s a trick that takes your money.* Box 2: what to do: *Hang up on a caller who asks for gift cards.* Box 3: *never… anyone, must / should*. Box 4: the 4 steps.',
   '"*who* or *that* for a text?" (*that*) • "*a man who he called* or *a man who called*?" (*a man who called*) • "Are most calls scams?" (no, most are real).',
@@ -52,7 +52,7 @@ L['listen'] = dict(title='Is It a Scam?', voices={'Narrator': 'N', 'Mrs. Lopez':
  setting='A man calls Mrs. Lopez and says he is from the electric company. She must pay today with gift cards. She says no and hangs up. Then she tells her adult son, and they check her real account. No money is lost.',
  intro='Lesson twelve. Mrs. Lopez gets a phone call. Later, she talks to her son, Daniel.',
  lines=[
-  ('Caller', 'Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we\'re gonna turn off your power in one hour.'),
+  ('Caller', 'Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we\'re going to turn off your power in one hour.'),
   ('Mrs. Lopez', 'What? My bill is late? I paid it last week.'),
   ('Caller', 'No, ma\'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers.'),
   ('Mrs. Lopez', 'Gift cards? That\'s strange.'),
@@ -81,7 +81,7 @@ L['listen'] = dict(title='Is It a Scam?', voices={'Narrator': 'N', 'Mrs. Lopez':
  C=dict(head='Write *who* or *that*.', items=[
   'I\'m going to call the number [that] is on my real bill.', 'The man [who] called me knew my name.', 'A company [that] asks for gift cards is a scam.',
   'Scammers are people [who] want your money.', 'Be careful with texts [that] ask for your password, too.', 'never trust a caller [who] tells you to hurry.']),
- hear='*gonna* = going to: "We\'re **gonna** turn off your power." You can say *going to*. The word *that* is short and weak: *a text that asks* ("thut"). Stress the key words: *NEVER, GIFT cards*. Say *No, thank you. Goodbye.* in a calm, firm voice.',
+ hear='*gonna* = going to: "We\'re **going to** turn off your power." You can say *going to*. The word *that* is short and weak: *a text that asks* ("thut"). Stress the key words: *NEVER, GIFT cards*. Say *No, thank you. Goodbye.* in a calm, firm voice.',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: describing with *who / that*
@@ -212,4 +212,4 @@ L['notes'] = [
  '**Teacher-only:** if a learner asks about "legal help" or "immigration help" services that ask for money, point only to local legal aid. Don\'t give advice yourself.',
  '**Listening:** in the scope, a real utility agent confirms the account. To keep 3 speakers, Daniel checks the account on the company website instead. The message is the same: no money is lost.',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna*. Learners need to understand it; they can always say *going to*.']
+ '**Reductions:** the listening says *going to*. People often say *gonna*. Learners only need to recognize it; they can always say the full form.']

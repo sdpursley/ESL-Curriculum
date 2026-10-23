@@ -4,8 +4,8 @@
 LESSON = 6
 TITLE = 'What Would You Do?'
 VOICES = {'Narrator': 'N', 'Mike': 'Server', 'Grace': 'Ana_af_jessica', 'Teresa': 'Rosa'}
-FEMALE = {'Teresa', 'Grace', 'Narrator'}
-NAMES = {'teresa', 'mike', 'grace'}
+FEMALE = {'Grace', 'Teresa', 'Narrator'}
+NAMES = {'grace', 'teresa', 'mike'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson six. This is a radio show called What Would You Do? Mike is the host. Two people call the show.'
@@ -24,6 +24,6 @@ LINES = [
  ('Mike', 'And what would you do if it were only one dollar?'),
  ('Teresa', "Hmm. If it were one dollar, I'd probably keep it. But I'd feel a little bad."),
  ('Mike', "Ha! That's an honest answer, too. Thank you, Teresa."),
- ('Mike', "Next week's question is this: what would you do if you found an envelope with money at work? I wanna hear your ideas. And if you're gonna call, call early!"),
+ ('Mike', "Next week's question is this: what would you do if you found an envelope with money at work? I want to hear your ideas. And if you're going to call, call early!"),
 ]
 END = "That's the end of the listening."

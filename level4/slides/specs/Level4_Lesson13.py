@@ -22,7 +22,7 @@ TN2 = 'Writing check 5 (the graduation talk): the Read & Write email (5–8 sent
 TN3 = 'Next weeks: Week 15 is the final exam; Week 16 is graduation, where learners can give their talk.'
 TN4 = "Pronunciation: pause at the comma after a time clause: When I started, (pause) I couldn't…"
 TN5 = 'Spanish and other languages: the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.'
-TN6 = 'Reductions: the listening has gonna. Learners need to understand it; they can always say going to.'
+TN6 = 'Reductions: the listening says going to. People often say gonna. Learners only need to recognize it.'
 SLIDES = [
  {'kind': 'title', 'title': 'My Story So Far', 'bullets': BUL, 'pic': I('milestone'), 'alt': A('milestone'),
   'notes': ['Welcome learners as they arrive.',
@@ -80,7 +80,7 @@ SLIDES = [
             'Before you listen (2 min). Say: "Mariana was a learner here. Now she is giving a short talk at graduation. Then her old teacher, Mr. Hill, asks her two questions. Listen: what is her main message?"',
             'There are two people: Mariana and Mr. Hill. A narrator starts and ends the listening. Each click highlights the next voice.',
             f'The audio (L4_L13_listening.mp3, about {LEN}) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
-            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.',
+            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.',
             audio_note(N, LEN, False),
             f'{SRC} (Step 3; Listening script; Listening page).',
             PC]},
@@ -101,10 +101,10 @@ SLIDES = [
   'notes': ['Task C (play 2). Click to show each answer (one click per item, 1 to 6): 1 When, 2 After, 3 Before, 4 When, 5 When, 6 After.',
             'If behind: do Task C together on the board, reading the lines yourself.',
             f'{SRC} (Step 3; Listening Task C; Answer key).']},
- {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['You will hear *gonna*.', '*Pause* at the comma. Stress the key words.', 'Say each line *two times.*'],
+ {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['*gonna* is a short form. This listening says *going to*.', '*Pause* at the comma. Stress the key words.', 'Say each line *two times.*'],
   'head1': 'Hear it: gonna = going to', 'head2': 'Say it: the pause and the stress', 'head_chip': None, 'head_sz': 18, 'say_sz': 18,
-  'says': ["I'm *gonna* take a training class.", "When I started, (pause) I couldn't understand the bus driver.", '*NOW* I can…', '*NEXT*…'],
-  'notes': ['"Hear it, say it" (3 min): Point to the script line. gonna = going to: "I\'m gonna take a training class." Then practice the pause at the comma: When I started, (pause) I couldn\'t understand the bus driver. Stress the key words: NOW I can…, NEXT… The class repeats the two lines twice.',
+  'says': ["I'm *going to* take a training class.", "When I started, (pause) I couldn't understand the bus driver.", '*NOW* I can…', '*NEXT*…'],
+  'notes': ['"Hear it, say it" (3 min): Point to the script line. gonna = going to: "I\'m going to take a training class." Then practice the pause at the comma: When I started, (pause) I couldn\'t understand the bus driver. Stress the key words: NOW I can…, NEXT… The class repeats the two lines twice.',
             TN6,
             f'{SRC} (Step 3: "Hear it, say it"; Listening page: Hear it, say it; Teacher notes).']},
  {'kind': 'table', 'head': ['Grammar Box 1', 'before / after / when'], 'title_sz': 24, 'qhead': 'QUESTION', 'ahead': 'ANSWER',

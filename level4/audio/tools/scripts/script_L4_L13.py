@@ -14,7 +14,7 @@ LINES = [
  ('Mariana', 'The first year was hard. I was working at a restaurant at night, and I was always tired. But my classmates helped me, and I made friends.'),
  ('Mariana', 'After I finished Level 2, I got a new job at a hotel. Before I started that job, I practiced my interview with my teacher. Last year, I was able to call the clinic by myself for the first time. That was a big milestone for me.'),
  ('Mariana', "Now I can talk to guests at work, and I help my kids with their homework. I'm more confident."),
- ('Mariana', "What's next? After I finish Level 5, I'm gonna take a training class to be a front desk manager. My advice to you is simple: come to class, and don't be afraid to make mistakes. Thank you."),
+ ('Mariana', "What's next? After I finish Level 5, I'm going to take a training class to be a front desk manager. My advice to you is simple: come to class, and don't be afraid to make mistakes. Thank you."),
  ('Mr. Hill', 'Thank you, Mariana. That was wonderful. Can I ask you two questions?'),
  ('Mariana', 'Of course.'),
  ('Mr. Hill', 'What was the biggest challenge for you?'),

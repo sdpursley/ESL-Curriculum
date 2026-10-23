@@ -5,18 +5,18 @@ LESSON = 9
 TITLE = 'I See Your Point'
 VOICES = {'Narrator': 'N', 'Mrs. Okafor': 'Kim', 'Ray': 'Sam', 'Lin': 'Ana_af_jessica'}
 FEMALE = {'Lin', 'Mrs. Okafor', 'Narrator'}
-NAMES = {'okafor', 'lin', 'ray', 'cedar'}
+NAMES = {'ray', 'lin', 'cedar', 'okafor'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson nine. Neighbors are at a community meeting. They are talking about the empty lot on Cedar Street.'
 LINES = [
- ('Mrs. Okafor', 'Good evening, everyone. Thank you for coming. Tonight we wanna talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?'),
+ ('Mrs. Okafor', 'Good evening, everyone. Thank you for coming. Tonight we want to talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?'),
  ('Ray', "Thanks, Mrs. Okafor. In my opinion, we need a parking lot. There aren't enough parking spaces on our street. I drive around for twenty minutes every night."),
  ('Mrs. Okafor', "That's true. Parking is a big problem. Lin, how do you feel about it?"),
  ('Lin', "I see your point, Ray, but I'm not sure I agree. I think a community garden is a better idea."),
  ('Ray', 'A garden? Why?'),
  ('Lin', "First, a garden isn't as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside."),
- ('Ray', "That's a good idea, but a garden is a lot of work. Who's gonna take care of it?"),
+ ('Ray', "That's a good idea, but a garden is a lot of work. Who's going to take care of it?"),
  ('Lin', "I'd help, and I think many neighbors would help too."),
  ('Mrs. Okafor', 'Ray, do you agree with that?'),
  ('Ray', 'Well, I agree that a garden is nice. But for me, parking is as important as a garden.'),

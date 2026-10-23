@@ -7,7 +7,7 @@ Same checks as Level 3 (check_lesson_L3.py), with the Level 4 support rules:
 - reading text 150-250 words; writing task 5-8 sentences; exit ticket asks for 3 sentences with a reason
 - clock times: Talk Time 7:00-7:15, Read & Write 7:15-7:25, Exit Ticket 7:25-7:30; Talk Time step lists 15, 7-8 and 5-or-fewer versions
 - grammar Q&A boxes: two-sided, at most 6 rows each
-- listening: 2-3 characters plus the Narrator, script = audio script file, estimated 1:30-2:15, no reductions except gonna / wanna,
+- listening: 2-3 characters plus the Narrator, script = audio script file, estimated 1:30-2:15, no reductions in the spoken script (gonna / wanna stay in the text tip only),
   female characters on female clips, no .mp3 link
 - the PDF page count (27-30)"""
 import sys, re, os, json, subprocess, importlib.util

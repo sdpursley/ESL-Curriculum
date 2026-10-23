@@ -22,7 +22,7 @@ TN2 = 'Bill-help programs vary: list local ones on the "Keep practicing" sheet. 
 TN3 = 'it / them in the middle: this is the main rule. Keep turn it off (not turn off it) on the board all evening.'
 TN4 = 'Energy Detective: the problem cards replace a picture. Learners can also point to the My Words pictures.'
 TN5 = 'Spanish and other languages: the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.'
-TN6 = 'Reductions: the listening has gonna. Learners need to understand it; they can always say going to.'
+TN6 = 'Reductions: the listening says going to. People often say gonna. Learners only need to recognize it.'
 SLIDES = [
  {'kind': 'title', 'title': 'Turn It Off', 'bullets': BUL, 'pic': I('utility_bill'), 'alt': A('utility_bill'),
   'notes': ['Welcome learners as they arrive.',
@@ -80,7 +80,7 @@ SLIDES = [
             'Before you listen (2 min). Say: "Two roommates, Sofia and Hana, look at a high electric bill and make a plan. Then Sofia calls the electric company. Listen: what is the problem?"',
             'There are 3 people: Sofia, Hana and Paul. A narrator starts and ends the listening. Each click highlights the next person.',
             f'The audio (L4_L10_listening.mp3, about {LEN}) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
-            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.',
+            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.',
             audio_note(N, LEN, False),
             f'{SRC} (Step 3; Listening script; Listening page).',
             PC]},
@@ -101,10 +101,10 @@ SLIDES = [
   'notes': ['Task C (play 2). Click to show each answer (one click per item, 1 to 6): 1 them, 2 it, 3 down, 4 on, 5 up, 6 off.',
             'If behind: do Task C together on the board, reading the lines yourself.',
             f'{SRC} (Step 3; Listening Task C; Answer key).']},
- {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['You will hear *gonna*.', 'Stress the *small word*. Link the words.', 'Say each line *two times.*'],
+ {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['*gonna* is a short form. This listening says *going to*.', 'Stress the *small word*. Link the words.', 'Say each line *two times.*'],
   'head1': 'Hear it: gonna = going to', 'head2': 'Say it: the stress and the linking', 'head_chip': None, 'head_sz': 18, 'say_sz': 18,
-  'says': ["I'm *gonna* unplug my phone charger.", 'turn it *OFF* • put it a*WAY*', 'turn_it_off • take_it_out'],
-  'notes': ['"Hear it, say it" (3 min): Point to the script line. gonna = going to: "I\'m gonna unplug my phone charger." Then practice the stress on the small word: turn it OFF, put it aWAY, and the linking: turn_it_off, take_it_out. The class repeats the two lines twice.',
+  'says': ["I'm *going to* unplug my phone charger.", 'turn it *OFF* • put it a*WAY*', 'turn_it_off • take_it_out'],
+  'notes': ['"Hear it, say it" (3 min): Point to the script line. gonna = going to: "I\'m going to unplug my phone charger." Then practice the stress on the small word: turn it OFF, put it aWAY, and the linking: turn_it_off, take_it_out. The class repeats the two lines twice.',
             TN6,
             f'{SRC} (Step 3: "Hear it, say it"; Listening page: Hear it, say it; Teacher notes).']},
  {'kind': 'table', 'head': ['Grammar Box 1', 'phrasal verbs + it / them'], 'title_sz': 24, 'qhead': 'QUESTION', 'ahead': 'ANSWER',

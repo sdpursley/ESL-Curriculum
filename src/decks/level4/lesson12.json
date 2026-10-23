@@ -4521,7 +4521,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Mrs. Lopez gets a phone call from a man who says he's from the electric company. Later, she talks to her son, Daniel. Listen: was it a scam?\"\nThere are 3 people: Caller, Mrs. Lopez and Daniel. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:56) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.\nAudio: the listening audio for this lesson (about 1:56) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson twelve. Mrs. Lopez gets a phone call. Later, she talks to her son, Daniel.\nCaller: Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we're gonna turn off your power in one hour.\nMrs. Lopez: What? My bill is late? I paid it last week.\nCaller: No, ma'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers.\nMrs. Lopez: Gift cards? That's strange.\nCaller: Please hurry. This is your last chance. Don't tell anyone.\nMrs. Lopez: No, thank you. I'm going to call the number that is on my real bill. Goodbye.\nDaniel: Hi, Mom. You look worried. What's wrong?\nMrs. Lopez: The man who called me knew my name. He said he was from the electric company. He wanted me to pay with gift cards.\nDaniel: Gift cards? That's a warning sign. A company that asks for gift cards is a scam. What did you do?\nMrs. Lopez: I said no, and I hung up.\nDaniel: Good! You did the right thing. Scammers are people who want your money. Did you give him any information?\nMrs. Lopez: No. I didn't tell him anything.\nDaniel: Great. Let's check your account on the City Power website. OK, here it is. Your account is fine. You don't owe any money.\nMrs. Lopez: Oh, good. I'm glad I didn't pay.\nDaniel: Me too. Next time, you can block the number. Be careful with texts that ask for your password, too. And never trust a caller who tells you to hurry.\nMrs. Lopez: You're right. Thanks, Daniel.\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Mrs. Lopez gets a phone call from a man who says he's from the electric company. Later, she talks to her son, Daniel. Listen: was it a scam?\"\nThere are 3 people: Caller, Mrs. Lopez and Daniel. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:56) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.\nAudio: the listening audio for this lesson (about 1:56) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson twelve. Mrs. Lopez gets a phone call. Later, she talks to her son, Daniel.\nCaller: Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we're going to turn off your power in one hour.\nMrs. Lopez: What? My bill is late? I paid it last week.\nCaller: No, ma'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers.\nMrs. Lopez: Gift cards? That's strange.\nCaller: Please hurry. This is your last chance. Don't tell anyone.\nMrs. Lopez: No, thank you. I'm going to call the number that is on my real bill. Goodbye.\nDaniel: Hi, Mom. You look worried. What's wrong?\nMrs. Lopez: The man who called me knew my name. He said he was from the electric company. He wanted me to pay with gift cards.\nDaniel: Gift cards? That's a warning sign. A company that asks for gift cards is a scam. What did you do?\nMrs. Lopez: I said no, and I hung up.\nDaniel: Good! You did the right thing. Scammers are people who want your money. Did you give him any information?\nMrs. Lopez: No. I didn't tell him anything.\nDaniel: Great. Let's check your account on the City Power website. OK, here it is. Your account is fine. You don't owe any money.\nMrs. Lopez: Oh, good. I'm glad I didn't pay.\nDaniel: Me too. Next time, you can block the number. Be careful with texts that ask for your password, too. And never trust a caller who tells you to hurry.\nMrs. Lopez: You're right. Thanks, Daniel.\nNarrator: That's the end of the listening.",
    "title": "Before You Listen"
   },
   {
@@ -7192,14 +7192,21 @@
         "algn": "l",
         "runs": [
          {
-          "t": "You will hear ",
+          "t": "gonna",
+          "sz": 20.0,
+          "b": true,
+          "i": false,
+          "color": "#5B3FC4"
+         },
+         {
+          "t": " is a short form. This listening says ",
           "sz": 20.0,
           "b": false,
           "i": false,
           "color": "#1B2236"
          },
          {
-          "t": "gonna",
+          "t": "going to",
           "sz": 20.0,
           "b": true,
           "i": false,
@@ -7317,7 +7324,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "gonna",
+          "t": "going to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7529,7 +7536,7 @@
     }
    ],
    "steps": [],
-   "notes": "\"Hear it, say it\" (3 min): Point to the script line. gonna = going to: \"We're gonna turn off your power.\" Then practice the weak that (it sounds like \"thut\"): a text that asks. Stress the key words: NEVER, GIFT cards. Practice a calm, firm voice: No, thank you. Goodbye. The class repeats the two lines twice.\nReductions: the listening has gonna. Learners need to understand it; they can always say going to.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
+   "notes": "\"Hear it, say it\" (3 min): Point to the script line. gonna = going to: \"We're going to turn off your power.\" Then practice the weak that (it sounds like \"thut\"): a text that asks. Stress the key words: NEVER, GIFT cards. Practice a calm, firm voice: No, thank you. Goodbye. The class repeats the two lines twice.\nReductions: the listening says going to. People often say gonna. Learners only need to recognize it.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
    "title": "Hear It, Say It"
   },
   {

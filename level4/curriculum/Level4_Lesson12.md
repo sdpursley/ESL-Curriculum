@@ -120,8 +120,8 @@
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together.
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
-- **"Hear it, say it" (3 min):** Point to the script line. *gonna* = going to: "We're **gonna** turn off your power." Then practice the weak *that* (it sounds like "thut"): *a text that asks*. Stress the key words: *NEVER, GIFT cards*. Practice a calm, firm voice: *No, thank you. Goodbye.* The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:56), at a natural speed, two times. Say *gonna* and *wanna* where the script has them. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **"Hear it, say it" (3 min):** Point to the script line. *gonna* = going to: "We're **going to** turn off your power." Then practice the weak *that* (it sounds like "thut"): *a text that asks*. Stress the key words: *NEVER, GIFT cards*. Practice a calm, firm voice: *No, thank you. Goodbye.* The class repeats the two lines twice.
+- **No recording yet:** read the script aloud with a volunteer (about 1:57), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,12 +166,12 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:56 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:57 when recorded; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. Say *gonna* and *wanna* where the script has them.
+> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson twelve. Mrs. Lopez gets a phone call. Later, she talks to her son, Daniel.
-> **Caller:** Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we're gonna turn off your power in one hour.
+> **Caller:** Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we're going to turn off your power in one hour.
 > **Mrs. Lopez:** What? My bill is late? I paid it last week.
 > **Caller:** No, ma'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers.
 > **Mrs. Lopez:** Gift cards? That's strange.
@@ -209,7 +209,7 @@
 - **Teacher-only:** if a learner asks about "legal help" or "immigration help" services that ask for money, point only to local legal aid. Don't give advice yourself.
 - **Listening:** in the scope, a real utility agent confirms the account. To keep 3 speakers, Daniel checks the account on the company website instead. The message is the same: no money is lost.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening has *gonna*. Learners need to understand it; they can always say *going to*.
+- **Reductions:** the listening says *going to*. People often say *gonna*. Learners only need to recognize it; they can always say the full form.
 
 <!-- part: Student Workbook | Lesson 12 (Week 13) | Is It a Scam? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 12 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -306,7 +306,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "We're **gonna** turn off your power." You can say *going to*. The word *that* is short and weak: *a text that asks* ("thut"). Stress the key words: *NEVER, GIFT cards*. Say *No, thank you. Goodbye.* in a calm, firm voice.
+*gonna* = going to: "We're **going to** turn off your power." You can say *going to*. The word *that* is short and weak: *a text that asks* ("thut"). Stress the key words: *NEVER, GIFT cards*. Say *No, thank you. Goodbye.* in a calm, firm voice.
 
 ---
 ## Lesson 12 (Week 13) · Grammar

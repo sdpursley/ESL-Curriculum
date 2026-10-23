@@ -32,7 +32,7 @@ L['steps'] = [
   'ask "Do you plug a charger into an outlet or a peephole?" (an outlet) • "Is a deadbolt a lock or a light?" (a lock) • "Does a thermostat control the heat or the water?" (the heat).',
   'Make sure you unplug the charger.'),
  step3('Two roommates, Sofia and Hana, look at a high electric bill and make a plan. Then Sofia calls the electric company. Listen: what is the problem?',
-  'Point to the script line. *gonna* = going to: "I\'m **gonna** unplug my phone charger." Then practice the stress on the small word: *turn it OFF, put it aWAY*, and the linking: *turn_it_off, take_it_out*.', '{EST}'),
+  'Point to the script line. *gonna* = going to: "I\'m **going to** unplug my phone charger." Then practice the stress on the small word: *turn it OFF, put it aWAY*, and the linking: *turn_it_off, take_it_out*.', '{EST}'),
  step4('*phrasal verbs + it / them*', 'point to the lights and say, "Can you **turn off** the lights?" A learner turns them off (or mimes it). You say, "Thank you. You **turned them off**." Turn them on again. Write: *turn off the lights / turn the lights off → turn them off*. Cross out *turn off them*.',
   'Box 1: read across: *Can you turn off the lights? → OK, I\'ll turn them off.* Box 2: the past: *Did you take out the trash? → Yes, I took it out.* Box 3: the 8 phrasal verbs. Box 4: *Make sure you… / Don\'t forget to…*',
   '"*turn off it* or *turn it off*?" (*turn it off*) • "Is *turn the TV off* OK?" (yes) • "It\'s too loud. *Turn it up* or *turn it down*?" (*turn it down*).',
@@ -57,7 +57,7 @@ L['listen'] = dict(title='Turn It Off', voices={'Narrator': 'N', 'Sofia': 'Rosa'
   ('Sofia', 'Well, we use too much electricity. The heat is on all day, and the lights are on in empty rooms.'),
   ('Hana', 'You\'re right. I always forget to turn them off. Oh, the TV is on now, and nobody is watching. I\'ll turn it off.'),
   ('Sofia', 'OK, let\'s make a plan. First, we can turn down the heat at night. Sixty-eight degrees is fine.'),
-  ('Hana', 'Good idea. And I\'m gonna unplug my phone charger in the morning. It uses electricity all day.'),
+  ('Hana', 'Good idea. And I\'m going to unplug my phone charger in the morning. It uses electricity all day.'),
   ('Sofia', 'Also, let\'s put on sweaters and not turn up the heat. Can you call the electric company? I have class.'),
   ('Hana', 'Sorry, I have work. Can you call them tonight?'),
   ('Sofia', 'Sure. I\'ll call them now.'),
@@ -77,7 +77,7 @@ L['listen'] = dict(title='Turn It Off', voices={'Narrator': 'N', 'Sofia': 'Rosa'
  B=dict(head='Listen again. Circle the answer.', kind='choice', items=[
   dict(s='The bill this month is {{*$142|$90}}.', ev='one hundred and forty-two dollars'),
   dict(s='They will turn {{*down|up}} the heat at night.', ev='we can turn down the heat at night'),
-  dict(s='Hana is going to unplug her {{*phone charger|TV}}.', ev='I\'m gonna unplug my phone charger'),
+  dict(s='Hana is going to unplug her {{*phone charger|TV}}.', ev='I\'m going to unplug my phone charger'),
   dict(s='They will put on {{*sweaters|coats}}.', ev='put on sweaters'),
   dict(s='The bill is due on {{*March 15|March 5}}.', ev='due on March fifteenth'),
   dict(s='The home energy check is {{*free|$20}}.', ev='We have a free home energy check.'),
@@ -85,7 +85,7 @@ L['listen'] = dict(title='Turn It Off', voices={'Narrator': 'N', 'Sofia': 'Rosa'
  C=dict(head='Write the missing word: the phrasal verb or *it / them*.', items=[
   'I always forget to turn [them] off.', 'I\'ll turn [it] off.', 'we can turn [down] the heat at night.',
   'let\'s put [on] sweaters', 'not turn [up] the heat', 'don\'t forget to turn [off] the lights']),
- hear='*gonna* = going to: "I\'m **gonna** unplug my phone charger." You can say *going to*. Stress the small word: *turn it OFF, put it aWAY*. Link the words: *turn_it_off, take_it_out*.',
+ hear='*gonna* = going to: "I\'m **going to** unplug my phone charger." You can say *going to*. Stress the small word: *turn it OFF, put it aWAY*. Link the words: *turn_it_off, take_it_out*.',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: phrasal verbs + *it / them*
@@ -216,4 +216,4 @@ L['notes'] = [
  '***it / them* in the middle:** this is the main rule. Keep *turn it off* (not *turn off it*) on the board all evening.',
  '**Energy Detective:** the problem cards replace a picture. Learners can also point to the My Words pictures.',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna*. Learners need to understand it; they can always say *going to*.']
+ '**Reductions:** the listening says *going to*. People often say *gonna*. Learners only need to recognize it; they can always say the full form.']

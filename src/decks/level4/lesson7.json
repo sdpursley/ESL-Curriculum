@@ -4549,7 +4549,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"It's Nadia's first week at a bakery. She asks her coworker, Carmen, about the rules. Then the supervisor, Mr. Brooks, comes in. Listen: what are they talking about?\"\nThere are 3 people: Nadia, Carmen and Mr. Brooks. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:50) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.\nAudio: the listening audio for this lesson (about 1:50) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson seven. It's Nadia's first week at a bakery. She asks her coworker, Carmen, some questions.\nNadia: Carmen, can I ask you a few questions? I'm still learning the rules.\nCarmen: Sure, Nadia. What do you wanna know?\nNadia: My shift starts at seven. Is six fifty-five early enough?\nCarmen: Yes, that's perfect. Here, on time means five minutes early. Seven ten is too late.\nNadia: OK. And what about the uniform? Do I have to wear the hat?\nCarmen: Yes, you must wear the hat and the apron in the kitchen. But you don't have to wear them in the break room.\nNadia: Got it. What about my phone?\nCarmen: You mustn't use your phone in the kitchen. You can use it on your break.\nNadia: And are these shoes OK? They're new.\nCarmen: Hmm, those are sandals. They aren't safe enough for the kitchen.\nMr. Brooks: Carmen's right. Good morning, Nadia. I'm Mr. Brooks, the supervisor. You must wear closed-toe shoes. The trays are too hot, and the floor is sometimes wet.\nNadia: I'm sorry. I didn't know. I'm gonna buy some today.\nMr. Brooks: That's OK. For today, there are extra shoes in the office. Maybe they're too big, but they're safe.\nNadia: Thank you. Is there anything else?\nMr. Brooks: Just one more thing. If you're going to be late, you must call me before your shift.\nCarmen: Don't worry, Nadia. Everyone makes mistakes in the first week. There's too much to remember!\nNadia: That's true. Thanks, both of you.\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"It's Nadia's first week at a bakery. She asks her coworker, Carmen, about the rules. Then the supervisor, Mr. Brooks, comes in. Listen: what are they talking about?\"\nThere are 3 people: Nadia, Carmen and Mr. Brooks. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:50) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.\nAudio: the listening audio for this lesson (about 1:50) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson seven. It's Nadia's first week at a bakery. She asks her coworker, Carmen, some questions.\nNadia: Carmen, can I ask you a few questions? I'm still learning the rules.\nCarmen: Sure, Nadia. What do you want to know?\nNadia: My shift starts at seven. Is six fifty-five early enough?\nCarmen: Yes, that's perfect. Here, on time means five minutes early. Seven ten is too late.\nNadia: OK. And what about the uniform? Do I have to wear the hat?\nCarmen: Yes, you must wear the hat and the apron in the kitchen. But you don't have to wear them in the break room.\nNadia: Got it. What about my phone?\nCarmen: You mustn't use your phone in the kitchen. You can use it on your break.\nNadia: And are these shoes OK? They're new.\nCarmen: Hmm, those are sandals. They aren't safe enough for the kitchen.\nMr. Brooks: Carmen's right. Good morning, Nadia. I'm Mr. Brooks, the supervisor. You must wear closed-toe shoes. The trays are too hot, and the floor is sometimes wet.\nNadia: I'm sorry. I didn't know. I'm going to buy some today.\nMr. Brooks: That's OK. For today, there are extra shoes in the office. Maybe they're too big, but they're safe.\nNadia: Thank you. Is there anything else?\nMr. Brooks: Just one more thing. If you're going to be late, you must call me before your shift.\nCarmen: Don't worry, Nadia. Everyone makes mistakes in the first week. There's too much to remember!\nNadia: That's true. Thanks, both of you.\nNarrator: That's the end of the listening.",
    "title": "Before You Listen"
   },
   {
@@ -7248,13 +7248,6 @@
         "algn": "l",
         "runs": [
          {
-          "t": "You will hear ",
-          "sz": 20.0,
-          "b": false,
-          "i": false,
-          "color": "#1B2236"
-         },
-         {
           "t": "gonna",
           "sz": 20.0,
           "b": true,
@@ -7276,7 +7269,7 @@
           "color": "#5B3FC4"
          },
          {
-          "t": ".",
+          "t": " are short forms. This listening uses the full forms.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -7408,7 +7401,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "wanna",
+          "t": "want to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7473,7 +7466,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "gonna",
+          "t": "going to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7641,7 +7634,7 @@
     }
    ],
    "steps": [],
-   "notes": "\"Hear it, say it\" (3 min): Point to the script lines. wanna = want to: \"What do you wanna know?\" gonna = going to: \"I'm gonna buy some today.\" Then practice too / two / to (the same sound) and the stress in TOO late and not eNOUGH. The class repeats the two lines twice.\nReductions: the listening has gonna and wanna. Learners need to understand them; they can always say going to and want to.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
+   "notes": "\"Hear it, say it\" (3 min): Point to the script lines. wanna = want to: \"What do you want to know?\" gonna = going to: \"I'm going to buy some today.\" Then practice too / two / to (the same sound) and the stress in TOO late and not eNOUGH. The class repeats the two lines twice.\nReductions: the listening says going to and want to. People often say gonna and wanna. Learners only need to recognize the short forms.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
    "title": "Hear It, Say It"
   },
   {

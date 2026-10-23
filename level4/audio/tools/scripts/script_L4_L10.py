@@ -4,8 +4,8 @@
 LESSON = 10
 TITLE = 'Turn It Off'
 VOICES = {'Narrator': 'N', 'Sofia': 'Rosa', 'Hana': 'Ana_af_jessica', 'Paul': 'Server'}
-FEMALE = {'Hana', 'Narrator', 'Sofia'}
-NAMES = {'city power', 'sofia', 'hana', 'paul'}
+FEMALE = {'Narrator', 'Hana', 'Sofia'}
+NAMES = {'city power', 'sofia', 'paul', 'hana'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson ten. Two roommates, Sofia and Hana, look at their electric bill. Then Sofia calls the electric company.'
@@ -15,7 +15,7 @@ LINES = [
  ('Sofia', 'Well, we use too much electricity. The heat is on all day, and the lights are on in empty rooms.'),
  ('Hana', "You're right. I always forget to turn them off. Oh, the TV is on now, and nobody is watching. I'll turn it off."),
  ('Sofia', "OK, let's make a plan. First, we can turn down the heat at night. Sixty-eight degrees is fine."),
- ('Hana', "Good idea. And I'm gonna unplug my phone charger in the morning. It uses electricity all day."),
+ ('Hana', "Good idea. And I'm going to unplug my phone charger in the morning. It uses electricity all day."),
  ('Sofia', "Also, let's put on sweaters and not turn up the heat. Can you call the electric company? I have class."),
  ('Hana', 'Sorry, I have work. Can you call them tonight?'),
  ('Sofia', "Sure. I'll call them now."),

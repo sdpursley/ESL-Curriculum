@@ -32,7 +32,7 @@ L['steps'] = [
   'ask "If the road is closed, does the bus take a detour?" (yes) • "Is a headline long or short?" (short) • "If there is a delay, is the bus early or late?" (late).',
   'The road might be closed until Friday.'),
  step3('First, you\'ll hear a short local news report on the radio. Then two coworkers, Marco and Joy, talk about the news. Listen: what is the news?',
-  'Point to the script lines. *gonna* = going to: "The bus is **gonna** take a detour." Then practice *might* (the last *t* is very short: *It migh\' be late*) and *Do you know…?* with the voice going up at the end. Listen to the reporter\'s pauses.', '{EST}'),
+  'Point to the script lines. *gonna* = going to: "The bus is **going to** take a detour." Then practice *might* (the last *t* is very short: *It migh\' be late*) and *Do you know…?* with the voice going up at the end. Listen to the reporter\'s pauses.', '{EST}'),
  step4('*might / may / could; Do you know where…?*', 'draw a cloud. Say, "Will it rain tomorrow? I\'m not sure. It **might** rain. It **may** rain." Draw a sign *ROAD CLOSED MONDAY*: "The road **will** close on Monday. I\'m sure." Then ask a learner, "**Do you know where** the library **is**?" Write it and underline *the library is*: "Statement order."',
   'Box 1: read across: *Will the road be closed tomorrow? → It might be. / It may be closed until Friday.* Box 2: *Do you know where / when / what time / why…?* Box 3: *will* (sure) vs. *might* (maybe). Box 4: from a question to *Do you know…?*',
   '"*It might rains* or *It might rain*?" (*might rain*) • "*Do you know where is the bank* or *where the bank is*?" (*where the bank is*) • "The sign says *Closed Monday*. *will* or *might*?" (*will*).',
@@ -59,7 +59,7 @@ L['listen'] = dict(title='In the News', voices={'Narrator': 'N', 'Diane Lee': 'R
   ('Narrator', 'Later that morning, at work, Marco and Joy talk about the news.'),
   ('Marco', 'Joy, did you hear the news? They\'re closing Oak Street on Monday.'),
   ('Joy', 'Oh no. I take the number twelve bus on Oak Street every day.'),
-  ('Marco', 'The bus is gonna take a detour on Pine Street. It might be fifteen minutes late.'),
+  ('Marco', 'The bus is going to take a detour on Pine Street. It might be fifteen minutes late.'),
   ('Joy', 'Fifteen minutes? I might be late for work. Do you know when the bus leaves Pine Street?'),
   ('Marco', 'I\'m not sure. You could check the city website.'),
   ('Joy', 'Good idea. Do you know how long the closure is?'),
@@ -67,7 +67,7 @@ L['listen'] = dict(title='In the News', voices={'Narrator': 'N', 'Diane Lee': 'R
   ('Joy', 'Hmm. Maybe I\'ll take the earlier bus. I don\'t want to be late.'),
   ('Marco', 'Or I could give you a ride. I drive past your street.'),
   ('Joy', 'Really? That would be great. Do you know where the detour starts?'),
-  ('Marco', 'I think it starts at First Avenue. I\'m gonna look at the map tonight.'),
+  ('Marco', 'I think it starts at First Avenue. I\'m going to look at the map tonight.'),
   ('Joy', 'Thanks, Marco!'),
  ],
  A=dict(q='What is the news?', opts=['Oak Street will close for a water pipe repair.', 'A new grocery store is opening.', 'The bus will be free next week.'], ans=0),
@@ -82,7 +82,7 @@ L['listen'] = dict(title='In the News', voices={'Narrator': 'N', 'Diane Lee': 'R
  C=dict(head='Write the missing word: *might*, *will*, or a question word.', items=[
   'The city says the construction [might] take two weeks.', 'The city [will] post updates on its website.', 'Do you know [when] the bus leaves Pine Street?',
   'Do you know [how] long the closure is?', 'But it [might] take longer if it rains.', 'Do you know [where] the detour starts?']),
- hear='*gonna* = going to: "The bus is **gonna** take a detour." • "I\'m **gonna** look at the map tonight." You can say *going to*. In *might*, the last *t* is very short. In *Do you know…?*, the voice goes up at the end. Listen to the reporter: she pauses after each fact.',
+ hear='*gonna* = going to: "The bus is **going to** take a detour." • "I\'m **going to** look at the map tonight." You can say *going to*. In *might*, the last *t* is very short. In *Do you know…?*, the voice goes up at the end. Listen to the reporter: she pauses after each fact.',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: *might / may / could* (maybe)
@@ -223,4 +223,4 @@ L['notes'] = [
  '***might* + base verb:** learners often add *to* or *-s*. Point to the rule: no *to*, no *-s*.',
  '**News Swap:** learners keep their card hidden. If a partner can\'t find a fact, they say, "I\'m not sure. It might…"',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna*. Learners need to understand it; they can always say *going to*.']
+ '**Reductions:** the listening says *going to*. People often say *gonna*. Learners only need to recognize it; they can always say the full form.']

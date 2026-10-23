@@ -4549,7 +4549,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Two roommates, Sofia and Hana, look at a high electric bill and make a plan. Then Sofia calls the electric company. Listen: what is the problem?\"\nThere are 3 people: Sofia, Hana and Paul. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 2:07) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.\nAudio: the listening audio for this lesson (about 2:07) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson ten. Two roommates, Sofia and Hana, look at their electric bill. Then Sofia calls the electric company.\nSofia: Hana, look at this. Our electric bill is one hundred and forty-two dollars this month!\nHana: What? Last month it was ninety dollars. Why is it so high?\nSofia: Well, we use too much electricity. The heat is on all day, and the lights are on in empty rooms.\nHana: You're right. I always forget to turn them off. Oh, the TV is on now, and nobody is watching. I'll turn it off.\nSofia: OK, let's make a plan. First, we can turn down the heat at night. Sixty-eight degrees is fine.\nHana: Good idea. And I'm gonna unplug my phone charger in the morning. It uses electricity all day.\nSofia: Also, let's put on sweaters and not turn up the heat. Can you call the electric company? I have class.\nHana: Sorry, I have work. Can you call them tonight?\nSofia: Sure. I'll call them now.\nPaul: Thank you for calling City Power. This is Paul. How can I help you?\nSofia: Hi. I'm calling about my bill. When is it due?\nPaul: Can I have your account number, please?\nSofia: Yes. It's four, seven, two, one, nine.\nPaul: Thank you. Your bill is due on March fifteenth.\nSofia: OK. Also, do you have any programs to help us save energy?\nPaul: Yes. We have a free home energy check. Someone visits your apartment and gives you tips. And you can get free light bulbs.\nSofia: That sounds great. Can I sign up?\nPaul: Sure. Is next Tuesday morning OK?\nSofia: Yes, that's perfect. Thank you.\nPaul: You're welcome. And don't forget to turn off the lights when you leave a room!\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Two roommates, Sofia and Hana, look at a high electric bill and make a plan. Then Sofia calls the electric company. Listen: what is the problem?\"\nThere are 3 people: Sofia, Hana and Paul. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 2:07) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.\nAudio: the listening audio for this lesson (about 2:07) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson ten. Two roommates, Sofia and Hana, look at their electric bill. Then Sofia calls the electric company.\nSofia: Hana, look at this. Our electric bill is one hundred and forty-two dollars this month!\nHana: What? Last month it was ninety dollars. Why is it so high?\nSofia: Well, we use too much electricity. The heat is on all day, and the lights are on in empty rooms.\nHana: You're right. I always forget to turn them off. Oh, the TV is on now, and nobody is watching. I'll turn it off.\nSofia: OK, let's make a plan. First, we can turn down the heat at night. Sixty-eight degrees is fine.\nHana: Good idea. And I'm going to unplug my phone charger in the morning. It uses electricity all day.\nSofia: Also, let's put on sweaters and not turn up the heat. Can you call the electric company? I have class.\nHana: Sorry, I have work. Can you call them tonight?\nSofia: Sure. I'll call them now.\nPaul: Thank you for calling City Power. This is Paul. How can I help you?\nSofia: Hi. I'm calling about my bill. When is it due?\nPaul: Can I have your account number, please?\nSofia: Yes. It's four, seven, two, one, nine.\nPaul: Thank you. Your bill is due on March fifteenth.\nSofia: OK. Also, do you have any programs to help us save energy?\nPaul: Yes. We have a free home energy check. Someone visits your apartment and gives you tips. And you can get free light bulbs.\nSofia: That sounds great. Can I sign up?\nPaul: Sure. Is next Tuesday morning OK?\nSofia: Yes, that's perfect. Thank you.\nPaul: You're welcome. And don't forget to turn off the lights when you leave a room!\nNarrator: That's the end of the listening.",
    "title": "Before You Listen"
   },
   {
@@ -7176,14 +7176,21 @@
         "algn": "l",
         "runs": [
          {
-          "t": "You will hear ",
+          "t": "gonna",
+          "sz": 20.0,
+          "b": true,
+          "i": false,
+          "color": "#5B3FC4"
+         },
+         {
+          "t": " is a short form. This listening says ",
           "sz": 20.0,
           "b": false,
           "i": false,
           "color": "#1B2236"
          },
          {
-          "t": "gonna",
+          "t": "going to",
           "sz": 20.0,
           "b": true,
           "i": false,
@@ -7301,7 +7308,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "gonna",
+          "t": "going to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7448,7 +7455,7 @@
     }
    ],
    "steps": [],
-   "notes": "\"Hear it, say it\" (3 min): Point to the script line. gonna = going to: \"I'm gonna unplug my phone charger.\" Then practice the stress on the small word: turn it OFF, put it aWAY, and the linking: turn_it_off, take_it_out. The class repeats the two lines twice.\nReductions: the listening has gonna. Learners need to understand it; they can always say going to.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
+   "notes": "\"Hear it, say it\" (3 min): Point to the script line. gonna = going to: \"I'm going to unplug my phone charger.\" Then practice the stress on the small word: turn it OFF, put it aWAY, and the linking: turn_it_off, take_it_out. The class repeats the two lines twice.\nReductions: the listening says going to. People often say gonna. Learners only need to recognize it.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
    "title": "Hear It, Say It"
   },
   {

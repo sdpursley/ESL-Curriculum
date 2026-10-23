@@ -4,14 +4,14 @@
 LESSON = 7
 TITLE = 'Too Early or On Time?'
 VOICES = {'Narrator': 'N', 'Nadia': 'Ana_af_jessica', 'Carmen': 'Rosa', 'Mr. Brooks': 'Carlos'}
-FEMALE = {'Nadia', 'Narrator', 'Carmen'}
+FEMALE = {'Nadia', 'Carmen', 'Narrator'}
 NAMES = {'nadia', 'brooks', 'carmen'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = "Lesson seven. It's Nadia's first week at a bakery. She asks her coworker, Carmen, some questions."
 LINES = [
  ('Nadia', "Carmen, can I ask you a few questions? I'm still learning the rules."),
- ('Carmen', 'Sure, Nadia. What do you wanna know?'),
+ ('Carmen', 'Sure, Nadia. What do you want to know?'),
  ('Nadia', 'My shift starts at seven. Is six fifty-five early enough?'),
  ('Carmen', "Yes, that's perfect. Here, on time means five minutes early. Seven ten is too late."),
  ('Nadia', 'OK. And what about the uniform? Do I have to wear the hat?'),
@@ -21,7 +21,7 @@ LINES = [
  ('Nadia', "And are these shoes OK? They're new."),
  ('Carmen', "Hmm, those are sandals. They aren't safe enough for the kitchen."),
  ('Mr. Brooks', "Carmen's right. Good morning, Nadia. I'm Mr. Brooks, the supervisor. You must wear closed-toe shoes. The trays are too hot, and the floor is sometimes wet."),
- ('Nadia', "I'm sorry. I didn't know. I'm gonna buy some today."),
+ ('Nadia', "I'm sorry. I didn't know. I'm going to buy some today."),
  ('Mr. Brooks', "That's OK. For today, there are extra shoes in the office. Maybe they're too big, but they're safe."),
  ('Nadia', 'Thank you. Is there anything else?'),
  ('Mr. Brooks', "Just one more thing. If you're going to be late, you must call me before your shift."),

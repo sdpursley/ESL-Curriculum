@@ -22,7 +22,7 @@ TN2 = "mustn't vs. don't have to: this is the biggest mix-up. Use a thumbs-down 
 TN3 = 'Writing check 2 (Week 7): collect the first-week tips. Write one strength and one fix on each. Learners keep them in their writing folder.'
 TN4 = 'Week 8 is the midterm. It covers Lessons 1–7. Remind learners to bring their workbook.'
 TN5 = 'Spanish and other languages: the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.'
-TN6 = 'Reductions: the listening has gonna and wanna. Learners need to understand them; they can always say going to and want to.'
+TN6 = 'Reductions: the listening says going to and want to. People often say gonna and wanna. Learners only need to recognize the short forms.'
 SLIDES = [
  {'kind': 'title', 'title': 'Too Early or On Time?', 'bullets': BUL, 'pic': I('on_time'), 'alt': A('on_time'),
   'notes': ['Welcome learners as they arrive.',
@@ -80,7 +80,7 @@ SLIDES = [
             'Before you listen (2 min). Say: "It\'s Nadia\'s first week at a bakery. She asks her coworker, Carmen, about the rules. Then the supervisor, Mr. Brooks, comes in. Listen: what are they talking about?"',
             'There are 3 people: Nadia, Carmen and Mr. Brooks. A narrator starts and ends the listening. Each click highlights the next person.',
             f'The audio (L4_L7_listening.mp3, about {LEN}) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
-            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.',
+            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.',
             audio_note(N, LEN, False),
             f'{SRC} (Step 3; Listening script; Listening page).',
             PC]},
@@ -101,10 +101,10 @@ SLIDES = [
   'notes': ['Task C (play 2). Click to show each answer (one click per item, 1 to 6): 1 enough, 2 too, 3 enough, 4 too, 5 too, 6 much.',
             'If behind: do Task C together on the board, reading the lines yourself.',
             f'{SRC} (Step 3; Listening Task C; Answer key).']},
- {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['You will hear *gonna* and *wanna*.', '*too*, *two*, and *to* sound the same.', 'Say each line *two times.*'],
+ {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['*gonna* and *wanna* are short forms. This listening uses the full forms.', '*too*, *two*, and *to* sound the same.', 'Say each line *two times.*'],
   'head1': 'Hear it: gonna = going to, wanna = want to', 'head2': 'Say it: too / two / to, and the stress', 'head_chip': None, 'head_sz': 18, 'say_sz': 18,
-  'says': ['What do you *wanna* know?', "I'm *gonna* buy some today.", '*too* • *two* • *to*', '*TOO* late • not e*NOUGH*'],
-  'notes': ['"Hear it, say it" (3 min): Point to the script lines. wanna = want to: "What do you wanna know?" gonna = going to: "I\'m gonna buy some today." Then practice too / two / to (the same sound) and the stress in TOO late and not eNOUGH. The class repeats the two lines twice.',
+  'says': ['What do you *want to* know?', "I'm *going to* buy some today.", '*too* • *two* • *to*', '*TOO* late • not e*NOUGH*'],
+  'notes': ['"Hear it, say it" (3 min): Point to the script lines. wanna = want to: "What do you want to know?" gonna = going to: "I\'m going to buy some today." Then practice too / two / to (the same sound) and the stress in TOO late and not eNOUGH. The class repeats the two lines twice.',
             TN6,
             f'{SRC} (Step 3: "Hear it, say it"; Listening page: Hear it, say it; Teacher notes).']},
  {'kind': 'table', 'head': ['Grammar Box 1', 'too + adjective, adjective + enough'], 'title_sz': 24, 'qhead': 'QUESTION', 'ahead': 'ANSWER',

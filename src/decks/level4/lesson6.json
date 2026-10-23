@@ -4549,7 +4549,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"This is a radio show called What Would You Do? Mike is the host. He tells a situation, and two people call the show with their answers. Listen: what is the situation?\"\nThere are 3 people: Mike, Grace and Teresa. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:51) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.\nAudio: the listening audio for this lesson (about 1:51) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson six. This is a radio show called What Would You Do? Mike is the host. Two people call the show.\nMike: Good afternoon, and welcome to What Would You Do? Here's today's situation. You buy groceries, and the cashier gives you ten dollars too much change. You see it in the parking lot. What would you do?\nMike: Our first caller is Grace. Hi, Grace!\nGrace: Hi, Mike. If that happened to me, I'd go back inside and give the money back.\nMike: Really? Why would you go back?\nGrace: Because the cashier made a mistake. If I kept the money, she would have a problem at the end of her shift.\nMike: That's very honest. Thanks, Grace. Our next caller is Teresa. Teresa, what would you do?\nTeresa: Well, Mike, this really happened to me once. A cashier gave me twenty dollars too much.\nMike: Really? What did you do?\nTeresa: I gave it back the next day. I was in a hurry, so I couldn't go back that day.\nMike: Was the cashier happy?\nTeresa: Yes, she was very happy. She said thank you three times!\nMike: And what would you do if it were only one dollar?\nTeresa: Hmm. If it were one dollar, I'd probably keep it. But I'd feel a little bad.\nMike: Ha! That's an honest answer, too. Thank you, Teresa.\nMike: Next week's question is this: what would you do if you found an envelope with money at work? I wanna hear your ideas. And if you're gonna call, call early!\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"This is a radio show called What Would You Do? Mike is the host. He tells a situation, and two people call the show with their answers. Listen: what is the situation?\"\nThere are 3 people: Mike, Grace and Teresa. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:51) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.\nAudio: the listening audio for this lesson (about 1:51) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson six. This is a radio show called What Would You Do? Mike is the host. Two people call the show.\nMike: Good afternoon, and welcome to What Would You Do? Here's today's situation. You buy groceries, and the cashier gives you ten dollars too much change. You see it in the parking lot. What would you do?\nMike: Our first caller is Grace. Hi, Grace!\nGrace: Hi, Mike. If that happened to me, I'd go back inside and give the money back.\nMike: Really? Why would you go back?\nGrace: Because the cashier made a mistake. If I kept the money, she would have a problem at the end of her shift.\nMike: That's very honest. Thanks, Grace. Our next caller is Teresa. Teresa, what would you do?\nTeresa: Well, Mike, this really happened to me once. A cashier gave me twenty dollars too much.\nMike: Really? What did you do?\nTeresa: I gave it back the next day. I was in a hurry, so I couldn't go back that day.\nMike: Was the cashier happy?\nTeresa: Yes, she was very happy. She said thank you three times!\nMike: And what would you do if it were only one dollar?\nTeresa: Hmm. If it were one dollar, I'd probably keep it. But I'd feel a little bad.\nMike: Ha! That's an honest answer, too. Thank you, Teresa.\nMike: Next week's question is this: what would you do if you found an envelope with money at work? I want to hear your ideas. And if you're going to call, call early!\nNarrator: That's the end of the listening.",
    "title": "Before You Listen"
   },
   {
@@ -7248,13 +7248,6 @@
         "algn": "l",
         "runs": [
          {
-          "t": "You will hear ",
-          "sz": 20.0,
-          "b": false,
-          "i": false,
-          "color": "#1B2236"
-         },
-         {
           "t": "gonna",
           "sz": 20.0,
           "b": true,
@@ -7276,7 +7269,7 @@
           "color": "#5B3FC4"
          },
          {
-          "t": ".",
+          "t": " are short forms. This listening uses the full forms.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -7415,7 +7408,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "wanna",
+          "t": "want to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7480,7 +7473,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "gonna",
+          "t": "going to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7627,7 +7620,7 @@
     }
    ],
    "steps": [],
-   "notes": "\"Hear it, say it\" (3 min): Point to the script lines. wanna = want to: \"I wanna hear your ideas.\" gonna = going to: \"If you're gonna call, call early!\" Then practice I'd (say the d): I'd give it back, and What would you DO? with the stress on do. The class repeats the two lines twice.\nReductions: the listening has gonna and wanna. Learners need to understand them; they can always say going to and want to.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
+   "notes": "\"Hear it, say it\" (3 min): Point to the script lines. wanna = want to: \"I want to hear your ideas.\" gonna = going to: \"If you're going to call, call early!\" Then practice I'd (say the d): I'd give it back, and What would you DO? with the stress on do. The class repeats the two lines twice.\nReductions: the listening says going to and want to. People often say gonna and wanna. Learners only need to recognize the short forms.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
    "title": "Hear It, Say It"
   },
   {

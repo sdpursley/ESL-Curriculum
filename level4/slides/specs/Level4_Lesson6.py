@@ -22,7 +22,7 @@ TN2 = "Situation cards: all situations are invented and everyday. No answer is w
 TN3 = 'Personal topics: learners never need to talk about real money problems. If I won $1,000 is just a game.'
 TN4 = "I'd: learners often drop the d. Model I'd give slowly, then smoothly."
 TN5 = 'Spanish and other languages: the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.'
-TN6 = 'Reductions: the listening has gonna and wanna. Learners need to understand them; they can always say going to and want to.'
+TN6 = 'Reductions: the listening says going to and want to. People often say gonna and wanna. Learners only need to recognize the short forms.'
 SLIDES = [
  {'kind': 'title', 'title': 'What Would You Do?', 'bullets': BUL, 'pic': I('imagine'), 'alt': A('imagine'),
   'notes': ['Welcome learners as they arrive.',
@@ -80,7 +80,7 @@ SLIDES = [
             'Before you listen (2 min). Say: "This is a radio show called What Would You Do? Mike is the host. He tells a situation, and two people call the show with their answers. Listen: what is the situation?"',
             'There are 3 people: Mike, Grace and Teresa. A narrator starts and ends the listening. Each click highlights the next person.',
             f'The audio (L4_L6_listening.mp3, about {LEN}) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
-            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.',
+            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.',
             audio_note(N, LEN, False),
             f'{SRC} (Step 3; Listening script; Listening page).',
             PC]},
@@ -101,10 +101,10 @@ SLIDES = [
   'notes': ["Task C (play 2). Click to show each answer (one click per item, 1 to 6): 1 would, 2 kept, 3 were, 4 I'd, 5 I'd, 6 found.",
             'If behind: do Task C together on the board, reading the lines yourself.',
             f'{SRC} (Step 3; Listening Task C; Answer key).']},
- {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['You will hear *gonna* and *wanna*.', "Say the *d* in *I'd*. Stress *do*.", 'Say each line *two times.*'],
+ {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['*gonna* and *wanna* are short forms. This listening uses the full forms.', "Say the *d* in *I'd*. Stress *do*.", 'Say each line *two times.*'],
   'head1': 'Hear it: gonna = going to, wanna = want to', 'head2': "Say it: I'd, and the stress", 'head_chip': None, 'head_sz': 18, 'say_sz': 18,
-  'says': ['I *wanna* hear your ideas.', "If you're *gonna* call, call early!", "*I'd* give it back.", 'What would you *DO*?'],
-  'notes': ['"Hear it, say it" (3 min): Point to the script lines. wanna = want to: "I wanna hear your ideas." gonna = going to: "If you\'re gonna call, call early!" Then practice I\'d (say the d): I\'d give it back, and What would you DO? with the stress on do. The class repeats the two lines twice.',
+  'says': ['I *want to* hear your ideas.', "If you're *going to* call, call early!", "*I'd* give it back.", 'What would you *DO*?'],
+  'notes': ['"Hear it, say it" (3 min): Point to the script lines. wanna = want to: "I want to hear your ideas." gonna = going to: "If you\'re going to call, call early!" Then practice I\'d (say the d): I\'d give it back, and What would you DO? with the stress on do. The class repeats the two lines twice.',
             TN6,
             f'{SRC} (Step 3: "Hear it, say it"; Listening page: Hear it, say it; Teacher notes).']},
  {'kind': 'table', 'head': ['Grammar Box 1', 'What would you do if…?'], 'title_sz': 24, 'qhead': 'QUESTION', 'ahead': 'ANSWER',

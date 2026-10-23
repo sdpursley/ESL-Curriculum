@@ -120,8 +120,8 @@
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together.
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
-- **"Hear it, say it" (3 min):** Point to the script lines. *wanna* = want to: "When do you **wanna** take it?" *gonna* = going to: "I'm **gonna** take the bus." Then practice the phone number in groups with pauses: *555 · 214 · 8830*. The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:52), at a natural speed, two times. Say *gonna* and *wanna* where the script has them. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **"Hear it, say it" (3 min):** Point to the script lines. *wanna* = want to: "When do you **want to** take it?" *gonna* = going to: "I'm **going to** take the bus." Then practice the phone number in groups with pauses: *555 · 214 · 8830*. The class repeats the two lines twice.
+- **No recording yet:** read the script aloud with a volunteer (about 1:53), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,13 +166,13 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:52 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:53 when recorded; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. Say *gonna* and *wanna* where the script has them.
+> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson eleven. Luis asks his supervisor for time off. Then he leaves a voicemail for his sister.
 > **Luis:** Ms. Adams, do you have a minute? I'd like to ask for some time off.
-> **Ms. Adams:** Sure, Luis. When do you wanna take it?
+> **Ms. Adams:** Sure, Luis. When do you want to take it?
 > **Luis:** Next month, from Thursday, June fifth, to Saturday, June seventh. That's three days.
 > **Ms. Adams:** And why are you taking time off?
 > **Luis:** To visit my mother in San Antonio. It's her seventieth birthday.
@@ -182,10 +182,10 @@
 > **Luis:** Ana has agreed to cover Thursday and Friday. I'm still looking for someone for Saturday.
 > **Ms. Adams:** Ask Ben. He doesn't mind working on weekends. Then I can approve it.
 > **Luis:** Great. Thank you, Ms. Adams.
-> **Luis:** Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm gonna take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!
+> **Luis:** Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm going to take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!
 > **Rosa:** Hi, Luis! I got your message. Yes, I can pick you up at six thirty.
 > **Luis:** Thanks, Rosa. Mom doesn't know I'm coming, right?
-> **Rosa:** No, it's a surprise. She's gonna be so happy. I enjoy planning surprises!
+> **Rosa:** No, it's a surprise. She's going to be so happy. I enjoy planning surprises!
 > **Luis:** Me too. See you on Thursday!
 > **Narrator:** That's the end of the listening.
 
@@ -209,7 +209,7 @@
 - **Writing check 4 (Week 12):** collect the time-off email. Write one strength and one fix on each. Learners keep them in their writing folder.
 - **Phone numbers are invented** and use 555. Practice saying them in groups with pauses (3-3-4).
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; saying them is optional, and they never write them.
+- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms, and they never write them.
 
 <!-- part: Student Workbook | Lesson 11 (Week 12) | Time Off ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 11 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -306,7 +306,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*wanna* = want to: "When do you **wanna** take it?" • *gonna* = going to: "I'm **gonna** take the bus." Understand them; you can say *want to* and *going to*. Never write *wanna* or *gonna*. Phone numbers come in groups with pauses: *555 · 214 · 8830*.
+*wanna* = want to: "When do you **want to** take it?" • *gonna* = going to: "I'm **going to** take the bus." Understand them; you can say *want to* and *going to*. Never write *wanna* or *gonna*. Phone numbers come in groups with pauses: *555 · 214 · 8830*.
 
 ---
 ## Lesson 11 (Week 12) · Grammar

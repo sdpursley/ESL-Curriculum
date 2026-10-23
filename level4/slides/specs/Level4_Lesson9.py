@@ -22,7 +22,7 @@ TN2 = 'I agree, not I am agree: this is very common. Point to the Q&A box and ke
 TN3 = "Opinion Lines: learners who can't stand or move can hold up a sign or raise a hand from their seat."
 TN4 = 'Writing check 3 (Week 10): collect the opinion paragraph. Write one strength and one fix on each. Learners keep them in their writing folder.'
 TN5 = 'Spanish and other languages: the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.'
-TN6 = 'Reductions: the listening has gonna and wanna. Learners need to understand them; they can always say going to and want to.'
+TN6 = 'Reductions: the listening says going to and want to. People often say gonna and wanna. Learners only need to recognize the short forms.'
 SLIDES = [
  {'kind': 'title', 'title': 'I See Your Point', 'bullets': BUL, 'pic': I('opinion'), 'alt': A('opinion'),
   'notes': ['Welcome learners as they arrive.',
@@ -80,7 +80,7 @@ SLIDES = [
             'Before you listen (2 min). Say: "Neighbors are at a community meeting. Mrs. Okafor is the leader. Ray and Lin give their opinions about the empty lot on Cedar Street. Listen: what are they deciding?"',
             'There are 3 people: Mrs. Okafor, Ray and Lin. A narrator starts and ends the listening. Each click highlights the next person.',
             f'The audio (L4_L9_listening.mp3, about {LEN}) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
-            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.',
+            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.',
             audio_note(N, LEN, False),
             f'{SRC} (Step 3; Listening script; Listening page).',
             PC]},
@@ -101,10 +101,10 @@ SLIDES = [
   'notes': ['Task C (play 2). Click to show each answer (one click per item, 1 to 6): 1 opinion, 2 feel, 3 point, 4 idea, 5 agree, 6 fair.',
             'If behind: do Task C together on the board, reading the lines yourself.',
             f'{SRC} (Step 3; Listening Task C; Answer key).']},
- {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['You will hear *gonna* and *wanna*.', 'Your voice goes *down* on *point*.', 'Say each line *two times.*'],
+ {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['*gonna* and *wanna* are short forms. This listening uses the full forms.', 'Your voice goes *down* on *point*.', 'Say each line *two times.*'],
   'head1': 'Hear it: gonna = going to, wanna = want to', 'head2': 'Say it: a polite but…, and the stress', 'head_chip': None, 'head_sz': 18, 'say_sz': 18,
-  'says': ['Tonight we *wanna* talk about the empty lot.', "Who's *gonna* take care of it?", 'I see your *POINT*, but…', "It isn't as *EX*pensive."],
-  'notes': ['"Hear it, say it" (3 min): Point to the script lines. wanna = want to: "Tonight we wanna talk about the empty lot." gonna = going to: "Who\'s gonna take care of it?" Then practice I see your POINT, but… (the voice goes down on point, then a short pause) and the stress in It isn\'t as EXpensive. The class repeats the two lines twice.',
+  'says': ['Tonight we *want to* talk about the empty lot.', "Who's *going to* take care of it?", 'I see your *POINT*, but…', "It isn't as *EX*pensive."],
+  'notes': ['"Hear it, say it" (3 min): Point to the script lines. wanna = want to: "Tonight we want to talk about the empty lot." gonna = going to: "Who\'s going to take care of it?" Then practice I see your POINT, but… (the voice goes down on point, then a short pause) and the stress in It isn\'t as EXpensive. The class repeats the two lines twice.',
             TN6,
             f'{SRC} (Step 3: "Hear it, say it"; Listening page: Hear it, say it; Teacher notes).']},
  {'kind': 'table', 'head': ['Grammar Box 1', 'asking for and giving an opinion'], 'title_sz': 24, 'qhead': 'QUESTION', 'ahead': 'ANSWER',

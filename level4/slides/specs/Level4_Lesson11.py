@@ -22,7 +22,7 @@ TN2 = 'Time-off rules vary by employer: the policy is invented. Learners can che
 TN3 = 'Writing check 4 (Week 12): collect the time-off email. Write one strength and one fix on each. Learners keep them in their writing folder.'
 TN4 = 'Phone numbers are invented and use 555. Practice saying them in groups with pauses (3-3-4).'
 TN5 = 'Spanish and other languages: the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.'
-TN6 = 'Reductions: the listening has gonna and wanna. Learners need to understand them; saying them is optional, and they never write them.'
+TN6 = 'Reductions: the listening says going to and want to. People often say gonna and wanna. Learners only need to recognize the short forms, and they never write them.'
 SLIDES = [
  {'kind': 'title', 'title': 'Time Off', 'bullets': BUL, 'pic': I('time_off'), 'alt': A('time_off'),
   'notes': ['Welcome learners as they arrive.',
@@ -80,7 +80,7 @@ SLIDES = [
             'Before you listen (2 min). Say: "Luis asks his supervisor, Ms. Adams, for time off. Then he leaves a voicemail for his sister, Rosa, and she calls back. Listen: why does he need time off?"',
             'There are 3 people: Luis, Ms. Adams and Rosa. A narrator starts and ends the listening. Each click highlights the next person.',
             f'The audio (L4_L11_listening.mp3, about {LEN}) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
-            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.',
+            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.',
             audio_note(N, LEN, False),
             f'{SRC} (Step 3; Listening script; Listening page).',
             PC]},
@@ -101,10 +101,10 @@ SLIDES = [
   'notes': ['Task C (play 2). Click to show each answer (one click per item, 1 to 6): 1 to, 2 working, 3 to, 4 to, 5 to, 6 planning.',
             'If behind: do Task C together on the board, reading the lines yourself.',
             f'{SRC} (Step 3; Listening Task C; Answer key).']},
- {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['You will hear *gonna* and *wanna*.', 'Phone numbers: groups with *pauses*.', 'Say each line *two times.*'],
+ {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['*gonna* and *wanna* are short forms. This listening uses the full forms.', 'Phone numbers: groups with *pauses*.', 'Say each line *two times.*'],
   'head1': 'Hear it: gonna = going to, wanna = want to', 'head2': 'Say it: a phone number, in groups', 'head_chip': None, 'head_sz': 18, 'say_sz': 18,
-  'says': ['When do you *wanna* take it?', "I'm *gonna* take the bus.", '555 · 214 · 8830'],
-  'notes': ['"Hear it, say it" (3 min): Point to the script lines. wanna = want to: "When do you wanna take it?" gonna = going to: "I\'m gonna take the bus." Then practice the phone number in groups with pauses: 555 · 214 · 8830. The class repeats the two lines twice.',
+  'says': ['When do you *want to* take it?', "I'm *going to* take the bus.", '555 · 214 · 8830'],
+  'notes': ['"Hear it, say it" (3 min): Point to the script lines. wanna = want to: "When do you want to take it?" gonna = going to: "I\'m going to take the bus." Then practice the phone number in groups with pauses: 555 · 214 · 8830. The class repeats the two lines twice.',
             TN6,
             f'{SRC} (Step 3: "Hear it, say it"; Listening page: Hear it, say it; Teacher notes).']},
  {'kind': 'table', 'head': ['Grammar Box 1', 'to + verb answers Why?'], 'title_sz': 24, 'qhead': 'QUESTION', 'ahead': 'ANSWER',

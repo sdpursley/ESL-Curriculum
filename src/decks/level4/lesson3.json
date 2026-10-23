@@ -4542,7 +4542,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"It's the end of the evening shift at a grocery store. Ms. Rivera, the supervisor, talks to two workers, Jamal and Kim. Listen: is all the work finished?\"\nThere are three people: Ms. Rivera (the supervisor), Jamal, and Kim. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:52) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.\nAudio: the listening audio for this lesson (about 1:52) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson three. It's the end of the evening shift at a grocery store. Ms. Rivera, the supervisor, talks to Jamal and Kim.\nMs. Rivera: OK, team, it's almost nine. Let's look at the checklist. Jamal, have you restocked the shelves yet?\nJamal: Yes, I've already restocked them. Aisles one to six are done.\nMs. Rivera: Great. And the delivery? Has the truck arrived yet?\nJamal: Yes, it's just arrived. Kim and I are putting it away.\nKim: We've already put away the milk and the eggs.\nMs. Rivera: Good. Kim, have you cleaned the cooler yet?\nKim: No, not yet. I haven't cleaned it yet. The delivery came late.\nMs. Rivera: That's OK. Are you gonna have time tonight?\nKim: I think so. I'm gonna start it after the delivery. It takes about twenty minutes.\nMs. Rivera: Perfect. Jamal, have you checked the bakery inventory?\nJamal: I've just finished it. I gave you the list at eight.\nMs. Rivera: Oh, right, I have it here. Thanks. And the break room?\nJamal: Not yet. I'm gonna clean it before I clock out.\nMs. Rivera: OK. So the cooler and the break room aren't done yet. Everything else is done.\nKim: Ms. Rivera, have you seen the new training schedule yet?\nMs. Rivera: Yes, I've just seen it. The deadline for the safety training is Friday.\nKim: Thanks. I wanna finish it this week.\nMs. Rivera: Good idea. And some quick feedback: you both did great work tonight. The shelves look really good.\nJamal: Thank you!\nKim: Thanks, Ms. Rivera. See you tomorrow.\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"It's the end of the evening shift at a grocery store. Ms. Rivera, the supervisor, talks to two workers, Jamal and Kim. Listen: is all the work finished?\"\nThere are three people: Ms. Rivera (the supervisor), Jamal, and Kim. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:52) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.\nAudio: the listening audio for this lesson (about 1:52) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson three. It's the end of the evening shift at a grocery store. Ms. Rivera, the supervisor, talks to Jamal and Kim.\nMs. Rivera: OK, team, it's almost nine. Let's look at the checklist. Jamal, have you restocked the shelves yet?\nJamal: Yes, I've already restocked them. Aisles one to six are done.\nMs. Rivera: Great. And the delivery? Has the truck arrived yet?\nJamal: Yes, it's just arrived. Kim and I are putting it away.\nKim: We've already put away the milk and the eggs.\nMs. Rivera: Good. Kim, have you cleaned the cooler yet?\nKim: No, not yet. I haven't cleaned it yet. The delivery came late.\nMs. Rivera: That's OK. Are you going to have time tonight?\nKim: I think so. I'm going to start it after the delivery. It takes about twenty minutes.\nMs. Rivera: Perfect. Jamal, have you checked the bakery inventory?\nJamal: I've just finished it. I gave you the list at eight.\nMs. Rivera: Oh, right, I have it here. Thanks. And the break room?\nJamal: Not yet. I'm going to clean it before I clock out.\nMs. Rivera: OK. So the cooler and the break room aren't done yet. Everything else is done.\nKim: Ms. Rivera, have you seen the new training schedule yet?\nMs. Rivera: Yes, I've just seen it. The deadline for the safety training is Friday.\nKim: Thanks. I want to finish it this week.\nMs. Rivera: Good idea. And some quick feedback: you both did great work tonight. The shelves look really good.\nJamal: Thank you!\nKim: Thanks, Ms. Rivera. See you tomorrow.\nNarrator: That's the end of the listening.",
    "title": "Before You Listen"
   },
   {
@@ -7176,13 +7176,6 @@
         "algn": "l",
         "runs": [
          {
-          "t": "You will hear ",
-          "sz": 20.0,
-          "b": false,
-          "i": false,
-          "color": "#1B2236"
-         },
-         {
           "t": "gonna",
           "sz": 20.0,
           "b": true,
@@ -7204,7 +7197,7 @@
           "color": "#5B3FC4"
          },
          {
-          "t": ".",
+          "t": " are short forms. This listening uses the full forms.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -7350,7 +7343,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "gonna",
+          "t": "going to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7415,7 +7408,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "wanna",
+          "t": "want to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7576,7 +7569,7 @@
     }
    ],
    "steps": [],
-   "notes": "\"Hear it, say it\" (3 min). Point to the script lines. gonna = going to: \"I'm gonna clean it before I clock out.\" wanna = want to: \"I wanna finish it this week.\" You can say going to and want to.\nThen practice hearing 's = has: It's just arrived (= it has just arrived), the weak have in Have you… yet?, and the stress: I've JUST finished it. • I've alREADY restocked them. The class repeats the two lines twice.\n's = has: It's just arrived. She's already left. Ask: \"is or has?\" If a past participle comes next, it is has.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
+   "notes": "\"Hear it, say it\" (3 min). Point to the script lines. gonna = going to: \"I'm going to clean it before I clock out.\" wanna = want to: \"I want to finish it this week.\" You can say going to and want to.\nThen practice hearing 's = has: It's just arrived (= it has just arrived), the weak have in Have you… yet?, and the stress: I've JUST finished it. • I've alREADY restocked them. The class repeats the two lines twice.\n's = has: It's just arrived. She's already left. Ask: \"is or has?\" If a past participle comes next, it is has.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
    "title": "Hear It, Say It"
   },
   {

@@ -33,7 +33,7 @@ L['steps'] = [
   'ask "Is a deadline the first day or the last day?" (the last day) • "Do you clock in at the start or the end of your shift?" (the start) • "Is *Great job!* feedback?" (yes, positive feedback).',
   'Have you clocked in yet? → Yes, I\'ve already clocked in.'),
  step3('It\'s the end of the evening shift at a grocery store. Ms. Rivera, the supervisor, talks to two workers, Jamal and Kim. Listen: is all the work finished?',
-  'Point to the script lines. *gonna* = going to: "I\'m **gonna** clean it before I clock out." *wanna* = want to: "I **wanna** finish it this week." Then practice hearing *\'s* = *has*: *It\'s just arrived* (= it has just arrived), the weak *have* in *Have you… yet?*, and the stress: *I\'ve JUST finished it.* • *I\'ve alREADY restocked them.*', '{EST}'),
+  'Point to the script lines. *gonna* = going to: "I\'m **going to** clean it before I clock out." *wanna* = want to: "I **want to** finish it this week." Then practice hearing *\'s* = *has*: *It\'s just arrived* (= it has just arrived), the weak *have* in *Have you… yet?*, and the stress: *I\'ve JUST finished it.* • *I\'ve alREADY restocked them.*', '{EST}'),
  step4('*already / yet / just*', 'draw a checklist on the board with 5 tasks. Tick two and say, "I\'ve **already** restocked the shelves. I\'ve **already** clocked in." Tick one now, in front of the class: "I\'ve **just** cleaned the board." Point to an empty box: "I **haven\'t** checked the inventory **yet**."',
   'Box 1: read across: *Have you cleaned the break room yet? → Yes, I\'ve already cleaned it. / No, not yet.* Box 2: add a time → simple past: *I finished them at 3:00.* Box 3: word place (*already* and *just* before the past participle; *yet* at the end). Box 4: which one?',
   '"*I\'ve finished it yesterday.* Right or wrong?" (wrong: *I finished it yesterday.*) • "Where does *yet* go?" (at the end) • "*It\'s just arrived.* *It\'s* = it is or it has?" (it has).',
@@ -61,16 +61,16 @@ L['listen'] = dict(title='Have You Finished Yet?', voices={'Narrator': 'N', 'Ms.
   ('Kim', 'We\'ve already put away the milk and the eggs.'),
   ('Ms. Rivera', 'Good. Kim, have you cleaned the cooler yet?'),
   ('Kim', 'No, not yet. I haven\'t cleaned it yet. The delivery came late.'),
-  ('Ms. Rivera', 'That\'s OK. Are you gonna have time tonight?'),
-  ('Kim', 'I think so. I\'m gonna start it after the delivery. It takes about twenty minutes.'),
+  ('Ms. Rivera', 'That\'s OK. Are you going to have time tonight?'),
+  ('Kim', 'I think so. I\'m going to start it after the delivery. It takes about twenty minutes.'),
   ('Ms. Rivera', 'Perfect. Jamal, have you checked the bakery inventory?'),
   ('Jamal', 'I\'ve just finished it. I gave you the list at eight.'),
   ('Ms. Rivera', 'Oh, right, I have it here. Thanks. And the break room?'),
-  ('Jamal', 'Not yet. I\'m gonna clean it before I clock out.'),
+  ('Jamal', 'Not yet. I\'m going to clean it before I clock out.'),
   ('Ms. Rivera', 'OK. So the cooler and the break room aren\'t done yet. Everything else is done.'),
   ('Kim', 'Ms. Rivera, have you seen the new training schedule yet?'),
   ('Ms. Rivera', 'Yes, I\'ve just seen it. The deadline for the safety training is Friday.'),
-  ('Kim', 'Thanks. I wanna finish it this week.'),
+  ('Kim', 'Thanks. I want to finish it this week.'),
   ('Ms. Rivera', 'Good idea. And some quick feedback: you both did great work tonight. The shelves look really good.'),
   ('Jamal', 'Thank you!'),
   ('Kim', 'Thanks, Ms. Rivera. See you tomorrow.'),
@@ -81,13 +81,13 @@ L['listen'] = dict(title='Have You Finished Yet?', voices={'Narrator': 'N', 'Ms.
   dict(s='put away the milk and the eggs: {{*done|not yet}}', ev='We\'ve already put away the milk and the eggs'),
   dict(s='clean the cooler: {{done|*not yet}}', ev='I haven\'t cleaned it yet'),
   dict(s='check the bakery inventory: {{*done|not yet}}', ev='I\'ve just finished it'),
-  dict(s='clean the break room: {{done|*not yet}}', ev='Not yet. I\'m gonna clean it before I clock out'),
-  dict(s='Kim\'s safety training: {{done|*not yet}}', ev='I wanna finish it this week'),
+  dict(s='clean the break room: {{done|*not yet}}', ev='Not yet. I\'m going to clean it before I clock out'),
+  dict(s='Kim\'s safety training: {{done|*not yet}}', ev='I want to finish it this week'),
  ]),
  C=dict(head='Write *already*, *yet*, or *just*.', items=[
   'Yes, I\'ve [already] restocked them.', 'Has the truck arrived [yet]?', 'Yes, it\'s [just] arrived.',
   'I haven\'t cleaned it [yet].', 'I\'ve [just] finished it.', 'We\'ve [already] put away the milk and the eggs.']),
- hear='*gonna* = going to: "I\'m **gonna** clean it before I clock out." • *wanna* = want to: "I **wanna** finish it this week." You can say *going to* and *want to*. Listen for *\'s* = *has*: *It\'s just arrived.* Say it with stress: *I\'ve JUST finished it.* • *I\'ve alREADY restocked them.*',
+ hear='*gonna* = going to: "I\'m **going to** clean it before I clock out." • *wanna* = want to: "I **want to** finish it this week." You can say *going to* and *want to*. Listen for *\'s* = *has*: *It\'s just arrived.* Say it with stress: *I\'ve JUST finished it.* • *I\'ve alREADY restocked them.*',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: *already / yet / just*
@@ -230,4 +230,4 @@ L['notes'] = [
  '**\'s = has:** *It\'s just arrived. She\'s already left.* Ask: "*is* or *has*?" If a past participle comes next, it is *has*.',
  '**Writing Check 1:** collect the reply emails. Write one strength and one fix on each (for example, the place of *yet*). Return them next week; learners keep them in a folder to see progress. No scores.',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.']
+ '**Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.']

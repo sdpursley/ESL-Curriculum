@@ -120,8 +120,8 @@
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together.
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
-- **"Hear it, say it" (3 min):** Point to the script lines. *wanna* = want to: "Tonight we **wanna** talk about the empty lot." *gonna* = going to: "Who's **gonna** take care of it?" Then practice *I see your POINT, but…* (the voice goes down on *point*, then a short pause) and the stress in *It isn't as EXpensive*. The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:48), at a natural speed, two times. Say *gonna* and *wanna* where the script has them. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **"Hear it, say it" (3 min):** Point to the script lines. *wanna* = want to: "Tonight we **want to** talk about the empty lot." *gonna* = going to: "Who's **going to** take care of it?" Then practice *I see your POINT, but…* (the voice goes down on *point*, then a short pause) and the stress in *It isn't as EXpensive*. The class repeats the two lines twice.
+- **No recording yet:** read the script aloud with a volunteer (about 1:49), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,18 +166,18 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:48 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:49 when recorded; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. Say *gonna* and *wanna* where the script has them.
+> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson nine. Neighbors are at a community meeting. They are talking about the empty lot on Cedar Street.
-> **Mrs. Okafor:** Good evening, everyone. Thank you for coming. Tonight we wanna talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?
+> **Mrs. Okafor:** Good evening, everyone. Thank you for coming. Tonight we want to talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?
 > **Ray:** Thanks, Mrs. Okafor. In my opinion, we need a parking lot. There aren't enough parking spaces on our street. I drive around for twenty minutes every night.
 > **Mrs. Okafor:** That's true. Parking is a big problem. Lin, how do you feel about it?
 > **Lin:** I see your point, Ray, but I'm not sure I agree. I think a community garden is a better idea.
 > **Ray:** A garden? Why?
 > **Lin:** First, a garden isn't as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.
-> **Ray:** That's a good idea, but a garden is a lot of work. Who's gonna take care of it?
+> **Ray:** That's a good idea, but a garden is a lot of work. Who's going to take care of it?
 > **Lin:** I'd help, and I think many neighbors would help too.
 > **Mrs. Okafor:** Ray, do you agree with that?
 > **Ray:** Well, I agree that a garden is nice. But for me, parking is as important as a garden.
@@ -207,7 +207,7 @@
 - **Opinion Lines:** learners who can't stand or move can hold up a sign or raise a hand from their seat.
 - **Writing check 3 (Week 10):** collect the opinion paragraph. Write one strength and one fix on each. Learners keep them in their writing folder.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.
+- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
 
 <!-- part: Student Workbook | Lesson 9 (Week 10) | I See Your Point ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 9 · STUDENT WORKBOOK -->
 <!-- mode: student -->

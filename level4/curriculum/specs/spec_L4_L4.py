@@ -33,7 +33,7 @@ L['steps'] = [
   'ask "Do you get a checkup when you are sick or when you are well?" (when you are well; it\'s every year) • "Is a cough a symptom?" (yes) • "Do you pay a copay at the clinic or at home?" (at the clinic).',
   'How long have you had the cough? → I\'ve had it since Sunday.'),
  step3('Amina is at a clinic. First, Daniel, the medical assistant, asks her some questions. Then she talks to Ms. Park, the receptionist. Listen: why is Amina at the clinic?',
-  'Point to the script lines. *gonna* = going to: "The doctor\'s **gonna** see you in a few minutes." *wanna* = want to: "I **wanna** make an appointment." Then practice *Why don\'t you…?* as one smooth group with falling intonation (a suggestion, not a real question), and the stress: *I\'ve had a RASH since MONday.*', '{EST}'),
+  'Point to the script lines. *gonna* = going to: "The doctor\'s **going to** see you in a few minutes." *wanna* = want to: "I **want to** make an appointment." Then practice *Why don\'t you…?* as one smooth group with falling intonation (a suggestion, not a real question), and the stress: *I\'ve had a RASH since MONday.*', '{EST}'),
  step4('present perfect for health + suggestions', 'say, "I have a cough. It started on Sunday. Today is Thursday." Write: *I\'ve **had** a cough **since** Sunday. I\'ve had it **for** four days.* Then hold your back: "My back hurts." Point to a learner and help them say, "**Why don\'t you** call the clinic?" Write three suggestions on the board.',
   'Box 1: read across: *How long have you had this rash? → I\'ve had it for three days.* and *Have you ever had surgery? → Yes, I had knee surgery in 2018.* Box 2: a problem → a suggestion. Box 3: how to say a symptom. Box 4: strong or soft?',
   '"*I have a rash since Monday.* Right or wrong?" (wrong: *I\'ve had a rash since Monday.*) • "*You could to try* or *You could try*?" (*You could try*) • "Is *Why don\'t you call?* a real question?" (no, it\'s a suggestion).',
@@ -54,7 +54,7 @@ L['listen'] = dict(title='How Long Have You Had It?', voices={'Narrator': 'N', '
  setting='Amina is at a clinic for back pain. First, Daniel, the medical assistant, asks her health history questions. Then, at checkout, she talks to Ms. Park, the receptionist.',
  intro='Lesson four. Amina is at a clinic. First, she talks to Daniel, the medical assistant.',
  lines=[
-  ('Daniel', 'Hi, Amina. I\'m Daniel. I\'m gonna ask you a few questions for your health history. What brings you in today?'),
+  ('Daniel', 'Hi, Amina. I\'m Daniel. I\'m going to ask you a few questions for your health history. What brings you in today?'),
   ('Amina', 'My lower back hurts. It isn\'t very bad, but it hasn\'t stopped.'),
   ('Daniel', 'I\'m sorry to hear that. How long have you had the back pain?'),
   ('Amina', 'I\'ve had it for about two weeks. It started when I moved some heavy boxes.'),
@@ -68,12 +68,12 @@ L['listen'] = dict(title='How Long Have You Had It?', voices={'Narrator': 'N', '
   ('Amina', 'I\'ve used a heating pad a few times. It helps a little.'),
   ('Daniel', 'Have you felt dizzy?'),
   ('Amina', 'No, I haven\'t.'),
-  ('Daniel', 'Good. Now let me check your blood pressure. It\'s one eighteen over seventy-six. That\'s fine. The doctor\'s gonna see you in a few minutes.'),
+  ('Daniel', 'Good. Now let me check your blood pressure. It\'s one eighteen over seventy-six. That\'s fine. The doctor\'s going to see you in a few minutes.'),
   ('Narrator', 'Later, at checkout, Amina talks to Ms. Park, the receptionist.'),
   ('Ms. Park', 'Hi, Amina. Your copay today is twenty dollars.'),
   ('Amina', 'OK. Here\'s my new insurance card. I\'ve had it since January.'),
   ('Ms. Park', 'Thank you. Also, you haven\'t had a teeth cleaning for a year, and you haven\'t had a checkup since last spring. It\'s a good idea to get one every six months.'),
-  ('Amina', 'You\'re right. I wanna make an appointment with the dentist.'),
+  ('Amina', 'You\'re right. I want to make an appointment with the dentist.'),
   ('Ms. Park', 'Why don\'t you call the dental office tomorrow? Here\'s the number. And you could get a flu shot here next week.'),
   ('Amina', 'Good idea. Thank you!'),
  ],
@@ -89,7 +89,7 @@ L['listen'] = dict(title='How Long Have You Had It?', voices={'Narrator': 'N', '
  C=dict(head='Write *for*, *since*, or *ever*.', items=[
   'I\'ve had it [for] about two weeks.', 'Have you [ever] had back problems before?', 'Have you [ever] had surgery?',
   'I\'ve had it [since] January.', 'Also, you haven\'t had a teeth cleaning [for] a year', 'and you haven\'t had a checkup [since] last spring.']),
- hear='*gonna* = going to: "The doctor\'s **gonna** see you in a few minutes." • *wanna* = want to: "I **wanna** make an appointment." You can say *going to* and *want to*. Say *Why don\'t you…?* as one smooth group, with your voice going down at the end: it\'s a suggestion, not a real question. Stress: *I\'ve had a RASH since MONday.*',
+ hear='*gonna* = going to: "The doctor\'s **going to** see you in a few minutes." • *wanna* = want to: "I **want to** make an appointment." You can say *going to* and *want to*. Say *Why don\'t you…?* as one smooth group, with your voice going down at the end: it\'s a suggestion, not a real question. Stress: *I\'ve had a RASH since MONday.*',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: *How long…? / Have you ever…?*
@@ -232,4 +232,4 @@ L['notes'] = [
  '**for / since:** *for* + a length of time (*three days*); *since* + a start (*Monday, January*). With a finished time (*in 2018*), use the simple past.',
  '***Why don\'t you…?*** is a suggestion, not a real question. Model falling intonation. Learners answer *Good idea* or *Thanks, I will*, not *Because…*.',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.']
+ '**Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.']

@@ -120,8 +120,8 @@
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together.
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
-- **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "I'm **gonna** be away next week." *wanna* = want to: "I **wanna** help, but I can't." Then practice *Would you mind…?* and *Do you mind if I…?* said smoothly, with a friendly rise. The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:47), at a natural speed, two times. Say *gonna* and *wanna* where the script has them. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "I'm **going to** be away next week." *wanna* = want to: "I **want to** help, but I can't." Then practice *Would you mind…?* and *Do you mind if I…?* said smoothly, with a friendly rise. The class repeats the two lines twice.
+- **No recording yet:** read the script aloud with a volunteer (about 1:48), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,24 +166,24 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:47 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:48 when recorded; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. Say *gonna* and *wanna* where the script has them.
+> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson five. Patricia is going away for a week. First, she talks to her neighbor, Mr. Wilson.
 > **Patricia:** Hi, Mr. Wilson. Could I ask you a favor?
 > **Mr. Wilson:** Of course, Patricia. What is it?
-> **Patricia:** I'm gonna be away next week. I'm visiting my sister. Would you mind getting my mail?
+> **Patricia:** I'm going to be away next week. I'm visiting my sister. Would you mind getting my mail?
 > **Mr. Wilson:** No, not at all. I'm home all week.
 > **Patricia:** Thank you! And would you mind watering my plants? Just two times, on Tuesday and Friday.
 > **Mr. Wilson:** No problem. Where will the key be?
-> **Patricia:** I'm gonna give you my spare key tonight. Oh, and would you mind feeding my cat, too?
+> **Patricia:** I'm going to give you my spare key tonight. Oh, and would you mind feeding my cat, too?
 > **Mr. Wilson:** Sure, I'll do it. I love cats. Do you mind if I put your packages inside, too?
 > **Patricia:** No, go ahead. That's very kind.
 > **Mr. Wilson:** Have a good trip. Don't worry about anything.
 > **Narrator:** The next day, at work, Patricia talks to her coworker, Omar.
 > **Omar:** Hey, Patricia. Would you mind covering my Saturday shift? My son has a soccer game.
-> **Patricia:** Oh, I'm sorry, I can't. I'll be away on Saturday. I wanna help, but I can't.
+> **Patricia:** Oh, I'm sorry, I can't. I'll be away on Saturday. I want to help, but I can't.
 > **Omar:** Oh, right. You told me.
 > **Patricia:** Why don't you ask Lina? She wants more hours this month.
 > **Omar:** Good idea. Do you mind if I tell her you suggested it?
@@ -212,7 +212,7 @@
 - ***mind* + -ing:** *Would you mind getting…?* But *Do you mind if I* + the base verb: *Do you mind if I leave…?*
 - **Saying no:** model *sorry + a reason + another idea*. A polite no is a good answer.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.
+- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
 
 <!-- part: Student Workbook | Lesson 5 (Week 5) | Would You Mind…? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 5 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -309,7 +309,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "I'm **gonna** be away next week." • *wanna* = want to: "I **wanna** help, but I can't." You can say *going to* and *want to*. Say *Would you mind…?* and *Do you mind if I…?* smoothly, with a friendly rise at the end. Answer with a thumbs-up: *No, not at all!*
+*gonna* = going to: "I'm **going to** be away next week." • *wanna* = want to: "I **want to** help, but I can't." You can say *going to* and *want to*. Say *Would you mind…?* and *Do you mind if I…?* smoothly, with a friendly rise at the end. Answer with a thumbs-up: *No, not at all!*
 
 ---
 ## Lesson 5 (Week 5) · Grammar

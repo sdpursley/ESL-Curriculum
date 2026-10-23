@@ -32,7 +32,7 @@ L['steps'] = [
   'ask "Is a T-shirt casual or formal?" (casual) • "Are sandals closed-toe shoes?" (no) • "If an invitation says *RSVP by Friday*, what do you do?" (tell the host by Friday).',
   'Jeans are too casual for an interview.'),
  step3('It\'s Nadia\'s first week at a bakery. She asks her coworker, Carmen, about the rules. Then the supervisor, Mr. Brooks, comes in. Listen: what are they talking about?',
-  'Point to the script lines. *wanna* = want to: "What do you **wanna** know?" *gonna* = going to: "I\'m **gonna** buy some today." Then practice *too / two / to* (the same sound) and the stress in *TOO late* and *not eNOUGH*.', '{EST}'),
+  'Point to the script lines. *wanna* = want to: "What do you **want to** know?" *gonna* = going to: "I\'m **going to** buy some today." Then practice *too / two / to* (the same sound) and the stress in *TOO late* and *not eNOUGH*.', '{EST}'),
  step4('*too / enough; must / mustn\'t / don\'t have to*', 'draw a clock at 7:10. Say, "My shift starts at 7:00. 7:10 is **too late**." Draw 6:55: "6:55 is **early enough**." Write: *too* = more than OK (a problem); *enough* = OK. Then show a sandal or mime one: "In a kitchen, you **must** wear closed-toe shoes. You **mustn\'t** wear sandals. You **don\'t have to** wear a tie."',
   'Box 1: read across: *Are jeans OK for the interview? → No, they\'re too casual. / They aren\'t formal enough.* Box 2: *too much / too many / enough* + a noun. Box 3: *must / mustn\'t / don\'t have to*. Box 4: comparing customs.',
   '"*enough early* or *early enough*?" (*early enough*) • "*too much people* or *too many people*?" (*too many people*) • "Is a tie a rule here?" (no) "So: *You mustn\'t wear a tie* or *You don\'t have to wear a tie*?" (*don\'t have to*).',
@@ -54,7 +54,7 @@ L['listen'] = dict(title='Too Early or On Time?', voices={'Narrator': 'N', 'Nadi
  intro='Lesson seven. It\'s Nadia\'s first week at a bakery. She asks her coworker, Carmen, some questions.',
  lines=[
   ('Nadia', 'Carmen, can I ask you a few questions? I\'m still learning the rules.'),
-  ('Carmen', 'Sure, Nadia. What do you wanna know?'),
+  ('Carmen', 'Sure, Nadia. What do you want to know?'),
   ('Nadia', 'My shift starts at seven. Is six fifty-five early enough?'),
   ('Carmen', 'Yes, that\'s perfect. Here, on time means five minutes early. Seven ten is too late.'),
   ('Nadia', 'OK. And what about the uniform? Do I have to wear the hat?'),
@@ -64,7 +64,7 @@ L['listen'] = dict(title='Too Early or On Time?', voices={'Narrator': 'N', 'Nadi
   ('Nadia', 'And are these shoes OK? They\'re new.'),
   ('Carmen', 'Hmm, those are sandals. They aren\'t safe enough for the kitchen.'),
   ('Mr. Brooks', 'Carmen\'s right. Good morning, Nadia. I\'m Mr. Brooks, the supervisor. You must wear closed-toe shoes. The trays are too hot, and the floor is sometimes wet.'),
-  ('Nadia', 'I\'m sorry. I didn\'t know. I\'m gonna buy some today.'),
+  ('Nadia', 'I\'m sorry. I didn\'t know. I\'m going to buy some today.'),
   ('Mr. Brooks', 'That\'s OK. For today, there are extra shoes in the office. Maybe they\'re too big, but they\'re safe.'),
   ('Nadia', 'Thank you. Is there anything else?'),
   ('Mr. Brooks', 'Just one more thing. If you\'re going to be late, you must call me before your shift.'),
@@ -83,7 +83,7 @@ L['listen'] = dict(title='Too Early or On Time?', voices={'Narrator': 'N', 'Nadi
  C=dict(head='Write the missing word: *too*, *enough*, or *much*.', items=[
   'Is six fifty-five early [enough]?', 'Seven ten is [too] late.', 'They aren\'t safe [enough] for the kitchen.',
   'The trays are [too] hot, and the floor is sometimes wet.', 'Maybe they\'re [too] big, but they\'re safe.', 'There\'s too [much] to remember!']),
- hear='*wanna* = want to: "What do you **wanna** know?" • *gonna* = going to: "I\'m **gonna** buy some today." You can say *want to* and *going to*. *too*, *two*, and *to* sound the same: listen to the meaning. Stress: *TOO late* • *not eNOUGH*. In *mustn\'t*, you don\'t hear the first *t*.',
+ hear='*wanna* = want to: "What do you **want to** know?" • *gonna* = going to: "I\'m **going to** buy some today." You can say *want to* and *going to*. *too*, *two*, and *to* sound the same: listen to the meaning. Stress: *TOO late* • *not eNOUGH*. In *mustn\'t*, you don\'t hear the first *t*.',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: *too* + adjective, adjective + *enough*
@@ -222,4 +222,4 @@ L['notes'] = [
  '**Writing check 2 (Week 7):** collect the first-week tips. Write one strength and one fix on each. Learners keep them in their writing folder.',
  '**Week 8 is the midterm.** It covers Lessons 1–7. Remind learners to bring their workbook.',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.']
+ '**Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.']

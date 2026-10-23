@@ -32,7 +32,7 @@ L['steps'] = [
   'ask "Is your employer a company or a person?" (a company, usually) • "Can your mother be your reference?" (no, usually not) • "Is *2020* a length or a starting point?" (a starting point → *since*).',
   'What\'s your current address? → It\'s 418 Elm Street.'),
  step3('Marisol is at a leasing office. She wants to rent an apartment. Mr. Chen helps her with the application. Listen: what is she applying for?',
-  'Point to the script lines. *wanna* = want to: "I **wanna** fill out an application." *gonna* = going to: "My mother is **gonna** live with me." Then practice the weak, short *for* (it sounds like "fer"): *for two years* • *for three years*, and link the words: *How long have you lived here?*', '{EST}'),
+  'Point to the script lines. *wanna* = want to: "I **want to** fill out an application." *gonna* = going to: "My mother is **going to** live with me." Then practice the weak, short *for* (it sounds like "fer"): *for two years* • *for three years*, and link the words: *How long have you lived here?*', '{EST}'),
  step4('*How long…?* with *for* and *since*', 'draw a timeline: "2020 ———————→ now." Say: "I moved here in 2020. I still live here. I\'ve lived here **since 2020**. That\'s six years. I\'ve lived here **for six years**." Point to 2020 (since) and the whole line (for).',
   'Box 1: read across: *How long have you lived here? → I\'ve lived here for two years / since 2024.* Box 2: still true or finished? *I\'ve worked at the hotel since 2022* (still true) vs. *I worked at a bakery for two years* (finished). Box 3: sort the time words. Box 4: which one?',
   '"*I live here since 2020.* Right or wrong?" (wrong: *I\'ve lived here since 2020.*) • "*since three years* or *for three years*?" (*for*) • "I worked at a bakery for two years. Do I work there now?" (no).',
@@ -54,7 +54,7 @@ L['listen'] = dict(title='How Long Have You Lived Here?', voices={'Narrator': 'N
  intro='Lesson two. Marisol is at a leasing office. She wants to rent an apartment, and Mr. Chen helps her.',
  lines=[
   ('Mr. Chen', 'Good afternoon. Welcome to Park View Apartments. How can I help you?'),
-  ('Marisol', 'Hi. I\'m here about the two-bedroom apartment. I wanna fill out an application.'),
+  ('Marisol', 'Hi. I\'m here about the two-bedroom apartment. I want to fill out an application.'),
   ('Mr. Chen', 'Great. Let\'s do it together. What\'s your current address?'),
   ('Marisol', 'It\'s 418 Elm Street, apartment 3.'),
   ('Mr. Chen', 'And how long have you lived there?'),
@@ -62,7 +62,7 @@ L['listen'] = dict(title='How Long Have You Lived Here?', voices={'Narrator': 'N
   ('Mr. Chen', 'OK. And your previous address?'),
   ('Marisol', 'Before that, I lived on Lake Road with my cousins. I lived there for three years.'),
   ('Mr. Chen', 'Why are you moving?'),
-  ('Marisol', 'My apartment is too small. My mother is gonna live with me.'),
+  ('Marisol', 'My apartment is too small. My mother is going to live with me.'),
   ('Mr. Chen', 'I see. Now, your job. Who\'s your employer?'),
   ('Marisol', 'Green Valley Clinic. I\'m a medical assistant.'),
   ('Mr. Chen', 'How long have you worked there?'),
@@ -87,7 +87,7 @@ L['listen'] = dict(title='How Long Have You Lived Here?', voices={'Narrator': 'N
  C=dict(head='Write *for* or *since*.', items=[
   'I\'ve lived there [for] two years.', 'I lived there [for] three years.', '[Since] March 2022.',
   'Before that, I worked at a bakery [for] two years.', 'She\'s known me [since] I started.', 'The lease is [for] one year.']),
- hear='*wanna* = want to: "I **wanna** fill out an application." • *gonna* = going to: "My mother is **gonna** live with me." You can say *want to* and *going to*. Say it with a short *for* ("fer"): *I\'ve lived there for two years.* • *How long have you lived here?*',
+ hear='*wanna* = want to: "I **want to** fill out an application." • *gonna* = going to: "My mother is **going to** live with me." You can say *want to* and *going to*. Say it with a short *for* ("fer"): *I\'ve lived there for two years.* • *How long have you lived here?*',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: *How long…?* with *for* and *since*
@@ -230,4 +230,4 @@ L['notes'] = [
  '**Real forms:** a rental application often asks for 3–5 years of addresses and a reference who is not family. Learners can write *N/A* (not applicable) when a line doesn\'t fit them.',
  '**Spelling and numbers:** in the leasing office role play, the agent asks *Can you spell that?* Encourage learners to say street numbers in pairs: *418* = "four eighteen."',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.']
+ '**Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.']

@@ -120,8 +120,8 @@
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together.
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
-- **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "The doctor's **gonna** see you in a few minutes." *wanna* = want to: "I **wanna** make an appointment." Then practice *Why don't you…?* as one smooth group with falling intonation (a suggestion, not a real question), and the stress: *I've had a RASH since MONday.* The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 2:07), at a natural speed, two times. Say *gonna* and *wanna* where the script has them. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "The doctor's **going to** see you in a few minutes." *wanna* = want to: "I **want to** make an appointment." Then practice *Why don't you…?* as one smooth group with falling intonation (a suggestion, not a real question), and the stress: *I've had a RASH since MONday.* The class repeats the two lines twice.
+- **No recording yet:** read the script aloud with a volunteer (about 2:09), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,12 +166,12 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 2:07 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 2:09 when recorded; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. Say *gonna* and *wanna* where the script has them.
+> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson four. Amina is at a clinic. First, she talks to Daniel, the medical assistant.
-> **Daniel:** Hi, Amina. I'm Daniel. I'm gonna ask you a few questions for your health history. What brings you in today?
+> **Daniel:** Hi, Amina. I'm Daniel. I'm going to ask you a few questions for your health history. What brings you in today?
 > **Amina:** My lower back hurts. It isn't very bad, but it hasn't stopped.
 > **Daniel:** I'm sorry to hear that. How long have you had the back pain?
 > **Amina:** I've had it for about two weeks. It started when I moved some heavy boxes.
@@ -185,12 +185,12 @@
 > **Amina:** I've used a heating pad a few times. It helps a little.
 > **Daniel:** Have you felt dizzy?
 > **Amina:** No, I haven't.
-> **Daniel:** Good. Now let me check your blood pressure. It's one eighteen over seventy-six. That's fine. The doctor's gonna see you in a few minutes.
+> **Daniel:** Good. Now let me check your blood pressure. It's one eighteen over seventy-six. That's fine. The doctor's going to see you in a few minutes.
 > **Narrator:** Later, at checkout, Amina talks to Ms. Park, the receptionist.
 > **Ms. Park:** Hi, Amina. Your copay today is twenty dollars.
 > **Amina:** OK. Here's my new insurance card. I've had it since January.
 > **Ms. Park:** Thank you. Also, you haven't had a teeth cleaning for a year, and you haven't had a checkup since last spring. It's a good idea to get one every six months.
-> **Amina:** You're right. I wanna make an appointment with the dentist.
+> **Amina:** You're right. I want to make an appointment with the dentist.
 > **Ms. Park:** Why don't you call the dental office tomorrow? Here's the number. And you could get a flu shot here next week.
 > **Amina:** Good idea. Thank you!
 > **Narrator:** That's the end of the listening.
@@ -215,7 +215,7 @@
 - **for / since:** *for* + a length of time (*three days*); *since* + a start (*Monday, January*). With a finished time (*in 2018*), use the simple past.
 - ***Why don't you…?*** is a suggestion, not a real question. Model falling intonation. Learners answer *Good idea* or *Thanks, I will*, not *Because…*.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.
+- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
 
 <!-- part: Student Workbook | Lesson 4 (Week 4) | How Long Have You Had It? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 4 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -312,7 +312,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "The doctor's **gonna** see you in a few minutes." • *wanna* = want to: "I **wanna** make an appointment." You can say *going to* and *want to*. Say *Why don't you…?* as one smooth group, with your voice going down at the end: it's a suggestion, not a real question. Stress: *I've had a RASH since MONday.*
+*gonna* = going to: "The doctor's **going to** see you in a few minutes." • *wanna* = want to: "I **want to** make an appointment." You can say *going to* and *want to*. Say *Why don't you…?* as one smooth group, with your voice going down at the end: it's a suggestion, not a real question. Stress: *I've had a RASH since MONday.*
 
 ---
 ## Lesson 4 (Week 4) · Grammar

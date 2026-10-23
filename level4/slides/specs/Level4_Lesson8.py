@@ -22,7 +22,7 @@ TN2 = "Do you know where…? is a first look: practice it with where / when / wh
 TN3 = 'might + base verb: learners often add to or -s. Point to the rule: no to, no -s.'
 TN4 = 'News Swap: learners keep their card hidden. If a partner can\'t find a fact, they say, "I\'m not sure. It might…"'
 TN5 = 'Spanish and other languages: the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.'
-TN6 = 'Reductions: the listening has gonna. Learners need to understand it; they can always say going to.'
+TN6 = 'Reductions: the listening says going to. People often say gonna. Learners only need to recognize it.'
 SLIDES = [
  {'kind': 'title', 'title': 'In the News', 'bullets': BUL, 'pic': I('news'), 'alt': A('news'),
   'notes': ['Welcome learners as they arrive.',
@@ -80,7 +80,7 @@ SLIDES = [
             'Before you listen (2 min). Say: "First, you\'ll hear a short local news report on the radio. Then two coworkers, Marco and Joy, talk about the news. Listen: what is the news?"',
             'There are 3 people: Diane Lee, Marco and Joy. A narrator starts and ends the listening. Each click highlights the next person.',
             f'The audio (L4_L8_listening.mp3, about {LEN}) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
-            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.',
+            'No speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.',
             audio_note(N, LEN, False),
             f'{SRC} (Step 3; Listening script; Listening page).',
             PC]},
@@ -101,10 +101,10 @@ SLIDES = [
   'notes': ['Task C (play 2). Click to show each answer (one click per item, 1 to 6): 1 might, 2 will, 3 when, 4 how, 5 might, 6 where.',
             'If behind: do Task C together on the board, reading the lines yourself.',
             f'{SRC} (Step 3; Listening Task C; Answer key).']},
- {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['You will hear *gonna*.', 'In *might*, the last *t* is very short.', 'Say each line *two times.*'],
+ {'kind': 'checksay', 'title': ['Hear It,', 'Say It'], 'side': ['*gonna* is a short form. This listening says *going to*.', 'In *might*, the last *t* is very short.', 'Say each line *two times.*'],
   'head1': 'Hear it: gonna = going to', 'head2': 'Say it: might, and Do you know…?', 'head_chip': None, 'head_sz': 18, 'say_sz': 18,
-  'says': ['The bus is *gonna* take a detour.', "I'm *gonna* look at the map tonight.", "It *migh'* be late.", 'Do you know…?'],
-  'notes': ['"Hear it, say it" (3 min): Point to the script lines. gonna = going to: "The bus is gonna take a detour." Then practice might (the last t is very short: It migh\' be late) and Do you know…? with the voice going up at the end. Listen to the reporter\'s pauses. The class repeats the two lines twice.',
+  'says': ['The bus is *going to* take a detour.', "I'm *going to* look at the map tonight.", "It *migh'* be late.", 'Do you know…?'],
+  'notes': ['"Hear it, say it" (3 min): Point to the script lines. gonna = going to: "The bus is going to take a detour." Then practice might (the last t is very short: It migh\' be late) and Do you know…? with the voice going up at the end. Listen to the reporter\'s pauses. The class repeats the two lines twice.',
             TN6,
             f'{SRC} (Step 3: "Hear it, say it"; Listening page: Hear it, say it; Teacher notes).']},
  {'kind': 'table', 'head': ['Grammar Box 1', 'might / may / could (maybe)'], 'title_sz': 24, 'qhead': 'QUESTION', 'ahead': 'ANSWER',

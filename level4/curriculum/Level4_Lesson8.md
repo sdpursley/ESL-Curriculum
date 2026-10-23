@@ -120,8 +120,8 @@
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together.
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
-- **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "The bus is **gonna** take a detour." Then practice *might* (the last *t* is very short: *It migh' be late*) and *Do you know…?* with the voice going up at the end. Listen to the reporter's pauses. The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:59), at a natural speed, two times. Say *gonna* and *wanna* where the script has them. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "The bus is **going to** take a detour." Then practice *might* (the last *t* is very short: *It migh' be late*) and *Do you know…?* with the voice going up at the end. Listen to the reporter's pauses. The class repeats the two lines twice.
+- **No recording yet:** read the script aloud with a volunteer (about 1:59), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -168,7 +168,7 @@
 ---
 ### Listening script (not recorded yet; about 1:59 when recorded; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. Say *gonna* and *wanna* where the script has them.
+> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson eight. First, listen to a short news report on the radio. Then two coworkers talk about the news.
 > **Diane Lee:** Good morning. This is Diane Lee with your local news. Starting Monday, Oak Street will be closed between First and Fifth Avenue. Workers are going to replace an old water pipe under the street.
@@ -177,7 +177,7 @@
 > **Narrator:** Later that morning, at work, Marco and Joy talk about the news.
 > **Marco:** Joy, did you hear the news? They're closing Oak Street on Monday.
 > **Joy:** Oh no. I take the number twelve bus on Oak Street every day.
-> **Marco:** The bus is gonna take a detour on Pine Street. It might be fifteen minutes late.
+> **Marco:** The bus is going to take a detour on Pine Street. It might be fifteen minutes late.
 > **Joy:** Fifteen minutes? I might be late for work. Do you know when the bus leaves Pine Street?
 > **Marco:** I'm not sure. You could check the city website.
 > **Joy:** Good idea. Do you know how long the closure is?
@@ -185,7 +185,7 @@
 > **Joy:** Hmm. Maybe I'll take the earlier bus. I don't want to be late.
 > **Marco:** Or I could give you a ride. I drive past your street.
 > **Joy:** Really? That would be great. Do you know where the detour starts?
-> **Marco:** I think it starts at First Avenue. I'm gonna look at the map tonight.
+> **Marco:** I think it starts at First Avenue. I'm going to look at the map tonight.
 > **Joy:** Thanks, Marco!
 > **Narrator:** That's the end of the listening.
 
@@ -209,7 +209,7 @@
 - ***might* + base verb:** learners often add *to* or *-s*. Point to the rule: no *to*, no *-s*.
 - **News Swap:** learners keep their card hidden. If a partner can't find a fact, they say, "I'm not sure. It might…"
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening has *gonna*. Learners need to understand it; they can always say *going to*.
+- **Reductions:** the listening says *going to*. People often say *gonna*. Learners only need to recognize it; they can always say the full form.
 
 <!-- part: Student Workbook | Lesson 8 (Week 9) | In the News ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 8 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -306,7 +306,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "The bus is **gonna** take a detour." • "I'm **gonna** look at the map tonight." You can say *going to*. In *might*, the last *t* is very short. In *Do you know…?*, the voice goes up at the end. Listen to the reporter: she pauses after each fact.
+*gonna* = going to: "The bus is **going to** take a detour." • "I'm **going to** look at the map tonight." You can say *going to*. In *might*, the last *t* is very short. In *Do you know…?*, the voice goes up at the end. Listen to the reporter: she pauses after each fact.
 
 ---
 ## Lesson 8 (Week 9) · Grammar

@@ -4,8 +4,8 @@
 LESSON = 3
 TITLE = 'Have You Finished Yet?'
 VOICES = {'Narrator': 'N', 'Ms. Rivera': 'Rosa', 'Jamal': 'Sam', 'Kim': 'Kim'}
-FEMALE = {'Kim', 'Narrator', 'Ms. Rivera'}
-NAMES = {'jamal', 'kim', 'rivera'}
+FEMALE = {'Kim', 'Ms. Rivera', 'Narrator'}
+NAMES = {'kim', 'jamal', 'rivera'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = "Lesson three. It's the end of the evening shift at a grocery store. Ms. Rivera, the supervisor, talks to Jamal and Kim."
@@ -17,16 +17,16 @@ LINES = [
  ('Kim', "We've already put away the milk and the eggs."),
  ('Ms. Rivera', 'Good. Kim, have you cleaned the cooler yet?'),
  ('Kim', "No, not yet. I haven't cleaned it yet. The delivery came late."),
- ('Ms. Rivera', "That's OK. Are you gonna have time tonight?"),
- ('Kim', "I think so. I'm gonna start it after the delivery. It takes about twenty minutes."),
+ ('Ms. Rivera', "That's OK. Are you going to have time tonight?"),
+ ('Kim', "I think so. I'm going to start it after the delivery. It takes about twenty minutes."),
  ('Ms. Rivera', 'Perfect. Jamal, have you checked the bakery inventory?'),
  ('Jamal', "I've just finished it. I gave you the list at eight."),
  ('Ms. Rivera', 'Oh, right, I have it here. Thanks. And the break room?'),
- ('Jamal', "Not yet. I'm gonna clean it before I clock out."),
+ ('Jamal', "Not yet. I'm going to clean it before I clock out."),
  ('Ms. Rivera', "OK. So the cooler and the break room aren't done yet. Everything else is done."),
  ('Kim', 'Ms. Rivera, have you seen the new training schedule yet?'),
  ('Ms. Rivera', "Yes, I've just seen it. The deadline for the safety training is Friday."),
- ('Kim', 'Thanks. I wanna finish it this week.'),
+ ('Kim', 'Thanks. I want to finish it this week.'),
  ('Ms. Rivera', 'Good idea. And some quick feedback: you both did great work tonight. The shelves look really good.'),
  ('Jamal', 'Thank you!'),
  ('Kim', 'Thanks, Ms. Rivera. See you tomorrow.'),

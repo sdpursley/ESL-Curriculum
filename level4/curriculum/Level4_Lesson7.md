@@ -120,8 +120,8 @@
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together.
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
-- **"Hear it, say it" (3 min):** Point to the script lines. *wanna* = want to: "What do you **wanna** know?" *gonna* = going to: "I'm **gonna** buy some today." Then practice *too / two / to* (the same sound) and the stress in *TOO late* and *not eNOUGH*. The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:50), at a natural speed, two times. Say *gonna* and *wanna* where the script has them. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **"Hear it, say it" (3 min):** Point to the script lines. *wanna* = want to: "What do you **want to** know?" *gonna* = going to: "I'm **going to** buy some today." Then practice *too / two / to* (the same sound) and the stress in *TOO late* and *not eNOUGH*. The class repeats the two lines twice.
+- **No recording yet:** read the script aloud with a volunteer (about 1:50), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -168,11 +168,11 @@
 ---
 ### Listening script (not recorded yet; about 1:50 when recorded; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. Say *gonna* and *wanna* where the script has them.
+> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson seven. It's Nadia's first week at a bakery. She asks her coworker, Carmen, some questions.
 > **Nadia:** Carmen, can I ask you a few questions? I'm still learning the rules.
-> **Carmen:** Sure, Nadia. What do you wanna know?
+> **Carmen:** Sure, Nadia. What do you want to know?
 > **Nadia:** My shift starts at seven. Is six fifty-five early enough?
 > **Carmen:** Yes, that's perfect. Here, on time means five minutes early. Seven ten is too late.
 > **Nadia:** OK. And what about the uniform? Do I have to wear the hat?
@@ -182,7 +182,7 @@
 > **Nadia:** And are these shoes OK? They're new.
 > **Carmen:** Hmm, those are sandals. They aren't safe enough for the kitchen.
 > **Mr. Brooks:** Carmen's right. Good morning, Nadia. I'm Mr. Brooks, the supervisor. You must wear closed-toe shoes. The trays are too hot, and the floor is sometimes wet.
-> **Nadia:** I'm sorry. I didn't know. I'm gonna buy some today.
+> **Nadia:** I'm sorry. I didn't know. I'm going to buy some today.
 > **Mr. Brooks:** That's OK. For today, there are extra shoes in the office. Maybe they're too big, but they're safe.
 > **Nadia:** Thank you. Is there anything else?
 > **Mr. Brooks:** Just one more thing. If you're going to be late, you must call me before your shift.
@@ -210,7 +210,7 @@
 - **Writing check 2 (Week 7):** collect the first-week tips. Write one strength and one fix on each. Learners keep them in their writing folder.
 - **Week 8 is the midterm.** It covers Lessons 1–7. Remind learners to bring their workbook.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.
+- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
 
 <!-- part: Student Workbook | Lesson 7 (Week 7) | Too Early or On Time? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 7 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -307,7 +307,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*wanna* = want to: "What do you **wanna** know?" • *gonna* = going to: "I'm **gonna** buy some today." You can say *want to* and *going to*. *too*, *two*, and *to* sound the same: listen to the meaning. Stress: *TOO late* • *not eNOUGH*. In *mustn't*, you don't hear the first *t*.
+*wanna* = want to: "What do you **want to** know?" • *gonna* = going to: "I'm **going to** buy some today." You can say *want to* and *going to*. *too*, *two*, and *to* sound the same: listen to the meaning. Stress: *TOO late* • *not eNOUGH*. In *mustn't*, you don't hear the first *t*.
 
 ---
 ## Lesson 7 (Week 7) · Grammar

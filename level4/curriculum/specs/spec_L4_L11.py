@@ -32,7 +32,7 @@ L['steps'] = [
   'ask "Does a supervisor approve or pack a request?" (approve) • "Is a round-trip ticket for one way or there and back?" (there and back) • "Is a toothbrush a toiletry or a boarding pass?" (a toiletry).',
   'I need to pack my toiletries.'),
  step3('Luis asks his supervisor, Ms. Adams, for time off. Then he leaves a voicemail for his sister, Rosa, and she calls back. Listen: why does he need time off?',
-  'Point to the script lines. *wanna* = want to: "When do you **wanna** take it?" *gonna* = going to: "I\'m **gonna** take the bus." Then practice the phone number in groups with pauses: *555 · 214 · 8830*.', '{EST}'),
+  'Point to the script lines. *wanna* = want to: "When do you **want to** take it?" *gonna* = going to: "I\'m **going to** take the bus." Then practice the phone number in groups with pauses: *555 · 214 · 8830*.', '{EST}'),
  step4('*to* + verb (why); verbs + *to* / + *-ing*', 'say, "I\'m going to the store." Ask, "Why?" Answer, "**To buy** milk." Write: *Why? → To + verb.* Then say, "I **enjoy cooking**. I **want to cook** for my family." Write two lists on the board: **+ to:** *want, need, plan, decide, hope, forget, would like*; **+ -ing:** *enjoy, don\'t mind, finish, avoid, keep*.',
   'Box 1: read across: *Why are you taking time off? → To visit my sister.* Box 2: verbs + *to* and verbs + *-ing*. Box 3: the two lists. Box 4: review (*already, Would you mind…?, going to*).',
   '"*for see* or *to see*?" (*to see*) • "*enjoy to travel* or *enjoy traveling*?" (*enjoy traveling*) • "*want to visit* or *want visiting*?" (*want to visit*).',
@@ -53,7 +53,7 @@ L['listen'] = dict(title='Time Off', voices={'Narrator': 'N', 'Luis': 'Marco', '
  intro='Lesson eleven. Luis asks his supervisor for time off. Then he leaves a voicemail for his sister.',
  lines=[
   ('Luis', 'Ms. Adams, do you have a minute? I\'d like to ask for some time off.'),
-  ('Ms. Adams', 'Sure, Luis. When do you wanna take it?'),
+  ('Ms. Adams', 'Sure, Luis. When do you want to take it?'),
   ('Luis', 'Next month, from Thursday, June fifth, to Saturday, June seventh. That\'s three days.'),
   ('Ms. Adams', 'And why are you taking time off?'),
   ('Luis', 'To visit my mother in San Antonio. It\'s her seventieth birthday.'),
@@ -63,10 +63,10 @@ L['listen'] = dict(title='Time Off', voices={'Narrator': 'N', 'Luis': 'Marco', '
   ('Luis', 'Ana has agreed to cover Thursday and Friday. I\'m still looking for someone for Saturday.'),
   ('Ms. Adams', 'Ask Ben. He doesn\'t mind working on weekends. Then I can approve it.'),
   ('Luis', 'Great. Thank you, Ms. Adams.'),
-  ('Luis', 'Hi, Rosa, it\'s Luis. I\'m calling to tell you about my trip. I\'m gonna take the bus on Thursday, June fifth. It\'s bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don\'t forget to bring Mom\'s birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!'),
+  ('Luis', 'Hi, Rosa, it\'s Luis. I\'m calling to tell you about my trip. I\'m going to take the bus on Thursday, June fifth. It\'s bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don\'t forget to bring Mom\'s birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!'),
   ('Rosa', 'Hi, Luis! I got your message. Yes, I can pick you up at six thirty.'),
   ('Luis', 'Thanks, Rosa. Mom doesn\'t know I\'m coming, right?'),
-  ('Rosa', 'No, it\'s a surprise. She\'s gonna be so happy. I enjoy planning surprises!'),
+  ('Rosa', 'No, it\'s a surprise. She\'s going to be so happy. I enjoy planning surprises!'),
   ('Luis', 'Me too. See you on Thursday!'),
  ],
  A=dict(q='Why does Luis need time off?', opts=['to visit his mother', 'to see a doctor', 'to move to a new apartment'], ans=0),
@@ -81,7 +81,7 @@ L['listen'] = dict(title='Time Off', voices={'Narrator': 'N', 'Luis': 'Marco', '
  C=dict(head='Write *to* or the *-ing* form of the verb.', items=[
   'I\'d like [to] ask for some time off.', 'He doesn\'t mind [working] on weekends.', 'I\'m calling [to] tell you about my trip.',
   'don\'t forget [to] bring Mom\'s birthday card.', 'I want everyone [to] sign it.', 'I enjoy [planning] surprises!']),
- hear='*wanna* = want to: "When do you **wanna** take it?" • *gonna* = going to: "I\'m **gonna** take the bus." Understand them; you can say *want to* and *going to*. Never write *wanna* or *gonna*. Phone numbers come in groups with pauses: *555 · 214 · 8830*.',
+ hear='*wanna* = want to: "When do you **want to** take it?" • *gonna* = going to: "I\'m **going to** take the bus." Understand them; you can say *want to* and *going to*. Never write *wanna* or *gonna*. Phone numbers come in groups with pauses: *555 · 214 · 8830*.',
 )
 L['grammar'] = dict(boxes='''
 ### Grammar Box 1: *to* + verb answers *Why?*
@@ -213,4 +213,4 @@ L['notes'] = [
  '**Writing check 4 (Week 12):** collect the time-off email. Write one strength and one fix on each. Learners keep them in their writing folder.',
  '**Phone numbers are invented** and use 555. Practice saying them in groups with pauses (3-3-4).',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; saying them is optional, and they never write them.']
+ '**Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms, and they never write them.']

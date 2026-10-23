@@ -32,7 +32,7 @@ L['steps'] = [
   'ask "Is an empty lot full or empty?" (empty) • "If you agree, do you say *That\'s true* or *That\'s wrong*?" (*That\'s true*) • "Is a survey for one person or many people?" (many people).',
   'In my opinion, we need a playground.'),
  step3('Neighbors are at a community meeting. Mrs. Okafor is the leader. Ray and Lin give their opinions about the empty lot on Cedar Street. Listen: what are they deciding?',
-  'Point to the script lines. *wanna* = want to: "Tonight we **wanna** talk about the empty lot." *gonna* = going to: "Who\'s **gonna** take care of it?" Then practice *I see your POINT, but…* (the voice goes down on *point*, then a short pause) and the stress in *It isn\'t as EXpensive*.', '{EST}'),
+  'Point to the script lines. *wanna* = want to: "Tonight we **want to** talk about the empty lot." *gonna* = going to: "Who\'s **going to** take care of it?" Then practice *I see your POINT, but…* (the voice goes down on *point*, then a short pause) and the stress in *It isn\'t as EXpensive*.', '{EST}'),
  step4('*opinions; agree and disagree politely; as … as*', 'say, "In my opinion, summer is the best season." Ask a learner, "Do you agree?" Model two answers: a thumbs-up, "**I agree.** That\'s true," and a smile, "**I see your point, but** I like fall." Write: *something positive first, then* but. Then draw two prices: "A garden is $2,000. A parking lot is $20,000. A garden **isn\'t as expensive as** a parking lot."',
   'Box 1: read across: *What do you think about the empty lot? → I think we need a playground.* Box 2: agreeing and disagreeing politely. Box 3: *as … as / not as … as*. Box 4: the words in an opinion paragraph.',
   '"*I am agree* or *I agree*?" (*I agree*) • "Which is more polite: *That\'s wrong* or *I see your point, but…*?" (*I see your point, but…*) • "*not as expensive as* or *not as expensive than*?" (*as … as*).',
@@ -53,13 +53,13 @@ L['listen'] = dict(title='I See Your Point', voices={'Narrator': 'N', 'Mrs. Okaf
  setting='A short neighborhood meeting. The leader, Mrs. Okafor, asks for opinions about the empty lot on Cedar Street. Ray and Lin give their opinions.',
  intro='Lesson nine. Neighbors are at a community meeting. They are talking about the empty lot on Cedar Street.',
  lines=[
-  ('Mrs. Okafor', 'Good evening, everyone. Thank you for coming. Tonight we wanna talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?'),
+  ('Mrs. Okafor', 'Good evening, everyone. Thank you for coming. Tonight we want to talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?'),
   ('Ray', 'Thanks, Mrs. Okafor. In my opinion, we need a parking lot. There aren\'t enough parking spaces on our street. I drive around for twenty minutes every night.'),
   ('Mrs. Okafor', 'That\'s true. Parking is a big problem. Lin, how do you feel about it?'),
   ('Lin', 'I see your point, Ray, but I\'m not sure I agree. I think a community garden is a better idea.'),
   ('Ray', 'A garden? Why?'),
   ('Lin', 'First, a garden isn\'t as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.'),
-  ('Ray', 'That\'s a good idea, but a garden is a lot of work. Who\'s gonna take care of it?'),
+  ('Ray', 'That\'s a good idea, but a garden is a lot of work. Who\'s going to take care of it?'),
   ('Lin', 'I\'d help, and I think many neighbors would help too.'),
   ('Mrs. Okafor', 'Ray, do you agree with that?'),
   ('Ray', 'Well, I agree that a garden is nice. But for me, parking is as important as a garden.'),
@@ -219,4 +219,4 @@ L['notes'] = [
  '**Opinion Lines:** learners who can\'t stand or move can hold up a sign or raise a hand from their seat.',
  '**Writing check 3 (Week 10):** collect the opinion paragraph. Write one strength and one fix on each. Learners keep them in their writing folder.',
  '**Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.',
- '**Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.']
+ '**Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.']

@@ -122,8 +122,8 @@
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together.
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
-- **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "Tonight we're **gonna** find things we have in common." *wanna* = want to: "I **wanna** go camping." Say: "You will hear *gonna* and *wanna*. You can say *going to* and *want to*." Then practice the weak, short *have* (it sounds like "h'v"): *Have you ever seen snow?* and the contraction: *I've never ridden a horse.* The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 2:04), at a natural speed, two times. Say *gonna* and *wanna* where the script has them. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "Tonight we're **going to** find things we have in common." *wanna* = want to: "I **want to** go camping." Say: "People often say *gonna* and *wanna*. This listening uses *going to* and *want to*." Then practice the weak, short *have* (it sounds like "h'v"): *Have you ever seen snow?* and the contraction: *I've never ridden a horse.* The class repeats the two lines twice.
+- **No recording yet:** read the script aloud with a volunteer (about 2:06), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -170,9 +170,9 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 2:04 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 2:06 when recorded; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. Say *gonna* and *wanna* where the script has them.
+> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson one. It's the first night of an English class at a community center. Lucía and Ahmed meet before class.
 > **Ahmed:** Hi, I'm Ahmed. Is this seat free?
@@ -181,7 +181,7 @@
 > **Lucía:** No, I haven't. But my sister has. What kind of work do you do?
 > **Ahmed:** I work at a warehouse. Have you ever worked in a restaurant?
 > **Lucía:** Yes, I have. I worked in a pizza restaurant in 2019. It was hard, but I liked it.
-> **Ms. Grant:** Good evening! I'm Ms. Grant, your teacher. Tonight we're gonna find things we have in common.
+> **Ms. Grant:** Good evening! I'm Ms. Grant, your teacher. Tonight we're going to find things we have in common.
 > **Ms. Grant:** Lucía and Ahmed, find two things you've both done.
 > **Lucía:** OK. Ahmed, have you ever seen snow?
 > **Ahmed:** Yes! I saw snow for the first time last winter. It was cold, but beautiful.
@@ -193,9 +193,9 @@
 > **Ahmed:** Yes, I ran a 5k last year. I didn't win, but I finished!
 > **Lucía:** I've run a race, too. My company has a race every summer.
 > **Ahmed:** Great. So we've both seen snow, and we've both run a race.
-> **Ms. Grant:** Good job! Now, what have you never done, but you wanna try?
-> **Ahmed:** I wanna go camping. I've never slept in a tent.
-> **Lucía:** And I wanna try sushi. I've never eaten it.
+> **Ms. Grant:** Good job! Now, what have you never done, but you want to try?
+> **Ahmed:** I want to go camping. I've never slept in a tent.
+> **Lucía:** And I want to try sushi. I've never eaten it.
 > **Narrator:** That's the end of the listening.
 
 ### Answer key
@@ -218,7 +218,7 @@
 - **Baseline snapshot:** for each learner you hear (about 5 tonight), note three things: (1) 3 connected sentences? (2) a follow-up question? (3) any present perfect? Keep the notes private. Hear everyone by Week 3. The same notes help in Weeks 8 and 15.
 - **Can-Do Self-Check:** the faces are 😀 I can do it, 🙂 with a little help, 😐 not yet. Read each line aloud. Keep the pages; learners compare in Week 8.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.
+- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
 
 <!-- part: Student Workbook | Lesson 1 (Week 1) | Have You Ever…? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 1 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -317,7 +317,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "Tonight we're **gonna** find things we have in common." • *wanna* = want to: "I **wanna** go camping." You can say *going to* and *want to*. Say it: *Have you ever seen snow?* • *I've never ridden a horse.*
+*gonna* = going to: "Tonight we're **going to** find things we have in common." • *wanna* = want to: "I **want to** go camping." You can say *going to* and *want to*. Say it: *Have you ever seen snow?* • *I've never ridden a horse.*
 
 ---
 ## Lesson 1 (Week 1) · Grammar

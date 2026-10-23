@@ -4,13 +4,13 @@
 LESSON = 4
 TITLE = 'How Long Have You Had It?'
 VOICES = {'Narrator': 'N', 'Amina': 'Rosa', 'Daniel': 'Marco', 'Ms. Park': 'Receptionist'}
-FEMALE = {'Amina', 'Narrator', 'Ms. Park'}
-NAMES = {'amina', 'park', 'daniel'}
+FEMALE = {'Ms. Park', 'Amina', 'Narrator'}
+NAMES = {'park', 'amina', 'daniel'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson four. Amina is at a clinic. First, she talks to Daniel, the medical assistant.'
 LINES = [
- ('Daniel', "Hi, Amina. I'm Daniel. I'm gonna ask you a few questions for your health history. What brings you in today?"),
+ ('Daniel', "Hi, Amina. I'm Daniel. I'm going to ask you a few questions for your health history. What brings you in today?"),
  ('Amina', "My lower back hurts. It isn't very bad, but it hasn't stopped."),
  ('Daniel', "I'm sorry to hear that. How long have you had the back pain?"),
  ('Amina', "I've had it for about two weeks. It started when I moved some heavy boxes."),
@@ -24,12 +24,12 @@ LINES = [
  ('Amina', "I've used a heating pad a few times. It helps a little."),
  ('Daniel', 'Have you felt dizzy?'),
  ('Amina', "No, I haven't."),
- ('Daniel', "Good. Now let me check your blood pressure. It's one eighteen over seventy-six. That's fine. The doctor's gonna see you in a few minutes."),
+ ('Daniel', "Good. Now let me check your blood pressure. It's one eighteen over seventy-six. That's fine. The doctor's going to see you in a few minutes."),
  ('Narrator', 'Later, at checkout, Amina talks to Ms. Park, the receptionist.'),
  ('Ms. Park', 'Hi, Amina. Your copay today is twenty dollars.'),
  ('Amina', "OK. Here's my new insurance card. I've had it since January."),
  ('Ms. Park', "Thank you. Also, you haven't had a teeth cleaning for a year, and you haven't had a checkup since last spring. It's a good idea to get one every six months."),
- ('Amina', "You're right. I wanna make an appointment with the dentist."),
+ ('Amina', "You're right. I want to make an appointment with the dentist."),
  ('Ms. Park', "Why don't you call the dental office tomorrow? Here's the number. And you could get a flu shot here next week."),
  ('Amina', 'Good idea. Thank you!'),
 ]

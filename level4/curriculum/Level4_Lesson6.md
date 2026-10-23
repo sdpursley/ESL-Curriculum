@@ -120,8 +120,8 @@
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together.
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
-- **"Hear it, say it" (3 min):** Point to the script lines. *wanna* = want to: "I **wanna** hear your ideas." *gonna* = going to: "If you're **gonna** call, call early!" Then practice *I'd* (say the *d*): *I'd give it back*, and *What would you DO?* with the stress on *do*. The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:51), at a natural speed, two times. Say *gonna* and *wanna* where the script has them. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **"Hear it, say it" (3 min):** Point to the script lines. *wanna* = want to: "I **want to** hear your ideas." *gonna* = going to: "If you're **going to** call, call early!" Then practice *I'd* (say the *d*): *I'd give it back*, and *What would you DO?* with the stress on *do*. The class repeats the two lines twice.
+- **No recording yet:** read the script aloud with a volunteer (about 1:52), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,9 +166,9 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:51 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:52 when recorded; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. Say *gonna* and *wanna* where the script has them.
+> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson six. This is a radio show called What Would You Do? Mike is the host. Two people call the show.
 > **Mike:** Good afternoon, and welcome to What Would You Do? Here's today's situation. You buy groceries, and the cashier gives you ten dollars too much change. You see it in the parking lot. What would you do?
@@ -185,7 +185,7 @@
 > **Mike:** And what would you do if it were only one dollar?
 > **Teresa:** Hmm. If it were one dollar, I'd probably keep it. But I'd feel a little bad.
 > **Mike:** Ha! That's an honest answer, too. Thank you, Teresa.
-> **Mike:** Next week's question is this: what would you do if you found an envelope with money at work? I wanna hear your ideas. And if you're gonna call, call early!
+> **Mike:** Next week's question is this: what would you do if you found an envelope with money at work? I want to hear your ideas. And if you're going to call, call early!
 > **Narrator:** That's the end of the listening.
 
 ### Answer key
@@ -208,7 +208,7 @@
 - **Personal topics:** learners never need to talk about real money problems. *If I won $1,000* is just a game.
 - ***I'd*:** learners often drop the *d*. Model *I'd give* slowly, then smoothly.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening has *gonna* and *wanna*. Learners need to understand them; they can always say *going to* and *want to*.
+- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
 
 <!-- part: Student Workbook | Lesson 6 (Week 6) | What Would You Do? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 6 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -305,7 +305,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*wanna* = want to: "I **wanna** hear your ideas." • *gonna* = going to: "If you're **gonna** call, call early!" You can say *want to* and *going to*. Listen for *I'd* (= I would): the *d* is short but it is there. In *What would you **do**?*, the stress is on *do*.
+*wanna* = want to: "I **want to** hear your ideas." • *gonna* = going to: "If you're **going to** call, call early!" You can say *want to* and *going to*. Listen for *I'd* (= I would): the *d* is short but it is there. In *What would you **do**?*, the stress is on *do*.
 
 ---
 ## Lesson 6 (Week 6) · Grammar

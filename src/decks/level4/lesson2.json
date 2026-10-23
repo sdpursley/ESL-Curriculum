@@ -4521,7 +4521,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Marisol is at a leasing office. She wants to rent an apartment. Mr. Chen helps her with the application. Listen: what is she applying for?\"\nThere are three voices: a Narrator, Marisol, and Mr. Chen. Each click highlights the next voice.\nThe audio (about 1:45) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. Say gonna and wanna where the script has them.\nAudio: the listening audio for this lesson (about 1:45) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson two. Marisol is at a leasing office. She wants to rent an apartment, and Mr. Chen helps her.\nMr. Chen: Good afternoon. Welcome to Park View Apartments. How can I help you?\nMarisol: Hi. I'm here about the two-bedroom apartment. I wanna fill out an application.\nMr. Chen: Great. Let's do it together. What's your current address?\nMarisol: It's 418 Elm Street, apartment 3.\nMr. Chen: And how long have you lived there?\nMarisol: I've lived there for two years.\nMr. Chen: OK. And your previous address?\nMarisol: Before that, I lived on Lake Road with my cousins. I lived there for three years.\nMr. Chen: Why are you moving?\nMarisol: My apartment is too small. My mother is gonna live with me.\nMr. Chen: I see. Now, your job. Who's your employer?\nMarisol: Green Valley Clinic. I'm a medical assistant.\nMr. Chen: How long have you worked there?\nMarisol: Since March 2022. Before that, I worked at a bakery for two years.\nMr. Chen: And your start date at the clinic? March what?\nMarisol: March fifteenth.\nMr. Chen: Thank you. We also need one reference. Not a family member, please.\nMarisol: Can I give my supervisor's name? She's known me since I started.\nMr. Chen: Sure, that's fine. And will you have a roommate?\nMarisol: No, just my mother. When can we move in?\nMr. Chen: The apartment is ready on June first. The lease is for one year.\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Marisol is at a leasing office. She wants to rent an apartment. Mr. Chen helps her with the application. Listen: what is she applying for?\"\nThere are three voices: a Narrator, Marisol, and Mr. Chen. Each click highlights the next voice.\nThe audio (about 1:45) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.\nAudio: the listening audio for this lesson (about 1:45) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson two. Marisol is at a leasing office. She wants to rent an apartment, and Mr. Chen helps her.\nMr. Chen: Good afternoon. Welcome to Park View Apartments. How can I help you?\nMarisol: Hi. I'm here about the two-bedroom apartment. I want to fill out an application.\nMr. Chen: Great. Let's do it together. What's your current address?\nMarisol: It's 418 Elm Street, apartment 3.\nMr. Chen: And how long have you lived there?\nMarisol: I've lived there for two years.\nMr. Chen: OK. And your previous address?\nMarisol: Before that, I lived on Lake Road with my cousins. I lived there for three years.\nMr. Chen: Why are you moving?\nMarisol: My apartment is too small. My mother is going to live with me.\nMr. Chen: I see. Now, your job. Who's your employer?\nMarisol: Green Valley Clinic. I'm a medical assistant.\nMr. Chen: How long have you worked there?\nMarisol: Since March 2022. Before that, I worked at a bakery for two years.\nMr. Chen: And your start date at the clinic? March what?\nMarisol: March fifteenth.\nMr. Chen: Thank you. We also need one reference. Not a family member, please.\nMarisol: Can I give my supervisor's name? She's known me since I started.\nMr. Chen: Sure, that's fine. And will you have a roommate?\nMarisol: No, just my mother. When can we move in?\nMr. Chen: The apartment is ready on June first. The lease is for one year.\nNarrator: That's the end of the listening.",
    "title": "Before You Listen"
   },
   {
@@ -7355,13 +7355,6 @@
         "algn": "l",
         "runs": [
          {
-          "t": "You will hear ",
-          "sz": 20.0,
-          "b": false,
-          "i": false,
-          "color": "#1B2236"
-         },
-         {
           "t": "wanna",
           "sz": 20.0,
           "b": true,
@@ -7383,7 +7376,7 @@
           "color": "#5B3FC4"
          },
          {
-          "t": ".",
+          "t": " are short forms. This listening uses the full forms.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -7508,7 +7501,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "wanna",
+          "t": "want to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7573,7 +7566,7 @@
           "color": "#1B2236"
          },
          {
-          "t": "gonna",
+          "t": "going to",
           "sz": 18.0,
           "b": true,
           "i": false,
@@ -7713,7 +7706,7 @@
     }
    ],
    "steps": [],
-   "notes": "\"Hear it, say it\" (3 min). Point to the script lines. wanna = want to: \"I wanna fill out an application.\" gonna = going to: \"My mother is gonna live with me.\" You can say want to and going to.\nThen practice the weak, short for (it sounds like \"fer\"): for two years • for three years, and link the words: How long have you lived here? The class repeats the two lines twice.\nReductions: learners need to understand gonna and wanna; they can always say going to and want to.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
+   "notes": "\"Hear it, say it\" (3 min). Point to the script lines. wanna = want to: \"I want to fill out an application.\" gonna = going to: \"My mother is going to live with me.\" You can say want to and going to.\nThen practice the weak, short for (it sounds like \"fer\"): for two years • for three years, and link the words: How long have you lived here? The class repeats the two lines twice.\nReductions: the listening says going to and want to. People often say gonna and wanna. Learners only need to recognize the short forms.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
    "title": "Hear It, Say It"
   },
   {
