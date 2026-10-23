@@ -1,0 +1,143 @@
+[
+ {
+  "file": "L3_L6_forecast.png",
+  "lesson": "Level3-L6",
+  "word": "forecast",
+  "kind": "vocab",
+  "twemoji": [
+   "1f327",
+   "1f4fa",
+   "2600",
+   "2744"
+  ],
+  "note": "a TV, sun / rain / snow icons with days (labels drawn)"
+ },
+ {
+  "file": "L3_L6_storm.png",
+  "lesson": "Level3-L6",
+  "word": "storm",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a8",
+   "26c8"
+  ],
+  "note": "a cloud with lightning and rain, wind"
+ },
+ {
+  "file": "L3_L6_snowstorm.png",
+  "lesson": "Level3-L6",
+  "word": "snowstorm",
+  "kind": "vocab",
+  "twemoji": [
+   "1f328",
+   "2603",
+   "2744"
+  ],
+  "note": "a snow cloud, snowflakes, a snowman"
+ },
+ {
+  "file": "L3_L6_flood.png",
+  "lesson": "Level3-L6",
+  "word": "flood",
+  "kind": "vocab",
+  "twemoji": [
+   "1f30a",
+   "1f3e0"
+  ],
+  "note": "a house with water around it (water drawn), waves"
+ },
+ {
+  "file": "L3_L6_heat_wave.png",
+  "lesson": "Level3-L6",
+  "word": "heat wave",
+  "kind": "vocab",
+  "twemoji": [
+   "1f321",
+   "1f975",
+   "2600"
+  ],
+  "note": "the sun, a thermometer, a hot face"
+ },
+ {
+  "file": "L3_L6_weather_alert.png",
+  "lesson": "Level3-L6",
+  "word": "weather alert",
+  "kind": "vocab",
+  "twemoji": [
+   "26a0"
+  ],
+  "note": "a drawn phone with an ALERT message, a warning sign"
+ },
+ {
+  "file": "L3_L6_power_outage.png",
+  "lesson": "Level3-L6",
+  "word": "power outage",
+  "kind": "vocab",
+  "twemoji": [
+   "1f319",
+   "1f4a1"
+  ],
+  "note": "a dark house at night (house, sky drawn), a light bulb crossed out, the moon"
+ },
+ {
+  "file": "L3_L6_flashlight.png",
+  "lesson": "Level3-L6",
+  "word": "flashlight",
+  "kind": "vocab",
+  "twemoji": [
+   "1f526"
+  ],
+  "note": "a flashlight with a light beam (beam drawn)"
+ },
+ {
+  "file": "L3_L6_battery.png",
+  "lesson": "Level3-L6",
+  "word": "battery",
+  "kind": "vocab",
+  "twemoji": [
+   "1f50b"
+  ],
+  "note": "two batteries"
+ },
+ {
+  "file": "L3_L6_emergency_kit.png",
+  "lesson": "Level3-L6",
+  "word": "emergency kit",
+  "kind": "vocab",
+  "twemoji": [
+   "1f50b",
+   "1f526",
+   "1fa79"
+  ],
+  "note": "a red kit bag (drawn) with a flashlight, batteries, water, a bandage"
+ },
+ {
+  "file": "L3_L6_bottled_water.png",
+  "lesson": "Level3-L6",
+  "word": "bottled water",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "four water bottles (drawn)"
+ },
+ {
+  "file": "L3_L6_shelter.png",
+  "lesson": "Level3-L6",
+  "word": "shelter",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3eb",
+   "1f6b6"
+  ],
+  "note": "a public building with a SHELTER sign, a person walking to it (sign, arrow drawn)"
+ },
+ {
+  "file": "L3_L6_alert_text.png",
+  "lesson": "Level3-L6",
+  "word": "Read & Write: a weather alert text",
+  "kind": "activity",
+  "twemoji": [
+   "1f975"
+  ],
+  "note": "a drawn phone with an invented heat-wave alert message, a hot face"
+ }
+]

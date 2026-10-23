@@ -1,0 +1,6 @@
+{"TITLE": "My Strengths",
+ "VOICES": {"Narrator": "N", "Lucia": "Ana_af_jessica", "Mr. Hall": "Sam"},
+ "FEMALE": ["Narrator", "Lucia"],
+ "NAMES": ["lucia", "hall"],
+ "SAME": {"okay": "ok", "mister": "mr"},
+ "TTS": {"Yes! I'm very interested in learning about the machines here.": "Yes. I'm very interested in learning about the machines here."}}

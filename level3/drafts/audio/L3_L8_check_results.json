@@ -1,0 +1,179 @@
+{
+ "file": "L3_L8_listening.mp3",
+ "duration_s": 77.0,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 167,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "15/15",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Joan": 184.4,
+  "David": 118.5,
+  "Narrator": 187.1
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.5,
+ "peak": 0.891,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 8.99,
+   "spk": "Joan",
+   "line": "City Bus, Lost and Found. How can I help you?",
+   "ok": true,
+   "hyp": "city bus lost and found how can i help you",
+   "min_prob": 0.29,
+   "flags": [],
+   "f0_med": 218.6
+  },
+  {
+   "t": 13.97,
+   "spk": "David",
+   "line": "Hi. I lost my backpack on the bus this morning.",
+   "ok": true,
+   "hyp": "hi i lost my backpack on the bus this morning",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 113.8
+  },
+  {
+   "t": 17.93,
+   "spk": "Joan",
+   "line": "OK. Can you describe it?",
+   "ok": true,
+   "hyp": "ok can you describe it",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 186.0
+  },
+  {
+   "t": 21.03,
+   "spk": "David",
+   "line": "It's a big blue backpack with a black zipper. My brother has the same one, but his is green.",
+   "ok": true,
+   "hyp": "it's a big blue backpack with a black zipper my brother has the same 1 but his is green",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 118.5
+  },
+  {
+   "t": 28.18,
+   "spk": "Joan",
+   "line": "What was inside?",
+   "ok": true,
+   "hyp": "what was inside",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 245.4
+  },
+  {
+   "t": 30.53,
+   "spk": "David",
+   "line": "My headphones, a red scarf, and some gloves.",
+   "ok": true,
+   "hyp": "my headphones a red scarf and some gloves",
+   "min_prob": 0.51,
+   "flags": [],
+   "f0_med": 130.8
+  },
+  {
+   "t": 35.05,
+   "spk": "Joan",
+   "line": "And what were you doing when you lost it?",
+   "ok": true,
+   "hyp": "and what were you doing when you lost it",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 188.1
+  },
+  {
+   "t": 38.16,
+   "spk": "David",
+   "line": "I was talking on the phone. I got off at Park Street, and I left it on the seat.",
+   "ok": true,
+   "hyp": "i was talking on the phone i got off at park street and i left it on the seat",
+   "min_prob": 0.81,
+   "flags": [],
+   "f0_med": 117.2
+  },
+  {
+   "t": 43.69,
+   "spk": "Joan",
+   "line": "Let me check. We have two blue backpacks. One is small, and one is big.",
+   "ok": true,
+   "hyp": "let me check we have 2 blue backpacks 1 is small and 1 is big",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 179.6
+  },
+  {
+   "t": 50.57,
+   "spk": "David",
+   "line": "The big one is mine.",
+   "ok": true,
+   "hyp": "the big 1 is mine",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 102.0
+  },
+  {
+   "t": 53.34,
+   "spk": "Joan",
+   "line": "There are white headphones inside. Are they yours?",
+   "ok": true,
+   "hyp": "there are white headphones inside are they yours",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 169.6
+  },
+  {
+   "t": 57.63,
+   "spk": "David",
+   "line": "No, mine are black. Those aren't mine.",
+   "ok": true,
+   "hyp": "no mine are black those aren't mine",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 119.6
+  },
+  {
+   "t": 62.12,
+   "spk": "Joan",
+   "line": "Wait. Here's another big one, with black headphones and a red scarf.",
+   "ok": true,
+   "hyp": "wait here's another big 1 with black headphones and a red scarf",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 182.8
+  },
+  {
+   "t": 67.3,
+   "spk": "David",
+   "line": "Yes! That's mine. Thank you!",
+   "ok": true,
+   "hyp": "yes that's mine thank you",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 122.0
+  },
+  {
+   "t": 70.98,
+   "spk": "Joan",
+   "line": "You're welcome. You can pick it up today before five.",
+   "ok": true,
+   "hyp": "you're welcome you can pick it up today before 5",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 171.0
+  }
+ ],
+ "hyp": "lesson 8 listening david lost something on the bus he's calling the lost and found listen city bus lost and found how can i help you hi i lost my backpack on the bus this morning ok can you describe it it's a big blue backpack with a black zipper my brother has the same 1 but his is green what was inside my headphones a red scarf and some gloves and what were you doing when you lost it i was talking on the phone i got off at park street and i left it on the seat let me check we have 2 blue backpacks 1 is small and 1 is big the big 1 is mine there are white headphones inside are they yours no mine are black those aren't mine wait here's another big 1 with black headphones and a red scarf yes that's mine thank you you're welcome you can pick it up today before 5 that's the end of the listening"
+}

@@ -1,0 +1,6 @@
+{"TITLE": "Who's Who?",
+ "VOICES": {"Narrator": "N", "Linda": "Ana_af_jessica", "Omar": "Marco"},
+ "FEMALE": ["Narrator", "Linda"],
+ "NAMES": ["omar", "linda", "kevin", "nora", "sam"],
+ "SAME": {"okay": "ok"},
+ "TTS": {}}

@@ -1,0 +1,572 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Mr. Novak": "refs/Server.wav",
+   "Sofia": "refs/Rosa.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson thirteen. Listening.",
+    "tts_text": "Lesson thirteen. Listening.",
+    "seed": 2026,
+    "hyp": "lesson 13 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.95,
+    "dur": 2.03,
+    "raw_peak": 0.509,
+    "pitch_ok": true,
+    "score": 1.507,
+    "f0_med": 177.6,
+    "f0_st_sd": 3.71,
+    "f0_range_st": 12.19
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Sofia was a Level 3 student.",
+    "tts_text": "Sofia was a Level 3 student.",
+    "seed": 2026,
+    "hyp": "sofia was a level 3 student",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.84,
+    "dur": 2.02,
+    "raw_peak": 0.605,
+    "pitch_ok": true,
+    "score": 1.371,
+    "f0_med": 171.5,
+    "f0_st_sd": 3.54,
+    "f0_range_st": 10.84
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Tonight, she's talking to the class about her goals. Listen.",
+    "tts_text": "Tonight, she's talking to the class about her goals. Listen.",
+    "seed": 2026,
+    "hyp": "tonight she's talking to the class about her goals listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 3.76,
+    "raw_peak": 0.804,
+    "pitch_ok": true,
+    "score": 1.481,
+    "f0_med": 192.0,
+    "f0_st_sd": 3.27,
+    "f0_range_st": 10.33
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Novak",
+    "text": "Welcome back, Sofia!",
+    "tts_text": "Welcome back, Sofia!",
+    "seed": 2026,
+    "hyp": "welcome back sofia",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.91,
+    "dur": 1.32,
+    "raw_peak": 0.973,
+    "pitch_ok": true,
+    "score": 1.515,
+    "f0_med": 106.8,
+    "f0_st_sd": 5.75,
+    "f0_range_st": 15.43
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Novak",
+    "text": "Please tell us about your goals.",
+    "tts_text": "Please tell us about your goals.",
+    "seed": 9945,
+    "hyp": "please tell us about your goals",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.94,
+    "dur": 1.84,
+    "raw_peak": 0.86,
+    "pitch_ok": true,
+    "score": 1.538,
+    "f0_med": 103.8,
+    "f0_st_sd": 5.97,
+    "f0_range_st": 21.41
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Thank you. Three years ago, I came to this class.",
+    "tts_text": "Thank you. Three years ago, I came to this class.",
+    "seed": 2026,
+    "hyp": "thank you 3 years ago i came to this class",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 2.72,
+    "raw_peak": 0.659,
+    "pitch_ok": true,
+    "score": 1.484,
+    "f0_med": 229.0,
+    "f0_st_sd": 3.38,
+    "f0_range_st": 11.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "I was nervous, and my English was not very good.",
+    "tts_text": "I was nervous, and my English was not very good.",
+    "seed": 9945,
+    "hyp": "i was nervous and my english was not very good",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.99,
+    "dur": 3.16,
+    "raw_peak": 0.711,
+    "pitch_ok": true,
+    "score": 1.419,
+    "f0_med": 207.6,
+    "f0_st_sd": 2.88,
+    "f0_range_st": 9.39
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Now I work at a hotel, and I can talk with my coworkers in English.",
+    "tts_text": "Now I work at a hotel, and I can talk with my coworkers in English.",
+    "seed": 2026,
+    "hyp": "now i work at a hotel and i can talk with my coworkers in english",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.97,
+    "dur": 3.86,
+    "raw_peak": 0.607,
+    "pitch_ok": true,
+    "score": 1.411,
+    "f0_med": 199.3,
+    "f0_st_sd": 2.92,
+    "f0_range_st": 9.94
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Novak",
+    "text": "That's great. What's your main goal?",
+    "tts_text": "That's great. What's your main goal?",
+    "seed": 2026,
+    "hyp": "that's great what's your main goal",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 1.88,
+    "raw_peak": 0.967,
+    "pitch_ok": true,
+    "score": 1.583,
+    "f0_med": 114.8,
+    "f0_st_sd": 4.07,
+    "f0_range_st": 14.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "My main goal is to get a medical assistant certificate.",
+    "tts_text": "My main goal is to get a medical assistant certificate.",
+    "seed": 2026,
+    "hyp": "my main goal is to get a medical assistant certificate",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.91,
+    "dur": 3.32,
+    "raw_peak": 0.55,
+    "pitch_ok": true,
+    "score": 1.33,
+    "f0_med": 214.9,
+    "f0_st_sd": 2.77,
+    "f0_range_st": 8.84
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "I hope to work at a clinic.",
+    "tts_text": "I hope to work at a clinic.",
+    "seed": 2026,
+    "hyp": "i hope to work at a clinic",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 1.58,
+    "raw_peak": 0.676,
+    "pitch_ok": true,
+    "score": 1.542,
+    "f0_med": 189.8,
+    "f0_st_sd": 3.72,
+    "f0_range_st": 9.83
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Novak",
+    "text": "How are you going to do that?",
+    "tts_text": "How are you going to do that?",
+    "seed": 17864,
+    "hyp": "how are you going to do that",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 1.44,
+    "raw_peak": 0.944,
+    "pitch_ok": true,
+    "score": 1.453,
+    "f0_med": 108.1,
+    "f0_st_sd": 3.19,
+    "f0_range_st": 10.35
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "First, I'm going to take a computer class at the community college.",
+    "tts_text": "First, I'm going to take a computer class at the community college.",
+    "seed": 2026,
+    "hyp": "first i'm going to take a computer class at the community college",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.95,
+    "dur": 3.65,
+    "raw_peak": 0.662,
+    "pitch_ok": true,
+    "score": 1.366,
+    "f0_med": 210.0,
+    "f0_st_sd": 2.78,
+    "f0_range_st": 8.57
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "It starts in January.",
+    "tts_text": "It starts in January.",
+    "seed": 2026,
+    "hyp": "it starts in january",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.37,
+    "raw_peak": 0.488,
+    "pitch_ok": true,
+    "score": 1.394,
+    "f0_med": 233.0,
+    "f0_st_sd": 2.83,
+    "f0_range_st": 8.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "After that, I'll apply for the certificate program.",
+    "tts_text": "After that, I'll apply for the certificate program.",
+    "seed": 25783,
+    "hyp": "after that i'll apply for the certificate program",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 2.74,
+    "raw_peak": 0.815,
+    "pitch_ok": true,
+    "score": 1.435,
+    "f0_med": 220.5,
+    "f0_st_sd": 3.05,
+    "f0_range_st": 10.63
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "And I hope to help my kids with their homework, too.",
+    "tts_text": "And I hope to help my kids with their homework, too.",
+    "seed": 2026,
+    "hyp": "and i hope to help my kids with their homework too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.94,
+    "dur": 2.37,
+    "raw_peak": 0.789,
+    "pitch_ok": true,
+    "score": 1.485,
+    "f0_med": 223.7,
+    "f0_st_sd": 3.62,
+    "f0_range_st": 10.71
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Novak",
+    "text": "Any advice for the class?",
+    "tts_text": "Any advice for the class?",
+    "seed": 2026,
+    "hyp": "any advice for the class",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 1.54,
+    "raw_peak": 0.955,
+    "pitch_ok": true,
+    "score": 1.356,
+    "f0_med": 145.9,
+    "f0_st_sd": 2.45,
+    "f0_range_st": 7.38
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Yes. Come every week, and don't be afraid to make mistakes.",
+    "tts_text": "Yes. Come every week, and don't be afraid to make mistakes.",
+    "seed": 2026,
+    "hyp": "yes come every week and don't be afraid to make mistakes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.96,
+    "dur": 3.88,
+    "raw_peak": 0.665,
+    "pitch_ok": true,
+    "score": 1.5,
+    "f0_med": 223.7,
+    "f0_st_sd": 3.62,
+    "f0_range_st": 11.31
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "You can do it!",
+    "tts_text": "You can do it!",
+    "seed": 17864,
+    "hyp": "you can do it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 0.87,
+    "raw_peak": 0.245,
+    "pitch_ok": true,
+    "score": 1.561,
+    "f0_med": 216.1,
+    "f0_st_sd": 4.53,
+    "f0_range_st": 12.65
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Novak",
+    "text": "Thank you, Sofia. Good luck!",
+    "tts_text": "Thank you, Sofia. Good luck!",
+    "seed": 2026,
+    "hyp": "thank you sofia good luck",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.9,
+    "dur": 1.81,
+    "raw_peak": 0.999,
+    "pitch_ok": true,
+    "score": 1.502,
+    "f0_med": 120.9,
+    "f0_st_sd": 4.93,
+    "f0_range_st": 14.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   11.01,
+   14.72,
+   "Mr. Novak",
+   "Welcome back, Sofia! Please tell us about your goals."
+  ],
+  [
+   16.02,
+   22.45,
+   "Sofia",
+   "Thank you. Three years ago, I came to this class. I was nervous, and my English was not very good."
+  ],
+  [
+   23.2,
+   27.06,
+   "Sofia",
+   "Now I work at a hotel, and I can talk with my coworkers in English."
+  ],
+  [
+   28.36,
+   30.24,
+   "Mr. Novak",
+   "That's great. What's your main goal?"
+  ],
+  [
+   31.54,
+   36.99,
+   "Sofia",
+   "My main goal is to get a medical assistant certificate. I hope to work at a clinic."
+  ],
+  [
+   38.29,
+   39.73,
+   "Mr. Novak",
+   "How are you going to do that?"
+  ],
+  [
+   41.03,
+   46.6,
+   "Sofia",
+   "First, I'm going to take a computer class at the community college. It starts in January."
+  ],
+  [
+   47.35,
+   53.01,
+   "Sofia",
+   "After that, I'll apply for the certificate program. And I hope to help my kids with their homework, too."
+  ],
+  [
+   54.31,
+   55.85,
+   "Mr. Novak",
+   "Any advice for the class?"
+  ],
+  [
+   57.15,
+   62.45,
+   "Sofia",
+   "Yes. Come every week, and don't be afraid to make mistakes. You can do it!"
+  ],
+  [
+   63.75,
+   65.56,
+   "Mr. Novak",
+   "Thank you, Sofia. Good luck!"
+  ]
+ ]
+}

@@ -1,0 +1,204 @@
+{
+ "file": "L3_L7_listening.mp3",
+ "duration_s": 77.24,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 154,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "16/16",
+ "lines_with_flags": [
+  {
+   "t": 67.54,
+   "spk": "Clerk",
+   "line": "OK. Your new appointment is Thursday at four thirty.",
+   "ok": true,
+   "hyp": "ok your new appointment is thursday at 430",
+   "min_prob": 0.7,
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "f0_med": 117.8
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Clerk": 117.5,
+  "Lina": 213.3,
+  "Narrator": 191.4
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.8,
+ "peak": 0.896,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.8,
+ "per_line": [
+  {
+   "t": 7.49,
+   "spk": "Clerk",
+   "line": "Hi. Can I help you?",
+   "ok": true,
+   "hyp": "hi can i help you",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 102.9
+  },
+  {
+   "t": 10.21,
+   "spk": "Lina",
+   "line": "Yes, I'd like to return this phone case.",
+   "ok": true,
+   "hyp": "yes i'd like to return this phone case",
+   "min_prob": 0.21,
+   "flags": [],
+   "f0_med": 187.1
+  },
+  {
+   "t": 13.89,
+   "spk": "Clerk",
+   "line": "OK. What's wrong with it?",
+   "ok": true,
+   "hyp": "ok what's wrong with it",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 121.3
+  },
+  {
+   "t": 17.04,
+   "spk": "Lina",
+   "line": "It's too small. It doesn't fit my phone.",
+   "ok": true,
+   "hyp": "it's too small it doesn't fit my phone",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 221.2
+  },
+  {
+   "t": 21.21,
+   "spk": "Clerk",
+   "line": "I see. Do you have the receipt?",
+   "ok": true,
+   "hyp": "i see do you have the receipt",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 122.7
+  },
+  {
+   "t": 24.51,
+   "spk": "Lina",
+   "line": "No, sorry. I lost it. Could I get a refund?",
+   "ok": true,
+   "hyp": "no sorry i lost it could i get a refund",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 223.7
+  },
+  {
+   "t": 29.94,
+   "spk": "Clerk",
+   "line": "Sorry, you need the receipt for a refund. But I can give you store credit.",
+   "ok": true,
+   "hyp": "sorry you need the receipt for a refund but i can give you store credit",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 124.8
+  },
+  {
+   "t": 35.19,
+   "spk": "Lina",
+   "line": "OK, that's fine. I'd like a bigger case.",
+   "ok": true,
+   "hyp": "ok that's fine i'd like a bigger case",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 210.0
+  },
+  {
+   "t": 39.84,
+   "spk": "Clerk",
+   "line": "Sure. The bigger cases are in aisle five.",
+   "ok": true,
+   "hyp": "sure the bigger cases are in aisle 5",
+   "min_prob": 0.7,
+   "flags": [],
+   "f0_med": 110.6
+  },
+  {
+   "t": 43.78,
+   "spk": "Lina",
+   "line": "Thanks. Also, I have an appointment at your eye center on Monday. I'd like to change it.",
+   "ok": true,
+   "hyp": "thanks also i have an appointment at your eye center on monday i'd like to change it",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 216.7
+  },
+  {
+   "t": 50.13,
+   "spk": "Clerk",
+   "line": "No problem. I can do that here. What day is good for you?",
+   "ok": true,
+   "hyp": "no problem i can do that here what day is good for you",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 108.7
+  },
+  {
+   "t": 55.02,
+   "spk": "Lina",
+   "line": "Is Thursday available?",
+   "ok": true,
+   "hyp": "is thursday available",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 207.0
+  },
+  {
+   "t": 57.7,
+   "spk": "Clerk",
+   "line": "Let me check. Yes, Thursday at four thirty is available.",
+   "ok": true,
+   "hyp": "let me check yes thursday at 430 is available",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 117.2
+  },
+  {
+   "t": 63.88,
+   "spk": "Lina",
+   "line": "Perfect. I'd like to take that time.",
+   "ok": true,
+   "hyp": "perfect i'd like to take that time",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 195.9
+  },
+  {
+   "t": 67.54,
+   "spk": "Clerk",
+   "line": "OK. Your new appointment is Thursday at four thirty.",
+   "ok": true,
+   "hyp": "ok your new appointment is thursday at 430",
+   "min_prob": 0.7,
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "f0_med": 117.8
+  },
+  {
+   "t": 71.96,
+   "spk": "Lina",
+   "line": "Thank you so much.",
+   "ok": true,
+   "hyp": "thank you so much",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 216.7
+  }
+ ],
+ "hyp": "lesson 7 listening lina is at the service desk at valley mart listen hi can i help you yes i'd like to return this phone case ok what's wrong with it it's too small it doesn't fit my phone i see do you have the receipt no sorry i lost it could i get a refund sorry you need the receipt for a refund but i can give you store credit ok that's fine i'd like a bigger case sure the bigger cases are in aisle 5 thanks also i have an appointment at your eye center on monday i'd like to change it no problem i can do that here what day is good for you is thursday available let me check yes thursday at 430 is available perfect i'd like to take that time ok your new appointment is thursday at 430 thank you so much that's the end of the listening"
+}

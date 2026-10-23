@@ -1,0 +1,141 @@
+[
+ {
+  "file": "L3_L13_plan.png",
+  "lesson": "Level3-L13",
+  "word": "plan",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "1f5d3"
+  ],
+  "note": "a calendar and a clipboard"
+ },
+ {
+  "file": "L3_L13_hope.png",
+  "lesson": "Level3-L13",
+  "word": "hope",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e0",
+   "1f91e",
+   "1f9d1"
+  ],
+  "note": "a person with crossed fingers and a thought bubble with a house (bubble drawn)"
+ },
+ {
+  "file": "L3_L13_decide.png",
+  "lesson": "Level3-L13",
+  "word": "decide",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1"
+  ],
+  "note": "a person, two drawn arrows, a check mark on one"
+ },
+ {
+  "file": "L3_L13_diploma.png",
+  "lesson": "Level3-L13",
+  "word": "diploma",
+  "kind": "vocab",
+  "twemoji": [
+   "1f393",
+   "1f4dc"
+  ],
+  "note": "a scroll and a graduation cap"
+ },
+ {
+  "file": "L3_L13_certificate.png",
+  "lesson": "Level3-L13",
+  "word": "certificate",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3f5"
+  ],
+  "note": "a drawn certificate and a rosette"
+ },
+ {
+  "file": "L3_L13_career.png",
+  "lesson": "Level3-L13",
+  "word": "career",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4bc",
+   "1f4c8"
+  ],
+  "note": "a briefcase and a chart going up"
+ },
+ {
+  "file": "L3_L13_promotion.png",
+  "lesson": "Level3-L13",
+  "word": "promotion",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1-200d-1f4bc"
+  ],
+  "note": "an office worker, an arrow up, a sign \"MANAGER\" (arrow, sign drawn)"
+ },
+ {
+  "file": "L3_L13_save_money.png",
+  "lesson": "Level3-L13",
+  "word": "save money",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e6",
+   "1f4b0"
+  ],
+  "note": "a money bag, an arrow, a bank"
+ },
+ {
+  "file": "L3_L13_own_business.png",
+  "lesson": "Level3-L13",
+  "word": "own business",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3ea"
+  ],
+  "note": "a store and a sign \"OPEN\" (sign drawn)"
+ },
+ {
+  "file": "L3_L13_drivers_license.png",
+  "lesson": "Level3-L13",
+  "word": "driver's license",
+  "kind": "vocab",
+  "twemoji": [
+   "1f697",
+   "1f9d1"
+  ],
+  "note": "a drawn license card (not a real design) with a person and a car"
+ },
+ {
+  "file": "L3_L13_computer_class.png",
+  "lesson": "Level3-L13",
+  "word": "computer class",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4bb",
+   "1f9d1-200d-1f3eb"
+  ],
+  "note": "a teacher and a laptop"
+ },
+ {
+  "file": "L3_L13_community_college.png",
+  "lesson": "Level3-L13",
+  "word": "community college",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3eb"
+  ],
+  "note": "a school building and a sign \"COMMUNITY COLLEGE\" (sign drawn)"
+ },
+ {
+  "file": "L3_L13_goal_ladder.png",
+  "lesson": "Level3-L13",
+  "word": "Talk Time: the Goal Ladder",
+  "kind": "activity",
+  "twemoji": [
+   "1f9d1",
+   "2b50"
+  ],
+  "note": "a drawn 3-step ladder: STEP 1 I'll…, STEP 2 I'm going to…, TOP I hope to…; a person and a star"
+ }
+]

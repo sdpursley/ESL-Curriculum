@@ -1,0 +1,139 @@
+{
+ "file": "L3_L6_listening.mp3",
+ "duration_s": 75.77,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 173,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "11/11",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Narrator": 184.1,
+  "Nadia": 264.5,
+  "Ben": 113.8
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.8,
+ "peak": 0.89,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 10.95,
+   "spk": "Narrator",
+   "line": "This is a weather alert for Green County. A big storm will arrive tonight at about nine o'clock. There will probably be strong wind and heavy rain. The power will probably go out in some areas.",
+   "ok": true,
+   "hyp": "this is a weather alert for green county a big storm will arrive tonight at about 9 oclock there will probably be strong wind and heavy rain the power will probably go out in some areas",
+   "min_prob": 0.61,
+   "flags": [],
+   "f0_med": 179.6
+  },
+  {
+   "t": 24.86,
+   "spk": "Nadia",
+   "line": "Ben, did you hear that? A storm is coming tonight.",
+   "ok": true,
+   "hyp": "ben did you hear that a storm is coming tonight",
+   "min_prob": 0.95,
+   "flags": [],
+   "f0_med": 227.7
+  },
+  {
+   "t": 30.15,
+   "spk": "Ben",
+   "line": "Yes. If the power goes out, we won't have any lights.",
+   "ok": true,
+   "hyp": "yes if the power goes out we won't have any lights",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 103.2
+  },
+  {
+   "t": 34.52,
+   "spk": "Nadia",
+   "line": "Do we have a flashlight?",
+   "ok": true,
+   "hyp": "do we have a flashlight",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 280.3
+  },
+  {
+   "t": 37.21,
+   "spk": "Ben",
+   "line": "We have one, but it doesn't have batteries. I'll buy some after work.",
+   "ok": true,
+   "hyp": "we have 1 but it doesn't have batteries i'll buy some after work",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 124.1
+  },
+  {
+   "t": 42.67,
+   "spk": "Nadia",
+   "line": "Good. And if the power goes out, the fridge won't work.",
+   "ok": true,
+   "hyp": "good and if the power goes out the fridge won't work",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 264.5
+  },
+  {
+   "t": 47.31,
+   "spk": "Ben",
+   "line": "Then we'll eat the food in the fridge first! I'll buy bottled water, too.",
+   "ok": true,
+   "hyp": "then we'll eat the food in the fridge first i'll buy bottled water too",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 116.5
+  },
+  {
+   "t": 52.5,
+   "spk": "Nadia",
+   "line": "Great. Should we buy candles?",
+   "ok": true,
+   "hyp": "great should we buy candles",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 252.6
+  },
+  {
+   "t": 56.03,
+   "spk": "Ben",
+   "line": "No, candles aren't safe. We'll use the flashlight. And I'll charge our phones before nine.",
+   "ok": true,
+   "hyp": "no candles aren't safe we'll use the flashlight and i'll charge our phones before 9",
+   "min_prob": 0.72,
+   "flags": [],
+   "f0_med": 113.8
+  },
+  {
+   "t": 63.34,
+   "spk": "Nadia",
+   "line": "OK. If the storm is really bad, will we go to work tomorrow?",
+   "ok": true,
+   "hyp": "ok if the storm is really bad will we go to work tomorrow",
+   "min_prob": 0.66,
+   "flags": [],
+   "f0_med": 283.5
+  },
+  {
+   "t": 68.45,
+   "spk": "Ben",
+   "line": "Probably not. It'll probably rain all night. I'll check the forecast in the morning.",
+   "ok": true,
+   "hyp": "probably not it'll probably rain all night i'll check the forecast in the morning",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 99.1
+  }
+ ],
+ "hyp": "lesson 6 listening first listen to a weather alert on the radio then listen to 2 roommates nadia and ben this is a weather alert for green county a big storm will arrive tonight at about 9 oclock there will probably be strong wind and heavy rain the power will probably go out in some areas ben did you hear that a storm is coming tonight yes if the power goes out we won't have any lights do we have a flashlight we have 1 but it doesn't have batteries i'll buy some after work good and if the power goes out the fridge won't work then we'll eat the food in the fridge first i'll buy bottled water too great should we buy candles no candles aren't safe we'll use the flashlight and i'll charge our phones before 9 ok if the storm is really bad will we go to work tomorrow probably not it'll probably rain all night i'll check the forecast in the morning that's the end of the listening"
+}

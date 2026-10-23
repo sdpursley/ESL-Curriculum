@@ -49,6 +49,12 @@ level1/images/CREDITS_*.new.md
 level1/exams/build/out/
 level1/exams/build/consistency_report.txt
 level1/exams/build/audio/out/
+# Level 3 drafts (Lessons 2-13): build output, caches, generated reference clips, local audio runs
+level3/drafts/curriculum/build/
+level3/drafts/images/tools/_twemoji_src/
+level3/drafts/audio/tools/refs/
+level3/drafts/audio/tools/cache/
+level3/drafts/audio/tools/out/
 
 # Slide decks built by scripts/slides/build_deck.py (default --out) and their renders
 /build/

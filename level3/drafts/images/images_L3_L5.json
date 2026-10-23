@@ -1,0 +1,153 @@
+[
+ {
+  "file": "L3_L5_offer.png",
+  "lesson": "Level3-L5",
+  "word": "offer",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4e6",
+   "1f64b-200d-2640-fe0f",
+   "1f9d1"
+  ],
+  "note": "a woman raising her hand, a man with a box; bubble \"I'll help!\" (bubble drawn)"
+ },
+ {
+  "file": "L3_L5_promise.png",
+  "lesson": "Level3-L5",
+  "word": "promise",
+  "kind": "vocab",
+  "twemoji": [
+   "1f91d"
+  ],
+  "note": "a handshake; bubble \"I promise.\" (bubble drawn)"
+ },
+ {
+  "file": "L3_L5_carry.png",
+  "lesson": "Level3-L5",
+  "word": "carry",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4e6",
+   "1f9d1"
+  ],
+  "note": "a person (drawn body) carrying a box"
+ },
+ {
+  "file": "L3_L5_set_up.png",
+  "lesson": "Level3-L5",
+  "word": "set up",
+  "kind": "vocab",
+  "twemoji": [
+   "1fa91"
+  ],
+  "note": "stacked chairs, an arrow, chairs around a table (table drawn)"
+ },
+ {
+  "file": "L3_L5_clean_up.png",
+  "lesson": "Level3-L5",
+  "word": "clean up",
+  "kind": "vocab",
+  "twemoji": [
+   "1f5d1",
+   "1f9f9",
+   "2728"
+  ],
+  "note": "a broom, a wastebasket, sparkles"
+ },
+ {
+  "file": "L3_L5_bring.png",
+  "lesson": "Level3-L5",
+  "word": "bring",
+  "kind": "vocab",
+  "twemoji": [
+   "1f355",
+   "1f3eb",
+   "1f469"
+  ],
+  "note": "a woman (drawn body) with a pizza, an arrow to a school"
+ },
+ {
+  "file": "L3_L5_lend.png",
+  "lesson": "Level3-L5",
+  "word": "lend",
+  "kind": "vocab",
+  "twemoji": [
+   "1f469",
+   "1f527",
+   "1f9d1"
+  ],
+  "note": "a man gives a wrench to a woman (arrow drawn), label \"give for a short time\""
+ },
+ {
+  "file": "L3_L5_give_a_ride.png",
+  "lesson": "Level3-L5",
+  "word": "give a ride",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e2",
+   "1f469",
+   "1f697",
+   "1f9d1"
+  ],
+  "note": "a car with two people, an arrow to a building"
+ },
+ {
+  "file": "L3_L5_call_back.png",
+  "lesson": "Level3-L5",
+  "word": "call back",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f1"
+  ],
+  "note": "a phone; bubble \"I'll call you back.\" (bubble drawn)"
+ },
+ {
+  "file": "L3_L5_text.png",
+  "lesson": "Level3-L5",
+  "word": "text",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "a drawn phone with two text messages"
+ },
+ {
+  "file": "L3_L5_school_event.png",
+  "lesson": "Level3-L5",
+  "word": "school event",
+  "kind": "vocab",
+  "twemoji": [
+   "1f355",
+   "1f388",
+   "1f3eb",
+   "1f467",
+   "1f468",
+   "1f469"
+  ],
+  "note": "a school, balloons, a family, pizza"
+ },
+ {
+  "file": "L3_L5_flyer.png",
+  "lesson": "Level3-L5",
+  "word": "flyer",
+  "kind": "vocab",
+  "twemoji": [
+   "1f467",
+   "1f468",
+   "1f469"
+  ],
+  "note": "a drawn paper flyer \"FAMILY NIGHT Friday 6:00\" with a family"
+ },
+ {
+  "file": "L3_L5_family_night_flyer.png",
+  "lesson": "Level3-L5",
+  "word": "Read & Write: the school flyer",
+  "kind": "activity",
+  "twemoji": [
+   "1f355",
+   "1f388",
+   "1f467",
+   "1f468",
+   "1f469"
+  ],
+  "note": "a drawn flyer for a school family night with a family, pizza, balloons (flyer, text drawn)"
+ }
+]

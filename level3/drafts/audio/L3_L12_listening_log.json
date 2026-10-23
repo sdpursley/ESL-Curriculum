@@ -1,0 +1,716 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Sara": "refs/Receptionist.wav",
+   "Mr. Grant": "refs/Sam.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson twelve. Listening.",
+    "tts_text": "Lesson twelve. Listening.",
+    "seed": 2026,
+    "hyp": "lesson 12 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.92,
+    "dur": 1.91,
+    "raw_peak": 0.568,
+    "pitch_ok": true,
+    "score": 1.525,
+    "f0_med": 171.5,
+    "f0_st_sd": 4.0,
+    "f0_range_st": 12.98
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Sara lives in an apartment.",
+    "tts_text": "Sara lives in an apartment.",
+    "seed": 9945,
+    "hyp": "sara lives in an apartment",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.93,
+    "dur": 1.57,
+    "raw_peak": 0.581,
+    "pitch_ok": true,
+    "score": 1.457,
+    "f0_med": 195.9,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.99
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "She's calling the building office about some problems. Listen.",
+    "tts_text": "She's calling the building office about some problems. Listen.",
+    "seed": 9945,
+    "hyp": "she's calling the building office about some problems listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.98,
+    "dur": 3.44,
+    "raw_peak": 0.637,
+    "pitch_ok": true,
+    "score": 1.582,
+    "f0_med": 200.5,
+    "f0_st_sd": 5.62,
+    "f0_range_st": 13.5
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Grant",
+    "text": "Maple Court Apartments, this is Mr.",
+    "tts_text": "Maple Court Apartments, this is Mr.",
+    "seed": 17864,
+    "hyp": "maple court apartments this is mr",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.92,
+    "dur": 2.42,
+    "raw_peak": 0.612,
+    "pitch_ok": true,
+    "score": 1.424,
+    "f0_med": 130.4,
+    "f0_st_sd": 3.39,
+    "f0_range_st": 10.68
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Grant",
+    "text": "Grant. How can I help you?",
+    "tts_text": "Grant. How can I help you?",
+    "seed": 2026,
+    "hyp": "grant how can i help you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 1.62,
+    "raw_peak": 0.721,
+    "pitch_ok": true,
+    "score": 1.395,
+    "f0_med": 115.1,
+    "f0_st_sd": 2.91,
+    "f0_range_st": 9.05
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "Hi, this is Sara in apartment 4B.",
+    "tts_text": "Hi, this is Sara in apartment 4B.",
+    "seed": 9945,
+    "hyp": "hi this is sara in apartment 4b",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.94,
+    "dur": 1.85,
+    "raw_peak": 0.77,
+    "pitch_ok": true,
+    "score": 1.397,
+    "f0_med": 204.0,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 7.86
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "Something is wrong with my kitchen sink. It's leaking.",
+    "tts_text": "Something is wrong with my kitchen sink. It's leaking.",
+    "seed": 2026,
+    "hyp": "something is wrong with my kitchen sink it's leaking",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.97,
+    "dur": 2.53,
+    "raw_peak": 0.645,
+    "pitch_ok": true,
+    "score": 1.38,
+    "f0_med": 173.0,
+    "f0_st_sd": 2.74,
+    "f0_range_st": 9.41
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Grant",
+    "text": "Oh no. Is there any water on the floor?",
+    "tts_text": "Oh no. Is there any water on the floor?",
+    "seed": 9945,
+    "hyp": "oh no is there any water on the floor",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.96,
+    "dur": 2.6,
+    "raw_peak": 0.405,
+    "pitch_ok": true,
+    "score": 1.433,
+    "f0_med": 122.7,
+    "f0_st_sd": 3.15,
+    "f0_range_st": 11.36
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "Yes, a little.",
+    "tts_text": "Yes, a little.",
+    "seed": 2026,
+    "hyp": "yes a little",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.94,
+    "dur": 1.33,
+    "raw_peak": 0.804,
+    "pitch_ok": true,
+    "score": 1.363,
+    "f0_med": 172.5,
+    "f0_st_sd": 2.79,
+    "f0_range_st": 9.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "I put a towel under it.",
+    "tts_text": "I put a towel under it.",
+    "seed": 2026,
+    "hyp": "i put a towel under it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 1.27,
+    "raw_peak": 0.761,
+    "pitch_ok": true,
+    "score": 1.392,
+    "f0_med": 190.3,
+    "f0_st_sd": 2.71,
+    "f0_range_st": 8.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "And there's something else.",
+    "tts_text": "And there's something else.",
+    "seed": 2026,
+    "hyp": "and there's something else",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.88,
+    "dur": 1.32,
+    "raw_peak": 0.559,
+    "pitch_ok": true,
+    "score": 1.175,
+    "f0_med": 171.0,
+    "f0_st_sd": 2.0,
+    "f0_range_st": 5.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "The heater doesn't work.",
+    "tts_text": "The heater doesn't work.",
+    "seed": 2026,
+    "hyp": "the heater doesn't work",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.95,
+    "dur": 1.1,
+    "raw_peak": 0.465,
+    "pitch_ok": true,
+    "score": 1.243,
+    "f0_med": 189.2,
+    "f0_st_sd": 1.94,
+    "f0_range_st": 5.81
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Grant",
+    "text": "Do you see anything on the screen?",
+    "tts_text": "Do you see anything on the screen?",
+    "seed": 9945,
+    "hyp": "do you see anything on the screen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 2.14,
+    "raw_peak": 0.364,
+    "pitch_ok": true,
+    "score": 1.551,
+    "f0_med": 127.8,
+    "f0_st_sd": 3.85,
+    "f0_range_st": 13.88
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "No, I don't see anything.",
+    "tts_text": "No, I don't see anything.",
+    "seed": 2026,
+    "hyp": "no i don't see anything",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.75,
+    "raw_peak": 0.678,
+    "pitch_ok": true,
+    "score": 1.426,
+    "f0_med": 183.8,
+    "f0_st_sd": 2.96,
+    "f0_range_st": 9.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "The screen is black, and the apartment is really cold.",
+    "tts_text": "The screen is black, and the apartment is really cold.",
+    "seed": 2026,
+    "hyp": "the screen is black and the apartment is really cold",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.94,
+    "dur": 3.05,
+    "raw_peak": 0.743,
+    "pitch_ok": true,
+    "score": 1.368,
+    "f0_med": 181.7,
+    "f0_st_sd": 2.85,
+    "f0_range_st": 9.84
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Grant",
+    "text": "OK. I'll send someone tomorrow morning.",
+    "tts_text": "OK. I'll send someone tomorrow morning.",
+    "seed": 2026,
+    "hyp": "ok i'll send someone tomorrow morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.65,
+    "mean_prob": 0.94,
+    "dur": 2.07,
+    "raw_peak": 0.42,
+    "pitch_ok": true,
+    "score": 1.395,
+    "f0_med": 115.2,
+    "f0_st_sd": 3.06,
+    "f0_range_st": 10.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Grant",
+    "text": "Is anyone home at nine?",
+    "tts_text": "Is anyone home at nine?",
+    "seed": 17864,
+    "hyp": "is anyone home at 9",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.87,
+    "dur": 1.54,
+    "raw_peak": 0.295,
+    "pitch_ok": true,
+    "score": 1.258,
+    "f0_med": 126.3,
+    "f0_st_sd": 2.56,
+    "f0_range_st": 9.07
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "No, no one is home in the morning.",
+    "tts_text": "No, no one is home in the morning.",
+    "seed": 2026,
+    "hyp": "no no 1 is home in the morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.98,
+    "dur": 2.1,
+    "raw_peak": 0.676,
+    "pitch_ok": true,
+    "score": 1.333,
+    "f0_med": 177.6,
+    "f0_st_sd": 2.36,
+    "f0_range_st": 8.03
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "I work until two.",
+    "tts_text": "I work until two.",
+    "seed": 9945,
+    "hyp": "i work until 2",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.88,
+    "dur": 1.26,
+    "raw_peak": 0.712,
+    "pitch_ok": true,
+    "score": 1.371,
+    "f0_med": 210.0,
+    "f0_st_sd": 3.25,
+    "f0_range_st": 9.88
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Grant",
+    "text": "How about Tuesday at three?",
+    "tts_text": "How about Tuesday at three?",
+    "seed": 2026,
+    "hyp": "how about tuesday at 3",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.87,
+    "dur": 1.52,
+    "raw_peak": 0.629,
+    "pitch_ok": true,
+    "score": 1.444,
+    "f0_med": 115.1,
+    "f0_st_sd": 3.81,
+    "f0_range_st": 11.94
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "Tuesday at three is fine.",
+    "tts_text": "Tuesday at three is fine.",
+    "seed": 17864,
+    "hyp": "tuesday at 3 is fine",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.89,
+    "dur": 1.64,
+    "raw_peak": 0.716,
+    "pitch_ok": true,
+    "score": 1.112,
+    "f0_med": 181.7,
+    "f0_st_sd": 1.48,
+    "f0_range_st": 5.0
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "If it gets worse tonight, I'll call you.",
+    "tts_text": "If it gets worse tonight, I'll call you.",
+    "seed": 2026,
+    "hyp": "if it gets worse tonight i'll call you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 1.72,
+    "raw_peak": 0.589,
+    "pitch_ok": true,
+    "score": 1.428,
+    "f0_med": 212.4,
+    "f0_st_sd": 2.99,
+    "f0_range_st": 9.17
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Grant",
+    "text": "Great. The repair person will fix both things.",
+    "tts_text": "Great. The repair person will fix both things.",
+    "seed": 2026,
+    "hyp": "great the repair person will fix both things",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.98,
+    "dur": 2.77,
+    "raw_peak": 0.606,
+    "pitch_ok": true,
+    "score": 1.565,
+    "f0_med": 117.2,
+    "f0_st_sd": 3.89,
+    "f0_range_st": 13.43
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Grant",
+    "text": "Until then, don't use the sink.",
+    "tts_text": "Until then, don't use the sink.",
+    "seed": 9945,
+    "hyp": "until then don't use the sink",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.54,
+    "mean_prob": 0.92,
+    "dur": 2.44,
+    "raw_peak": 0.849,
+    "pitch_ok": true,
+    "score": 1.376,
+    "f0_med": 144.7,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 10.55
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "OK, I won't.",
+    "tts_text": "OK, I won't.",
+    "seed": 2026,
+    "hyp": "ok i won't",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.88,
+    "dur": 1.03,
+    "raw_peak": 0.84,
+    "pitch_ok": true,
+    "score": 1.253,
+    "f0_med": 186.5,
+    "f0_st_sd": 2.47,
+    "f0_range_st": 7.57
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sara",
+    "text": "Thank you so much.",
+    "tts_text": "Thank you so much.",
+    "seed": 17864,
+    "hyp": "thank you so much",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.46,
+    "raw_peak": 0.45,
+    "pitch_ok": true,
+    "score": 1.3,
+    "f0_med": 174.5,
+    "f0_st_sd": 2.09,
+    "f0_range_st": 6.7
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   10.12,
+   14.71,
+   "Mr. Grant",
+   "Maple Court Apartments, this is Mr. Grant. How can I help you?"
+  ],
+  [
+   16.01,
+   20.94,
+   "Sara",
+   "Hi, this is Sara in apartment 4B. Something is wrong with my kitchen sink. It's leaking."
+  ],
+  [
+   22.24,
+   24.84,
+   "Mr. Grant",
+   "Oh no. Is there any water on the floor?"
+  ],
+  [
+   26.14,
+   32.81,
+   "Sara",
+   "Yes, a little. I put a towel under it. And there's something else. The heater doesn't work."
+  ],
+  [
+   34.11,
+   36.25,
+   "Mr. Grant",
+   "Do you see anything on the screen?"
+  ],
+  [
+   37.55,
+   42.9,
+   "Sara",
+   "No, I don't see anything. The screen is black, and the apartment is really cold."
+  ],
+  [
+   44.2,
+   48.36,
+   "Mr. Grant",
+   "OK. I'll send someone tomorrow morning. Is anyone home at nine?"
+  ],
+  [
+   49.66,
+   53.57,
+   "Sara",
+   "No, no one is home in the morning. I work until two."
+  ],
+  [
+   54.87,
+   56.39,
+   "Mr. Grant",
+   "How about Tuesday at three?"
+  ],
+  [
+   57.69,
+   61.6,
+   "Sara",
+   "Tuesday at three is fine. If it gets worse tonight, I'll call you."
+  ],
+  [
+   62.9,
+   68.66,
+   "Mr. Grant",
+   "Great. The repair person will fix both things. Until then, don't use the sink."
+  ],
+  [
+   69.96,
+   73.0,
+   "Sara",
+   "OK, I won't. Thank you so much."
+  ]
+ ]
+}

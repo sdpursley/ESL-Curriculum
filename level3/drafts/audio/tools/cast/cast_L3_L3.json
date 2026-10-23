@@ -1,0 +1,22 @@
+{
+ "TITLE": "When I Was Young",
+ "VOICES": {
+  "Narrator": "N",
+  "Daniel": "Server",
+  "Teresa": "Ana_af_bella"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Teresa"
+ ],
+ "NAMES": [
+  "daniel",
+  "teresa"
+ ],
+ "SAME": {
+  "okay": "ok",
+  "mum": "mom",
+  "used": "use"
+ },
+ "TTS": {}
+}

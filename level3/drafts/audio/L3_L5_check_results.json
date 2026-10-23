@@ -1,0 +1,180 @@
+{
+ "file": "L3_L5_listening.mp3",
+ "duration_s": 76.93,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 161,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "13/14",
+ "lines_with_flags": [],
+ "lines_not_exact": [
+  {
+   "t": 66.4,
+   "spk": "Carmen",
+   "line": "Thanks, David. I'm going to clean up after the event.",
+   "ok": false,
+   "hyp": "thanks david i'm in a clean event",
+   "min_prob": 0.2,
+   "flags": [],
+   "f0_med": 189.8
+  }
+ ],
+ "pitch_median_hz": {
+  "Carmen": 192.5,
+  "David": 120.6,
+  "Narrator": 187.1
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.2,
+ "peak": 0.89,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.8,
+ "per_line": [
+  {
+   "t": 10.18,
+   "spk": "Carmen",
+   "line": "Hi, David. It's Carmen. It's about the family night at school on Friday.",
+   "ok": true,
+   "hyp": "hi david it's carmen it's about the family night at school on friday",
+   "min_prob": 0.79,
+   "flags": [],
+   "f0_med": 193.7
+  },
+  {
+   "t": 15.49,
+   "spk": "David",
+   "line": "Oh, right. How can I help?",
+   "ok": true,
+   "hyp": "oh right how can i help",
+   "min_prob": 0.48,
+   "flags": [],
+   "f0_med": 120.6
+  },
+  {
+   "t": 18.37,
+   "spk": "Carmen",
+   "line": "We need someone to set up the tables and chairs.",
+   "ok": true,
+   "hyp": "we need someone to set up the tables and chairs",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 169.6
+  },
+  {
+   "t": 22.66,
+   "spk": "David",
+   "line": "No problem. I'll set them up. I'll come early, at five.",
+   "ok": true,
+   "hyp": "no problem i'll set them up i'll come early at 5",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 135.4
+  },
+  {
+   "t": 28.43,
+   "spk": "Carmen",
+   "line": "Thank you! And Rosa is going to bring pizza. She ordered it yesterday.",
+   "ok": true,
+   "hyp": "thank you and rosa is going to bring pizza she ordered it yesterday",
+   "min_prob": 0.39,
+   "flags": [],
+   "f0_med": 177.6
+  },
+  {
+   "t": 34.06,
+   "spk": "David",
+   "line": "Great. What about drinks?",
+   "ok": true,
+   "hyp": "great what about drinks",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 139.7
+  },
+  {
+   "t": 37.18,
+   "spk": "Carmen",
+   "line": "Hmm. No one has the drinks yet.",
+   "ok": true,
+   "hyp": "hmm no 1 has the drinks yet",
+   "min_prob": 0.67,
+   "flags": [],
+   "f0_med": 199.3
+  },
+  {
+   "t": 40.71,
+   "spk": "David",
+   "line": "OK, I'll bring the drinks. Juice and water.",
+   "ok": true,
+   "hyp": "ok i'll bring the drinks juice and water",
+   "min_prob": 0.55,
+   "flags": [],
+   "f0_med": 120.6
+  },
+  {
+   "t": 45.13,
+   "spk": "Carmen",
+   "line": "Perfect. Can you also make a flyer?",
+   "ok": true,
+   "hyp": "perfect can you also make a flyer",
+   "min_prob": 0.79,
+   "flags": [],
+   "f0_med": 230.3
+  },
+  {
+   "t": 48.94,
+   "spk": "David",
+   "line": "I'm going to be very busy at work this week. But my sister can make one. I'll ask her and call you back tonight.",
+   "ok": true,
+   "hyp": "i'm going to be very busy at work this week but my sister can make 1 i'll ask her and call you back tonight",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 118.5
+  },
+  {
+   "t": 57.6,
+   "spk": "Carmen",
+   "line": "Will you call me before eight?",
+   "ok": true,
+   "hyp": "will you call me before 8",
+   "min_prob": 0.33,
+   "flags": [],
+   "f0_med": 192.5
+  },
+  {
+   "t": 60.68,
+   "spk": "David",
+   "line": "Yes, I will. I promise. Don't worry, I won't forget.",
+   "ok": true,
+   "hyp": "yes i will i promise don't worry i won't forget",
+   "min_prob": 0.67,
+   "flags": [],
+   "f0_med": 118.2
+  },
+  {
+   "t": 66.4,
+   "spk": "Carmen",
+   "line": "Thanks, David. I'm going to clean up after the event.",
+   "ok": false,
+   "hyp": "thanks david i'm in a clean event",
+   "min_prob": 0.2,
+   "flags": [],
+   "f0_med": 189.8
+  },
+  {
+   "t": 70.26,
+   "spk": "David",
+   "line": "I'll help you clean up, too. See you on Friday!",
+   "ok": true,
+   "hyp": "i'll help you clean up too see you on friday",
+   "min_prob": 0.64,
+   "flags": [],
+   "f0_med": 127.8
+  }
+ ],
+ "hyp": "lesson 5 listening carmen and david are parents at hillside school carmen is calling david listen hi david it's carmen it's about the family night at school on friday oh right how can i help we need someone to set up the tables and chairs no problem i'll set them up i'll come early at 5 thank you and rosa is going to bring pizza she ordered it yesterday great what about drinks hmm no 1 has the drinks yet ok i'll bring the drinks juice and water perfect can you also make a flyer i'm going to be very busy at work this week but my sister can make 1 i'll ask her and call you back tonight will you call me before 8 yes i will i promise don't worry i won't forget thanks david i'm going to clean up after the event i'll help you clean up too see you on friday that's the end of the listening"
+}

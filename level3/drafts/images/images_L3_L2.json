@@ -1,0 +1,161 @@
+[
+ {
+  "file": "L3_L2_tall.png",
+  "lesson": "Level3-L2",
+  "word": "tall",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1"
+  ],
+  "note": "a tall person next to a person of average height; height arrow and label \"tall\" (bodies, arrow, label drawn)"
+ },
+ {
+  "file": "L3_L2_short.png",
+  "lesson": "Level3-L2",
+  "word": "short",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1"
+  ],
+  "note": "a person of average height next to a short person; height arrow and label \"short\" (bodies, arrow, label drawn)"
+ },
+ {
+  "file": "L3_L2_curly_hair.png",
+  "lesson": "Level3-L2",
+  "word": "curly hair",
+  "kind": "vocab",
+  "twemoji": [
+   "1f468-200d-1f9b1",
+   "1f469-200d-1f9b1"
+  ],
+  "note": "a woman and a man with curly hair, label"
+ },
+ {
+  "file": "L3_L2_straight_hair.png",
+  "lesson": "Level3-L2",
+  "word": "straight hair",
+  "kind": "vocab",
+  "twemoji": [
+   "1f471-200d-2640-fe0f",
+   "1f471-200d-2642-fe0f"
+  ],
+  "note": "a woman and a man with straight hair, label"
+ },
+ {
+  "file": "L3_L2_beard.png",
+  "lesson": "Level3-L2",
+  "word": "beard",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d4-200d-2642-fe0f"
+  ],
+  "note": "a man with a beard, label"
+ },
+ {
+  "file": "L3_L2_glasses.png",
+  "lesson": "Level3-L2",
+  "word": "glasses",
+  "kind": "vocab",
+  "twemoji": [
+   "1f453",
+   "1f469"
+  ],
+  "note": "a pair of glasses + a woman wearing glasses (glasses on the face drawn), label"
+ },
+ {
+  "file": "L3_L2_friendly.png",
+  "lesson": "Level3-L2",
+  "word": "friendly",
+  "kind": "vocab",
+  "twemoji": [
+   "1f44b",
+   "1f60a"
+  ],
+  "note": "smiling face + waving hand, bubble \"Hi! Welcome!\" (bubble drawn)"
+ },
+ {
+  "file": "L3_L2_shy.png",
+  "lesson": "Level3-L2",
+  "word": "shy",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1",
+   "1fae3"
+  ],
+  "note": "a face peeking from behind its hand answers a quiet \"...hi\" to a person saying \"Hi!\" (bubble, text drawn)"
+ },
+ {
+  "file": "L3_L2_funny.png",
+  "lesson": "Level3-L2",
+  "word": "funny",
+  "kind": "vocab",
+  "twemoji": [
+   "1f602",
+   "1f61c",
+   "1f923"
+  ],
+  "note": "a joking face and two laughing faces, bubble \"Ha ha ha!\" (bubble drawn)"
+ },
+ {
+  "file": "L3_L2_hardworking.png",
+  "lesson": "Level3-L2",
+  "word": "hardworking",
+  "kind": "vocab",
+  "twemoji": [
+   "1f477-200d-2640-fe0f",
+   "1f4aa",
+   "1f4e6"
+  ],
+  "note": "a woman worker, a box and a strong arm, label \"works hard\""
+ },
+ {
+  "file": "L3_L2_patient.png",
+  "lesson": "Level3-L2",
+  "word": "patient",
+  "kind": "vocab",
+  "twemoji": [
+   "1f60c",
+   "23f3"
+  ],
+  "note": "a calm face + an hourglass, \"30 min\", label \"waits calmly\""
+ },
+ {
+  "file": "L3_L2_quiet.png",
+  "lesson": "Level3-L2",
+  "word": "quiet",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4d6",
+   "1f92b"
+  ],
+  "note": "a face saying \"shh\" + an open book, label \"doesn't talk much\""
+ },
+ {
+  "file": "L3_L2_listening_people.png",
+  "lesson": "Level3-L2",
+  "word": "Listening Task A (people a-d)",
+  "kind": "activity",
+  "twemoji": [
+   "1f468-200d-1f9b1",
+   "1f469-200d-1f9b1",
+   "1f471-200d-2640-fe0f",
+   "1f9d4-200d-2642-fe0f"
+  ],
+  "note": "four standing people a-d: tall man with beard and glasses; short woman with long straight hair; man with curly hair; woman with curly hair and glasses (bodies, glasses, letters drawn)"
+ },
+ {
+  "file": "L3_L2_crowd.png",
+  "lesson": "Level3-L2",
+  "word": "Talk Time crowd picture (people 1-12)",
+  "kind": "activity",
+  "twemoji": [
+   "1f468-200d-1f9b1",
+   "1f469",
+   "1f469-200d-1f9b1",
+   "1f471-200d-2640-fe0f",
+   "1f471-200d-2642-fe0f",
+   "1f9d4-200d-2642-fe0f"
+  ],
+  "note": "twelve numbered people at a bus station, different heights, hair, beards, glasses and shirt colors (bodies, glasses, sign, numbers drawn)"
+ }
+]
