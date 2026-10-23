@@ -23,6 +23,8 @@ def canon(s, same=None):
     s = re.sub(r"\b(\d+) ?(a\.? ?m\.?|p\.? ?m\.?)", r"\1", s)
     s = re.sub(r"(?<=\d)[-.,\s]+(?=\d)", '', s)            # 555-0142 / 555 0142 -> 5550142
     s = re.sub(r"[^a-z0-9' ]", ' ', s.replace('-', ' '))
+    s = re.sub(r'\s+', ' ', s)
+    s = re.sub(r"\bco (worker|workers)\b", r"co\1", s)   # "co -workers" becomes two tokens only after the hyphen is removed
     toks = ' '.join(same.get(t, t) for t in s.split()).split()   # a SAME value may be two words (saferoad -> safe road)
     out = []; i = 0
     while i < len(toks):
