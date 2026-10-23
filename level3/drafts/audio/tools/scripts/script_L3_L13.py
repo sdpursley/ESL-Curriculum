@@ -3,9 +3,9 @@
 LESSON = 13
 TITLE = "Where I'm Going"
 VOICES = {'Narrator': 'N', 'Mr. Novak': 'Server', 'Sofia': 'Rosa'}
-FEMALE = {'Narrator', 'Sofia'}
+FEMALE = {'Sofia', 'Narrator'}
 NAMES = {'sofia', 'novak'}
-SAME = {'okay': 'ok', 'mister': 'mr'}
+SAME = {'okay': 'ok', 'mister': 'mr', 'sophia': 'sofia'}
 INTRO = "Lesson thirteen. Listening. Sofia was a Level 3 student. Tonight, she's talking to the class about her goals. Listen."
 LINES = [
  ('Mr. Novak', 'Welcome back, Sofia! Please tell us about your goals.'),
