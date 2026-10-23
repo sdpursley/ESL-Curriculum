@@ -3,8 +3,8 @@
 LESSON = 8
 TITLE = 'Lost and Found'
 VOICES = {'Narrator': 'N', 'Joan': 'Receptionist', 'David': 'Sam'}
-FEMALE = {'Narrator', 'Joan'}
-NAMES = {'david', 'joan'}
+FEMALE = {'Joan', 'Narrator'}
+NAMES = {'city', 'david', 'bus', 'joan'}
 SAME = {'okay': 'ok'}
 INTRO = "Lesson eight. Listening. David lost something on the bus. He's calling the lost and found. Listen."
 LINES = [
