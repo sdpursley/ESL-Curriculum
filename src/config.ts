@@ -15,3 +15,5 @@ export const examPath = (f: string) => `downloads/exams/${f}`
 export const level1PresentHref = (n: number) => `#/level1/present/${n}`
 /** Level 3 presenter route; Level 3 file paths come from src/content_level3.json. */
 export const level3PresentHref = (n: number) => `#/level3/present/${n}`
+/** Level 4 presenter route; Level 4 file paths come from src/content_level4.json. */
+export const level4PresentHref = (n: number) => `#/level4/present/${n}`

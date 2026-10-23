@@ -95,14 +95,23 @@ LEVELS={
         routine_end='> **Timing is loose',
         credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
                 'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and speech bubbles, signs, and labels were added.')),
+ # Level 4: the lesson PDF/DOCX are committed next to the Markdown (level4/curriculum/Level4_Lesson<N>.pdf/.docx) and copied into
+ # public/level4/downloads/ here (docs=True). No listening audio is recorded yet: level4/audio/ has no MP3, so the pages say "coming soon".
+ 4:dict(audio=lambda n:f'L4_L{n}_listening.mp3', audio_re=r'^L4_L\d+_listening\.mp3$',
+        routine_end='> **Timing is loose', docs=True,
+        credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
+                'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added.')),
 }
 def export_level(V):
     cfg=LEVELS[V]; LV=os.path.join(HERE,f'level{V}'); PV=os.path.join(pub,f'level{V}')
     gv={}; exec(open(os.path.join(HERE,'scripts','md_parser.py'),encoding='utf-8').read(),gv)
     gv['IMG_PREFIX']=f'level{V}/images/'; gv['L1_STYLE']=True
     # 1. refresh the website copies of the media
-    for sub_,pat,dst in [('images',r'.+\.png$|^CREDITS\.md$','images'),('audio',cfg['audio_re'],'audio'),('slides',rf'^Level{V}_Lesson\d+_Slides\.pptx$','downloads/slides')]:
+    media=[('images',r'.+\.png$|^CREDITS\.md$','images'),('audio',cfg['audio_re'],'audio'),('slides',rf'^Level{V}_Lesson\d+_Slides\.pptx$','downloads/slides')]
+    if cfg.get('docs'): media.append(('curriculum',rf'^Level{V}_Lesson\d+\.(pdf|docx)$','downloads'))
+    for sub_,pat,dst in media:
         os.makedirs(os.path.join(PV,dst),exist_ok=True)
+        if not os.path.isdir(os.path.join(LV,sub_)): continue
         for f in sorted(os.listdir(os.path.join(LV,sub_))):
             if re.match(pat,f): shutil.copy2(os.path.join(LV,sub_,f),os.path.join(PV,dst,f))
     size=lambda rel: os.path.getsize(os.path.join(pub,rel)) if os.path.exists(os.path.join(pub,rel)) else 0

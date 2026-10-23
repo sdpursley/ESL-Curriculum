@@ -7,12 +7,15 @@ import { SlideView, EMU } from './SlideView'
 import { SLIDES_AVAILABLE, slidePath } from '../config'
 import level1 from '../content_level1.json'
 import level3 from '../content_level3.json'
+import level4 from '../content_level4.json'
 import './presenter.css'
 
 /** Level 1: the "Download PowerPoint" link appears when the lesson's .pptx was exported (src/content_level1.json). */
 const level1Pptx = (n: number) => (level1.lessons as { n: number; slides?: string }[]).find(l => l.n === n)?.slides || ''
 /** Level 3: the same, from src/content_level3.json. */
 const level3Pptx = (n: number) => (level3.lessons as { n: number; slides?: string }[]).find(l => l.n === n)?.slides || ''
+/** Level 4: the same, from src/content_level4.json. */
+const level4Pptx = (n: number) => (level4.lessons as { n: number; slides?: string }[]).find(l => l.n === n)?.slides || ''
 
 export default function PresenterRoute({ level = 2 }: { level?: Level }) {
   const { n } = useParams()
@@ -25,13 +28,13 @@ export default function PresenterRoute({ level = 2 }: { level?: Level }) {
     return () => { live = false }
   }, [num, level])
   if (deck === undefined) return <div className="pz-root" aria-busy="true" />
-  if (deck === null) return <div className="pz-missing"><p>Slides for this lesson are not available yet.</p><Link to={level === 1 ? '/level1' : level === 3 ? '/level3' : '/level2'}>Back to the course</Link></div>
+  if (deck === null) return <div className="pz-missing"><p>Slides for this lesson are not available yet.</p><Link to={level === 1 ? '/level1' : level === 3 ? '/level3' : level === 4 ? '/level4' : '/level2'}>Back to the course</Link></div>
   return <Presenter key={`${level}-${num}`} deck={deck} level={level} />
 }
 
 function Presenter({ deck, level }: { deck: Deck; level: Level }) {
   const label = level === 2 ? `Lesson ${deck.lesson}` : `Level ${level} · Lesson ${deck.lesson}`
-  const pptx = level === 1 ? level1Pptx(deck.lesson) : level === 3 ? level3Pptx(deck.lesson) : SLIDES_AVAILABLE(deck.lesson) ? slidePath(deck.lesson) : ''
+  const pptx = level === 1 ? level1Pptx(deck.lesson) : level === 3 ? level3Pptx(deck.lesson) : level === 4 ? level4Pptx(deck.lesson) : SLIDES_AVAILABLE(deck.lesson) ? slidePath(deck.lesson) : ''
   const [params, setParams] = useSearchParams()
   const clampSlide = (v: number) => deck ? Math.min(Math.max(v, 1), deck.slides.length) : 1
   const [pos, setPos] = useState(() => {
