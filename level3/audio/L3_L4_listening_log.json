@@ -1,0 +1,740 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Elena": "refs/Rosa.wav",
+   "Mark": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson four. Listening.",
+    "tts_text": "Lesson four. Listening.",
+    "seed": 2026,
+    "hyp": "lesson 4 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.95,
+    "dur": 1.84,
+    "raw_peak": 0.576,
+    "pitch_ok": true,
+    "score": 1.55,
+    "f0_med": 184.9,
+    "f0_st_sd": 5.08,
+    "f0_range_st": 16.66
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Elena had a small car accident.",
+    "tts_text": "Elena had a small car accident.",
+    "seed": 17864,
+    "hyp": "elena had a small car accident",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.45,
+    "mean_prob": 0.9,
+    "dur": 1.89,
+    "raw_peak": 0.582,
+    "pitch_ok": true,
+    "score": 1.377,
+    "f0_med": 184.9,
+    "f0_st_sd": 3.15,
+    "f0_range_st": 10.22
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Now she's calling her insurance company. Listen.",
+    "tts_text": "Now she's calling her insurance company. Listen.",
+    "seed": 2026,
+    "hyp": "now she's calling her insurance company listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 3.22,
+    "raw_peak": 0.709,
+    "pitch_ok": true,
+    "score": 1.531,
+    "f0_med": 195.3,
+    "f0_st_sd": 3.6,
+    "f0_range_st": 10.31
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mark",
+    "text": "Safe Road Insurance, this is Mark.",
+    "tts_text": "Safe Road Insurance, this is Mark.",
+    "seed": 2026,
+    "hyp": "safe road insurance this is mark",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.9,
+    "dur": 1.83,
+    "raw_peak": 0.848,
+    "pitch_ok": true,
+    "score": 1.373,
+    "f0_med": 116.8,
+    "f0_st_sd": 3.18,
+    "f0_range_st": 9.69
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mark",
+    "text": "How can I help you?",
+    "tts_text": "How can I help you?",
+    "seed": 2026,
+    "hyp": "how can i help you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 0.94,
+    "raw_peak": 0.952,
+    "pitch_ok": true,
+    "score": 1.237,
+    "f0_med": 128.5,
+    "f0_st_sd": 1.77,
+    "f0_range_st": 5.23
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "Hi, this is Elena Ramos.",
+    "tts_text": "Hi, this is Elena Ramos.",
+    "seed": 9945,
+    "hyp": "hi this is elena ramos",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.37,
+    "mean_prob": 0.85,
+    "dur": 2.37,
+    "raw_peak": 0.691,
+    "pitch_ok": true,
+    "score": 1.258,
+    "f0_med": 193.7,
+    "f0_st_sd": 2.75,
+    "f0_range_st": 9.06
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "I had a small car accident this morning.",
+    "tts_text": "I had a small car accident this morning.",
+    "seed": 17864,
+    "hyp": "i had a small car accident this morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.85,
+    "raw_peak": 0.654,
+    "pitch_ok": true,
+    "score": 1.496,
+    "f0_med": 204.0,
+    "f0_st_sd": 3.43,
+    "f0_range_st": 12.35
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mark",
+    "text": "I'm sorry to hear that.",
+    "tts_text": "I'm sorry to hear that.",
+    "seed": 2026,
+    "hyp": "i'm sorry to hear that",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 0.98,
+    "raw_peak": 0.846,
+    "pitch_ok": true,
+    "score": 1.316,
+    "f0_med": 128.5,
+    "f0_st_sd": 2.23,
+    "f0_range_st": 6.54
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mark",
+    "text": "Was anyone hurt?",
+    "tts_text": "Was anyone hurt?",
+    "seed": 2026,
+    "hyp": "was anyone hurt",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.92,
+    "dur": 0.91,
+    "raw_peak": 0.761,
+    "pitch_ok": true,
+    "score": 1.205,
+    "f0_med": 133.0,
+    "f0_st_sd": 1.9,
+    "f0_range_st": 6.34
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "No, everyone was OK.",
+    "tts_text": "No, everyone was OK.",
+    "seed": 41621,
+    "hyp": "no everyone was ok",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.92,
+    "dur": 1.77,
+    "raw_peak": 0.59,
+    "pitch_ok": true,
+    "score": 1.114,
+    "f0_med": 249.7,
+    "f0_st_sd": 1.29,
+    "f0_range_st": 4.09
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "But my car has a dent.",
+    "tts_text": "But my car has a dent.",
+    "seed": 2026,
+    "hyp": "but my car has a dent",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.96,
+    "dur": 1.71,
+    "raw_peak": 0.497,
+    "pitch_ok": true,
+    "score": 1.517,
+    "f0_med": 189.2,
+    "f0_st_sd": 3.7,
+    "f0_range_st": 12.12
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mark",
+    "text": "Where did it happen?",
+    "tts_text": "Where did it happen?",
+    "seed": 2026,
+    "hyp": "where did it happen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 0.9,
+    "raw_peak": 0.963,
+    "pitch_ok": true,
+    "score": 1.132,
+    "f0_med": 130.0,
+    "f0_st_sd": 1.16,
+    "f0_range_st": 4.37
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "At the intersection of Oak Street and Second Avenue.",
+    "tts_text": "At the intersection of Oak Street and Second Avenue.",
+    "seed": 49540,
+    "hyp": "at the intersection of oak street and second avenue",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.93,
+    "dur": 2.75,
+    "raw_peak": 0.553,
+    "pitch_ok": true,
+    "score": 1.411,
+    "f0_med": 207.6,
+    "f0_st_sd": 3.2,
+    "f0_range_st": 10.12
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mark",
+    "text": "What were you doing when it happened?",
+    "tts_text": "What were you doing when it happened?",
+    "seed": 2026,
+    "hyp": "what were you doing when it happened",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.95,
+    "dur": 1.54,
+    "raw_peak": 0.927,
+    "pitch_ok": true,
+    "score": 1.251,
+    "f0_med": 100.5,
+    "f0_st_sd": 2.0,
+    "f0_range_st": 5.92
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "I was driving to work.",
+    "tts_text": "I was driving to work.",
+    "seed": 2026,
+    "hyp": "i was driving to work",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.28,
+    "raw_peak": 0.548,
+    "pitch_ok": true,
+    "score": 1.575,
+    "f0_med": 188.1,
+    "f0_st_sd": 4.87,
+    "f0_range_st": 13.83
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "The light was red, so I stopped.",
+    "tts_text": "The light was red, so I stopped.",
+    "seed": 2026,
+    "hyp": "the light was red so i stopped",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.99,
+    "dur": 1.99,
+    "raw_peak": 0.569,
+    "pitch_ok": true,
+    "score": 1.467,
+    "f0_med": 196.5,
+    "f0_st_sd": 3.2,
+    "f0_range_st": 10.97
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mark",
+    "text": "And what was the other driver doing?",
+    "tts_text": "And what was the other driver doing?",
+    "seed": 2026,
+    "hyp": "and what was the other driver doing",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.96,
+    "dur": 1.72,
+    "raw_peak": 0.839,
+    "pitch_ok": true,
+    "score": 1.212,
+    "f0_med": 131.9,
+    "f0_st_sd": 1.71,
+    "f0_range_st": 5.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "He was talking on his phone.",
+    "tts_text": "He was talking on his phone.",
+    "seed": 2026,
+    "hyp": "he was talking on his phone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.71,
+    "raw_peak": 0.559,
+    "pitch_ok": true,
+    "score": 1.466,
+    "f0_med": 230.3,
+    "f0_st_sd": 3.22,
+    "f0_range_st": 9.55
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "He wasn't looking, and he hit my car.",
+    "tts_text": "He wasn't looking, and he hit my car.",
+    "seed": 2026,
+    "hyp": "he wasn't looking and he hit my car",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.96,
+    "dur": 2.14,
+    "raw_peak": 0.47,
+    "pitch_ok": true,
+    "score": 1.312,
+    "f0_med": 212.4,
+    "f0_st_sd": 2.35,
+    "f0_range_st": 7.35
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mark",
+    "text": "Did anyone see the accident?",
+    "tts_text": "Did anyone see the accident?",
+    "seed": 2026,
+    "hyp": "did anyone see the accident",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.96,
+    "dur": 1.35,
+    "raw_peak": 0.842,
+    "pitch_ok": true,
+    "score": 1.129,
+    "f0_med": 122.0,
+    "f0_st_sd": 1.11,
+    "f0_range_st": 3.55
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "Yes. Two people were crossing the street.",
+    "tts_text": "Yes. Two people were crossing the street.",
+    "seed": 2026,
+    "hyp": "yes 2 people were crossing the street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.96,
+    "dur": 2.49,
+    "raw_peak": 0.475,
+    "pitch_ok": true,
+    "score": 1.459,
+    "f0_med": 190.3,
+    "f0_st_sd": 3.3,
+    "f0_range_st": 9.86
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "One woman gave me her phone number.",
+    "tts_text": "One woman gave me her phone number.",
+    "seed": 2026,
+    "hyp": "1 woman gave me her phone number",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.98,
+    "dur": 1.7,
+    "raw_peak": 0.482,
+    "pitch_ok": true,
+    "score": 1.244,
+    "f0_med": 197.0,
+    "f0_st_sd": 1.78,
+    "f0_range_st": 6.14
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mark",
+    "text": "Good. Did the police come?",
+    "tts_text": "Good. Did the police come?",
+    "seed": 81216,
+    "hyp": "good did the police come",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.95,
+    "dur": 1.36,
+    "raw_peak": 0.96,
+    "pitch_ok": true,
+    "score": 1.097,
+    "f0_med": 147.6,
+    "f0_st_sd": 1.01,
+    "f0_range_st": 3.37
+   },
+   "tries": 11,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "Yes. A police officer came and wrote a report.",
+    "tts_text": "Yes. A police officer came and wrote a report.",
+    "seed": 2026,
+    "hyp": "yes a police officer came and wrote a report",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 3.17,
+    "raw_peak": 0.581,
+    "pitch_ok": true,
+    "score": 1.457,
+    "f0_med": 207.6,
+    "f0_st_sd": 3.23,
+    "f0_range_st": 11.27
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mark",
+    "text": "OK. Please send me the report number today.",
+    "tts_text": "OK. Please send me the report number today.",
+    "seed": 2026,
+    "hyp": "ok please send me the report number today",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.54,
+    "mean_prob": 0.93,
+    "dur": 2.38,
+    "raw_peak": 0.729,
+    "pitch_ok": true,
+    "score": 1.531,
+    "f0_med": 116.5,
+    "f0_st_sd": 4.27,
+    "f0_range_st": 14.68
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "I will. Thank you for your help.",
+    "tts_text": "I will. Thank you for your help.",
+    "seed": 2026,
+    "hyp": "i will thank you for your help",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.21,
+    "raw_peak": 0.56,
+    "pitch_ok": true,
+    "score": 1.58,
+    "f0_med": 223.7,
+    "f0_st_sd": 4.24,
+    "f0_range_st": 12.32
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.498,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   10.15,
+   13.47,
+   "Mark",
+   "Safe Road Insurance, this is Mark. How can I help you?"
+  ],
+  [
+   14.77,
+   19.54,
+   "Elena",
+   "Hi, this is Elena Ramos. I had a small car accident this morning."
+  ],
+  [
+   20.84,
+   23.28,
+   "Mark",
+   "I'm sorry to hear that. Was anyone hurt?"
+  ],
+  [
+   24.58,
+   28.61,
+   "Elena",
+   "No, everyone was OK. But my car has a dent."
+  ],
+  [
+   29.91,
+   30.81,
+   "Mark",
+   "Where did it happen?"
+  ],
+  [
+   32.11,
+   34.86,
+   "Elena",
+   "At the intersection of Oak Street and Second Avenue."
+  ],
+  [
+   36.16,
+   37.7,
+   "Mark",
+   "What were you doing when it happened?"
+  ],
+  [
+   39.0,
+   42.82,
+   "Elena",
+   "I was driving to work. The light was red, so I stopped."
+  ],
+  [
+   44.12,
+   45.84,
+   "Mark",
+   "And what was the other driver doing?"
+  ],
+  [
+   47.14,
+   51.54,
+   "Elena",
+   "He was talking on his phone. He wasn't looking, and he hit my car."
+  ],
+  [
+   52.84,
+   54.19,
+   "Mark",
+   "Did anyone see the accident?"
+  ],
+  [
+   55.49,
+   60.23,
+   "Elena",
+   "Yes. Two people were crossing the street. One woman gave me her phone number."
+  ],
+  [
+   61.53,
+   62.89,
+   "Mark",
+   "Good. Did the police come?"
+  ],
+  [
+   64.19,
+   67.36,
+   "Elena",
+   "Yes. A police officer came and wrote a report."
+  ],
+  [
+   68.66,
+   71.04,
+   "Mark",
+   "OK. Please send me the report number today."
+  ],
+  [
+   72.34,
+   74.55,
+   "Elena",
+   "I will. Thank you for your help."
+  ]
+ ]
+}

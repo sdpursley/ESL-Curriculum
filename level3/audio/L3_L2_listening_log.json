@@ -1,0 +1,861 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Linda": "refs/Ana_af_jessica.wav",
+   "Omar": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson two. Listening.",
+    "tts_text": "Lesson two. Listening.",
+    "seed": 2026,
+    "hyp": "lesson 2 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.86,
+    "dur": 1.86,
+    "raw_peak": 0.505,
+    "pitch_ok": true,
+    "score": 1.337,
+    "f0_med": 216.1,
+    "f0_st_sd": 3.19,
+    "f0_range_st": 10.76
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "It's Omar's first day at a hotel.",
+    "tts_text": "It's Omar's first day at a hotel.",
+    "seed": 2026,
+    "hyp": "it's omar's first day at a hotel",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.95,
+    "dur": 2.22,
+    "raw_peak": 0.499,
+    "pitch_ok": true,
+    "score": 1.326,
+    "f0_med": 172.5,
+    "f0_st_sd": 2.51,
+    "f0_range_st": 7.74
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "His supervisor, Linda, tells him about two coworkers. Listen.",
+    "tts_text": "His supervisor, Linda, tells him about two coworkers. Listen.",
+    "seed": 73297,
+    "hyp": "his supervisor linda tells him about 2 coworkers listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.63,
+    "mean_prob": 0.94,
+    "dur": 4.06,
+    "raw_peak": 0.718,
+    "pitch_ok": true,
+    "score": 1.541,
+    "f0_med": 189.2,
+    "f0_st_sd": 5.49,
+    "f0_range_st": 23.6
+   },
+   "tries": 10,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "Welcome, Omar! Today you're going to work with Kevin and Nora.",
+    "tts_text": "Welcome, Omar! Today you're going to work with Kevin and Nora.",
+    "seed": 9945,
+    "hyp": "welcome omar today you're going to work with kevin and nora",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.97,
+    "dur": 3.71,
+    "raw_peak": 0.702,
+    "pitch_ok": true,
+    "score": 1.565,
+    "f0_med": 213.6,
+    "f0_st_sd": 4.01,
+    "f0_range_st": 12.54
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "Great. What's Kevin like?",
+    "tts_text": "Great. What's Kevin like?",
+    "seed": 2026,
+    "hyp": "great what's kevin like",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.95,
+    "dur": 1.56,
+    "raw_peak": 0.986,
+    "pitch_ok": true,
+    "score": 1.215,
+    "f0_med": 132.3,
+    "f0_st_sd": 1.78,
+    "f0_range_st": 5.29
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "He's very friendly, and he's really funny.",
+    "tts_text": "He's very friendly, and he's really funny.",
+    "seed": 2026,
+    "hyp": "he's very friendly and he's really funny",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 2.78,
+    "raw_peak": 0.554,
+    "pitch_ok": true,
+    "score": 1.59,
+    "f0_med": 229.6,
+    "f0_st_sd": 4.49,
+    "f0_range_st": 13.09
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "Everyone likes him.",
+    "tts_text": "Everyone likes him.",
+    "seed": 2026,
+    "hyp": "everyone likes him",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.87,
+    "dur": 1.26,
+    "raw_peak": 0.645,
+    "pitch_ok": true,
+    "score": 1.474,
+    "f0_med": 190.3,
+    "f0_st_sd": 5.35,
+    "f0_range_st": 15.31
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "What does he look like?",
+    "tts_text": "What does he look like?",
+    "seed": 2026,
+    "hyp": "what does he look like",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 0.94,
+    "raw_peak": 0.722,
+    "pitch_ok": true,
+    "score": 1.429,
+    "f0_med": 103.2,
+    "f0_st_sd": 3.08,
+    "f0_range_st": 8.0
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "He's tall, and he has a beard and glasses.",
+    "tts_text": "He's tall, and he has a beard and glasses.",
+    "seed": 25783,
+    "hyp": "he's tall and he has a beard and glasses",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 2.28,
+    "raw_peak": 0.552,
+    "pitch_ok": true,
+    "score": 1.56,
+    "f0_med": 257.0,
+    "f0_st_sd": 3.94,
+    "f0_range_st": 14.2
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "You can ask him for help.",
+    "tts_text": "You can ask him for help.",
+    "seed": 2026,
+    "hyp": "you can ask him for help",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 1.39,
+    "raw_peak": 0.488,
+    "pitch_ok": true,
+    "score": 1.568,
+    "f0_med": 205.2,
+    "f0_st_sd": 4.01,
+    "f0_range_st": 13.83
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "OK. And who is Nora?",
+    "tts_text": "OK. And who is Nora?",
+    "seed": 2026,
+    "hyp": "ok and who is nora",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.92,
+    "dur": 1.42,
+    "raw_peak": 0.749,
+    "pitch_ok": true,
+    "score": 1.478,
+    "f0_med": 136.9,
+    "f0_st_sd": 3.73,
+    "f0_range_st": 11.62
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "Nora is the short woman with long, straight hair.",
+    "tts_text": "Nora is the short woman with long, straight hair.",
+    "seed": 2026,
+    "hyp": "nora is the short woman with long straight hair",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.56,
+    "mean_prob": 0.94,
+    "dur": 3.18,
+    "raw_peak": 0.584,
+    "pitch_ok": true,
+    "score": 1.454,
+    "f0_med": 204.0,
+    "f0_st_sd": 3.43,
+    "f0_range_st": 11.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "She's a little shy.",
+    "tts_text": "She's a little shy.",
+    "seed": 2026,
+    "hyp": "she's a little shy",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.42,
+    "raw_peak": 0.549,
+    "pitch_ok": true,
+    "score": 1.584,
+    "f0_med": 342.1,
+    "f0_st_sd": 4.83,
+    "f0_range_st": 11.77
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "Is she nice?",
+    "tts_text": "Is she nice?",
+    "seed": 2026,
+    "hyp": "is she nice",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.92,
+    "dur": 0.94,
+    "raw_peak": 0.475,
+    "pitch_ok": true,
+    "score": 1.084,
+    "f0_med": 80.0,
+    "f0_st_sd": 1.09,
+    "f0_range_st": 3.04
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "Yes. She's quiet, but she's really hardworking.",
+    "tts_text": "Yes. She's quiet, but she's really hardworking.",
+    "seed": 120811,
+    "hyp": "yes she's quiet but she's really hardworking",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.94,
+    "dur": 3.37,
+    "raw_peak": 0.654,
+    "pitch_ok": true,
+    "score": 1.539,
+    "f0_med": 264.5,
+    "f0_st_sd": 4.78,
+    "f0_range_st": 12.93
+   },
+   "tries": 16,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "Does she talk a lot?",
+    "tts_text": "Does she talk a lot?",
+    "seed": 2026,
+    "hyp": "does she talk a lot",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.96,
+    "dur": 0.98,
+    "raw_peak": 0.928,
+    "pitch_ok": true,
+    "score": 1.147,
+    "f0_med": 128.1,
+    "f0_st_sd": 1.25,
+    "f0_range_st": 3.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "Not at first.",
+    "tts_text": "Not at first.",
+    "seed": 9945,
+    "hyp": "not at first",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.95,
+    "dur": 1.05,
+    "raw_peak": 0.47,
+    "pitch_ok": true,
+    "score": 1.19,
+    "f0_med": 260.0,
+    "f0_st_sd": 1.62,
+    "f0_range_st": 4.44
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "Talk to her, and ask her questions.",
+    "tts_text": "Talk to her, and ask her questions.",
+    "seed": 9945,
+    "hyp": "talk to her and ask her questions",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 2.25,
+    "raw_peak": 0.585,
+    "pitch_ok": true,
+    "score": 1.552,
+    "f0_med": 206.4,
+    "f0_st_sd": 3.92,
+    "f0_range_st": 11.24
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "She's very patient.",
+    "tts_text": "She's very patient.",
+    "seed": 49540,
+    "hyp": "she's very patient",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 1.46,
+    "raw_peak": 0.481,
+    "pitch_ok": true,
+    "score": 1.506,
+    "f0_med": 229.0,
+    "f0_st_sd": 3.49,
+    "f0_range_st": 11.96
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "Where can I find them?",
+    "tts_text": "Where can I find them?",
+    "seed": 2026,
+    "hyp": "where can i find them",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.05,
+    "raw_peak": 1.028,
+    "pitch_ok": true,
+    "score": 1.567,
+    "f0_med": 114.5,
+    "f0_st_sd": 4.41,
+    "f0_range_st": 13.55
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "They're in the laundry room.",
+    "tts_text": "They're in the laundry room.",
+    "seed": 2026,
+    "hyp": "they're in the laundry room",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.34,
+    "raw_peak": 0.438,
+    "pitch_ok": true,
+    "score": 1.569,
+    "f0_med": 234.3,
+    "f0_st_sd": 3.94,
+    "f0_range_st": 12.58
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "Come with me.",
+    "tts_text": "Come with me.",
+    "seed": 2026,
+    "hyp": "come with me",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.95,
+    "dur": 1.13,
+    "raw_peak": 0.561,
+    "pitch_ok": true,
+    "score": 1.548,
+    "f0_med": 275.5,
+    "f0_st_sd": 6.08,
+    "f0_range_st": 18.11
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "I can introduce you to them.",
+    "tts_text": "I can introduce you to them.",
+    "seed": 2026,
+    "hyp": "i can introduce you to them",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 1.71,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.584,
+    "f0_med": 223.7,
+    "f0_st_sd": 4.97,
+    "f0_range_st": 14.65
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "Is that Kevin?",
+    "tts_text": "Is that Kevin?",
+    "seed": 9945,
+    "hyp": "is that kevin",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.92,
+    "dur": 0.88,
+    "raw_peak": 0.93,
+    "pitch_ok": true,
+    "score": 1.223,
+    "f0_med": 148.5,
+    "f0_st_sd": 2.04,
+    "f0_range_st": 5.13
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "The man with curly hair?",
+    "tts_text": "The man with curly hair?",
+    "seed": 2026,
+    "hyp": "the man with curly hair",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.92,
+    "dur": 1.25,
+    "raw_peak": 0.802,
+    "pitch_ok": true,
+    "score": 1.524,
+    "f0_med": 106.2,
+    "f0_st_sd": 4.77,
+    "f0_range_st": 14.99
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "No, that's Sam.",
+    "tts_text": "No, that's Sam.",
+    "seed": 2026,
+    "hyp": "no that's sam",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.92,
+    "dur": 1.79,
+    "raw_peak": 0.645,
+    "pitch_ok": true,
+    "score": 1.519,
+    "f0_med": 268.4,
+    "f0_st_sd": 4.77,
+    "f0_range_st": 11.99
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "He works at the front desk.",
+    "tts_text": "He works at the front desk.",
+    "seed": 9945,
+    "hyp": "he works at the front desk",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 1.53,
+    "raw_peak": 0.646,
+    "pitch_ok": true,
+    "score": 1.587,
+    "f0_med": 214.9,
+    "f0_st_sd": 4.49,
+    "f0_range_st": 14.08
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "Kevin is the tall man next to him.",
+    "tts_text": "Kevin is the tall man next to him.",
+    "seed": 2026,
+    "hyp": "kevin is the tall man next to him",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.97,
+    "dur": 1.92,
+    "raw_peak": 0.539,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 182.8,
+    "f0_st_sd": 5.0,
+    "f0_range_st": 16.29
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "Oh, I see him.",
+    "tts_text": "Oh, I see him.",
+    "seed": 17864,
+    "hyp": "oh i see him",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.94,
+    "dur": 1.2,
+    "raw_peak": 1.036,
+    "pitch_ok": true,
+    "score": 1.403,
+    "f0_med": 94.3,
+    "f0_st_sd": 3.11,
+    "f0_range_st": 8.57
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "He's waving at us.",
+    "tts_text": "He's waving at us.",
+    "seed": 2026,
+    "hyp": "he's waving at us",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.97,
+    "dur": 1.16,
+    "raw_peak": 0.807,
+    "pitch_ok": true,
+    "score": 1.515,
+    "f0_med": 106.2,
+    "f0_st_sd": 3.64,
+    "f0_range_st": 10.67
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Linda",
+    "text": "Let's go and say hi to him.",
+    "tts_text": "Let's go and say hi to him.",
+    "seed": 2026,
+    "hyp": "let's go and say hi to him",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.96,
+    "dur": 1.36,
+    "raw_peak": 0.648,
+    "pitch_ok": true,
+    "score": 1.564,
+    "f0_med": 255.5,
+    "f0_st_sd": 4.87,
+    "f0_range_st": 11.76
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   11.34,
+   15.05,
+   "Linda",
+   "Welcome, Omar! Today you're going to work with Kevin and Nora."
+  ],
+  [
+   16.35,
+   17.91,
+   "Omar",
+   "Great. What's Kevin like?"
+  ],
+  [
+   19.21,
+   23.8,
+   "Linda",
+   "He's very friendly, and he's really funny. Everyone likes him."
+  ],
+  [
+   25.1,
+   26.04,
+   "Omar",
+   "What does he look like?"
+  ],
+  [
+   27.34,
+   31.56,
+   "Linda",
+   "He's tall, and he has a beard and glasses. You can ask him for help."
+  ],
+  [
+   32.86,
+   34.28,
+   "Omar",
+   "OK. And who is Nora?"
+  ],
+  [
+   35.58,
+   40.73,
+   "Linda",
+   "Nora is the short woman with long, straight hair. She's a little shy."
+  ],
+  [
+   42.03,
+   42.97,
+   "Omar",
+   "Is she nice?"
+  ],
+  [
+   44.27,
+   47.64,
+   "Linda",
+   "Yes. She's quiet, but she's really hardworking."
+  ],
+  [
+   48.94,
+   49.92,
+   "Omar",
+   "Does she talk a lot?"
+  ],
+  [
+   51.22,
+   57.08,
+   "Linda",
+   "Not at first. Talk to her, and ask her questions. She's very patient."
+  ],
+  [
+   58.38,
+   59.43,
+   "Omar",
+   "Where can I find them?"
+  ],
+  [
+   60.73,
+   66.01,
+   "Linda",
+   "They're in the laundry room. Come with me. I can introduce you to them."
+  ],
+  [
+   67.31,
+   69.99,
+   "Omar",
+   "Is that Kevin? The man with curly hair?"
+  ],
+  [
+   71.29,
+   77.63,
+   "Linda",
+   "No, that's Sam. He works at the front desk. Kevin is the tall man next to him."
+  ],
+  [
+   78.93,
+   81.84,
+   "Omar",
+   "Oh, I see him. He's waving at us."
+  ],
+  [
+   83.14,
+   84.5,
+   "Linda",
+   "Let's go and say hi to him."
+  ]
+ ]
+}

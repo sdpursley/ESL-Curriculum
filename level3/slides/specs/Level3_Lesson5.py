@@ -67,7 +67,7 @@ SLIDES = [
   'notes': ['Step 3 · 6:18–6:30 · Listening + "Say it" · 12 min (slides 8 to 12). Individuals, then pairs check.',
             'Before you listen (1 min). Point to the school event picture and say: "Carmen and David are parents. Their children go to Hillside School. Carmen is calling David. What is the event? Listen."',
             'There are three voices: a Narrator, Carmen, and David. Each click highlights the next voice.',
-            'The audio (L3_L5_listening.mp3, about 1:17; the teacher steps say about 1:15) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
+            'The audio (L3_L5_listening.mp3, about 1:17) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
             'No speaker? Read the script with a volunteer at a normal, friendly speed.', audio_note(N, '1:17', True),
             f'{SRC} (Step 3; Listening script; Listening page).', PC]},
  {'kind': 'gaps', 'title': ['Listening A'], 'side': ['Pairs: compare your answers.', 'Then *check together.*'],

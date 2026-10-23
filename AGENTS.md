@@ -288,7 +288,7 @@ The site scripts are `scripts/check_slides.py` (click targets), `scripts/export_
 
 ### 6.1 Inputs: the lesson is the only source
 
-- **Lesson text:** `level<V>/curriculum/Level<V>_Lesson<N>.md`. While a lesson is still a draft it may live in `level<V>/drafts/curriculum/` or on a feature branch. Level 3 Lessons 2–13 are in `level3/drafts/` (section 7). A later level's drafts may be on a branch. Read a branch copy without switching: `git show origin/<branch>:level<V>/drafts/curriculum/Level<V>_Lesson<N>.md > /tmp/Level<V>_Lesson<N>.md`, then pass `--md /tmp/Level<V>_Lesson<N>.md`.
+- **Lesson text:** `level<V>/curriculum/Level<V>_Lesson<N>.md`. While a lesson is still a draft it may live in `level<V>/drafts/curriculum/` or on a feature branch. Published Level 3 Lessons 1–13 are in `level3/curriculum/`. Draft copies and the audio tools stay in `level3/drafts/` (section 7). A later level's drafts may be on a branch. Read a branch copy without switching: `git show origin/<branch>:level<V>/drafts/curriculum/Level<V>_Lesson<N>.md > /tmp/Level<V>_Lesson<N>.md`, then pass `--md /tmp/Level<V>_Lesson<N>.md`.
 - **Pictures:** `level<V>/images/L<V>_L<N>_<name>.png` and the level's `level<V>/images/CREDITS.md` (one table row per file: file, word, what it shows, Twemoji source). The alt text of every picture on the slides is built from that row.
 - **Answer keys:** the lesson's teacher plan and answer key sections. Every answer revealed on a slide must be the key's answer, word for word.
 - **Everything on a slide comes from the lesson page.** Same words, same order, same item numbers, same answers, same names, same times. Never invent an item, an example, a name, a word, or an answer. If a slide needs text the lesson does not have, change the slide (fewer rows), not the content. If the lesson itself looks wrong, stop and report it; do not "fix" it on the slide.
@@ -599,10 +599,10 @@ Then run steps 5–11 on the saved file. (An image part can be shared by several
 **How a lesson appears** (`scripts/export_content.py`, `export_level()` and `lesson_page()`):
 
 - **Ready:** `level<V>/curriculum/Level<V>_Lesson<N>.md` is on `main`. The lesson gets its pages, PDF/DOCX (`level<V>/curriculum/build.sh <N> --publish`), MP3 (if `level<V>/audio/L<V>_L<N>_listening.mp3` exists), and the slides.
-- **Slides only:** no lesson Markdown on `main`, but `level<V>/slides/Level<V>_Lesson<N>_Slides.pptx` exists. The lessons list shows **"Slides ready"** and **"Lesson book soon"**; the lesson page shows only the slide card (present + PowerPoint download); the Downloads page lists it under "Teacher slides". This is how Level 3 Lessons 2–13 are published now (`slidesOnly` in `src/level3.tsx`).
+- **Slides only:** no lesson Markdown on `main`, but `level<V>/slides/Level<V>_Lesson<N>_Slides.pptx` exists. The lessons list shows **"Slides ready"** and **"Lesson book soon"**; the lesson page shows only the slide card (present + PowerPoint download); the Downloads page lists it under "Teacher slides". Level 3 Lessons 1–13 are ready. This path remains for a lesson that has a deck but no lesson book (`slidesOnly` in `src/level3.tsx`).
 - **Coming soon:** neither file.
 
-**From slides-only to fully ready** (Level 3 Lessons 2–13 when their lesson books are approved):
+**From slides-only to fully ready** (the path used for Level 3 Lessons 2–13):
 
 1. Add `level3/curriculum/Level3_Lesson<N>.md` to `main` (plus its pictures and `CREDITS.md` rows if not there yet).
 2. `level3/curriculum/build.sh <N> --publish` (PDF + DOCX).
@@ -637,8 +637,8 @@ Then `npm run build`, preview every Level 1–4 page, and check that Level 1–3
 
 ## 7. Running audio locally (Level 3 Lessons 2–13 drafts)
 
-Lessons 2–13 of Level 3 are **drafts** in `level3/drafts/` (`curriculum/`, `images/`, `audio/`, `audio/tools/`). The website does not read
-this folder, so nothing here changes the live site. Which lessons still need audio is in [`level3/AUDIO_STATUS.md`](level3/AUDIO_STATUS.md):
+Draft copies of Level 3 Lessons 2–13 stay in `level3/drafts/` (`curriculum/`, `images/`, `audio/`, `audio/tools/`). The website does not read
+this folder. Published copies are in `level3/curriculum/`, `level3/images/`, and `level3/audio/`. Which lessons still need audio is in [`level3/AUDIO_STATUS.md`](level3/AUDIO_STATUS.md):
 **done**, **partial**, or **to-do**, with the lines that remain. Level 3's draft audio is in this repository. For the next level, make a new branch from `main` the same way (`level3-L2-13-audio-handoff` was that branch for Level 3) and run the commands below on that branch.
 All rules in sections 3 and 4 apply. The Level 3 drafts tooling is in `level3/drafts/audio/tools/`:
 

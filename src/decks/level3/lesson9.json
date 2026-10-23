@@ -4575,7 +4575,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Audio: about 1:15. It plays once.",
+          "t": "Audio: about 1:20. It plays once.",
           "sz": 22.0,
           "b": false,
           "i": false,
@@ -4658,7 +4658,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:18–6:30 · Listening + \"Say it\" · 12 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (1 min). Say: \"Lucia has a job interview at a hotel. She wants a maintenance job. Does she get a second interview? Listen.\"\nThere are three voices: a Narrator, Mr. Hall (the manager), and Lucia. Each click highlights the next voice.\nThe audio (about 1:15) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a normal, friendly speed.\nAudio: the listening audio for this lesson (about 1:15) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with speech bubbles, signs, and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson nine. Listening. Lucia has a job interview at a hotel. Mr. Hall is the manager. Listen.\nMr. Hall: Hi, Lucia. Thank you for coming in. Please sit down. So, tell me about yourself.\nLucia: Well, I have three years of experience in maintenance. I worked at a big apartment building.\nMr. Hall: That's great. What are you good at?\nLucia: I'm good at fixing things, and I'm good at solving problems.\nMr. Hall: Are you reliable?\nLucia: Yes. I was never late at my last job, and I always finish my work.\nMr. Hall: Good. Do you enjoy working on a team?\nLucia: Yes, I enjoy helping people. I like teamwork.\nMr. Hall: Are you interested in training? We have a class for new workers.\nLucia: Yes! I'm very interested in learning about the machines here.\nMr. Hall: Which shift can you work?\nLucia: I can work the day shift. And I don't mind working weekends.\nMr. Hall: Great. I'd like you to meet our team. Can you come back on Thursday for a second interview?\nLucia: Yes, of course. Thank you!\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:18–6:30 · Listening + \"Say it\" · 12 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (1 min). Say: \"Lucia has a job interview at a hotel. She wants a maintenance job. Does she get a second interview? Listen.\"\nThere are three voices: a Narrator, Mr. Hall (the manager), and Lucia. Each click highlights the next voice.\nThe audio (L3_L9_listening.mp3, about 1:20) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.\nNo speaker? Read the script with a volunteer at a normal, friendly speed.\nAudio: synthetic voices, computer-generated (Chatterbox TTS cloned from Kokoro-82M reference clips). No recordings of real people. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with speech bubbles, signs, and labels (images/CREDITS.md).",
    "title": "Before You Listen"
   },
   {
@@ -16423,7 +16423,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Audio (coming soon): synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people. Each file will carry an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).",
+          "t": "Audio: synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people were used. Each file carries an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).",
           "sz": 13.5,
           "b": false,
           "i": false,
@@ -16456,7 +16456,7 @@
     }
    ],
    "steps": [],
-   "notes": "Credits. You don't need to read this slide in class.\nPictures: Twemoji graphics by Twitter, Inc. and other contributors, CC BY 4.0; the file-by-file list is in images/CREDITS.md.\nAudio: the listening audio for this lesson (about 1:15) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nCourse materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).\nLesson plan: Picture Credits. Picture list: images/CREDITS.md.",
+   "notes": "Credits. You don't need to read this slide in class.\nPictures: Twemoji graphics by Twitter, Inc. and other contributors, CC BY 4.0; the file-by-file list is in images/CREDITS.md.\nAudio: synthetic voices, computer-generated (Chatterbox TTS cloned from Kokoro-82M reference clips). No recordings of real people. The names and the story are invented.\nCourse materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).\nLesson plan: Picture Credits. Picture list: images/CREDITS.md.",
    "title": "Credits"
   }
  ]
