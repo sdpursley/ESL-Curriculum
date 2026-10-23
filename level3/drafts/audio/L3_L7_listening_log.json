@@ -1,0 +1,717 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Lina": "refs/Rosa.wav",
+   "Clerk": "refs/Server.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson seven. Listening.",
+    "tts_text": "Lesson seven. Listening.",
+    "seed": 2026,
+    "hyp": "lesson 7 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.95,
+    "dur": 1.82,
+    "raw_peak": 0.747,
+    "pitch_ok": true,
+    "score": 1.553,
+    "f0_med": 178.6,
+    "f0_st_sd": 4.11,
+    "f0_range_st": 11.31
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lina is at the service desk at Valley Mart. Listen.",
+    "tts_text": "Lina is at the service desk at Valley Mart. Listen.",
+    "seed": 2026,
+    "hyp": "lina is at the service desk at valley mart listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.91,
+    "dur": 3.02,
+    "raw_peak": 0.602,
+    "pitch_ok": true,
+    "score": 1.394,
+    "f0_med": 188.7,
+    "f0_st_sd": 3.23,
+    "f0_range_st": 10.02
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "Hi. Can I help you?",
+    "tts_text": "Hi. Can I help you?",
+    "seed": 2026,
+    "hyp": "hi can i help you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.42,
+    "raw_peak": 0.964,
+    "pitch_ok": true,
+    "score": 1.478,
+    "f0_med": 99.4,
+    "f0_st_sd": 3.34,
+    "f0_range_st": 8.15
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "Yes, I'd like to return this phone case.",
+    "tts_text": "Yes, I'd like to return this phone case.",
+    "seed": 2026,
+    "hyp": "yes i'd like to return this phone case",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.94,
+    "dur": 2.38,
+    "raw_peak": 0.654,
+    "pitch_ok": true,
+    "score": 1.247,
+    "f0_med": 189.2,
+    "f0_st_sd": 2.02,
+    "f0_range_st": 6.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "OK. What's wrong with it?",
+    "tts_text": "OK. What's wrong with it?",
+    "seed": 2026,
+    "hyp": "ok what's wrong with it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.91,
+    "dur": 1.85,
+    "raw_peak": 0.965,
+    "pitch_ok": true,
+    "score": 1.512,
+    "f0_med": 124.1,
+    "f0_st_sd": 6.8,
+    "f0_range_st": 21.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "It's too small.",
+    "tts_text": "It's too small.",
+    "seed": 2026,
+    "hyp": "it's too small",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 0.99,
+    "raw_peak": 0.273,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 193.7,
+    "f0_st_sd": 5.15,
+    "f0_range_st": 14.45
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "It doesn't fit my phone.",
+    "tts_text": "It doesn't fit my phone.",
+    "seed": 2026,
+    "hyp": "it doesn't fit my phone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.96,
+    "dur": 1.33,
+    "raw_peak": 0.499,
+    "pitch_ok": true,
+    "score": 1.422,
+    "f0_med": 235.7,
+    "f0_st_sd": 3.11,
+    "f0_range_st": 9.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "I see. Do you have the receipt?",
+    "tts_text": "I see. Do you have the receipt?",
+    "seed": 17864,
+    "hyp": "i see do you have the receipt",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 2.0,
+    "raw_peak": 0.893,
+    "pitch_ok": true,
+    "score": 1.583,
+    "f0_med": 118.5,
+    "f0_st_sd": 6.4,
+    "f0_range_st": 24.18
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "No, sorry. I lost it.",
+    "tts_text": "No, sorry. I lost it.",
+    "seed": 2026,
+    "hyp": "no sorry i lost it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.03,
+    "raw_peak": 0.846,
+    "pitch_ok": true,
+    "score": 1.434,
+    "f0_med": 208.8,
+    "f0_st_sd": 3.04,
+    "f0_range_st": 10.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "Could I get a refund?",
+    "tts_text": "Could I get a refund?",
+    "seed": 9945,
+    "hyp": "could i get a refund",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.55,
+    "raw_peak": 0.762,
+    "pitch_ok": true,
+    "score": 1.333,
+    "f0_med": 246.8,
+    "f0_st_sd": 2.33,
+    "f0_range_st": 8.4
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "Sorry, you need the receipt for a refund.",
+    "tts_text": "Sorry, you need the receipt for a refund.",
+    "seed": 2026,
+    "hyp": "sorry you need the receipt for a refund",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.96,
+    "raw_peak": 0.794,
+    "pitch_ok": true,
+    "score": 1.525,
+    "f0_med": 124.1,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 14.42
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "But I can give you store credit.",
+    "tts_text": "But I can give you store credit.",
+    "seed": 17864,
+    "hyp": "but i can give you store credit",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.54,
+    "mean_prob": 0.91,
+    "dur": 1.44,
+    "raw_peak": 0.909,
+    "pitch_ok": true,
+    "score": 1.286,
+    "f0_med": 126.3,
+    "f0_st_sd": 2.5,
+    "f0_range_st": 8.53
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "OK, that's fine.",
+    "tts_text": "OK, that's fine.",
+    "seed": 9945,
+    "hyp": "ok that's fine",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.88,
+    "dur": 1.28,
+    "raw_peak": 0.557,
+    "pitch_ok": true,
+    "score": 1.398,
+    "f0_med": 236.4,
+    "f0_st_sd": 3.43,
+    "f0_range_st": 11.07
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "I'd like a bigger case.",
+    "tts_text": "I'd like a bigger case.",
+    "seed": 2026,
+    "hyp": "i'd like a bigger case",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 0.99,
+    "dur": 1.52,
+    "raw_peak": 0.65,
+    "pitch_ok": true,
+    "score": 1.594,
+    "f0_med": 191.4,
+    "f0_st_sd": 4.05,
+    "f0_range_st": 12.75
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "Sure. The bigger cases are in aisle five.",
+    "tts_text": "Sure. The bigger cases are in aisle five.",
+    "seed": 9945,
+    "hyp": "sure the bigger cases are in aisle 5",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.91,
+    "dur": 2.64,
+    "raw_peak": 1.119,
+    "pitch_ok": true,
+    "score": 1.514,
+    "f0_med": 108.7,
+    "f0_st_sd": 4.26,
+    "f0_range_st": 17.7
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "Thanks. Also, I have an appointment at your eye center on Monday.",
+    "tts_text": "Thanks. Also, I have an appointment at your eye center on Monday.",
+    "seed": 2026,
+    "hyp": "thanks also i have an appointment at your eye center on monday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 3.43,
+    "raw_peak": 0.788,
+    "pitch_ok": true,
+    "score": 1.422,
+    "f0_med": 211.2,
+    "f0_st_sd": 2.99,
+    "f0_range_st": 10.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "I'd like to change it.",
+    "tts_text": "I'd like to change it.",
+    "seed": 9945,
+    "hyp": "i'd like to change it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 1.0,
+    "dur": 1.07,
+    "raw_peak": 0.823,
+    "pitch_ok": true,
+    "score": 1.424,
+    "f0_med": 258.5,
+    "f0_st_sd": 2.86,
+    "f0_range_st": 8.98
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "No problem. I can do that here.",
+    "tts_text": "No problem. I can do that here.",
+    "seed": 2026,
+    "hyp": "no problem i can do that here",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.99,
+    "dur": 1.6,
+    "raw_peak": 0.917,
+    "pitch_ok": true,
+    "score": 1.585,
+    "f0_med": 100.5,
+    "f0_st_sd": 4.58,
+    "f0_range_st": 14.83
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "What day is good for you?",
+    "tts_text": "What day is good for you?",
+    "seed": 2026,
+    "hyp": "what day is good for you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.96,
+    "dur": 1.44,
+    "raw_peak": 0.985,
+    "pitch_ok": true,
+    "score": 1.396,
+    "f0_med": 120.6,
+    "f0_st_sd": 2.88,
+    "f0_range_st": 9.0
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "Is Thursday available?",
+    "tts_text": "Is Thursday available?",
+    "seed": 2026,
+    "hyp": "is thursday available",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.92,
+    "dur": 1.38,
+    "raw_peak": 0.284,
+    "pitch_ok": true,
+    "score": 1.33,
+    "f0_med": 208.8,
+    "f0_st_sd": 2.72,
+    "f0_range_st": 8.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "Let me check.",
+    "tts_text": "Let me check.",
+    "seed": 2026,
+    "hyp": "let me check",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 1.28,
+    "raw_peak": 0.964,
+    "pitch_ok": true,
+    "score": 1.544,
+    "f0_med": 111.2,
+    "f0_st_sd": 3.88,
+    "f0_range_st": 12.79
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "Yes, Thursday at four thirty is available.",
+    "tts_text": "Yes, Thursday at four thirty is available.",
+    "seed": 2026,
+    "hyp": "yes thursday at 430 is available",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.91,
+    "dur": 3.05,
+    "raw_peak": 1.0,
+    "pitch_ok": true,
+    "score": 1.511,
+    "f0_med": 130.0,
+    "f0_st_sd": 4.1,
+    "f0_range_st": 11.61
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "Perfect. I'd like to take that time.",
+    "tts_text": "Perfect. I'd like to take that time.",
+    "seed": 2026,
+    "hyp": "perfect i'd like to take that time",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 2.36,
+    "raw_peak": 0.557,
+    "pitch_ok": true,
+    "score": 1.582,
+    "f0_med": 199.9,
+    "f0_st_sd": 4.35,
+    "f0_range_st": 12.25
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Clerk",
+    "text": "OK. Your new appointment is Thursday at four thirty.",
+    "tts_text": "OK. Your new appointment is Thursday at four thirty.",
+    "seed": 41621,
+    "hyp": "ok your new appointment is thursday at 430",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.95,
+    "dur": 3.12,
+    "raw_peak": 0.897,
+    "pitch_ok": true,
+    "score": 1.515,
+    "f0_med": 119.9,
+    "f0_st_sd": 3.79,
+    "f0_range_st": 12.46
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lina",
+    "text": "Thank you so much.",
+    "tts_text": "Thank you so much.",
+    "seed": 2026,
+    "hyp": "thank you so much",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.97,
+    "dur": 1.86,
+    "raw_peak": 0.482,
+    "pitch_ok": true,
+    "score": 1.355,
+    "f0_med": 217.4,
+    "f0_st_sd": 2.57,
+    "f0_range_st": 7.75
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   7.49,
+   8.91,
+   "Clerk",
+   "Hi. Can I help you?"
+  ],
+  [
+   10.21,
+   12.59,
+   "Lina",
+   "Yes, I'd like to return this phone case."
+  ],
+  [
+   13.89,
+   15.74,
+   "Clerk",
+   "OK. What's wrong with it?"
+  ],
+  [
+   17.04,
+   19.91,
+   "Lina",
+   "It's too small. It doesn't fit my phone."
+  ],
+  [
+   21.21,
+   23.21,
+   "Clerk",
+   "I see. Do you have the receipt?"
+  ],
+  [
+   24.51,
+   28.64,
+   "Lina",
+   "No, sorry. I lost it. Could I get a refund?"
+  ],
+  [
+   29.94,
+   33.89,
+   "Clerk",
+   "Sorry, you need the receipt for a refund. But I can give you store credit."
+  ],
+  [
+   35.19,
+   38.54,
+   "Lina",
+   "OK, that's fine. I'd like a bigger case."
+  ],
+  [
+   39.84,
+   42.48,
+   "Clerk",
+   "Sure. The bigger cases are in aisle five."
+  ],
+  [
+   43.78,
+   48.83,
+   "Lina",
+   "Thanks. Also, I have an appointment at your eye center on Monday. I'd like to change it."
+  ],
+  [
+   50.13,
+   53.72,
+   "Clerk",
+   "No problem. I can do that here. What day is good for you?"
+  ],
+  [
+   55.02,
+   56.4,
+   "Lina",
+   "Is Thursday available?"
+  ],
+  [
+   57.7,
+   62.58,
+   "Clerk",
+   "Let me check. Yes, Thursday at four thirty is available."
+  ],
+  [
+   63.88,
+   66.24,
+   "Lina",
+   "Perfect. I'd like to take that time."
+  ],
+  [
+   67.54,
+   70.66,
+   "Clerk",
+   "OK. Your new appointment is Thursday at four thirty."
+  ],
+  [
+   71.96,
+   73.82,
+   "Lina",
+   "Thank you so much."
+  ]
+ ]
+}
