@@ -1,0 +1,7 @@
+medium.en per-line WER 0.052 (14/268), 17/23 lines exact
+   ('Ms. Grant', "Good evening! I'm Ms. Grant, your teacher. Tonight we're gonna find things we have in common.", "good evening i'm ms grant your teacher tonight we're going to find things we have in common")
+   ('Ahmed', "Yes, I ran a five K last year. I didn't win, but I finished!", "yes i ran a 5k last year i didn't win but i finished thank you")
+   ('Ahmed', "Great. So we've both seen snow, and we've both run a race.", 'great so we both seen snow and we both run a race')
+   ('Ms. Grant', 'Good job! Now, what have you never done, but you wanna try?', 'good job now what have you never done but you want to try')
+   ('Ahmed', "I wanna go camping. I've never slept in a tent.", "i want to go camping i've never slept in a tent")
+   ('Lucía', "And I wanna try sushi. I've never eaten it.", "and i want to try sushi i've never eaten it")

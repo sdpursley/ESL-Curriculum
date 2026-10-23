@@ -1,0 +1,353 @@
+{
+ "file": "L4_L1_listening.mp3",
+ "duration_s": 124.03,
+ "wer": 0.0375,
+ "errors": 10,
+ "ref_words": 267,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "gonna",
+   "hyp": "going to",
+   "ctx": "your teacher tonight we're gonna find things we have"
+  },
+  {
+   "op": "replace",
+   "ref": "we've",
+   "hyp": "we",
+   "ctx": "every summer great so we've both seen snow and"
+  },
+  {
+   "op": "replace",
+   "ref": "we've",
+   "hyp": "we",
+   "ctx": "both seen snow and we've both run a race"
+  },
+  {
+   "op": "replace",
+   "ref": "wanna",
+   "hyp": "want to",
+   "ctx": "never done but you wanna try i wanna go"
+  },
+  {
+   "op": "replace",
+   "ref": "wanna",
+   "hyp": "want to",
+   "ctx": "you wanna try i wanna go camping i've never"
+  },
+  {
+   "op": "replace",
+   "ref": "wanna",
+   "hyp": "want to",
+   "ctx": "a tent and i wanna try sushi i've never"
+  }
+ ],
+ "low_prob_words": [],
+ "lines_ok": "15/21",
+ "lines_with_flags": [
+  {
+   "t": 52.37,
+   "spk": "Ms. Grant",
+   "line": "Luc\u00eda and Ahmed, find two things you've both done.",
+   "ok": true,
+   "hyp": "lucia and ahmed find 2 things you've both done",
+   "min_prob": 0.33,
+   "flags": [
+    "sustained non-speech 340ms"
+   ],
+   "f0_med": 171.5
+  }
+ ],
+ "lines_not_exact": [
+  {
+   "t": 44.13,
+   "spk": "Ms. Grant",
+   "line": "Good evening! I'm Ms. Grant, your teacher. Tonight we're gonna find things we have in common.",
+   "ok": false,
+   "hyp": "good evening i'm ms grant your teacher tonight we're going to find things we have in common",
+   "min_prob": 0.56,
+   "flags": [],
+   "f0_med": 182.8
+  },
+  {
+   "t": 91.45,
+   "spk": "Ahmed",
+   "line": "Yes, I ran a five K last year. I didn't win, but I finished!",
+   "ok": false,
+   "hyp": "yes i ran a 5k last year i didn't win but i finished",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 115.8
+  },
+  {
+   "t": 102.87,
+   "spk": "Ahmed",
+   "line": "Great. So we've both seen snow, and we've both run a race.",
+   "ok": false,
+   "hyp": "great so we both seen snow and we both run a race",
+   "min_prob": 0.5,
+   "flags": [],
+   "f0_med": 103.8
+  },
+  {
+   "t": 107.58,
+   "spk": "Ms. Grant",
+   "line": "Good job! Now, what have you never done, but you wanna try?",
+   "ok": false,
+   "hyp": "good job now what have you never done but you want to try",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 161.9
+  },
+  {
+   "t": 112.47,
+   "spk": "Ahmed",
+   "line": "I wanna go camping. I've never slept in a tent.",
+   "ok": false,
+   "hyp": "i want to go camping i've never slept in a tent",
+   "min_prob": 0.61,
+   "flags": [],
+   "f0_med": 110.9
+  },
+  {
+   "t": 116.83,
+   "spk": "Luc\u00eda",
+   "line": "And I wanna try sushi. I've never eaten it.",
+   "ok": false,
+   "hyp": "and i want to try sushi i've never eaten it",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 213.6
+  }
+ ],
+ "pitch_median_hz": {
+  "Ahmed": 122.4,
+  "Luc\u00eda": 213.6,
+  "Ms. Grant": 171.5,
+  "Narrator": 194.8
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.3,
+ "peak": 0.896,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 8.88,
+   "spk": "Ahmed",
+   "line": "Hi, I'm Ahmed. Is this seat free?",
+   "ok": true,
+   "hyp": "hi i'm ahmed is this seat free",
+   "min_prob": 0.51,
+   "flags": [],
+   "f0_med": 122.4
+  },
+  {
+   "t": 13.09,
+   "spk": "Luc\u00eda",
+   "line": "Sure. I'm Luc\u00eda. Nice to meet you. Is this your first class here?",
+   "ok": true,
+   "hyp": "sure i'm lucia nice to meet you is this your first class here",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 238.4
+  },
+  {
+   "t": 19.69,
+   "spk": "Ahmed",
+   "line": "Yes, it is. Have you ever taken a class at this center?",
+   "ok": true,
+   "hyp": "yes it is have you ever taken a class at this center",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 127.0
+  },
+  {
+   "t": 24.59,
+   "spk": "Luc\u00eda",
+   "line": "No, I haven't. But my sister has. What kind of work do you do?",
+   "ok": true,
+   "hyp": "no i haven't but my sister has what kind of work do you do",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 230.3
+  },
+  {
+   "t": 31.32,
+   "spk": "Ahmed",
+   "line": "I work at a warehouse. Have you ever worked in a restaurant?",
+   "ok": true,
+   "hyp": "i work at a warehouse have you ever worked in a restaurant",
+   "min_prob": 0.79,
+   "flags": [],
+   "f0_med": 124.1
+  },
+  {
+   "t": 35.87,
+   "spk": "Luc\u00eda",
+   "line": "Yes, I have. I worked in a pizza restaurant in 2019. It was hard, but I liked it.",
+   "ok": true,
+   "hyp": "yes i have i worked in a pizza restaurant in 2019 it was hard but i liked it",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 208.8
+  },
+  {
+   "t": 44.13,
+   "spk": "Ms. Grant",
+   "line": "Good evening! I'm Ms. Grant, your teacher. Tonight we're gonna find things we have in common.",
+   "ok": false,
+   "hyp": "good evening i'm ms grant your teacher tonight we're going to find things we have in common",
+   "min_prob": 0.56,
+   "flags": [],
+   "f0_med": 182.8
+  },
+  {
+   "t": 52.37,
+   "spk": "Ms. Grant",
+   "line": "Luc\u00eda and Ahmed, find two things you've both done.",
+   "ok": true,
+   "hyp": "lucia and ahmed find 2 things you've both done",
+   "min_prob": 0.33,
+   "flags": [
+    "sustained non-speech 340ms"
+   ],
+   "f0_med": 171.5
+  },
+  {
+   "t": 57.01,
+   "spk": "Luc\u00eda",
+   "line": "OK. Ahmed, have you ever seen snow?",
+   "ok": true,
+   "hyp": "ok ahmed have you ever seen snow",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 221.8
+  },
+  {
+   "t": 61.17,
+   "spk": "Ahmed",
+   "line": "Yes! I saw snow for the first time last winter. It was cold, but beautiful.",
+   "ok": true,
+   "hyp": "yes i saw snow for the first time last winter it was cold but beautiful",
+   "min_prob": 0.47,
+   "flags": [],
+   "f0_med": 106.2
+  },
+  {
+   "t": 67.88,
+   "spk": "Luc\u00eda",
+   "line": "Me too. I've seen snow two times. Have you ever ridden a horse?",
+   "ok": true,
+   "hyp": "me too i've seen snow 2 times have you ever ridden a horse",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 203.4
+  },
+  {
+   "t": 74.14,
+   "spk": "Ahmed",
+   "line": "No, never. I've never ridden a horse. Have you?",
+   "ok": true,
+   "hyp": "no never i've never ridden a horse have you",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 122.7
+  },
+  {
+   "t": 78.23,
+   "spk": "Luc\u00eda",
+   "line": "Yes, I have.",
+   "ok": true,
+   "hyp": "yes i have",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 201.1
+  },
+  {
+   "t": 80.56,
+   "spk": "Ahmed",
+   "line": "Really? When did you do that?",
+   "ok": true,
+   "hyp": "really when did you do that",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 137.7
+  },
+  {
+   "t": 83.35,
+   "spk": "Luc\u00eda",
+   "line": "When I was ten, on my uncle's farm. OK, snow is one thing. Have you ever run a race?",
+   "ok": true,
+   "hyp": "when i was 10 on my uncle's farm ok snow is 1 thing have you ever run a race",
+   "min_prob": 0.6,
+   "flags": [],
+   "f0_med": 217.4
+  },
+  {
+   "t": 91.45,
+   "spk": "Ahmed",
+   "line": "Yes, I ran a five K last year. I didn't win, but I finished!",
+   "ok": false,
+   "hyp": "yes i ran a 5k last year i didn't win but i finished",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 115.8
+  },
+  {
+   "t": 97.41,
+   "spk": "Luc\u00eda",
+   "line": "I've run a race, too. My company has a race every summer.",
+   "ok": true,
+   "hyp": "i've run a race too my company has a race every summer",
+   "min_prob": 0.49,
+   "flags": [],
+   "f0_med": 202.8
+  },
+  {
+   "t": 102.87,
+   "spk": "Ahmed",
+   "line": "Great. So we've both seen snow, and we've both run a race.",
+   "ok": false,
+   "hyp": "great so we both seen snow and we both run a race",
+   "min_prob": 0.5,
+   "flags": [],
+   "f0_med": 103.8
+  },
+  {
+   "t": 107.58,
+   "spk": "Ms. Grant",
+   "line": "Good job! Now, what have you never done, but you wanna try?",
+   "ok": false,
+   "hyp": "good job now what have you never done but you want to try",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 161.9
+  },
+  {
+   "t": 112.47,
+   "spk": "Ahmed",
+   "line": "I wanna go camping. I've never slept in a tent.",
+   "ok": false,
+   "hyp": "i want to go camping i've never slept in a tent",
+   "min_prob": 0.61,
+   "flags": [],
+   "f0_med": 110.9
+  },
+  {
+   "t": 116.83,
+   "spk": "Luc\u00eda",
+   "line": "And I wanna try sushi. I've never eaten it.",
+   "ok": false,
+   "hyp": "and i want to try sushi i've never eaten it",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 213.6
+  }
+ ],
+ "hyp": "lesson 1 it's the first night of an english class at a community center lucia and ahmed meet before class hi i'm ahmed is this seat free sure i'm lucia nice to meet you is this your first class here yes it is have you ever taken a class at this center no i haven't but my sister has what kind of work do you do i work at a warehouse have you ever worked in a restaurant yes i have i worked in a pizza restaurant in 2019 it was hard but i liked it good evening i'm ms grant your teacher tonight we're going to find things we have in common lucia and ahmed find 2 things you've both done ok ahmed have you ever seen snow yes i saw snow for the first time last winter it was cold but beautiful me too i've seen snow 2 times have you ever ridden a horse no never i've never ridden a horse have you yes i have really when did you do that when i was 10 on my uncle's farm ok snow is 1 thing have you ever run a race yes i ran a 5k last year i didn't win but i finished i've run a race too my company has a race every summer great so we both seen snow and we both run a race good job now what have you never done but you want to try i want to go camping i've never slept in a tent and i want to try sushi i've never eaten it that's the end of the listening"
+}

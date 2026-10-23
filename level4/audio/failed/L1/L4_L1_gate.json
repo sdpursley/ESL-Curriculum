@@ -1,0 +1,215 @@
+{
+ "duration_s": 124.03,
+ "duration": "2:04",
+ "length_ok": true,
+ "small_whole_file_wer": 0.0375,
+ "small_whole_file_errors": "10/267",
+ "small_whole_file_diffs": [
+  {
+   "op": "replace",
+   "ref": "gonna",
+   "hyp": "going to",
+   "ctx": "your teacher tonight we're gonna find things we have"
+  },
+  {
+   "op": "replace",
+   "ref": "we've",
+   "hyp": "we",
+   "ctx": "every summer great so we've both seen snow and"
+  },
+  {
+   "op": "replace",
+   "ref": "we've",
+   "hyp": "we",
+   "ctx": "both seen snow and we've both run a race"
+  },
+  {
+   "op": "replace",
+   "ref": "wanna",
+   "hyp": "want to",
+   "ctx": "never done but you wanna try i wanna go"
+  },
+  {
+   "op": "replace",
+   "ref": "wanna",
+   "hyp": "want to",
+   "ctx": "you wanna try i wanna go camping i've never"
+  },
+  {
+   "op": "replace",
+   "ref": "wanna",
+   "hyp": "want to",
+   "ctx": "a tent and i wanna try sushi i've never"
+  }
+ ],
+ "small_lines_ok": "15/21",
+ "small_line_problems": [
+  {
+   "t": 44.13,
+   "spk": "Ms. Grant",
+   "line": "Good evening! I'm Ms. Grant, your teacher. Tonight we're gonna find things we have in common.",
+   "hyp": "good evening i'm ms grant your teacher tonight we're going to find things we have in common",
+   "flags": []
+  },
+  {
+   "t": 52.37,
+   "spk": "Ms. Grant",
+   "line": "Luc\u00eda and Ahmed, find two things you've both done.",
+   "hyp": "lucia and ahmed find 2 things you've both done",
+   "flags": [
+    "sustained non-speech 340ms"
+   ]
+  },
+  {
+   "t": 91.45,
+   "spk": "Ahmed",
+   "line": "Yes, I ran a five K last year. I didn't win, but I finished!",
+   "hyp": "yes i ran a 5k last year i didn't win but i finished",
+   "flags": []
+  },
+  {
+   "t": 102.87,
+   "spk": "Ahmed",
+   "line": "Great. So we've both seen snow, and we've both run a race.",
+   "hyp": "great so we both seen snow and we both run a race",
+   "flags": []
+  },
+  {
+   "t": 107.58,
+   "spk": "Ms. Grant",
+   "line": "Good job! Now, what have you never done, but you wanna try?",
+   "hyp": "good job now what have you never done but you want to try",
+   "flags": []
+  },
+  {
+   "t": 112.47,
+   "spk": "Ahmed",
+   "line": "I wanna go camping. I've never slept in a tent.",
+   "hyp": "i want to go camping i've never slept in a tent",
+   "flags": []
+  },
+  {
+   "t": 116.83,
+   "spk": "Luc\u00eda",
+   "line": "And I wanna try sushi. I've never eaten it.",
+   "hyp": "and i want to try sushi i've never eaten it",
+   "flags": []
+  }
+ ],
+ "medium_per_line": {
+  "wer": 0.052,
+  "errors": 14,
+  "words": 268,
+  "exact": "17/23"
+ },
+ "medium_differences": [
+  "('Ms. Grant', \"Good evening! I'm Ms. Grant, your teacher. Tonight we're gonna find things we have in common.\", \"good evening i'm ms grant your teacher tonight we're going to find things we have in common\")",
+  "('Ahmed', \"Yes, I ran a five K last year. I didn't win, but I finished!\", \"yes i ran a 5k last year i didn't win but i finished thank you\")",
+  "('Ahmed', \"Great. So we've both seen snow, and we've both run a race.\", 'great so we both seen snow and we both run a race')",
+  "('Ms. Grant', 'Good job! Now, what have you never done, but you wanna try?', 'good job now what have you never done but you want to try')",
+  "('Ahmed', \"I wanna go camping. I've never slept in a tent.\", \"i want to go camping i've never slept in a tent\")",
+  "('Luc\u00eda', \"And I wanna try sushi. I've never eaten it.\", \"and i want to try sushi i've never eaten it\")"
+ ],
+ "pitch_median_hz": {
+  "Ahmed": 122.4,
+  "Luc\u00eda": 213.6,
+  "Ms. Grant": 171.5,
+  "Narrator": 194.8
+ },
+ "pitch_problems": [
+  {
+   "t": 107.58,
+   "spk": "Ms. Grant",
+   "f0": 161.9,
+   "line": "Good job! Now, what have you never done, but you wanna try?"
+  }
+ ],
+ "clipped_samples": 0,
+ "peak": 0.896,
+ "loudness_lufs": -16.7,
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "gaps_ok": true,
+ "noisy_pauses": [],
+ "failed_sentences": [
+  "Luc\u00eda and Ahmed meet before class.",
+  "Sure. I'm Luc\u00eda.",
+  "Tonight we're gonna find things we have in common.",
+  "Luc\u00eda and Ahmed, find two things you've both done.",
+  "Yes, I ran a five K last year.",
+  "Good job! Now, what have you never done, but you wanna try?",
+  "I wanna go camping.",
+  "And I wanna try sushi."
+ ],
+ "sentences": 43,
+ "takes_tried": 176,
+ "lines_wrong_in_both_checkers": [
+  {
+   "t": 44.13,
+   "spk": "Ms. Grant",
+   "line": "Good evening! I'm Ms. Grant, your teacher. Tonight we're gonna find things we have in common.",
+   "hyp": "good evening i'm ms grant your teacher tonight we're going to find things we have in common",
+   "flags": []
+  },
+  {
+   "t": 91.45,
+   "spk": "Ahmed",
+   "line": "Yes, I ran a five K last year. I didn't win, but I finished!",
+   "hyp": "yes i ran a 5k last year i didn't win but i finished",
+   "flags": []
+  },
+  {
+   "t": 102.87,
+   "spk": "Ahmed",
+   "line": "Great. So we've both seen snow, and we've both run a race.",
+   "hyp": "great so we both seen snow and we both run a race",
+   "flags": []
+  },
+  {
+   "t": 107.58,
+   "spk": "Ms. Grant",
+   "line": "Good job! Now, what have you never done, but you wanna try?",
+   "hyp": "good job now what have you never done but you want to try",
+   "flags": []
+  },
+  {
+   "t": 112.47,
+   "spk": "Ahmed",
+   "line": "I wanna go camping. I've never slept in a tent.",
+   "hyp": "i want to go camping i've never slept in a tent",
+   "flags": []
+  },
+  {
+   "t": 116.83,
+   "spk": "Luc\u00eda",
+   "line": "And I wanna try sushi. I've never eaten it.",
+   "hyp": "and i want to try sushi i've never eaten it",
+   "flags": []
+  }
+ ],
+ "single_checker_misses_or_flags_ignored": {
+  "small": [
+   {
+    "t": 52.37,
+    "spk": "Ms. Grant",
+    "line": "Luc\u00eda and Ahmed, find two things you've both done.",
+    "hyp": "lucia and ahmed find 2 things you've both done",
+    "flags": [
+     "sustained non-speech 340ms"
+    ]
+   }
+  ],
+  "medium": [
+   "('Ms. Grant', \"Good evening! I'm Ms. Grant, your teacher. Tonight we're gonna find things we have in common.\", \"good evening i'm ms grant your teacher tonight we're going to find things we have in common\")",
+   "('Ahmed', \"Yes, I ran a five K last year. I didn't win, but I finished!\", \"yes i ran a 5k last year i didn't win but i finished thank you\")",
+   "('Ahmed', \"Great. So we've both seen snow, and we've both run a race.\", 'great so we both seen snow and we both run a race')",
+   "('Ms. Grant', 'Good job! Now, what have you never done, but you wanna try?', 'good job now what have you never done but you want to try')",
+   "('Ahmed', \"I wanna go camping. I've never slept in a tent.\", \"i want to go camping i've never slept in a tent\")",
+   "('Luc\u00eda', \"And I wanna try sushi. I've never eaten it.\", \"and i want to try sushi i've never eaten it\")"
+  ]
+ },
+ "rule": "line bad only if small.en AND medium.en both mishear it; pitch, clipping, length, gaps, FAILED still gate",
+ "PASS": false
+}

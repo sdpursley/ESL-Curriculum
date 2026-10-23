@@ -1,12 +1,12 @@
 # Level 4 listening audio: status
 
-**No Level 4 audio has been rendered yet.** Each lesson has a listening script and a cast file ready for the audio handoff in `level4/audio/tools/` (`scripts/script_L4_LN.py`, `cast/cast_L4_LN.json`). The lesson books say "not recorded yet" and link to no audio file.
+**Lesson 1 has a failed listening draft** in `level4/audio/failed/L1/`. It was not recorded again. Each lesson has a listening script and a cast file ready for the audio handoff in `level4/audio/tools/` (`scripts/script_L4_LN.py`, `cast/cast_L4_LN.json`). The lesson books say "not recorded yet" and link to no audio file.
 
 When audio is made, it will use synthetic voices made with Chatterbox TTS (Resemble AI, MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0). No real person's voice is used. Female characters get female reference voices.
 
 | Lesson | Title | Script | Cast | Audio |
 |---|---|---|---|---|
-| 1 | Have You Ever…? | `scripts/script_L4_L1.py` | `cast/cast_L4_L1.json` | to do |
+| 1 | Have You Ever…? | `scripts/script_L4_L1.py` | `cast/cast_L4_L1.json` | failed draft, gate did not pass |
 | 2 | How Long Have You Lived Here? | `scripts/script_L4_L2.py` | `cast/cast_L4_L2.json` | to do |
 | 3 | Have You Finished Yet? | `scripts/script_L4_L3.py` | `cast/cast_L4_L3.json` | to do |
 | 4 | How Long Have You Had It? | `scripts/script_L4_L4.py` | `cast/cast_L4_L4.json` | to do |
