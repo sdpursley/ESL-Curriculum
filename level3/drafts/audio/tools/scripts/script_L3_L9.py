@@ -3,7 +3,7 @@
 LESSON = 9
 TITLE = 'My Strengths'
 VOICES = {'Narrator': 'N', 'Lucia': 'Ana_af_jessica', 'Mr. Hall': 'Sam'}
-FEMALE = {'Narrator', 'Lucia'}
+FEMALE = {'Lucia', 'Narrator'}
 NAMES = {'lucia', 'hall'}
 SAME = {'okay': 'ok', 'mister': 'mr'}
 INTRO = 'Lesson nine. Listening. Lucia has a job interview at a hotel. Mr. Hall is the manager. Listen.'
@@ -17,7 +17,7 @@ LINES = [
  ('Mr. Hall', 'Good. Do you enjoy working on a team?'),
  ('Lucia', 'Yes, I enjoy helping people. I like teamwork.'),
  ('Mr. Hall', 'Are you interested in training? We have a class for new workers.'),
- ('Lucia', "Yes! I'm very interested in learning about the machines here."),
+ ('Lucia', "Yes! I'm very interested in learning about the machines here.", "Yes. I'm very interested in learning about the machines here."),
  ('Mr. Hall', 'Which shift can you work?'),
  ('Lucia', "I can work the day shift. And I don't mind working weekends."),
  ('Mr. Hall', "Great. I'd like you to meet our team. Can you come back on Thursday for a second interview?"),
