@@ -639,7 +639,7 @@ Then `npm run build`, preview every Level 1–4 page, and check that Level 1–3
 
 Draft copies of Level 3 Lessons 2–13 stay in `level3/drafts/` (`curriculum/`, `images/`, `audio/`, `audio/tools/`). The website does not read
 this folder. Published copies are in `level3/curriculum/`, `level3/images/`, and `level3/audio/`. Which lessons still need audio is in [`level3/AUDIO_STATUS.md`](level3/AUDIO_STATUS.md):
-**done**, **partial**, or **to-do**, with the lines that remain. Level 3's draft audio is in this repository. For the next level, make a new branch from `main` the same way (`level3-L2-13-audio-handoff` was that branch for Level 3) and run the commands below on that branch.
+**done**, **partial**, or **to-do**, with the lines that remain. Level 3's draft audio is in this repository. For the next level, make a new branch from `main` the same way (`level3-L2-13-audio-handoff` was that branch for Level 3) and run the commands below on that branch. The token-efficient way to run that job on this machine is [Token-efficient local run](#token-efficient-local-run).
 All rules in sections 3 and 4 apply. The Level 3 drafts tooling is in `level3/drafts/audio/tools/`:
 
 | File | What it does |
@@ -727,6 +727,32 @@ If a lesson's Markdown changes, run `.venv-audio/bin/python $T/make_script_L3.py
    git commit -m "Level 3 Lesson <N> draft listening audio" && git push origin <audio-branch>
    ```
    A normal push only, never force-push. Moving drafts onto the website (into `level3/curriculum/`, `level3/images/`, `level3/audio/`) is a separate step that needs the owner's approval.
+
+### Token-efficient local run
+
+Use this when the owner asks for a level's listening audio on this machine. The recorder is a local script. Start it, then leave it alone. Reading the build log from the chat, or starting a second loop to re-decide takes, spends tokens and does not make the audio.
+
+**Branch.** One feature branch holds the lessons that pass. Level 3 used `level3-L2-13-audio-handoff`, made from `main`. Level 4's scripts and tools are not on `main`, so `level4-audio` starts from `origin/level4-lessons` (commit `c48e8c3`). A later level that is already on `main` starts from `main`. Keep the main checkout on `main` and do the recording in a second worktree. Merging the audio branch into `main` needs the owner's approval. A push to `main` deploys the website.
+
+**One job.** Start the driver with `setsid`, in its own session, so clearing a task list does not kill it. One quiet monitor may watch that process. The monitor stays silent until the run finishes, the process dies, no log file under the driver's state directory or `out/` changes for 90 minutes, or a long deadline. Driver scripts live in `~/.grok/long-running-background-tasks/` and are not committed. State for a run (pid, exclude files, stop notes) lives in a directory next to those scripts.
+
+**This computer.** There is no CUDA and no MPS. Set `TTS_DEVICE=cpu`, `NT=2`, `OMP_NUM_THREADS=2`, `MKL_NUM_THREADS=2`, `OPENBLAS_NUM_THREADS=2`, `WHISPER_DEVICE=cpu`, `WHISPER_COMPUTE=float32`, `WHISPER_THREADS=1`, `TOKENIZERS_PARALLELISM=false`, `HF_HUB_DISABLE_TELEMETRY=1`, `TMPDIR=~/.cache/esl-audio-tmp`, and `MALLOC_ARENA_MAX=2`. The virtual environment is the main checkout's `.venv-audio` (Python 3.11). A worktree has no venv; set `PY` to `/home/sdpursley/Projects/ESL-Curriculum/.venv-audio/bin/python`. ffmpeg is `/usr/bin/ffmpeg`.
+
+**One model.** Only one Chatterbox or Whisper process, under `flock` on `/tmp/chatterbox.lock`. Leave the recorder running until it finishes. Finished takes stay in `cache/` and are reused. A second Chatterbox or Whisper ran out of memory on this machine.
+
+**Pass, then push.** Up to 3 gated runs per lesson. Seeds are `2026 + k·7919`, at most 16 (`MAXT`). After the gate says PASS, publish the MP3 and the check files, set the status row and the real length in the listening-script heading, and commit only those files plus the status file and the lesson Markdown. Then `git push -u origin <audio-branch>` (a normal push). The owner reviews the branch after the set is pushed. A person still listens to each MP3 once. The model cannot hear audio.
+
+**A lesson that cannot pass.** When a sentence has used all 16 seeds and still fails, or the length is outside that level's gate, or no unused seed remains: leave that lesson as it is. Put it on its own branch, named `level<V>-L<N>-audio-failed`, with the MP3, the log, the check JSON, the gate JSON, the second opinion, and a short note that the gate did not pass. Leave the WAV, `cache/`, and `out/` uncommitted. Open a GitHub issue that names the lesson, the duration, the sentences that failed, what the checkers heard, and the branch. Label the issue `audio`. Create the label once if it is missing:
+
+```bash
+gh label create audio --repo sdpursley/ESL-Curriculum --description "Listening audio builds and checker failures" --color 1d76db
+```
+
+Skip that lesson and continue the queue. Keep the pass rule as it is. A script change or a checker change needs the owner's decision before that lesson is recorded again.
+
+**Numbers and reductions.** `canon.py` already treats number words and digits as the same string, so a line can match and still fail the take when a word probability stays under 0.5. Spelled letters and digit strings are checked by ear (section 4). `canon.py` does not treat *gonna* as "going to" or *wanna* as "want to".
+
+**Level 4, with sections 3 and 4.** Tools: `level4/audio/tools/run_audio_L4.sh <N>` (build, small.en, medium.en, gate) and `publish_audio_L4.sh <N> ['notes']`. Narrator **0.55 / 0.40**, characters **0.72 / 0.32**. Whole-sentence takes. Pauses **1.3–1.5 s** (the gate accepts 1.25–1.6). Length gate **1:30–2:15**. The gate fails a heard line only when both checkers miss it. Pitch, clipping, length, gaps, and a sentence that used every seed still fail the gate. A lesson may have more than three voices. Commit message for a passing lesson: `Level 4 Lesson <N> draft listening audio`. The same never-commit check as above: the staged diff must contain no `.wav`, `.onnx`, `.bin`, `.pt`, `venv`, `cache/`, or `out/`.
 
 ---
 
