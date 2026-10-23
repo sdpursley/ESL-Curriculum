@@ -1,0 +1,290 @@
+{
+ "file": "L4_L4_listening.mp3",
+ "duration_s": 119.01,
+ "wer": 0.0294,
+ "errors": 8,
+ "ref_words": 272,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "gonna",
+   "hyp": "going to",
+   "ctx": "amina i'm daniel i'm gonna ask you a few"
+  },
+  {
+   "op": "replace",
+   "ref": "wanna",
+   "hyp": "want to",
+   "ctx": "months you're right i wanna make an appointment with"
+  },
+  {
+   "op": "delete",
+   "ref": "good idea thank you",
+   "hyp": "",
+   "ctx": "shot here next week good idea thank you that's the end of"
+  }
+ ],
+ "low_prob_words": [],
+ "lines_ok": "20/22",
+ "lines_with_flags": [],
+ "lines_not_exact": [
+  {
+   "t": 8.18,
+   "spk": "Daniel",
+   "line": "Hi, Amina. I'm Daniel. I'm gonna ask you a few questions for your health history. What brings you in today?",
+   "ok": false,
+   "hyp": "hi amina i'm daniel i'm going to ask you a few questions for your health history what brings you in today",
+   "min_prob": 0.57,
+   "flags": [],
+   "f0_med": 110.6
+  },
+  {
+   "t": 102.77,
+   "spk": "Amina",
+   "line": "You're right. I wanna make an appointment with the dentist.",
+   "ok": false,
+   "hyp": "you're right i want to make an appointment with the dentist",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 237.0
+  }
+ ],
+ "pitch_median_hz": {
+  "Daniel": 120.6,
+  "Amina": 210.0,
+  "Narrator": 188.2,
+  "Ms. Park": 176.6
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.3,
+ "peak": 0.919,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.8,
+ "per_line": [
+  {
+   "t": 8.18,
+   "spk": "Daniel",
+   "line": "Hi, Amina. I'm Daniel. I'm gonna ask you a few questions for your health history. What brings you in today?",
+   "ok": false,
+   "hyp": "hi amina i'm daniel i'm going to ask you a few questions for your health history what brings you in today",
+   "min_prob": 0.57,
+   "flags": [],
+   "f0_med": 110.6
+  },
+  {
+   "t": 15.58,
+   "spk": "Amina",
+   "line": "My lower back hurts. It isn't very bad, but it hasn't stopped.",
+   "ok": true,
+   "hyp": "my lower back hurts it isn't very bad but it hasn't stopped",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 210.0
+  },
+  {
+   "t": 21.48,
+   "spk": "Daniel",
+   "line": "I'm sorry to hear that. How long have you had the back pain?",
+   "ok": true,
+   "hyp": "i'm sorry to hear that how long have you had the back pain",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 120.9
+  },
+  {
+   "t": 26.0,
+   "spk": "Amina",
+   "line": "I've had it for about two weeks. It started when I moved some heavy boxes.",
+   "ok": true,
+   "hyp": "i've had it for about 2 weeks it started when i moved some heavy boxes",
+   "min_prob": 0.5,
+   "flags": [],
+   "f0_med": 234.3
+  },
+  {
+   "t": 32.3,
+   "spk": "Daniel",
+   "line": "OK. Have you ever had back problems before?",
+   "ok": true,
+   "hyp": "ok have you ever had back problems before",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 123.4
+  },
+  {
+   "t": 36.35,
+   "spk": "Amina",
+   "line": "No, never. This is the first time.",
+   "ok": true,
+   "hyp": "no never this is the first time",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 210.0
+  },
+  {
+   "t": 40.91,
+   "spk": "Daniel",
+   "line": "Have you ever had surgery?",
+   "ok": true,
+   "hyp": "have you ever had surgery",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 119.6
+  },
+  {
+   "t": 43.62,
+   "spk": "Amina",
+   "line": "Yes, I had knee surgery in 2018.",
+   "ok": true,
+   "hyp": "yes i had knee surgery in 2018",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 195.9
+  },
+  {
+   "t": 47.77,
+   "spk": "Daniel",
+   "line": "Thank you. Do you have any allergies?",
+   "ok": true,
+   "hyp": "thank you do you have any allergies",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 134.6
+  },
+  {
+   "t": 51.19,
+   "spk": "Amina",
+   "line": "Yes, I'm allergic to penicillin. I get a rash.",
+   "ok": true,
+   "hyp": "yes i'm allergic to penicillin i get a rash",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 204.0
+  },
+  {
+   "t": 56.18,
+   "spk": "Daniel",
+   "line": "I'll write that down. Have you tried anything for the pain?",
+   "ok": true,
+   "hyp": "i'll write that down have you tried anything for the pain",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 120.2
+  },
+  {
+   "t": 60.77,
+   "spk": "Amina",
+   "line": "I've used a heating pad a few times. It helps a little.",
+   "ok": true,
+   "hyp": "i've used a heating pad a few times it helps a little",
+   "min_prob": 0.98,
+   "flags": [],
+   "f0_med": 210.0
+  },
+  {
+   "t": 65.48,
+   "spk": "Daniel",
+   "line": "Have you felt dizzy?",
+   "ok": true,
+   "hyp": "have you felt dizzy",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 124.8
+  },
+  {
+   "t": 67.84,
+   "spk": "Amina",
+   "line": "No, I haven't.",
+   "ok": true,
+   "hyp": "no i haven't",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 207.1
+  },
+  {
+   "t": 70.63,
+   "spk": "Daniel",
+   "line": "Good. Now let me check your blood pressure. It's one eighteen over seventy-six. That's fine. The doctor's gonna see you in a few minutes.",
+   "ok": true,
+   "hyp": "good now let me check your blood pressure it's 118 over 76 that's fine the doctor's gonna see you in a few minutes",
+   "min_prob": 0.43,
+   "flags": [],
+   "f0_med": 114.5
+  },
+  {
+   "t": 79.46,
+   "spk": "Narrator",
+   "line": "Later, at checkout, Amina talks to Ms. Park, the receptionist.",
+   "ok": true,
+   "hyp": "later at checkout amina talks to ms park the receptionist",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 186.0
+  },
+  {
+   "t": 85.44,
+   "spk": "Ms. Park",
+   "line": "Hi, Amina. Your copay today is twenty dollars.",
+   "ok": true,
+   "hyp": "hi amina your copay today is 20 dollars",
+   "min_prob": 0.76,
+   "flags": [],
+   "f0_med": 188.1
+  },
+  {
+   "t": 89.26,
+   "spk": "Amina",
+   "line": "OK. Here's my new insurance card. I've had it since January.",
+   "ok": true,
+   "hyp": "ok here's my new insurance card i've had it since january",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 214.9
+  },
+  {
+   "t": 94.94,
+   "spk": "Ms. Park",
+   "line": "Thank you. Also, you haven't had a teeth cleaning for a year, and you haven't had a checkup since last spring. It's a good idea to get one every six months.",
+   "ok": true,
+   "hyp": "thank you also you haven't had a teeth cleaning for a year and you haven't had a checkup since last spring it's a good idea to get 1 every 6 months",
+   "min_prob": 0.09,
+   "flags": [],
+   "f0_med": 170.5
+  },
+  {
+   "t": 102.77,
+   "spk": "Amina",
+   "line": "You're right. I wanna make an appointment with the dentist.",
+   "ok": false,
+   "hyp": "you're right i want to make an appointment with the dentist",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 237.0
+  },
+  {
+   "t": 106.93,
+   "spk": "Ms. Park",
+   "line": "Why don't you call the dental office tomorrow? Here's the number. And you could get a flu shot here next week.",
+   "ok": true,
+   "hyp": "why don't you call the dental office tomorrow here's the number and you could get a flu shot here next week",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 176.6
+  },
+  {
+   "t": 114.03,
+   "spk": "Amina",
+   "line": "Good idea. Thank you!",
+   "ok": true,
+   "hyp": "good idea thank you",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 249.7
+  }
+ ],
+ "hyp": "lesson 4 amina is at a clinic first she talks to daniel the medical assistant hi amina i'm daniel i'm going to ask you a few questions for your health history what brings you in today my lower back hurts it isn't very bad but it hasn't stopped i'm sorry to hear that how long have you had the back pain i've had it for about 2 weeks it started when i moved some heavy boxes ok have you ever had back problems before no never this is the first time have you ever had surgery yes i had knee surgery in 2018 thank you do you have any allergies yes i'm allergic to penicillin i get a rash i'll write that down have you tried anything for the pain i've used a heating pad a few times it helps a little have you felt dizzy no i haven't good now let me check your blood pressure it's 118 over 76 that's fine the doctor's gonna see you in a few minutes later at checkout amina talks to ms park the receptionist hi amina your copay today is 20 dollars ok here's my new insurance card i've had it since january thank you also you haven't had a teeth cleaning for a year and you haven't had a checkup since last spring it's a good idea to get 1 every 6 months you're right i want to make an appointment with the dentist why don't you call the dental office tomorrow here's the number and you could get a flu shot here next week that's the end of the listening"
+}

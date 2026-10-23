@@ -1,0 +1,6 @@
+medium.en per-line WER 0.029 (8/272), 19/24 lines exact
+   ('Daniel', "Hi, Amina. I'm Daniel. I'm gonna ask you a few questions for your health history. What brings you in today?", "hi amina i'm daniel i'm going to ask you a few questions for your health history what brings you in today")
+   ('Amina', "I've had it for about two weeks. It started when I moved some heavy boxes.", "i've had it for about 2 weeks it started when i moved some heady boxes")
+   ('Daniel', "Good. Now let me check your blood pressure. It's one eighteen over seventy-six. That's fine. The doctor's gonna see you in a few minutes.", "good now let me check your blood pressure it's 118 over 76 that's fine the doctor's going to see you in a few minutes")
+   ('Ms. Park', "Thank you. Also, you haven't had a teeth cleaning for a year, and you haven't had a checkup since last spring. It's a good idea to get one every six months.", "thank you also you haven't had a tea cleaning for a year and you haven't had a checkup since last spring it's a good idea to get 1 every 6 months")
+   ('Amina', "You're right. I wanna make an appointment with the dentist.", "you're right i want to make an appointment with the dentist")
