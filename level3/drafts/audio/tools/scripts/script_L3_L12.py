@@ -3,9 +3,9 @@
 LESSON = 12
 TITLE = "Something's Wrong"
 VOICES = {'Narrator': 'N', 'Sara': 'Receptionist', 'Mr. Grant': 'Sam'}
-FEMALE = {'Sara', 'Narrator'}
-NAMES = {'grant', 'sara', 'maple'}
-SAME = {'okay': 'ok', 'mister': 'mr'}
+FEMALE = {'Narrator', 'Sara'}
+NAMES = {'sara', 'maple', 'grant'}
+SAME = {'okay': 'ok', 'mister': 'mr', 'sarah': 'sara'}
 INTRO = "Lesson twelve. Listening. Sara lives in an apartment. She's calling the building office about some problems. Listen."
 LINES = [
  ('Mr. Grant', 'Maple Court Apartments, this is Mr. Grant. How can I help you?'),

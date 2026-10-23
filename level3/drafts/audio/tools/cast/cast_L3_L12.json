@@ -2,5 +2,5 @@
  "VOICES": {"Narrator": "N", "Sara": "Receptionist", "Mr. Grant": "Sam"},
  "FEMALE": ["Narrator", "Sara"],
  "NAMES": ["sara", "grant", "maple"],
- "SAME": {"okay": "ok", "mister": "mr"},
+ "SAME": {"okay": "ok", "mister": "mr", "sarah": "sara"},
  "TTS": {}}
