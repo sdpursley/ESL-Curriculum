@@ -170,7 +170,7 @@
 :::
 
 ---
-### Listening script: `L3_L13_listening.mp3` (about 1:15; the talk plays once, so press play again for the second listen)
+### Listening script: `L3_L13_listening.mp3` (about 1:09; the talk plays once, so press play again for the second listen)
 
 > **Audio:** play from a phone + small speaker. No speaker? Read the script with a volunteer, at a normal, friendly speed.
 

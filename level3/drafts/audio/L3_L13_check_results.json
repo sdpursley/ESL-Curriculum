@@ -1,0 +1,139 @@
+{
+ "file": "L3_L13_listening.mp3",
+ "duration_s": 68.98,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 159,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "11/11",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Mr. Novak": 117.2,
+  "Sofia": 214.2,
+  "Narrator": 181.7
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.8,
+ "peak": 0.897,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 11.01,
+   "spk": "Mr. Novak",
+   "line": "Welcome back, Sofia! Please tell us about your goals.",
+   "ok": true,
+   "hyp": "welcome back sofia please tell us about your goals",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 103.8
+  },
+  {
+   "t": 16.02,
+   "spk": "Sofia",
+   "line": "Thank you. Three years ago, I came to this class. I was nervous, and my English was not very good.",
+   "ok": true,
+   "hyp": "thank you 3 years ago i came to this class i was nervous and my english was not very good",
+   "min_prob": 0.43,
+   "flags": [],
+   "f0_med": 212.4
+  },
+  {
+   "t": 23.2,
+   "spk": "Sofia",
+   "line": "Now I work at a hotel, and I can talk with my coworkers in English.",
+   "ok": true,
+   "hyp": "now i work at a hotel and i can talk with my coworkers in english",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 199.3
+  },
+  {
+   "t": 28.36,
+   "spk": "Mr. Novak",
+   "line": "That's great. What's your main goal?",
+   "ok": true,
+   "hyp": "that's great what's your main goal",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 117.2
+  },
+  {
+   "t": 31.54,
+   "spk": "Sofia",
+   "line": "My main goal is to get a medical assistant certificate. I hope to work at a clinic.",
+   "ok": true,
+   "hyp": "my main goal is to get a medical assistant certificate i hope to work at a clinic",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 207.6
+  },
+  {
+   "t": 38.29,
+   "spk": "Mr. Novak",
+   "line": "How are you going to do that?",
+   "ok": true,
+   "hyp": "how are you going to do that",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 108.1
+  },
+  {
+   "t": 41.03,
+   "spk": "Sofia",
+   "line": "First, I'm going to take a computer class at the community college. It starts in January.",
+   "ok": true,
+   "hyp": "first i'm going to take a computer class at the community college it starts in january",
+   "min_prob": 0.61,
+   "flags": [],
+   "f0_med": 216.1
+  },
+  {
+   "t": 47.35,
+   "spk": "Sofia",
+   "line": "After that, I'll apply for the certificate program. And I hope to help my kids with their homework, too.",
+   "ok": true,
+   "hyp": "after that i'll apply for the certificate program and i hope to help my kids with their homework too",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 223.7
+  },
+  {
+   "t": 54.31,
+   "spk": "Mr. Novak",
+   "line": "Any advice for the class?",
+   "ok": true,
+   "hyp": "any advice for the class",
+   "min_prob": 0.96,
+   "flags": [],
+   "f0_med": 144.2
+  },
+  {
+   "t": 57.15,
+   "spk": "Sofia",
+   "line": "Yes. Come every week, and don't be afraid to make mistakes. You can do it!",
+   "ok": true,
+   "hyp": "yes come every week and don't be afraid to make mistakes you can do it",
+   "min_prob": 0.76,
+   "flags": [],
+   "f0_med": 222.5
+  },
+  {
+   "t": 63.75,
+   "spk": "Mr. Novak",
+   "line": "Thank you, Sofia. Good luck!",
+   "ok": true,
+   "hyp": "thank you sofia good luck",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 117.2
+  }
+ ],
+ "hyp": "lesson 13 listening sofia was a level 3 student tonight she's talking to the class about her goals listen welcome back sofia please tell us about your goals thank you 3 years ago i came to this class i was nervous and my english was not very good now i work at a hotel and i can talk with my coworkers in english that's great what's your main goal my main goal is to get a medical assistant certificate i hope to work at a clinic how are you going to do that first i'm going to take a computer class at the community college it starts in january after that i'll apply for the certificate program and i hope to help my kids with their homework too any advice for the class yes come every week and don't be afraid to make mistakes you can do it thank you sofia good luck that's the end of the listening"
+}
