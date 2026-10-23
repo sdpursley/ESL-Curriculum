@@ -13,13 +13,16 @@
  ],
  "NAMES": [
   "Lucía",
+  "Lucia",
   "Ahmed",
   "Grant"
  ],
  "SAME": {},
- "TTS": {},
+ "TTS": {
+  "Yes, I ran a 5k last year. I didn't win, but I finished!": "Yes, I ran a five K last year. I didn't win, but I finished!"
+ },
  "ESTIMATE": {
-  "words": 268,
+  "words": 267,
   "seconds": 124
  }
 }

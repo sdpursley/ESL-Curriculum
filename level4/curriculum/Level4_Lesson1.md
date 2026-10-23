@@ -190,7 +190,7 @@
 > **Lucía:** Yes, I have.
 > **Ahmed:** Really? When did you do that?
 > **Lucía:** When I was ten, on my uncle's farm. OK, snow is one thing. Have you ever run a race?
-> **Ahmed:** Yes, I ran a five K last year. I didn't win, but I finished!
+> **Ahmed:** Yes, I ran a 5k last year. I didn't win, but I finished!
 > **Lucía:** I've run a race, too. My company has a race every summer.
 > **Ahmed:** Great. So we've both seen snow, and we've both run a race.
 > **Ms. Grant:** Good job! Now, what have you never done, but you wanna try?

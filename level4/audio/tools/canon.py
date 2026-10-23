@@ -1,6 +1,6 @@
 """Canonical word list for comparing a script line with Whisper output: lower case, no punctuation,
 number words and digits turned into one digit string (five five five oh one four two = 555-0142 = 5550142)."""
-import re
+import re, unicodedata
 N = {'zero': '0', 'oh': '0', 'one': '1', 'two': '2', 'three': '3', 'four': '4', 'five': '5', 'six': '6', 'seven': '7', 'eight': '8', 'nine': '9',
      'ten': '10', 'eleven': '11', 'twelve': '12', 'thirteen': '13', 'fourteen': '14', 'fifteen': '15', 'sixteen': '16', 'seventeen': '17',
      'eighteen': '18', 'nineteen': '19', 'twenty': '20', 'thirty': '30', 'forty': '40', 'fifty': '50', 'sixty': '60', 'seventy': '70',
@@ -9,6 +9,9 @@ TENS = {'20', '30', '40', '50', '60', '70', '80', '90'}
 def canon(s, same=None):
     same = same or {}
     s = s.lower().replace('’', "'")
+    # Drop accents before the punctuation step. That step deletes any character
+    # outside a-z, so "Lucía" would become "luc a" and could never match "lucia".
+    s = ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
     s = re.sub(r"\bco[- ](worker|workers)\b", r"co\1", s)        # Whisper writes co-workers / co workers
     s = re.sub(r"\$(\d+)(?:\.00)?\b", r"\1 dollars", s)               # $12 -> 12 dollars (same as "twelve dollars")
     s = re.sub(r"\b(\d{1,2}):00\b", r"\1 o'clock", s)                # 7:00 -> 7 o'clock
