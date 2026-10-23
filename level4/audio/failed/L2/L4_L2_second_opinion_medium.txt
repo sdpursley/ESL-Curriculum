@@ -1,0 +1,2 @@
+medium.en per-line WER 0.009 (2/218), 22/23 lines exact
+   ('Mr. Chen', 'Good afternoon. Welcome to Park View Apartments. How can I help you?', 'good afternoon welcome to parkview apartments how can i help you')

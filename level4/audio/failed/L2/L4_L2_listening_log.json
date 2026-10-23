@@ -1,0 +1,1029 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Marisol": "refs/Ana_af_jessica.wav",
+   "Mr. Chen": "refs/Carlos.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson two. Marisol is at a leasing office.",
+    "tts_text": "Lesson two. Marisol is at a leasing office.",
+    "seed": 2026,
+    "hyp": "lesson 2 marisol is at a leasing office",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.93,
+    "dur": 3.11,
+    "raw_peak": 0.581,
+    "pitch_ok": true,
+    "score": 1.501,
+    "f0_med": 194.8,
+    "f0_st_sd": 3.79,
+    "f0_range_st": 13.68
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "She wants to rent an apartment, and Mr.",
+    "tts_text": "She wants to rent an apartment, and Mr.",
+    "seed": 9945,
+    "hyp": "she wants to rent an apartment and mr",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.94,
+    "dur": 2.22,
+    "raw_peak": 0.586,
+    "pitch_ok": true,
+    "score": 1.375,
+    "f0_med": 208.8,
+    "f0_st_sd": 2.93,
+    "f0_range_st": 8.16
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Chen helps her.",
+    "tts_text": "Chen helps her.",
+    "seed": 25783,
+    "hyp": "chen helps her",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.37,
+    "mean_prob": 0.78,
+    "dur": 1.13,
+    "raw_peak": 0.417,
+    "pitch_ok": true,
+    "score": 1.326,
+    "f0_med": 184.4,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 8.7
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "Good afternoon. Welcome to Park View Apartments.",
+    "tts_text": "Good afternoon. Welcome to Park View Apartments.",
+    "seed": 41621,
+    "hyp": "good afternoon welcome to parkview apartments",
+    "ok": false,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 2.32,
+    "raw_peak": 0.467,
+    "pitch_ok": true,
+    "score": 1.553,
+    "f0_med": 147.6,
+    "f0_st_sd": 4.37,
+    "f0_range_st": 13.74
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "How can I help you?",
+    "tts_text": "How can I help you?",
+    "seed": 9945,
+    "hyp": "how can i help you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.18,
+    "raw_peak": 0.341,
+    "pitch_ok": true,
+    "score": 1.57,
+    "f0_med": 126.3,
+    "f0_st_sd": 4.48,
+    "f0_range_st": 14.13
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "Hi. I'm here about the two-bedroom apartment.",
+    "tts_text": "Hi. I'm here about the two-bedroom apartment.",
+    "seed": 2026,
+    "hyp": "hi i'm here about the 2 bedroom apartment",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.94,
+    "dur": 2.73,
+    "raw_peak": 0.858,
+    "pitch_ok": true,
+    "score": 1.536,
+    "f0_med": 208.8,
+    "f0_st_sd": 5.39,
+    "f0_range_st": 16.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "I want to fill out an application.",
+    "tts_text": "I want to fill out an application.",
+    "seed": 2026,
+    "hyp": "i want to fill out an application",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 1.92,
+    "raw_peak": 0.723,
+    "pitch_ok": true,
+    "score": 1.572,
+    "f0_med": 222.5,
+    "f0_st_sd": 3.89,
+    "f0_range_st": 13.54
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "Great. Let's do it together.",
+    "tts_text": "Great. Let's do it together.",
+    "seed": 9945,
+    "hyp": "great let's do it together",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.61,
+    "raw_peak": 0.426,
+    "pitch_ok": true,
+    "score": 1.441,
+    "f0_med": 136.9,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 9.08
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "What's your current address?",
+    "tts_text": "What's your current address?",
+    "seed": 89135,
+    "hyp": "what's your current address",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.95,
+    "dur": 1.77,
+    "raw_peak": 0.439,
+    "pitch_ok": true,
+    "score": 1.503,
+    "f0_med": 142.2,
+    "f0_st_sd": 3.7,
+    "f0_range_st": 13.11
+   },
+   "tries": 12,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "It's 418 Elm Street, apartment 3.",
+    "tts_text": "It's 418 Elm Street, apartment 3.",
+    "seed": 97054,
+    "hyp": "it's 418 elm street apartment 3",
+    "ok": false,
+    "edge": false,
+    "flags": [
+     "HF whine 220ms",
+     "(context) HF whine 240ms"
+    ],
+    "min_prob": 0.82,
+    "mean_prob": 0.91,
+    "dur": 3.0,
+    "raw_peak": 0.606,
+    "pitch_ok": true,
+    "score": 1.511,
+    "f0_med": 241.2,
+    "f0_st_sd": 4.16,
+    "f0_range_st": 13.36
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "And how long have you lived there?",
+    "tts_text": "And how long have you lived there?",
+    "seed": 104973,
+    "hyp": "and how long have you lived there",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.96,
+    "dur": 1.97,
+    "raw_peak": 0.372,
+    "pitch_ok": true,
+    "score": 1.492,
+    "f0_med": 147.2,
+    "f0_st_sd": 3.54,
+    "f0_range_st": 13.89
+   },
+   "tries": 14,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "I've lived there for two years.",
+    "tts_text": "I've lived there for two years.",
+    "seed": 49540,
+    "hyp": "i've lived there for 2 years",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.99,
+    "raw_peak": 0.669,
+    "pitch_ok": true,
+    "score": 1.539,
+    "f0_med": 224.4,
+    "f0_st_sd": 3.77,
+    "f0_range_st": 12.3
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "OK. And your previous address?",
+    "tts_text": "OK. And your previous address?",
+    "seed": 9945,
+    "hyp": "ok and your previous address",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.57,
+    "mean_prob": 0.91,
+    "dur": 2.32,
+    "raw_peak": 0.389,
+    "pitch_ok": true,
+    "score": 1.442,
+    "f0_med": 140.5,
+    "f0_st_sd": 3.57,
+    "f0_range_st": 10.69
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "Before that, I lived on Lake Road with my cousins.",
+    "tts_text": "Before that, I lived on Lake Road with my cousins.",
+    "seed": 2026,
+    "hyp": "before that i lived on lake road with my cousins",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 3.24,
+    "raw_peak": 0.886,
+    "pitch_ok": true,
+    "score": 1.457,
+    "f0_med": 212.4,
+    "f0_st_sd": 3.19,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "I lived there for three years.",
+    "tts_text": "I lived there for three years.",
+    "seed": 2026,
+    "hyp": "i lived there for 3 years",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.94,
+    "dur": 1.96,
+    "raw_peak": 0.751,
+    "pitch_ok": true,
+    "score": 1.539,
+    "f0_med": 206.4,
+    "f0_st_sd": 4.37,
+    "f0_range_st": 14.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "Why are you moving?",
+    "tts_text": "Why are you moving?",
+    "seed": 9945,
+    "hyp": "why are you moving",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.46,
+    "raw_peak": 0.391,
+    "pitch_ok": true,
+    "score": 1.566,
+    "f0_med": 148.5,
+    "f0_st_sd": 6.08,
+    "f0_range_st": 19.14
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "My apartment is too small.",
+    "tts_text": "My apartment is too small.",
+    "seed": 2026,
+    "hyp": "my apartment is too small",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.95,
+    "dur": 1.74,
+    "raw_peak": 0.529,
+    "pitch_ok": true,
+    "score": 1.405,
+    "f0_med": 225.0,
+    "f0_st_sd": 3.05,
+    "f0_range_st": 7.63
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "My mother is going to live with me.",
+    "tts_text": "My mother is going to live with me.",
+    "seed": 9945,
+    "hyp": "my mother is going to live with me",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.99,
+    "dur": 1.91,
+    "raw_peak": 0.621,
+    "pitch_ok": true,
+    "score": 1.551,
+    "f0_med": 214.9,
+    "f0_st_sd": 3.77,
+    "f0_range_st": 13.94
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "I see. Now, your job.",
+    "tts_text": "I see. Now, your job.",
+    "seed": 2026,
+    "hyp": "i see now your job",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.93,
+    "dur": 1.94,
+    "raw_peak": 0.472,
+    "pitch_ok": true,
+    "score": 1.535,
+    "f0_med": 130.8,
+    "f0_st_sd": 4.45,
+    "f0_range_st": 15.27
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "Who's your employer?",
+    "tts_text": "Who's your employer?",
+    "seed": 73297,
+    "hyp": "who's your employer",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.92,
+    "dur": 1.42,
+    "raw_peak": 0.368,
+    "pitch_ok": true,
+    "score": 1.516,
+    "f0_med": 133.0,
+    "f0_st_sd": 5.25,
+    "f0_range_st": 16.77
+   },
+   "tries": 10,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "Green Valley Clinic.",
+    "tts_text": "Green Valley Clinic.",
+    "seed": 9945,
+    "hyp": "green valley clinic",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.97,
+    "dur": 1.53,
+    "raw_peak": 0.617,
+    "pitch_ok": true,
+    "score": 1.574,
+    "f0_med": 210.6,
+    "f0_st_sd": 4.76,
+    "f0_range_st": 18.43
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "I'm a medical assistant.",
+    "tts_text": "I'm a medical assistant.",
+    "seed": 33702,
+    "hyp": "i'm a medical assistant",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.96,
+    "dur": 1.61,
+    "raw_peak": 0.848,
+    "pitch_ok": true,
+    "score": 1.557,
+    "f0_med": 204.0,
+    "f0_st_sd": 4.46,
+    "f0_range_st": 14.94
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "How long have you worked there?",
+    "tts_text": "How long have you worked there?",
+    "seed": 25783,
+    "hyp": "how long have you worked there",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.56,
+    "raw_peak": 0.36,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 144.2,
+    "f0_st_sd": 4.36,
+    "f0_range_st": 13.07
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "Since March 2022.",
+    "tts_text": "Since March 2022.",
+    "seed": 17864,
+    "hyp": "since march 2022",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.88,
+    "dur": 2.04,
+    "raw_peak": 0.549,
+    "pitch_ok": true,
+    "score": 1.464,
+    "f0_med": 217.4,
+    "f0_st_sd": 3.87,
+    "f0_range_st": 14.09
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "Before that, I worked at a bakery for two years.",
+    "tts_text": "Before that, I worked at a bakery for two years.",
+    "seed": 2026,
+    "hyp": "before that i worked at a bakery for 2 years",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.96,
+    "dur": 3.25,
+    "raw_peak": 0.683,
+    "pitch_ok": true,
+    "score": 1.515,
+    "f0_med": 230.3,
+    "f0_st_sd": 3.69,
+    "f0_range_st": 12.48
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "And your start date at the clinic? March what?",
+    "tts_text": "And your start date at the clinic? March what?",
+    "seed": 104973,
+    "hyp": "and your start date at the clinic march what",
+    "ok": false,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.94,
+    "dur": 3.17,
+    "raw_peak": 0.515,
+    "pitch_ok": false,
+    "score": 1.543,
+    "f0_med": 169.6,
+    "f0_st_sd": 4.44,
+    "f0_range_st": 13.36
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "March fifteenth.",
+    "tts_text": "March fifteenth.",
+    "seed": 2026,
+    "hyp": "march fifteenth",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.82,
+    "dur": 1.07,
+    "raw_peak": 0.495,
+    "pitch_ok": true,
+    "score": 1.391,
+    "f0_med": 201.6,
+    "f0_st_sd": 3.79,
+    "f0_range_st": 13.79
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "Thank you. We also need one reference.",
+    "tts_text": "Thank you. We also need one reference.",
+    "seed": 33702,
+    "hyp": "thank you we also need 1 reference",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.72,
+    "raw_peak": 0.439,
+    "pitch_ok": true,
+    "score": 1.576,
+    "f0_med": 148.5,
+    "f0_st_sd": 4.6,
+    "f0_range_st": 15.51
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "Not a family member, please.",
+    "tts_text": "Not a family member, please.",
+    "seed": 2026,
+    "hyp": "not a family member please",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.94,
+    "dur": 1.61,
+    "raw_peak": 0.459,
+    "pitch_ok": true,
+    "score": 1.54,
+    "f0_med": 133.0,
+    "f0_st_sd": 4.36,
+    "f0_range_st": 12.34
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "Can I give my supervisor's name?",
+    "tts_text": "Can I give my supervisor's name?",
+    "seed": 2026,
+    "hyp": "can i give my supervisor's name",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.95,
+    "raw_peak": 0.52,
+    "pitch_ok": true,
+    "score": 1.404,
+    "f0_med": 258.5,
+    "f0_st_sd": 2.88,
+    "f0_range_st": 10.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "She's known me since I started.",
+    "tts_text": "She's known me since I started.",
+    "seed": 2026,
+    "hyp": "she's known me since i started",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.77,
+    "raw_peak": 0.551,
+    "pitch_ok": true,
+    "score": 1.412,
+    "f0_med": 241.2,
+    "f0_st_sd": 2.88,
+    "f0_range_st": 8.98
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "Sure, that's fine.",
+    "tts_text": "Sure, that's fine.",
+    "seed": 25783,
+    "hyp": "sure that's fine",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 1.59,
+    "raw_peak": 0.455,
+    "pitch_ok": true,
+    "score": 1.55,
+    "f0_med": 144.2,
+    "f0_st_sd": 4.0,
+    "f0_range_st": 12.32
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "And will you have a roommate?",
+    "tts_text": "And will you have a roommate?",
+    "seed": 112892,
+    "hyp": "and will you have a roommate",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.54,
+    "mean_prob": 0.88,
+    "dur": 1.79,
+    "raw_peak": 0.447,
+    "pitch_ok": true,
+    "score": 1.481,
+    "f0_med": 143.0,
+    "f0_st_sd": 5.01,
+    "f0_range_st": 17.64
+   },
+   "tries": 15,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "No, just my mother.",
+    "tts_text": "No, just my mother.",
+    "seed": 2026,
+    "hyp": "no just my mother",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.77,
+    "raw_peak": 0.528,
+    "pitch_ok": true,
+    "score": 1.316,
+    "f0_med": 264.5,
+    "f0_st_sd": 2.32,
+    "f0_range_st": 6.67
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marisol",
+    "text": "When can we move in?",
+    "tts_text": "When can we move in?",
+    "seed": 2026,
+    "hyp": "when can we move in",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.28,
+    "raw_peak": 0.35,
+    "pitch_ok": true,
+    "score": 1.319,
+    "f0_med": 293.5,
+    "f0_st_sd": 2.23,
+    "f0_range_st": 8.15
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "The apartment is ready on June first.",
+    "tts_text": "The apartment is ready on June first.",
+    "seed": 65378,
+    "hyp": "the apartment is ready on june first",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 2.55,
+    "raw_peak": 0.457,
+    "pitch_ok": true,
+    "score": 1.453,
+    "f0_med": 145.1,
+    "f0_st_sd": 3.3,
+    "f0_range_st": 9.8
+   },
+   "tries": 9,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Chen",
+    "text": "The lease is for one year.",
+    "tts_text": "The lease is for one year.",
+    "seed": 2026,
+    "hyp": "the lease is for 1 year",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.95,
+    "dur": 1.95,
+    "raw_peak": 0.377,
+    "pitch_ok": true,
+    "score": 1.409,
+    "f0_med": 139.3,
+    "f0_st_sd": 3.08,
+    "f0_range_st": 11.39
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   9.66,
+   13.71,
+   "Mr. Chen",
+   "Good afternoon. Welcome to Park View Apartments. How can I help you?"
+  ],
+  [
+   15.01,
+   20.21,
+   "Marisol",
+   "Hi. I'm here about the two-bedroom apartment. I want to fill out an application."
+  ],
+  [
+   21.51,
+   25.44,
+   "Mr. Chen",
+   "Great. Let's do it together. What's your current address?"
+  ],
+  [
+   26.74,
+   29.74,
+   "Marisol",
+   "It's 418 Elm Street, apartment 3."
+  ],
+  [
+   31.04,
+   33.01,
+   "Mr. Chen",
+   "And how long have you lived there?"
+  ],
+  [
+   34.31,
+   36.3,
+   "Marisol",
+   "I've lived there for two years."
+  ],
+  [
+   37.6,
+   39.92,
+   "Mr. Chen",
+   "OK. And your previous address?"
+  ],
+  [
+   41.22,
+   46.97,
+   "Marisol",
+   "Before that, I lived on Lake Road with my cousins. I lived there for three years."
+  ],
+  [
+   48.27,
+   49.73,
+   "Mr. Chen",
+   "Why are you moving?"
+  ],
+  [
+   51.03,
+   55.23,
+   "Marisol",
+   "My apartment is too small. My mother is going to live with me."
+  ],
+  [
+   56.53,
+   60.44,
+   "Mr. Chen",
+   "I see. Now, your job. Who's your employer?"
+  ],
+  [
+   61.74,
+   65.43,
+   "Marisol",
+   "Green Valley Clinic. I'm a medical assistant."
+  ],
+  [
+   66.73,
+   68.29,
+   "Mr. Chen",
+   "How long have you worked there?"
+  ],
+  [
+   69.59,
+   75.43,
+   "Marisol",
+   "Since March 2022. Before that, I worked at a bakery for two years."
+  ],
+  [
+   76.73,
+   79.9,
+   "Mr. Chen",
+   "And your start date at the clinic? March what?"
+  ],
+  [
+   81.2,
+   82.27,
+   "Marisol",
+   "March fifteenth."
+  ],
+  [
+   83.57,
+   88.45,
+   "Mr. Chen",
+   "Thank you. We also need one reference. Not a family member, please."
+  ],
+  [
+   89.75,
+   94.02,
+   "Marisol",
+   "Can I give my supervisor's name? She's known me since I started."
+  ],
+  [
+   95.32,
+   99.25,
+   "Mr. Chen",
+   "Sure, that's fine. And will you have a roommate?"
+  ],
+  [
+   100.55,
+   104.15,
+   "Marisol",
+   "No, just my mother. When can we move in?"
+  ],
+  [
+   105.45,
+   110.5,
+   "Mr. Chen",
+   "The apartment is ready on June first. The lease is for one year."
+  ]
+ ]
+}

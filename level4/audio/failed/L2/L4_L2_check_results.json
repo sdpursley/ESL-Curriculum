@@ -1,0 +1,263 @@
+{
+ "file": "L4_L2_listening.mp3",
+ "duration_s": 113.92,
+ "wer": 0.0138,
+ "errors": 3,
+ "ref_words": 218,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "park view",
+   "hyp": "parkview",
+   "ctx": "good afternoon welcome to park view apartments how can i"
+  },
+  {
+   "op": "replace",
+   "ref": "first",
+   "hyp": "1",
+   "ctx": "is ready on june first the lease is for"
+  }
+ ],
+ "low_prob_words": [],
+ "lines_ok": "20/21",
+ "lines_with_flags": [],
+ "lines_not_exact": [
+  {
+   "t": 9.66,
+   "spk": "Mr. Chen",
+   "line": "Good afternoon. Welcome to Park View Apartments. How can I help you?",
+   "ok": false,
+   "hyp": "good afternoon welcome to parkview apartments how can i help you",
+   "min_prob": 0.79,
+   "flags": [],
+   "f0_med": 140.1
+  }
+ ],
+ "pitch_median_hz": {
+  "Mr. Chen": 140.1,
+  "Marisol": 219.9,
+  "Narrator": 195.9
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.3,
+ "peak": 0.92,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.6,
+ "per_line": [
+  {
+   "t": 9.66,
+   "spk": "Mr. Chen",
+   "line": "Good afternoon. Welcome to Park View Apartments. How can I help you?",
+   "ok": false,
+   "hyp": "good afternoon welcome to parkview apartments how can i help you",
+   "min_prob": 0.79,
+   "flags": [],
+   "f0_med": 140.1
+  },
+  {
+   "t": 15.01,
+   "spk": "Marisol",
+   "line": "Hi. I'm here about the two-bedroom apartment. I want to fill out an application.",
+   "ok": true,
+   "hyp": "hi i'm here about the 2 bedroom apartment i want to fill out an application",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 219.9
+  },
+  {
+   "t": 21.51,
+   "spk": "Mr. Chen",
+   "line": "Great. Let's do it together. What's your current address?",
+   "ok": true,
+   "hyp": "great let's do it together what's your current address",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 140.1
+  },
+  {
+   "t": 26.74,
+   "spk": "Marisol",
+   "line": "It's 418 Elm Street, apartment 3.",
+   "ok": true,
+   "hyp": "it's 418 elm street apartment 3",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 241.2
+  },
+  {
+   "t": 31.04,
+   "spk": "Mr. Chen",
+   "line": "And how long have you lived there?",
+   "ok": true,
+   "hyp": "and how long have you lived there",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 146.8
+  },
+  {
+   "t": 34.31,
+   "spk": "Marisol",
+   "line": "I've lived there for two years.",
+   "ok": true,
+   "hyp": "i've lived there for 2 years",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 226.3
+  },
+  {
+   "t": 37.6,
+   "spk": "Mr. Chen",
+   "line": "OK. And your previous address?",
+   "ok": true,
+   "hyp": "ok and your previous address",
+   "min_prob": 0.58,
+   "flags": [],
+   "f0_med": 140.1
+  },
+  {
+   "t": 41.22,
+   "spk": "Marisol",
+   "line": "Before that, I lived on Lake Road with my cousins. I lived there for three years.",
+   "ok": true,
+   "hyp": "before that i lived on lake road with my cousins i lived there for 3 years",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 210.6
+  },
+  {
+   "t": 48.27,
+   "spk": "Mr. Chen",
+   "line": "Why are you moving?",
+   "ok": true,
+   "hyp": "why are you moving",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 153.7
+  },
+  {
+   "t": 51.03,
+   "spk": "Marisol",
+   "line": "My apartment is too small. My mother is going to live with me.",
+   "ok": true,
+   "hyp": "my apartment is too small my mother is going to live with me",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 218.0
+  },
+  {
+   "t": 56.53,
+   "spk": "Mr. Chen",
+   "line": "I see. Now, your job. Who's your employer?",
+   "ok": true,
+   "hyp": "i see now your job who's your employer",
+   "min_prob": 0.26,
+   "flags": [],
+   "f0_med": 132.7
+  },
+  {
+   "t": 61.74,
+   "spk": "Marisol",
+   "line": "Green Valley Clinic. I'm a medical assistant.",
+   "ok": true,
+   "hyp": "green valley clinic i'm a medical assistant",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 202.8
+  },
+  {
+   "t": 66.73,
+   "spk": "Mr. Chen",
+   "line": "How long have you worked there?",
+   "ok": true,
+   "hyp": "how long have you worked there",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 136.9
+  },
+  {
+   "t": 69.59,
+   "spk": "Marisol",
+   "line": "Since March 2022. Before that, I worked at a bakery for two years.",
+   "ok": true,
+   "hyp": "since march 2022 before that i worked at a bakery for 2 years",
+   "min_prob": 0.14,
+   "flags": [],
+   "f0_med": 219.9
+  },
+  {
+   "t": 76.73,
+   "spk": "Mr. Chen",
+   "line": "And your start date at the clinic? March what?",
+   "ok": true,
+   "hyp": "and your start date at the clinic march what",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 169.6
+  },
+  {
+   "t": 81.2,
+   "spk": "Marisol",
+   "line": "March fifteenth.",
+   "ok": true,
+   "hyp": "march fifteenth",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 200.5
+  },
+  {
+   "t": 83.57,
+   "spk": "Mr. Chen",
+   "line": "Thank you. We also need one reference. Not a family member, please.",
+   "ok": true,
+   "hyp": "thank you we also need 1 reference not a family member please",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 143.4
+  },
+  {
+   "t": 89.75,
+   "spk": "Marisol",
+   "line": "Can I give my supervisor's name? She's known me since I started.",
+   "ok": true,
+   "hyp": "can i give my supervisor's name she's known me since i started",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 253.3
+  },
+  {
+   "t": 95.32,
+   "spk": "Mr. Chen",
+   "line": "Sure, that's fine. And will you have a roommate?",
+   "ok": true,
+   "hyp": "sure that's fine and will you have a roommate",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 140.1
+  },
+  {
+   "t": 100.55,
+   "spk": "Marisol",
+   "line": "No, just my mother. When can we move in?",
+   "ok": true,
+   "hyp": "no just my mother when can we move in",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 283.5
+  },
+  {
+   "t": 105.45,
+   "spk": "Mr. Chen",
+   "line": "The apartment is ready on June first. The lease is for one year.",
+   "ok": true,
+   "hyp": "the apartment is ready on june first the lease is for 1 year",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 142.6
+  }
+ ],
+ "hyp": "lesson 2 marisol is at a leasing office she wants to rent an apartment and mr chen helps her good afternoon welcome to parkview apartments how can i help you hi i'm here about the 2 bedroom apartment i want to fill out an application great let's do it together what's your current address it's 418 elm street apartment 3 and how long have you lived there i've lived there for 2 years ok and your previous address before that i lived on lake road with my cousins i lived there for 3 years why are you moving my apartment is too small my mother is going to live with me i see now your job who's your employer green valley clinic i'm a medical assistant how long have you worked there since march 2022 before that i worked at a bakery for 2 years and your start date at the clinic march what march fifteenth thank you we also need 1 reference not a family member please can i give my supervisor's name she's known me since i started sure that's fine and will you have a roommate no just my mother when can we move in the apartment is ready on june 1 the lease is for 1 year that's the end of the listening"
+}
