@@ -121,7 +121,7 @@
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
 - **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "The doctor's **going to** see you in a few minutes." *wanna* = want to: "I **want to** make an appointment." Then practice *Why don't you…?* as one smooth group with falling intonation (a suggestion, not a real question), and the stress: *I've had a RASH since MONday.* The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 2:09), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **No recording yet:** read the script aloud with a volunteer (about 2:07), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,7 +166,7 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 2:09 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 2:07 when recorded; the conversation plays once, so press play again for the second listen)
 
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
@@ -185,7 +185,7 @@
 > **Amina:** I've used a heating pad a few times. It helps a little.
 > **Daniel:** Have you felt dizzy?
 > **Amina:** No, I haven't.
-> **Daniel:** Good. Now let me check your blood pressure. It's one eighteen over seventy-six. That's fine. The doctor's going to see you in a few minutes.
+> **Daniel:** Good. Now let me check your blood pressure. It looks normal. The doctor's going to see you in a few minutes.
 > **Narrator:** Later, at checkout, Amina talks to Ms. Park, the receptionist.
 > **Ms. Park:** Hi, Amina. Your copay today is twenty dollars.
 > **Amina:** OK. Here's my new insurance card. I've had it since January.

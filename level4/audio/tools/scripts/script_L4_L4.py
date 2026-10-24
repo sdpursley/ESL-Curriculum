@@ -4,8 +4,8 @@
 LESSON = 4
 TITLE = 'How Long Have You Had It?'
 VOICES = {'Narrator': 'N', 'Amina': 'Rosa', 'Daniel': 'Marco', 'Ms. Park': 'Receptionist'}
-FEMALE = {'Ms. Park', 'Amina', 'Narrator'}
-NAMES = {'park', 'amina', 'daniel'}
+FEMALE = {'Ms. Park', 'Narrator', 'Amina'}
+NAMES = {'park', 'daniel', 'amina'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson four. Amina is at a clinic. First, she talks to Daniel, the medical assistant.'
@@ -24,7 +24,7 @@ LINES = [
  ('Amina', "I've used a heating pad a few times. It helps a little."),
  ('Daniel', 'Have you felt dizzy?'),
  ('Amina', "No, I haven't."),
- ('Daniel', "Good. Now let me check your blood pressure. It's one eighteen over seventy-six. That's fine. The doctor's going to see you in a few minutes."),
+ ('Daniel', "Good. Now let me check your blood pressure. It looks normal. The doctor's going to see you in a few minutes."),
  ('Narrator', 'Later, at checkout, Amina talks to Ms. Park, the receptionist.'),
  ('Ms. Park', 'Hi, Amina. Your copay today is twenty dollars.'),
  ('Amina', "OK. Here's my new insurance card. I've had it since January."),

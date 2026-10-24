@@ -4,16 +4,16 @@
 LESSON = 2
 TITLE = 'How Long Have You Lived Here?'
 VOICES = {'Narrator': 'N', 'Marisol': 'Ana_af_jessica', 'Mr. Chen': 'Carlos'}
-FEMALE = {'Narrator', 'Marisol'}
-NAMES = {'chen', 'marisol'}
+FEMALE = {'Marisol', 'Narrator'}
+NAMES = {'marisol', 'chen'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson two. Marisol is at a leasing office. She wants to rent an apartment, and Mr. Chen helps her.'
 LINES = [
- ('Mr. Chen', 'Good afternoon. Welcome to Park View Apartments. How can I help you?'),
+ ('Mr. Chen', 'Good afternoon. Welcome to Parkview Apartments. How can I help you?'),
  ('Marisol', "Hi. I'm here about the two-bedroom apartment. I want to fill out an application."),
  ('Mr. Chen', "Great. Let's do it together. What's your current address?"),
- ('Marisol', "It's 418 Elm Street, apartment 3."),
+ ('Marisol', "It's four eighteen Elm Street, apartment 3."),
  ('Mr. Chen', 'And how long have you lived there?'),
  ('Marisol', "I've lived there for two years."),
  ('Mr. Chen', 'OK. And your previous address?'),
@@ -24,7 +24,7 @@ LINES = [
  ('Marisol', "Green Valley Clinic. I'm a medical assistant."),
  ('Mr. Chen', 'How long have you worked there?'),
  ('Marisol', 'Since March 2022. Before that, I worked at a bakery for two years.'),
- ('Mr. Chen', 'And your start date at the clinic? March what?'),
+ ('Mr. Chen', 'And what day in March did you start at the clinic?'),
  ('Marisol', 'March fifteenth.'),
  ('Mr. Chen', 'Thank you. We also need one reference. Not a family member, please.'),
  ('Marisol', "Can I give my supervisor's name? She's known me since I started."),

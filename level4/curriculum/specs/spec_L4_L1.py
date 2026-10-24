@@ -78,7 +78,7 @@ L['listen'] = dict(title='Have You Ever…?', voices={'Narrator': 'N', 'Lucía':
   ('Lucía', 'When I was ten, on my uncle\'s farm. OK, snow is one thing. Have you ever run a race?'),
   ('Ahmed', 'Yes, I ran a 5k last year. I didn\'t win, but I finished!'),
   ('Lucía', 'I\'ve run a race, too. My company has a race every summer.'),
-  ('Ahmed', 'Great. So we\'ve both seen snow, and we\'ve both run a race.'),
+  ('Ahmed', 'Great. So we have both seen snow, and we have both run a race.'),
   ('Ms. Grant', 'Good job! Now, what have you never done, but you want to try?'),
   ('Ahmed', 'I want to go camping. I\'ve never slept in a tent.'),
   ('Lucía', 'And I want to try sushi. I\'ve never eaten it.'),

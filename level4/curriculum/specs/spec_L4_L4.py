@@ -68,7 +68,7 @@ L['listen'] = dict(title='How Long Have You Had It?', voices={'Narrator': 'N', '
   ('Amina', 'I\'ve used a heating pad a few times. It helps a little.'),
   ('Daniel', 'Have you felt dizzy?'),
   ('Amina', 'No, I haven\'t.'),
-  ('Daniel', 'Good. Now let me check your blood pressure. It\'s one eighteen over seventy-six. That\'s fine. The doctor\'s going to see you in a few minutes.'),
+  ('Daniel', 'Good. Now let me check your blood pressure. It looks normal. The doctor\'s going to see you in a few minutes.'),
   ('Narrator', 'Later, at checkout, Amina talks to Ms. Park, the receptionist.'),
   ('Ms. Park', 'Hi, Amina. Your copay today is twenty dollars.'),
   ('Amina', 'OK. Here\'s my new insurance card. I\'ve had it since January.'),

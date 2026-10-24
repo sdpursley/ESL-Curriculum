@@ -109,7 +109,7 @@
 - **Do:** point to each picture and say the word. Learners repeat once.
 - **Show the hard words:** *current address* (now) vs. *previous address* (before); *employer* (the company) vs. *position* (your job title); *start date* and *end date* (point to two dates on the board); *reference* (a person who knows you at work; not family). Show *for* as a length (from one date to another) and *since* as a starting point (one date).
 - **Check meaning (1 min):** ask "Is your employer a company or a person?" (a company, usually) • "Can your mother be your reference?" (no, usually not) • "Is *2020* a length or a starting point?" (a starting point → *since*).
-- **Pairs (2 min):** A says a word; B points to the picture and makes a sentence (What's your current address? → It's 418 Elm Street.). Switch. **15 learners:** finish with a quick team round (3 teams; you say a clue, the first team with the word gets a point). **7–8:** 2 teams. **5 or fewer:** one team against the clock.
+- **Pairs (2 min):** A says a word; B points to the picture and makes a sentence (What's your current address? → It's four eighteen Elm Street.). Switch. **15 learners:** finish with a quick team round (3 teams; you say a clue, the first team with the word gets a point). **7–8:** 2 teams. **5 or fewer:** one team against the clock.
 - **My Words:** "Write any word you want in your language on the My Words page. It's your personal list. It's optional." Learners do it at home.
 - **If behind:** teach the ★ words only.
 :::
@@ -171,10 +171,10 @@
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson two. Marisol is at a leasing office. She wants to rent an apartment, and Mr. Chen helps her.
-> **Mr. Chen:** Good afternoon. Welcome to Park View Apartments. How can I help you?
+> **Mr. Chen:** Good afternoon. Welcome to Parkview Apartments. How can I help you?
 > **Marisol:** Hi. I'm here about the two-bedroom apartment. I want to fill out an application.
 > **Mr. Chen:** Great. Let's do it together. What's your current address?
-> **Marisol:** It's 418 Elm Street, apartment 3.
+> **Marisol:** It's four eighteen Elm Street, apartment 3.
 > **Mr. Chen:** And how long have you lived there?
 > **Marisol:** I've lived there for two years.
 > **Mr. Chen:** OK. And your previous address?
@@ -185,7 +185,7 @@
 > **Marisol:** Green Valley Clinic. I'm a medical assistant.
 > **Mr. Chen:** How long have you worked there?
 > **Marisol:** Since March 2022. Before that, I worked at a bakery for two years.
-> **Mr. Chen:** And your start date at the clinic? March what?
+> **Mr. Chen:** And what day in March did you start at the clinic?
 > **Marisol:** March fifteenth.
 > **Mr. Chen:** Thank you. We also need one reference. Not a family member, please.
 > **Marisol:** Can I give my supervisor's name? She's known me since I started.
@@ -293,8 +293,8 @@ Name: ______________________________     Date: ________________
 ### B. Listen again. Complete Marisol's application. Circle the answers.
 
 1. How long at the current address: (**two years** / **three years** / **since 2022**)
-2. Previous address: (**Elm Street** / **Lake Road** / **Park View**)
-3. Employer: (**a bakery** / **Green Valley Clinic** / **Park View Apartments**)
+2. Previous address: (**Elm Street** / **Lake Road** / **Parkview**)
+3. Employer: (**a bakery** / **Green Valley Clinic** / **Parkview Apartments**)
 4. Position: (**medical assistant** / **supervisor** / **baker**)
 5. Start date: (**March 5, 2022** / **March 15, 2022** / **June 1, 2022**)
 6. Roommate: (**yes** / **no**)

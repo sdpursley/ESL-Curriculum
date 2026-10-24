@@ -4,17 +4,17 @@
 LESSON = 3
 TITLE = 'Have You Finished Yet?'
 VOICES = {'Narrator': 'N', 'Ms. Rivera': 'Rosa', 'Jamal': 'Sam', 'Kim': 'Kim'}
-FEMALE = {'Kim', 'Ms. Rivera', 'Narrator'}
-NAMES = {'kim', 'jamal', 'rivera'}
+FEMALE = {'Narrator', 'Kim', 'Ms. Rivera'}
+NAMES = {'kim', 'rivera', 'jamal'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = "Lesson three. It's the end of the evening shift at a grocery store. Ms. Rivera, the supervisor, talks to Jamal and Kim."
 LINES = [
  ('Ms. Rivera', "OK, team, it's almost nine. Let's look at the checklist. Jamal, have you restocked the shelves yet?"),
- ('Jamal', "Yes, I've already restocked them. Aisles one to six are done."),
+ ('Jamal', "Yes, I've already restocked them. Those shelves are done."),
  ('Ms. Rivera', 'Great. And the delivery? Has the truck arrived yet?'),
  ('Jamal', "Yes, it's just arrived. Kim and I are putting it away."),
- ('Kim', "We've already put away the milk and the eggs."),
+ ('Kim', 'We have already put away the milk and the eggs.'),
  ('Ms. Rivera', 'Good. Kim, have you cleaned the cooler yet?'),
  ('Kim', "No, not yet. I haven't cleaned it yet. The delivery came late."),
  ('Ms. Rivera', "That's OK. Are you going to have time tonight?"),

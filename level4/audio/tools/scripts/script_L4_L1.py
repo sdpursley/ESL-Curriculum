@@ -4,8 +4,8 @@
 LESSON = 1
 TITLE = 'Have You Ever…?'
 VOICES = {'Narrator': 'N', 'Lucía': 'Rosa', 'Ahmed': 'Marco', 'Ms. Grant': 'Kim'}
-FEMALE = {'Ms. Grant', 'Lucía', 'Narrator'}
-NAMES = {'ahmed', 'lucía', 'grant', 'lucia'}
+FEMALE = {'Ms. Grant', 'Narrator', 'Lucía'}
+NAMES = {'ahmed', 'lucia', 'grant', 'lucía'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = "Lesson one. It's the first night of an English class at a community center. Lucía and Ahmed meet before class."
@@ -27,7 +27,7 @@ LINES = [
  ('Lucía', "When I was ten, on my uncle's farm. OK, snow is one thing. Have you ever run a race?"),
  ('Ahmed', "Yes, I ran a 5k last year. I didn't win, but I finished!", "Yes, I ran a five K last year. I didn't win, but I finished!"),
  ('Lucía', "I've run a race, too. My company has a race every summer."),
- ('Ahmed', "Great. So we've both seen snow, and we've both run a race."),
+ ('Ahmed', 'Great. So we have both seen snow, and we have both run a race.'),
  ('Ms. Grant', 'Good job! Now, what have you never done, but you want to try?'),
  ('Ahmed', "I want to go camping. I've never slept in a tent."),
  ('Lucía', "And I want to try sushi. I've never eaten it."),

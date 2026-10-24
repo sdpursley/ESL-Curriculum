@@ -121,7 +121,7 @@
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
 - **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "I'm **going to** clean it before I clock out." *wanna* = want to: "I **want to** finish it this week." Then practice hearing *'s* = *has*: *It's just arrived* (= it has just arrived), the weak *have* in *Have you… yet?*, and the stress: *I've JUST finished it.* • *I've alREADY restocked them.* The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:54), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **No recording yet:** read the script aloud with a volunteer (about 1:53), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,16 +166,16 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:54 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:53 when recorded; the conversation plays once, so press play again for the second listen)
 
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson three. It's the end of the evening shift at a grocery store. Ms. Rivera, the supervisor, talks to Jamal and Kim.
 > **Ms. Rivera:** OK, team, it's almost nine. Let's look at the checklist. Jamal, have you restocked the shelves yet?
-> **Jamal:** Yes, I've already restocked them. Aisles one to six are done.
+> **Jamal:** Yes, I've already restocked them. Those shelves are done.
 > **Ms. Rivera:** Great. And the delivery? Has the truck arrived yet?
 > **Jamal:** Yes, it's just arrived. Kim and I are putting it away.
-> **Kim:** We've already put away the milk and the eggs.
+> **Kim:** We have already put away the milk and the eggs.
 > **Ms. Rivera:** Good. Kim, have you cleaned the cooler yet?
 > **Kim:** No, not yet. I haven't cleaned it yet. The delivery came late.
 > **Ms. Rivera:** That's OK. Are you going to have time tonight?
@@ -306,7 +306,7 @@ Name: ______________________________     Date: ________________
 3. Yes, it's ____________ arrived.
 4. I haven't cleaned it ____________.
 5. I've ____________ finished it.
-6. We've ____________ put away the milk and the eggs.
+6. We have ____________ put away the milk and the eggs.
 
 ### Hear it, say it
 

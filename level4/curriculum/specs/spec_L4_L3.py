@@ -55,10 +55,10 @@ L['listen'] = dict(title='Have You Finished Yet?', voices={'Narrator': 'N', 'Ms.
  intro='Lesson three. It\'s the end of the evening shift at a grocery store. Ms. Rivera, the supervisor, talks to Jamal and Kim.',
  lines=[
   ('Ms. Rivera', 'OK, team, it\'s almost nine. Let\'s look at the checklist. Jamal, have you restocked the shelves yet?'),
-  ('Jamal', 'Yes, I\'ve already restocked them. Aisles one to six are done.'),
+  ('Jamal', 'Yes, I\'ve already restocked them. Those shelves are done.'),
   ('Ms. Rivera', 'Great. And the delivery? Has the truck arrived yet?'),
   ('Jamal', 'Yes, it\'s just arrived. Kim and I are putting it away.'),
-  ('Kim', 'We\'ve already put away the milk and the eggs.'),
+  ('Kim', 'We have already put away the milk and the eggs.'),
   ('Ms. Rivera', 'Good. Kim, have you cleaned the cooler yet?'),
   ('Kim', 'No, not yet. I haven\'t cleaned it yet. The delivery came late.'),
   ('Ms. Rivera', 'That\'s OK. Are you going to have time tonight?'),
@@ -78,7 +78,7 @@ L['listen'] = dict(title='Have You Finished Yet?', voices={'Narrator': 'N', 'Ms.
  A=dict(q='Is all the work finished?', opts=['Yes, everything is done.', 'No, two things aren\'t done yet.', 'No, nothing is done yet.'], ans=1),
  B=dict(head='Look at the checklist. Circle *done* or *not yet*.', kind='choice', items=[
   dict(s='restock the shelves: {{*done|not yet}}', ev='I\'ve already restocked them'),
-  dict(s='put away the milk and the eggs: {{*done|not yet}}', ev='We\'ve already put away the milk and the eggs'),
+  dict(s='put away the milk and the eggs: {{*done|not yet}}', ev='We have already put away the milk and the eggs'),
   dict(s='clean the cooler: {{done|*not yet}}', ev='I haven\'t cleaned it yet'),
   dict(s='check the bakery inventory: {{*done|not yet}}', ev='I\'ve just finished it'),
   dict(s='clean the break room: {{done|*not yet}}', ev='Not yet. I\'m going to clean it before I clock out'),
@@ -86,7 +86,7 @@ L['listen'] = dict(title='Have You Finished Yet?', voices={'Narrator': 'N', 'Ms.
  ]),
  C=dict(head='Write *already*, *yet*, or *just*.', items=[
   'Yes, I\'ve [already] restocked them.', 'Has the truck arrived [yet]?', 'Yes, it\'s [just] arrived.',
-  'I haven\'t cleaned it [yet].', 'I\'ve [just] finished it.', 'We\'ve [already] put away the milk and the eggs.']),
+  'I haven\'t cleaned it [yet].', 'I\'ve [just] finished it.', 'We have [already] put away the milk and the eggs.']),
  hear='*gonna* = going to: "I\'m **going to** clean it before I clock out." • *wanna* = want to: "I **want to** finish it this week." You can say *going to* and *want to*. Listen for *\'s* = *has*: *It\'s just arrived.* Say it with stress: *I\'ve JUST finished it.* • *I\'ve alREADY restocked them.*',
 )
 L['grammar'] = dict(boxes='''
