@@ -1,0 +1,75 @@
+{
+ "duration_s": 100.34,
+ "duration": "1:40",
+ "length_ok": true,
+ "small_whole_file_wer": 0.0,
+ "small_whole_file_errors": "0/247",
+ "small_whole_file_diffs": [],
+ "small_lines_ok": "15/15",
+ "small_line_problems": [
+  {
+   "t": 87.36,
+   "spk": "Mike",
+   "line": "Next week's question is this: what would you do if you found an envelope with money at work? I want to hear your ideas. And if you're going to call, call early!",
+   "hyp": "next week's question is this what would you do if you found an envelope with money at work i want to hear your ideas and if you're going to call call early",
+   "flags": [
+    "sustained non-speech 300ms"
+   ]
+  }
+ ],
+ "medium_per_line": {
+  "wer": 0.012,
+  "errors": 3,
+  "words": 247,
+  "exact": "15/17"
+ },
+ "medium_differences": [
+  "('Mike', 'That is a very honest answer. Thanks, Grace. Our next caller is Teresa. Teresa, what would you do?', 'that is a very honest answer thanks grace our next caller is theresa theresa what would you do')",
+  "('Mike', 'And what would you do if it were only one dollar?', 'and what would you do if it were only 1 dollars')"
+ ],
+ "pitch_median_hz": {
+  "Mike": 123.4,
+  "Grace": 242.7,
+  "Teresa": 213.6,
+  "Narrator": 198.2
+ },
+ "pitch_problems": [],
+ "clipped_samples": 0,
+ "peak": 0.881,
+ "loudness_lufs": -16.7,
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "gaps_ok": true,
+ "noisy_pauses": [
+  [
+   83.1,
+   83.53,
+   -51.8
+  ]
+ ],
+ "failed_sentences": [],
+ "sentences": 33,
+ "takes_tried": 79,
+ "lines_wrong_in_both_checkers": [],
+ "single_checker_misses_or_flags_ignored": {
+  "small": [
+   {
+    "t": 87.36,
+    "spk": "Mike",
+    "line": "Next week's question is this: what would you do if you found an envelope with money at work? I want to hear your ideas. And if you're going to call, call early!",
+    "hyp": "next week's question is this what would you do if you found an envelope with money at work i want to hear your ideas and if you're going to call call early",
+    "flags": [
+     "sustained non-speech 300ms"
+    ]
+   }
+  ],
+  "medium": [
+   "('Mike', 'That is a very honest answer. Thanks, Grace. Our next caller is Teresa. Teresa, what would you do?', 'that is a very honest answer thanks grace our next caller is theresa theresa what would you do')",
+   "('Mike', 'And what would you do if it were only one dollar?', 'and what would you do if it were only 1 dollars')"
+  ]
+ },
+ "rule": "line bad only if small.en AND medium.en both mishear it; pitch, clipping, length, gaps, FAILED still gate",
+ "PASS": true
+}

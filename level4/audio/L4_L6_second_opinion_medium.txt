@@ -1,0 +1,3 @@
+medium.en per-line WER 0.012 (3/247), 15/17 lines exact
+   ('Mike', 'That is a very honest answer. Thanks, Grace. Our next caller is Teresa. Teresa, what would you do?', 'that is a very honest answer thanks grace our next caller is theresa theresa what would you do')
+   ('Mike', 'And what would you do if it were only one dollar?', 'and what would you do if it were only 1 dollars')

@@ -11,7 +11,7 @@ When audio is made, it will use synthetic voices made with Chatterbox TTS (Resem
 | 3 | Have You Finished Yet? | `scripts/script_L4_L3.py` | `cast/cast_L4_L3.json` | to do |
 | 4 | How Long Have You Had It? | `scripts/script_L4_L4.py` | `cast/cast_L4_L4.json` | draft, about 1:58, gate PASS |
 | 5 | Would You Mind…? | `scripts/script_L4_L5.py` | `cast/cast_L4_L5.json` | draft, about 1:54, gate PASS |
-| 6 | What Would You Do? | `scripts/script_L4_L6.py` | `cast/cast_L4_L6.json` | to do |
+| 6 | What Would You Do? | `scripts/script_L4_L6.py` | `cast/cast_L4_L6.json` | draft, about 1:40, gate PASS |
 | 7 | Too Early or On Time? | `scripts/script_L4_L7.py` | `cast/cast_L4_L7.json` | draft, about 1:52, gate PASS |
 | 8 | In the News | `scripts/script_L4_L8.py` | `cast/cast_L4_L8.json` | draft, about 1:50, gate PASS |
 | 9 | I See Your Point | `scripts/script_L4_L9.py` | `cast/cast_L4_L9.json` | draft, about 1:48, gate PASS |
