@@ -730,7 +730,7 @@ If a lesson's Markdown changes, run `.venv-audio/bin/python $T/make_script_L3.py
 
 ### Token-efficient local run
 
-Use this when the owner asks for a level's listening audio on this machine. The recorder is a local script. Start it, then leave it alone. Reading the build log from the chat, or starting a second loop to re-decide takes, spends tokens and does not make the audio.
+Use this when the owner asks for a level's listening audio on this machine. The recorder is a local script. Start it, then leave it alone. Reading the build log from the chat, or starting a second loop to re-decide takes, spends tokens and does not make the audio. When a line fails the checker and that line is not the grammar the lesson is teaching, rewrite the line and record the lesson again. The steps are under **A line the checker cannot accept** below.
 
 **Branch.** One feature branch holds the lessons that pass. Level 3 used `level3-L2-13-audio-handoff`, made from `main`. Level 4's scripts and tools are not on `main`, so `level4-audio` starts from `origin/level4-lessons` (commit `c48e8c3`). A later level that is already on `main` starts from `main`. Keep the main checkout on `main` and do the recording in a second worktree. Merging the audio branch into `main` needs the owner's approval. A push to `main` deploys the website.
 
@@ -742,15 +742,23 @@ Use this when the owner asks for a level's listening audio on this machine. The 
 
 **Pass, then push.** Up to 3 gated runs per lesson. Seeds are `2026 + k·7919`, at most 16 (`MAXT`). After the gate says PASS, publish the MP3 and the check files, set the status row and the real length in the listening-script heading, and commit only those files plus the status file and the lesson Markdown. Then `git push -u origin <audio-branch>` (a normal push). The owner reviews the branch after the set is pushed. A person still listens to each MP3 once. The model cannot hear audio.
 
-**A lesson that cannot pass.** When a sentence has used all 16 seeds and still fails, or the length is outside that level's gate, or no unused seed remains: leave that lesson as it is. Put it on its own branch, named `level<V>-L<N>-audio-failed`, with the MP3, the log, the check JSON, the gate JSON, the second opinion, and a short note that the gate did not pass. Leave the WAV, `cache/`, and `out/` uncommitted. Open a GitHub issue that names the lesson, the duration, the sentences that failed, what the checkers heard, and the branch. Label the issue `audio`. Create the label once if it is missing:
+**A line the checker cannot accept.** One sentence that never passes fails the whole lesson. Level 3 finished after the stuck lines were rewritten, and the good takes already in `cache/` were reused. Do that again. This is the owner's standing rule (2026-10-23): rewrite a failed line the way Level 3 was rewritten, unless that line is the grammar the lesson is teaching. When a sentence has used all 16 seeds and still fails, or the whole-file check misses a line and no unused seed remains:
+
+1. Stop the recorder before you edit. A process that already loaded the script keeps the old line.
+2. Rewrite the spoken line and the printed listening script so they say the same words. Keep the grammar. Update every task evidence string, the slide spec, the rebuilt deck, the site text, and that lesson's PDF and DOCX. Then record the lesson again. Unchanged sentences come back from `cache/` in seconds.
+3. Say the full form when the checker drops a contraction or a short form and the lesson is teaching the meaning. Level 4 recordings say "going to" and "want to", and "we have" where "we've" disappeared. The Hear It box can still say that people often say gonna and wanna, and that learners only need to recognize those short forms. Do not write that learners will hear a short form the recording does not say.
+4. Change a name, a number, or a fragment the checker hears as a different phrase. Level 4 examples: "Park View" was heard as one word, so the page says Parkview; "Aisles one to six" was heard as "IELTS 16", so the line says "Those shelves are done"; "It's one eighteen over seventy-six" matched and still sat under the word-probability cutoff, so the line says the blood pressure looks normal; "March what?" became a full question. The answer key must still be found in the script.
+5. Keep the pass rule and the pitch floors (male median under 150 Hz, female 165 Hz or more). Leave `canon.py` as it is. A checker change still needs the owner's decision.
+
+**When a rewrite is not the right fix.** If the stuck words are the grammar point and no other wording still teaches it, or a rewrite has already been recorded and the gate still fails, or the length is outside that level's gate: leave that lesson as it is. Put the MP3, the log, the check JSON, the gate JSON, the second opinion, and a short note on a branch named `level<V>-L<N>-audio-failed`. Leave the WAV, `cache/`, and `out/` uncommitted. Open a GitHub issue that names the lesson, the duration, the sentences that failed, what the checkers heard, and the branch. Label the issue `audio`. Create the label once if it is missing:
 
 ```bash
 gh label create audio --repo sdpursley/ESL-Curriculum --description "Listening audio builds and checker failures" --color 1d76db
 ```
 
-Skip that lesson and continue the queue. Keep the pass rule as it is. A script change or a checker change needs the owner's decision before that lesson is recorded again.
+If that lesson already has an `audio` issue, comment on it. Do not open a second one. Then continue the other lessons.
 
-**Numbers and reductions.** `canon.py` already treats number words and digits as the same string, so a line can match and still fail the take when a word probability stays under 0.5. Spelled letters and digit strings are checked by ear (section 4). `canon.py` does not treat *gonna* as "going to" or *wanna* as "want to".
+**Numbers and reductions.** `canon.py` already treats number words and digits as the same string, so a line can match and still fail the take when a word probability stays under 0.5. Spelled letters and digit strings are checked by ear (section 4). `canon.py` does not treat *gonna* as "going to" or *wanna* as "want to". Write the full form in the spoken script.
 
 **Level 4, with sections 3 and 4.** Tools: `level4/audio/tools/run_audio_L4.sh <N>` (build, small.en, medium.en, gate) and `publish_audio_L4.sh <N> ['notes']`. Narrator **0.55 / 0.40**, characters **0.72 / 0.32**. Whole-sentence takes. Pauses **1.3–1.5 s** (the gate accepts 1.25–1.6). Length gate **1:30–2:15**. The gate fails a heard line only when both checkers miss it. Pitch, clipping, length, gaps, and a sentence that used every seed still fail the gate. A lesson may have more than three voices. Commit message for a passing lesson: `Level 4 Lesson <N> draft listening audio`. The same never-commit check as above: the staged diff must contain no `.wav`, `.onnx`, `.bin`, `.pt`, `venv`, `cache/`, or `out/`.
 
