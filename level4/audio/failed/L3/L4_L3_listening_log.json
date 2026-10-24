@@ -1,0 +1,1019 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Ms. Rivera": "refs/Rosa.wav",
+   "Jamal": "refs/Sam.wav",
+   "Kim": "refs/Kim.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson three. It's the end of the evening shift at a grocery store.",
+    "tts_text": "Lesson three. It's the end of the evening shift at a grocery store.",
+    "seed": 2026,
+    "hyp": "lesson 3 it's the end of the evening shift at a grocery store",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.97,
+    "dur": 3.75,
+    "raw_peak": 0.562,
+    "pitch_ok": true,
+    "score": 1.468,
+    "f0_med": 186.0,
+    "f0_st_sd": 3.31,
+    "f0_range_st": 10.81
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Ms. Rivera, the supervisor, talks to Jamal and Kim.",
+    "tts_text": "Ms. Rivera, the supervisor, talks to Jamal and Kim.",
+    "seed": 2026,
+    "hyp": "ms rivera the supervisor talks to jamal and kim",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.95,
+    "dur": 3.55,
+    "raw_peak": 0.765,
+    "pitch_ok": true,
+    "score": 1.361,
+    "f0_med": 180.7,
+    "f0_st_sd": 2.71,
+    "f0_range_st": 8.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "OK, team, it's almost nine.",
+    "tts_text": "OK, team, it's almost nine.",
+    "seed": 2026,
+    "hyp": "ok team it's almost 9",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.57,
+    "mean_prob": 0.76,
+    "dur": 1.83,
+    "raw_peak": 0.469,
+    "pitch_ok": true,
+    "score": 1.305,
+    "f0_med": 227.7,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 10.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Let's look at the checklist.",
+    "tts_text": "Let's look at the checklist.",
+    "seed": 9945,
+    "hyp": "let's look at the checklist",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 1.35,
+    "raw_peak": 0.506,
+    "pitch_ok": true,
+    "score": 1.26,
+    "f0_med": 314.6,
+    "f0_st_sd": 1.83,
+    "f0_range_st": 4.8
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Jamal, have you restocked the shelves yet?",
+    "tts_text": "Jamal, have you restocked the shelves yet?",
+    "seed": 2026,
+    "hyp": "jamal have you restocked the shelves yet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.97,
+    "dur": 2.18,
+    "raw_peak": 0.605,
+    "pitch_ok": true,
+    "score": 1.285,
+    "f0_med": 213.6,
+    "f0_st_sd": 2.13,
+    "f0_range_st": 6.21
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Jamal",
+    "text": "Yes, I've already restocked them.",
+    "tts_text": "Yes, I've already restocked them.",
+    "seed": 2026,
+    "hyp": "yes i've already restocked them",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.97,
+    "dur": 1.97,
+    "raw_peak": 0.568,
+    "pitch_ok": true,
+    "score": 1.14,
+    "f0_med": 126.7,
+    "f0_st_sd": 1.11,
+    "f0_range_st": 3.31
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Jamal",
+    "text": "Those shelves are done.",
+    "tts_text": "Those shelves are done.",
+    "seed": 9945,
+    "hyp": "those shelves are done",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.95,
+    "dur": 1.34,
+    "raw_peak": 0.484,
+    "pitch_ok": true,
+    "score": 1.461,
+    "f0_med": 116.5,
+    "f0_st_sd": 3.4,
+    "f0_range_st": 11.4
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Great. And the delivery?",
+    "tts_text": "Great. And the delivery?",
+    "seed": 2026,
+    "hyp": "great and the delivery",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.97,
+    "dur": 1.84,
+    "raw_peak": 0.532,
+    "pitch_ok": true,
+    "score": 1.569,
+    "f0_med": 225.7,
+    "f0_st_sd": 4.77,
+    "f0_range_st": 14.11
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Has the truck arrived yet?",
+    "tts_text": "Has the truck arrived yet?",
+    "seed": 2026,
+    "hyp": "has the truck arrived yet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.36,
+    "raw_peak": 0.496,
+    "pitch_ok": true,
+    "score": 1.372,
+    "f0_med": 181.2,
+    "f0_st_sd": 2.67,
+    "f0_range_st": 8.45
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Jamal",
+    "text": "Yes, it's just arrived.",
+    "tts_text": "Yes, it's just arrived.",
+    "seed": 2026,
+    "hyp": "yes it's just arrived",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.49,
+    "raw_peak": 0.376,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 103.2,
+    "f0_st_sd": 4.66,
+    "f0_range_st": 14.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Jamal",
+    "text": "Kim and I are putting it away.",
+    "tts_text": "Kim and I are putting it away.",
+    "seed": 2026,
+    "hyp": "kim and i are putting it away",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.64,
+    "raw_peak": 0.28,
+    "pitch_ok": true,
+    "score": 1.428,
+    "f0_med": 110.6,
+    "f0_st_sd": 3.0,
+    "f0_range_st": 9.85
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "We have already put away the milk and the eggs.",
+    "tts_text": "We have already put away the milk and the eggs.",
+    "seed": 2026,
+    "hyp": "we have already put away the milk and the eggs",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.34,
+    "raw_peak": 0.336,
+    "pitch_ok": true,
+    "score": 1.497,
+    "f0_med": 181.7,
+    "f0_st_sd": 3.42,
+    "f0_range_st": 12.62
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Good. Kim, have you cleaned the cooler yet?",
+    "tts_text": "Good. Kim, have you cleaned the cooler yet?",
+    "seed": 2026,
+    "hyp": "good kim have you cleaned the cooler yet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.59,
+    "raw_peak": 0.489,
+    "pitch_ok": true,
+    "score": 1.476,
+    "f0_med": 223.7,
+    "f0_st_sd": 3.3,
+    "f0_range_st": 11.03
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "No, not yet.",
+    "tts_text": "No, not yet.",
+    "seed": 2026,
+    "hyp": "no not yet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 1.88,
+    "raw_peak": 0.268,
+    "pitch_ok": true,
+    "score": 1.323,
+    "f0_med": 183.8,
+    "f0_st_sd": 2.5,
+    "f0_range_st": 8.72
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "I haven't cleaned it yet.",
+    "tts_text": "I haven't cleaned it yet.",
+    "seed": 2026,
+    "hyp": "i haven't cleaned it yet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.17,
+    "raw_peak": 0.32,
+    "pitch_ok": true,
+    "score": 1.361,
+    "f0_med": 204.0,
+    "f0_st_sd": 2.53,
+    "f0_range_st": 7.46
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "The delivery came late.",
+    "tts_text": "The delivery came late.",
+    "seed": 2026,
+    "hyp": "the delivery came late",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.29,
+    "raw_peak": 0.338,
+    "pitch_ok": true,
+    "score": 1.569,
+    "f0_med": 211.2,
+    "f0_st_sd": 7.74,
+    "f0_range_st": 26.21
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "That's OK. Are you going to have time tonight?",
+    "tts_text": "That's OK. Are you going to have time tonight?",
+    "seed": 2026,
+    "hyp": "that's ok are you going to have time tonight",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.97,
+    "dur": 2.73,
+    "raw_peak": 0.657,
+    "pitch_ok": true,
+    "score": 1.54,
+    "f0_med": 189.2,
+    "f0_st_sd": 3.8,
+    "f0_range_st": 11.65
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "I think so.",
+    "tts_text": "I think so.",
+    "seed": 9945,
+    "hyp": "i think so",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 1.47,
+    "raw_peak": 0.378,
+    "pitch_ok": true,
+    "score": 1.553,
+    "f0_med": 206.4,
+    "f0_st_sd": 5.06,
+    "f0_range_st": 13.67
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "I'm going to start it after the delivery.",
+    "tts_text": "I'm going to start it after the delivery.",
+    "seed": 9945,
+    "hyp": "i'm going to start it after the delivery",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 1.0,
+    "dur": 2.19,
+    "raw_peak": 0.475,
+    "pitch_ok": true,
+    "score": 1.596,
+    "f0_med": 168.6,
+    "f0_st_sd": 4.07,
+    "f0_range_st": 12.62
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "It takes about twenty minutes.",
+    "tts_text": "It takes about twenty minutes.",
+    "seed": 2026,
+    "hyp": "it takes about 20 minutes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.95,
+    "dur": 1.84,
+    "raw_peak": 0.254,
+    "pitch_ok": true,
+    "score": 1.366,
+    "f0_med": 193.7,
+    "f0_st_sd": 2.79,
+    "f0_range_st": 10.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Perfect. Jamal, have you checked the bakery inventory?",
+    "tts_text": "Perfect. Jamal, have you checked the bakery inventory?",
+    "seed": 9945,
+    "hyp": "perfect jamal have you checked the bakery inventory",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.96,
+    "dur": 2.96,
+    "raw_peak": 0.687,
+    "pitch_ok": true,
+    "score": 1.375,
+    "f0_med": 221.8,
+    "f0_st_sd": 2.78,
+    "f0_range_st": 8.86
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Jamal",
+    "text": "I've just finished it.",
+    "tts_text": "I've just finished it.",
+    "seed": 2026,
+    "hyp": "i've just finished it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 0.98,
+    "raw_peak": 0.523,
+    "pitch_ok": true,
+    "score": 1.591,
+    "f0_med": 145.1,
+    "f0_st_sd": 4.38,
+    "f0_range_st": 11.15
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Jamal",
+    "text": "I gave you the list at eight.",
+    "tts_text": "I gave you the list at eight.",
+    "seed": 2026,
+    "hyp": "i gave you the list at 8",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.92,
+    "dur": 2.3,
+    "raw_peak": 0.615,
+    "pitch_ok": true,
+    "score": 1.523,
+    "f0_med": 143.4,
+    "f0_st_sd": 4.07,
+    "f0_range_st": 15.06
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Oh, right, I have it here.",
+    "tts_text": "Oh, right, I have it here.",
+    "seed": 2026,
+    "hyp": "oh right i have it here",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.9,
+    "raw_peak": 0.874,
+    "pitch_ok": true,
+    "score": 1.486,
+    "f0_med": 201.6,
+    "f0_st_sd": 3.37,
+    "f0_range_st": 9.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Thanks. And the break room?",
+    "tts_text": "Thanks. And the break room?",
+    "seed": 9945,
+    "hyp": "thanks and the break room",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.87,
+    "dur": 1.9,
+    "raw_peak": 0.418,
+    "pitch_ok": true,
+    "score": 1.469,
+    "f0_med": 248.6,
+    "f0_st_sd": 4.47,
+    "f0_range_st": 11.98
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Jamal",
+    "text": "Not yet. I'm going to clean it before I clock out.",
+    "tts_text": "Not yet. I'm going to clean it before I clock out.",
+    "seed": 2026,
+    "hyp": "not yet i'm going to clean it before i clock out",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 2.86,
+    "raw_peak": 0.585,
+    "pitch_ok": true,
+    "score": 1.581,
+    "f0_med": 108.1,
+    "f0_st_sd": 4.04,
+    "f0_range_st": 11.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "OK. So the cooler and the break room aren't done yet.",
+    "tts_text": "OK. So the cooler and the break room aren't done yet.",
+    "seed": 33702,
+    "hyp": "ok so the cooler and the break room aren't done yet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.65,
+    "mean_prob": 0.91,
+    "dur": 3.49,
+    "raw_peak": 0.546,
+    "pitch_ok": true,
+    "score": 1.383,
+    "f0_med": 213.6,
+    "f0_st_sd": 3.16,
+    "f0_range_st": 9.8
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Everything else is done.",
+    "tts_text": "Everything else is done.",
+    "seed": 2026,
+    "hyp": "everything else is done",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.95,
+    "dur": 1.7,
+    "raw_peak": 0.684,
+    "pitch_ok": true,
+    "score": 1.407,
+    "f0_med": 205.2,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 9.57
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "Ms. Rivera, have you seen the new training schedule yet?",
+    "tts_text": "Ms. Rivera, have you seen the new training schedule yet?",
+    "seed": 2026,
+    "hyp": "ms rivera have you seen the new training schedule yet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.95,
+    "dur": 3.08,
+    "raw_peak": 0.268,
+    "pitch_ok": true,
+    "score": 1.35,
+    "f0_med": 183.8,
+    "f0_st_sd": 2.68,
+    "f0_range_st": 7.87
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Yes, I've just seen it.",
+    "tts_text": "Yes, I've just seen it.",
+    "seed": 2026,
+    "hyp": "yes i've just seen it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.51,
+    "raw_peak": 0.517,
+    "pitch_ok": true,
+    "score": 1.514,
+    "f0_med": 217.4,
+    "f0_st_sd": 3.55,
+    "f0_range_st": 10.43
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "The deadline for the safety training is Friday.",
+    "tts_text": "The deadline for the safety training is Friday.",
+    "seed": 2026,
+    "hyp": "the deadline for the safety training is friday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 2.76,
+    "raw_peak": 0.488,
+    "pitch_ok": true,
+    "score": 1.496,
+    "f0_med": 222.5,
+    "f0_st_sd": 3.48,
+    "f0_range_st": 10.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "Thanks. I want to finish it this week.",
+    "tts_text": "Thanks. I want to finish it this week.",
+    "seed": 25783,
+    "hyp": "thanks i want to finish it this week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.94,
+    "dur": 1.95,
+    "raw_peak": 0.389,
+    "pitch_ok": true,
+    "score": 1.536,
+    "f0_med": 175.5,
+    "f0_st_sd": 6.43,
+    "f0_range_st": 22.4
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "Good idea. And some quick feedback: you both did great work tonight.",
+    "tts_text": "Good idea. And some quick feedback: you both did great work tonight.",
+    "seed": 81216,
+    "hyp": "good idea and some quick feedback you both did great work tonight",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.99,
+    "dur": 4.31,
+    "raw_peak": 0.663,
+    "pitch_ok": true,
+    "score": 1.464,
+    "f0_med": 211.2,
+    "f0_st_sd": 3.19,
+    "f0_range_st": 10.25
+   },
+   "tries": 11,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Rivera",
+    "text": "The shelves look really good.",
+    "tts_text": "The shelves look really good.",
+    "seed": 2026,
+    "hyp": "the shelves look really good",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.85,
+    "raw_peak": 0.569,
+    "pitch_ok": true,
+    "score": 1.568,
+    "f0_med": 230.3,
+    "f0_st_sd": 3.91,
+    "f0_range_st": 12.05
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Jamal",
+    "text": "Thank you!",
+    "tts_text": "Thank you!",
+    "seed": 2026,
+    "hyp": "thank you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.93,
+    "dur": 0.65,
+    "raw_peak": 0.285,
+    "pitch_ok": true,
+    "score": 1.525,
+    "f0_med": 127.4,
+    "f0_st_sd": 6.3,
+    "f0_range_st": 16.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "Thanks, Ms. Rivera.",
+    "tts_text": "Thanks, Ms. Rivera.",
+    "seed": 49540,
+    "hyp": "thanks ms rivera",
+    "ok": false,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.87,
+    "dur": 1.39,
+    "raw_peak": 0.255,
+    "pitch_ok": false,
+    "score": 1.47,
+    "f0_med": 156.4,
+    "f0_st_sd": 5.05,
+    "f0_range_st": 20.64
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Kim",
+    "text": "See you tomorrow.",
+    "tts_text": "See you tomorrow.",
+    "seed": 2026,
+    "hyp": "see you tomorrow",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.26,
+    "raw_peak": 0.216,
+    "pitch_ok": true,
+    "score": 1.586,
+    "f0_med": 207.6,
+    "f0_st_sd": 5.18,
+    "f0_range_st": 10.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   9.95,
+   16.41,
+   "Ms. Rivera",
+   "OK, team, it's almost nine. Let's look at the checklist. Jamal, have you restocked the shelves yet?"
+  ],
+  [
+   17.71,
+   21.57,
+   "Jamal",
+   "Yes, I've already restocked them. Those shelves are done."
+  ],
+  [
+   22.87,
+   26.62,
+   "Ms. Rivera",
+   "Great. And the delivery? Has the truck arrived yet?"
+  ],
+  [
+   27.92,
+   31.6,
+   "Jamal",
+   "Yes, it's just arrived. Kim and I are putting it away."
+  ],
+  [
+   32.9,
+   35.24,
+   "Kim",
+   "We have already put away the milk and the eggs."
+  ],
+  [
+   36.54,
+   39.13,
+   "Ms. Rivera",
+   "Good. Kim, have you cleaned the cooler yet?"
+  ],
+  [
+   40.43,
+   45.87,
+   "Kim",
+   "No, not yet. I haven't cleaned it yet. The delivery came late."
+  ],
+  [
+   47.17,
+   49.9,
+   "Ms. Rivera",
+   "That's OK. Are you going to have time tonight?"
+  ],
+  [
+   51.2,
+   57.8,
+   "Kim",
+   "I think so. I'm going to start it after the delivery. It takes about twenty minutes."
+  ],
+  [
+   59.1,
+   62.06,
+   "Ms. Rivera",
+   "Perfect. Jamal, have you checked the bakery inventory?"
+  ],
+  [
+   63.36,
+   67.19,
+   "Jamal",
+   "I've just finished it. I gave you the list at eight."
+  ],
+  [
+   68.49,
+   72.84,
+   "Ms. Rivera",
+   "Oh, right, I have it here. Thanks. And the break room?"
+  ],
+  [
+   74.14,
+   77.0,
+   "Jamal",
+   "Not yet. I'm going to clean it before I clock out."
+  ],
+  [
+   78.3,
+   84.04,
+   "Ms. Rivera",
+   "OK. So the cooler and the break room aren't done yet. Everything else is done."
+  ],
+  [
+   85.34,
+   88.42,
+   "Kim",
+   "Ms. Rivera, have you seen the new training schedule yet?"
+  ],
+  [
+   89.72,
+   94.54,
+   "Ms. Rivera",
+   "Yes, I've just seen it. The deadline for the safety training is Friday."
+  ],
+  [
+   95.84,
+   97.79,
+   "Kim",
+   "Thanks. I want to finish it this week."
+  ],
+  [
+   99.09,
+   105.8,
+   "Ms. Rivera",
+   "Good idea. And some quick feedback: you both did great work tonight. The shelves look really good."
+  ],
+  [
+   107.1,
+   107.75,
+   "Jamal",
+   "Thank you!"
+  ],
+  [
+   109.05,
+   112.25,
+   "Kim",
+   "Thanks, Ms. Rivera. See you tomorrow."
+  ]
+ ]
+}
