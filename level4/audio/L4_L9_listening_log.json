@@ -1,0 +1,867 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Mrs. Okafor": "refs/Kim.wav",
+   "Ray": "refs/Sam.wav",
+   "Lynn": "refs/Ana_af_jessica.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson nine. Neighbors are at a community meeting.",
+    "tts_text": "Lesson nine. Neighbors are at a community meeting.",
+    "seed": 2026,
+    "hyp": "lesson 9 neighbors are at a community meeting",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.95,
+    "dur": 3.32,
+    "raw_peak": 0.699,
+    "pitch_ok": true,
+    "score": 1.419,
+    "f0_med": 177.6,
+    "f0_st_sd": 3.1,
+    "f0_range_st": 9.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "They are talking about the empty lot on Cedar Street.",
+    "tts_text": "They are talking about the empty lot on Cedar Street.",
+    "seed": 2026,
+    "hyp": "they are talking about the empty lot on cedar street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.96,
+    "dur": 2.74,
+    "raw_peak": 0.631,
+    "pitch_ok": true,
+    "score": 1.463,
+    "f0_med": 177.6,
+    "f0_st_sd": 3.37,
+    "f0_range_st": 10.16
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "Good evening, everyone, and welcome.",
+    "tts_text": "Good evening, everyone, and welcome.",
+    "seed": 2026,
+    "hyp": "good evening everyone and welcome",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 2.02,
+    "raw_peak": 0.278,
+    "pitch_ok": true,
+    "score": 1.566,
+    "f0_med": 205.2,
+    "f0_st_sd": 4.12,
+    "f0_range_st": 12.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "Thank you for coming.",
+    "tts_text": "Thank you for coming.",
+    "seed": 25783,
+    "hyp": "thank you for coming",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.18,
+    "raw_peak": 0.276,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 181.7,
+    "f0_st_sd": 4.43,
+    "f0_range_st": 11.62
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "Tonight we want to talk about the empty lot on Cedar Street.",
+    "tts_text": "Tonight we want to talk about the empty lot on Cedar Street.",
+    "seed": 2026,
+    "hyp": "tonight we want to talk about the empty lot on cedar street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.96,
+    "dur": 3.14,
+    "raw_peak": 0.34,
+    "pitch_ok": true,
+    "score": 1.456,
+    "f0_med": 178.6,
+    "f0_st_sd": 3.28,
+    "f0_range_st": 10.32
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "The city says we can choose a plan.",
+    "tts_text": "The city says we can choose a plan.",
+    "seed": 2026,
+    "hyp": "the city says we can choose a plan",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.95,
+    "dur": 2.4,
+    "raw_peak": 0.215,
+    "pitch_ok": true,
+    "score": 1.548,
+    "f0_med": 178.6,
+    "f0_st_sd": 4.34,
+    "f0_range_st": 12.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "Ray, what do you think about it?",
+    "tts_text": "Ray, what do you think about it?",
+    "seed": 2026,
+    "hyp": "ray what do you think about it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.94,
+    "dur": 1.99,
+    "raw_peak": 0.289,
+    "pitch_ok": true,
+    "score": 1.539,
+    "f0_med": 172.1,
+    "f0_st_sd": 5.07,
+    "f0_range_st": 16.42
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "Thanks, Mrs. Okafor.",
+    "tts_text": "Thanks, Mrs. Okafor.",
+    "seed": 2026,
+    "hyp": "thanks mrs okafor",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.71,
+    "mean_prob": 0.86,
+    "dur": 1.38,
+    "raw_peak": 0.419,
+    "pitch_ok": true,
+    "score": 1.294,
+    "f0_med": 110.9,
+    "f0_st_sd": 2.9,
+    "f0_range_st": 10.16
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "In my opinion, we need a parking lot.",
+    "tts_text": "In my opinion, we need a parking lot.",
+    "seed": 2026,
+    "hyp": "in my opinion we need a parking lot",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.12,
+    "raw_peak": 0.475,
+    "pitch_ok": true,
+    "score": 1.576,
+    "f0_med": 102.0,
+    "f0_st_sd": 4.45,
+    "f0_range_st": 12.68
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "There aren't enough parking spaces on our street.",
+    "tts_text": "There aren't enough parking spaces on our street.",
+    "seed": 17864,
+    "hyp": "there aren't enough parking spaces on our street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.95,
+    "dur": 2.06,
+    "raw_peak": 0.707,
+    "pitch_ok": true,
+    "score": 1.555,
+    "f0_med": 124.1,
+    "f0_st_sd": 4.2,
+    "f0_range_st": 15.54
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "I drive around for twenty minutes every night.",
+    "tts_text": "I drive around for twenty minutes every night.",
+    "seed": 2026,
+    "hyp": "i drive around for 20 minutes every night",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 2.61,
+    "raw_peak": 0.759,
+    "pitch_ok": true,
+    "score": 1.572,
+    "f0_med": 125.6,
+    "f0_st_sd": 4.04,
+    "f0_range_st": 13.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "Yes, the parking problem is serious.",
+    "tts_text": "Yes, the parking problem is serious.",
+    "seed": 2026,
+    "hyp": "yes the parking problem is serious",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 2.35,
+    "raw_peak": 0.368,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 169.1,
+    "f0_st_sd": 4.31,
+    "f0_range_st": 9.48
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "Lynn, how do you feel about it?",
+    "tts_text": "Lynn, how do you feel about it?",
+    "seed": 9945,
+    "hyp": "lynn how do you feel about it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.58,
+    "mean_prob": 0.93,
+    "dur": 1.67,
+    "raw_peak": 0.327,
+    "pitch_ok": true,
+    "score": 1.535,
+    "f0_med": 177.6,
+    "f0_st_sd": 6.68,
+    "f0_range_st": 24.23
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lynn",
+    "text": "I see your point, Ray, but I'm not sure I agree.",
+    "tts_text": "I see your point, Ray, but I'm not sure I agree.",
+    "seed": 41621,
+    "hyp": "i see your point ray but i'm not sure i agree",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.48,
+    "mean_prob": 0.94,
+    "dur": 2.82,
+    "raw_peak": 0.825,
+    "pitch_ok": true,
+    "score": 1.54,
+    "f0_med": 256.3,
+    "f0_st_sd": 5.37,
+    "f0_range_st": 16.66
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lynn",
+    "text": "I think a community garden is a better idea.",
+    "tts_text": "I think a community garden is a better idea.",
+    "seed": 2026,
+    "hyp": "i think a community garden is a better idea",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.98,
+    "dur": 2.52,
+    "raw_peak": 0.735,
+    "pitch_ok": true,
+    "score": 1.577,
+    "f0_med": 179.6,
+    "f0_st_sd": 4.41,
+    "f0_range_st": 15.61
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "A garden? Why?",
+    "tts_text": "A garden? Why?",
+    "seed": 2026,
+    "hyp": "a garden why",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.85,
+    "dur": 1.96,
+    "raw_peak": 0.629,
+    "pitch_ok": true,
+    "score": 1.392,
+    "f0_med": 133.4,
+    "f0_st_sd": 3.62,
+    "f0_range_st": 10.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lynn",
+    "text": "First, a garden isn't as expensive as a parking lot.",
+    "tts_text": "First, a garden isn't as expensive as a parking lot.",
+    "seed": 2026,
+    "hyp": "first a garden isn't as expensive as a parking lot",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.99,
+    "dur": 3.45,
+    "raw_peak": 0.82,
+    "pitch_ok": true,
+    "score": 1.496,
+    "f0_med": 235.7,
+    "f0_st_sd": 3.37,
+    "f0_range_st": 10.79
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lynn",
+    "text": "Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.",
+    "tts_text": "Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.",
+    "seed": 17864,
+    "hyp": "also if we had a garden families would grow vegetables and kids would spend more time outside",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.97,
+    "dur": 5.73,
+    "raw_peak": 0.872,
+    "pitch_ok": true,
+    "score": 1.548,
+    "f0_med": 252.6,
+    "f0_st_sd": 3.85,
+    "f0_range_st": 14.2
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "That's a good idea, but a garden is a lot of work.",
+    "tts_text": "That's a good idea, but a garden is a lot of work.",
+    "seed": 2026,
+    "hyp": "that's a good idea but a garden is a lot of work",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 3.6,
+    "raw_peak": 0.568,
+    "pitch_ok": true,
+    "score": 1.465,
+    "f0_med": 113.5,
+    "f0_st_sd": 3.16,
+    "f0_range_st": 9.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "Who's going to take care of it?",
+    "tts_text": "Who's going to take care of it?",
+    "seed": 2026,
+    "hyp": "who's going to take care of it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.98,
+    "dur": 1.55,
+    "raw_peak": 0.305,
+    "pitch_ok": true,
+    "score": 1.418,
+    "f0_med": 137.7,
+    "f0_st_sd": 2.95,
+    "f0_range_st": 10.73
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lynn",
+    "text": "I'd help, and I think many neighbors would help too.",
+    "tts_text": "I'd help, and I think many neighbors would help too.",
+    "seed": 9945,
+    "hyp": "i'd help and i think many neighbors would help too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.96,
+    "dur": 2.97,
+    "raw_peak": 0.888,
+    "pitch_ok": true,
+    "score": 1.559,
+    "f0_med": 234.3,
+    "f0_st_sd": 4.11,
+    "f0_range_st": 12.54
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "Ray, do you agree with that?",
+    "tts_text": "Ray, do you agree with that?",
+    "seed": 2026,
+    "hyp": "ray do you agree with that",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.51,
+    "mean_prob": 0.92,
+    "dur": 1.6,
+    "raw_peak": 0.26,
+    "pitch_ok": true,
+    "score": 1.401,
+    "f0_med": 197.0,
+    "f0_st_sd": 3.24,
+    "f0_range_st": 8.72
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "Well, I agree that a garden is nice.",
+    "tts_text": "Well, I agree that a garden is nice.",
+    "seed": 2026,
+    "hyp": "well i agree that a garden is nice",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 2.58,
+    "raw_peak": 0.593,
+    "pitch_ok": true,
+    "score": 1.479,
+    "f0_med": 130.8,
+    "f0_st_sd": 3.34,
+    "f0_range_st": 9.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "But for me, parking is as important as a garden.",
+    "tts_text": "But for me, parking is as important as a garden.",
+    "seed": 9945,
+    "hyp": "but for me parking is as important as a garden",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 3.24,
+    "raw_peak": 0.581,
+    "pitch_ok": true,
+    "score": 1.581,
+    "f0_med": 117.2,
+    "f0_st_sd": 4.19,
+    "f0_range_st": 11.08
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "OK. Those are two good ideas.",
+    "tts_text": "OK. Those are two good ideas.",
+    "seed": 2026,
+    "hyp": "ok those are 2 good ideas",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.91,
+    "dur": 2.34,
+    "raw_peak": 0.279,
+    "pitch_ok": true,
+    "score": 1.515,
+    "f0_med": 214.9,
+    "f0_st_sd": 5.62,
+    "f0_range_st": 15.87
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "Let's do a survey.",
+    "tts_text": "Let's do a survey.",
+    "seed": 2026,
+    "hyp": "let's do a survey",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.98,
+    "dur": 1.45,
+    "raw_peak": 0.209,
+    "pitch_ok": true,
+    "score": 1.584,
+    "f0_med": 205.2,
+    "f0_st_sd": 4.33,
+    "f0_range_st": 11.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "We'll ask every neighbor on Cedar Street.",
+    "tts_text": "We'll ask every neighbor on Cedar Street.",
+    "seed": 2026,
+    "hyp": "we'll ask every neighbor on cedar street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 2.42,
+    "raw_peak": 0.337,
+    "pitch_ok": true,
+    "score": 1.215,
+    "f0_med": 176.6,
+    "f0_st_sd": 1.64,
+    "f0_range_st": 5.84
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Lynn",
+    "text": "I agree. That's fair.",
+    "tts_text": "I agree. That's fair.",
+    "seed": 41621,
+    "hyp": "i agree that's fair",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.97,
+    "dur": 1.51,
+    "raw_peak": 0.698,
+    "pitch_ok": true,
+    "score": 1.575,
+    "f0_med": 194.8,
+    "f0_st_sd": 4.49,
+    "f0_range_st": 14.7
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "Yes, that's a good plan.",
+    "tts_text": "Yes, that's a good plan.",
+    "seed": 2026,
+    "hyp": "yes that's a good plan",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 1.38,
+    "raw_peak": 0.737,
+    "pitch_ok": true,
+    "score": 1.374,
+    "f0_med": 113.2,
+    "f0_st_sd": 2.62,
+    "f0_range_st": 7.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ray",
+    "text": "I'll help with the survey.",
+    "tts_text": "I'll help with the survey.",
+    "seed": 2026,
+    "hyp": "i'll help with the survey",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 1.36,
+    "raw_peak": 0.597,
+    "pitch_ok": true,
+    "score": 1.531,
+    "f0_med": 120.6,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 14.66
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "Great. We'll vote at the next meeting, on May twelfth.",
+    "tts_text": "Great. We'll vote at the next meeting, on May twelfth.",
+    "seed": 2026,
+    "hyp": "great we'll vote at the next meeting on may twelfth",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.96,
+    "dur": 3.41,
+    "raw_peak": 0.384,
+    "pitch_ok": true,
+    "score": 1.518,
+    "f0_med": 172.5,
+    "f0_st_sd": 3.72,
+    "f0_range_st": 11.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Okafor",
+    "text": "Thank you, everyone.",
+    "tts_text": "Thank you, everyone.",
+    "seed": 17864,
+    "hyp": "thank you everyone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.95,
+    "dur": 1.45,
+    "raw_peak": 0.288,
+    "pitch_ok": true,
+    "score": 1.501,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.64,
+    "f0_range_st": 10.66
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   8.71,
+   21.64,
+   "Mrs. Okafor",
+   "Good evening, everyone, and welcome. Thank you for coming. Tonight we want to talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?"
+  ],
+  [
+   22.94,
+   32.76,
+   "Ray",
+   "Thanks, Mrs. Okafor. In my opinion, we need a parking lot. There aren't enough parking spaces on our street. I drive around for twenty minutes every night."
+  ],
+  [
+   34.06,
+   38.63,
+   "Mrs. Okafor",
+   "Yes, the parking problem is serious. Lynn, how do you feel about it?"
+  ],
+  [
+   39.93,
+   45.82,
+   "Lynn",
+   "I see your point, Ray, but I'm not sure I agree. I think a community garden is a better idea."
+  ],
+  [
+   47.12,
+   49.08,
+   "Ray",
+   "A garden? Why?"
+  ],
+  [
+   50.38,
+   60.11,
+   "Lynn",
+   "First, a garden isn't as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside."
+  ],
+  [
+   61.41,
+   67.11,
+   "Ray",
+   "That's a good idea, but a garden is a lot of work. Who's going to take care of it?"
+  ],
+  [
+   68.41,
+   71.38,
+   "Lynn",
+   "I'd help, and I think many neighbors would help too."
+  ],
+  [
+   72.68,
+   74.28,
+   "Mrs. Okafor",
+   "Ray, do you agree with that?"
+  ],
+  [
+   75.58,
+   81.95,
+   "Ray",
+   "Well, I agree that a garden is nice. But for me, parking is as important as a garden."
+  ],
+  [
+   83.25,
+   90.56,
+   "Mrs. Okafor",
+   "OK. Those are two good ideas. Let's do a survey. We'll ask every neighbor on Cedar Street."
+  ],
+  [
+   91.86,
+   93.37,
+   "Lynn",
+   "I agree. That's fair."
+  ],
+  [
+   94.67,
+   97.96,
+   "Ray",
+   "Yes, that's a good plan. I'll help with the survey."
+  ],
+  [
+   99.26,
+   104.67,
+   "Mrs. Okafor",
+   "Great. We'll vote at the next meeting, on May twelfth. Thank you, everyone."
+  ]
+ ]
+}
