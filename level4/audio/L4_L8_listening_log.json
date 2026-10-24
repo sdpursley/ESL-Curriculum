@@ -1,0 +1,902 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Diane Lee": "refs/Receptionist.wav",
+   "Marco": "refs/Marco.wav",
+   "Joy": "refs/Kim.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson eight. First, listen to a short news report on the radio.",
+    "tts_text": "Lesson eight. First, listen to a short news report on the radio.",
+    "seed": 2026,
+    "hyp": "lesson 8 first listen to a short news report on the radio",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.97,
+    "dur": 4.1,
+    "raw_peak": 0.835,
+    "pitch_ok": true,
+    "score": 1.562,
+    "f0_med": 198.2,
+    "f0_st_sd": 3.94,
+    "f0_range_st": 13.74
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Then two coworkers talk about the news.",
+    "tts_text": "Then two coworkers talk about the news.",
+    "seed": 2026,
+    "hyp": "then 2 coworkers talk about the news",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.91,
+    "dur": 2.33,
+    "raw_peak": 0.537,
+    "pitch_ok": true,
+    "score": 1.357,
+    "f0_med": 189.2,
+    "f0_st_sd": 2.96,
+    "f0_range_st": 9.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diane Lee",
+    "text": "Good morning. This is Diane Lee with your local news.",
+    "tts_text": "Good morning. This is Diane Lee with your local news.",
+    "seed": 2026,
+    "hyp": "good morning this is diane lee with your local news",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.96,
+    "dur": 2.75,
+    "raw_peak": 0.935,
+    "pitch_ok": true,
+    "score": 1.307,
+    "f0_med": 181.7,
+    "f0_st_sd": 2.29,
+    "f0_range_st": 7.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diane Lee",
+    "text": "Starting Monday, Oak Street will be closed between First and Fifth Avenue.",
+    "tts_text": "Starting Monday, Oak Street will be closed between First and Fifth Avenue.",
+    "seed": 9945,
+    "hyp": "starting monday oak street will be closed between first and fifth avenue",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.94,
+    "dur": 3.43,
+    "raw_peak": 0.727,
+    "pitch_ok": true,
+    "score": 1.234,
+    "f0_med": 169.6,
+    "f0_st_sd": 1.93,
+    "f0_range_st": 6.73
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diane Lee",
+    "text": "Workers are going to replace an old water pipe under the street.",
+    "tts_text": "Workers are going to replace an old water pipe under the street.",
+    "seed": 2026,
+    "hyp": "workers are going to replace an old water pipe under the street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 2.74,
+    "raw_peak": 0.593,
+    "pitch_ok": true,
+    "score": 1.419,
+    "f0_med": 173.5,
+    "f0_st_sd": 2.9,
+    "f0_range_st": 10.59
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diane Lee",
+    "text": "The city says the construction might take two weeks.",
+    "tts_text": "The city says the construction might take two weeks.",
+    "seed": 2026,
+    "hyp": "the city says the construction might take 2 weeks",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 2.81,
+    "raw_peak": 0.624,
+    "pitch_ok": true,
+    "score": 1.509,
+    "f0_med": 206.4,
+    "f0_st_sd": 3.6,
+    "f0_range_st": 11.22
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diane Lee",
+    "text": "It may take longer if it rains.",
+    "tts_text": "It may take longer if it rains.",
+    "seed": 2026,
+    "hyp": "it may take longer if it rains",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.99,
+    "dur": 1.67,
+    "raw_peak": 0.62,
+    "pitch_ok": true,
+    "score": 1.349,
+    "f0_med": 175.5,
+    "f0_st_sd": 2.42,
+    "f0_range_st": 7.84
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diane Lee",
+    "text": "During the road closure, the number twelve bus will take a detour on Pine Street.",
+    "tts_text": "During the road closure, the number twelve bus will take a detour on Pine Street.",
+    "seed": 2026,
+    "hyp": "during the road closure the number 12 bus will take a detour on pine street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.94,
+    "dur": 3.46,
+    "raw_peak": 0.687,
+    "pitch_ok": true,
+    "score": 1.343,
+    "f0_med": 176.6,
+    "f0_st_sd": 2.66,
+    "f0_range_st": 6.45
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diane Lee",
+    "text": "Riders should expect delays of about fifteen minutes.",
+    "tts_text": "Riders should expect delays of about fifteen minutes.",
+    "seed": 33702,
+    "hyp": "riders should expect delays of about 15 minutes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.94,
+    "dur": 2.57,
+    "raw_peak": 0.855,
+    "pitch_ok": true,
+    "score": 1.391,
+    "f0_med": 175.0,
+    "f0_st_sd": 3.0,
+    "f0_range_st": 10.35
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diane Lee",
+    "text": "The city will post updates on its website.",
+    "tts_text": "The city will post updates on its website.",
+    "seed": 2026,
+    "hyp": "the city will post updates on its website",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.68,
+    "mean_prob": 0.93,
+    "dur": 2.22,
+    "raw_peak": 0.643,
+    "pitch_ok": true,
+    "score": 1.374,
+    "f0_med": 191.4,
+    "f0_st_sd": 2.94,
+    "f0_range_st": 7.59
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diane Lee",
+    "text": "I'm Diane Lee, and that's the news.",
+    "tts_text": "I'm Diane Lee, and that's the news.",
+    "seed": 2026,
+    "hyp": "i'm diane lee and that's the news",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 1.9,
+    "raw_peak": 0.861,
+    "pitch_ok": true,
+    "score": 1.395,
+    "f0_med": 211.2,
+    "f0_st_sd": 2.9,
+    "f0_range_st": 10.05
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Later that morning, at work, Marco and Joy talk about the news.",
+    "tts_text": "Later that morning, at work, Marco and Joy talk about the news.",
+    "seed": 2026,
+    "hyp": "later that morning at work marco and joy talk about the news",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.97,
+    "dur": 4.01,
+    "raw_peak": 0.674,
+    "pitch_ok": true,
+    "score": 1.567,
+    "f0_med": 178.6,
+    "f0_st_sd": 4.58,
+    "f0_range_st": 16.18
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Joy, did you hear the news?",
+    "tts_text": "Joy, did you hear the news?",
+    "seed": 2026,
+    "hyp": "joy did you hear the news",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 1.49,
+    "raw_peak": 0.84,
+    "pitch_ok": true,
+    "score": 1.241,
+    "f0_med": 132.7,
+    "f0_st_sd": 1.73,
+    "f0_range_st": 5.36
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "They're closing Oak Street on Monday.",
+    "tts_text": "They're closing Oak Street on Monday.",
+    "seed": 2026,
+    "hyp": "they're closing oak street on monday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.94,
+    "dur": 1.69,
+    "raw_peak": 0.951,
+    "pitch_ok": true,
+    "score": 1.508,
+    "f0_med": 113.2,
+    "f0_st_sd": 3.79,
+    "f0_range_st": 9.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joy",
+    "text": "Oh no. I take the number twelve bus on Oak Street every day.",
+    "tts_text": "Oh no. I take the number twelve bus on Oak Street every day.",
+    "seed": 89135,
+    "hyp": "oh no i take the number 12 bus on oak street every day",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.9,
+    "dur": 5.1,
+    "raw_peak": 0.479,
+    "pitch_ok": true,
+    "score": 1.286,
+    "f0_med": 168.6,
+    "f0_st_sd": 2.59,
+    "f0_range_st": 8.44
+   },
+   "tries": 12,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "The bus is going to take a detour on Pine Street.",
+    "tts_text": "The bus is going to take a detour on Pine Street.",
+    "seed": 2026,
+    "hyp": "the bus is going to take a detour on pine street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.56,
+    "mean_prob": 0.93,
+    "dur": 2.3,
+    "raw_peak": 0.978,
+    "pitch_ok": true,
+    "score": 1.429,
+    "f0_med": 117.8,
+    "f0_st_sd": 3.32,
+    "f0_range_st": 11.16
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "It might be fifteen minutes late.",
+    "tts_text": "It might be fifteen minutes late.",
+    "seed": 2026,
+    "hyp": "it might be 15 minutes late",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.93,
+    "dur": 1.36,
+    "raw_peak": 0.747,
+    "pitch_ok": true,
+    "score": 1.142,
+    "f0_med": 89.0,
+    "f0_st_sd": 1.41,
+    "f0_range_st": 4.62
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joy",
+    "text": "Fifteen minutes? I might be late for work.",
+    "tts_text": "Fifteen minutes? I might be late for work.",
+    "seed": 9945,
+    "hyp": "15 minutes i might be late for work",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.96,
+    "dur": 3.55,
+    "raw_peak": 0.381,
+    "pitch_ok": true,
+    "score": 1.56,
+    "f0_med": 194.8,
+    "f0_st_sd": 4.75,
+    "f0_range_st": 14.41
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joy",
+    "text": "Do you know when the bus leaves Pine Street?",
+    "tts_text": "Do you know when the bus leaves Pine Street?",
+    "seed": 2026,
+    "hyp": "do you know when the bus leaves pine street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.74,
+    "raw_peak": 0.267,
+    "pitch_ok": true,
+    "score": 1.559,
+    "f0_med": 167.6,
+    "f0_st_sd": 3.87,
+    "f0_range_st": 13.84
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "I'm not sure.",
+    "tts_text": "I'm not sure.",
+    "seed": 2026,
+    "hyp": "i'm not sure",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 0.92,
+    "raw_peak": 0.879,
+    "pitch_ok": true,
+    "score": 1.242,
+    "f0_med": 107.4,
+    "f0_st_sd": 1.82,
+    "f0_range_st": 5.96
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "You could check the city website.",
+    "tts_text": "You could check the city website.",
+    "seed": 2026,
+    "hyp": "you could check the city website",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.9,
+    "dur": 1.46,
+    "raw_peak": 0.974,
+    "pitch_ok": true,
+    "score": 1.497,
+    "f0_med": 130.8,
+    "f0_st_sd": 7.79,
+    "f0_range_st": 23.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joy",
+    "text": "Good idea. Do you know how long the closure is?",
+    "tts_text": "Good idea. Do you know how long the closure is?",
+    "seed": 17864,
+    "hyp": "good idea do you know how long the closure is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 2.78,
+    "raw_peak": 0.379,
+    "pitch_ok": true,
+    "score": 1.589,
+    "f0_med": 179.6,
+    "f0_st_sd": 5.4,
+    "f0_range_st": 15.68
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "They said two weeks.",
+    "tts_text": "They said two weeks.",
+    "seed": 17864,
+    "hyp": "they said 2 weeks",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.88,
+    "dur": 1.12,
+    "raw_peak": 1.003,
+    "pitch_ok": true,
+    "score": 1.154,
+    "f0_med": 147.6,
+    "f0_st_sd": 1.82,
+    "f0_range_st": 5.64
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "But it might take longer if it rains.",
+    "tts_text": "But it might take longer if it rains.",
+    "seed": 2026,
+    "hyp": "but it might take longer if it rains",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.54,
+    "mean_prob": 0.93,
+    "dur": 1.94,
+    "raw_peak": 0.944,
+    "pitch_ok": true,
+    "score": 1.331,
+    "f0_med": 136.9,
+    "f0_st_sd": 2.65,
+    "f0_range_st": 8.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joy",
+    "text": "Hmm. Maybe I'll take the earlier bus.",
+    "tts_text": "Hmm. Maybe I'll take the earlier bus.",
+    "seed": 2026,
+    "hyp": "hmm maybe i'll take the earlier bus",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.95,
+    "dur": 2.62,
+    "raw_peak": 0.27,
+    "pitch_ok": true,
+    "score": 1.549,
+    "f0_med": 204.0,
+    "f0_st_sd": 5.04,
+    "f0_range_st": 14.56
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joy",
+    "text": "I don't want to be late.",
+    "tts_text": "I don't want to be late.",
+    "seed": 2026,
+    "hyp": "i don't want to be late",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.96,
+    "dur": 1.61,
+    "raw_peak": 0.256,
+    "pitch_ok": true,
+    "score": 1.559,
+    "f0_med": 169.6,
+    "f0_st_sd": 6.43,
+    "f0_range_st": 24.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "Or I could give you a ride.",
+    "tts_text": "Or I could give you a ride.",
+    "seed": 2026,
+    "hyp": "or i could give you a ride",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.58,
+    "mean_prob": 0.93,
+    "dur": 1.7,
+    "raw_peak": 0.882,
+    "pitch_ok": true,
+    "score": 1.148,
+    "f0_med": 115.1,
+    "f0_st_sd": 1.44,
+    "f0_range_st": 4.22
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "I drive past your street.",
+    "tts_text": "I drive past your street.",
+    "seed": 9945,
+    "hyp": "i drive past your street",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.96,
+    "dur": 1.35,
+    "raw_peak": 0.963,
+    "pitch_ok": true,
+    "score": 1.088,
+    "f0_med": 126.7,
+    "f0_st_sd": 0.86,
+    "f0_range_st": 2.7
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joy",
+    "text": "Really? That would be great.",
+    "tts_text": "Really? That would be great.",
+    "seed": 2026,
+    "hyp": "really that would be great",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 2.3,
+    "raw_peak": 0.29,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 226.3,
+    "f0_st_sd": 5.2,
+    "f0_range_st": 15.71
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joy",
+    "text": "Do you know where the detour starts?",
+    "tts_text": "Do you know where the detour starts?",
+    "seed": 2026,
+    "hyp": "do you know where the detour starts",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 2.16,
+    "raw_peak": 0.279,
+    "pitch_ok": true,
+    "score": 1.589,
+    "f0_med": 183.8,
+    "f0_st_sd": 4.05,
+    "f0_range_st": 12.29
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "I think it starts at First Avenue.",
+    "tts_text": "I think it starts at First Avenue.",
+    "seed": 9945,
+    "hyp": "i think it starts at first avenue",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.58,
+    "mean_prob": 0.91,
+    "dur": 1.7,
+    "raw_peak": 0.971,
+    "pitch_ok": true,
+    "score": 1.509,
+    "f0_med": 124.8,
+    "f0_st_sd": 7.5,
+    "f0_range_st": 20.83
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Marco",
+    "text": "I'm going to look at the map tonight.",
+    "tts_text": "I'm going to look at the map tonight.",
+    "seed": 2026,
+    "hyp": "i'm going to look at the map tonight",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.67,
+    "raw_peak": 0.94,
+    "pitch_ok": true,
+    "score": 1.322,
+    "f0_med": 103.2,
+    "f0_st_sd": 2.21,
+    "f0_range_st": 7.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joy",
+    "text": "Thanks, Marco!",
+    "tts_text": "Thanks, Marco!",
+    "seed": 2026,
+    "hyp": "thanks marco",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.89,
+    "dur": 1.24,
+    "raw_peak": 0.251,
+    "pitch_ok": true,
+    "score": 1.486,
+    "f0_med": 205.8,
+    "f0_st_sd": 5.59,
+    "f0_range_st": 15.58
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   9.08,
+   19.1,
+   "Diane Lee",
+   "Good morning. This is Diane Lee with your local news. Starting Monday, Oak Street will be closed between First and Fifth Avenue. Workers are going to replace an old water pipe under the street."
+  ],
+  [
+   19.85,
+   24.88,
+   "Diane Lee",
+   "The city says the construction might take two weeks. It may take longer if it rains."
+  ],
+  [
+   25.63,
+   37.43,
+   "Diane Lee",
+   "During the road closure, the number twelve bus will take a detour on Pine Street. Riders should expect delays of about fifteen minutes. The city will post updates on its website. I'm Diane Lee, and that's the news."
+  ],
+  [
+   38.73,
+   42.74,
+   "Narrator",
+   "Later that morning, at work, Marco and Joy talk about the news."
+  ],
+  [
+   44.04,
+   47.77,
+   "Marco",
+   "Joy, did you hear the news? They're closing Oak Street on Monday."
+  ],
+  [
+   49.07,
+   54.17,
+   "Joy",
+   "Oh no. I take the number twelve bus on Oak Street every day."
+  ],
+  [
+   55.47,
+   59.68,
+   "Marco",
+   "The bus is going to take a detour on Pine Street. It might be fifteen minutes late."
+  ],
+  [
+   60.98,
+   67.82,
+   "Joy",
+   "Fifteen minutes? I might be late for work. Do you know when the bus leaves Pine Street?"
+  ],
+  [
+   69.12,
+   72.05,
+   "Marco",
+   "I'm not sure. You could check the city website."
+  ],
+  [
+   73.35,
+   76.13,
+   "Joy",
+   "Good idea. Do you know how long the closure is?"
+  ],
+  [
+   77.43,
+   81.04,
+   "Marco",
+   "They said two weeks. But it might take longer if it rains."
+  ],
+  [
+   82.34,
+   87.12,
+   "Joy",
+   "Hmm. Maybe I'll take the earlier bus. I don't want to be late."
+  ],
+  [
+   88.42,
+   92.02,
+   "Marco",
+   "Or I could give you a ride. I drive past your street."
+  ],
+  [
+   93.32,
+   98.33,
+   "Joy",
+   "Really? That would be great. Do you know where the detour starts?"
+  ],
+  [
+   99.63,
+   103.55,
+   "Marco",
+   "I think it starts at First Avenue. I'm going to look at the map tonight."
+  ],
+  [
+   104.85,
+   106.09,
+   "Joy",
+   "Thanks, Marco!"
+  ]
+ ]
+}

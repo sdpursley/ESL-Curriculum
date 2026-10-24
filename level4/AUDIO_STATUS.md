@@ -13,7 +13,7 @@ When audio is made, it will use synthetic voices made with Chatterbox TTS (Resem
 | 5 | Would You Mind…? | `scripts/script_L4_L5.py` | `cast/cast_L4_L5.json` | to do |
 | 6 | What Would You Do? | `scripts/script_L4_L6.py` | `cast/cast_L4_L6.json` | to do |
 | 7 | Too Early or On Time? | `scripts/script_L4_L7.py` | `cast/cast_L4_L7.json` | draft, about 1:52, gate PASS |
-| 8 | In the News | `scripts/script_L4_L8.py` | `cast/cast_L4_L8.json` | to do |
+| 8 | In the News | `scripts/script_L4_L8.py` | `cast/cast_L4_L8.json` | draft, about 1:50, gate PASS |
 | 9 | I See Your Point | `scripts/script_L4_L9.py` | `cast/cast_L4_L9.json` | to do |
 | 10 | Turn It Off | `scripts/script_L4_L10.py` | `cast/cast_L4_L10.json` | to do |
 | 11 | Time Off | `scripts/script_L4_L11.py` | `cast/cast_L4_L11.json` | to do |
