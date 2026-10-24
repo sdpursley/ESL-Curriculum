@@ -54,7 +54,7 @@ L['listen'] = dict(title='Is It a Scam?', voices={'Narrator': 'N', 'Mrs. Lopez':
  lines=[
   ('Caller', 'Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we\'re going to turn off your power in one hour.'),
   ('Mrs. Lopez', 'What? My bill is late? I paid it last week.'),
-  ('Caller', 'No. You owe $200. Go to the store and buy gift cards. Then call me back and read me the numbers.'),
+  ('Caller', 'No, you owe $200 on this bill today. Go to the store and buy gift cards. Then call me back and read me the numbers.'),
   ('Mrs. Lopez', 'Gift cards? That sounds very strange to me.'),
   ('Caller', 'Please hurry. This is your last chance. Don\'t tell anyone.'),
   ('Mrs. Lopez', 'No, thank you. I\'m going to call the number that is on my real bill. Goodbye.'),

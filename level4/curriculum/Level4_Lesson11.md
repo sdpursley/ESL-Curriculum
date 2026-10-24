@@ -121,7 +121,7 @@
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
 - **"Hear it, say it" (3 min):** Point to the script lines. *wanna* = want to: "When do you **want to** take it?" *gonna* = going to: "I'm **going to** take the bus." Then practice the phone number in groups with pauses: *555 · 214 · 8830*. The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:56), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **No recording yet:** read the script aloud with a volunteer (about 1:53), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,14 +166,14 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:56 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:53 when recorded; the conversation plays once, so press play again for the second listen)
 
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson eleven. Luis asks his supervisor for time off. Then he leaves a voicemail for his sister.
 > **Luis:** Ms. Adams, do you have a minute? I'd like to ask for some time off.
 > **Ms. Adams:** Sure. When do you want to take the time off?
-> **Luis:** Next month, from Thursday the fifth of June to Saturday the seventh of June. That's three days.
+> **Luis:** I need June fifth to June seventh. That's three days.
 > **Ms. Adams:** And why are you taking time off?
 > **Luis:** To visit my mother in San Antonio. She is turning seventy.
 > **Ms. Adams:** How nice! Did you fill out the request form?

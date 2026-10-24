@@ -4,15 +4,15 @@
 LESSON = 11
 TITLE = 'Time Off'
 VOICES = {'Narrator': 'N', 'Luis': 'Marco', 'Ms. Adams': 'Receptionist', 'Rosa': 'Rosa'}
-FEMALE = {'Narrator', 'Ms. Adams', 'Rosa'}
-NAMES = {'san antonio', 'adams', 'rosa', 'luis', 'anna', 'ben'}
+FEMALE = {'Ms. Adams', 'Rosa', 'Narrator'}
+NAMES = {'san antonio', 'adams', 'anna', 'ben', 'rosa', 'luis'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson eleven. Luis asks his supervisor for time off. Then he leaves a voicemail for his sister.'
 LINES = [
  ('Luis', "Ms. Adams, do you have a minute? I'd like to ask for some time off."),
  ('Ms. Adams', 'Sure. When do you want to take the time off?'),
- ('Luis', "Next month, from Thursday the fifth of June to Saturday the seventh of June. That's three days."),
+ ('Luis', "I need June fifth to June seventh. That's three days."),
  ('Ms. Adams', 'And why are you taking time off?'),
  ('Luis', 'To visit my mother in San Antonio. She is turning seventy.'),
  ('Ms. Adams', 'How nice! Did you fill out the request form?'),

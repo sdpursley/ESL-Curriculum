@@ -52,7 +52,7 @@ L['listen'] = dict(title='Turn It Off', voices={'Narrator': 'N', 'Sofia': 'Rosa'
  setting='Two roommates look at a high electric bill and decide how to save energy. Then Sofia calls the electric company\'s customer line.',
  intro='Lesson ten. The two roommates look at their power bill. Then Sofia calls the electric company.',
  lines=[
-  ('Sofia', 'Hana, look at this. Our power bill is $142 this month!'),
+  ('Sofia', 'Hana, look at this. Our power bill is one forty-two dollars this month!'),
   ('Hana', 'Last month it was only $90. Why is it so high?'),
   ('Sofia', 'Well, we use too much electricity. The heat is on all day, and the lights are on in empty rooms.'),
   ('Hana', 'You\'re right. I always forget to turn them off. Oh, the TV is on now, and nobody is watching. I\'ll turn it off.'),
@@ -75,7 +75,7 @@ L['listen'] = dict(title='Turn It Off', voices={'Narrator': 'N', 'Sofia': 'Rosa'
  ],
  A=dict(q='What is the problem?', opts=['The electric bill is too high.', 'The heat is broken.', 'The bill is late.'], ans=0),
  B=dict(head='Listen again. Circle the answer.', kind='choice', items=[
-  dict(s='The bill this month is {{*$142|$90}}.', ev='$142'),
+  dict(s='The bill this month is {{*$142|$90}}.', ev='one forty-two dollars'),
   dict(s='They will turn {{*down|up}} the heat at night.', ev='we can turn down the heat at night'),
   dict(s='Hana is going to unplug her {{*phone charger|TV}}.', ev='I\'m going to unplug my phone charger'),
   dict(s='They will put on {{*sweaters|coats}}.', ev='put on sweaters'),

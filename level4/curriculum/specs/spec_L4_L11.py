@@ -54,7 +54,7 @@ L['listen'] = dict(title='Time Off', voices={'Narrator': 'N', 'Luis': 'Marco', '
  lines=[
   ('Luis', 'Ms. Adams, do you have a minute? I\'d like to ask for some time off.'),
   ('Ms. Adams', 'Sure. When do you want to take the time off?'),
-  ('Luis', 'Next month, from Thursday the fifth of June to Saturday the seventh of June. That\'s three days.'),
+  ('Luis', 'I need June fifth to June seventh. That\'s three days.'),
   ('Ms. Adams', 'And why are you taking time off?'),
   ('Luis', 'To visit my mother in San Antonio. She is turning seventy.'),
   ('Ms. Adams', 'How nice! Did you fill out the request form?'),
@@ -71,7 +71,7 @@ L['listen'] = dict(title='Time Off', voices={'Narrator': 'N', 'Luis': 'Marco', '
  ],
  A=dict(q='Why does Luis need time off?', opts=['to visit his mother', 'to see a doctor', 'to move to a new apartment'], ans=0),
  B=dict(head='Complete the notes. Circle the answer.', kind='choice', items=[
-  dict(s='Dates: June {{*5 to 7|15 to 17}}', ev='from Thursday the fifth of June to Saturday the seventh of June'),
+  dict(s='Dates: June {{*5 to 7|15 to 17}}', ev='June fifth to June seventh'),
   dict(s='Reason: his mother\'s {{*birthday|wedding}}', ev='She is turning seventy.'),
   dict(s='Anna will cover {{*Thursday and Friday|Saturday}}.', ev='Anna has agreed to cover Thursday and Friday.'),
   dict(s='For Saturday, Ms. Adams says to ask {{*Ben|Rosa}}.', ev='Ask Ben.'),

@@ -51,7 +51,7 @@ L['steps'] = [
 L['listen'] = dict(title='What Would You Do?', voices={'Narrator': 'N', 'Mike': 'Server', 'Grace': 'Ana_af_jessica', 'Teresa': 'Rosa'},
  female=['Narrator', 'Grace', 'Teresa'], names=['Mike', 'Grace', 'Teresa'], tts={},
  setting='A radio show called *What Would You Do?* The host, Mike, tells a situation. Two callers, Grace and Teresa, give their answers.',
- intro='This is a radio show called What Would You Do? Mike is the host. Two people call the show.',
+ intro='Welcome to the show. Mike is the host. Two people call the show.',
  lines=[
   ('Mike', 'Good afternoon, and welcome to What Would You Do? Here\'s today\'s situation. You buy groceries, and the cashier gives you ten dollars too much change. You see it in the parking lot. What would you do?'),
   ('Mike', 'Our first caller is Grace. Hi, Grace!'),

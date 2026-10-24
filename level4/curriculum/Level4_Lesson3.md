@@ -190,7 +190,7 @@
 > **Kim:** Thanks. I want to finish it this week.
 > **Ms. Rivera:** Good idea. And some quick feedback: you both did great work tonight. The shelves look really good.
 > **Jamal:** Thank you. That means a lot.
-> **Kim:** Thank you, Miss Rivera. I will see you tomorrow.
+> **Kim:** Thank you, Ms Rivera. I will see you tomorrow.
 > **Narrator:** That's the end of the listening.
 
 ### Answer key

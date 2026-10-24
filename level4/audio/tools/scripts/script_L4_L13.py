@@ -5,16 +5,16 @@ LESSON = 13
 TITLE = 'My Story So Far'
 VOICES = {'Narrator': 'N', 'Mariana': 'Ana_af_jessica', 'Mr. Hill': 'Carlos'}
 FEMALE = {'Mariana', 'Narrator'}
-NAMES = {'mariana', 'hill'}
+NAMES = {'hill', 'mariana'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson thirteen. Mariana was a learner at this school. Now she is giving a short talk at graduation. Then her old teacher, Mr. Hill, asks her two questions.'
 LINES = [
  ('Mariana', "Good evening, everyone. My name is Mariana. When I started English classes here, I couldn't understand the bus driver. I was afraid to use the phone."),
- ('Mariana', 'The first year was hard. I was working at a restaurant at night, so I came to class tired. But my classmates helped me, and I made friends.'),
+ ('Mariana', 'The first year was hard. I had a night job at a restaurant, and I was tired. But my classmates helped me, and I made friends.'),
  ('Mariana', 'After I finished Level 2, I got a new job at a hotel. Before I started that job, I practiced my interview with my teacher. Last year, I was able to call the clinic by myself for the first time. That was a big milestone for me.'),
  ('Mariana', "Now I can talk to guests at work, and I help my kids with their homework. I'm more confident."),
- ('Mariana', 'What is next for me? After I finish Level 5, I am going to take a training class and become a front desk manager. My advice to you is simple. Come to class, and do not be afraid to make mistakes. Thank you for listening.'),
+ ('Mariana', "What is next for me? After I finish Level 5, I'm going to take a training class. I want a job at the front desk. My advice to you is simple. Come to class, and do not be afraid to make mistakes. Thank you for listening."),
  ('Mr. Hill', 'Thank you, Mariana. That was wonderful. Can I ask you two questions?'),
  ('Mariana', 'Of course.'),
  ('Mr. Hill', 'What was the biggest challenge for you?'),

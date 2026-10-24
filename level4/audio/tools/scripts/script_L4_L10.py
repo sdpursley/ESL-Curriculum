@@ -4,13 +4,13 @@
 LESSON = 10
 TITLE = 'Turn It Off'
 VOICES = {'Narrator': 'N', 'Sofia': 'Rosa', 'Hana': 'Ana_af_jessica', 'Paul': 'Server'}
-FEMALE = {'Sofia', 'Hana', 'Narrator'}
-NAMES = {'hana', 'sofia', 'paul', 'city power'}
+FEMALE = {'Sofia', 'Narrator', 'Hana'}
+NAMES = {'paul', 'hana', 'sofia', 'city power'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson ten. The two roommates look at their power bill. Then Sofia calls the electric company.'
 LINES = [
- ('Sofia', 'Hana, look at this. Our power bill is $142 this month!'),
+ ('Sofia', 'Hana, look at this. Our power bill is one forty-two dollars this month!'),
  ('Hana', 'Last month it was only $90. Why is it so high?'),
  ('Sofia', 'Well, we use too much electricity. The heat is on all day, and the lights are on in empty rooms.'),
  ('Hana', "You're right. I always forget to turn them off. Oh, the TV is on now, and nobody is watching. I'll turn it off."),

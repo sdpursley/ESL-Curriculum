@@ -4,15 +4,15 @@
 LESSON = 12
 TITLE = 'Is It a Scam?'
 VOICES = {'Narrator': 'N', 'Mrs. Lopez': 'Kim', 'Caller': 'Carlos', 'Daniel': 'Sam'}
-FEMALE = {'Mrs. Lopez', 'Narrator'}
-NAMES = {'daniel', 'city power', 'mike', 'lopez'}
+FEMALE = {'Narrator', 'Mrs. Lopez'}
+NAMES = {'city power', 'daniel', 'mike', 'lopez'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson twelve. Mrs. Lopez gets a phone call. Later, she talks to her son, Daniel.'
 LINES = [
  ('Caller', "Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we're going to turn off your power in one hour."),
  ('Mrs. Lopez', 'What? My bill is late? I paid it last week.'),
- ('Caller', 'No. You owe $200. Go to the store and buy gift cards. Then call me back and read me the numbers.'),
+ ('Caller', 'No, you owe $200 on this bill today. Go to the store and buy gift cards. Then call me back and read me the numbers.'),
  ('Mrs. Lopez', 'Gift cards? That sounds very strange to me.'),
  ('Caller', "Please hurry. This is your last chance. Don't tell anyone."),
  ('Mrs. Lopez', "No, thank you. I'm going to call the number that is on my real bill. Goodbye."),

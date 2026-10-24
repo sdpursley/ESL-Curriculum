@@ -73,7 +73,7 @@ L['listen'] = dict(title='Have You Finished Yet?', voices={'Narrator': 'N', 'Ms.
   ('Kim', 'Thanks. I want to finish it this week.'),
   ('Ms. Rivera', 'Good idea. And some quick feedback: you both did great work tonight. The shelves look really good.'),
   ('Jamal', 'Thank you. That means a lot.'),
-  ('Kim', 'Thank you, Miss Rivera. I will see you tomorrow.'),
+  ('Kim', 'Thank you, Ms Rivera. I will see you tomorrow.'),
  ],
  A=dict(q='Is all the work finished?', opts=['Yes, everything is done.', 'No, two things aren\'t done yet.', 'No, nothing is done yet.'], ans=1),
  B=dict(head='Look at the checklist. Circle *done* or *not yet*.', kind='choice', items=[

@@ -4,11 +4,11 @@
 LESSON = 6
 TITLE = 'What Would You Do?'
 VOICES = {'Narrator': 'N', 'Mike': 'Server', 'Grace': 'Ana_af_jessica', 'Teresa': 'Rosa'}
-FEMALE = {'Grace', 'Narrator', 'Teresa'}
-NAMES = {'teresa', 'grace', 'mike'}
+FEMALE = {'Grace', 'Teresa', 'Narrator'}
+NAMES = {'grace', 'teresa', 'mike'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
-INTRO = 'This is a radio show called What Would You Do? Mike is the host. Two people call the show.'
+INTRO = 'Welcome to the show. Mike is the host. Two people call the show.'
 LINES = [
  ('Mike', "Good afternoon, and welcome to What Would You Do? Here's today's situation. You buy groceries, and the cashier gives you ten dollars too much change. You see it in the parking lot. What would you do?"),
  ('Mike', 'Our first caller is Grace. Hi, Grace!'),

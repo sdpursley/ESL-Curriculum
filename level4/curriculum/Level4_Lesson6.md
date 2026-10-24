@@ -121,7 +121,7 @@
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
 - **"Hear it, say it" (3 min):** Point to the script lines. *wanna* = want to: "I **want to** hear your ideas." *gonna* = going to: "If you're **going to** call, call early!" Then practice *I'd* (say the *d*): *I'd give it back*, and *What would you DO?* with the stress on *do*. The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:52), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **No recording yet:** read the script aloud with a volunteer (about 1:50), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,11 +166,11 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:52 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:50 when recorded; the conversation plays once, so press play again for the second listen)
 
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
-> **Narrator:** This is a radio show called What Would You Do? Mike is the host. Two people call the show.
+> **Narrator:** Welcome to the show. Mike is the host. Two people call the show.
 > **Mike:** Good afternoon, and welcome to What Would You Do? Here's today's situation. You buy groceries, and the cashier gives you ten dollars too much change. You see it in the parking lot. What would you do?
 > **Mike:** Our first caller is Grace. Hi, Grace!
 > **Grace:** Hi, Mike. If that happened to me, I'd go back inside and give the money back.

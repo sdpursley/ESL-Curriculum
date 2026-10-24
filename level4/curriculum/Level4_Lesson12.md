@@ -121,7 +121,7 @@
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
 - **"Hear it, say it" (3 min):** Point to the script line. *gonna* = going to: "We're **going to** turn off your power." Then practice the weak *that* (it sounds like "thut"): *a text that asks*. Stress the key words: *NEVER, GIFT cards*. Practice a calm, firm voice: *No, thank you. Goodbye.* The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:57), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **No recording yet:** read the script aloud with a volunteer (about 1:59), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,14 +166,14 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:57 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:59 when recorded; the conversation plays once, so press play again for the second listen)
 
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson twelve. Mrs. Lopez gets a phone call. Later, she talks to her son, Daniel.
 > **Caller:** Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we're going to turn off your power in one hour.
 > **Mrs. Lopez:** What? My bill is late? I paid it last week.
-> **Caller:** No. You owe $200. Go to the store and buy gift cards. Then call me back and read me the numbers.
+> **Caller:** No, you owe $200 on this bill today. Go to the store and buy gift cards. Then call me back and read me the numbers.
 > **Mrs. Lopez:** Gift cards? That sounds very strange to me.
 > **Caller:** Please hurry. This is your last chance. Don't tell anyone.
 > **Mrs. Lopez:** No, thank you. I'm going to call the number that is on my real bill. Goodbye.
