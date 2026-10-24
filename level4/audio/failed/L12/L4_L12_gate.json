@@ -1,0 +1,87 @@
+{
+ "duration_s": 120.4,
+ "duration": "2:00",
+ "length_ok": true,
+ "small_whole_file_wer": 0.0153,
+ "small_whole_file_errors": "4/262",
+ "small_whole_file_diffs": [
+  {
+   "op": "replace",
+   "ref": "ma'am",
+   "hyp": "ma 'am",
+   "ctx": "it last week no ma'am you owe 2 hundred"
+  },
+  {
+   "op": "replace",
+   "ref": "2 hundred",
+   "hyp": "200",
+   "ctx": "no ma'am you owe 2 hundred dollars go to the"
+  }
+ ],
+ "small_lines_ok": "15/16",
+ "small_line_problems": [
+  {
+   "t": 27.4,
+   "spk": "Caller",
+   "line": "No, ma'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers.",
+   "hyp": "no ma 'am you owe 200 dollars go to the store and buy gift cards then call me back and read me the numbers",
+   "flags": []
+  }
+ ],
+ "medium_per_line": {
+  "wer": 0.011,
+  "errors": 3,
+  "words": 262,
+  "exact": "16/18"
+ },
+ "medium_differences": [
+  "('Caller', \"No, ma'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers.\", \"no ma'am you owe 200 dollars go to the store and buy gift cards then call me back and read me the numbers\")",
+  "('Daniel', \"Great. Let's check your account on the City Power website. OK, here it is. Your account is fine. You don't owe any money.\", \"great let's check your account on the citi power website ok here it is your account is fine you don't owe any money\")"
+ ],
+ "pitch_median_hz": {
+  "Caller": 142.6,
+  "Mrs. Lopez": 196.5,
+  "Daniel": 119.6,
+  "Narrator": 183.8
+ },
+ "pitch_problems": [
+  {
+   "t": 36.83,
+   "spk": "Mrs. Lopez",
+   "f0": 163.8,
+   "line": "Gift cards? That's strange."
+  }
+ ],
+ "clipped_samples": 0,
+ "peak": 0.879,
+ "loudness_lufs": -16.6,
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "gaps_ok": true,
+ "noisy_pauses": [],
+ "failed_sentences": [
+  "No, ma'am. You owe two hundred dollars."
+ ],
+ "sentences": 39,
+ "takes_tried": 111,
+ "lines_wrong_in_both_checkers": [
+  {
+   "t": 27.4,
+   "spk": "Caller",
+   "line": "No, ma'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers.",
+   "hyp": "no ma 'am you owe 200 dollars go to the store and buy gift cards then call me back and read me the numbers",
+   "flags": []
+  }
+ ],
+ "single_checker_misses_or_flags_ignored": {
+  "small": [],
+  "medium": [
+   "('Caller', \"No, ma'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers.\", \"no ma'am you owe 200 dollars go to the store and buy gift cards then call me back and read me the numbers\")",
+   "('Daniel', \"Great. Let's check your account on the City Power website. OK, here it is. Your account is fine. You don't owe any money.\", \"great let's check your account on the citi power website ok here it is your account is fine you don't owe any money\")"
+  ]
+ },
+ "rule": "line bad only if small.en AND medium.en both mishear it; pitch, clipping, length, gaps, FAILED still gate",
+ "PASS": false
+}

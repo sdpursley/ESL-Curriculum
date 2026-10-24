@@ -1,0 +1,3 @@
+medium.en per-line WER 0.011 (3/262), 16/18 lines exact
+   ('Caller', "No, ma'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers.", "no ma'am you owe 200 dollars go to the store and buy gift cards then call me back and read me the numbers")
+   ('Daniel', "Great. Let's check your account on the City Power website. OK, here it is. Your account is fine. You don't owe any money.", "great let's check your account on the citi power website ok here it is your account is fine you don't owe any money")

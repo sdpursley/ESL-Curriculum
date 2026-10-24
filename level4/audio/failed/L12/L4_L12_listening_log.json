@@ -1,0 +1,1020 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Mrs. Lopez": "refs/Kim.wav",
+   "Caller": "refs/Carlos.wav",
+   "Daniel": "refs/Sam.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson twelve. Mrs.",
+    "tts_text": "Lesson twelve. Mrs.",
+    "seed": 89135,
+    "hyp": "lesson 12 mrs",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.83,
+    "dur": 2.0,
+    "raw_peak": 0.565,
+    "pitch_ok": true,
+    "score": 1.403,
+    "f0_med": 201.6,
+    "f0_st_sd": 3.83,
+    "f0_range_st": 12.1
+   },
+   "tries": 12,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lopez gets a phone call.",
+    "tts_text": "Lopez gets a phone call.",
+    "seed": 2026,
+    "hyp": "lopez gets a phone call",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.56,
+    "raw_peak": 0.595,
+    "pitch_ok": true,
+    "score": 1.451,
+    "f0_med": 171.5,
+    "f0_st_sd": 3.29,
+    "f0_range_st": 10.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Later, she talks to her son, Daniel.",
+    "tts_text": "Later, she talks to her son, Daniel.",
+    "seed": 2026,
+    "hyp": "later she talks to her son daniel",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 0.99,
+    "dur": 2.36,
+    "raw_peak": 0.637,
+    "pitch_ok": true,
+    "score": 1.475,
+    "f0_med": 180.2,
+    "f0_st_sd": 3.23,
+    "f0_range_st": 10.18
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Caller",
+    "text": "Hello, is this Mrs.",
+    "tts_text": "Hello, is this Mrs.",
+    "seed": 57459,
+    "hyp": "hello is this mrs",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.82,
+    "dur": 1.98,
+    "raw_peak": 0.41,
+    "pitch_ok": true,
+    "score": 1.285,
+    "f0_med": 142.6,
+    "f0_st_sd": 3.12,
+    "f0_range_st": 10.91
+   },
+   "tries": 8,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Caller",
+    "text": "Lopez? This is Mike from the electric company.",
+    "tts_text": "Lopez? This is Mike from the electric company.",
+    "seed": 2026,
+    "hyp": "lopez this is mike from the electric company",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.91,
+    "dur": 2.71,
+    "raw_peak": 0.453,
+    "pitch_ok": true,
+    "score": 1.444,
+    "f0_med": 140.9,
+    "f0_st_sd": 3.53,
+    "f0_range_st": 11.85
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Caller",
+    "text": "Your bill is late.",
+    "tts_text": "Your bill is late.",
+    "seed": 33702,
+    "hyp": "your bill is late",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.95,
+    "dur": 1.44,
+    "raw_peak": 0.386,
+    "pitch_ok": true,
+    "score": 1.458,
+    "f0_med": 138.5,
+    "f0_st_sd": 3.4,
+    "f0_range_st": 10.52
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Caller",
+    "text": "You must pay today, or we're going to turn off your power in one hour.",
+    "tts_text": "You must pay today, or we're going to turn off your power in one hour.",
+    "seed": 2026,
+    "hyp": "you must pay today or we're going to turn off your power in 1 hour",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.95,
+    "dur": 4.18,
+    "raw_peak": 0.395,
+    "pitch_ok": true,
+    "score": 1.554,
+    "f0_med": 147.6,
+    "f0_st_sd": 4.01,
+    "f0_range_st": 13.36
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "What? My bill is late?",
+    "tts_text": "What? My bill is late?",
+    "seed": 2026,
+    "hyp": "what my bill is late",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.94,
+    "dur": 1.82,
+    "raw_peak": 0.376,
+    "pitch_ok": true,
+    "score": 1.541,
+    "f0_med": 181.8,
+    "f0_st_sd": 5.73,
+    "f0_range_st": 16.43
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "I paid it last week.",
+    "tts_text": "I paid it last week.",
+    "seed": 17864,
+    "hyp": "i paid it last week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.35,
+    "raw_peak": 0.266,
+    "pitch_ok": true,
+    "score": 1.482,
+    "f0_med": 229.0,
+    "f0_st_sd": 3.28,
+    "f0_range_st": 8.82
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Caller",
+    "text": "No, ma'am. You owe two hundred dollars.",
+    "tts_text": "No, ma'am. You owe two hundred dollars.",
+    "seed": 73297,
+    "hyp": "no ma 'am you owe 200 dollars",
+    "ok": false,
+    "edge": false,
+    "flags": [
+     "sound outside words 280ms"
+    ],
+    "min_prob": 0.83,
+    "mean_prob": 0.93,
+    "dur": 2.69,
+    "raw_peak": 0.521,
+    "pitch_ok": false,
+    "score": 1.528,
+    "f0_med": 164.7,
+    "f0_st_sd": 4.5,
+    "f0_range_st": 13.92
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Caller",
+    "text": "Go to the store and buy gift cards.",
+    "tts_text": "Go to the store and buy gift cards.",
+    "seed": 2026,
+    "hyp": "go to the store and buy gift cards",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.96,
+    "dur": 2.2,
+    "raw_peak": 0.423,
+    "pitch_ok": true,
+    "score": 1.557,
+    "f0_med": 142.6,
+    "f0_st_sd": 5.01,
+    "f0_range_st": 17.38
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Caller",
+    "text": "Then call me back and read me the numbers.",
+    "tts_text": "Then call me back and read me the numbers.",
+    "seed": 2026,
+    "hyp": "then call me back and read me the numbers",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.94,
+    "dur": 2.14,
+    "raw_peak": 0.541,
+    "pitch_ok": true,
+    "score": 1.543,
+    "f0_med": 142.6,
+    "f0_st_sd": 4.52,
+    "f0_range_st": 14.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "Gift cards? That's strange.",
+    "tts_text": "Gift cards? That's strange.",
+    "seed": 17864,
+    "hyp": "gift cards that's strange",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.86,
+    "dur": 2.22,
+    "raw_peak": 0.204,
+    "pitch_ok": true,
+    "score": 1.462,
+    "f0_med": 192.7,
+    "f0_st_sd": 5.3,
+    "f0_range_st": 13.93
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Caller",
+    "text": "Please hurry. This is your last chance.",
+    "tts_text": "Please hurry. This is your last chance.",
+    "seed": 2026,
+    "hyp": "please hurry this is your last chance",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.95,
+    "dur": 2.97,
+    "raw_peak": 0.451,
+    "pitch_ok": true,
+    "score": 1.552,
+    "f0_med": 143.4,
+    "f0_st_sd": 4.87,
+    "f0_range_st": 14.62
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Caller",
+    "text": "Don't tell anyone.",
+    "tts_text": "Don't tell anyone.",
+    "seed": 9945,
+    "hyp": "don't tell anyone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.97,
+    "dur": 1.2,
+    "raw_peak": 0.462,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 136.1,
+    "f0_st_sd": 5.15,
+    "f0_range_st": 14.45
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "No, thank you.",
+    "tts_text": "No, thank you.",
+    "seed": 17864,
+    "hyp": "no thank you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.94,
+    "dur": 1.13,
+    "raw_peak": 0.326,
+    "pitch_ok": true,
+    "score": 1.54,
+    "f0_med": 184.9,
+    "f0_st_sd": 4.89,
+    "f0_range_st": 13.46
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "I'm going to call the number that is on my real bill. Goodbye.",
+    "tts_text": "I'm going to call the number that is on my real bill. Goodbye.",
+    "seed": 2026,
+    "hyp": "i'm going to call the number that is on my real bill goodbye",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 3.72,
+    "raw_peak": 0.456,
+    "pitch_ok": true,
+    "score": 1.582,
+    "f0_med": 175.5,
+    "f0_st_sd": 5.69,
+    "f0_range_st": 22.57
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "Hi, Mom. You look worried. What's wrong?",
+    "tts_text": "Hi, Mom. You look worried. What's wrong?",
+    "seed": 25783,
+    "hyp": "hi mom you look worried what's wrong",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.56,
+    "mean_prob": 0.87,
+    "dur": 2.29,
+    "raw_peak": 0.745,
+    "pitch_ok": true,
+    "score": 1.395,
+    "f0_med": 135.0,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 12.1
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "The man who called me knew my name.",
+    "tts_text": "The man who called me knew my name.",
+    "seed": 33702,
+    "hyp": "the man who called me knew my name",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.95,
+    "dur": 2.22,
+    "raw_peak": 0.305,
+    "pitch_ok": true,
+    "score": 1.493,
+    "f0_med": 212.4,
+    "f0_st_sd": 3.6,
+    "f0_range_st": 10.84
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "He said he was from the electric company.",
+    "tts_text": "He said he was from the electric company.",
+    "seed": 2026,
+    "hyp": "he said he was from the electric company",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.91,
+    "raw_peak": 0.306,
+    "pitch_ok": true,
+    "score": 1.555,
+    "f0_med": 180.7,
+    "f0_st_sd": 3.89,
+    "f0_range_st": 12.87
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "He wanted me to pay with gift cards.",
+    "tts_text": "He wanted me to pay with gift cards.",
+    "seed": 33702,
+    "hyp": "he wanted me to pay with gift cards",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.98,
+    "dur": 1.97,
+    "raw_peak": 0.272,
+    "pitch_ok": true,
+    "score": 1.418,
+    "f0_med": 184.9,
+    "f0_st_sd": 2.92,
+    "f0_range_st": 9.7
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "Gift cards? That's a warning sign.",
+    "tts_text": "Gift cards? That's a warning sign.",
+    "seed": 9945,
+    "hyp": "gift cards that's a warning sign",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.91,
+    "dur": 2.3,
+    "raw_peak": 0.489,
+    "pitch_ok": true,
+    "score": 1.323,
+    "f0_med": 119.2,
+    "f0_st_sd": 2.77,
+    "f0_range_st": 8.41
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "A company that asks for gift cards is a scam.",
+    "tts_text": "A company that asks for gift cards is a scam.",
+    "seed": 2026,
+    "hyp": "a company that asks for gift cards is a scam",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 3.12,
+    "raw_peak": 0.485,
+    "pitch_ok": true,
+    "score": 1.388,
+    "f0_med": 143.9,
+    "f0_st_sd": 2.84,
+    "f0_range_st": 8.33
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "What did you do?",
+    "tts_text": "What did you do?",
+    "seed": 2026,
+    "hyp": "what did you do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.31,
+    "raw_peak": 0.429,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 114.5,
+    "f0_st_sd": 4.38,
+    "f0_range_st": 15.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "I said no, and I hung up.",
+    "tts_text": "I said no, and I hung up.",
+    "seed": 9945,
+    "hyp": "i said no and i hung up",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.93,
+    "dur": 2.1,
+    "raw_peak": 0.405,
+    "pitch_ok": true,
+    "score": 1.53,
+    "f0_med": 183.8,
+    "f0_st_sd": 6.03,
+    "f0_range_st": 24.8
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "Good! You did the right thing.",
+    "tts_text": "Good! You did the right thing.",
+    "seed": 2026,
+    "hyp": "good you did the right thing",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 1.92,
+    "raw_peak": 0.621,
+    "pitch_ok": true,
+    "score": 1.372,
+    "f0_med": 117.2,
+    "f0_st_sd": 2.67,
+    "f0_range_st": 9.96
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "Scammers are people who want your money.",
+    "tts_text": "Scammers are people who want your money.",
+    "seed": 9945,
+    "hyp": "scammers are people who want your money",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 2.08,
+    "raw_peak": 0.586,
+    "pitch_ok": true,
+    "score": 1.404,
+    "f0_med": 109.3,
+    "f0_st_sd": 2.79,
+    "f0_range_st": 9.84
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "Did you give him any information?",
+    "tts_text": "Did you give him any information?",
+    "seed": 2026,
+    "hyp": "did you give him any information",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.75,
+    "raw_peak": 0.348,
+    "pitch_ok": true,
+    "score": 1.288,
+    "f0_med": 130.8,
+    "f0_st_sd": 2.09,
+    "f0_range_st": 6.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "No. I didn't tell him anything.",
+    "tts_text": "No. I didn't tell him anything.",
+    "seed": 2026,
+    "hyp": "no i didn't tell him anything",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 2.61,
+    "raw_peak": 0.241,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 199.3,
+    "f0_st_sd": 5.99,
+    "f0_range_st": 15.27
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "Great. Let's check your account on the City Power website.",
+    "tts_text": "Great. Let's check your account on the City Power website.",
+    "seed": 2026,
+    "hyp": "great let's check your account on the city power website",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.9,
+    "dur": 3.17,
+    "raw_peak": 0.471,
+    "pitch_ok": true,
+    "score": 1.288,
+    "f0_med": 111.5,
+    "f0_st_sd": 2.58,
+    "f0_range_st": 8.43
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "OK, here it is.",
+    "tts_text": "OK, here it is.",
+    "seed": 9945,
+    "hyp": "ok here it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.56,
+    "mean_prob": 0.88,
+    "dur": 1.42,
+    "raw_peak": 0.322,
+    "pitch_ok": true,
+    "score": 1.438,
+    "f0_med": 123.4,
+    "f0_st_sd": 3.69,
+    "f0_range_st": 11.02
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "Your account is fine.",
+    "tts_text": "Your account is fine.",
+    "seed": 9945,
+    "hyp": "your account is fine",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.94,
+    "dur": 1.7,
+    "raw_peak": 0.512,
+    "pitch_ok": true,
+    "score": 1.09,
+    "f0_med": 134.6,
+    "f0_st_sd": 0.98,
+    "f0_range_st": 3.02
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "You don't owe any money.",
+    "tts_text": "You don't owe any money.",
+    "seed": 2026,
+    "hyp": "you don't owe any money",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.93,
+    "dur": 1.4,
+    "raw_peak": 0.364,
+    "pitch_ok": true,
+    "score": 1.371,
+    "f0_med": 118.5,
+    "f0_st_sd": 2.94,
+    "f0_range_st": 10.42
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "Oh, good. I'm glad I didn't pay.",
+    "tts_text": "Oh, good. I'm glad I didn't pay.",
+    "seed": 9945,
+    "hyp": "oh good i'm glad i didn't pay",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 2.5,
+    "raw_peak": 0.334,
+    "pitch_ok": true,
+    "score": 1.574,
+    "f0_med": 197.6,
+    "f0_st_sd": 4.26,
+    "f0_range_st": 13.72
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "Me too. Next time, you can block the number.",
+    "tts_text": "Me too. Next time, you can block the number.",
+    "seed": 2026,
+    "hyp": "me too next time you can block the number",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.93,
+    "dur": 2.42,
+    "raw_peak": 0.552,
+    "pitch_ok": true,
+    "score": 1.441,
+    "f0_med": 117.8,
+    "f0_st_sd": 3.41,
+    "f0_range_st": 10.54
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "Be careful with texts that ask for your password, too.",
+    "tts_text": "Be careful with texts that ask for your password, too.",
+    "seed": 2026,
+    "hyp": "be careful with texts that ask for your password too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.95,
+    "dur": 3.01,
+    "raw_peak": 0.399,
+    "pitch_ok": true,
+    "score": 1.385,
+    "f0_med": 131.1,
+    "f0_st_sd": 2.88,
+    "f0_range_st": 8.81
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Daniel",
+    "text": "And never trust a caller who tells you to hurry.",
+    "tts_text": "And never trust a caller who tells you to hurry.",
+    "seed": 89135,
+    "hyp": "and never trust a caller who tells you to hurry",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.9,
+    "dur": 2.82,
+    "raw_peak": 0.49,
+    "pitch_ok": true,
+    "score": 1.395,
+    "f0_med": 113.2,
+    "f0_st_sd": 3.31,
+    "f0_range_st": 9.91
+   },
+   "tries": 12,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mrs. Lopez",
+    "text": "You're right. Thanks, Daniel.",
+    "tts_text": "You're right. Thanks, Daniel.",
+    "seed": 2026,
+    "hyp": "you're right thanks daniel",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 2.14,
+    "raw_peak": 0.248,
+    "pitch_ok": true,
+    "score": 1.585,
+    "f0_med": 242.6,
+    "f0_st_sd": 5.36,
+    "f0_range_st": 14.68
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   9.12,
+   21.08,
+   "Caller",
+   "Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we're going to turn off your power in one hour."
+  ],
+  [
+   22.38,
+   26.1,
+   "Mrs. Lopez",
+   "What? My bill is late? I paid it last week."
+  ],
+  [
+   27.4,
+   35.53,
+   "Caller",
+   "No, ma'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers."
+  ],
+  [
+   36.83,
+   39.05,
+   "Mrs. Lopez",
+   "Gift cards? That's strange."
+  ],
+  [
+   40.35,
+   45.07,
+   "Caller",
+   "Please hurry. This is your last chance. Don't tell anyone."
+  ],
+  [
+   46.37,
+   51.77,
+   "Mrs. Lopez",
+   "No, thank you. I'm going to call the number that is on my real bill. Goodbye."
+  ],
+  [
+   53.07,
+   55.36,
+   "Daniel",
+   "Hi, Mom. You look worried. What's wrong?"
+  ],
+  [
+   56.66,
+   63.86,
+   "Mrs. Lopez",
+   "The man who called me knew my name. He said he was from the electric company. He wanted me to pay with gift cards."
+  ],
+  [
+   65.16,
+   72.99,
+   "Daniel",
+   "Gift cards? That's a warning sign. A company that asks for gift cards is a scam. What did you do?"
+  ],
+  [
+   74.29,
+   76.39,
+   "Mrs. Lopez",
+   "I said no, and I hung up."
+  ],
+  [
+   77.69,
+   84.54,
+   "Daniel",
+   "Good! You did the right thing. Scammers are people who want your money. Did you give him any information?"
+  ],
+  [
+   85.84,
+   88.45,
+   "Mrs. Lopez",
+   "No. I didn't tell him anything."
+  ],
+  [
+   89.75,
+   99.09,
+   "Daniel",
+   "Great. Let's check your account on the City Power website. OK, here it is. Your account is fine. You don't owe any money."
+  ],
+  [
+   100.39,
+   102.89,
+   "Mrs. Lopez",
+   "Oh, good. I'm glad I didn't pay."
+  ],
+  [
+   104.19,
+   113.54,
+   "Daniel",
+   "Me too. Next time, you can block the number. Be careful with texts that ask for your password, too. And never trust a caller who tells you to hurry."
+  ],
+  [
+   114.84,
+   116.98,
+   "Mrs. Lopez",
+   "You're right. Thanks, Daniel."
+  ]
+ ]
+}
