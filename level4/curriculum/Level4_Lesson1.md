@@ -123,7 +123,7 @@
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
 - **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "Tonight we're **going to** find things we have in common." *wanna* = want to: "I **want to** go camping." Say: "People often say *gonna* and *wanna*. This listening uses *going to* and *want to*." Then practice the weak, short *have* (it sounds like "h'v"): *Have you ever seen snow?* and the contraction: *I've never ridden a horse.* The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 2:06), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **The audio plays the conversation once (about 2:05).** Press play again for play 2. A third play is fine if the class needs it. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -170,7 +170,7 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 2:06 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script: `L4_L1_listening.mp3` (about 2:05; the conversation plays once, so press play again for the second listen)
 
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 

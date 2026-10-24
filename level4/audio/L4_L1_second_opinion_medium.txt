@@ -1,0 +1,2 @@
+medium.en per-line WER 0.007 (2/273), 22/23 lines exact
+   ('Ahmed', "I want to go camping. I've never slept in a tent.", "i wanna go camping i've never slept in a tent")
