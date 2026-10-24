@@ -1,0 +1,848 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Mariana": "refs/Ana_af_jessica.wav",
+   "Mr. Hill": "refs/Carlos.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson thirteen. Mariana was a learner at this school.",
+    "tts_text": "Lesson thirteen. Mariana was a learner at this school.",
+    "seed": 2026,
+    "hyp": "lesson 13 mariana was a learner at this school",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 3.43,
+    "raw_peak": 0.579,
+    "pitch_ok": true,
+    "score": 1.562,
+    "f0_med": 181.7,
+    "f0_st_sd": 4.04,
+    "f0_range_st": 13.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Now she is giving a short talk at graduation.",
+    "tts_text": "Now she is giving a short talk at graduation.",
+    "seed": 2026,
+    "hyp": "now she is giving a short talk at graduation",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.96,
+    "dur": 2.64,
+    "raw_peak": 0.561,
+    "pitch_ok": true,
+    "score": 1.455,
+    "f0_med": 178.6,
+    "f0_st_sd": 3.29,
+    "f0_range_st": 11.0
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Then her old teacher, Mr.",
+    "tts_text": "Then her old teacher, Mr.",
+    "seed": 17864,
+    "hyp": "then her old teacher mr",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.54,
+    "mean_prob": 0.83,
+    "dur": 1.93,
+    "raw_peak": 0.549,
+    "pitch_ok": true,
+    "score": 1.354,
+    "f0_med": 176.6,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 11.4
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Hill, asks her two questions.",
+    "tts_text": "Hill, asks her two questions.",
+    "seed": 2026,
+    "hyp": "hill asks her 2 questions",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.94,
+    "dur": 1.97,
+    "raw_peak": 0.76,
+    "pitch_ok": true,
+    "score": 1.41,
+    "f0_med": 211.2,
+    "f0_st_sd": 3.12,
+    "f0_range_st": 9.43
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "Good evening, everyone.",
+    "tts_text": "Good evening, everyone.",
+    "seed": 2026,
+    "hyp": "good evening everyone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.24,
+    "raw_peak": 0.39,
+    "pitch_ok": true,
+    "score": 1.569,
+    "f0_med": 178.6,
+    "f0_st_sd": 5.26,
+    "f0_range_st": 15.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "My name is Mariana.",
+    "tts_text": "My name is Mariana.",
+    "seed": 2026,
+    "hyp": "my name is mariana",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.94,
+    "dur": 1.94,
+    "raw_peak": 0.584,
+    "pitch_ok": true,
+    "score": 1.505,
+    "f0_med": 223.7,
+    "f0_st_sd": 3.8,
+    "f0_range_st": 10.65
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "When I started English classes here, I couldn't understand the bus driver, and I was afraid to talk on the phone.",
+    "tts_text": "When I started English classes here, I couldn't understand the bus driver, and I was afraid to talk on the phone.",
+    "seed": 49540,
+    "hyp": "when i started english classes here i couldn't understand the bus driver and i was afraid to talk on the phone",
+    "ok": false,
+    "edge": false,
+    "flags": [
+     "HF whine 620ms",
+     "clipping (leveled peak 1.05)",
+     "(context) HF whine 520ms"
+    ],
+    "min_prob": 0.6,
+    "mean_prob": 0.98,
+    "dur": 5.73,
+    "raw_peak": 1.019,
+    "pitch_ok": true,
+    "score": 1.577,
+    "f0_med": 238.4,
+    "f0_st_sd": 4.36,
+    "f0_range_st": 13.8
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "The first year was hard.",
+    "tts_text": "The first year was hard.",
+    "seed": 2026,
+    "hyp": "the first year was hard",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.5,
+    "raw_peak": 0.5,
+    "pitch_ok": true,
+    "score": 1.438,
+    "f0_med": 235.7,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 9.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "I was working at a restaurant at night, and I was always tired.",
+    "tts_text": "I was working at a restaurant at night, and I was always tired.",
+    "seed": 17864,
+    "hyp": "i was working at a restaurant at night and i was always tired",
+    "ok": false,
+    "edge": false,
+    "flags": [
+     "HF whine 280ms",
+     "clipping (leveled peak 1.21)",
+     "(context) HF whine 320ms"
+    ],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 3.83,
+    "raw_peak": 1.001,
+    "pitch_ok": true,
+    "score": 1.591,
+    "f0_med": 227.7,
+    "f0_st_sd": 4.61,
+    "f0_range_st": 15.2
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "But my classmates helped me, and I made friends.",
+    "tts_text": "But my classmates helped me, and I made friends.",
+    "seed": 2026,
+    "hyp": "but my classmates helped me and i made friends",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.53,
+    "mean_prob": 0.93,
+    "dur": 2.9,
+    "raw_peak": 0.709,
+    "pitch_ok": true,
+    "score": 1.53,
+    "f0_med": 234.3,
+    "f0_st_sd": 4.58,
+    "f0_range_st": 14.46
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "After I finished Level 2, I got a new job at a hotel.",
+    "tts_text": "After I finished Level 2, I got a new job at a hotel.",
+    "seed": 49540,
+    "hyp": "after i finished level 2 i got a new job at a hotel",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.63,
+    "mean_prob": 0.94,
+    "dur": 3.55,
+    "raw_peak": 0.999,
+    "pitch_ok": true,
+    "score": 1.526,
+    "f0_med": 227.7,
+    "f0_st_sd": 3.92,
+    "f0_range_st": 12.62
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "Before I started that job, I practiced my interview with my teacher.",
+    "tts_text": "Before I started that job, I practiced my interview with my teacher.",
+    "seed": 2026,
+    "hyp": "before i started that job i practiced my interview with my teacher",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 3.54,
+    "raw_peak": 0.635,
+    "pitch_ok": true,
+    "score": 1.59,
+    "f0_med": 244.7,
+    "f0_st_sd": 4.41,
+    "f0_range_st": 14.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "Last year, I was able to call the clinic by myself for the first time.",
+    "tts_text": "Last year, I was able to call the clinic by myself for the first time.",
+    "seed": 2026,
+    "hyp": "last year i was able to call the clinic by myself for the first time",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.97,
+    "dur": 3.51,
+    "raw_peak": 0.708,
+    "pitch_ok": true,
+    "score": 1.504,
+    "f0_med": 221.2,
+    "f0_st_sd": 3.59,
+    "f0_range_st": 12.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "That was a big milestone for me.",
+    "tts_text": "That was a big milestone for me.",
+    "seed": 2026,
+    "hyp": "that was a big milestone for me",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.94,
+    "raw_peak": 0.737,
+    "pitch_ok": true,
+    "score": 1.583,
+    "f0_med": 200.5,
+    "f0_st_sd": 4.25,
+    "f0_range_st": 11.86
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "Now I can talk to guests at work, and I help my kids with their homework.",
+    "tts_text": "Now I can talk to guests at work, and I help my kids with their homework.",
+    "seed": 25783,
+    "hyp": "now i can talk to guests at work and i help my kids with their homework",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.97,
+    "dur": 3.82,
+    "raw_peak": 0.873,
+    "pitch_ok": true,
+    "score": 1.427,
+    "f0_med": 227.7,
+    "f0_st_sd": 3.02,
+    "f0_range_st": 9.09
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "I'm more confident.",
+    "tts_text": "I'm more confident.",
+    "seed": 25783,
+    "hyp": "i'm more confident",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.33,
+    "raw_peak": 0.583,
+    "pitch_ok": true,
+    "score": 1.577,
+    "f0_med": 234.3,
+    "f0_st_sd": 4.82,
+    "f0_range_st": 14.41
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "What's next? After I finish Level 5, I'm going to take a training class to be a front desk manager.",
+    "tts_text": "What's next? After I finish Level 5, I'm going to take a training class to be a front desk manager.",
+    "seed": 97054,
+    "hyp": "what's next after i finish level 5 i'm going to take a training class to be a front desk manager",
+    "ok": false,
+    "edge": false,
+    "flags": [
+     "clipping (leveled peak 1.07)"
+    ],
+    "min_prob": 0.68,
+    "mean_prob": 0.95,
+    "dur": 5.66,
+    "raw_peak": 0.999,
+    "pitch_ok": true,
+    "score": 1.554,
+    "f0_med": 255.5,
+    "f0_st_sd": 4.21,
+    "f0_range_st": 13.85
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "My advice to you is simple: come to class, and don't be afraid to make mistakes. Thank you.",
+    "tts_text": "My advice to you is simple: come to class, and don't be afraid to make mistakes. Thank you.",
+    "seed": 112892,
+    "hyp": "my advice to you is simple come to class and don't be afraid to make mistakes thank you",
+    "ok": false,
+    "edge": false,
+    "flags": [
+     "HF whine 320ms",
+     "(context) HF whine 300ms"
+    ],
+    "min_prob": 0.53,
+    "mean_prob": 0.97,
+    "dur": 5.65,
+    "raw_peak": 0.74,
+    "pitch_ok": true,
+    "score": 1.566,
+    "f0_med": 230.3,
+    "f0_st_sd": 4.77,
+    "f0_range_st": 15.3
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Hill",
+    "text": "Thank you, Mariana.",
+    "tts_text": "Thank you, Mariana.",
+    "seed": 9945,
+    "hyp": "thank you mariana",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.87,
+    "dur": 1.1,
+    "raw_peak": 0.385,
+    "pitch_ok": true,
+    "score": 1.373,
+    "f0_med": 133.4,
+    "f0_st_sd": 3.35,
+    "f0_range_st": 10.93
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Hill",
+    "text": "That was wonderful.",
+    "tts_text": "That was wonderful.",
+    "seed": 2026,
+    "hyp": "that was wonderful",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.94,
+    "dur": 1.33,
+    "raw_peak": 0.458,
+    "pitch_ok": true,
+    "score": 1.325,
+    "f0_med": 130.8,
+    "f0_st_sd": 2.56,
+    "f0_range_st": 8.56
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Hill",
+    "text": "Can I ask you two questions?",
+    "tts_text": "Can I ask you two questions?",
+    "seed": 89135,
+    "hyp": "can i ask you 2 questions",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 1.49,
+    "raw_peak": 0.503,
+    "pitch_ok": true,
+    "score": 1.569,
+    "f0_med": 148.5,
+    "f0_st_sd": 4.59,
+    "f0_range_st": 13.8
+   },
+   "tries": 12,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "Of course.",
+    "tts_text": "Of course.",
+    "seed": 9945,
+    "hyp": "of course",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.91,
+    "dur": 1.0,
+    "raw_peak": 0.415,
+    "pitch_ok": true,
+    "score": 1.047,
+    "f0_med": 300.4,
+    "f0_st_sd": 0.88,
+    "f0_range_st": 2.61
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Hill",
+    "text": "What was the biggest challenge for you?",
+    "tts_text": "What was the biggest challenge for you?",
+    "seed": 2026,
+    "hyp": "what was the biggest challenge for you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.98,
+    "dur": 2.06,
+    "raw_peak": 0.331,
+    "pitch_ok": true,
+    "score": 1.57,
+    "f0_med": 139.7,
+    "f0_st_sd": 3.92,
+    "f0_range_st": 13.57
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "Getting used to the phone.",
+    "tts_text": "Getting used to the phone.",
+    "seed": 9945,
+    "hyp": "getting used to the phone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.93,
+    "dur": 1.56,
+    "raw_peak": 0.605,
+    "pitch_ok": true,
+    "score": 1.436,
+    "f0_med": 226.3,
+    "f0_st_sd": 3.4,
+    "f0_range_st": 10.52
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "When I called someone, I couldn't understand them very well.",
+    "tts_text": "When I called someone, I couldn't understand them very well.",
+    "seed": 2026,
+    "hyp": "when i called someone i couldn't understand them very well",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 2.67,
+    "raw_peak": 0.664,
+    "pitch_ok": true,
+    "score": 1.593,
+    "f0_med": 251.1,
+    "f0_st_sd": 4.78,
+    "f0_range_st": 12.85
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "Now it's easy for me.",
+    "tts_text": "Now it's easy for me.",
+    "seed": 9945,
+    "hyp": "now it's easy for me",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 1.55,
+    "raw_peak": 0.719,
+    "pitch_ok": true,
+    "score": 1.56,
+    "f0_med": 221.8,
+    "f0_st_sd": 4.72,
+    "f0_range_st": 15.61
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Hill",
+    "text": "And what helped you the most?",
+    "tts_text": "And what helped you the most?",
+    "seed": 25783,
+    "hyp": "and what helped you the most",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.96,
+    "dur": 1.9,
+    "raw_peak": 0.527,
+    "pitch_ok": true,
+    "score": 1.276,
+    "f0_med": 147.6,
+    "f0_st_sd": 2.13,
+    "f0_range_st": 6.34
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "My classmates. When I was tired, they supported me.",
+    "tts_text": "My classmates. When I was tired, they supported me.",
+    "seed": 49540,
+    "hyp": "my classmates when i was tired they supported me",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 3.95,
+    "raw_peak": 0.556,
+    "pitch_ok": true,
+    "score": 1.521,
+    "f0_med": 227.7,
+    "f0_st_sd": 3.67,
+    "f0_range_st": 11.42
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "After class ended, we often studied together.",
+    "tts_text": "After class ended, we often studied together.",
+    "seed": 2026,
+    "hyp": "after class ended we often studied together",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 2.91,
+    "raw_peak": 0.84,
+    "pitch_ok": true,
+    "score": 1.593,
+    "f0_med": 252.6,
+    "f0_st_sd": 5.19,
+    "f0_range_st": 14.21
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mariana",
+    "text": "And we celebrated every small success.",
+    "tts_text": "And we celebrated every small success.",
+    "seed": 2026,
+    "hyp": "and we celebrated every small success",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.94,
+    "dur": 2.6,
+    "raw_peak": 0.699,
+    "pitch_ok": true,
+    "score": 1.404,
+    "f0_med": 240.5,
+    "f0_st_sd": 3.11,
+    "f0_range_st": 9.36
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Hill",
+    "text": "Thank you. Everyone, let's celebrate Mariana!",
+    "tts_text": "Thank you. Everyone, let's celebrate Mariana!",
+    "seed": 17864,
+    "hyp": "thank you everyone let's celebrate mariana",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.94,
+    "dur": 2.98,
+    "raw_peak": 0.433,
+    "pitch_ok": true,
+    "score": 1.538,
+    "f0_med": 148.5,
+    "f0_st_sd": 4.54,
+    "f0_range_st": 14.03
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   13.72,
+   23.73,
+   "Mariana",
+   "Good evening, everyone. My name is Mariana. When I started English classes here, I couldn't understand the bus driver, and I was afraid to talk on the phone."
+  ],
+  [
+   24.48,
+   33.81,
+   "Mariana",
+   "The first year was hard. I was working at a restaurant at night, and I was always tired. But my classmates helped me, and I made friends."
+  ],
+  [
+   34.56,
+   48.75,
+   "Mariana",
+   "After I finished Level 2, I got a new job at a hotel. Before I started that job, I practiced my interview with my teacher. Last year, I was able to call the clinic by myself for the first time. That was a big milestone for me."
+  ],
+  [
+   49.5,
+   55.2,
+   "Mariana",
+   "Now I can talk to guests at work, and I help my kids with their homework. I'm more confident."
+  ],
+  [
+   55.95,
+   67.81,
+   "Mariana",
+   "What's next? After I finish Level 5, I'm going to take a training class to be a front desk manager. My advice to you is simple: come to class, and don't be afraid to make mistakes. Thank you."
+  ],
+  [
+   69.11,
+   74.13,
+   "Mr. Hill",
+   "Thank you, Mariana. That was wonderful. Can I ask you two questions?"
+  ],
+  [
+   75.43,
+   76.43,
+   "Mariana",
+   "Of course."
+  ],
+  [
+   77.73,
+   79.79,
+   "Mr. Hill",
+   "What was the biggest challenge for you?"
+  ],
+  [
+   81.09,
+   87.97,
+   "Mariana",
+   "Getting used to the phone. When I called someone, I couldn't understand them very well. Now it's easy for me."
+  ],
+  [
+   89.27,
+   91.17,
+   "Mr. Hill",
+   "And what helped you the most?"
+  ],
+  [
+   92.47,
+   103.03,
+   "Mariana",
+   "My classmates. When I was tired, they supported me. After class ended, we often studied together. And we celebrated every small success."
+  ],
+  [
+   104.33,
+   107.31,
+   "Mr. Hill",
+   "Thank you. Everyone, let's celebrate Mariana!"
+  ]
+ ]
+}

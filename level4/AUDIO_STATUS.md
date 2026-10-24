@@ -1,6 +1,6 @@
 # Level 4 listening audio: status
 
-**No Level 4 audio has been rendered yet.** Each lesson has a listening script and a cast file ready for the audio handoff in `level4/audio/tools/` (`scripts/script_L4_LN.py`, `cast/cast_L4_LN.json`). The lesson books say "not recorded yet" and link to no audio file.
+**Lesson 13 has a failed listening draft** in `level4/audio/failed/L13/`. It was not recorded again. Each lesson has a listening script and a cast file ready for the audio handoff in `level4/audio/tools/` (`scripts/script_L4_LN.py`, `cast/cast_L4_LN.json`). The lesson books say "not recorded yet" and link to no audio file.
 
 When audio is made, it will use synthetic voices made with Chatterbox TTS (Resemble AI, MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0). No real person's voice is used. Female characters get female reference voices.
 
@@ -18,4 +18,4 @@ When audio is made, it will use synthetic voices made with Chatterbox TTS (Resem
 | 10 | Turn It Off | `scripts/script_L4_L10.py` | `cast/cast_L4_L10.json` | to do |
 | 11 | Time Off | `scripts/script_L4_L11.py` | `cast/cast_L4_L11.json` | to do |
 | 12 | Is It a Scam? | `scripts/script_L4_L12.py` | `cast/cast_L4_L12.json` | to do |
-| 13 | My Story So Far | `scripts/script_L4_L13.py` | `cast/cast_L4_L13.json` | to do |
+| 13 | My Story So Far | `scripts/script_L4_L13.py` | `cast/cast_L4_L13.json` | failed draft, gate did not pass |

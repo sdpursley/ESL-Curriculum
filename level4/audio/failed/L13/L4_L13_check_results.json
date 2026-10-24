@@ -1,0 +1,226 @@
+{
+ "file": "L4_L13_listening.mp3",
+ "duration_s": 110.73,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 268,
+ "diffs": [],
+ "low_prob_words": [
+  [
+   "Level",
+   35.43,
+   0.36
+  ]
+ ],
+ "lines_ok": "12/12",
+ "lines_with_flags": [
+  {
+   "t": 13.72,
+   "spk": "Mariana",
+   "line": "Good evening, everyone. My name is Mariana. When I started English classes here, I couldn't understand the bus driver, and I was afraid to talk on the phone.",
+   "ok": true,
+   "hyp": "good evening everyone my name is mariana when i started english classes here i couldn't understand the bus driver and i was afraid to talk on the phone",
+   "min_prob": 0.79,
+   "flags": [
+    "HF whine 760ms"
+   ],
+   "f0_med": 225.0
+  },
+  {
+   "t": 24.48,
+   "spk": "Mariana",
+   "line": "The first year was hard. I was working at a restaurant at night, and I was always tired. But my classmates helped me, and I made friends.",
+   "ok": true,
+   "hyp": "the first year was hard i was working at a restaurant at night and i was always tired but my classmates helped me and i made friends",
+   "min_prob": 0.21,
+   "flags": [
+    "HF whine 260ms"
+   ],
+   "f0_med": 225.0
+  },
+  {
+   "t": 34.56,
+   "spk": "Mariana",
+   "line": "After I finished Level 2, I got a new job at a hotel. Before I started that job, I practiced my interview with my teacher. Last year, I was able to call the clinic by myself for the first time. That was a big milestone for me.",
+   "ok": true,
+   "hyp": "after i finished level 2 i got a new job at a hotel before i started that job i practiced my interview with my teacher last year i was able to call the clinic by myself for the first time that was a big milestone for me",
+   "min_prob": 0.57,
+   "flags": [
+    "HF whine 400ms"
+   ],
+   "f0_med": 222.5
+  },
+  {
+   "t": 55.95,
+   "spk": "Mariana",
+   "line": "What's next? After I finish Level 5, I'm going to take a training class to be a front desk manager. My advice to you is simple: come to class, and don't be afraid to make mistakes. Thank you.",
+   "ok": true,
+   "hyp": "what's next after i finish level 5 i'm going to take a training class to be a front desk manager my advice to you is simple come to class and don't be afraid to make mistakes thank you",
+   "min_prob": 0.7,
+   "flags": [
+    "HF whine 400ms"
+   ],
+   "f0_med": 241.2
+  },
+  {
+   "t": 92.47,
+   "spk": "Mariana",
+   "line": "My classmates. When I was tired, they supported me. After class ended, we often studied together. And we celebrated every small success.",
+   "ok": true,
+   "hyp": "my classmates when i was tired they supported me after class ended we often studied together and we celebrated every small success",
+   "min_prob": 0.89,
+   "flags": [
+    "HF whine 340ms"
+   ],
+   "f0_med": 235.7
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Mariana": 229.0,
+  "Mr. Hill": 145.3,
+  "Narrator": 180.7
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.6,
+ "peak": 0.92,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 13.72,
+   "spk": "Mariana",
+   "line": "Good evening, everyone. My name is Mariana. When I started English classes here, I couldn't understand the bus driver, and I was afraid to talk on the phone.",
+   "ok": true,
+   "hyp": "good evening everyone my name is mariana when i started english classes here i couldn't understand the bus driver and i was afraid to talk on the phone",
+   "min_prob": 0.79,
+   "flags": [
+    "HF whine 760ms"
+   ],
+   "f0_med": 225.0
+  },
+  {
+   "t": 24.48,
+   "spk": "Mariana",
+   "line": "The first year was hard. I was working at a restaurant at night, and I was always tired. But my classmates helped me, and I made friends.",
+   "ok": true,
+   "hyp": "the first year was hard i was working at a restaurant at night and i was always tired but my classmates helped me and i made friends",
+   "min_prob": 0.21,
+   "flags": [
+    "HF whine 260ms"
+   ],
+   "f0_med": 225.0
+  },
+  {
+   "t": 34.56,
+   "spk": "Mariana",
+   "line": "After I finished Level 2, I got a new job at a hotel. Before I started that job, I practiced my interview with my teacher. Last year, I was able to call the clinic by myself for the first time. That was a big milestone for me.",
+   "ok": true,
+   "hyp": "after i finished level 2 i got a new job at a hotel before i started that job i practiced my interview with my teacher last year i was able to call the clinic by myself for the first time that was a big milestone for me",
+   "min_prob": 0.57,
+   "flags": [
+    "HF whine 400ms"
+   ],
+   "f0_med": 222.5
+  },
+  {
+   "t": 49.5,
+   "spk": "Mariana",
+   "line": "Now I can talk to guests at work, and I help my kids with their homework. I'm more confident.",
+   "ok": true,
+   "hyp": "now i can talk to guests at work and i help my kids with their homework i'm more confident",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 227.7
+  },
+  {
+   "t": 55.95,
+   "spk": "Mariana",
+   "line": "What's next? After I finish Level 5, I'm going to take a training class to be a front desk manager. My advice to you is simple: come to class, and don't be afraid to make mistakes. Thank you.",
+   "ok": true,
+   "hyp": "what's next after i finish level 5 i'm going to take a training class to be a front desk manager my advice to you is simple come to class and don't be afraid to make mistakes thank you",
+   "min_prob": 0.7,
+   "flags": [
+    "HF whine 400ms"
+   ],
+   "f0_med": 241.2
+  },
+  {
+   "t": 69.11,
+   "spk": "Mr. Hill",
+   "line": "Thank you, Mariana. That was wonderful. Can I ask you two questions?",
+   "ok": true,
+   "hyp": "thank you mariana that was wonderful can i ask you 2 questions",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 135.4
+  },
+  {
+   "t": 75.43,
+   "spk": "Mariana",
+   "line": "Of course.",
+   "ok": true,
+   "hyp": "of course",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 296.9
+  },
+  {
+   "t": 77.73,
+   "spk": "Mr. Hill",
+   "line": "What was the biggest challenge for you?",
+   "ok": true,
+   "hyp": "what was the biggest challenge for you",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 142.2
+  },
+  {
+   "t": 81.09,
+   "spk": "Mariana",
+   "line": "Getting used to the phone. When I called someone, I couldn't understand them very well. Now it's easy for me.",
+   "ok": true,
+   "hyp": "getting used to the phone when i called someone i couldn't understand them very well now it's easy for me",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 230.3
+  },
+  {
+   "t": 89.27,
+   "spk": "Mr. Hill",
+   "line": "And what helped you the most?",
+   "ok": true,
+   "hyp": "and what helped you the most",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 148.5
+  },
+  {
+   "t": 92.47,
+   "spk": "Mariana",
+   "line": "My classmates. When I was tired, they supported me. After class ended, we often studied together. And we celebrated every small success.",
+   "ok": true,
+   "hyp": "my classmates when i was tired they supported me after class ended we often studied together and we celebrated every small success",
+   "min_prob": 0.89,
+   "flags": [
+    "HF whine 340ms"
+   ],
+   "f0_med": 235.7
+  },
+  {
+   "t": 104.33,
+   "spk": "Mr. Hill",
+   "line": "Thank you. Everyone, let's celebrate Mariana!",
+   "ok": true,
+   "hyp": "thank you everyone let's celebrate mariana",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 148.9
+  }
+ ],
+ "hyp": "lesson 13 mariana was a learner at this school now she is giving a short talk at graduation then her old teacher mr hill asks her 2 questions good evening everyone my name is mariana when i started english classes here i couldn't understand the bus driver and i was afraid to talk on the phone the first year was hard i was working at a restaurant at night and i was always tired but my classmates helped me and i made friends after i finished level 2 i got a new job at a hotel before i started that job i practiced my interview with my teacher last year i was able to call the clinic by myself for the first time that was a big milestone for me now i can talk to guests at work and i help my kids with their homework i'm more confident what's next after i finish level 5 i'm going to take a training class to be a front desk manager my advice to you is simple come to class and don't be afraid to make mistakes thank you thank you mariana that was wonderful can i ask you 2 questions of course what was the biggest challenge for you getting used to the phone when i called someone i couldn't understand them very well now it's easy for me and what helped you the most my classmates when i was tired they supported me after class ended we often studied together and we celebrated every small success thank you everyone let's celebrate mariana that's the end of the listening"
+}

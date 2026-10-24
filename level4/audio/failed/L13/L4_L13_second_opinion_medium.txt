@@ -1,0 +1,3 @@
+medium.en per-line WER 0.011 (3/268), 12/14 lines exact
+   ('Mariana', "Good evening, everyone. My name is Mariana. When I started English classes here, I couldn't understand the bus driver, and I was afraid to talk on the phone.", "good evening everyone my name is marianna when i started english classes here i couldn't understand the bus driver and i was afraid to talk on the phone")
+   ('Mariana', 'My classmates. When I was tired, they supported me. After class ended, we often studied together. And we celebrated every small success.', 'my classmates when i was tired they supported me after class ended we often studied together and we celebrated every small success thank you')
