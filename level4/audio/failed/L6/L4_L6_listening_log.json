@@ -1,0 +1,875 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Mike": "refs/Server.wav",
+   "Grace": "refs/Ana_af_jessica.wav",
+   "Teresa": "refs/Rosa.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson six. This is a radio show called What Would You Do?",
+    "tts_text": "Lesson six. This is a radio show called What Would You Do?",
+    "seed": 9945,
+    "hyp": "lesson 6 this is a radio show called what would you do",
+    "ok": "False",
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.25,
+    "mean_prob": 0.9,
+    "dur": 3.74,
+    "raw_peak": 0.726,
+    "pitch_ok": true,
+    "score": 1.497,
+    "f0_med": 201.1,
+    "f0_st_sd": 4.02,
+    "f0_range_st": 12.54
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Mike is the host.",
+    "tts_text": "Mike is the host.",
+    "seed": 2026,
+    "hyp": "mike is the host",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.96,
+    "dur": 1.34,
+    "raw_peak": 0.59,
+    "pitch_ok": true,
+    "score": 1.337,
+    "f0_med": 189.2,
+    "f0_st_sd": 2.51,
+    "f0_range_st": 8.25
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Two people call the show.",
+    "tts_text": "Two people call the show.",
+    "seed": 2026,
+    "hyp": "2 people call the show",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.485,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 165.7,
+    "f0_st_sd": 4.11,
+    "f0_range_st": 13.42
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Good afternoon, and welcome to What Would You Do?",
+    "tts_text": "Good afternoon, and welcome to What Would You Do?",
+    "seed": 25783,
+    "hyp": "good afternoon and welcome to what would you do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.57,
+    "mean_prob": 0.93,
+    "dur": 2.48,
+    "raw_peak": 1.046,
+    "pitch_ok": true,
+    "score": 1.531,
+    "f0_med": 120.6,
+    "f0_st_sd": 4.72,
+    "f0_range_st": 16.39
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Here's today's situation.",
+    "tts_text": "Here's today's situation.",
+    "seed": 17864,
+    "hyp": "here's today's situation",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.94,
+    "dur": 1.27,
+    "raw_peak": 0.763,
+    "pitch_ok": true,
+    "score": 1.543,
+    "f0_med": 120.9,
+    "f0_st_sd": 6.67,
+    "f0_range_st": 19.2
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "You buy groceries, and the cashier gives you ten dollars too much change.",
+    "tts_text": "You buy groceries, and the cashier gives you ten dollars too much change.",
+    "seed": 2026,
+    "hyp": "you buy groceries and the cashier gives you 10 dollars too much change",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.95,
+    "dur": 3.68,
+    "raw_peak": 1.003,
+    "pitch_ok": true,
+    "score": 1.491,
+    "f0_med": 119.9,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 10.63
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "You see it in the parking lot.",
+    "tts_text": "You see it in the parking lot.",
+    "seed": 2026,
+    "hyp": "you see it in the parking lot",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.35,
+    "raw_peak": 1.09,
+    "pitch_ok": true,
+    "score": 1.57,
+    "f0_med": 116.5,
+    "f0_st_sd": 3.91,
+    "f0_range_st": 14.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "What would you do?",
+    "tts_text": "What would you do?",
+    "seed": 57459,
+    "hyp": "what would you do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.94,
+    "dur": 1.04,
+    "raw_peak": 0.952,
+    "pitch_ok": true,
+    "score": 1.291,
+    "f0_med": 144.7,
+    "f0_st_sd": 2.37,
+    "f0_range_st": 8.13
+   },
+   "tries": 8,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Our first caller is Grace. Hi, Grace!",
+    "tts_text": "Our first caller is Grace. Hi, Grace!",
+    "seed": 2026,
+    "hyp": "our first caller is grace hi grace",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 2.32,
+    "raw_peak": 0.964,
+    "pitch_ok": true,
+    "score": 1.561,
+    "f0_med": 123.4,
+    "f0_st_sd": 4.71,
+    "f0_range_st": 14.52
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "Hi, Mike. If that happened to me, I'd go back inside and give the money back.",
+    "tts_text": "Hi, Mike. If that happened to me, I'd go back inside and give the money back.",
+    "seed": 2026,
+    "hyp": "hi mike if that happened to me i'd go back inside and give the money back",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.49,
+    "mean_prob": 0.96,
+    "dur": 4.37,
+    "raw_peak": 0.786,
+    "pitch_ok": true,
+    "score": 1.559,
+    "f0_med": 237.0,
+    "f0_st_sd": 4.04,
+    "f0_range_st": 12.79
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Really? Why would you go back?",
+    "tts_text": "Really? Why would you go back?",
+    "seed": 57459,
+    "hyp": "really why would you go back",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 1.72,
+    "raw_peak": 1.135,
+    "pitch_ok": true,
+    "score": 1.569,
+    "f0_med": 121.3,
+    "f0_st_sd": 6.09,
+    "f0_range_st": 19.93
+   },
+   "tries": 8,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "Because the cashier made a mistake.",
+    "tts_text": "Because the cashier made a mistake.",
+    "seed": 9945,
+    "hyp": "because the cashier made a mistake",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.94,
+    "dur": 1.97,
+    "raw_peak": 0.378,
+    "pitch_ok": true,
+    "score": 1.422,
+    "f0_med": 230.3,
+    "f0_st_sd": 3.2,
+    "f0_range_st": 9.7
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "If I kept the money, she would have a problem at the end of her shift.",
+    "tts_text": "If I kept the money, she would have a problem at the end of her shift.",
+    "seed": 2026,
+    "hyp": "if i kept the money she would have a problem at the end of her shift",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.99,
+    "dur": 3.9,
+    "raw_peak": 0.756,
+    "pitch_ok": true,
+    "score": 1.589,
+    "f0_med": 269.2,
+    "f0_st_sd": 5.08,
+    "f0_range_st": 14.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "That's very honest.",
+    "tts_text": "That's very honest.",
+    "seed": 112892,
+    "hyp": "that's very honest",
+    "ok": false,
+    "edge": true,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 1.24,
+    "raw_peak": 1.007,
+    "pitch_ok": true,
+    "score": 1.583,
+    "f0_med": 115.1,
+    "f0_st_sd": 4.26,
+    "f0_range_st": 12.03
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Thanks, Grace. Our next caller is Teresa.",
+    "tts_text": "Thanks, Grace. Our next caller is Teresa.",
+    "seed": 57459,
+    "hyp": "thanks grace our next caller is teresa",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.93,
+    "dur": 2.44,
+    "raw_peak": 0.915,
+    "pitch_ok": true,
+    "score": 1.526,
+    "f0_med": 112.5,
+    "f0_st_sd": 4.4,
+    "f0_range_st": 14.82
+   },
+   "tries": 8,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Teresa, what would you do?",
+    "tts_text": "Teresa, what would you do?",
+    "seed": 2026,
+    "hyp": "teresa what would you do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.89,
+    "dur": 1.32,
+    "raw_peak": 0.823,
+    "pitch_ok": true,
+    "score": 1.49,
+    "f0_med": 130.8,
+    "f0_st_sd": 5.24,
+    "f0_range_st": 18.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Teresa",
+    "text": "Well, Mike, this really happened to me once.",
+    "tts_text": "Well, Mike, this really happened to me once.",
+    "seed": 2026,
+    "hyp": "well mike this really happened to me once",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.98,
+    "dur": 2.92,
+    "raw_peak": 0.64,
+    "pitch_ok": true,
+    "score": 1.479,
+    "f0_med": 216.7,
+    "f0_st_sd": 3.35,
+    "f0_range_st": 11.0
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Teresa",
+    "text": "A cashier gave me twenty dollars too much.",
+    "tts_text": "A cashier gave me twenty dollars too much.",
+    "seed": 2026,
+    "hyp": "a cashier gave me 20 dollars too much",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.94,
+    "dur": 2.32,
+    "raw_peak": 0.627,
+    "pitch_ok": true,
+    "score": 1.431,
+    "f0_med": 195.9,
+    "f0_st_sd": 3.3,
+    "f0_range_st": 9.25
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Really? What did you do?",
+    "tts_text": "Really? What did you do?",
+    "seed": 2026,
+    "hyp": "really what did you do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.8,
+    "raw_peak": 1.059,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 125.6,
+    "f0_st_sd": 5.33,
+    "f0_range_st": 15.48
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Teresa",
+    "text": "I gave it back the next day.",
+    "tts_text": "I gave it back the next day.",
+    "seed": 2026,
+    "hyp": "i gave it back the next day",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 1.55,
+    "raw_peak": 0.798,
+    "pitch_ok": true,
+    "score": 1.302,
+    "f0_med": 225.0,
+    "f0_st_sd": 2.1,
+    "f0_range_st": 5.98
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Teresa",
+    "text": "I was in a hurry, so I couldn't go back that day.",
+    "tts_text": "I was in a hurry, so I couldn't go back that day.",
+    "seed": 25783,
+    "hyp": "i was in a hurry so i couldn't go back that day",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.96,
+    "dur": 2.42,
+    "raw_peak": 0.764,
+    "pitch_ok": true,
+    "score": 1.367,
+    "f0_med": 182.3,
+    "f0_st_sd": 2.73,
+    "f0_range_st": 9.42
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Was the cashier happy?",
+    "tts_text": "Was the cashier happy?",
+    "seed": 2026,
+    "hyp": "was the cashier happy",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.39,
+    "raw_peak": 0.923,
+    "pitch_ok": true,
+    "score": 1.444,
+    "f0_med": 126.3,
+    "f0_st_sd": 3.14,
+    "f0_range_st": 9.58
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Teresa",
+    "text": "Yes, she was very happy.",
+    "tts_text": "Yes, she was very happy.",
+    "seed": 2026,
+    "hyp": "yes she was very happy",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.13,
+    "raw_peak": 0.458,
+    "pitch_ok": true,
+    "score": 1.442,
+    "f0_med": 192.5,
+    "f0_st_sd": 3.11,
+    "f0_range_st": 11.48
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Teresa",
+    "text": "She said thank you three times!",
+    "tts_text": "She said thank you three times!",
+    "seed": 9945,
+    "hyp": "she said thank you 3 times",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.92,
+    "dur": 1.81,
+    "raw_peak": 0.432,
+    "pitch_ok": true,
+    "score": 1.265,
+    "f0_med": 257.0,
+    "f0_st_sd": 2.32,
+    "f0_range_st": 7.41
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "And what would you do if it were only one dollar?",
+    "tts_text": "And what would you do if it were only one dollar?",
+    "seed": 2026,
+    "hyp": "and what would you do if it were only 1 dollar",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.92,
+    "dur": 2.24,
+    "raw_peak": 0.867,
+    "pitch_ok": true,
+    "score": 1.508,
+    "f0_med": 131.5,
+    "f0_st_sd": 3.9,
+    "f0_range_st": 14.99
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Teresa",
+    "text": "Hmm. If it were one dollar, I'd probably keep it.",
+    "tts_text": "Hmm. If it were one dollar, I'd probably keep it.",
+    "seed": 2026,
+    "hyp": "hmm if it were 1 dollar i'd probably keep it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.91,
+    "dur": 2.99,
+    "raw_peak": 0.65,
+    "pitch_ok": true,
+    "score": 1.38,
+    "f0_med": 207.6,
+    "f0_st_sd": 3.15,
+    "f0_range_st": 9.95
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Teresa",
+    "text": "But I'd feel a little bad.",
+    "tts_text": "But I'd feel a little bad.",
+    "seed": 2026,
+    "hyp": "but i'd feel a little bad",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.68,
+    "mean_prob": 0.93,
+    "dur": 1.8,
+    "raw_peak": 0.836,
+    "pitch_ok": true,
+    "score": 1.53,
+    "f0_med": 223.7,
+    "f0_st_sd": 4.77,
+    "f0_range_st": 15.72
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Ha! That's an honest answer, too.",
+    "tts_text": "Ha! That's an honest answer, too.",
+    "seed": 33702,
+    "hyp": "ha that's an honest answer too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.89,
+    "dur": 2.16,
+    "raw_peak": 0.999,
+    "pitch_ok": true,
+    "score": 1.493,
+    "f0_med": 108.7,
+    "f0_st_sd": 6.11,
+    "f0_range_st": 20.24
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Thank you, Teresa.",
+    "tts_text": "Thank you, Teresa.",
+    "seed": 25783,
+    "hyp": "thank you teresa",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.85,
+    "dur": 1.24,
+    "raw_peak": 0.976,
+    "pitch_ok": true,
+    "score": 1.446,
+    "f0_med": 97.7,
+    "f0_st_sd": 5.22,
+    "f0_range_st": 16.15
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "Next week's question is this: what would you do if you found an envelope with money at work?",
+    "tts_text": "Next week's question is this: what would you do if you found an envelope with money at work?",
+    "seed": 17864,
+    "hyp": "next week's question is this what would you do if you found an envelope with money at work",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.96,
+    "dur": 4.59,
+    "raw_peak": 0.999,
+    "pitch_ok": true,
+    "score": 1.545,
+    "f0_med": 121.3,
+    "f0_st_sd": 3.89,
+    "f0_range_st": 11.5
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "I want to hear your ideas.",
+    "tts_text": "I want to hear your ideas.",
+    "seed": 2026,
+    "hyp": "i want to hear your ideas",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.95,
+    "dur": 1.67,
+    "raw_peak": 0.958,
+    "pitch_ok": true,
+    "score": 1.555,
+    "f0_med": 108.7,
+    "f0_st_sd": 4.44,
+    "f0_range_st": 13.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mike",
+    "text": "And if you're going to call, call early!",
+    "tts_text": "And if you're going to call, call early!",
+    "seed": 41621,
+    "hyp": "and if you're going to call call early",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.94,
+    "dur": 2.2,
+    "raw_peak": 0.806,
+    "pitch_ok": true,
+    "score": 1.535,
+    "f0_med": 117.2,
+    "f0_st_sd": 4.76,
+    "f0_range_st": 16.52
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   9.7,
+   21.72,
+   "Mike",
+   "Good afternoon, and welcome to What Would You Do? Here's today's situation. You buy groceries, and the cashier gives you ten dollars too much change. You see it in the parking lot. What would you do?"
+  ],
+  [
+   22.47,
+   24.79,
+   "Mike",
+   "Our first caller is Grace. Hi, Grace!"
+  ],
+  [
+   26.09,
+   30.46,
+   "Grace",
+   "Hi, Mike. If that happened to me, I'd go back inside and give the money back."
+  ],
+  [
+   31.76,
+   33.48,
+   "Mike",
+   "Really? Why would you go back?"
+  ],
+  [
+   34.78,
+   41.2,
+   "Grace",
+   "Because the cashier made a mistake. If I kept the money, she would have a problem at the end of her shift."
+  ],
+  [
+   42.5,
+   48.6,
+   "Mike",
+   "That's very honest. Thanks, Grace. Our next caller is Teresa. Teresa, what would you do?"
+  ],
+  [
+   49.9,
+   55.69,
+   "Teresa",
+   "Well, Mike, this really happened to me once. A cashier gave me twenty dollars too much."
+  ],
+  [
+   56.99,
+   58.79,
+   "Mike",
+   "Really? What did you do?"
+  ],
+  [
+   60.09,
+   64.61,
+   "Teresa",
+   "I gave it back the next day. I was in a hurry, so I couldn't go back that day."
+  ],
+  [
+   65.91,
+   67.3,
+   "Mike",
+   "Was the cashier happy?"
+  ],
+  [
+   68.6,
+   73.09,
+   "Teresa",
+   "Yes, she was very happy. She said thank you three times!"
+  ],
+  [
+   74.39,
+   76.63,
+   "Mike",
+   "And what would you do if it were only one dollar?"
+  ],
+  [
+   77.93,
+   83.27,
+   "Teresa",
+   "Hmm. If it were one dollar, I'd probably keep it. But I'd feel a little bad."
+  ],
+  [
+   84.57,
+   88.52,
+   "Mike",
+   "Ha! That's an honest answer, too. Thank you, Teresa."
+  ],
+  [
+   89.27,
+   98.83,
+   "Mike",
+   "Next week's question is this: what would you do if you found an envelope with money at work? I want to hear your ideas. And if you're going to call, call early!"
+  ]
+ ]
+}

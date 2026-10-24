@@ -1,0 +1,2 @@
+medium.en per-line WER 0.004 (1/252), 16/17 lines exact
+   ('Mike', 'And what would you do if it were only one dollar?', 'and what would you do if it were only 1 dollars')
