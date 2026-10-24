@@ -17,7 +17,9 @@
   "Kim"
  ],
  "SAME": {},
- "TTS": {},
+ "TTS": {
+  "Thank you, Ms Rivera. I will see you tomorrow.": "Thank you, Miss Rivera. I will see you tomorrow."
+ },
  "ESTIMATE": {
   "words": 238,
   "seconds": 112

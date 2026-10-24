@@ -4,7 +4,7 @@
 LESSON = 3
 TITLE = 'Have You Finished Yet?'
 VOICES = {'Narrator': 'N', 'Ms. Rivera': 'Rosa', 'Jamal': 'Sam', 'Kim': 'Kim'}
-FEMALE = {'Kim', 'Ms. Rivera', 'Narrator'}
+FEMALE = {'Kim', 'Narrator', 'Ms. Rivera'}
 NAMES = {'rivera', 'jamal', 'kim'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
@@ -29,6 +29,6 @@ LINES = [
  ('Kim', 'Thanks. I want to finish it this week.'),
  ('Ms. Rivera', 'Good idea. And some quick feedback: you both did great work tonight. The shelves look really good.'),
  ('Jamal', 'Thank you. That means a lot.'),
- ('Kim', 'Thank you, Ms Rivera. I will see you tomorrow.'),
+ ('Kim', 'Thank you, Ms Rivera. I will see you tomorrow.', 'Thank you, Miss Rivera. I will see you tomorrow.'),
 ]
 END = "That's the end of the listening."

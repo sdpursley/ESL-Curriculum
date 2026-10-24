@@ -50,7 +50,7 @@ L['steps'] = [
   'item 1: *you / finish / the checklist / yet? → Have you finished the checklist yet?*'),
 ]
 L['listen'] = dict(title='Have You Finished Yet?', voices={'Narrator': 'N', 'Ms. Rivera': 'Rosa', 'Jamal': 'Sam', 'Kim': 'Kim'},
- female=['Narrator', 'Ms. Rivera', 'Kim'], names=['Rivera', 'Jamal', 'Kim'], tts={},
+ female=['Narrator', 'Ms. Rivera', 'Kim'], names=['Rivera', 'Jamal', 'Kim'], tts={'Thank you, Ms Rivera. I will see you tomorrow.': 'Thank you, Miss Rivera. I will see you tomorrow.'},
  setting='It\'s the end of the evening shift at a grocery store. Ms. Rivera, the night supervisor, checks the work with Jamal and Kim.',
  intro='Lesson three. It\'s the end of the evening shift at a grocery store. Ms. Rivera, the supervisor, talks to Jamal and Kim.',
  lines=[
