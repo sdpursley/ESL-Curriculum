@@ -1,0 +1,93 @@
+{
+ "duration_s": 108.52,
+ "duration": "1:49",
+ "length_ok": true,
+ "small_whole_file_wer": 0.0041,
+ "small_whole_file_errors": "1/246",
+ "small_whole_file_diffs": [
+  {
+   "op": "replace",
+   "ref": "lin",
+   "hyp": "lynn",
+   "ctx": "is a big problem lin how do you feel"
+  }
+ ],
+ "small_lines_ok": "13/14",
+ "small_line_problems": [
+  {
+   "t": 33.82,
+   "spk": "Mrs. Okafor",
+   "line": "That's true. Parking is a big problem. Lin, how do you feel about it?",
+   "hyp": "that's true parking is a big problem lynn how do you feel about it",
+   "flags": []
+  },
+  {
+   "t": 50.81,
+   "spk": "Lin",
+   "line": "First, a garden isn't as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.",
+   "hyp": "first a garden isn't as expensive as a parking lot also if we had a garden families would grow vegetables and kids would spend more time outside",
+   "flags": [
+    "HF whine 240ms"
+   ]
+  }
+ ],
+ "medium_per_line": {
+  "wer": 0.004,
+  "errors": 1,
+  "words": 246,
+  "exact": "15/16"
+ },
+ "medium_differences": [
+  "('Mrs. Okafor', \"That's true. Parking is a big problem. Lin, how do you feel about it?\", \"that's true parking is a big problem lynn how do you feel about it\")"
+ ],
+ "pitch_median_hz": {
+  "Mrs. Okafor": 180.7,
+  "Ray": 120.6,
+  "Lin": 219.8,
+  "Narrator": 177.6
+ },
+ "pitch_problems": [],
+ "clipped_samples": 0,
+ "peak": 0.934,
+ "loudness_lufs": -16.7,
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "gaps_ok": true,
+ "noisy_pauses": [],
+ "failed_sentences": [
+  "Good evening, everyone.",
+  "That's true. Parking is a big problem.",
+  "Lin, how do you feel about it?"
+ ],
+ "sentences": 33,
+ "takes_tried": 99,
+ "lines_wrong_in_both_checkers": [
+  {
+   "t": 33.82,
+   "spk": "Mrs. Okafor",
+   "line": "That's true. Parking is a big problem. Lin, how do you feel about it?",
+   "hyp": "that's true parking is a big problem lynn how do you feel about it",
+   "flags": []
+  }
+ ],
+ "single_checker_misses_or_flags_ignored": {
+  "small": [
+   {
+    "t": 50.81,
+    "spk": "Lin",
+    "line": "First, a garden isn't as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.",
+    "hyp": "first a garden isn't as expensive as a parking lot also if we had a garden families would grow vegetables and kids would spend more time outside",
+    "flags": [
+     "HF whine 240ms"
+    ]
+   }
+  ],
+  "medium": [
+   "('Mrs. Okafor', \"That's true. Parking is a big problem. Lin, how do you feel about it?\", \"that's true parking is a big problem lynn how do you feel about it\")"
+  ]
+ },
+ "rule": "line bad only if small.en AND medium.en both mishear it; pitch, clipping, length, gaps, FAILED still gate",
+ "PASS": false
+}

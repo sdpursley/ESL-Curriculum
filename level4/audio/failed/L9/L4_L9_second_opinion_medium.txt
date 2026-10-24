@@ -1,0 +1,2 @@
+medium.en per-line WER 0.004 (1/246), 15/16 lines exact
+   ('Mrs. Okafor', "That's true. Parking is a big problem. Lin, how do you feel about it?", "that's true parking is a big problem lynn how do you feel about it")
