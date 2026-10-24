@@ -1,0 +1,929 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Luis": "refs/Marco.wav",
+   "Ms. Adams": "refs/Receptionist.wav",
+   "Rosa": "refs/Rosa.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson eleven. Luis asks his supervisor for time off.",
+    "tts_text": "Lesson eleven. Luis asks his supervisor for time off.",
+    "seed": 9945,
+    "hyp": "lesson 11 luis asks his supervisor for time off",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.95,
+    "dur": 3.7,
+    "raw_peak": 0.856,
+    "pitch_ok": true,
+    "score": 1.475,
+    "f0_med": 197.0,
+    "f0_st_sd": 3.47,
+    "f0_range_st": 12.52
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Then he leaves a voicemail for his sister.",
+    "tts_text": "Then he leaves a voicemail for his sister.",
+    "seed": 2026,
+    "hyp": "then he leaves a voicemail for his sister",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.96,
+    "dur": 2.07,
+    "raw_peak": 0.726,
+    "pitch_ok": true,
+    "score": 1.55,
+    "f0_med": 195.9,
+    "f0_st_sd": 3.92,
+    "f0_range_st": 13.12
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Ms. Adams, do you have a minute?",
+    "tts_text": "Ms. Adams, do you have a minute?",
+    "seed": 2026,
+    "hyp": "ms adams do you have a minute",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.51,
+    "mean_prob": 0.9,
+    "dur": 1.6,
+    "raw_peak": 1.01,
+    "pitch_ok": true,
+    "score": 1.466,
+    "f0_med": 140.5,
+    "f0_st_sd": 3.75,
+    "f0_range_st": 11.47
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "I'd like to ask for some time off.",
+    "tts_text": "I'd like to ask for some time off.",
+    "seed": 2026,
+    "hyp": "i'd like to ask for some time off",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 1.64,
+    "raw_peak": 0.977,
+    "pitch_ok": true,
+    "score": 1.414,
+    "f0_med": 115.1,
+    "f0_st_sd": 2.82,
+    "f0_range_st": 7.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adams",
+    "text": "Sure, Luis. When do you want to take it?",
+    "tts_text": "Sure, Luis. When do you want to take it?",
+    "seed": 9945,
+    "hyp": "sure luis when do you want to take it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.68,
+    "mean_prob": 0.92,
+    "dur": 2.12,
+    "raw_peak": 0.749,
+    "pitch_ok": true,
+    "score": 1.421,
+    "f0_med": 197.0,
+    "f0_st_sd": 3.37,
+    "f0_range_st": 9.78
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Next month, from Thursday, June fifth, to Saturday, June seventh.",
+    "tts_text": "Next month, from Thursday, June fifth, to Saturday, June seventh.",
+    "seed": 120811,
+    "hyp": "next month from thursday june fifth to saturday june seventh",
+    "ok": "False",
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.47,
+    "mean_prob": 0.87,
+    "dur": 3.74,
+    "raw_peak": 1.004,
+    "pitch_ok": true,
+    "score": 1.333,
+    "f0_med": 121.3,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 11.85
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "That's three days.",
+    "tts_text": "That's three days.",
+    "seed": 2026,
+    "hyp": "that's 3 days",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.92,
+    "dur": 1.07,
+    "raw_peak": 0.928,
+    "pitch_ok": true,
+    "score": 1.126,
+    "f0_med": 139.7,
+    "f0_st_sd": 1.34,
+    "f0_range_st": 4.17
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adams",
+    "text": "And why are you taking time off?",
+    "tts_text": "And why are you taking time off?",
+    "seed": 2026,
+    "hyp": "and why are you taking time off",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.97,
+    "dur": 1.48,
+    "raw_peak": 0.657,
+    "pitch_ok": true,
+    "score": 1.325,
+    "f0_med": 194.8,
+    "f0_st_sd": 2.4,
+    "f0_range_st": 7.94
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "To visit my mother in San Antonio.",
+    "tts_text": "To visit my mother in San Antonio.",
+    "seed": 9945,
+    "hyp": "to visit my mother in san antonio",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.9,
+    "dur": 1.8,
+    "raw_peak": 0.983,
+    "pitch_ok": true,
+    "score": 1.365,
+    "f0_med": 114.2,
+    "f0_st_sd": 3.12,
+    "f0_range_st": 9.75
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "It's her seventieth birthday.",
+    "tts_text": "It's her seventieth birthday.",
+    "seed": 25783,
+    "hyp": "it's her 70th birthday",
+    "ok": false,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.95,
+    "dur": 1.37,
+    "raw_peak": 0.778,
+    "pitch_ok": true,
+    "score": 1.55,
+    "f0_med": 110.9,
+    "f0_st_sd": 7.86,
+    "f0_range_st": 25.29
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adams",
+    "text": "How nice! Did you fill out the request form?",
+    "tts_text": "How nice! Did you fill out the request form?",
+    "seed": 2026,
+    "hyp": "how nice did you fill out the request form",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 2.54,
+    "raw_peak": 0.796,
+    "pitch_ok": true,
+    "score": 1.554,
+    "f0_med": 183.8,
+    "f0_st_sd": 3.79,
+    "f0_range_st": 10.39
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Yes, I've already filled it out.",
+    "tts_text": "Yes, I've already filled it out.",
+    "seed": 2026,
+    "hyp": "yes i've already filled it out",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.65,
+    "raw_peak": 0.814,
+    "pitch_ok": true,
+    "score": 1.097,
+    "f0_med": 105.0,
+    "f0_st_sd": 0.79,
+    "f0_range_st": 2.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Here it is.",
+    "tts_text": "Here it is.",
+    "seed": 9945,
+    "hyp": "here it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.96,
+    "dur": 0.81,
+    "raw_peak": 0.931,
+    "pitch_ok": true,
+    "score": 1.21,
+    "f0_med": 127.0,
+    "f0_st_sd": 1.67,
+    "f0_range_st": 4.79
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adams",
+    "text": "Thanks. Who can cover your shifts?",
+    "tts_text": "Thanks. Who can cover your shifts?",
+    "seed": 9945,
+    "hyp": "thanks who can cover your shifts",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.98,
+    "dur": 2.47,
+    "raw_peak": 0.545,
+    "pitch_ok": true,
+    "score": 1.576,
+    "f0_med": 182.3,
+    "f0_st_sd": 7.53,
+    "f0_range_st": 28.89
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Ana has agreed to cover Thursday and Friday.",
+    "tts_text": "Ana has agreed to cover Thursday and Friday.",
+    "seed": 57459,
+    "hyp": "anna has agreed to cover thursday and friday",
+    "ok": false,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.58,
+    "mean_prob": 0.94,
+    "dur": 2.76,
+    "raw_peak": 0.993,
+    "pitch_ok": true,
+    "score": 1.543,
+    "f0_med": 117.8,
+    "f0_st_sd": 4.2,
+    "f0_range_st": 6.16
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "I'm still looking for someone for Saturday.",
+    "tts_text": "I'm still looking for someone for Saturday.",
+    "seed": 2026,
+    "hyp": "i'm still looking for someone for saturday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.98,
+    "dur": 2.0,
+    "raw_peak": 0.988,
+    "pitch_ok": true,
+    "score": 1.583,
+    "f0_med": 121.6,
+    "f0_st_sd": 4.51,
+    "f0_range_st": 11.71
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adams",
+    "text": "Ask Ben. He doesn't mind working on weekends.",
+    "tts_text": "Ask Ben. He doesn't mind working on weekends.",
+    "seed": 2026,
+    "hyp": "ask ben he doesn't mind working on weekends",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.95,
+    "dur": 2.22,
+    "raw_peak": 0.755,
+    "pitch_ok": true,
+    "score": 1.335,
+    "f0_med": 183.8,
+    "f0_st_sd": 2.57,
+    "f0_range_st": 8.03
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adams",
+    "text": "Then I can approve it.",
+    "tts_text": "Then I can approve it.",
+    "seed": 2026,
+    "hyp": "then i can approve it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.95,
+    "dur": 1.0,
+    "raw_peak": 0.633,
+    "pitch_ok": true,
+    "score": 1.411,
+    "f0_med": 187.1,
+    "f0_st_sd": 3.06,
+    "f0_range_st": 8.76
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Great. Thank you, Ms. Adams.",
+    "tts_text": "Great. Thank you, Ms. Adams.",
+    "seed": 2026,
+    "hyp": "great thank you ms adams",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.89,
+    "dur": 1.81,
+    "raw_peak": 0.966,
+    "pitch_ok": true,
+    "score": 1.49,
+    "f0_med": 105.0,
+    "f0_st_sd": 4.51,
+    "f0_range_st": 14.08
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Hi, Rosa, it's Luis.",
+    "tts_text": "Hi, Rosa, it's Luis.",
+    "seed": 2026,
+    "hyp": "hi rosa it's luis",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.84,
+    "dur": 1.49,
+    "raw_peak": 0.921,
+    "pitch_ok": true,
+    "score": 1.26,
+    "f0_med": 108.4,
+    "f0_st_sd": 2.77,
+    "f0_range_st": 10.55
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "I'm calling to tell you about my trip.",
+    "tts_text": "I'm calling to tell you about my trip.",
+    "seed": 2026,
+    "hyp": "i'm calling to tell you about my trip",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.85,
+    "raw_peak": 0.99,
+    "pitch_ok": true,
+    "score": 1.461,
+    "f0_med": 110.9,
+    "f0_st_sd": 3.18,
+    "f0_range_st": 9.38
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "I'm going to take the bus on Thursday, June fifth.",
+    "tts_text": "I'm going to take the bus on Thursday, June fifth.",
+    "seed": 9945,
+    "hyp": "i'm going to take the bus on thursday june fifth",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.43,
+    "raw_peak": 0.993,
+    "pitch_ok": true,
+    "score": 1.466,
+    "f0_med": 126.3,
+    "f0_st_sd": 3.23,
+    "f0_range_st": 12.4
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "It's bus number forty-two, and it gets to San Antonio at six thirty p.",
+    "tts_text": "It's bus number forty-two, and it gets to San Antonio at six thirty p.",
+    "seed": 17864,
+    "hyp": "it's bus number 42 and it gets to san antonio at 630p",
+    "ok": false,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.95,
+    "dur": 4.07,
+    "raw_peak": 1.033,
+    "pitch_ok": true,
+    "score": 1.551,
+    "f0_med": 119.6,
+    "f0_st_sd": 4.58,
+    "f0_range_st": 11.09
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "m. Can you pick me up at the bus station?",
+    "tts_text": "m. Can you pick me up at the bus station?",
+    "seed": 9945,
+    "hyp": "m can you pick me up at the bus station",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.56,
+    "mean_prob": 0.95,
+    "dur": 1.8,
+    "raw_peak": 0.976,
+    "pitch_ok": true,
+    "score": 1.306,
+    "f0_med": 133.0,
+    "f0_st_sd": 2.4,
+    "f0_range_st": 8.01
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Also, don't forget to bring Mom's birthday card.",
+    "tts_text": "Also, don't forget to bring Mom's birthday card.",
+    "seed": 2026,
+    "hyp": "also don't forget to bring mom's birthday card",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.65,
+    "mean_prob": 0.95,
+    "dur": 2.6,
+    "raw_peak": 0.858,
+    "pitch_ok": true,
+    "score": 1.516,
+    "f0_med": 128.5,
+    "f0_st_sd": 3.79,
+    "f0_range_st": 14.26
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "I want everyone to sign it.",
+    "tts_text": "I want everyone to sign it.",
+    "seed": 2026,
+    "hyp": "i want everyone to sign it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 1.46,
+    "raw_peak": 0.84,
+    "pitch_ok": true,
+    "score": 1.228,
+    "f0_med": 110.3,
+    "f0_st_sd": 1.6,
+    "f0_range_st": 5.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Call me back at five five five, two one four, eight eight three zero. Bye!",
+    "tts_text": "Call me back at five five five, two one four, eight eight three zero. Bye!",
+    "seed": 2026,
+    "hyp": "call me back at 5552148830 bye",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.95,
+    "dur": 3.96,
+    "raw_peak": 0.983,
+    "pitch_ok": true,
+    "score": 1.49,
+    "f0_med": 106.2,
+    "f0_st_sd": 3.57,
+    "f0_range_st": 13.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Hi, Luis! I got your message.",
+    "tts_text": "Hi, Luis! I got your message.",
+    "seed": 41621,
+    "hyp": "hi luis i got your message",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.51,
+    "mean_prob": 0.88,
+    "dur": 2.05,
+    "raw_peak": 0.949,
+    "pitch_ok": true,
+    "score": 1.384,
+    "f0_med": 231.0,
+    "f0_st_sd": 3.38,
+    "f0_range_st": 11.64
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "Yes, I can pick you up at six thirty.",
+    "tts_text": "Yes, I can pick you up at six thirty.",
+    "seed": 25783,
+    "hyp": "yes i can pick you up at 630",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.96,
+    "dur": 2.03,
+    "raw_peak": 0.503,
+    "pitch_ok": true,
+    "score": 1.383,
+    "f0_med": 223.7,
+    "f0_st_sd": 2.81,
+    "f0_range_st": 7.9
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Thanks, Rosa. Mom doesn't know I'm coming, right?",
+    "tts_text": "Thanks, Rosa. Mom doesn't know I'm coming, right?",
+    "seed": 2026,
+    "hyp": "thanks rosa mom doesn't know i'm coming right",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.95,
+    "dur": 2.3,
+    "raw_peak": 1.043,
+    "pitch_ok": true,
+    "score": 1.422,
+    "f0_med": 119.2,
+    "f0_st_sd": 3.18,
+    "f0_range_st": 10.55
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "No, it's a surprise.",
+    "tts_text": "No, it's a surprise.",
+    "seed": 2026,
+    "hyp": "no it's a surprise",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.66,
+    "raw_peak": 0.401,
+    "pitch_ok": true,
+    "score": 1.515,
+    "f0_med": 221.2,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 11.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "She's going to be so happy.",
+    "tts_text": "She's going to be so happy.",
+    "seed": 2026,
+    "hyp": "she's going to be so happy",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 2.35,
+    "raw_peak": 0.437,
+    "pitch_ok": true,
+    "score": 1.319,
+    "f0_med": 225.0,
+    "f0_st_sd": 2.24,
+    "f0_range_st": 8.14
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Rosa",
+    "text": "I enjoy planning surprises!",
+    "tts_text": "I enjoy planning surprises!",
+    "seed": 2026,
+    "hyp": "i enjoy planning surprises",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 2.55,
+    "raw_peak": 0.662,
+    "pitch_ok": true,
+    "score": 1.415,
+    "f0_med": 221.2,
+    "f0_st_sd": 2.89,
+    "f0_range_st": 9.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Me too. See you on Thursday!",
+    "tts_text": "Me too. See you on Thursday!",
+    "seed": 2026,
+    "hyp": "me too see you on thursday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.72,
+    "raw_peak": 0.776,
+    "pitch_ok": true,
+    "score": 1.566,
+    "f0_med": 131.1,
+    "f0_st_sd": 4.31,
+    "f0_range_st": 14.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   8.42,
+   12.21,
+   "Luis",
+   "Ms. Adams, do you have a minute? I'd like to ask for some time off."
+  ],
+  [
+   13.51,
+   15.63,
+   "Ms. Adams",
+   "Sure, Luis. When do you want to take it?"
+  ],
+  [
+   16.93,
+   22.29,
+   "Luis",
+   "Next month, from Thursday, June fifth, to Saturday, June seventh. That's three days."
+  ],
+  [
+   23.59,
+   25.07,
+   "Ms. Adams",
+   "And why are you taking time off?"
+  ],
+  [
+   26.37,
+   30.09,
+   "Luis",
+   "To visit my mother in San Antonio. It's her seventieth birthday."
+  ],
+  [
+   31.39,
+   33.93,
+   "Ms. Adams",
+   "How nice! Did you fill out the request form?"
+  ],
+  [
+   35.23,
+   38.24,
+   "Luis",
+   "Yes, I've already filled it out. Here it is."
+  ],
+  [
+   39.54,
+   42.01,
+   "Ms. Adams",
+   "Thanks. Who can cover your shifts?"
+  ],
+  [
+   43.31,
+   48.62,
+   "Luis",
+   "Ana has agreed to cover Thursday and Friday. I'm still looking for someone for Saturday."
+  ],
+  [
+   49.92,
+   53.69,
+   "Ms. Adams",
+   "Ask Ben. He doesn't mind working on weekends. Then I can approve it."
+  ],
+  [
+   54.99,
+   56.8,
+   "Luis",
+   "Great. Thank you, Ms. Adams."
+  ],
+  [
+   57.55,
+   81.06,
+   "Luis",
+   "Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm going to take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!"
+  ],
+  [
+   82.36,
+   86.99,
+   "Rosa",
+   "Hi, Luis! I got your message. Yes, I can pick you up at six thirty."
+  ],
+  [
+   88.29,
+   90.59,
+   "Luis",
+   "Thanks, Rosa. Mom doesn't know I'm coming, right?"
+  ],
+  [
+   91.89,
+   99.55,
+   "Rosa",
+   "No, it's a surprise. She's going to be so happy. I enjoy planning surprises!"
+  ],
+  [
+   100.85,
+   102.57,
+   "Luis",
+   "Me too. See you on Thursday!"
+  ]
+ ]
+}

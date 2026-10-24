@@ -1,0 +1,160 @@
+{
+ "duration_s": 105.99,
+ "duration": "1:46",
+ "length_ok": true,
+ "small_whole_file_wer": 0.0207,
+ "small_whole_file_errors": "5/242",
+ "small_whole_file_diffs": [
+  {
+   "op": "replace",
+   "ref": "luis",
+   "hyp": "louise",
+   "ctx": "some time off sure luis when do you want"
+  },
+  {
+   "op": "replace",
+   "ref": "seventieth",
+   "hyp": "70th",
+   "ctx": "san antonio it's her seventieth birthday how nice did"
+  },
+  {
+   "op": "replace",
+   "ref": "ana",
+   "hyp": "anna",
+   "ctx": "can cover your shifts ana has agreed to cover"
+  },
+  {
+   "op": "replace",
+   "ref": "630 p",
+   "hyp": "630p",
+   "ctx": "to san antonio at 630 p m can you pick"
+  }
+ ],
+ "small_lines_ok": "11/16",
+ "small_line_problems": [
+  {
+   "t": 8.42,
+   "spk": "Luis",
+   "line": "Ms. Adams, do you have a minute? I'd like to ask for some time off.",
+   "hyp": "miss adams do you have a minute i'd like to ask for some time off",
+   "flags": []
+  },
+  {
+   "t": 13.51,
+   "spk": "Ms. Adams",
+   "line": "Sure, Luis. When do you want to take it?",
+   "hyp": "sure louise when do you want to take it",
+   "flags": []
+  },
+  {
+   "t": 26.37,
+   "spk": "Luis",
+   "line": "To visit my mother in San Antonio. It's her seventieth birthday.",
+   "hyp": "to visit my mother in san antonio it's her 70th birthday",
+   "flags": []
+  },
+  {
+   "t": 43.31,
+   "spk": "Luis",
+   "line": "Ana has agreed to cover Thursday and Friday. I'm still looking for someone for Saturday.",
+   "hyp": "anna has agreed to cover thursday and friday i'm still looking for someone for saturday",
+   "flags": []
+  },
+  {
+   "t": 57.55,
+   "spk": "Luis",
+   "line": "Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm going to take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!",
+   "hyp": "hi rosa it's luis i'm calling to tell you about my trip i'm going to take the bus on thursday june fifth it's bus number 42 and it gets to san antonio at 630p m can you pick me up at the bus station also don't forget to bring mom's birthday card i want everyone to sign it call me back at 5552148830 bye",
+   "flags": [
+    "HF whine 200ms"
+   ]
+  }
+ ],
+ "medium_per_line": {
+  "wer": 0.017,
+  "errors": 4,
+  "words": 242,
+  "exact": "14/18"
+ },
+ "medium_differences": [
+  "('Ms. Adams', 'Sure, Luis. When do you want to take it?', 'sure louise when do you want to take it')",
+  "('Luis', \"To visit my mother in San Antonio. It's her seventieth birthday.\", \"to visit my mother in san antonio it's her 70th birthday\")",
+  "('Luis', \"Ana has agreed to cover Thursday and Friday. I'm still looking for someone for Saturday.\", \"anna has agreed to cover thursday and friday i'm still looking for someone for saturday\")",
+  "('Luis', \"Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm going to take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!\", \"hi rosa it's luis i'm calling to tell you about my trip i'm going to take the bus on thursday june fifth it's bus number 42 and it gets to san antonio at 630 p em can you pick me up at the bus station also don't forget to bring mom's birthday card i want everyone to sign it call me back at 5552148830 bye\")"
+ ],
+ "pitch_median_hz": {
+  "Luis": 116.5,
+  "Ms. Adams": 191.4,
+  "Rosa": 227.1,
+  "Narrator": 198.8
+ },
+ "pitch_problems": [],
+ "clipped_samples": 0,
+ "peak": 0.89,
+ "loudness_lufs": -16.8,
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "gaps_ok": true,
+ "noisy_pauses": [],
+ "failed_sentences": [
+  "Next month, from Thursday, June fifth, to Saturday, June seventh.",
+  "It's her seventieth birthday.",
+  "Ana has agreed to cover Thursday and Friday.",
+  "It's bus number forty-two, and it gets to San Antonio at six thirty p."
+ ],
+ "sentences": 35,
+ "takes_tried": 110,
+ "lines_wrong_in_both_checkers": [
+  {
+   "t": 13.51,
+   "spk": "Ms. Adams",
+   "line": "Sure, Luis. When do you want to take it?",
+   "hyp": "sure louise when do you want to take it",
+   "flags": []
+  },
+  {
+   "t": 26.37,
+   "spk": "Luis",
+   "line": "To visit my mother in San Antonio. It's her seventieth birthday.",
+   "hyp": "to visit my mother in san antonio it's her 70th birthday",
+   "flags": []
+  },
+  {
+   "t": 43.31,
+   "spk": "Luis",
+   "line": "Ana has agreed to cover Thursday and Friday. I'm still looking for someone for Saturday.",
+   "hyp": "anna has agreed to cover thursday and friday i'm still looking for someone for saturday",
+   "flags": []
+  },
+  {
+   "t": 57.55,
+   "spk": "Luis",
+   "line": "Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm going to take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!",
+   "hyp": "hi rosa it's luis i'm calling to tell you about my trip i'm going to take the bus on thursday june fifth it's bus number 42 and it gets to san antonio at 630p m can you pick me up at the bus station also don't forget to bring mom's birthday card i want everyone to sign it call me back at 5552148830 bye",
+   "flags": [
+    "HF whine 200ms"
+   ]
+  }
+ ],
+ "single_checker_misses_or_flags_ignored": {
+  "small": [
+   {
+    "t": 8.42,
+    "spk": "Luis",
+    "line": "Ms. Adams, do you have a minute? I'd like to ask for some time off.",
+    "hyp": "miss adams do you have a minute i'd like to ask for some time off",
+    "flags": []
+   }
+  ],
+  "medium": [
+   "('Ms. Adams', 'Sure, Luis. When do you want to take it?', 'sure louise when do you want to take it')",
+   "('Luis', \"To visit my mother in San Antonio. It's her seventieth birthday.\", \"to visit my mother in san antonio it's her 70th birthday\")",
+   "('Luis', \"Ana has agreed to cover Thursday and Friday. I'm still looking for someone for Saturday.\", \"anna has agreed to cover thursday and friday i'm still looking for someone for saturday\")",
+   "('Luis', \"Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm going to take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty p.m. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!\", \"hi rosa it's luis i'm calling to tell you about my trip i'm going to take the bus on thursday june fifth it's bus number 42 and it gets to san antonio at 630 p em can you pick me up at the bus station also don't forget to bring mom's birthday card i want everyone to sign it call me back at 5552148830 bye\")"
+  ]
+ },
+ "rule": "line bad only if small.en AND medium.en both mishear it; pitch, clipping, length, gaps, FAILED still gate",
+ "PASS": false
+}
