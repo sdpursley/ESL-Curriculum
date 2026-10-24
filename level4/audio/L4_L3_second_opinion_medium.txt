@@ -1,0 +1,2 @@
+medium.en per-line WER 0.004 (1/248), 21/22 lines exact
+   ('Kim', 'Thank you, Ms Rivera. I will see you tomorrow.', 'thank you miss rivera i will see you tomorrow')
