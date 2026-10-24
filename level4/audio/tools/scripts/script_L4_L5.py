@@ -5,7 +5,7 @@ LESSON = 5
 TITLE = 'Would You Mind…?'
 VOICES = {'Narrator': 'N', 'Patricia': 'Kim', 'Mr. Wilson': 'Carlos', 'Omar': 'Sam'}
 FEMALE = {'Narrator', 'Patricia'}
-NAMES = {'wilson', 'patricia', 'lina', 'omar'}
+NAMES = {'wilson', 'lena', 'patricia', 'omar'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
 INTRO = 'Lesson five. Patricia is going away for a week. First, she talks to her neighbor, Mr. Wilson.'
@@ -15,16 +15,16 @@ LINES = [
  ('Patricia', "I'm going to be away next week. I'm visiting my sister. Would you mind getting my mail?"),
  ('Mr. Wilson', "No, not at all. I'm home all week."),
  ('Patricia', 'Thank you! And would you mind watering my plants? Just two times, on Tuesday and Friday.'),
- ('Mr. Wilson', 'No problem. Where will the key be?'),
+ ('Mr. Wilson', 'That is no problem. Where are you going to leave the key?'),
  ('Patricia', "I'm going to give you my spare key tonight. Oh, and would you mind feeding my cat, too?"),
  ('Mr. Wilson', "Sure, I'll do it. I love cats. Do you mind if I put your packages inside, too?"),
  ('Patricia', "No, go ahead. That's very kind."),
  ('Mr. Wilson', "Have a good trip. Don't worry about anything."),
- ('Narrator', 'The next day, at work, Patricia talks to her coworker, Omar.'),
+ ('Narrator', 'The next day at work, Patricia talks with Omar.'),
  ('Omar', 'Hey, Patricia. Would you mind covering my Saturday shift? My son has a soccer game.'),
  ('Patricia', "Oh, I'm sorry, I can't. I'll be away on Saturday. I want to help, but I can't."),
  ('Omar', 'Oh, right. You told me.'),
- ('Patricia', "Why don't you ask Lina? She wants more hours this month."),
+ ('Patricia', "Why don't you ask Lena? She wants more hours this month."),
  ('Omar', 'Good idea. Do you mind if I tell her you suggested it?'),
  ('Patricia', 'No, not at all. But ask the supervisor first, OK?'),
  ('Omar', 'Sure. Thanks, Patricia. I owe you one.'),

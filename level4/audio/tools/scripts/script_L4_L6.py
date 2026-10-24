@@ -4,18 +4,18 @@
 LESSON = 6
 TITLE = 'What Would You Do?'
 VOICES = {'Narrator': 'N', 'Mike': 'Server', 'Grace': 'Ana_af_jessica', 'Teresa': 'Rosa'}
-FEMALE = {'Grace', 'Teresa', 'Narrator'}
-NAMES = {'grace', 'teresa', 'mike'}
+FEMALE = {'Grace', 'Narrator', 'Teresa'}
+NAMES = {'teresa', 'grace', 'mike'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
-INTRO = 'Lesson six. This is a radio show called What Would You Do? Mike is the host. Two people call the show.'
+INTRO = 'This is a radio show called What Would You Do? Mike is the host. Two people call the show.'
 LINES = [
  ('Mike', "Good afternoon, and welcome to What Would You Do? Here's today's situation. You buy groceries, and the cashier gives you ten dollars too much change. You see it in the parking lot. What would you do?"),
  ('Mike', 'Our first caller is Grace. Hi, Grace!'),
  ('Grace', "Hi, Mike. If that happened to me, I'd go back inside and give the money back."),
  ('Mike', 'Really? Why would you go back?'),
  ('Grace', 'Because the cashier made a mistake. If I kept the money, she would have a problem at the end of her shift.'),
- ('Mike', "That's very honest. Thanks, Grace. Our next caller is Teresa. Teresa, what would you do?"),
+ ('Mike', 'That is a very honest answer. Thanks, Grace. Our next caller is Teresa. Teresa, what would you do?'),
  ('Teresa', 'Well, Mike, this really happened to me once. A cashier gave me twenty dollars too much.'),
  ('Mike', 'Really? What did you do?'),
  ('Teresa', "I gave it back the next day. I was in a hurry, so I couldn't go back that day."),

@@ -121,7 +121,7 @@
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
 - **"Hear it, say it" (3 min):** Point to the script lines. *gonna* = going to: "I'm **going to** be away next week." *wanna* = want to: "I **want to** help, but I can't." Then practice *Would you mind…?* and *Do you mind if I…?* said smoothly, with a friendly rise. The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:48), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **No recording yet:** read the script aloud with a volunteer (about 1:49), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -166,7 +166,7 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:48 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:49 when recorded; the conversation plays once, so press play again for the second listen)
 
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
@@ -176,16 +176,16 @@
 > **Patricia:** I'm going to be away next week. I'm visiting my sister. Would you mind getting my mail?
 > **Mr. Wilson:** No, not at all. I'm home all week.
 > **Patricia:** Thank you! And would you mind watering my plants? Just two times, on Tuesday and Friday.
-> **Mr. Wilson:** No problem. Where will the key be?
+> **Mr. Wilson:** That is no problem. Where are you going to leave the key?
 > **Patricia:** I'm going to give you my spare key tonight. Oh, and would you mind feeding my cat, too?
 > **Mr. Wilson:** Sure, I'll do it. I love cats. Do you mind if I put your packages inside, too?
 > **Patricia:** No, go ahead. That's very kind.
 > **Mr. Wilson:** Have a good trip. Don't worry about anything.
-> **Narrator:** The next day, at work, Patricia talks to her coworker, Omar.
+> **Narrator:** The next day at work, Patricia talks with Omar.
 > **Omar:** Hey, Patricia. Would you mind covering my Saturday shift? My son has a soccer game.
 > **Patricia:** Oh, I'm sorry, I can't. I'll be away on Saturday. I want to help, but I can't.
 > **Omar:** Oh, right. You told me.
-> **Patricia:** Why don't you ask Lina? She wants more hours this month.
+> **Patricia:** Why don't you ask Lena? She wants more hours this month.
 > **Omar:** Good idea. Do you mind if I tell her you suggested it?
 > **Patricia:** No, not at all. But ask the supervisor first, OK?
 > **Omar:** Sure. Thanks, Patricia. I owe you one.
@@ -342,7 +342,7 @@ Name: ______________________________     Date: ________________
 
 | YOU CAN HELP (say *no*!) | YOU CAN'T HELP (be polite) |
 |---|---|
-| *No, not at all.* • *No problem.* • *Sure, I'll do it.* | *Sorry, I can't, because…* + another idea: *Why don't you ask Lina?* |
+| *No, not at all.* • *No problem.* • *Sure, I'll do it.* | *Sorry, I can't, because…* + another idea: *Why don't you ask Lena?* |
 
 ### Grammar Box 4: how polite?
 
@@ -364,7 +364,7 @@ A: After *mind*, use *-ing*: ***Would you mind getting my mail?***
 
 **Q: How do I say no politely?**
 
-A: Say sorry, give a reason, and offer an idea: ***Sorry, I can't. I'll be away. Why don't you ask Lina?***
+A: Say sorry, give a reason, and offer an idea: ***Sorry, I can't. I'll be away. Why don't you ask Lena?***
 
 ---
 ### Practice A: Write the correct form of the verb.

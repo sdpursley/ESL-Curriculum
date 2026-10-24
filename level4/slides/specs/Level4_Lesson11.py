@@ -91,7 +91,7 @@ SLIDES = [
             'Then read Tasks B and C together (1 min) so learners know what to listen for.',
             f'{SRC} (Step 3; Listening Task A; Answer key).']},
  {'kind': 'choice', 'title': 'Listening B', 'instr': ['Listen again.', 'Complete the notes.', 'Circle the answer.'], 'ow': 2.3, 'og': 0.15, 'osz': 14, 'sz': 16,
-  'rows': [('1. Dates: June', ['5 to 7', '15 to 17'], 0), ("2. Reason: his mother's", ['birthday', 'wedding'], 0), ('3. Ana will cover', ['Thursday and Friday', 'Saturday'], 0), ('4. For Saturday, Ms. Adams says to ask', ['Ben', 'Rosa'], 0), ('5. Bus number:', ['42', '24'], 0), ('6. Arrival time:', ['6:30 p.m.', '7:30 p.m.'], 0)],
+  'rows': [('1. Dates: June', ['5 to 7', '15 to 17'], 0), ("2. Reason: his mother's", ['birthday', 'wedding'], 0), ('3. Anna will cover', ['Thursday and Friday', 'Saturday'], 0), ('4. For Saturday, Ms. Adams says to ask', ['Ben', 'Rosa'], 0), ('5. Bus number:', ['42', '24'], 0), ('6. Arrival time:', ['6:30 p.m.', '7:30 p.m.'], 0)],
   'notes': ['Play 2 → Tasks B and C. Pairs compare. Then show the answers.',
             'Click to circle each answer (one click per item, 1 to 6): 1 5 to 7 • 2 birthday • 3 Thursday and Friday • 4 Ben • 5 42 • 6 6:30 p.m..',
             f'{SRC} (Step 3; Listening Task B; Answer key).']},

@@ -49,7 +49,7 @@ L['steps'] = [
   'item 1: *you / mind / feed / my cat? → Would you mind feeding my cat?*'),
 ]
 L['listen'] = dict(title='Would You Mind…?', voices={'Narrator': 'N', 'Patricia': 'Kim', 'Mr. Wilson': 'Carlos', 'Omar': 'Sam'},
- female=['Narrator', 'Patricia'], names=['Patricia', 'Wilson', 'Omar', 'Lina'], tts={},
+ female=['Narrator', 'Patricia'], names=['Patricia', 'Wilson', 'Omar', 'Lena'], tts={},
  setting='Patricia is going away for a week. First, she asks her older neighbor, Mr. Wilson, for some favors. The next day at work, her coworker Omar asks her for a favor.',
  intro='Lesson five. Patricia is going away for a week. First, she talks to her neighbor, Mr. Wilson.',
  lines=[
@@ -58,16 +58,16 @@ L['listen'] = dict(title='Would You Mind…?', voices={'Narrator': 'N', 'Patrici
   ('Patricia', 'I\'m going to be away next week. I\'m visiting my sister. Would you mind getting my mail?'),
   ('Mr. Wilson', 'No, not at all. I\'m home all week.'),
   ('Patricia', 'Thank you! And would you mind watering my plants? Just two times, on Tuesday and Friday.'),
-  ('Mr. Wilson', 'No problem. Where will the key be?'),
+  ('Mr. Wilson', 'That is no problem. Where are you going to leave the key?'),
   ('Patricia', 'I\'m going to give you my spare key tonight. Oh, and would you mind feeding my cat, too?'),
   ('Mr. Wilson', 'Sure, I\'ll do it. I love cats. Do you mind if I put your packages inside, too?'),
   ('Patricia', 'No, go ahead. That\'s very kind.'),
   ('Mr. Wilson', 'Have a good trip. Don\'t worry about anything.'),
-  ('Narrator', 'The next day, at work, Patricia talks to her coworker, Omar.'),
+  ('Narrator', 'The next day at work, Patricia talks with Omar.'),
   ('Omar', 'Hey, Patricia. Would you mind covering my Saturday shift? My son has a soccer game.'),
   ('Patricia', 'Oh, I\'m sorry, I can\'t. I\'ll be away on Saturday. I want to help, but I can\'t.'),
   ('Omar', 'Oh, right. You told me.'),
-  ('Patricia', 'Why don\'t you ask Lina? She wants more hours this month.'),
+  ('Patricia', 'Why don\'t you ask Lena? She wants more hours this month.'),
   ('Omar', 'Good idea. Do you mind if I tell her you suggested it?'),
   ('Patricia', 'No, not at all. But ask the supervisor first, OK?'),
   ('Omar', 'Sure. Thanks, Patricia. I owe you one.'),
@@ -113,7 +113,7 @@ explain='''
 
 | YOU CAN HELP (say *no*!) | YOU CAN'T HELP (be polite) |
 |---|---|
-| *No, not at all.* • *No problem.* • *Sure, I'll do it.* | *Sorry, I can't, because…* + another idea: *Why don't you ask Lina?* |
+| *No, not at all.* • *No problem.* • *Sure, I'll do it.* | *Sorry, I can't, because…* + another idea: *Why don't you ask Lena?* |
 
 ### Grammar Box 4: how polite?
 
@@ -125,7 +125,7 @@ explain='''
 ''',
 qa=[('Someone asks *Would you mind helping me?* I want to help. Do I say *yes*?', 'No! Say ***No, not at all.*** *Mind* asks "Is it a problem?" *No* = no problem.'),
  ('*Would you mind to get* or *Would you mind getting*?', 'After *mind*, use *-ing*: ***Would you mind getting my mail?***'),
- ('How do I say no politely?', 'Say sorry, give a reason, and offer an idea: ***Sorry, I can\'t. I\'ll be away. Why don\'t you ask Lina?***')],
+ ('How do I say no politely?', 'Say sorry, give a reason, and offer an idea: ***Sorry, I can\'t. I\'ll be away. Why don\'t you ask Lena?***')],
 A=dict(head='Write the correct form of the verb.', items=['Would you mind [watering] my plants? (water)', 'Do you mind if I [open] the window? (open)',
  'Would you mind [feeding] the cat on Sunday? (feed)', 'Would you mind [switching] shifts with me? (switch)', 'Do you mind if I [borrow] your ladder? (borrow)',
  'Would you mind [getting] my packages? (get)']),

@@ -31,7 +31,7 @@ L['steps'] = [
  step2('*opinion* (what you think); *agree* (thumbs-up) and *disagree* (thumbs-down, with a smile); *I see your point* (I understand you); *community meeting*; *empty lot* (land with nothing on it); *community garden*, *parking lot*, *playground*; *survey* (questions for many people); *vote* (raise your hand); *advantage* (a plus) and *disadvantage* (a minus).',
   'ask "Is an empty lot full or empty?" (empty) • "If you agree, do you say *That\'s true* or *That\'s wrong*?" (*That\'s true*) • "Is a survey for one person or many people?" (many people).',
   'In my opinion, we need a playground.'),
- step3('Neighbors are at a community meeting. Mrs. Okafor is the leader. Ray and Lin give their opinions about the empty lot on Cedar Street. Listen: what are they deciding?',
+ step3('Neighbors are at a community meeting. Mrs. Okafor is the leader. Ray and Lynn give their opinions about the empty lot on Cedar Street. Listen: what are they deciding?',
   'Point to the script lines. *wanna* = want to: "Tonight we **want to** talk about the empty lot." *gonna* = going to: "Who\'s **going to** take care of it?" Then practice *I see your POINT, but…* (the voice goes down on *point*, then a short pause) and the stress in *It isn\'t as EXpensive*.', '{EST}'),
  step4('*opinions; agree and disagree politely; as … as*', 'say, "In my opinion, summer is the best season." Ask a learner, "Do you agree?" Model two answers: a thumbs-up, "**I agree.** That\'s true," and a smile, "**I see your point, but** I like fall." Write: *something positive first, then* but. Then draw two prices: "A garden is $2,000. A parking lot is $20,000. A garden **isn\'t as expensive as** a parking lot."',
   'Box 1: read across: *What do you think about the empty lot? → I think we need a playground.* Box 2: agreeing and disagreeing politely. Box 3: *as … as / not as … as*. Box 4: the words in an opinion paragraph.',
@@ -48,23 +48,23 @@ L['steps'] = [
  step7('Which is better for an empty lot: a playground or a parking lot?', 'In my opinion, a playground is better. Kids need a safe place to play because the park is far. I see the other point, but parking isn\'t as important as kids.',
   'item 1: *playground / important / parking (as … as) → A playground is as important as parking.*'),
 ]
-L['listen'] = dict(title='I See Your Point', voices={'Narrator': 'N', 'Mrs. Okafor': 'Kim', 'Ray': 'Sam', 'Lin': 'Ana_af_jessica'},
- female=['Narrator', 'Mrs. Okafor', 'Lin'], names=['Okafor', 'Ray', 'Lin', 'Cedar'], tts={},
- setting='A short neighborhood meeting. The leader, Mrs. Okafor, asks for opinions about the empty lot on Cedar Street. Ray and Lin give their opinions.',
+L['listen'] = dict(title='I See Your Point', voices={'Narrator': 'N', 'Mrs. Okafor': 'Kim', 'Ray': 'Sam', 'Lynn': 'Ana_af_jessica'},
+ female=['Narrator', 'Mrs. Okafor', 'Lynn'], names=['Okafor', 'Ray', 'Lynn', 'Cedar'], tts={},
+ setting='A short neighborhood meeting. The leader, Mrs. Okafor, asks for opinions about the empty lot on Cedar Street. Ray and Lynn give their opinions.',
  intro='Lesson nine. Neighbors are at a community meeting. They are talking about the empty lot on Cedar Street.',
  lines=[
-  ('Mrs. Okafor', 'Good evening, everyone. Thank you for coming. Tonight we want to talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?'),
+  ('Mrs. Okafor', 'Good evening, everyone, and welcome. Thank you for coming. Tonight we want to talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?'),
   ('Ray', 'Thanks, Mrs. Okafor. In my opinion, we need a parking lot. There aren\'t enough parking spaces on our street. I drive around for twenty minutes every night.'),
-  ('Mrs. Okafor', 'That\'s true. Parking is a big problem. Lin, how do you feel about it?'),
-  ('Lin', 'I see your point, Ray, but I\'m not sure I agree. I think a community garden is a better idea.'),
+  ('Mrs. Okafor', 'Yes, the parking problem is serious. Lynn, how do you feel about it?'),
+  ('Lynn', 'I see your point, Ray, but I\'m not sure I agree. I think a community garden is a better idea.'),
   ('Ray', 'A garden? Why?'),
-  ('Lin', 'First, a garden isn\'t as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.'),
+  ('Lynn', 'First, a garden isn\'t as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.'),
   ('Ray', 'That\'s a good idea, but a garden is a lot of work. Who\'s going to take care of it?'),
-  ('Lin', 'I\'d help, and I think many neighbors would help too.'),
+  ('Lynn', 'I\'d help, and I think many neighbors would help too.'),
   ('Mrs. Okafor', 'Ray, do you agree with that?'),
   ('Ray', 'Well, I agree that a garden is nice. But for me, parking is as important as a garden.'),
   ('Mrs. Okafor', 'OK. Those are two good ideas. Let\'s do a survey. We\'ll ask every neighbor on Cedar Street.'),
-  ('Lin', 'I agree. That\'s fair.'),
+  ('Lynn', 'I agree. That\'s fair.'),
   ('Ray', 'Yes, that\'s a good plan. I\'ll help with the survey.'),
   ('Mrs. Okafor', 'Great. We\'ll vote at the next meeting, on May twelfth. Thank you, everyone.'),
  ],
@@ -72,8 +72,8 @@ L['listen'] = dict(title='I See Your Point', voices={'Narrator': 'N', 'Mrs. Okaf
  B=dict(head='Match the person, the opinion, and the reason. Circle the answer.', kind='choice', items=[
   dict(s='Ray wants {{*a parking lot|a community garden}}.', ev='In my opinion, we need a parking lot.'),
   dict(s='Ray\'s reason: there {{*aren\'t enough parking spaces|are too many trees}} on the street.', ev='There aren\'t enough parking spaces on our street.'),
-  dict(s='Lin wants {{a parking lot|*a community garden}}.', ev='I think a community garden is a better idea.'),
-  dict(s='Lin\'s first reason: a garden {{*isn\'t as expensive as|is more expensive than}} a parking lot.', ev='First, a garden isn\'t as expensive as a parking lot.'),
+  dict(s='Lynn wants {{a parking lot|*a community garden}}.', ev='I think a community garden is a better idea.'),
+  dict(s='Lynn\'s first reason: a garden {{*isn\'t as expensive as|is more expensive than}} a parking lot.', ev='First, a garden isn\'t as expensive as a parking lot.'),
   dict(s='Ray\'s question: who\'s going to {{*take care of it|pay for it}}?', ev='take care of it'),
   dict(s='The plan: they will {{*do a survey|build the garden}}.', ev='Let\'s do a survey.'),
  ]),
@@ -98,7 +98,7 @@ L['grammar'] = dict(boxes='''
 | QUESTION | < | ‖ | ANSWER | < |
 |---|---|---|---|---|
 | **Do you agree** | with Ray? | ‖ | Yes, **I agree** with him. | **That's true.** Parking is a problem. |
-| **Do you agree** | with Lin? | ‖ | **I see your point, but** | a garden is a lot of work. |
+| **Do you agree** | with Lynn? | ‖ | **I see your point, but** | a garden is a lot of work. |
 | **Do you agree** | about the survey? | ‖ | **I'm not sure I agree,** | **because** it takes a long time. |
 ''',
 rule='To disagree politely, say something positive first: ***I see your point, but… / That\'s a good idea, but…*** Say ***I agree*** (not *I am agree*) and ***I don\'t agree*** (not *I am not agree*).',
@@ -126,7 +126,7 @@ qa=[('*I am agree* or *I agree*?', '***I agree.*** *agree* is a verb, so there i
 A=dict(head='Write one word.', items=['I [agree] with you. That\'s true.', 'A garden isn\'t [as] expensive as a parking lot.',
  'What do you [think] about the new bus stop?', 'I see your [point], but I\'m not sure.', 'In my [opinion], we need more trees.',
  'If we [had] a playground, kids would play outside more. (have)']),
-B=dict(head='Circle the correct words.', items=['{{*I agree|I am agree}} with Lin.', 'A playground is as important {{*as|than}} parking.',
+B=dict(head='Circle the correct words.', items=['{{*I agree|I am agree}} with Lynn.', 'A playground is as important {{*as|than}} parking.',
  '{{*That\'s a good idea, but|That\'s wrong, and}} it\'s a lot of work. (polite)', 'How do you {{*feel|think}} about the plan?', 'A garden isn\'t as {{*expensive|more expensive}} as a parking lot.',
  'If we had a garden, families {{*would|will}} grow vegetables.']),
 mistakes=[('I am agree.', 'I **agree**.'), ('I am not agree.', 'I **don\'t** agree.'),

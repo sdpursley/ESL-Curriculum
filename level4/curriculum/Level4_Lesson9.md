@@ -116,7 +116,7 @@
 
 :::step Step 3 · 6:15–6:30 · Listening + "Hear it, say it" · 15 min
 - **Grouping:** individuals, then pairs check. With 5 or fewer, check together as a group.
-- **Before you listen (2 min):** say: "Neighbors are at a community meeting. Mrs. Okafor is the leader. Ray and Lin give their opinions about the empty lot on Cedar Street. Listen: what are they deciding?"
+- **Before you listen (2 min):** say: "Neighbors are at a community meeting. Mrs. Okafor is the leader. Ray and Lynn give their opinions about the empty lot on Cedar Street. Listen: what are they deciding?"
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together.
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
@@ -171,18 +171,18 @@
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson nine. Neighbors are at a community meeting. They are talking about the empty lot on Cedar Street.
-> **Mrs. Okafor:** Good evening, everyone. Thank you for coming. Tonight we want to talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?
+> **Mrs. Okafor:** Good evening, everyone, and welcome. Thank you for coming. Tonight we want to talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?
 > **Ray:** Thanks, Mrs. Okafor. In my opinion, we need a parking lot. There aren't enough parking spaces on our street. I drive around for twenty minutes every night.
-> **Mrs. Okafor:** That's true. Parking is a big problem. Lin, how do you feel about it?
-> **Lin:** I see your point, Ray, but I'm not sure I agree. I think a community garden is a better idea.
+> **Mrs. Okafor:** Yes, the parking problem is serious. Lynn, how do you feel about it?
+> **Lynn:** I see your point, Ray, but I'm not sure I agree. I think a community garden is a better idea.
 > **Ray:** A garden? Why?
-> **Lin:** First, a garden isn't as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.
+> **Lynn:** First, a garden isn't as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.
 > **Ray:** That's a good idea, but a garden is a lot of work. Who's going to take care of it?
-> **Lin:** I'd help, and I think many neighbors would help too.
+> **Lynn:** I'd help, and I think many neighbors would help too.
 > **Mrs. Okafor:** Ray, do you agree with that?
 > **Ray:** Well, I agree that a garden is nice. But for me, parking is as important as a garden.
 > **Mrs. Okafor:** OK. Those are two good ideas. Let's do a survey. We'll ask every neighbor on Cedar Street.
-> **Lin:** I agree. That's fair.
+> **Lynn:** I agree. That's fair.
 > **Ray:** Yes, that's a good plan. I'll help with the survey.
 > **Mrs. Okafor:** Great. We'll vote at the next meeting, on May twelfth. Thank you, everyone.
 > **Narrator:** That's the end of the listening.
@@ -278,7 +278,7 @@ Name: ______________________________     Date: ________________
 ---
 ## Lesson 9 (Week 10) · Listening
 
-*A short neighborhood meeting. The leader, Mrs. Okafor, asks for opinions about the empty lot on Cedar Street. Ray and Lin give their opinions.*
+*A short neighborhood meeting. The leader, Mrs. Okafor, asks for opinions about the empty lot on Cedar Street. Ray and Lynn give their opinions.*
 
 ### A. Listen. What are they deciding? Circle.
 
@@ -288,8 +288,8 @@ Name: ______________________________     Date: ________________
 
 1. Ray wants (**a parking lot** / **a community garden**).
 2. Ray's reason: there (**aren't enough parking spaces** / **are too many trees**) on the street.
-3. Lin wants (**a parking lot** / **a community garden**).
-4. Lin's first reason: a garden (**isn't as expensive as** / **is more expensive than**) a parking lot.
+3. Lynn wants (**a parking lot** / **a community garden**).
+4. Lynn's first reason: a garden (**isn't as expensive as** / **is more expensive than**) a parking lot.
 5. Ray's question: who's going to (**take care of it** / **pay for it**)?
 6. The plan: they will (**do a survey** / **build the garden**).
 
@@ -326,7 +326,7 @@ Name: ______________________________     Date: ________________
 | QUESTION | < | ‖ | ANSWER | < |
 |---|---|---|---|---|
 | **Do you agree** | with Ray? | ‖ | Yes, **I agree** with him. | **That's true.** Parking is a problem. |
-| **Do you agree** | with Lin? | ‖ | **I see your point, but** | a garden is a lot of work. |
+| **Do you agree** | with Lynn? | ‖ | **I see your point, but** | a garden is a lot of work. |
 | **Do you agree** | about the survey? | ‖ | **I'm not sure I agree,** | **because** it takes a long time. |
 
 **Rule of thumb:** To disagree politely, say something positive first: ***I see your point, but… / That's a good idea, but…*** Say ***I agree*** (not *I am agree*) and ***I don't agree*** (not *I am not agree*).
@@ -375,7 +375,7 @@ A: Use *as … as*: ***A garden isn't as expensive as a parking lot.***
 
 ### Practice B: Circle the correct words.
 
-1. (**I agree** / **I am agree**) with Lin.
+1. (**I agree** / **I am agree**) with Lynn.
 2. A playground is as important (**as** / **than**) parking.
 3. (**That's a good idea, but** / **That's wrong, and**) it's a lot of work. (polite)
 4. How do you (**feel** / **think**) about the plan?

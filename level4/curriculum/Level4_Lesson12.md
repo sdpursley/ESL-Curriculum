@@ -173,8 +173,8 @@
 > **Narrator:** Lesson twelve. Mrs. Lopez gets a phone call. Later, she talks to her son, Daniel.
 > **Caller:** Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we're going to turn off your power in one hour.
 > **Mrs. Lopez:** What? My bill is late? I paid it last week.
-> **Caller:** No, ma'am. You owe two hundred dollars. Go to the store and buy gift cards. Then call me back and read me the numbers.
-> **Mrs. Lopez:** Gift cards? That's strange.
+> **Caller:** No. You owe $200. Go to the store and buy gift cards. Then call me back and read me the numbers.
+> **Mrs. Lopez:** Gift cards? That sounds very strange to me.
 > **Caller:** Please hurry. This is your last chance. Don't tell anyone.
 > **Mrs. Lopez:** No, thank you. I'm going to call the number that is on my real bill. Goodbye.
 > **Daniel:** Hi, Mom. You look worried. What's wrong?

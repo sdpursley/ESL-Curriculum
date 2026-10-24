@@ -170,13 +170,13 @@
 
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
-> **Narrator:** Lesson six. This is a radio show called What Would You Do? Mike is the host. Two people call the show.
+> **Narrator:** This is a radio show called What Would You Do? Mike is the host. Two people call the show.
 > **Mike:** Good afternoon, and welcome to What Would You Do? Here's today's situation. You buy groceries, and the cashier gives you ten dollars too much change. You see it in the parking lot. What would you do?
 > **Mike:** Our first caller is Grace. Hi, Grace!
 > **Grace:** Hi, Mike. If that happened to me, I'd go back inside and give the money back.
 > **Mike:** Really? Why would you go back?
 > **Grace:** Because the cashier made a mistake. If I kept the money, she would have a problem at the end of her shift.
-> **Mike:** That's very honest. Thanks, Grace. Our next caller is Teresa. Teresa, what would you do?
+> **Mike:** That is a very honest answer. Thanks, Grace. Our next caller is Teresa. Teresa, what would you do?
 > **Teresa:** Well, Mike, this really happened to me once. A cashier gave me twenty dollars too much.
 > **Mike:** Really? What did you do?
 > **Teresa:** I gave it back the next day. I was in a hurry, so I couldn't go back that day.

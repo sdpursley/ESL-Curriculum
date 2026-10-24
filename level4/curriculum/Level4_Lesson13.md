@@ -122,7 +122,7 @@
 - **Read Tasks B and C together (1 min)** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
 - **"Hear it, say it" (3 min):** Point to the script line. *gonna* = going to: "I'm **going to** take a training class." Then practice the pause at the comma: *When I started, (pause) I couldn't understand the bus driver.* Stress the key words: *NOW I can…, NEXT…* The class repeats the two lines twice.
-- **No recording yet:** read the script aloud with a volunteer (about 1:55), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
+- **No recording yet:** read the script aloud with a volunteer (about 1:57), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -167,16 +167,16 @@
 :::
 
 ---
-### Listening script (not recorded yet; about 1:55 when recorded; the conversation plays once, so press play again for the second listen)
+### Listening script (not recorded yet; about 1:57 when recorded; the conversation plays once, so press play again for the second listen)
 
 > **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson thirteen. Mariana was a learner at this school. Now she is giving a short talk at graduation. Then her old teacher, Mr. Hill, asks her two questions.
-> **Mariana:** Good evening, everyone. My name is Mariana. When I started English classes here, I couldn't understand the bus driver, and I was afraid to talk on the phone.
-> **Mariana:** The first year was hard. I was working at a restaurant at night, and I was always tired. But my classmates helped me, and I made friends.
+> **Mariana:** Good evening, everyone. My name is Mariana. When I started English classes here, I couldn't understand the bus driver. I was afraid to use the phone.
+> **Mariana:** The first year was hard. I was working at a restaurant at night, so I came to class tired. But my classmates helped me, and I made friends.
 > **Mariana:** After I finished Level 2, I got a new job at a hotel. Before I started that job, I practiced my interview with my teacher. Last year, I was able to call the clinic by myself for the first time. That was a big milestone for me.
 > **Mariana:** Now I can talk to guests at work, and I help my kids with their homework. I'm more confident.
-> **Mariana:** What's next? After I finish Level 5, I'm going to take a training class to be a front desk manager. My advice to you is simple: come to class, and don't be afraid to make mistakes. Thank you.
+> **Mariana:** What is next for me? After I finish Level 5, I am going to take a training class and become a front desk manager. My advice to you is simple. Come to class, and do not be afraid to make mistakes. Thank you for listening.
 > **Mr. Hill:** Thank you, Mariana. That was wonderful. Can I ask you two questions?
 > **Mariana:** Of course.
 > **Mr. Hill:** What was the biggest challenge for you?

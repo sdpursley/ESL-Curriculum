@@ -4,14 +4,14 @@
 LESSON = 10
 TITLE = 'Turn It Off'
 VOICES = {'Narrator': 'N', 'Sofia': 'Rosa', 'Hana': 'Ana_af_jessica', 'Paul': 'Server'}
-FEMALE = {'Narrator', 'Hana', 'Sofia'}
-NAMES = {'city power', 'sofia', 'paul', 'hana'}
+FEMALE = {'Sofia', 'Hana', 'Narrator'}
+NAMES = {'hana', 'sofia', 'paul', 'city power'}
 SAME = {'okay': 'ok'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [90, 135]}
-INTRO = 'Lesson ten. Two roommates, Sofia and Hana, look at their electric bill. Then Sofia calls the electric company.'
+INTRO = 'Lesson ten. The two roommates look at their power bill. Then Sofia calls the electric company.'
 LINES = [
- ('Sofia', 'Hana, look at this. Our electric bill is one hundred and forty-two dollars this month!'),
- ('Hana', 'What? Last month it was ninety dollars. Why is it so high?'),
+ ('Sofia', 'Hana, look at this. Our power bill is $142 this month!'),
+ ('Hana', 'Last month it was only $90. Why is it so high?'),
  ('Sofia', 'Well, we use too much electricity. The heat is on all day, and the lights are on in empty rooms.'),
  ('Hana', "You're right. I always forget to turn them off. Oh, the TV is on now, and nobody is watching. I'll turn it off."),
  ('Sofia', "OK, let's make a plan. First, we can turn down the heat at night. Sixty-eight degrees is fine."),
