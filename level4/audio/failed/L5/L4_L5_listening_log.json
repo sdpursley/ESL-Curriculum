@@ -1,0 +1,1037 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Patricia": "refs/Kim.wav",
+   "Mr. Wilson": "refs/Carlos.wav",
+   "Omar": "refs/Sam.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson five. Patricia is going away for a week.",
+    "tts_text": "Lesson five. Patricia is going away for a week.",
+    "seed": 2026,
+    "hyp": "lesson 5 patricia is going away for a week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.98,
+    "dur": 3.38,
+    "raw_peak": 0.518,
+    "pitch_ok": true,
+    "score": 1.576,
+    "f0_med": 198.8,
+    "f0_st_sd": 5.3,
+    "f0_range_st": 16.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "First, she talks to her neighbor, Mr. Wilson.",
+    "tts_text": "First, she talks to her neighbor, Mr. Wilson.",
+    "seed": 2026,
+    "hyp": "first she talks to her neighbor mr wilson",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 2.69,
+    "raw_peak": 0.634,
+    "pitch_ok": true,
+    "score": 1.574,
+    "f0_med": 210.0,
+    "f0_st_sd": 4.12,
+    "f0_range_st": 12.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "Hi, Mr. Wilson.",
+    "tts_text": "Hi, Mr. Wilson.",
+    "seed": 49540,
+    "hyp": "hi mr wilson",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.89,
+    "dur": 1.27,
+    "raw_peak": 0.259,
+    "pitch_ok": true,
+    "score": 1.493,
+    "f0_med": 194.8,
+    "f0_st_sd": 4.03,
+    "f0_range_st": 13.15
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "Could I ask you a favor?",
+    "tts_text": "Could I ask you a favor?",
+    "seed": 2026,
+    "hyp": "could i ask you a favor",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.43,
+    "raw_peak": 0.251,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 171.5,
+    "f0_st_sd": 6.86,
+    "f0_range_st": 18.35
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Wilson",
+    "text": "Of course, Patricia.",
+    "tts_text": "Of course, Patricia.",
+    "seed": 9945,
+    "hyp": "of course patricia",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.94,
+    "dur": 1.51,
+    "raw_peak": 0.379,
+    "pitch_ok": true,
+    "score": 1.359,
+    "f0_med": 138.5,
+    "f0_st_sd": 2.8,
+    "f0_range_st": 8.23
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Wilson",
+    "text": "What is it?",
+    "tts_text": "What is it?",
+    "seed": 17864,
+    "hyp": "what is it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 0.9,
+    "raw_peak": 0.324,
+    "pitch_ok": true,
+    "score": 1.551,
+    "f0_med": 125.9,
+    "f0_st_sd": 4.38,
+    "f0_range_st": 12.57
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "I'm going to be away next week.",
+    "tts_text": "I'm going to be away next week.",
+    "seed": 17864,
+    "hyp": "i'm going to be away next week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 1.72,
+    "raw_peak": 0.33,
+    "pitch_ok": true,
+    "score": 1.595,
+    "f0_med": 195.3,
+    "f0_st_sd": 5.73,
+    "f0_range_st": 19.03
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "I'm visiting my sister.",
+    "tts_text": "I'm visiting my sister.",
+    "seed": 2026,
+    "hyp": "i'm visiting my sister",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 1.73,
+    "raw_peak": 0.239,
+    "pitch_ok": true,
+    "score": 1.584,
+    "f0_med": 194.8,
+    "f0_st_sd": 4.39,
+    "f0_range_st": 13.26
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "Would you mind getting my mail?",
+    "tts_text": "Would you mind getting my mail?",
+    "seed": 2026,
+    "hyp": "would you mind getting my mail",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.64,
+    "raw_peak": 0.257,
+    "pitch_ok": true,
+    "score": 1.581,
+    "f0_med": 199.9,
+    "f0_st_sd": 4.77,
+    "f0_range_st": 14.97
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Wilson",
+    "text": "No, not at all.",
+    "tts_text": "No, not at all.",
+    "seed": 9945,
+    "hyp": "no not at all",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 1.35,
+    "raw_peak": 0.494,
+    "pitch_ok": true,
+    "score": 1.561,
+    "f0_med": 133.0,
+    "f0_st_sd": 3.99,
+    "f0_range_st": 13.42
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Wilson",
+    "text": "I'm home all week.",
+    "tts_text": "I'm home all week.",
+    "seed": 9945,
+    "hyp": "i'm home all week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.97,
+    "dur": 1.4,
+    "raw_peak": 0.363,
+    "pitch_ok": true,
+    "score": 1.419,
+    "f0_med": 145.1,
+    "f0_st_sd": 2.99,
+    "f0_range_st": 10.37
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "Thank you! And would you mind watering my plants?",
+    "tts_text": "Thank you! And would you mind watering my plants?",
+    "seed": 41621,
+    "hyp": "thank you and would you mind watering my plants",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.98,
+    "dur": 2.75,
+    "raw_peak": 0.298,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 186.0,
+    "f0_st_sd": 4.05,
+    "f0_range_st": 13.82
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "Just two times, on Tuesday and Friday.",
+    "tts_text": "Just two times, on Tuesday and Friday.",
+    "seed": 73297,
+    "hyp": "just 2 times on tuesday and friday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.91,
+    "dur": 2.88,
+    "raw_peak": 0.354,
+    "pitch_ok": true,
+    "score": 1.505,
+    "f0_med": 188.1,
+    "f0_st_sd": 5.9,
+    "f0_range_st": 23.7
+   },
+   "tries": 10,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Wilson",
+    "text": "No problem. Where will the key be?",
+    "tts_text": "No problem. Where will the key be?",
+    "seed": 17864,
+    "hyp": "no problem where will the key be",
+    "ok": false,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 2.07,
+    "raw_peak": 0.402,
+    "pitch_ok": false,
+    "score": 1.584,
+    "f0_med": 161.9,
+    "f0_st_sd": 4.83,
+    "f0_range_st": 16.1
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "I'm going to give you my spare key tonight.",
+    "tts_text": "I'm going to give you my spare key tonight.",
+    "seed": 17864,
+    "hyp": "i'm going to give you my spare key tonight",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 0.99,
+    "dur": 2.6,
+    "raw_peak": 0.393,
+    "pitch_ok": true,
+    "score": 1.463,
+    "f0_med": 179.6,
+    "f0_st_sd": 3.13,
+    "f0_range_st": 9.66
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "Oh, and would you mind feeding my cat, too?",
+    "tts_text": "Oh, and would you mind feeding my cat, too?",
+    "seed": 2026,
+    "hyp": "oh and would you mind feeding my cat too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.95,
+    "dur": 2.44,
+    "raw_peak": 0.365,
+    "pitch_ok": true,
+    "score": 1.487,
+    "f0_med": 191.4,
+    "f0_st_sd": 3.6,
+    "f0_range_st": 13.67
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Wilson",
+    "text": "Sure, I'll do it.",
+    "tts_text": "Sure, I'll do it.",
+    "seed": 9945,
+    "hyp": "sure i'll do it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.29,
+    "raw_peak": 0.416,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 147.2,
+    "f0_st_sd": 6.39,
+    "f0_range_st": 20.81
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Wilson",
+    "text": "I love cats.",
+    "tts_text": "I love cats.",
+    "seed": 2026,
+    "hyp": "i love cats",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.93,
+    "dur": 1.36,
+    "raw_peak": 0.32,
+    "pitch_ok": true,
+    "score": 1.387,
+    "f0_med": 124.5,
+    "f0_st_sd": 3.06,
+    "f0_range_st": 9.21
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Wilson",
+    "text": "Do you mind if I put your packages inside, too?",
+    "tts_text": "Do you mind if I put your packages inside, too?",
+    "seed": 2026,
+    "hyp": "do you mind if i put your packages inside too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.96,
+    "dur": 2.55,
+    "raw_peak": 0.401,
+    "pitch_ok": true,
+    "score": 1.501,
+    "f0_med": 147.6,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 11.97
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "No, go ahead.",
+    "tts_text": "No, go ahead.",
+    "seed": 9945,
+    "hyp": "no go ahead",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.97,
+    "dur": 1.63,
+    "raw_peak": 0.389,
+    "pitch_ok": true,
+    "score": 1.406,
+    "f0_med": 209.4,
+    "f0_st_sd": 2.91,
+    "f0_range_st": 8.59
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "That's very kind.",
+    "tts_text": "That's very kind.",
+    "seed": 2026,
+    "hyp": "that's very kind",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.96,
+    "dur": 1.84,
+    "raw_peak": 0.278,
+    "pitch_ok": true,
+    "score": 1.428,
+    "f0_med": 182.8,
+    "f0_st_sd": 3.09,
+    "f0_range_st": 8.59
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Wilson",
+    "text": "Have a good trip.",
+    "tts_text": "Have a good trip.",
+    "seed": 9945,
+    "hyp": "have a good trip",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 0.91,
+    "raw_peak": 0.339,
+    "pitch_ok": true,
+    "score": 1.5,
+    "f0_med": 147.6,
+    "f0_st_sd": 3.47,
+    "f0_range_st": 12.07
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Wilson",
+    "text": "Don't worry about anything.",
+    "tts_text": "Don't worry about anything.",
+    "seed": 49540,
+    "hyp": "don't worry about anything",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.69,
+    "raw_peak": 0.46,
+    "pitch_ok": true,
+    "score": 1.434,
+    "f0_med": 148.5,
+    "f0_st_sd": 3.02,
+    "f0_range_st": 10.89
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "The next day, at work, Patricia talks to her coworker, Omar.",
+    "tts_text": "The next day, at work, Patricia talks to her coworker, Omar.",
+    "seed": 81216,
+    "hyp": "the next day at work patricia talks to her co worker omar",
+    "ok": false,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.95,
+    "dur": 3.73,
+    "raw_peak": 0.679,
+    "pitch_ok": true,
+    "score": 1.55,
+    "f0_med": 215.5,
+    "f0_st_sd": 4.46,
+    "f0_range_st": 13.87
+   },
+   "tries": 16,
+   "passing": 0,
+   "FAILED": true
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "Hey, Patricia. Would you mind covering my Saturday shift?",
+    "tts_text": "Hey, Patricia. Would you mind covering my Saturday shift?",
+    "seed": 2026,
+    "hyp": "hey patricia would you mind covering my saturday shift",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.96,
+    "dur": 3.06,
+    "raw_peak": 0.474,
+    "pitch_ok": true,
+    "score": 1.311,
+    "f0_med": 141.8,
+    "f0_st_sd": 2.34,
+    "f0_range_st": 7.16
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "My son has a soccer game.",
+    "tts_text": "My son has a soccer game.",
+    "seed": 2026,
+    "hyp": "my son has a soccer game",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.96,
+    "dur": 1.48,
+    "raw_peak": 0.603,
+    "pitch_ok": true,
+    "score": 1.555,
+    "f0_med": 116.8,
+    "f0_st_sd": 3.99,
+    "f0_range_st": 11.48
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "Oh, I'm sorry, I can't.",
+    "tts_text": "Oh, I'm sorry, I can't.",
+    "seed": 9945,
+    "hyp": "oh i'm sorry i can't",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.96,
+    "dur": 1.98,
+    "raw_peak": 0.28,
+    "pitch_ok": true,
+    "score": 1.542,
+    "f0_med": 177.6,
+    "f0_st_sd": 3.86,
+    "f0_range_st": 11.65
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "I'll be away on Saturday.",
+    "tts_text": "I'll be away on Saturday.",
+    "seed": 2026,
+    "hyp": "i'll be away on saturday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 0.99,
+    "dur": 1.54,
+    "raw_peak": 0.341,
+    "pitch_ok": true,
+    "score": 1.37,
+    "f0_med": 165.7,
+    "f0_st_sd": 2.52,
+    "f0_range_st": 7.64
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "I want to help, but I can't.",
+    "tts_text": "I want to help, but I can't.",
+    "seed": 17864,
+    "hyp": "i want to help but i can't",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.25,
+    "raw_peak": 0.254,
+    "pitch_ok": true,
+    "score": 1.585,
+    "f0_med": 199.3,
+    "f0_st_sd": 6.23,
+    "f0_range_st": 26.07
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "Oh, right. You told me.",
+    "tts_text": "Oh, right. You told me.",
+    "seed": 17864,
+    "hyp": "oh right you told me",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.96,
+    "dur": 1.39,
+    "raw_peak": 0.404,
+    "pitch_ok": true,
+    "score": 1.493,
+    "f0_med": 113.2,
+    "f0_st_sd": 3.55,
+    "f0_range_st": 10.31
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "Why don't you ask Lina?",
+    "tts_text": "Why don't you ask Lina?",
+    "seed": 17864,
+    "hyp": "why don't you ask lina",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.86,
+    "dur": 1.56,
+    "raw_peak": 0.346,
+    "pitch_ok": true,
+    "score": 1.436,
+    "f0_med": 223.7,
+    "f0_st_sd": 3.83,
+    "f0_range_st": 12.87
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "She wants more hours this month.",
+    "tts_text": "She wants more hours this month.",
+    "seed": 9945,
+    "hyp": "she wants more hours this month",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 2.33,
+    "raw_peak": 0.303,
+    "pitch_ok": true,
+    "score": 1.589,
+    "f0_med": 165.7,
+    "f0_st_sd": 5.9,
+    "f0_range_st": 23.01
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "Good idea. Do you mind if I tell her you suggested it?",
+    "tts_text": "Good idea. Do you mind if I tell her you suggested it?",
+    "seed": 9945,
+    "hyp": "good idea do you mind if i tell her you suggested it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 3.32,
+    "raw_peak": 0.55,
+    "pitch_ok": true,
+    "score": 1.574,
+    "f0_med": 139.3,
+    "f0_st_sd": 4.04,
+    "f0_range_st": 13.5
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "No, not at all.",
+    "tts_text": "No, not at all.",
+    "seed": 2026,
+    "hyp": "no not at all",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.402,
+    "pitch_ok": true,
+    "score": 1.317,
+    "f0_med": 176.6,
+    "f0_st_sd": 2.3,
+    "f0_range_st": 6.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "But ask the supervisor first, OK?",
+    "tts_text": "But ask the supervisor first, OK?",
+    "seed": 9945,
+    "hyp": "but ask the supervisor first ok",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.91,
+    "dur": 2.36,
+    "raw_peak": 0.379,
+    "pitch_ok": true,
+    "score": 1.423,
+    "f0_med": 188.1,
+    "f0_st_sd": 3.43,
+    "f0_range_st": 12.48
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "Sure. Thanks, Patricia.",
+    "tts_text": "Sure. Thanks, Patricia.",
+    "seed": 2026,
+    "hyp": "sure thanks patricia",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.93,
+    "dur": 1.65,
+    "raw_peak": 0.647,
+    "pitch_ok": true,
+    "score": 1.311,
+    "f0_med": 145.6,
+    "f0_st_sd": 2.55,
+    "f0_range_st": 5.74
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Omar",
+    "text": "I owe you one.",
+    "tts_text": "I owe you one.",
+    "seed": 2026,
+    "hyp": "i owe you 1",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.96,
+    "dur": 1.1,
+    "raw_peak": 0.443,
+    "pitch_ok": true,
+    "score": 1.508,
+    "f0_med": 109.6,
+    "f0_st_sd": 3.65,
+    "f0_range_st": 11.06
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Patricia",
+    "text": "You're welcome. Good luck with the game!",
+    "tts_text": "You're welcome. Good luck with the game!",
+    "seed": 2026,
+    "hyp": "you're welcome good luck with the game",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 2.34,
+    "raw_peak": 0.385,
+    "pitch_ok": true,
+    "score": 1.588,
+    "f0_med": 225.0,
+    "f0_st_sd": 4.54,
+    "f0_range_st": 14.01
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   8.72,
+   11.97,
+   "Patricia",
+   "Hi, Mr. Wilson. Could I ask you a favor?"
+  ],
+  [
+   13.27,
+   16.23,
+   "Mr. Wilson",
+   "Of course, Patricia. What is it?"
+  ],
+  [
+   17.53,
+   23.72,
+   "Patricia",
+   "I'm going to be away next week. I'm visiting my sister. Would you mind getting my mail?"
+  ],
+  [
+   25.02,
+   28.32,
+   "Mr. Wilson",
+   "No, not at all. I'm home all week."
+  ],
+  [
+   29.62,
+   35.8,
+   "Patricia",
+   "Thank you! And would you mind watering my plants? Just two times, on Tuesday and Friday."
+  ],
+  [
+   37.1,
+   39.17,
+   "Mr. Wilson",
+   "No problem. Where will the key be?"
+  ],
+  [
+   40.47,
+   46.06,
+   "Patricia",
+   "I'm going to give you my spare key tonight. Oh, and would you mind feeding my cat, too?"
+  ],
+  [
+   47.36,
+   53.66,
+   "Mr. Wilson",
+   "Sure, I'll do it. I love cats. Do you mind if I put your packages inside, too?"
+  ],
+  [
+   54.96,
+   58.98,
+   "Patricia",
+   "No, go ahead. That's very kind."
+  ],
+  [
+   60.28,
+   63.43,
+   "Mr. Wilson",
+   "Have a good trip. Don't worry about anything."
+  ],
+  [
+   64.73,
+   68.46,
+   "Narrator",
+   "The next day, at work, Patricia talks to her coworker, Omar."
+  ],
+  [
+   69.76,
+   74.85,
+   "Omar",
+   "Hey, Patricia. Would you mind covering my Saturday shift? My son has a soccer game."
+  ],
+  [
+   76.15,
+   83.02,
+   "Patricia",
+   "Oh, I'm sorry, I can't. I'll be away on Saturday. I want to help, but I can't."
+  ],
+  [
+   84.32,
+   85.71,
+   "Omar",
+   "Oh, right. You told me."
+  ],
+  [
+   87.01,
+   91.45,
+   "Patricia",
+   "Why don't you ask Lina? She wants more hours this month."
+  ],
+  [
+   92.75,
+   96.07,
+   "Omar",
+   "Good idea. Do you mind if I tell her you suggested it?"
+  ],
+  [
+   97.37,
+   101.7,
+   "Patricia",
+   "No, not at all. But ask the supervisor first, OK?"
+  ],
+  [
+   103.0,
+   106.3,
+   "Omar",
+   "Sure. Thanks, Patricia. I owe you one."
+  ],
+  [
+   107.6,
+   109.94,
+   "Patricia",
+   "You're welcome. Good luck with the game!"
+  ]
+ ]
+}

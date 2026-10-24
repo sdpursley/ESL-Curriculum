@@ -1,0 +1,107 @@
+{
+ "duration_s": 113.36,
+ "duration": "1:53",
+ "length_ok": true,
+ "small_whole_file_wer": 0.013,
+ "small_whole_file_errors": "3/230",
+ "small_whole_file_diffs": [
+  {
+   "op": "replace",
+   "ref": "coworker",
+   "hyp": "co worker",
+   "ctx": "patricia talks to her coworker omar hey patricia would"
+  },
+  {
+   "op": "replace",
+   "ref": "lina",
+   "hyp": "lena",
+   "ctx": "why don't you ask lina she wants more hours"
+  }
+ ],
+ "small_lines_ok": "17/19",
+ "small_line_problems": [
+  {
+   "t": 64.73,
+   "spk": "Narrator",
+   "line": "The next day, at work, Patricia talks to her coworker, Omar.",
+   "hyp": "the next day at work patricia talks to her co worker omar",
+   "flags": []
+  },
+  {
+   "t": 87.01,
+   "spk": "Patricia",
+   "line": "Why don't you ask Lina? She wants more hours this month.",
+   "hyp": "why don't you ask lena she wants more hours this month",
+   "flags": []
+  }
+ ],
+ "medium_per_line": {
+  "wer": 0.004,
+  "errors": 1,
+  "words": 230,
+  "exact": "20/21"
+ },
+ "medium_differences": [
+  "('Patricia', \"Why don't you ask Lina? She wants more hours this month.\", \"why don't you ask lena she wants more hours this month\")"
+ ],
+ "pitch_median_hz": {
+  "Patricia": 188.1,
+  "Mr. Wilson": 146.3,
+  "Narrator": 208.1,
+  "Omar": 126.9
+ },
+ "pitch_problems": [
+  {
+   "t": 37.1,
+   "spk": "Mr. Wilson",
+   "f0": 161.0,
+   "line": "No problem. Where will the key be?"
+  }
+ ],
+ "clipped_samples": 0,
+ "peak": 0.874,
+ "loudness_lufs": -16.6,
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "gaps_ok": true,
+ "noisy_pauses": [
+  [
+   66.19,
+   66.6,
+   -54.0
+  ]
+ ],
+ "failed_sentences": [
+  "No problem. Where will the key be?",
+  "The next day, at work, Patricia talks to her coworker, Omar."
+ ],
+ "sentences": 39,
+ "takes_tried": 117,
+ "lines_wrong_in_both_checkers": [
+  {
+   "t": 87.01,
+   "spk": "Patricia",
+   "line": "Why don't you ask Lina? She wants more hours this month.",
+   "hyp": "why don't you ask lena she wants more hours this month",
+   "flags": []
+  }
+ ],
+ "single_checker_misses_or_flags_ignored": {
+  "small": [
+   {
+    "t": 64.73,
+    "spk": "Narrator",
+    "line": "The next day, at work, Patricia talks to her coworker, Omar.",
+    "hyp": "the next day at work patricia talks to her co worker omar",
+    "flags": []
+   }
+  ],
+  "medium": [
+   "('Patricia', \"Why don't you ask Lina? She wants more hours this month.\", \"why don't you ask lena she wants more hours this month\")"
+  ]
+ },
+ "rule": "line bad only if small.en AND medium.en both mishear it; pitch, clipping, length, gaps, FAILED still gate",
+ "PASS": false
+}

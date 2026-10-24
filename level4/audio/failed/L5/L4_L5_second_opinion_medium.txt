@@ -1,0 +1,2 @@
+medium.en per-line WER 0.004 (1/230), 20/21 lines exact
+   ('Patricia', "Why don't you ask Lina? She wants more hours this month.", "why don't you ask lena she wants more hours this month")
