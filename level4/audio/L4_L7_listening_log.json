@@ -1,0 +1,954 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Nadia": "refs/Ana_af_jessica.wav",
+   "Carmen": "refs/Rosa.wav",
+   "Mr. Brooks": "refs/Carlos.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson seven. It's Nadia's first week at a bakery.",
+    "tts_text": "Lesson seven. It's Nadia's first week at a bakery.",
+    "seed": 2026,
+    "hyp": "lesson 7 it's nadia's first week at a bakery",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.95,
+    "dur": 3.21,
+    "raw_peak": 0.668,
+    "pitch_ok": true,
+    "score": 1.521,
+    "f0_med": 190.9,
+    "f0_st_sd": 3.8,
+    "f0_range_st": 11.83
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "She asks her coworker, Carmen, some questions.",
+    "tts_text": "She asks her coworker, Carmen, some questions.",
+    "seed": 41621,
+    "hyp": "she asks her coworker carmen some questions",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.95,
+    "dur": 2.83,
+    "raw_peak": 0.765,
+    "pitch_ok": true,
+    "score": 1.397,
+    "f0_med": 186.5,
+    "f0_st_sd": 2.96,
+    "f0_range_st": 9.35
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "Carmen, can I ask you a few questions?",
+    "tts_text": "Carmen, can I ask you a few questions?",
+    "seed": 9945,
+    "hyp": "carmen can i ask you a few questions",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.98,
+    "dur": 2.25,
+    "raw_peak": 0.534,
+    "pitch_ok": true,
+    "score": 1.576,
+    "f0_med": 291.8,
+    "f0_st_sd": 4.22,
+    "f0_range_st": 14.8
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "I'm still learning the rules.",
+    "tts_text": "I'm still learning the rules.",
+    "seed": 2026,
+    "hyp": "i'm still learning the rules",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.73,
+    "raw_peak": 0.759,
+    "pitch_ok": true,
+    "score": 1.588,
+    "f0_med": 189.2,
+    "f0_st_sd": 4.78,
+    "f0_range_st": 13.99
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Sure, Nadia. What do you want to know?",
+    "tts_text": "Sure, Nadia. What do you want to know?",
+    "seed": 2026,
+    "hyp": "sure nadia what do you want to know",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.93,
+    "dur": 2.41,
+    "raw_peak": 0.416,
+    "pitch_ok": true,
+    "score": 1.533,
+    "f0_med": 277.1,
+    "f0_st_sd": 4.27,
+    "f0_range_st": 12.59
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "My shift starts at seven.",
+    "tts_text": "My shift starts at seven.",
+    "seed": 2026,
+    "hyp": "my shift starts at 7",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.86,
+    "dur": 1.64,
+    "raw_peak": 0.709,
+    "pitch_ok": true,
+    "score": 1.338,
+    "f0_med": 213.0,
+    "f0_st_sd": 3.21,
+    "f0_range_st": 9.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "Is six fifty-five early enough?",
+    "tts_text": "Is six fifty-five early enough?",
+    "seed": 2026,
+    "hyp": "is 655 early enough",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.83,
+    "dur": 1.82,
+    "raw_peak": 0.501,
+    "pitch_ok": true,
+    "score": 1.333,
+    "f0_med": 223.7,
+    "f0_st_sd": 3.35,
+    "f0_range_st": 9.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Yes, that's perfect.",
+    "tts_text": "Yes, that's perfect.",
+    "seed": 2026,
+    "hyp": "yes that's perfect",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.33,
+    "raw_peak": 0.593,
+    "pitch_ok": true,
+    "score": 1.244,
+    "f0_med": 257.0,
+    "f0_st_sd": 1.79,
+    "f0_range_st": 6.03
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Here, on time means five minutes early.",
+    "tts_text": "Here, on time means five minutes early.",
+    "seed": 9945,
+    "hyp": "here on time means 5 minutes early",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.71,
+    "mean_prob": 0.91,
+    "dur": 2.71,
+    "raw_peak": 0.644,
+    "pitch_ok": true,
+    "score": 1.325,
+    "f0_med": 219.9,
+    "f0_st_sd": 2.75,
+    "f0_range_st": 8.6
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Seven ten is too late.",
+    "tts_text": "Seven ten is too late.",
+    "seed": 2026,
+    "hyp": "710 is too late",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.88,
+    "dur": 2.35,
+    "raw_peak": 0.504,
+    "pitch_ok": true,
+    "score": 1.235,
+    "f0_med": 221.2,
+    "f0_st_sd": 2.34,
+    "f0_range_st": 7.53
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "OK. And what about the uniform?",
+    "tts_text": "OK. And what about the uniform?",
+    "seed": 2026,
+    "hyp": "ok and what about the uniform",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.63,
+    "mean_prob": 0.92,
+    "dur": 2.72,
+    "raw_peak": 0.692,
+    "pitch_ok": true,
+    "score": 1.521,
+    "f0_med": 266.1,
+    "f0_st_sd": 5.83,
+    "f0_range_st": 17.67
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "Do I have to wear the hat?",
+    "tts_text": "Do I have to wear the hat?",
+    "seed": 2026,
+    "hyp": "do i have to wear the hat",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 1.49,
+    "raw_peak": 0.617,
+    "pitch_ok": true,
+    "score": 1.41,
+    "f0_med": 222.5,
+    "f0_st_sd": 2.97,
+    "f0_range_st": 8.91
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Yes, you must wear the hat and the apron in the kitchen.",
+    "tts_text": "Yes, you must wear the hat and the apron in the kitchen.",
+    "seed": 2026,
+    "hyp": "yes you must wear the hat and the apron in the kitchen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 2.78,
+    "raw_peak": 0.786,
+    "pitch_ok": true,
+    "score": 1.258,
+    "f0_med": 193.7,
+    "f0_st_sd": 1.89,
+    "f0_range_st": 5.38
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "But you don't have to wear them in the break room.",
+    "tts_text": "But you don't have to wear them in the break room.",
+    "seed": 2026,
+    "hyp": "but you don't have to wear them in the break room",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.94,
+    "dur": 2.06,
+    "raw_peak": 0.508,
+    "pitch_ok": true,
+    "score": 1.449,
+    "f0_med": 192.0,
+    "f0_st_sd": 3.38,
+    "f0_range_st": 10.81
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "Got it. What about my phone?",
+    "tts_text": "Got it. What about my phone?",
+    "seed": 2026,
+    "hyp": "got it what about my phone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.97,
+    "dur": 1.99,
+    "raw_peak": 0.631,
+    "pitch_ok": true,
+    "score": 1.495,
+    "f0_med": 246.1,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 12.62
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "You mustn't use your phone in the kitchen.",
+    "tts_text": "You mustn't use your phone in the kitchen.",
+    "seed": 2026,
+    "hyp": "you mustn't use your phone in the kitchen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 2.32,
+    "raw_peak": 0.493,
+    "pitch_ok": true,
+    "score": 1.36,
+    "f0_med": 198.2,
+    "f0_st_sd": 2.55,
+    "f0_range_st": 8.64
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "You can use it on your break.",
+    "tts_text": "You can use it on your break.",
+    "seed": 25783,
+    "hyp": "you can use it on your break",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.57,
+    "mean_prob": 0.91,
+    "dur": 1.3,
+    "raw_peak": 0.347,
+    "pitch_ok": true,
+    "score": 1.257,
+    "f0_med": 238.4,
+    "f0_st_sd": 2.33,
+    "f0_range_st": 8.47
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "And are these shoes OK? They're new.",
+    "tts_text": "And are these shoes OK? They're new.",
+    "seed": 2026,
+    "hyp": "and are these shoes ok they're new",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.91,
+    "dur": 2.49,
+    "raw_peak": 0.594,
+    "pitch_ok": true,
+    "score": 1.508,
+    "f0_med": 244.0,
+    "f0_st_sd": 4.81,
+    "f0_range_st": 13.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Hmm, those are sandals.",
+    "tts_text": "Hmm, those are sandals.",
+    "seed": 49540,
+    "hyp": "hmm those are sandals",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.93,
+    "dur": 2.05,
+    "raw_peak": 0.529,
+    "pitch_ok": true,
+    "score": 1.402,
+    "f0_med": 217.4,
+    "f0_st_sd": 3.16,
+    "f0_range_st": 10.6
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "They aren't safe enough for the kitchen.",
+    "tts_text": "They aren't safe enough for the kitchen.",
+    "seed": 2026,
+    "hyp": "they aren't safe enough for the kitchen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.98,
+    "dur": 1.66,
+    "raw_peak": 0.664,
+    "pitch_ok": true,
+    "score": 1.577,
+    "f0_med": 234.3,
+    "f0_st_sd": 4.16,
+    "f0_range_st": 12.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Brooks",
+    "text": "Carmen's right. Good morning, Nadia.",
+    "tts_text": "Carmen's right. Good morning, Nadia.",
+    "seed": 41621,
+    "hyp": "carmen's right good morning nadia",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.96,
+    "dur": 2.08,
+    "raw_peak": 0.412,
+    "pitch_ok": true,
+    "score": 1.56,
+    "f0_med": 149.3,
+    "f0_st_sd": 4.99,
+    "f0_range_st": 17.8
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Brooks",
+    "text": "I'm Mr. Brooks, the supervisor.",
+    "tts_text": "I'm Mr. Brooks, the supervisor.",
+    "seed": 9945,
+    "hyp": "i'm mr brooks the supervisor",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.86,
+    "dur": 1.71,
+    "raw_peak": 0.451,
+    "pitch_ok": true,
+    "score": 1.328,
+    "f0_med": 142.6,
+    "f0_st_sd": 3.11,
+    "f0_range_st": 10.13
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Brooks",
+    "text": "You must wear closed-toe shoes.",
+    "tts_text": "You must wear closed-toe shoes.",
+    "seed": 57459,
+    "hyp": "you must wear closed toe shoes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.92,
+    "dur": 2.41,
+    "raw_peak": 0.489,
+    "pitch_ok": true,
+    "score": 1.431,
+    "f0_med": 145.1,
+    "f0_st_sd": 3.42,
+    "f0_range_st": 11.17
+   },
+   "tries": 8,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Brooks",
+    "text": "The trays are too hot, and the floor is sometimes wet.",
+    "tts_text": "The trays are too hot, and the floor is sometimes wet.",
+    "seed": 41621,
+    "hyp": "the trays are too hot and the floor is sometimes wet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.96,
+    "dur": 3.21,
+    "raw_peak": 0.439,
+    "pitch_ok": true,
+    "score": 1.497,
+    "f0_med": 144.2,
+    "f0_st_sd": 3.58,
+    "f0_range_st": 10.89
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "I'm sorry. I didn't know.",
+    "tts_text": "I'm sorry. I didn't know.",
+    "seed": 17864,
+    "hyp": "i'm sorry i didn't know",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 2.02,
+    "raw_peak": 0.851,
+    "pitch_ok": true,
+    "score": 1.436,
+    "f0_med": 211.8,
+    "f0_st_sd": 3.0,
+    "f0_range_st": 7.58
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "I'm going to buy some today.",
+    "tts_text": "I'm going to buy some today.",
+    "seed": 2026,
+    "hyp": "i'm going to buy some today",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 1.0,
+    "dur": 1.42,
+    "raw_peak": 0.701,
+    "pitch_ok": true,
+    "score": 1.355,
+    "f0_med": 186.0,
+    "f0_st_sd": 2.4,
+    "f0_range_st": 8.83
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Brooks",
+    "text": "That's OK. For today, there are extra shoes in the office.",
+    "tts_text": "That's OK. For today, there are extra shoes in the office.",
+    "seed": 81216,
+    "hyp": "that's ok for today there are extra shoes in the office",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.96,
+    "dur": 3.93,
+    "raw_peak": 0.671,
+    "pitch_ok": true,
+    "score": 1.495,
+    "f0_med": 143.4,
+    "f0_st_sd": 3.56,
+    "f0_range_st": 11.82
+   },
+   "tries": 11,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Brooks",
+    "text": "Maybe they're too big, but they're safe.",
+    "tts_text": "Maybe they're too big, but they're safe.",
+    "seed": 9945,
+    "hyp": "maybe they're too big but they're safe",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 2.01,
+    "raw_peak": 0.431,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 149.3,
+    "f0_st_sd": 3.99,
+    "f0_range_st": 11.94
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "Thank you. Is there anything else?",
+    "tts_text": "Thank you. Is there anything else?",
+    "seed": 2026,
+    "hyp": "thank you is there anything else",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.13,
+    "raw_peak": 0.494,
+    "pitch_ok": true,
+    "score": 1.488,
+    "f0_med": 257.8,
+    "f0_st_sd": 3.41,
+    "f0_range_st": 10.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Brooks",
+    "text": "Just one more thing.",
+    "tts_text": "Just one more thing.",
+    "seed": 2026,
+    "hyp": "just 1 more thing",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.94,
+    "dur": 1.3,
+    "raw_peak": 0.393,
+    "pitch_ok": true,
+    "score": 1.541,
+    "f0_med": 144.7,
+    "f0_st_sd": 4.55,
+    "f0_range_st": 13.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Brooks",
+    "text": "If you're going to be late, you must call me before your shift.",
+    "tts_text": "If you're going to be late, you must call me before your shift.",
+    "seed": 81216,
+    "hyp": "if you're going to be late you must call me before your shift",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 3.04,
+    "raw_peak": 0.515,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 149.3,
+    "f0_st_sd": 5.0,
+    "f0_range_st": 16.85
+   },
+   "tries": 11,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Don't worry, Nadia.",
+    "tts_text": "Don't worry, Nadia.",
+    "seed": 2026,
+    "hyp": "don't worry nadia",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.95,
+    "dur": 1.56,
+    "raw_peak": 0.382,
+    "pitch_ok": true,
+    "score": 1.354,
+    "f0_med": 198.2,
+    "f0_st_sd": 2.7,
+    "f0_range_st": 8.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Everyone makes mistakes in the first week.",
+    "tts_text": "Everyone makes mistakes in the first week.",
+    "seed": 41621,
+    "hyp": "everyone makes mistakes in the first week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 2.19,
+    "raw_peak": 0.615,
+    "pitch_ok": true,
+    "score": 1.402,
+    "f0_med": 178.6,
+    "f0_st_sd": 2.85,
+    "f0_range_st": 9.1
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "There's too much to remember!",
+    "tts_text": "There's too much to remember!",
+    "seed": 2026,
+    "hyp": "there's too much to remember",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 1.83,
+    "raw_peak": 0.307,
+    "pitch_ok": true,
+    "score": 1.442,
+    "f0_med": 241.2,
+    "f0_st_sd": 3.03,
+    "f0_range_st": 8.54
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nadia",
+    "text": "That's true. Thanks, both of you.",
+    "tts_text": "That's true. Thanks, both of you.",
+    "seed": 2026,
+    "hyp": "that's true thanks both of you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.17,
+    "raw_peak": 0.534,
+    "pitch_ok": true,
+    "score": 1.583,
+    "f0_med": 295.2,
+    "f0_st_sd": 5.07,
+    "f0_range_st": 15.01
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   8.69,
+   13.22,
+   "Nadia",
+   "Carmen, can I ask you a few questions? I'm still learning the rules."
+  ],
+  [
+   14.52,
+   16.93,
+   "Carmen",
+   "Sure, Nadia. What do you want to know?"
+  ],
+  [
+   18.23,
+   22.24,
+   "Nadia",
+   "My shift starts at seven. Is six fifty-five early enough?"
+  ],
+  [
+   23.54,
+   31.03,
+   "Carmen",
+   "Yes, that's perfect. Here, on time means five minutes early. Seven ten is too late."
+  ],
+  [
+   32.33,
+   37.09,
+   "Nadia",
+   "OK. And what about the uniform? Do I have to wear the hat?"
+  ],
+  [
+   38.39,
+   43.78,
+   "Carmen",
+   "Yes, you must wear the hat and the apron in the kitchen. But you don't have to wear them in the break room."
+  ],
+  [
+   45.08,
+   47.07,
+   "Nadia",
+   "Got it. What about my phone?"
+  ],
+  [
+   48.37,
+   52.54,
+   "Carmen",
+   "You mustn't use your phone in the kitchen. You can use it on your break."
+  ],
+  [
+   53.84,
+   56.33,
+   "Nadia",
+   "And are these shoes OK? They're new."
+  ],
+  [
+   57.63,
+   61.89,
+   "Carmen",
+   "Hmm, those are sandals. They aren't safe enough for the kitchen."
+  ],
+  [
+   63.19,
+   74.25,
+   "Mr. Brooks",
+   "Carmen's right. Good morning, Nadia. I'm Mr. Brooks, the supervisor. You must wear closed-toe shoes. The trays are too hot, and the floor is sometimes wet."
+  ],
+  [
+   75.55,
+   79.54,
+   "Nadia",
+   "I'm sorry. I didn't know. I'm going to buy some today."
+  ],
+  [
+   80.84,
+   87.33,
+   "Mr. Brooks",
+   "That's OK. For today, there are extra shoes in the office. Maybe they're too big, but they're safe."
+  ],
+  [
+   88.63,
+   90.76,
+   "Nadia",
+   "Thank you. Is there anything else?"
+  ],
+  [
+   92.06,
+   96.95,
+   "Mr. Brooks",
+   "Just one more thing. If you're going to be late, you must call me before your shift."
+  ],
+  [
+   98.25,
+   104.93,
+   "Carmen",
+   "Don't worry, Nadia. Everyone makes mistakes in the first week. There's too much to remember!"
+  ],
+  [
+   106.23,
+   108.4,
+   "Nadia",
+   "That's true. Thanks, both of you."
+  ]
+ ]
+}
