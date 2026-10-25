@@ -43,16 +43,16 @@ def render(L):
     # ---------- guide header ----------
     a('<!-- mode: guide -->')
     a(f'# Level 4 Adult ESL Curriculum · {H}: {T}\n')
-    a('**Status:** Draft for review; not published.\n')
+    a('**Status:** Complete lesson (all 13 Level 4 lessons are published).\n')
     a('**Date:** October 2026\n')
     a('**Audience:** Program coordinators and volunteer teachers\n')
-    a(f'**Companion files:** `images/` (12 vocabulary pictures{L.get("act_pics_note","")} + `images/CREDITS.md`). Listening audio: not recorded yet (coming soon); until then, read the listening script in this plan aloud.\n')
+    a(f'**Companion files:** `audio/L4_L{N}_listening.mp3`, `images/` (12 vocabulary pictures{L.get("act_pics_note","")} + `images/CREDITS.md`).\n')
     a(f'> **Topic:** {L["topic"]}\n')
     a('### How this lesson is organized\n')
     a('| Part | What\'s inside | Who uses it |\n|---|---|---|')
     a('| **Teacher Plan** | At a glance, clock-time plan, step-by-step boxes, listening script, answer key, teacher notes | Volunteer teachers |')
     a(f'| **Student Pages** | Opening Talk, New Words, My Words, Listening, Grammar, Talk Time, Homework, Read & Write, Exit Ticket{", Can-Do Self-Check" if L.get("cando") else ""}, Task Words (optional). **Print this part for learners** | Learners |')
-    a('| **Picture Credits** | Picture and license credits | Coordinators |\n')
+    a('| **Picture Credits** | Picture, audio, and license credits | Coordinators |\n')
     a(f'### What Lesson {N} builds on and what it adds\n')
     a(f'| Before (review only) | Where | New in Level 4 Lesson {N} |\n|---|---|---|')
     for b in L['builds']: a('| ' + ' | '.join(b) + ' |')
@@ -69,7 +69,7 @@ def render(L):
     a(f'---\n## {H}: {T}\n\n### At a glance\n')
     a(':::box Objectives: learners can…\n' + bullets(L['objectives']) + '\n:::\n')
     a(':::box Materials\n' + bullets([f'Student Pages for Lesson {N} (print for the number expected + 3 spares)'] + L['materials'] +
-       ['Listening: **no recording yet.** Read the listening script aloud (with a volunteer if you can), at a natural speed, two times.',
+       [f'Listening: phone + small speaker, `L4_L{N}_listening.mp3` (about {{EST}}). No speaker? Read the script aloud with a volunteer.',
         f'**Prep time:** {L["prep"]}.']) + '\n:::\n')
     a(':::box Key vocabulary (with pictures on the New Words page)\n' + stars + ('\n\n' + L['more_vocab'] if L.get('more_vocab') else '') + '\n:::\n')
     # clock plan
@@ -84,8 +84,8 @@ def render(L):
         a(f':::step {st[0]}\n' + bullets(st[1]) + '\n:::\n')
     # script
     est = L['_est']
-    a(f'---\n### Listening script (not recorded yet; about {est} when recorded; the conversation plays once, so press play again for the second listen)\n')
-    a('> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.\n')
+    a(f'---\n### Listening script: `L4_L{N}_listening.mp3` (about {{EST}}; the conversation plays once, so press play again for the second listen)\n')
+    a(f'> **Audio:** play `L4_L{N}_listening.mp3` from a phone + small speaker. No speaker? Read the script with a volunteer, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.\n')
     a(f'> **Narrator:** {S["intro"]}')
     for s, t in S['lines']: a(f'> **{s}:** {t}')
     a("> **Narrator:** That's the end of the listening.\n")
@@ -188,7 +188,7 @@ def render(L):
     # credits
     a('---\n<!-- mode: guide -->\n## Picture Credits\n')
     a(f'Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and {L.get("drawn","signs and labels")} were added. The file-by-file list is in `images/CREDITS.md`.\n')
-    a('Listening audio: not recorded yet. When it is made, it will use synthetic voices made with Chatterbox TTS (Resemble AI, MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0), with no recordings of real people. The names and the story are invented.\n')
+    a('Listening audio: synthetic voices made with Chatterbox TTS (Resemble AI, MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people were used. Each file carries an inaudible Perth watermark marking it as AI-generated. The names and the story are invented.\n')
     a('Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).')
     return '\n'.join(o) + '\n'
 
@@ -224,6 +224,9 @@ if __name__ == '__main__':
     d = sys.argv[1]; N = int(re.search(r'lesson(\d+)', d).group(1))
     L = load(f'{d}/spec_L4_L{N}.py'); assert L['N'] == N
     w, sec = estimate(L); r_ = round(sec); L['_est'] = f'{r_//60}:{r_%60:02d}'
+    gate = os.path.join(os.path.dirname(d), '..', 'audio', f'L4_L{N}_gate.json')
+    if os.path.exists(gate):
+        gs = round(json.load(open(gate))['duration_s']); L['_est'] = f'{gs//60}:{gs%60:02d}'
     md = render(L).replace('{EST}', L['_est']); assert '{EST}' not in md; open(f'{d}/Level4_Lesson{N}.md', 'w').write(md)
     S = L['listen']; os.makedirs(f'{d}/build', exist_ok=True)
     cast = dict(TITLE=S['title'], VOICES=S['voices'], FEMALE=S['female'], NAMES=S.get('names', {}), SAME=S.get('same', {}),

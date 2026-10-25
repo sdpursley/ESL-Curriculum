@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 4 Adult ESL Curriculum · Lesson 13 (Week 14): My Story So Far
 
-**Status:** Draft for review; not published.
+**Status:** Complete lesson (all 13 Level 4 lessons are published).
 
 **Date:** October 2026
 
 **Audience:** Program coordinators and volunteer teachers
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS.md`). Listening audio: not recorded yet (coming soon); until then, read the listening script in this plan aloud.
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS.md`). Audio: `audio/L4_L13_listening.mp3`.
 
 > **Topic:** Personal growth and the graduation talk: learners look back at their own learning (when they started, what was hard, what they can do now) and look forward to the next step. They tell a short story with time clauses (*before / after / when*), past ability (*couldn't / was able to*), and the past continuous. Every story is the learner's choice; "my life in this class" is always enough. All names are invented.
 
@@ -17,7 +17,7 @@
 |---|---|---|
 | **Teacher Plan** | At a glance, clock-time plan, step-by-step boxes, listening script, answer key, teacher notes | Volunteer teachers |
 | **Student Pages** | Opening Talk, New Words, My Words, Listening, Grammar, Talk Time, Homework, Read & Write, Exit Ticket, Task Words (optional). **Print this part for learners** | Learners |
-| **Picture Credits** | Picture and license credits | Coordinators |
+| **Picture Credits** | Picture, audio, and license credits | Coordinators |
 
 ### What Lesson 13 builds on and what it adds
 
@@ -62,7 +62,7 @@
 - A timeline of your own learning on the board (5 events) for the model
 - The feedback cards on the Talk Time page (copy and cut them, optional)
 - A timer (phone)
-- Listening: **no recording yet.** Read the listening script aloud (with a volunteer if you can), at a natural speed, two times.
+- Listening: phone + small speaker, `L4_L13_listening.mp3` (about 1:54). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes (read the plan; practice reading the listening script; write your own 1-minute story to model).
 :::
 
@@ -169,7 +169,7 @@
 ---
 ### Listening script: `L4_L13_listening.mp3` (about 1:54; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
+> **Audio:** play `L4_L13_listening.mp3` from a phone + small speaker. No speaker? Read the script with a volunteer, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson thirteen. Mariana was a learner at this school. Now she is giving a short talk at graduation. Then her old teacher, Mr. Hill, asks her two questions.
 > **Mariana:** Good evening, everyone. My name is Mariana. When I started English classes here, I couldn't understand the bus driver. I was afraid to use the phone.
@@ -559,6 +559,6 @@ Name: ______________________________     Date: ________________
 
 Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS.md`.
 
-Listening audio: not recorded yet. When it is made, it will use synthetic voices made with Chatterbox TTS (Resemble AI, MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0), with no recordings of real people. The names and the story are invented.
+Listening audio: synthetic voices made with Chatterbox TTS (Resemble AI, MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people were used. Each file carries an inaudible Perth watermark marking it as AI-generated. The names and the story are invented.
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

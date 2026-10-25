@@ -7,7 +7,7 @@ PC = pic_credit(MOD); PCS = pic_credit(MOD, True)
 I = lambda stem: f'L4_L1_{stem}.png'
 A = lambda stem: alt(N, I(stem))
 SRC = 'Source: Level4_Lesson1.md'
-LEN = '2:04'
+LEN = '2:05'
 AUDIO = f'Audio: about {LEN}. It plays once.' if CFG['audio'] else f'Audio (about {LEN}): coming soon.'
 BUL = ['Ask and answer Have you ever…?', 'Ask a follow-up in the simple past', 'Tell a classmate about one experience']
 W = newwords(N)

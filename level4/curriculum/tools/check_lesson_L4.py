@@ -1,6 +1,6 @@
 """Lesson checks for a Level 4 lesson (run after the build).  Usage: python check_lesson_L4.py LESSON_DIR_OR_CURRICULUM_DIR N [SCRIPT_DIR] [CREDITS]
 Same checks as Level 3 (check_lesson_L3.py), with the Level 4 support rules:
-- characters: only the Level 3 set (no decorative emoji; the 😀 🙂 😐 faces only); banned words; '© 2026 the authors' and 'Draft for review'
+- characters: only the Level 3 set (no decorative emoji; the 😀 🙂 😐 faces only); banned words; '© 2026 the authors' and the published status line
 - Spanish only inside an optional '> **Contrast tip (optional):**' box on student pages, at most 1 per lesson; no Spanish on instruction lines
 - no instruction icons (no picture outside a table), every linked picture exists and has a CREDITS.md line, 12 New Words pictures
 - My Words page has the 'My language' column; Task Words page (optional) at the back
@@ -8,7 +8,7 @@ Same checks as Level 3 (check_lesson_L3.py), with the Level 4 support rules:
 - clock times: Talk Time 7:00-7:15, Read & Write 7:15-7:25, Exit Ticket 7:25-7:30; Talk Time step lists 15, 7-8 and 5-or-fewer versions
 - grammar Q&A boxes: two-sided, at most 6 rows each
 - listening: 2-3 characters plus the Narrator, script = audio script file, estimated 1:30-2:15, no reductions in the spoken script (gonna / wanna stay in the text tip only),
-  female characters on female clips, no .mp3 link
+  female characters on female clips, and the lesson names its MP3
 - the PDF page count (27-30)"""
 import sys, re, os, json, subprocess, importlib.util
 D = sys.argv[1]; N = sys.argv[2]
@@ -21,7 +21,7 @@ for w in ['Inter' + 'cambio', 'secular', 'church', 'God', 'pray', 'prayer', 'Chr
     if re.search(r'\b' + w + r'\b', md, re.I): bad.append(f'word found: {w}')
 if '© 2026 the authors, licensed under CC BY-NC-SA 4.0' not in md: bad.append('missing © 2026 the authors, CC BY-NC-SA 4.0')
 if re.search(r'\{\{|\}\}|\{[A-Z_]+\}|(?<![!\]])\[[a-z][^\]]*\](?!\()', md): bad.append('leftover spec markup ({{…}}, {EST} or [blank])')
-if '**Status:** Draft for review' not in md: bad.append('missing Draft for review status')
+if '**Status:** Complete lesson (all 13 Level 4 lessons are published).' not in md: bad.append('missing published status')
 mode = None; spanish = []; tips = 0
 for i, s in enumerate(lines):
     m = re.match(r'<!--\s*mode:\s*(\w+)', s)
@@ -65,7 +65,8 @@ for m in re.finditer(r'<!-- subst -->\n((?:\|.*\n)+)', md):
     rows = m.group(1).strip().split('\n')[2:]
     if len(rows) > 6: bad.append(f'grammar box with {len(rows)} rows (max 6)')
     if not all('‖' in r for r in rows): bad.append('grammar box row without the two-sided gap')
-if '.mp3' in md: bad.append('mentions an .mp3 file (no audio exists yet)')
+if f'audio/L4_L{N}_listening.mp3' not in md: bad.append('lesson does not name its listening file')
+if 'not recorded yet' in md or 'coming soon' in md or 'no recording yet' in md: bad.append('lesson still says the audio is not recorded')
 # listening script = audio script
 sec = md[md.index('### Listening script'):md.index('### Answer key')]
 got = [(m.group(1), m.group(2).strip()) for m in re.finditer(r'^> \*\*([^*]+):\*\* (.+)$', sec, re.M)]

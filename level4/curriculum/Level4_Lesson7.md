@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 4 Adult ESL Curriculum · Lesson 7 (Week 7): Too Early or On Time?
 
-**Status:** Draft for review; not published.
+**Status:** Complete lesson (all 13 Level 4 lessons are published).
 
 **Date:** October 2026
 
 **Audience:** Program coordinators and volunteer teachers
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS.md`). Listening audio: not recorded yet (coming soon); until then, read the listening script in this plan aloud.
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS.md`). Audio: `audio/L4_L7_listening.mp3`.
 
 > **Topic:** Expectations at work and in the community: being on time, dress codes and safety rules, invitations (RSVP, what to bring), and comparing customs respectfully. Learners use *too* and *enough*, *too much / too many*, and *must / mustn't / don't have to*. The company, the rules, and the people are invented.
 
@@ -17,7 +17,7 @@
 |---|---|---|
 | **Teacher Plan** | At a glance, clock-time plan, step-by-step boxes, listening script, answer key, teacher notes | Volunteer teachers |
 | **Student Pages** | Opening Talk, New Words, My Words, Listening, Grammar, Talk Time, Homework, Read & Write, Exit Ticket, Task Words (optional). **Print this part for learners** | Learners |
-| **Picture Credits** | Picture and license credits | Coordinators |
+| **Picture Credits** | Picture, audio, and license credits | Coordinators |
 
 ### What Lesson 7 builds on and what it adds
 
@@ -61,7 +61,7 @@
 - Board and markers
 - Customs question cards and the dress code rule card (in the workbook Talk Time pages; copy them onto index cards, optional)
 - A clock or a phone with the time (optional, for the warm-up)
-- Listening: **no recording yet.** Read the listening script aloud (with a volunteer if you can), at a natural speed, two times.
+- Listening: phone + small speaker, `L4_L7_listening.mp3` (about 1:52). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes (read the plan; practice reading the listening script; practice *mustn't* (no first *t*) and *eNOUGH*).
 :::
 
@@ -168,7 +168,7 @@
 ---
 ### Listening script: `L4_L7_listening.mp3` (about 1:52; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
+> **Audio:** play `L4_L7_listening.mp3` from a phone + small speaker. No speaker? Read the script with a volunteer, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson seven. It's Nadia's first week at a bakery. She asks her coworker, Carmen, some questions.
 > **Nadia:** Carmen, can I ask you a few questions? I'm still learning the rules.
@@ -567,6 +567,6 @@ Name: ______________________________     Date: ________________
 
 Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS.md`.
 
-Listening audio: not recorded yet. When it is made, it will use synthetic voices made with Chatterbox TTS (Resemble AI, MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0), with no recordings of real people. The names and the story are invented.
+Listening audio: synthetic voices made with Chatterbox TTS (Resemble AI, MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people were used. Each file carries an inaudible Perth watermark marking it as AI-generated. The names and the story are invented.
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

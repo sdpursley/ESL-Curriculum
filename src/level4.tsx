@@ -23,7 +23,7 @@ const KIND_ICON = { pdf: <FileText />, docx: <FileText />, pptx: <Presentation /
 const firstReady = readyLessons[0]
 /** Lessons without a lesson book yet whose teacher slides are published (slides only: no student pages, PDF/DOCX, or audio yet). */
 const slidesOnly = level4.lessons.filter(l => !l.ready && !!l.slides)
-/** No Level 4 listening audio is recorded yet: until one is, the pages say "audio coming soon" and list no MP3. */
+/** Lessons with an MP3 in the content file show a player. Lessons without one still say the audio is coming soon. */
 const anyAudio = level4.lessons.some(l => !!l.audio)
 const range = (ls: { n: number }[]) => ls.length === 1 ? `Lesson ${ls[0].n}` : `Lessons ${ls[0].n}–${ls[ls.length - 1].n}`
 

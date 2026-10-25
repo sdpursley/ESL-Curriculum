@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 4 Adult ESL Curriculum · Lesson 10 (Week 11): Turn It Off
 
-**Status:** Draft for review; not published.
+**Status:** Complete lesson (all 13 Level 4 lessons are published).
 
 **Date:** October 2026
 
 **Audience:** Program coordinators and volunteer teachers
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS.md`). Listening audio: not recorded yet (coming soon); until then, read the listening script in this plan aloud.
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS.md`). Audio: `audio/L4_L10_listening.mp3`.
 
 > **Topic:** Saving energy and keeping a home safe: reading a utility bill, simple ways to use less electricity and water, locking up, and knowing where the fire extinguisher is. Learners give and follow home tips with separable phrasal verbs and *it / them*. The bill, the company, and the program are invented.
 
@@ -17,7 +17,7 @@
 |---|---|---|
 | **Teacher Plan** | At a glance, clock-time plan, step-by-step boxes, listening script, answer key, teacher notes | Volunteer teachers |
 | **Student Pages** | Opening Talk, New Words, My Words, Listening, Grammar, Talk Time, Homework, Read & Write, Exit Ticket, Task Words (optional). **Print this part for learners** | Learners |
-| **Picture Credits** | Picture and license credits | Coordinators |
+| **Picture Credits** | Picture, audio, and license credits | Coordinators |
 
 ### What Lesson 10 builds on and what it adds
 
@@ -61,7 +61,7 @@
 - Board and markers
 - A light switch, a lamp, or a phone charger to point to (optional)
 - Poster paper or the back of the Talk Time page for Home Tips
-- Listening: **no recording yet.** Read the listening script aloud (with a volunteer if you can), at a natural speed, two times.
+- Listening: phone + small speaker, `L4_L10_listening.mp3` (about 2:07). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes (read the plan; practice reading the listening script; find the light switch and an outlet in the classroom).
 :::
 
@@ -168,7 +168,7 @@
 ---
 ### Listening script: `L4_L10_listening.mp3` (about 2:07; the conversation plays once, so press play again for the second listen)
 
-> **Audio:** the recording is coming soon. Until then, read the script aloud two times, with a volunteer if you can, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
+> **Audio:** play `L4_L10_listening.mp3` from a phone + small speaker. No speaker? Read the script with a volunteer, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson ten. The two roommates look at their power bill. Then Sofia calls the electric company.
 > **Sofia:** Hana, look at this. Our power bill is one forty-two dollars this month!
@@ -562,6 +562,6 @@ Name: ______________________________     Date: ________________
 
 Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS.md`.
 
-Listening audio: not recorded yet. When it is made, it will use synthetic voices made with Chatterbox TTS (Resemble AI, MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0), with no recordings of real people. The names and the story are invented.
+Listening audio: synthetic voices made with Chatterbox TTS (Resemble AI, MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people were used. Each file carries an inaudible Perth watermark marking it as AI-generated. The names and the story are invented.
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

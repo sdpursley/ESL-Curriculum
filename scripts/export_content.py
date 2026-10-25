@@ -96,7 +96,7 @@ LEVELS={
         credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
                 'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and speech bubbles, signs, and labels were added.')),
  # Level 4: the lesson PDF/DOCX are committed next to the Markdown (level4/curriculum/Level4_Lesson<N>.pdf/.docx) and copied into
- # public/level4/downloads/ here (docs=True). No listening audio is recorded yet: level4/audio/ has no MP3, so the pages say "coming soon".
+ # public/level4/downloads/ here (docs=True). Listening MP3s in level4/audio/ are copied into public/level4/audio/.
  4:dict(audio=lambda n:f'L4_L{n}_listening.mp3', audio_re=r'^L4_L\d+_listening\.mp3$',
         routine_end='> **Timing is loose', docs=True,
         credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '

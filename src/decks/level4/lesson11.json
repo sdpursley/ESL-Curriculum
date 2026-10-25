@@ -4480,7 +4480,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Audio (about 1:52): coming soon.",
+          "t": "Audio: about 1:44. It plays once.",
           "sz": 22.0,
           "b": false,
           "i": false,
@@ -4563,7 +4563,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Luis asks his supervisor, Ms. Adams, for time off. Then he leaves a voicemail for his sister, Rosa, and she calls back. Listen: why does he need time off?\"\nThere are 3 people: Luis, Ms. Adams and Rosa. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (about 1:52) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.\nAudio: the listening audio for this lesson (about 1:52) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson eleven. Luis asks his supervisor for time off. Then he leaves a voicemail for his sister.\nLuis: Ms. Adams, do you have a minute? I'd like to ask for some time off.\nMs. Adams: Sure. When do you want to take the time off?\nLuis: Next month, from Thursday the fifth of June to Saturday the seventh of June. That's three days.\nMs. Adams: And why are you taking time off?\nLuis: To visit my mother in San Antonio. She is turning seventy.\nMs. Adams: How nice! Did you fill out the request form?\nLuis: Yes, I've already filled it out. Here it is.\nMs. Adams: Thanks. Who can cover your shifts?\nLuis: Anna has agreed to cover Thursday and Friday. I'm still looking for someone for Saturday.\nMs. Adams: Ask Ben. He doesn't mind working on weekends. Then I can approve it.\nLuis: Great. Thank you, Ms. Adams.\nLuis: Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm going to take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty in the evening. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!\nRosa: Hi, Luis! I got your message. Yes, I can pick you up at six thirty.\nLuis: Thanks, Rosa. Mom doesn't know I'm coming, right?\nRosa: No, it's a surprise. She's going to be so happy. I enjoy planning surprises!\nLuis: Me too. See you on Thursday!\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:15–6:30 · Listening + \"Hear it, say it\" · 15 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (2 min). Say: \"Luis asks his supervisor, Ms. Adams, for time off. Then he leaves a voicemail for his sister, Rosa, and she calls back. Listen: why does he need time off?\"\nThere are 3 people: Luis, Ms. Adams and Rosa. A narrator starts and ends the listening. Each click highlights the next person.\nThe audio (L4_L11_listening.mp3, about 1:44) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.\nNo speaker? Read the script with a volunteer at a natural, friendly speed, two times. The script says going to and want to. People often say gonna and wanna; learners only need to recognize those words.\nAudio: synthetic voices, computer-generated (Chatterbox TTS cloned from Kokoro-82M reference clips). No recordings of real people. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with signs and labels (images/CREDITS.md).",
    "title": "Before You Listen"
   },
   {
@@ -16051,7 +16051,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Audio (coming soon): synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people. Each file will carry an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).",
+          "t": "Audio: synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people were used. Each file carries an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).",
           "sz": 13.5,
           "b": false,
           "i": false,
@@ -16084,7 +16084,7 @@
     }
    ],
    "steps": [],
-   "notes": "Credits. You don't need to read this slide in class.\nPictures: Twemoji graphics by Twitter, Inc. and other contributors, CC BY 4.0; the file-by-file list is in images/CREDITS.md.\nAudio: the listening audio for this lesson (about 1:52) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nCourse materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).\nLesson plan: Picture Credits. Picture list: images/CREDITS.md.",
+   "notes": "Credits. You don't need to read this slide in class.\nPictures: Twemoji graphics by Twitter, Inc. and other contributors, CC BY 4.0; the file-by-file list is in images/CREDITS.md.\nAudio: synthetic voices, computer-generated (Chatterbox TTS cloned from Kokoro-82M reference clips). No recordings of real people. The names and the story are invented.\nCourse materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).\nLesson plan: Picture Credits. Picture list: images/CREDITS.md.",
    "title": "Credits"
   }
  ]

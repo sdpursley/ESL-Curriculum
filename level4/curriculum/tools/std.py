@@ -43,7 +43,7 @@ def step3(before, hear, length, extra=()):
         '**Read Tasks B and C together (1 min)** so learners know what to listen for.',
         '**Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).',
         f'**"Hear it, say it" (3 min):** {hear} The class repeats the two lines twice.',
-        f'**No recording yet:** read the script aloud with a volunteer (about {length}), at a natural speed, two times. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words. When the audio is ready, it plays the conversation once; press play again for play 2. A third play is fine if the class needs it.',
+        f'**The audio plays the conversation once (about {length}).** Press play again for play 2. A third play is fine if the class needs it. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.',
         *extra,
         '**If behind:** do Task C together on the board, reading the lines yourself.'])
 

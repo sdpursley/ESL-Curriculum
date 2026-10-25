@@ -1,7 +1,7 @@
 <!-- mode: guide -->
-# Level 4 Adult ESL Curriculum: Scope and Sequence (Draft for Review)
+# Level 4 Adult ESL Curriculum: Scope and Sequence
 
-**Status:** Plan approved on October 22, 2026, with the decisions in Section 8. The Level 4 lesson books are being built from it as drafts for review (no audio or slides yet). Nothing has been published.
+**Status:** Plan approved on October 22, 2026, with the decisions in Section 8. All 13 lesson books, slide decks, and listening files are published.
 
 **Date:** October 22, 2026
 
