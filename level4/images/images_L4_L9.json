@@ -1,0 +1,134 @@
+[
+ {
+  "file": "L4_L9_opinion.png",
+  "lesson": "Level4-L9",
+  "word": "opinion",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ac",
+   "1f9d1"
+  ],
+  "note": "a person and a speech bubble [sign: I THINK…]"
+ },
+ {
+  "file": "L4_L9_agree.png",
+  "lesson": "Level4-L9",
+  "word": "agree",
+  "kind": "vocab",
+  "twemoji": [
+   "1f44d",
+   "1f9d1"
+  ],
+  "note": "a person and a thumbs-up"
+ },
+ {
+  "file": "L4_L9_disagree.png",
+  "lesson": "Level4-L9",
+  "word": "disagree",
+  "kind": "vocab",
+  "twemoji": [
+   "1f44e",
+   "1f9d1"
+  ],
+  "note": "a person and a thumbs-down"
+ },
+ {
+  "file": "L4_L9_point.png",
+  "lesson": "Level4-L9",
+  "word": "point (I see your point)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f440",
+   "1f4a1"
+  ],
+  "note": "eyes and a light bulb"
+ },
+ {
+  "file": "L4_L9_community_meeting.png",
+  "lesson": "Level4-L9",
+  "word": "community meeting",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1-200d-1f91d-200d-1f9d1",
+   "1fa91"
+  ],
+  "note": "two people holding hands and a chair [sign: MEETING 7 PM]"
+ },
+ {
+  "file": "L4_L9_empty_lot.png",
+  "lesson": "Level4-L9",
+  "word": "empty lot",
+  "kind": "vocab",
+  "twemoji": [
+   "1f33e",
+   "1f6a7"
+  ],
+  "note": "a barrier and tall grass [sign: EMPTY LOT]"
+ },
+ {
+  "file": "L4_L9_community_garden.png",
+  "lesson": "Level4-L9",
+  "word": "community garden",
+  "kind": "vocab",
+  "twemoji": [
+   "1f33b",
+   "1f955"
+  ],
+  "note": "a sunflower and a carrot"
+ },
+ {
+  "file": "L4_L9_parking_lot.png",
+  "lesson": "Level4-L9",
+  "word": "parking lot",
+  "kind": "vocab",
+  "twemoji": [
+   "1f17f",
+   "1f697"
+  ],
+  "note": "a parking sign and a car"
+ },
+ {
+  "file": "L4_L9_playground.png",
+  "lesson": "Level4-L9",
+  "word": "playground",
+  "kind": "vocab",
+  "twemoji": [
+   "1f6dd",
+   "1f9d2"
+  ],
+  "note": "a playground slide and a child"
+ },
+ {
+  "file": "L4_L9_survey.png",
+  "lesson": "Level4-L9",
+  "word": "survey",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "270f"
+  ],
+  "note": "a clipboard and a pencil [sign: SURVEY]"
+ },
+ {
+  "file": "L4_L9_vote.png",
+  "lesson": "Level4-L9",
+  "word": "vote (raise your hand)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f64b",
+   "270b"
+  ],
+  "note": "a person raising a hand and a raised hand"
+ },
+ {
+  "file": "L4_L9_advantage.png",
+  "lesson": "Level4-L9",
+  "word": "advantage / disadvantage",
+  "kind": "vocab",
+  "twemoji": [
+   "2795",
+   "2796"
+  ],
+  "note": "a plus sign and a minus sign"
+ }
+]

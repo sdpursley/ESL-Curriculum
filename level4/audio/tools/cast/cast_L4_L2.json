@@ -1,0 +1,22 @@
+{
+ "TITLE": "How Long Have You Lived Here?",
+ "VOICES": {
+  "Narrator": "N",
+  "Marisol": "Ana_af_jessica",
+  "Mr. Chen": "Carlos"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Marisol"
+ ],
+ "NAMES": [
+  "Marisol",
+  "Chen"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 215,
+  "seconds": 105
+ }
+}

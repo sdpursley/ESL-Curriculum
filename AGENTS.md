@@ -13,27 +13,27 @@ All commands run from the repository root unless a step says `cd`.
 ## 1. Project layout
 
 The repository is a Vite + React + TypeScript website (HashRouter, deployed to GitHub Pages by `.github/workflows/pages.yml`)
-plus the sources and build scripts for three levels of a 5-level adult ESL progression. Levels 4 and 5 are only planned (`Five_Level_Map.md`).
+plus the sources and build scripts for four levels of a 5-level adult ESL progression. Level 5 is only planned (`Five_Level_Map.md`).
 
-| What | Level 1 (beginner) | Level 2 (high beginner) | Level 3 (low intermediate) |
-|---|---|---|---|
-| Lesson text (source) | `level1/curriculum/Level1_Lesson<N>.md` (13 lessons) | `curriculum/Level2_Curriculum_v5_public.md` (one book, 13 lessons + exams) | `level3/curriculum/Level3_Lesson<N>.md` |
-| Plan for the semester | `level1/curriculum/Level1_Scope_and_Sequence.md` (the website reads the lesson list, weeks, semester table, routine here) | inside the book | `level3/curriculum/Level3_Scope_and_Sequence.md` |
-| DOCX + PDF build | `level1/curriculum/build.sh <N> [--publish]` (uses `md2docx_L1.py`) | `curriculum/build.sh` (uses `md2docx.py`, `packets.py`) | `level3/curriculum/build.sh <N> [--publish]` (uses `md2docx_L3.py`) |
-| Exams | `level1/exams/` (Markdown, `images/`, `audio/`, `build/`); build: `level1/exams/build/build_all.sh [--publish]` | cut out of the book by `curriculum/build.sh` into `public/downloads/exams/` | not built yet |
-| Pictures | `level1/images/` (+ `CREDITS.md`); scripts `level1/images/tools/make_images_L1.py`, `make_images_L1_L<N>.py`, helpers `level1/images/tools/lib/` | `public/images/` (+ `CREDITS.md`); scripts `tools/images/` | `level3/images/` (+ `CREDITS.md`); scripts `level3/images/tools/make_images_L3_L<N>.py` |
-| Listening audio | `level1/audio/` (MP3 + check results + READMEs); Lesson 1 scripts `level1/audio/tools/`; Lessons 2–13 and exams use the shared builder `level1/audio/tools/lessons/` | `public/audio/`; scripts `tools/audio/` (`processor.py`, `asr_check*.py`) | `level3/audio/`; scripts `level3/audio/tools/` (`build_L3_L<N>.py`, `check_L3_L<N>.py`, `script_L3_L<N>.py`) |
-| Level 3 drafts (Lessons 2–13, not on the website) | | | `level3/drafts/` (`curriculum/`, `images/`, `audio/`, `audio/tools/`); status `level3/AUDIO_STATUS.md`; see section 7 |
-| Voice reference clips | `tools/audio/samples/refs/*.wav` and `level1/audio/tools/natural/kokoro_refs/af_jessica.wav` (list: `level1/audio/tools/lessons/REFS.md`) | `tools/audio/samples/refs/` | `tools/audio/samples/refs/` |
-| Slide decks (source) | `level1/slides/Level1_Lesson<N>_Slides.pptx` | `public/downloads/slides/Lesson<N>_Slides.pptx` | `level3/slides/Level3_Lesson<N>_Slides.pptx` |
-| Website files (generated, don't edit by hand) | `public/level1/` (images, audio, downloads, downloads/slides, downloads/exams) | `public/images/`, `public/audio/`, `public/downloads/` | `public/level3/` |
-| Website data (generated) | `src/content_level1.json`, `src/decks/level1/lesson<N>.json` | `src/content.json`, `src/sizes.json`, `src/decks/lesson<N>.json` | `src/content_level3.json`, `src/decks/level3/lesson<N>.json` |
-| Page code | `src/level1.tsx` | `src/App.tsx` | `src/level3.tsx` |
+| What | Level 1 (beginner) | Level 2 (high beginner) | Level 3 (low intermediate) | Level 4 (intermediate) |
+|---|---|---|---|---|
+| Lesson text (source) | `level1/curriculum/Level1_Lesson<N>.md` (13 lessons) | `curriculum/Level2_Curriculum_v5_public.md` (one book, 13 lessons + exams) | `level3/curriculum/Level3_Lesson<N>.md` | `level4/curriculum/Level4_Lesson<N>.md` (13 lessons) |
+| Plan for the semester | `level1/curriculum/Level1_Scope_and_Sequence.md` (the website reads the lesson list, weeks, semester table, routine here) | inside the book | `level3/curriculum/Level3_Scope_and_Sequence.md` | `level4/curriculum/Level4_Scope_and_Sequence.md` |
+| DOCX + PDF build | `level1/curriculum/build.sh <N> [--publish]` (uses `md2docx_L1.py`) | `curriculum/build.sh` (uses `md2docx.py`, `packets.py`) | `level3/curriculum/build.sh <N> [--publish]` (uses `md2docx_L3.py`) | `level4/curriculum/tools/build_lesson_L4.sh <N>` (uses `md2docx_L4.py`); the PDF + DOCX are committed next to the Markdown, and `export_content.py` copies them into `public/level4/downloads/` |
+| Exams | `level1/exams/` (Markdown, `images/`, `audio/`, `build/`); build: `level1/exams/build/build_all.sh [--publish]` | cut out of the book by `curriculum/build.sh` into `public/downloads/exams/` | not built yet | not built yet |
+| Pictures | `level1/images/` (+ `CREDITS.md`); scripts `level1/images/tools/make_images_L1.py`, `make_images_L1_L<N>.py`, helpers `level1/images/tools/lib/` | `public/images/` (+ `CREDITS.md`); scripts `tools/images/` | `level3/images/` (+ `CREDITS.md`); scripts `level3/images/tools/make_images_L3_L<N>.py` | `level4/images/` (+ `CREDITS.md`); scripts `level4/images/tools/make_images_L4_L<N>.py` |
+| Listening audio | `level1/audio/` (MP3 + check results + READMEs); Lesson 1 scripts `level1/audio/tools/`; Lessons 2–13 and exams use the shared builder `level1/audio/tools/lessons/` | `public/audio/`; scripts `tools/audio/` (`processor.py`, `asr_check*.py`) | `level3/audio/`; scripts `level3/audio/tools/` (`build_L3_L<N>.py`, `check_L3_L<N>.py`, `script_L3_L<N>.py`) | `level4/audio/` (MP3 + check results + READMEs for Lessons 1–13); scripts `level4/audio/tools/` |
+| Level 3 drafts (Lessons 2–13; the website uses `level3/`, not this folder) | | | `level3/drafts/` (`curriculum/`, `images/`, `audio/`, `audio/tools/`); status `level3/AUDIO_STATUS.md`; see section 7 | |
+| Voice reference clips | `tools/audio/samples/refs/*.wav` and `level1/audio/tools/natural/kokoro_refs/af_jessica.wav` (list: `level1/audio/tools/lessons/REFS.md`) | `tools/audio/samples/refs/` | `tools/audio/samples/refs/` | `level4/audio/tools/REFS_L4.md` |
+| Slide decks (source) | `level1/slides/Level1_Lesson<N>_Slides.pptx` | `public/downloads/slides/Lesson<N>_Slides.pptx` | `level3/slides/Level3_Lesson<N>_Slides.pptx` | `level4/slides/Level4_Lesson<N>_Slides.pptx` (specs: `level4/slides/specs/`) |
+| Website files (generated, don't edit by hand) | `public/level1/` (images, audio, downloads, downloads/slides, downloads/exams) | `public/images/`, `public/audio/`, `public/downloads/` | `public/level3/` | `public/level4/` |
+| Website data (generated) | `src/content_level1.json`, `src/decks/level1/lesson<N>.json` | `src/content.json`, `src/sizes.json`, `src/decks/lesson<N>.json` | `src/content_level3.json`, `src/decks/level3/lesson<N>.json` | `src/content_level4.json`, `src/decks/level4/lesson<N>.json` |
+| Page code | `src/level1.tsx` | `src/App.tsx` | `src/level3.tsx` | `src/level4.tsx` |
 
 Shared scripts:
 
-- `scripts/export_content.py`: writes all the website data (`src/content*.json`, `src/sizes.json`) and copies the Level 1 / Level 3 pictures, MP3s, and PPTX from `level1/`, `level3/` into `public/level1/`, `public/level3/`. It also copies the Level 1 exam MP3s and lists the exam files. It rebuilds Level 2 data too; unchanged sources give byte-identical files.
-- `scripts/export_deck.py <pptx> <N> [--level 1|3]`: PowerPoint deck → presenter JSON. It stops if a picture in the deck is not identical to a file in the level's `public/.../images/`.
+- `scripts/export_content.py`: writes all the website data (`src/content*.json`, `src/sizes.json`) and copies the Level 1 / Level 3 / Level 4 pictures, MP3s, and PPTX (and the Level 4 lesson PDF/DOCX) from `level1/`, `level3/`, `level4/` into `public/level1/`, `public/level3/`, `public/level4/`. It also copies the Level 1 exam MP3s and lists the exam files. It rebuilds Level 2 data too; unchanged sources give byte-identical files.
+- `scripts/export_deck.py <pptx> <N> [--level 1|3|4]`: PowerPoint deck → presenter JSON. It stops if a picture in the deck is not identical to a file in the level's `public/.../images/`.
 - `scripts/check_slides.py <pptx ...>`: every click animation targets a shape that exists.
 - `scripts/slides/`: the slide deck tools (build a deck from a lesson spec, inspect, check, render, compare). See section 6.
 - `scripts/md_parser.py`: Markdown → page HTML (used by `export_content.py`).

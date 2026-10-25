@@ -1,0 +1,129 @@
+[
+ {
+  "file": "L4_L2_application.png",
+  "lesson": "Level4-L2",
+  "word": "application",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "1f58a"
+  ],
+  "note": "a clipboard and a pen [sign: APPLICATION]"
+ },
+ {
+  "file": "L4_L2_current_address.png",
+  "lesson": "Level4-L2",
+  "word": "current address",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e0"
+  ],
+  "note": "a house [sign: NOW: 418 Elm St.]"
+ },
+ {
+  "file": "L4_L2_previous_address.png",
+  "lesson": "Level4-L2",
+  "word": "previous address",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3d8"
+  ],
+  "note": "houses [sign: BEFORE: 9 Lake Rd.]"
+ },
+ {
+  "file": "L4_L2_employer.png",
+  "lesson": "Level4-L2",
+  "word": "employer",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e2",
+   "1f9d1-200d-1f4bc"
+  ],
+  "note": "an office building and a boss [sign: EMPLOYER]"
+ },
+ {
+  "file": "L4_L2_position.png",
+  "lesson": "Level4-L2",
+  "word": "position (job title)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1-200d-1f527"
+  ],
+  "note": "a mechanic [sign: MECHANIC]"
+ },
+ {
+  "file": "L4_L2_start_date.png",
+  "lesson": "Level4-L2",
+  "word": "start date",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c5",
+   "27a1"
+  ],
+  "note": "a calendar and an arrow [sign: START: 03/15/2022]"
+ },
+ {
+  "file": "L4_L2_end_date.png",
+  "lesson": "Level4-L2",
+  "word": "end date",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c5",
+   "1f6d1"
+  ],
+  "note": "a calendar and a stop sign [sign: END: 05/30/2024]"
+ },
+ {
+  "file": "L4_L2_reference.png",
+  "lesson": "Level4-L2",
+  "word": "reference (a person)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4de",
+   "1f9d1-200d-1f4bc"
+  ],
+  "note": "a supervisor and a phone [sign: REFERENCE]"
+ },
+ {
+  "file": "L4_L2_for.png",
+  "lesson": "Level4-L2",
+  "word": "for (two years)",
+  "kind": "vocab",
+  "twemoji": [
+   "23f3"
+  ],
+  "note": "an hourglass [sign: FOR 2 YEARS]"
+ },
+ {
+  "file": "L4_L2_since.png",
+  "lesson": "Level4-L2",
+  "word": "since (2020)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c5"
+  ],
+  "note": "a calendar [sign: SINCE 2020]"
+ },
+ {
+  "file": "L4_L2_roommate.png",
+  "lesson": "Level4-L2",
+  "word": "roommate",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e0",
+   "1f9d1"
+  ],
+  "note": "two people and a house"
+ },
+ {
+  "file": "L4_L2_lease.png",
+  "lesson": "Level4-L2",
+  "word": "lease",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c4",
+   "1f511"
+  ],
+  "note": "a document and a key [sign: LEASE: 1 YEAR]"
+ }
+]

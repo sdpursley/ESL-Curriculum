@@ -1,0 +1,28 @@
+{
+ "TITLE": "Have You Ever…?",
+ "VOICES": {
+  "Narrator": "N",
+  "Lucía": "Rosa",
+  "Ahmed": "Marco",
+  "Ms. Grant": "Kim"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Lucía",
+  "Ms. Grant"
+ ],
+ "NAMES": [
+  "Lucía",
+  "Lucia",
+  "Ahmed",
+  "Grant"
+ ],
+ "SAME": {},
+ "TTS": {
+  "Yes, I ran a 5k last year. I didn't win, but I finished!": "Yes, I ran a five K last year. I didn't win, but I finished!"
+ },
+ "ESTIMATE": {
+  "words": 267,
+  "seconds": 124
+ }
+}

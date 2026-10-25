@@ -1,0 +1,26 @@
+{
+ "TITLE": "Turn It Off",
+ "VOICES": {
+  "Narrator": "N",
+  "Sofia": "Rosa",
+  "Hana": "Ana_af_jessica",
+  "Paul": "Server"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Sofia",
+  "Hana"
+ ],
+ "NAMES": [
+  "Sofia",
+  "Hana",
+  "Paul",
+  "City Power"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 278,
+  "seconds": 127
+ }
+}

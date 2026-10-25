@@ -10,16 +10,18 @@ import { level1 } from './content_level1'
 import { Level1Home, Level1LessonsPage, Level1LessonPage, Level1DownloadsPage, Level1ExamsPage } from './level1'
 import { level3 } from './content_level3'
 import { Level3Home, Level3LessonsPage, Level3LessonPage, Level3DownloadsPage } from './level3'
+import { level4 } from './content_level4'
+import { Level4Home, Level4LessonsPage, Level4LessonPage, Level4DownloadsPage } from './level4'
 import { SLIDES_AVAILABLE, slidePath, presentHref, examPath, LICENSE_URL, DISCLAIMER } from './config'
 import { hasDeck } from './presenter/decks'
 import { lazy, Suspense } from 'react'
 const Presenter = lazy(() => import('./presenter/Presenter'))
 
-// Navigation depends on the level the visitor is in. "/" (level picker) and "/about" are shared. Level 3 mirrors Level 1 (#/level3/...).
+// Navigation depends on the level the visitor is in. "/" (level picker) and "/about" are shared. Level 3 and Level 4 mirror Level 1 (#/level3/..., #/level4/...).
 // Level 2 keeps its original URLs (#/lessons, #/lesson/3, #/downloads, #/exams, #/present/3); #/level2 is its overview page.
-type Ctx = 1 | 2 | 3 | 0
+type Ctx = 1 | 2 | 3 | 4 | 0
 const levelOf = (path: string): Ctx =>
-  path.startsWith('/level1') ? 1 : path.startsWith('/level3') ? 3
+  path.startsWith('/level1') ? 1 : path.startsWith('/level3') ? 3 : path.startsWith('/level4') ? 4
     : path.startsWith('/level2') || path.startsWith('/lesson') || path === '/downloads' || path === '/exams' ? 2 : 0
 const NAV: Record<Ctx, { to: string; label: string; icon: typeof Home; match?: (p: string) => boolean }[]> = {
   0: [{ to: '/', label: 'Home', icon: Home }],
@@ -34,13 +36,16 @@ const NAV: Record<Ctx, { to: string; label: string; icon: typeof Home; match?: (
   3: [{ to: '/level3', label: 'Level 3 home', icon: Home },
       { to: '/level3/lessons', label: 'Lessons', icon: BookOpen, match: p => p.startsWith('/level3/lesson') },
       { to: '/level3/downloads', label: 'Downloads', icon: Download }],
+  4: [{ to: '/level4', label: 'Level 4 home', icon: Home },
+      { to: '/level4/lessons', label: 'Lessons', icon: BookOpen, match: p => p.startsWith('/level4/lesson') },
+      { to: '/level4/downloads', label: 'Downloads', icon: Download }],
 }
 
 function LevelSwitch({ ctx }: { ctx: Ctx }) {
-  const ON = { 1: 'bg-violet-600 text-white shadow-sm', 2: 'bg-blue-600 text-white shadow-sm', 3: 'bg-emerald-600 text-white shadow-sm' }
-  const item = (lv: 1 | 2 | 3) => <Link key={lv} to={`/level${lv}`} aria-current={ctx === lv ? 'true' : undefined}
+  const ON = { 1: 'bg-violet-600 text-white shadow-sm', 2: 'bg-blue-600 text-white shadow-sm', 3: 'bg-emerald-600 text-white shadow-sm', 4: 'bg-amber-600 text-white shadow-sm' }
+  const item = (lv: 1 | 2 | 3 | 4) => <Link key={lv} to={`/level${lv}`} aria-current={ctx === lv ? 'true' : undefined}
     className={`rounded-lg px-3 py-1.5 text-sm font-semibold transition ${ctx === lv ? ON[lv] : 'text-slate-600 hover:bg-white hover:text-slate-900'}`}>Level {lv}</Link>
-  return <div role="group" aria-label="Choose a level" className="inline-flex gap-1 rounded-xl bg-slate-100 p-1">{item(1)}{item(2)}{item(3)}</div>
+  return <div role="group" aria-label="Choose a level" className="inline-flex gap-1 rounded-xl bg-slate-100 p-1">{item(1)}{item(2)}{item(3)}{item(4)}</div>
 }
 
 function Header() {
@@ -83,7 +88,7 @@ function Footer() {
     <footer className="mt-16 border-t border-slate-200 bg-slate-50 text-sm text-slate-600">
       <div className="mx-auto max-w-6xl space-y-2 px-4 py-8">
         <p>© 2026 the authors. The authors license these course materials under <a className="link" href={LICENSE_URL}>CC BY-NC-SA 4.0</a>. Audio: Chatterbox TTS by Resemble AI (MIT License), cloned from synthetic Kokoro-82M (Apache 2.0) reference clips; no real people's voices; inaudible Perth watermark.</p>
-        <p dangerouslySetInnerHTML={{ __html: ctx === 1 ? level1.creditHtml : ctx === 3 ? level3.creditHtml : content.creditHtml }} />
+        <p dangerouslySetInnerHTML={{ __html: ctx === 1 ? level1.creditHtml : ctx === 3 ? level3.creditHtml : ctx === 4 ? level4.creditHtml : content.creditHtml }} />
         <p>{DISCLAIMER} <Link className="link no-print" to="/about">About &amp; Credits</Link></p>
       </div>
     </footer>)
@@ -307,7 +312,7 @@ function ExamsPage() {
 function AboutPage() {
   return (<div className="max-w-3xl">
     <h1 className="text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">About &amp; Credits</h1>
-    <p className="mt-4 text-lg text-slate-700">This is a free curriculum for adult English classes in three levels, Level 1 (beginner), Level 2 (high beginner), and Level 3 (low intermediate), written by volunteers for community programs. It focuses on practical daily life: work, family, health, shopping, and community services.</p>
+    <p className="mt-4 text-lg text-slate-700">This is a free curriculum for adult English classes in four levels, Level 1 (beginner), Level 2 (high beginner), Level 3 (low intermediate), and Level 4 (intermediate), written by volunteers for community programs. It focuses on practical daily life: work, family, health, shopping, and community services.</p>
     <SectionTitle icon={<FileText size={20} />}>License for our materials</SectionTitle>
     <p className="text-lg text-slate-700">© 2026 the authors. The authors license the lesson text, teacher plans, workbook pages, original drawings (calendars, clock, timeline, phone frame, arrows, lines, labels), and audio files under <a className="link" href={LICENSE_URL}>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</a>. You may share and adapt them for noncommercial purposes, with credit, and you must share adaptations under the same license. Program names and logos are not covered by this license. Third-party parts listed below keep their own licenses.</p>
     <SectionTitle icon={<Star size={20} />}>Picture credits</SectionTitle>
@@ -315,9 +320,10 @@ function AboutPage() {
     <blockquote className="mt-3 rounded-r-2xl border-l-4 border-violet-400 bg-violet-50 p-5 text-lg text-slate-800"><p className="mb-1 font-semibold">Level 1</p><p dangerouslySetInnerHTML={{ __html: level1.creditHtml }} />
       <p className="mt-2">The Level 1 Week 8 Midterm and Week 15 Final Exam pictures also use Twemoji graphics (CC BY 4.0), resized and combined, with added clock faces, price tags, practice cards, and labels (see level1/exams/images/CREDITS.md in the source files).</p></blockquote>
     <blockquote className="mt-3 rounded-r-2xl border-l-4 border-emerald-400 bg-emerald-50 p-5 text-lg text-slate-800"><p className="mb-1 font-semibold">Level 3</p><p dangerouslySetInnerHTML={{ __html: level3.creditHtml }} /></blockquote>
+    <blockquote className="mt-3 rounded-r-2xl border-l-4 border-amber-400 bg-amber-50 p-5 text-lg text-slate-800"><p className="mb-1 font-semibold">Level 4</p><p dangerouslySetInnerHTML={{ __html: level4.creditHtml }} /></blockquote>
     <p className="mt-4 text-lg text-slate-700">The vocabulary pictures are modified versions of the original Twemoji graphics: the SVGs were rendered to PNG, resized, and combined with other emoji on a white card with a border, and some cards have added arrows, lines, calendars, clocks, ID cards, a name tag, forms, family-tree lines, speech bubbles, signs, letter tiles, or text labels. The Twemoji parts remain under CC BY 4.0. Text labels use the DejaVu Sans font (free font license). No photos or stock images are used.</p>
     <SectionTitle icon={<Headphones size={20} />}>Audio</SectionTitle>
-    <p className="text-lg text-slate-700">The listening audio was made with the free Chatterbox text-to-speech model by Resemble AI (MIT License). The voices are synthetic, not real people, and each file carries an inaudible Perth watermark that marks it as AI-generated. Chatterbox copied each voice from a short reference clip, and every reference clip was made with the Kokoro-82M text-to-speech model (Apache 2.0). No recordings of real people were used. This is true for all three levels: in Level 1, the narrator, Ana, Carlos, Rosa, Marco, Kim, the receptionist, the cashier, the server, the rental agent, the 911 operator, the manager, and the phone message are synthetic voices cloned from Kokoro-82M reference clips, and the Week 8 Midterm and Week 15 Final Exam listening files use the same synthetic narrator, receptionist, Marco, Kim, and Carlos voices; in Level 3, the narrator and the characters in each lesson are synthetic voices cloned from Kokoro-82M reference clips.</p>
+    <p className="text-lg text-slate-700">The listening audio was made with the free Chatterbox text-to-speech model by Resemble AI (MIT License). The voices are synthetic, not real people, and each file carries an inaudible Perth watermark that marks it as AI-generated. Chatterbox copied each voice from a short reference clip, and every reference clip was made with the Kokoro-82M text-to-speech model (Apache 2.0). No recordings of real people were used. This is true for all four levels: in Level 1, the narrator, Ana, Carlos, Rosa, Marco, Kim, the receptionist, the cashier, the server, the rental agent, the 911 operator, the manager, and the phone message are synthetic voices cloned from Kokoro-82M reference clips, and the Week 8 Midterm and Week 15 Final Exam listening files use the same synthetic narrator, receptionist, Marco, Kim, and Carlos voices; in Level 3 and Level 4, the narrator and the characters in each lesson are synthetic voices cloned from Kokoro-82M reference clips.</p>
     <SectionTitle icon={<Presentation size={20} />}>Fonts</SectionTitle>
     <p className="text-lg text-slate-700">The teacher slides and the in-browser presenter use the Lexend Deca font by The Lexend Project Authors, licensed under the <a className="link" href="https://openfontlicense.org">SIL Open Font License 1.1</a>.</p>
     <SectionTitle icon={<FileText size={20} />}>Disclaimer</SectionTitle>
@@ -333,6 +339,7 @@ function Level2Alias({ to }: { to: string }) {
 
 const l1Ready = level1.lessons.filter(l => l.ready).length
 const l3Ready = level3.lessons.filter(l => l.ready).length
+const l4Ready = level4.lessons.filter(l => l.ready).length
 function LevelPicker() {
   const card = 'group flex flex-col rounded-3xl border bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md sm:p-8'
   return (<>
@@ -342,7 +349,7 @@ function LevelPicker() {
       <p className="mt-3 max-w-2xl text-lg leading-relaxed text-slate-700">Free, practical English lessons for adult learners, with pictures, listening audio, grammar, and full teacher plans. Choose a level to start.</p>
     </section>
     <h2 className="sr-only">Choose a level</h2>
-    <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <div className="mt-8 grid gap-6 md:grid-cols-2">
       <Link to="/level1" className={`${card} border-violet-200 hover:border-violet-400`}>
         <div className="flex items-start justify-between gap-4">
           <span className="grid size-16 place-items-center rounded-2xl bg-violet-100 text-4xl" aria-hidden="true">🌱</span>
@@ -385,11 +392,25 @@ function LevelPicker() {
         </ul>
         <span className="mt-6 inline-flex items-center gap-2 self-start rounded-xl bg-emerald-600 px-5 py-2.5 font-semibold text-white transition group-hover:bg-emerald-700">Go to Level 3 <ArrowRight size={18} aria-hidden="true" /></span>
       </Link>
+      <Link to="/level4" className={`${card} border-amber-200 hover:border-amber-400`}>
+        <div className="flex items-start justify-between gap-4">
+          <span className="grid size-16 place-items-center rounded-2xl bg-amber-100 text-4xl" aria-hidden="true">🏔️</span>
+          <span className="rounded-full bg-amber-50 px-3 py-1 text-sm font-semibold text-amber-800 ring-1 ring-amber-200">Intermediate</span>
+        </div>
+        <h3 className="mt-5 text-2xl font-bold text-slate-900">Level 4</h3>
+        <p className="mt-2 text-lg text-slate-700">For learners who finished Level 3: talk about life experiences and how long, health, favors, imaginary situations, local news, and opinions, and disagree politely.</p>
+        <ul className="mt-4 space-y-1.5 text-slate-600">
+          <li>🗣️ Longer Talk Time, opinions, and polite disagreement</li>
+          <li>🎧 Listening audio for all 13 lessons</li>
+          <li>🧑‍🏫 {l4Ready === 13 ? 'All 13 lessons are ready' : <>{l4Ready === 1 ? 'Lesson 1 is' : `Lessons 1–${l4Ready} are`} ready · Lessons {l4Ready + 1}–13 coming soon</>}</li>
+        </ul>
+        <span className="mt-6 inline-flex items-center gap-2 self-start rounded-xl bg-amber-600 px-5 py-2.5 font-semibold text-white transition group-hover:bg-amber-700">Go to Level 4 <ArrowRight size={18} aria-hidden="true" /></span>
+      </Link>
     </div>
     <div className="mt-10 grid gap-6 lg:grid-cols-2">
       <Card>
         <h2 className="text-xl font-bold text-slate-900">🤔 Not sure which level?</h2>
-        <p className="mt-2 text-lg text-slate-700"><strong>Level 1</strong> if learners know only a few English words, or are still learning the alphabet and numbers. <strong>Level 2</strong> if learners can already say their name, where they are from, and their job, and can answer <em>Are you…?</em> and <em>Do you…?</em> questions. <strong>Level 3</strong> if learners can already tell a short story in the past, make plans with <em>going to</em>, and hold a short conversation on familiar topics. Each level ends where the next one begins.</p>
+        <p className="mt-2 text-lg text-slate-700"><strong>Level 1</strong> if learners know only a few English words, or are still learning the alphabet and numbers. <strong>Level 2</strong> if learners can already say their name, where they are from, and their job, and can answer <em>Are you…?</em> and <em>Do you…?</em> questions. <strong>Level 3</strong> if learners can already tell a short story in the past, make plans with <em>going to</em>, and hold a short conversation on familiar topics. <strong>Level 4</strong> if learners can already tell a short story with <em>when</em> or <em>while</em>, say how life used to be, and say what they will do <em>if</em> something happens. Each level ends where the next one begins.</p>
       </Card>
       <Card>
         <h2 className="text-xl font-bold text-slate-900">🧑‍🏫 For teachers</h2>
@@ -402,12 +423,13 @@ function LevelPicker() {
 
 export default function App() {
   const loc = useLocation()
-  if (loc.pathname.startsWith('/present/') || loc.pathname.startsWith('/level1/present/') || loc.pathname.startsWith('/level3/present/')) return (
+  if (loc.pathname.startsWith('/present/') || loc.pathname.startsWith('/level1/present/') || loc.pathname.startsWith('/level3/present/') || loc.pathname.startsWith('/level4/present/')) return (
     <Suspense fallback={<div style={{ background: '#1b2236', position: 'fixed', inset: 0 }} />}>
       <Routes>
         <Route path="/present/:n" element={<Presenter />} />
         <Route path="/level1/present/:n" element={<Presenter level={1} />} />
         <Route path="/level3/present/:n" element={<Presenter level={3} />} />
+        <Route path="/level4/present/:n" element={<Presenter level={4} />} />
       </Routes>
     </Suspense>)
   return (<div className="flex min-h-screen flex-col bg-slate-50/40">
@@ -431,6 +453,13 @@ export default function App() {
         <Route path="/level3/lesson/:n/:tab" element={<Level3LessonPage />} />
         <Route path="/level3/downloads" element={<Level3DownloadsPage />} />
         <Route path="/level3/*" element={<Navigate to="/level3" replace />} />
+        {/* Level 4 (a copy of Level 3) */}
+        <Route path="/level4" element={<Level4Home />} />
+        <Route path="/level4/lessons" element={<Level4LessonsPage />} />
+        <Route path="/level4/lesson/:n" element={<Level4LessonPage />} />
+        <Route path="/level4/lesson/:n/:tab" element={<Level4LessonPage />} />
+        <Route path="/level4/downloads" element={<Level4DownloadsPage />} />
+        <Route path="/level4/*" element={<Navigate to="/level4" replace />} />
         {/* Level 2: original URLs, plus #/level2 overview and #/level2/... aliases */}
         <Route path="/level2" element={<Level2Home />} />
         <Route path="/level2/lessons" element={<Navigate to="/lessons" replace />} />

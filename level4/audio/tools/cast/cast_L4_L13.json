@@ -1,0 +1,22 @@
+{
+ "TITLE": "My Story So Far",
+ "VOICES": {
+  "Narrator": "N",
+  "Mariana": "Ana_af_jessica",
+  "Mr. Hill": "Carlos"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Mariana"
+ ],
+ "NAMES": [
+  "Mariana",
+  "Hill"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 267,
+  "seconds": 114
+ }
+}

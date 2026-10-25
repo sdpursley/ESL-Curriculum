@@ -1,0 +1,133 @@
+[
+ {
+  "file": "L4_L12_scam.png",
+  "lesson": "Level4-L12",
+  "word": "scam",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3a3",
+   "1f4b8"
+  ],
+  "note": "a fishing pole and flying money"
+ },
+ {
+  "file": "L4_L12_warning_sign.png",
+  "lesson": "Level4-L12",
+  "word": "warning sign",
+  "kind": "vocab",
+  "twemoji": [
+   "26a0"
+  ],
+  "note": "a warning triangle"
+ },
+ {
+  "file": "L4_L12_suspicious.png",
+  "lesson": "Level4-L12",
+  "word": "suspicious",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f1",
+   "1f914"
+  ],
+  "note": "a thinking face and a phone"
+ },
+ {
+  "file": "L4_L12_fake.png",
+  "lesson": "Level4-L12",
+  "word": "fake",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b5",
+   "274c"
+  ],
+  "note": "a dollar bill and a red X [sign: FAKE]"
+ },
+ {
+  "file": "L4_L12_official.png",
+  "lesson": "Level4-L12",
+  "word": "official",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3db",
+   "2705"
+  ],
+  "note": "an official building and a check mark"
+ },
+ {
+  "file": "L4_L12_gift_card.png",
+  "lesson": "Level4-L12",
+  "word": "gift card",
+  "kind": "vocab",
+  "twemoji": [
+   "1f381",
+   "1f4b3"
+  ],
+  "note": "a gift and a card"
+ },
+ {
+  "file": "L4_L12_prize.png",
+  "lesson": "Level4-L12",
+  "word": "prize",
+  "kind": "vocab",
+  "twemoji": [
+   "1f389",
+   "1f3c6"
+  ],
+  "note": "a trophy and a party popper"
+ },
+ {
+  "file": "L4_L12_link.png",
+  "lesson": "Level4-L12",
+  "word": "link",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f1",
+   "1f517"
+  ],
+  "note": "a phone and a link"
+ },
+ {
+  "file": "L4_L12_pin.png",
+  "lesson": "Level4-L12",
+  "word": "PIN",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b3",
+   "1f522"
+  ],
+  "note": "a card and numbers"
+ },
+ {
+  "file": "L4_L12_hang_up.png",
+  "lesson": "Level4-L12",
+  "word": "hang up",
+  "kind": "vocab",
+  "twemoji": [
+   "1f44b",
+   "1f4de"
+  ],
+  "note": "a phone and a waving hand"
+ },
+ {
+  "file": "L4_L12_block.png",
+  "lesson": "Level4-L12",
+  "word": "block (a number)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f1",
+   "1f6ab"
+  ],
+  "note": "a phone and a no sign"
+ },
+ {
+  "file": "L4_L12_trust.png",
+  "lesson": "Level4-L12",
+  "word": "trust",
+  "kind": "vocab",
+  "twemoji": [
+   "1f91d",
+   "2705"
+  ],
+  "note": "a handshake and a check mark"
+ }
+]

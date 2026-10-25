@@ -1,0 +1,206 @@
+{
+ "file": "L4_L12_listening.mp3",
+ "duration_s": 121.35,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 268,
+ "diffs": [],
+ "low_prob_words": [
+  [
+   "Lopez?",
+   11.36,
+   0.3
+  ],
+  [
+   "mom,",
+   54.34,
+   0.39
+  ],
+  [
+   "Ok,",
+   94.46,
+   0.34
+  ]
+ ],
+ "lines_ok": "16/16",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Caller": 141.8,
+  "Mrs. Lopez": 196.5,
+  "Daniel": 119.6,
+  "Narrator": 184.9
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 5.0,
+ "peak": 0.879,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.6,
+ "per_line": [
+  {
+   "t": 9.12,
+   "spk": "Caller",
+   "line": "Hello, is this Mrs. Lopez? This is Mike from the electric company. Your bill is late. You must pay today, or we're going to turn off your power in one hour.",
+   "ok": true,
+   "hyp": "hello is this mrs lopez this is mike from the electric company your bill is late you must pay today or we're going to turn off your power in 1 hour",
+   "min_prob": 0.04,
+   "flags": [],
+   "f0_med": 142.6
+  },
+  {
+   "t": 22.38,
+   "spk": "Mrs. Lopez",
+   "line": "What? My bill is late? I paid it last week.",
+   "ok": true,
+   "hyp": "what my bill is late i paid it last week",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 218.0
+  },
+  {
+   "t": 27.4,
+   "spk": "Caller",
+   "line": "No, you owe $200 on this bill today. Go to the store and buy gift cards. Then call me back and read me the numbers.",
+   "ok": true,
+   "hyp": "no you owe 200 dollars on this bill today go to the store and buy gift cards then call me back and read me the numbers",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 141.8
+  },
+  {
+   "t": 37.29,
+   "spk": "Mrs. Lopez",
+   "line": "Gift cards? That sounds very strange to me.",
+   "ok": true,
+   "hyp": "gift cards that sounds very strange to me",
+   "min_prob": 0.66,
+   "flags": [],
+   "f0_med": 181.2
+  },
+  {
+   "t": 41.3,
+   "spk": "Caller",
+   "line": "Please hurry. This is your last chance. Don't tell anyone.",
+   "ok": true,
+   "hyp": "please hurry this is your last chance don't tell anyone",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 140.5
+  },
+  {
+   "t": 47.32,
+   "spk": "Mrs. Lopez",
+   "line": "No, thank you. I'm going to call the number that is on my real bill. Goodbye.",
+   "ok": true,
+   "hyp": "no thank you i'm going to call the number that is on my real bill goodbye",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 175.5
+  },
+  {
+   "t": 54.02,
+   "spk": "Daniel",
+   "line": "Hi, Mom. You look worried. What's wrong?",
+   "ok": true,
+   "hyp": "hi mom you look worried what's wrong",
+   "min_prob": 0.51,
+   "flags": [],
+   "f0_med": 132.3
+  },
+  {
+   "t": 57.61,
+   "spk": "Mrs. Lopez",
+   "line": "The man who called me knew my name. He said he was from the electric company. He wanted me to pay with gift cards.",
+   "ok": true,
+   "hyp": "the man who called me knew my name he said he was from the electric company he wanted me to pay with gift cards",
+   "min_prob": 0.72,
+   "flags": [],
+   "f0_med": 191.4
+  },
+  {
+   "t": 66.11,
+   "spk": "Daniel",
+   "line": "Gift cards? That's a warning sign. A company that asks for gift cards is a scam. What did you do?",
+   "ok": true,
+   "hyp": "gift cards that's a warning sign a company that asks for gift cards is a scam what did you do",
+   "min_prob": 0.66,
+   "flags": [],
+   "f0_med": 123.4
+  },
+  {
+   "t": 75.24,
+   "spk": "Mrs. Lopez",
+   "line": "I said no, and I hung up.",
+   "ok": true,
+   "hyp": "i said no and i hung up",
+   "min_prob": 0.56,
+   "flags": [],
+   "f0_med": 183.8
+  },
+  {
+   "t": 78.64,
+   "spk": "Daniel",
+   "line": "Good! You did the right thing. Scammers are people who want your money. Did you give him any information?",
+   "ok": true,
+   "hyp": "good you did the right thing scammers are people who want your money did you give him any information",
+   "min_prob": 0.64,
+   "flags": [],
+   "f0_med": 118.5
+  },
+  {
+   "t": 86.79,
+   "spk": "Mrs. Lopez",
+   "line": "No. I didn't tell him anything.",
+   "ok": true,
+   "hyp": "no i didn't tell him anything",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 212.4
+  },
+  {
+   "t": 90.7,
+   "spk": "Daniel",
+   "line": "Great. Let's check your account on the City Power website. OK, here it is. Your account is fine. You don't owe any money.",
+   "ok": true,
+   "hyp": "great let's check your account on the city power website ok here it is your account is fine you don't owe any money",
+   "min_prob": 0.32,
+   "flags": [],
+   "f0_med": 118.5
+  },
+  {
+   "t": 101.34,
+   "spk": "Mrs. Lopez",
+   "line": "Oh, good. I'm glad I didn't pay.",
+   "ok": true,
+   "hyp": "oh good i'm glad i didn't pay",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 201.6
+  },
+  {
+   "t": 105.14,
+   "spk": "Daniel",
+   "line": "Me too. Next time, you can block the number. Be careful with texts that ask for your password, too. And never trust a caller who tells you to hurry.",
+   "ok": true,
+   "hyp": "me too next time you can block the number be careful with texts that ask for your password too and never trust a caller who tells you to hurry",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 119.6
+  },
+  {
+   "t": 115.79,
+   "spk": "Mrs. Lopez",
+   "line": "You're right. Thanks, Daniel.",
+   "ok": true,
+   "hyp": "you're right thanks daniel",
+   "min_prob": 0.95,
+   "flags": [],
+   "f0_med": 245.4
+  }
+ ],
+ "hyp": "lesson 12 mrs lopez gets a phone call later she talks to her son daniel hello is this mrs lopez this is mike from the electric company your bill is late you must pay today or we're going to turn off your power in 1 hour what my bill is late i paid it last week no you owe 200 dollars on this bill today go to the store and buy gift cards then call me back and read me the numbers gift cards that sounds very strange to me please hurry this is your last chance don't tell anyone no thank you i'm going to call the number that is on my real bill goodbye hi mom you look worried what's wrong the man who called me knew my name he said he was from the electric company he wanted me to pay with gift cards gift cards that's a warning sign a company that asks for gift cards is a scam what did you do i said no and i hung up good you did the right thing scammers are people who want your money did you give him any information no i didn't tell him anything great let's check your account on the city power website ok here it is your account is fine you don't owe any money oh good i'm glad i didn't pay me too next time you can block the number be careful with texts that ask for your password too and never trust a caller who tells you to hurry you're right thanks daniel that's the end of the listening"
+}

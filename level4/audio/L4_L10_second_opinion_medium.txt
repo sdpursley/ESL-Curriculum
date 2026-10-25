@@ -1,0 +1,3 @@
+medium.en per-line WER 0.007 (2/270), 20/22 lines exact
+   ('Narrator', 'Lesson ten. The two roommates look at their power bill. Then Sofia calls the electric company.', 'lesson 10 the 2 roommates look at their power bill then sophia calls the electric company')
+   ('Paul', 'Thank you for calling City Power. This is Paul. How can I help you?', 'thank you for calling citi power this is paul how can i help you')

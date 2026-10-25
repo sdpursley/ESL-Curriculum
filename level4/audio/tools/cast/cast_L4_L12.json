@@ -1,0 +1,25 @@
+{
+ "TITLE": "Is It a Scam?",
+ "VOICES": {
+  "Narrator": "N",
+  "Mrs. Lopez": "Kim",
+  "Caller": "Carlos",
+  "Daniel": "Sam"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Mrs. Lopez"
+ ],
+ "NAMES": [
+  "Lopez",
+  "Daniel",
+  "Mike",
+  "City Power"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 261,
+  "seconds": 116
+ }
+}

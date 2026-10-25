@@ -1,0 +1,132 @@
+[
+ {
+  "file": "L4_L3_to_do_list.png",
+  "lesson": "Level4-L3",
+  "word": "to-do list",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4dd"
+  ],
+  "note": "a note and a pencil [sign: TO DO]"
+ },
+ {
+  "file": "L4_L3_task.png",
+  "lesson": "Level4-L3",
+  "word": "task",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9f9",
+   "1f9fd"
+  ],
+  "note": "a broom and a sponge [sign: TASK: CLEAN]"
+ },
+ {
+  "file": "L4_L3_checklist.png",
+  "lesson": "Level4-L3",
+  "word": "checklist",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb"
+  ],
+  "note": "a clipboard with a check mark"
+ },
+ {
+  "file": "L4_L3_supervisor.png",
+  "lesson": "Level4-L3",
+  "word": "supervisor",
+  "kind": "vocab",
+  "twemoji": [
+   "1f469-200d-1f4bc"
+  ],
+  "note": "a woman at work [sign: SUPERVISOR]"
+ },
+ {
+  "file": "L4_L3_deadline.png",
+  "lesson": "Level4-L3",
+  "word": "deadline",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c5",
+   "23f0"
+  ],
+  "note": "a calendar and an alarm clock [sign: DUE: FRIDAY]"
+ },
+ {
+  "file": "L4_L3_restock.png",
+  "lesson": "Level4-L3",
+  "word": "restock",
+  "kind": "vocab",
+  "twemoji": [
+   "1f6d2",
+   "1f96b"
+  ],
+  "note": "a shopping cart and cans [sign: RESTOCK]"
+ },
+ {
+  "file": "L4_L3_inventory.png",
+  "lesson": "Level4-L3",
+  "word": "inventory",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4e6",
+   "1f522"
+  ],
+  "note": "a box and numbers [sign: INVENTORY]"
+ },
+ {
+  "file": "L4_L3_clock_in.png",
+  "lesson": "Level4-L3",
+  "word": "clock in",
+  "kind": "vocab",
+  "twemoji": [
+   "1f558",
+   "27a1"
+  ],
+  "note": "a clock and an arrow [sign: IN 9:00]"
+ },
+ {
+  "file": "L4_L3_clock_out.png",
+  "lesson": "Level4-L3",
+  "word": "clock out",
+  "kind": "vocab",
+  "twemoji": [
+   "1f554",
+   "2b05"
+  ],
+  "note": "a clock and an arrow [sign: OUT 5:00]"
+ },
+ {
+  "file": "L4_L3_break_room.png",
+  "lesson": "Level4-L3",
+  "word": "break room",
+  "kind": "vocab",
+  "twemoji": [
+   "1fa91",
+   "2615"
+  ],
+  "note": "coffee and a chair [sign: BREAK ROOM]"
+ },
+ {
+  "file": "L4_L3_feedback.png",
+  "lesson": "Level4-L3",
+  "word": "feedback",
+  "kind": "vocab",
+  "twemoji": [
+   "1f44d",
+   "1f4ac"
+  ],
+  "note": "a thumbs-up and a speech bubble [sign: GOOD JOB!]"
+ },
+ {
+  "file": "L4_L3_check_in.png",
+  "lesson": "Level4-L3",
+  "word": "check-in (a short meeting)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f469-200d-1f4bc",
+   "1f4ac",
+   "1f9d1"
+  ],
+  "note": "a supervisor and a worker talking"
+ }
+]

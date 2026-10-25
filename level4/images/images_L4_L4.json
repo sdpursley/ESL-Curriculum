@@ -1,0 +1,131 @@
+[
+ {
+  "file": "L4_L4_checkup.png",
+  "lesson": "Level4-L4",
+  "word": "checkup",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "1fa7a"
+  ],
+  "note": "a stethoscope and a clipboard [sign: CHECKUP]"
+ },
+ {
+  "file": "L4_L4_health_history.png",
+  "lesson": "Level4-L4",
+  "word": "health history",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "1f58a"
+  ],
+  "note": "a clipboard and a pen [sign: HEALTH HISTORY]"
+ },
+ {
+  "file": "L4_L4_symptom.png",
+  "lesson": "Level4-L4",
+  "word": "symptom",
+  "kind": "vocab",
+  "twemoji": [
+   "1f912",
+   "1f927"
+  ],
+  "note": "a person with a fever and a person sneezing [sign: SYMPTOMS]"
+ },
+ {
+  "file": "L4_L4_allergy.png",
+  "lesson": "Level4-L4",
+  "word": "allergy",
+  "kind": "vocab",
+  "twemoji": [
+   "1f927",
+   "1f95c"
+  ],
+  "note": "peanuts and a person sneezing [sign: ALLERGY: PEANUTS]"
+ },
+ {
+  "file": "L4_L4_blood_pressure.png",
+  "lesson": "Level4-L4",
+  "word": "blood pressure",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4aa",
+   "1fa7a"
+  ],
+  "note": "a stethoscope and an arm [sign: 120/80]"
+ },
+ {
+  "file": "L4_L4_rash.png",
+  "lesson": "Level4-L4",
+  "word": "rash",
+  "kind": "vocab",
+  "twemoji": [
+   "1f91a"
+  ],
+  "note": "a hand [sign: RASH]"
+ },
+ {
+  "file": "L4_L4_dizzy.png",
+  "lesson": "Level4-L4",
+  "word": "dizzy",
+  "kind": "vocab",
+  "twemoji": [
+   "1f635-200d-1f4ab"
+  ],
+  "note": "a dizzy face"
+ },
+ {
+  "file": "L4_L4_teeth_cleaning.png",
+  "lesson": "Level4-L4",
+  "word": "teeth cleaning",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9b7",
+   "1faa5"
+  ],
+  "note": "a tooth and a toothbrush [sign: CLEANING]"
+ },
+ {
+  "file": "L4_L4_cavity.png",
+  "lesson": "Level4-L4",
+  "word": "cavity",
+  "kind": "vocab",
+  "twemoji": [
+   "1f50d",
+   "1f9b7"
+  ],
+  "note": "a tooth and a magnifying glass [sign: CAVITY]"
+ },
+ {
+  "file": "L4_L4_flu_shot.png",
+  "lesson": "Level4-L4",
+  "word": "flu shot",
+  "kind": "vocab",
+  "twemoji": [
+   "1f489"
+  ],
+  "note": "a syringe [sign: FLU SHOT]"
+ },
+ {
+  "file": "L4_L4_prescription.png",
+  "lesson": "Level4-L4",
+  "word": "prescription",
+  "kind": "vocab",
+  "twemoji": [
+   "1f48a",
+   "1f4c4"
+  ],
+  "note": "pills and a paper [sign: Rx]"
+ },
+ {
+  "file": "L4_L4_copay.png",
+  "lesson": "Level4-L4",
+  "word": "copay",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b3",
+   "1f4b5"
+  ],
+  "note": "a card and money [sign: COPAY $20]"
+ }
+]

@@ -441,13 +441,15 @@ def r_checksay(s, d, ctx):
     sp = {k: copy.deepcopy(find(s, f'S1 {k}')) for k in ('card', 'text')}
     for e in findre(s, r'S\d+ '): remove(e)
     hy = d.get('head_y', 1.776)
-    for nm, dy in (('head card', 0), ('head shadow', 0.063), ('head chip', 0), ('head1', 0.074), ('head2', 0.514)):
-        geom(find(s, nm), y=hy + dy)
-    geom(find(s, 'head num'), y=hy + 0.143)
+    for nm, dy in (('head card', 0), ('head shadow', 0.063), ('head chip', 0), ('head1', 0.074), ('head2', 0.514), ('head num', 0.143)):
+        e = find(s, nm, must=nm not in ('head chip', 'head num'))   # a start deck made with head_chip=None has no chip
+        if e is not None: geom(e, y=hy + dy)
     if d.get('head_chip'):
         fill(find(s, 'head num'), [d['head_chip']], sz=d.get('head_chip_sz'))
     else:
-        remove(find(s, 'head chip')); remove(find(s, 'head num'))
+        for nm in ('head chip', 'head num'):
+            e = find(s, nm, must=False)
+            if e is not None: remove(e)
         geom(find(s, 'head card'), x=0.596, w=6.747)
         geom(find(s, 'head1'), x=0.85, w=6.2); geom(find(s, 'head2'), x=0.95, w=6.1)
     rows, says = d.get('rows', []), d.get('says', [])

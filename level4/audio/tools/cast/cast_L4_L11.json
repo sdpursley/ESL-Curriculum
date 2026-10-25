@@ -1,0 +1,28 @@
+{
+ "TITLE": "Time Off",
+ "VOICES": {
+  "Narrator": "N",
+  "Luis": "Marco",
+  "Ms. Adams": "Receptionist",
+  "Rosa": "Rosa"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Ms. Adams",
+  "Rosa"
+ ],
+ "NAMES": [
+  "Luis",
+  "Adams",
+  "Rosa",
+  "Anna",
+  "Ben",
+  "San Antonio"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 249,
+  "seconds": 112
+ }
+}

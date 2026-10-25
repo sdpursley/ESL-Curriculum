@@ -1,0 +1,128 @@
+[
+ {
+  "file": "L4_L1_try_food.png",
+  "lesson": "Level4-L1",
+  "word": "try (a new food)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f363",
+   "1f9d1"
+  ],
+  "note": "a person and sushi [sign: NEW!]"
+ },
+ {
+  "file": "L4_L1_travel.png",
+  "lesson": "Level4-L1",
+  "word": "travel",
+  "kind": "vocab",
+  "twemoji": [
+   "1f5fa",
+   "1f9f3"
+  ],
+  "note": "a suitcase and a map"
+ },
+ {
+  "file": "L4_L1_fly.png",
+  "lesson": "Level4-L1",
+  "word": "fly",
+  "kind": "vocab",
+  "twemoji": [
+   "2708"
+  ],
+  "note": "an airplane"
+ },
+ {
+  "file": "L4_L1_snow.png",
+  "lesson": "Level4-L1",
+  "word": "snow",
+  "kind": "vocab",
+  "twemoji": [
+   "2603",
+   "2744"
+  ],
+  "note": "a snowman and a snowflake"
+ },
+ {
+  "file": "L4_L1_ocean.png",
+  "lesson": "Level4-L1",
+  "word": "ocean",
+  "kind": "vocab",
+  "twemoji": [
+   "1f30a"
+  ],
+  "note": "an ocean wave"
+ },
+ {
+  "file": "L4_L1_mountain.png",
+  "lesson": "Level4-L1",
+  "word": "mountain",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3d4"
+  ],
+  "note": "a snowy mountain"
+ },
+ {
+  "file": "L4_L1_desert.png",
+  "lesson": "Level4-L1",
+  "word": "desert",
+  "kind": "vocab",
+  "twemoji": [
+   "1f335",
+   "1f3dc"
+  ],
+  "note": "a desert and a cactus"
+ },
+ {
+  "file": "L4_L1_win_prize.png",
+  "lesson": "Level4-L1",
+  "word": "win a prize",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3c6"
+  ],
+  "note": "a trophy [sign: 1st PRIZE]"
+ },
+ {
+  "file": "L4_L1_ride_horse.png",
+  "lesson": "Level4-L1",
+  "word": "ride a horse",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3c7"
+  ],
+  "note": "a person riding a horse"
+ },
+ {
+  "file": "L4_L1_run_race.png",
+  "lesson": "Level4-L1",
+  "word": "run a race",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3c3",
+   "1f3c5"
+  ],
+  "note": "a runner and a medal [sign: 5K]"
+ },
+ {
+  "file": "L4_L1_camping.png",
+  "lesson": "Level4-L1",
+  "word": "go camping",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3d5"
+  ],
+  "note": "a tent at a campsite"
+ },
+ {
+  "file": "L4_L1_famous.png",
+  "lesson": "Level4-L1",
+  "word": "see a famous person",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f7",
+   "1f9d1-200d-1f3a4"
+  ],
+  "note": "a singer and a camera [sign: FAMOUS!]"
+ }
+]

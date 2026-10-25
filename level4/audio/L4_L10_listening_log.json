@@ -1,0 +1,1064 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Sofia": "refs/Rosa.wav",
+   "Hana": "refs/Ana_af_jessica.wav",
+   "Paul": "refs/Server.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson ten. The two roommates look at their power bill.",
+    "tts_text": "Lesson ten. The two roommates look at their power bill.",
+    "seed": 2026,
+    "hyp": "lesson 10 the 2 roommates look at their power bill",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.96,
+    "dur": 3.13,
+    "raw_peak": 0.8,
+    "pitch_ok": true,
+    "score": 1.56,
+    "f0_med": 190.9,
+    "f0_st_sd": 4.07,
+    "f0_range_st": 12.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Then Sofia calls the electric company.",
+    "tts_text": "Then Sofia calls the electric company.",
+    "seed": 2026,
+    "hyp": "then sofia calls the electric company",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.71,
+    "mean_prob": 0.88,
+    "dur": 2.3,
+    "raw_peak": 0.648,
+    "pitch_ok": true,
+    "score": 1.34,
+    "f0_med": 177.6,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 9.95
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Hana, look at this.",
+    "tts_text": "Hana, look at this.",
+    "seed": 17864,
+    "hyp": "hana look at this",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.88,
+    "dur": 1.6,
+    "raw_peak": 0.495,
+    "pitch_ok": true,
+    "score": 1.482,
+    "f0_med": 230.3,
+    "f0_st_sd": 4.04,
+    "f0_range_st": 13.0
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Our power bill is one forty-two dollars this month!",
+    "tts_text": "Our power bill is one forty-two dollars this month!",
+    "seed": 2026,
+    "hyp": "our power bill is 142 dollars this month",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.94,
+    "dur": 3.26,
+    "raw_peak": 0.663,
+    "pitch_ok": true,
+    "score": 1.521,
+    "f0_med": 195.9,
+    "f0_st_sd": 3.9,
+    "f0_range_st": 12.42
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Hana",
+    "text": "Last month it was only $90.",
+    "tts_text": "Last month it was only $90.",
+    "seed": 41621,
+    "hyp": "last month it was only 90 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 2.02,
+    "raw_peak": 0.664,
+    "pitch_ok": true,
+    "score": 1.543,
+    "f0_med": 219.9,
+    "f0_st_sd": 3.86,
+    "f0_range_st": 12.0
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Hana",
+    "text": "Why is it so high?",
+    "tts_text": "Why is it so high?",
+    "seed": 2026,
+    "hyp": "why is it so high",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 1.87,
+    "raw_peak": 0.546,
+    "pitch_ok": true,
+    "score": 1.568,
+    "f0_med": 224.4,
+    "f0_st_sd": 5.11,
+    "f0_range_st": 13.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Well, we use too much electricity.",
+    "tts_text": "Well, we use too much electricity.",
+    "seed": 2026,
+    "hyp": "well we use too much electricity",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.63,
+    "mean_prob": 0.92,
+    "dur": 2.41,
+    "raw_peak": 0.538,
+    "pitch_ok": true,
+    "score": 1.373,
+    "f0_med": 234.3,
+    "f0_st_sd": 3.01,
+    "f0_range_st": 9.86
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "The heat is on all day, and the lights are on in empty rooms.",
+    "tts_text": "The heat is on all day, and the lights are on in empty rooms.",
+    "seed": 2026,
+    "hyp": "the heat is on all day and the lights are on in empty rooms",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 3.69,
+    "raw_peak": 0.68,
+    "pitch_ok": true,
+    "score": 1.407,
+    "f0_med": 206.4,
+    "f0_st_sd": 2.78,
+    "f0_range_st": 9.21
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Hana",
+    "text": "You're right. I always forget to turn them off.",
+    "tts_text": "You're right. I always forget to turn them off.",
+    "seed": 9945,
+    "hyp": "you're right i always forget to turn them off",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 2.72,
+    "raw_peak": 0.747,
+    "pitch_ok": true,
+    "score": 1.594,
+    "f0_med": 225.0,
+    "f0_st_sd": 4.25,
+    "f0_range_st": 13.0
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Hana",
+    "text": "Oh, the TV is on now, and nobody is watching.",
+    "tts_text": "Oh, the TV is on now, and nobody is watching.",
+    "seed": 25783,
+    "hyp": "oh the tv is on now and nobody is watching",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.95,
+    "dur": 3.15,
+    "raw_peak": 0.742,
+    "pitch_ok": true,
+    "score": 1.555,
+    "f0_med": 206.4,
+    "f0_st_sd": 4.43,
+    "f0_range_st": 14.3
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Hana",
+    "text": "I'll turn it off.",
+    "tts_text": "I'll turn it off.",
+    "seed": 9945,
+    "hyp": "i'll turn it off",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 0.99,
+    "dur": 0.94,
+    "raw_peak": 0.685,
+    "pitch_ok": true,
+    "score": 1.593,
+    "f0_med": 356.2,
+    "f0_st_sd": 4.5,
+    "f0_range_st": 12.28
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "OK, let's make a plan.",
+    "tts_text": "OK, let's make a plan.",
+    "seed": 25783,
+    "hyp": "ok let's make a plan",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.92,
+    "dur": 2.04,
+    "raw_peak": 0.479,
+    "pitch_ok": true,
+    "score": 1.319,
+    "f0_med": 238.4,
+    "f0_st_sd": 2.68,
+    "f0_range_st": 9.08
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "First, we can turn down the heat at night.",
+    "tts_text": "First, we can turn down the heat at night.",
+    "seed": 2026,
+    "hyp": "first we can turn down the heat at night",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 1.0,
+    "dur": 2.34,
+    "raw_peak": 0.414,
+    "pitch_ok": true,
+    "score": 1.343,
+    "f0_med": 204.0,
+    "f0_st_sd": 2.31,
+    "f0_range_st": 7.24
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Sixty-eight degrees is fine.",
+    "tts_text": "Sixty-eight degrees is fine.",
+    "seed": 2026,
+    "hyp": "68 degrees is fine",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 1.71,
+    "raw_peak": 0.415,
+    "pitch_ok": true,
+    "score": 1.405,
+    "f0_med": 210.0,
+    "f0_st_sd": 3.04,
+    "f0_range_st": 7.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Hana",
+    "text": "Good idea. And I'm going to unplug my phone charger in the morning.",
+    "tts_text": "Good idea. And I'm going to unplug my phone charger in the morning.",
+    "seed": 17864,
+    "hyp": "good idea and i'm going to unplug my phone charger in the morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 3.81,
+    "raw_peak": 0.865,
+    "pitch_ok": true,
+    "score": 1.593,
+    "f0_med": 233.7,
+    "f0_st_sd": 4.47,
+    "f0_range_st": 14.17
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Hana",
+    "text": "It uses electricity all day.",
+    "tts_text": "It uses electricity all day.",
+    "seed": 2026,
+    "hyp": "it uses electricity all day",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 2.47,
+    "raw_peak": 0.68,
+    "pitch_ok": true,
+    "score": 1.432,
+    "f0_med": 217.4,
+    "f0_st_sd": 3.01,
+    "f0_range_st": 9.55
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Also, let's put on sweaters and not turn up the heat.",
+    "tts_text": "Also, let's put on sweaters and not turn up the heat.",
+    "seed": 9945,
+    "hyp": "also let's put on sweaters and not turn up the heat",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 3.02,
+    "raw_peak": 0.544,
+    "pitch_ok": true,
+    "score": 1.483,
+    "f0_med": 200.5,
+    "f0_st_sd": 3.29,
+    "f0_range_st": 10.16
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Can you call the electric company?",
+    "tts_text": "Can you call the electric company?",
+    "seed": 2026,
+    "hyp": "can you call the electric company",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.94,
+    "dur": 1.75,
+    "raw_peak": 0.415,
+    "pitch_ok": true,
+    "score": 1.235,
+    "f0_med": 248.3,
+    "f0_st_sd": 1.95,
+    "f0_range_st": 6.22
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "I have class.",
+    "tts_text": "I have class.",
+    "seed": 17864,
+    "hyp": "i have class",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.93,
+    "dur": 1.19,
+    "raw_peak": 0.569,
+    "pitch_ok": true,
+    "score": 1.45,
+    "f0_med": 190.3,
+    "f0_st_sd": 3.48,
+    "f0_range_st": 9.85
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Hana",
+    "text": "Sorry, I have work.",
+    "tts_text": "Sorry, I have work.",
+    "seed": 17864,
+    "hyp": "sorry i have work",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.95,
+    "dur": 1.53,
+    "raw_peak": 0.859,
+    "pitch_ok": true,
+    "score": 1.543,
+    "f0_med": 215.5,
+    "f0_st_sd": 3.94,
+    "f0_range_st": 14.96
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Hana",
+    "text": "Can you call them tonight?",
+    "tts_text": "Can you call them tonight?",
+    "seed": 2026,
+    "hyp": "can you call them tonight",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 1.6,
+    "raw_peak": 0.495,
+    "pitch_ok": true,
+    "score": 1.586,
+    "f0_med": 210.6,
+    "f0_st_sd": 4.24,
+    "f0_range_st": 15.43
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Sure. I'll call them now.",
+    "tts_text": "Sure. I'll call them now.",
+    "seed": 2026,
+    "hyp": "sure i'll call them now",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 1.51,
+    "raw_peak": 0.86,
+    "pitch_ok": true,
+    "score": 1.462,
+    "f0_med": 261.5,
+    "f0_st_sd": 3.29,
+    "f0_range_st": 8.26
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Paul",
+    "text": "Thank you for calling City Power.",
+    "tts_text": "Thank you for calling City Power.",
+    "seed": 2026,
+    "hyp": "thank you for calling city power",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.93,
+    "dur": 1.69,
+    "raw_peak": 0.912,
+    "pitch_ok": true,
+    "score": 1.528,
+    "f0_med": 104.4,
+    "f0_st_sd": 4.5,
+    "f0_range_st": 15.17
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Paul",
+    "text": "This is Paul.",
+    "tts_text": "This is Paul.",
+    "seed": 2026,
+    "hyp": "this is paul",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.96,
+    "dur": 0.92,
+    "raw_peak": 0.798,
+    "pitch_ok": true,
+    "score": 1.155,
+    "f0_med": 136.1,
+    "f0_st_sd": 1.32,
+    "f0_range_st": 4.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Paul",
+    "text": "How can I help you?",
+    "tts_text": "How can I help you?",
+    "seed": 33702,
+    "hyp": "how can i help you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 0.93,
+    "raw_peak": 0.974,
+    "pitch_ok": true,
+    "score": 1.577,
+    "f0_med": 94.1,
+    "f0_st_sd": 8.04,
+    "f0_range_st": 21.78
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Hi. I'm calling about my bill.",
+    "tts_text": "Hi. I'm calling about my bill.",
+    "seed": 2026,
+    "hyp": "hi i'm calling about my bill",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 2.19,
+    "raw_peak": 0.587,
+    "pitch_ok": true,
+    "score": 1.451,
+    "f0_med": 251.9,
+    "f0_st_sd": 3.23,
+    "f0_range_st": 9.35
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "When is it due?",
+    "tts_text": "When is it due?",
+    "seed": 41621,
+    "hyp": "when is it due",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.64,
+    "raw_peak": 0.355,
+    "pitch_ok": true,
+    "score": 1.284,
+    "f0_med": 199.3,
+    "f0_st_sd": 2.1,
+    "f0_range_st": 6.79
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Paul",
+    "text": "Can I have your account number, please?",
+    "tts_text": "Can I have your account number, please?",
+    "seed": 2026,
+    "hyp": "can i have your account number please",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 1.95,
+    "raw_peak": 0.95,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 128.5,
+    "f0_st_sd": 6.33,
+    "f0_range_st": 18.38
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Yes. It's four, seven, two, one, nine.",
+    "tts_text": "Yes. It's four, seven, two, one, nine.",
+    "seed": 25783,
+    "hyp": "yes it's 47219",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.87,
+    "dur": 3.63,
+    "raw_peak": 0.602,
+    "pitch_ok": true,
+    "score": 1.301,
+    "f0_med": 214.9,
+    "f0_st_sd": 2.85,
+    "f0_range_st": 9.6
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Paul",
+    "text": "Thank you. Your bill is due on March fifteenth.",
+    "tts_text": "Thank you. Your bill is due on March fifteenth.",
+    "seed": 2026,
+    "hyp": "thank you your bill is due on march fifteenth",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.94,
+    "dur": 2.48,
+    "raw_peak": 1.004,
+    "pitch_ok": true,
+    "score": 1.545,
+    "f0_med": 120.2,
+    "f0_st_sd": 5.03,
+    "f0_range_st": 16.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "OK. Also, do you have any programs to help us save energy?",
+    "tts_text": "OK. Also, do you have any programs to help us save energy?",
+    "seed": 2026,
+    "hyp": "ok also do you have any programs to help us save energy",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.97,
+    "dur": 4.18,
+    "raw_peak": 0.827,
+    "pitch_ok": true,
+    "score": 1.43,
+    "f0_med": 219.9,
+    "f0_st_sd": 3.08,
+    "f0_range_st": 10.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Paul",
+    "text": "Yes. We have a free home energy check.",
+    "tts_text": "Yes. We have a free home energy check.",
+    "seed": 17864,
+    "hyp": "yes we have a free home energy check",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.96,
+    "dur": 2.4,
+    "raw_peak": 0.901,
+    "pitch_ok": true,
+    "score": 1.391,
+    "f0_med": 115.8,
+    "f0_st_sd": 2.9,
+    "f0_range_st": 11.46
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Paul",
+    "text": "Someone visits your apartment and gives you tips.",
+    "tts_text": "Someone visits your apartment and gives you tips.",
+    "seed": 2026,
+    "hyp": "someone visits your apartment and gives you tips",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.98,
+    "dur": 2.43,
+    "raw_peak": 1.103,
+    "pitch_ok": true,
+    "score": 1.462,
+    "f0_med": 121.3,
+    "f0_st_sd": 3.23,
+    "f0_range_st": 13.35
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Paul",
+    "text": "And you can get free light bulbs.",
+    "tts_text": "And you can get free light bulbs.",
+    "seed": 2026,
+    "hyp": "and you can get free light bulbs",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.58,
+    "mean_prob": 0.87,
+    "dur": 1.7,
+    "raw_peak": 0.803,
+    "pitch_ok": true,
+    "score": 1.472,
+    "f0_med": 103.5,
+    "f0_st_sd": 4.53,
+    "f0_range_st": 12.07
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "That sounds great.",
+    "tts_text": "That sounds great.",
+    "seed": 2026,
+    "hyp": "that sounds great",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.96,
+    "dur": 1.47,
+    "raw_peak": 0.524,
+    "pitch_ok": true,
+    "score": 1.346,
+    "f0_med": 194.8,
+    "f0_st_sd": 2.58,
+    "f0_range_st": 8.29
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Can I sign up?",
+    "tts_text": "Can I sign up?",
+    "seed": 17864,
+    "hyp": "can i sign up",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.07,
+    "raw_peak": 0.561,
+    "pitch_ok": true,
+    "score": 1.457,
+    "f0_med": 212.4,
+    "f0_st_sd": 3.26,
+    "f0_range_st": 9.9
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Paul",
+    "text": "Sure. Is next Tuesday morning OK?",
+    "tts_text": "Sure. Is next Tuesday morning OK?",
+    "seed": 2026,
+    "hyp": "sure is next tuesday morning ok",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.94,
+    "dur": 2.55,
+    "raw_peak": 1.019,
+    "pitch_ok": true,
+    "score": 1.543,
+    "f0_med": 131.1,
+    "f0_st_sd": 4.7,
+    "f0_range_st": 19.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Sofia",
+    "text": "Yes, that's perfect. Thank you.",
+    "tts_text": "Yes, that's perfect. Thank you.",
+    "seed": 2026,
+    "hyp": "yes that's perfect thank you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.86,
+    "raw_peak": 0.516,
+    "pitch_ok": true,
+    "score": 1.485,
+    "f0_med": 264.5,
+    "f0_st_sd": 3.39,
+    "f0_range_st": 9.71
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Paul",
+    "text": "You're welcome. And don't forget to turn off the lights when you leave a room!",
+    "tts_text": "You're welcome. And don't forget to turn off the lights when you leave a room!",
+    "seed": 2026,
+    "hyp": "you're welcome and don't forget to turn off the lights when you leave a room",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.99,
+    "dur": 3.48,
+    "raw_peak": 0.935,
+    "pitch_ok": true,
+    "score": 1.59,
+    "f0_med": 140.9,
+    "f0_st_sd": 4.35,
+    "f0_range_st": 14.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   8.08,
+   13.49,
+   "Sofia",
+   "Hana, look at this. Our power bill is one forty-two dollars this month!"
+  ],
+  [
+   14.79,
+   19.23,
+   "Hana",
+   "Last month it was only $90. Why is it so high?"
+  ],
+  [
+   20.53,
+   27.18,
+   "Sofia",
+   "Well, we use too much electricity. The heat is on all day, and the lights are on in empty rooms."
+  ],
+  [
+   28.48,
+   36.39,
+   "Hana",
+   "You're right. I always forget to turn them off. Oh, the TV is on now, and nobody is watching. I'll turn it off."
+  ],
+  [
+   37.69,
+   44.88,
+   "Sofia",
+   "OK, let's make a plan. First, we can turn down the heat at night. Sixty-eight degrees is fine."
+  ],
+  [
+   46.18,
+   53.01,
+   "Hana",
+   "Good idea. And I'm going to unplug my phone charger in the morning. It uses electricity all day."
+  ],
+  [
+   54.31,
+   61.37,
+   "Sofia",
+   "Also, let's put on sweaters and not turn up the heat. Can you call the electric company? I have class."
+  ],
+  [
+   62.67,
+   66.35,
+   "Hana",
+   "Sorry, I have work. Can you call them tonight?"
+  ],
+  [
+   67.65,
+   69.16,
+   "Sofia",
+   "Sure. I'll call them now."
+  ],
+  [
+   70.46,
+   75.1,
+   "Paul",
+   "Thank you for calling City Power. This is Paul. How can I help you?"
+  ],
+  [
+   76.4,
+   80.78,
+   "Sofia",
+   "Hi. I'm calling about my bill. When is it due?"
+  ],
+  [
+   82.08,
+   84.03,
+   "Paul",
+   "Can I have your account number, please?"
+  ],
+  [
+   85.33,
+   88.96,
+   "Sofia",
+   "Yes. It's four, seven, two, one, nine."
+  ],
+  [
+   90.26,
+   92.74,
+   "Paul",
+   "Thank you. Your bill is due on March fifteenth."
+  ],
+  [
+   94.04,
+   98.22,
+   "Sofia",
+   "OK. Also, do you have any programs to help us save energy?"
+  ],
+  [
+   99.52,
+   107.15,
+   "Paul",
+   "Yes. We have a free home energy check. Someone visits your apartment and gives you tips. And you can get free light bulbs."
+  ],
+  [
+   108.45,
+   111.54,
+   "Sofia",
+   "That sounds great. Can I sign up?"
+  ],
+  [
+   112.84,
+   115.39,
+   "Paul",
+   "Sure. Is next Tuesday morning OK?"
+  ],
+  [
+   116.69,
+   118.55,
+   "Sofia",
+   "Yes, that's perfect. Thank you."
+  ],
+  [
+   119.85,
+   123.33,
+   "Paul",
+   "You're welcome. And don't forget to turn off the lights when you leave a room!"
+  ]
+ ]
+}

@@ -1,0 +1,1139 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Luc\u00eda": "refs/Rosa.wav",
+   "Ahmed": "refs/Marco.wav",
+   "Ms. Grant": "refs/Kim.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson one. It's the first night of an English class at a community center.",
+    "tts_text": "Lesson one. It's the first night of an English class at a community center.",
+    "seed": 2026,
+    "hyp": "lesson 1 it's the first night of an english class at a community center",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.97,
+    "dur": 3.9,
+    "raw_peak": 0.635,
+    "pitch_ok": true,
+    "score": 1.488,
+    "f0_med": 195.9,
+    "f0_st_sd": 3.46,
+    "f0_range_st": 11.67
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Luc\u00eda and Ahmed meet before class.",
+    "tts_text": "Luc\u00eda and Ahmed meet before class.",
+    "seed": 2026,
+    "hyp": "lucia and ahmed meet before class",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.95,
+    "dur": 2.51,
+    "raw_peak": 0.585,
+    "pitch_ok": true,
+    "score": 1.457,
+    "f0_med": 186.0,
+    "f0_st_sd": 3.35,
+    "f0_range_st": 10.24
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "Hi, I'm Ahmed.",
+    "tts_text": "Hi, I'm Ahmed.",
+    "seed": 2026,
+    "hyp": "hi i'm ahmed",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.82,
+    "dur": 1.31,
+    "raw_peak": 1.033,
+    "pitch_ok": true,
+    "score": 1.298,
+    "f0_med": 122.0,
+    "f0_st_sd": 3.2,
+    "f0_range_st": 9.84
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "Is this seat free?",
+    "tts_text": "Is this seat free?",
+    "seed": 2026,
+    "hyp": "is this seat free",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.9,
+    "dur": 1.05,
+    "raw_peak": 0.739,
+    "pitch_ok": true,
+    "score": 1.099,
+    "f0_med": 127.8,
+    "f0_st_sd": 1.31,
+    "f0_range_st": 3.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "Sure. I'm Luc\u00eda.",
+    "tts_text": "Sure. I'm Luc\u00eda.",
+    "seed": 2026,
+    "hyp": "sure i'm lucia",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.91,
+    "dur": 1.72,
+    "raw_peak": 0.551,
+    "pitch_ok": true,
+    "score": 1.368,
+    "f0_med": 206.4,
+    "f0_st_sd": 3.08,
+    "f0_range_st": 9.18
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "Nice to meet you.",
+    "tts_text": "Nice to meet you.",
+    "seed": 9945,
+    "hyp": "nice to meet you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.94,
+    "dur": 1.0,
+    "raw_peak": 0.434,
+    "pitch_ok": true,
+    "score": 1.335,
+    "f0_med": 225.0,
+    "f0_st_sd": 2.61,
+    "f0_range_st": 7.58
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "Is this your first class here?",
+    "tts_text": "Is this your first class here?",
+    "seed": 2026,
+    "hyp": "is this your first class here",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.94,
+    "dur": 1.49,
+    "raw_peak": 0.408,
+    "pitch_ok": true,
+    "score": 1.387,
+    "f0_med": 266.1,
+    "f0_st_sd": 2.99,
+    "f0_range_st": 9.91
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "Yes, it is.",
+    "tts_text": "Yes, it is.",
+    "seed": 9945,
+    "hyp": "yes it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.93,
+    "dur": 1.15,
+    "raw_peak": 0.81,
+    "pitch_ok": true,
+    "score": 1.101,
+    "f0_med": 124.1,
+    "f0_st_sd": 1.16,
+    "f0_range_st": 3.65
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "Have you ever taken a class at this center?",
+    "tts_text": "Have you ever taken a class at this center?",
+    "seed": 2026,
+    "hyp": "have you ever taken a class at this center",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.9,
+    "raw_peak": 0.993,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 132.3,
+    "f0_st_sd": 4.09,
+    "f0_range_st": 12.62
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "No, I haven't.",
+    "tts_text": "No, I haven't.",
+    "seed": 2026,
+    "hyp": "no i haven't",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.49,
+    "raw_peak": 0.562,
+    "pitch_ok": true,
+    "score": 1.57,
+    "f0_med": 196.5,
+    "f0_st_sd": 4.32,
+    "f0_range_st": 11.83
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "But my sister has.",
+    "tts_text": "But my sister has.",
+    "seed": 2026,
+    "hyp": "but my sister has",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.87,
+    "dur": 1.27,
+    "raw_peak": 0.422,
+    "pitch_ok": true,
+    "score": 1.076,
+    "f0_med": 237.0,
+    "f0_st_sd": 1.35,
+    "f0_range_st": 3.58
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "What kind of work do you do?",
+    "tts_text": "What kind of work do you do?",
+    "seed": 2026,
+    "hyp": "what kind of work do you do",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.98,
+    "dur": 1.57,
+    "raw_peak": 0.4,
+    "pitch_ok": true,
+    "score": 1.345,
+    "f0_med": 231.6,
+    "f0_st_sd": 2.44,
+    "f0_range_st": 8.0
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "I work at a warehouse.",
+    "tts_text": "I work at a warehouse.",
+    "seed": 2026,
+    "hyp": "i work at a warehouse",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.18,
+    "raw_peak": 0.911,
+    "pitch_ok": true,
+    "score": 1.367,
+    "f0_med": 108.1,
+    "f0_st_sd": 2.61,
+    "f0_range_st": 8.26
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "Have you ever worked in a restaurant?",
+    "tts_text": "Have you ever worked in a restaurant?",
+    "seed": 2026,
+    "hyp": "have you ever worked in a restaurant",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 1.52,
+    "raw_peak": 0.918,
+    "pitch_ok": true,
+    "score": 1.407,
+    "f0_med": 130.8,
+    "f0_st_sd": 2.8,
+    "f0_range_st": 9.74
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "Yes, I have.",
+    "tts_text": "Yes, I have.",
+    "seed": 9945,
+    "hyp": "yes i have",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.03,
+    "raw_peak": 0.538,
+    "pitch_ok": true,
+    "score": 1.324,
+    "f0_med": 200.5,
+    "f0_st_sd": 2.37,
+    "f0_range_st": 6.9
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "I worked in a pizza restaurant in 2019.",
+    "tts_text": "I worked in a pizza restaurant in 2019.",
+    "seed": 2026,
+    "hyp": "i worked in a pizza restaurant in 2019",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.88,
+    "raw_peak": 0.688,
+    "pitch_ok": true,
+    "score": 1.482,
+    "f0_med": 193.7,
+    "f0_st_sd": 3.33,
+    "f0_range_st": 9.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "It was hard, but I liked it.",
+    "tts_text": "It was hard, but I liked it.",
+    "seed": 2026,
+    "hyp": "it was hard but i liked it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 1.95,
+    "raw_peak": 0.511,
+    "pitch_ok": true,
+    "score": 1.442,
+    "f0_med": 240.5,
+    "f0_st_sd": 3.06,
+    "f0_range_st": 9.03
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Grant",
+    "text": "Good evening! I'm Ms.",
+    "tts_text": "Good evening! I'm Ms.",
+    "seed": 41621,
+    "hyp": "good evening i'm ms",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.53,
+    "mean_prob": 0.84,
+    "dur": 2.18,
+    "raw_peak": 0.207,
+    "pitch_ok": true,
+    "score": 1.064,
+    "f0_med": 180.7,
+    "f0_st_sd": 1.51,
+    "f0_range_st": 5.5
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Grant",
+    "text": "Grant, your teacher.",
+    "tts_text": "Grant, your teacher.",
+    "seed": 2026,
+    "hyp": "grant your teacher",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.93,
+    "dur": 1.5,
+    "raw_peak": 0.259,
+    "pitch_ok": true,
+    "score": 1.32,
+    "f0_med": 199.3,
+    "f0_st_sd": 2.6,
+    "f0_range_st": 7.54
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Grant",
+    "text": "Tonight we're going to find things we have in common.",
+    "tts_text": "Tonight we're going to find things we have in common.",
+    "seed": 2026,
+    "hyp": "tonight we're going to find things we have in common",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.96,
+    "dur": 2.99,
+    "raw_peak": 0.284,
+    "pitch_ok": true,
+    "score": 1.421,
+    "f0_med": 169.6,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 10.54
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Grant",
+    "text": "Luc\u00eda and Ahmed, find two things you've both done.",
+    "tts_text": "Luc\u00eda and Ahmed, find two things you've both done.",
+    "seed": 2026,
+    "hyp": "lucia and ahmed find 2 things you've both done",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.51,
+    "mean_prob": 0.92,
+    "dur": 3.71,
+    "raw_peak": 0.287,
+    "pitch_ok": true,
+    "score": 1.46,
+    "f0_med": 166.7,
+    "f0_st_sd": 3.58,
+    "f0_range_st": 11.19
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "OK. Ahmed, have you ever seen snow?",
+    "tts_text": "OK. Ahmed, have you ever seen snow?",
+    "seed": 2026,
+    "hyp": "ok ahmed have you ever seen snow",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.95,
+    "dur": 2.86,
+    "raw_peak": 0.82,
+    "pitch_ok": true,
+    "score": 1.534,
+    "f0_med": 221.2,
+    "f0_st_sd": 3.91,
+    "f0_range_st": 13.46
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "Yes! I saw snow for the first time last winter.",
+    "tts_text": "Yes! I saw snow for the first time last winter.",
+    "seed": 2026,
+    "hyp": "yes i saw snow for the first time last winter",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.98,
+    "dur": 3.18,
+    "raw_peak": 1.006,
+    "pitch_ok": true,
+    "score": 1.553,
+    "f0_med": 93.0,
+    "f0_st_sd": 3.82,
+    "f0_range_st": 10.65
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "It was cold, but beautiful.",
+    "tts_text": "It was cold, but beautiful.",
+    "seed": 2026,
+    "hyp": "it was cold but beautiful",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.68,
+    "raw_peak": 0.904,
+    "pitch_ok": true,
+    "score": 1.48,
+    "f0_med": 136.9,
+    "f0_st_sd": 3.39,
+    "f0_range_st": 10.42
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "Me too. I've seen snow two times.",
+    "tts_text": "Me too. I've seen snow two times.",
+    "seed": 2026,
+    "hyp": "me too i've seen snow 2 times",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 2.95,
+    "raw_peak": 0.609,
+    "pitch_ok": true,
+    "score": 1.548,
+    "f0_med": 254.1,
+    "f0_st_sd": 4.74,
+    "f0_range_st": 14.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "Have you ever ridden a horse?",
+    "tts_text": "Have you ever ridden a horse?",
+    "seed": 2026,
+    "hyp": "have you ever ridden a horse",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.46,
+    "raw_peak": 0.494,
+    "pitch_ok": true,
+    "score": 1.491,
+    "f0_med": 188.7,
+    "f0_st_sd": 3.34,
+    "f0_range_st": 11.04
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "No, never. I've never ridden a horse. Have you?",
+    "tts_text": "No, never. I've never ridden a horse. Have you?",
+    "seed": 2026,
+    "hyp": "no never i've never ridden a horse have you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.98,
+    "dur": 2.79,
+    "raw_peak": 0.946,
+    "pitch_ok": true,
+    "score": 1.576,
+    "f0_med": 124.8,
+    "f0_st_sd": 4.31,
+    "f0_range_st": 14.98
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "Yes, I have.",
+    "tts_text": "Yes, I have.",
+    "seed": 9945,
+    "hyp": "yes i have",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.03,
+    "raw_peak": 0.538,
+    "pitch_ok": true,
+    "score": 1.324,
+    "f0_med": 200.5,
+    "f0_st_sd": 2.37,
+    "f0_range_st": 6.9
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "Really? When did you do that?",
+    "tts_text": "Really? When did you do that?",
+    "seed": 2026,
+    "hyp": "really when did you do that",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.98,
+    "dur": 1.49,
+    "raw_peak": 1.012,
+    "pitch_ok": true,
+    "score": 1.428,
+    "f0_med": 138.5,
+    "f0_st_sd": 3.01,
+    "f0_range_st": 9.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "When I was ten, on my uncle's farm.",
+    "tts_text": "When I was ten, on my uncle's farm.",
+    "seed": 2026,
+    "hyp": "when i was 10 on my uncle's farm",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.56,
+    "mean_prob": 0.86,
+    "dur": 2.24,
+    "raw_peak": 0.737,
+    "pitch_ok": true,
+    "score": 1.254,
+    "f0_med": 207.6,
+    "f0_st_sd": 2.63,
+    "f0_range_st": 7.75
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "OK, snow is one thing.",
+    "tts_text": "OK, snow is one thing.",
+    "seed": 2026,
+    "hyp": "ok snow is 1 thing",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.94,
+    "dur": 1.83,
+    "raw_peak": 0.454,
+    "pitch_ok": true,
+    "score": 1.372,
+    "f0_med": 241.9,
+    "f0_st_sd": 2.9,
+    "f0_range_st": 9.66
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "Have you ever run a race?",
+    "tts_text": "Have you ever run a race?",
+    "seed": 9945,
+    "hyp": "have you ever run a race",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 1.63,
+    "raw_peak": 0.57,
+    "pitch_ok": true,
+    "score": 1.586,
+    "f0_med": 199.3,
+    "f0_st_sd": 4.47,
+    "f0_range_st": 13.72
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "Yes, I ran a 5k last year.",
+    "tts_text": "Yes, I ran a five K last year.",
+    "seed": 9945,
+    "hyp": "yes i ran a 5k last year",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.95,
+    "dur": 2.0,
+    "raw_peak": 0.942,
+    "pitch_ok": true,
+    "score": 1.368,
+    "f0_med": 111.2,
+    "f0_st_sd": 2.8,
+    "f0_range_st": 9.51
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "I didn't win, but I finished!",
+    "tts_text": "I didn't win, but I finished!",
+    "seed": 2026,
+    "hyp": "i didn't win but i finished",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.85,
+    "raw_peak": 1.018,
+    "pitch_ok": true,
+    "score": 1.568,
+    "f0_med": 128.5,
+    "f0_st_sd": 4.26,
+    "f0_range_st": 13.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "I've run a race, too.",
+    "tts_text": "I've run a race, too.",
+    "seed": 2026,
+    "hyp": "i've run a race too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.9,
+    "dur": 1.3,
+    "raw_peak": 0.542,
+    "pitch_ok": true,
+    "score": 1.323,
+    "f0_med": 194.2,
+    "f0_st_sd": 2.81,
+    "f0_range_st": 9.23
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "My company has a race every summer.",
+    "tts_text": "My company has a race every summer.",
+    "seed": 2026,
+    "hyp": "my company has a race every summer",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 2.31,
+    "raw_peak": 0.733,
+    "pitch_ok": true,
+    "score": 1.495,
+    "f0_med": 206.4,
+    "f0_st_sd": 3.46,
+    "f0_range_st": 10.75
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "Great. So we have both seen snow, and we have both run a race.",
+    "tts_text": "Great. So we have both seen snow, and we have both run a race.",
+    "seed": 2026,
+    "hyp": "great so we have both seen snow and we have both run a race",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.68,
+    "mean_prob": 0.95,
+    "dur": 4.1,
+    "raw_peak": 1.006,
+    "pitch_ok": true,
+    "score": 1.395,
+    "f0_med": 134.6,
+    "f0_st_sd": 2.97,
+    "f0_range_st": 9.75
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Grant",
+    "text": "Good job! Now, what have you never done, but you want to try?",
+    "tts_text": "Good job! Now, what have you never done, but you want to try?",
+    "seed": 2026,
+    "hyp": "good job now what have you never done but you want to try",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 3.92,
+    "raw_peak": 0.459,
+    "pitch_ok": true,
+    "score": 1.57,
+    "f0_med": 165.7,
+    "f0_st_sd": 3.97,
+    "f0_range_st": 13.55
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "I want to go camping.",
+    "tts_text": "I want to go camping.",
+    "seed": 2026,
+    "hyp": "i want to go camping",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.89,
+    "dur": 1.26,
+    "raw_peak": 0.989,
+    "pitch_ok": true,
+    "score": 1.399,
+    "f0_med": 132.7,
+    "f0_st_sd": 3.41,
+    "f0_range_st": 9.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ahmed",
+    "text": "I've never slept in a tent.",
+    "tts_text": "I've never slept in a tent.",
+    "seed": 2026,
+    "hyp": "i've never slept in a tent",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 1.34,
+    "raw_peak": 0.746,
+    "pitch_ok": true,
+    "score": 1.416,
+    "f0_med": 113.5,
+    "f0_st_sd": 2.86,
+    "f0_range_st": 8.16
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "And I want to try sushi.",
+    "tts_text": "And I want to try sushi.",
+    "seed": 2026,
+    "hyp": "and i want to try sushi",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.94,
+    "dur": 1.65,
+    "raw_peak": 0.486,
+    "pitch_ok": true,
+    "score": 1.537,
+    "f0_med": 230.3,
+    "f0_st_sd": 4.87,
+    "f0_range_st": 14.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luc\u00eda",
+    "text": "I've never eaten it.",
+    "tts_text": "I've never eaten it.",
+    "seed": 2026,
+    "hyp": "i've never eaten it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.98,
+    "dur": 1.1,
+    "raw_peak": 0.719,
+    "pitch_ok": true,
+    "score": 1.528,
+    "f0_med": 213.6,
+    "f0_st_sd": 3.62,
+    "f0_range_st": 10.91
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   9.06,
+   11.97,
+   "Ahmed",
+   "Hi, I'm Ahmed. Is this seat free?"
+  ],
+  [
+   13.27,
+   18.58,
+   "Luc\u00eda",
+   "Sure. I'm Luc\u00eda. Nice to meet you. Is this your first class here?"
+  ],
+  [
+   19.88,
+   23.48,
+   "Ahmed",
+   "Yes, it is. Have you ever taken a class at this center?"
+  ],
+  [
+   24.78,
+   30.21,
+   "Luc\u00eda",
+   "No, I haven't. But my sister has. What kind of work do you do?"
+  ],
+  [
+   31.51,
+   34.76,
+   "Ahmed",
+   "I work at a warehouse. Have you ever worked in a restaurant?"
+  ],
+  [
+   36.06,
+   43.02,
+   "Luc\u00eda",
+   "Yes, I have. I worked in a pizza restaurant in 2019. It was hard, but I liked it."
+  ],
+  [
+   44.32,
+   52.09,
+   "Ms. Grant",
+   "Good evening! I'm Ms. Grant, your teacher. Tonight we're going to find things we have in common."
+  ],
+  [
+   52.84,
+   56.55,
+   "Ms. Grant",
+   "Luc\u00eda and Ahmed, find two things you've both done."
+  ],
+  [
+   57.85,
+   60.71,
+   "Luc\u00eda",
+   "OK. Ahmed, have you ever seen snow?"
+  ],
+  [
+   62.01,
+   67.42,
+   "Ahmed",
+   "Yes! I saw snow for the first time last winter. It was cold, but beautiful."
+  ],
+  [
+   68.72,
+   73.68,
+   "Luc\u00eda",
+   "Me too. I've seen snow two times. Have you ever ridden a horse?"
+  ],
+  [
+   74.98,
+   77.77,
+   "Ahmed",
+   "No, never. I've never ridden a horse. Have you?"
+  ],
+  [
+   79.07,
+   80.1,
+   "Luc\u00eda",
+   "Yes, I have."
+  ],
+  [
+   81.4,
+   82.89,
+   "Ahmed",
+   "Really? When did you do that?"
+  ],
+  [
+   84.19,
+   90.99,
+   "Luc\u00eda",
+   "When I was ten, on my uncle's farm. OK, snow is one thing. Have you ever run a race?"
+  ],
+  [
+   92.29,
+   96.69,
+   "Ahmed",
+   "Yes, I ran a 5k last year. I didn't win, but I finished!"
+  ],
+  [
+   97.99,
+   102.15,
+   "Luc\u00eda",
+   "I've run a race, too. My company has a race every summer."
+  ],
+  [
+   103.45,
+   107.55,
+   "Ahmed",
+   "Great. So we have both seen snow, and we have both run a race."
+  ],
+  [
+   108.85,
+   112.77,
+   "Ms. Grant",
+   "Good job! Now, what have you never done, but you want to try?"
+  ],
+  [
+   114.07,
+   117.22,
+   "Ahmed",
+   "I want to go camping. I've never slept in a tent."
+  ],
+  [
+   118.52,
+   121.82,
+   "Luc\u00eda",
+   "And I want to try sushi. I've never eaten it."
+  ]
+ ]
+}

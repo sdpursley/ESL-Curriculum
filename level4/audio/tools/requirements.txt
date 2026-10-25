@@ -1,0 +1,7 @@
+# Level 4 draft audio (Chatterbox + faster-whisper checks + Kokoro reference clips). Python 3.11; system program: ffmpeg.
+#   python3.11 -m venv .venv-audio && .venv-audio/bin/pip install -r level4/audio/tools/requirements.txt
+# Same pins as the box that made Lessons 4-5 (torch 2.6.0 CPU wheels there). For CPU-only Linux wheels add
+#   --extra-index-url https://download.pytorch.org/whl/cpu ; for an NVIDIA GPU install the CUDA build of torch 2.6.0 / torchaudio 2.6.0
+#   (https://pytorch.org/get-started/previous-versions/) BEFORE this file; on Apple Silicon the default wheels include MPS.
+-r ../../../../tools/audio/requirements.txt
+kokoro-onnx==0.6.1   # make_refs_L4.py (reference clips); model files go in tools/audio/models/ (not committed)

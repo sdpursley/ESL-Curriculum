@@ -1,0 +1,2 @@
+medium.en per-line WER 0.004 (1/268), 17/18 lines exact
+   ('Daniel', "Great. Let's check your account on the City Power website. OK, here it is. Your account is fine. You don't owe any money.", "great let's check your account on the citi power website ok here it is your account is fine you don't owe any money")

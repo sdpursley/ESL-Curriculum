@@ -1,0 +1,25 @@
+{
+ "TITLE": "Too Early or On Time?",
+ "VOICES": {
+  "Narrator": "N",
+  "Nadia": "Ana_af_jessica",
+  "Carmen": "Rosa",
+  "Mr. Brooks": "Carlos"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Nadia",
+  "Carmen"
+ ],
+ "NAMES": [
+  "Nadia",
+  "Carmen",
+  "Brooks"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 240,
+  "seconds": 110
+ }
+}

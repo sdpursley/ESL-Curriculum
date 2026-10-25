@@ -1,0 +1,25 @@
+{
+ "TITLE": "Would You Mind…?",
+ "VOICES": {
+  "Narrator": "N",
+  "Patricia": "Kim",
+  "Mr. Wilson": "Carlos",
+  "Omar": "Sam"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Patricia"
+ ],
+ "NAMES": [
+  "Patricia",
+  "Wilson",
+  "Omar",
+  "Lena"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 227,
+  "seconds": 107
+ }
+}

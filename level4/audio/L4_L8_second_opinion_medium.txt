@@ -1,0 +1,2 @@
+medium.en per-line WER 0.004 (1/269), 17/18 lines exact
+   ('Diane Lee', "During the road closure, the number twelve bus will take a detour on Pine Street. Riders should expect delays of about fifteen minutes. The city will post updates on its website. I'm Diane Lee, and that's the news.", "during the road closure the no 12 bus will take a detour on pine street riders should expect delays of about 15 minutes the city will post updates on its website i'm diane lee and that's the news")

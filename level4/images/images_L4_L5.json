@@ -1,0 +1,130 @@
+[
+ {
+  "file": "L4_L5_favor.png",
+  "lesson": "Level4-L5",
+  "word": "favor",
+  "kind": "vocab",
+  "twemoji": [
+   "1f64b",
+   "1f91d"
+  ],
+  "note": "a person raising a hand and a handshake [sign: A FAVOR?]"
+ },
+ {
+  "file": "L4_L5_borrow.png",
+  "lesson": "Level4-L5",
+  "word": "borrow",
+  "kind": "vocab",
+  "twemoji": [
+   "1fa9c"
+  ],
+  "note": "a ladder [sign: BORROW]"
+ },
+ {
+  "file": "L4_L5_water_the_plants.png",
+  "lesson": "Level4-L5",
+  "word": "water the plants",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a7",
+   "1fab4"
+  ],
+  "note": "a plant and a drop of water"
+ },
+ {
+  "file": "L4_L5_feed_the_cat.png",
+  "lesson": "Level4-L5",
+  "word": "feed the cat",
+  "kind": "vocab",
+  "twemoji": [
+   "1f408",
+   "1f963"
+  ],
+  "note": "a cat and a bowl"
+ },
+ {
+  "file": "L4_L5_get_the_mail.png",
+  "lesson": "Level4-L5",
+  "word": "get the mail",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ec",
+   "2709"
+  ],
+  "note": "a mailbox and a letter"
+ },
+ {
+  "file": "L4_L5_spare_key.png",
+  "lesson": "Level4-L5",
+  "word": "spare key",
+  "kind": "vocab",
+  "twemoji": [
+   "1f511"
+  ],
+  "note": "two keys [sign: SPARE]"
+ },
+ {
+  "file": "L4_L5_package.png",
+  "lesson": "Level4-L5",
+  "word": "package",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4e6"
+  ],
+  "note": "a package"
+ },
+ {
+  "file": "L4_L5_switch_shifts.png",
+  "lesson": "Level4-L5",
+  "word": "switch shifts",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c5",
+   "1f504"
+  ],
+  "note": "a calendar and arrows [sign: SAT → SUN]"
+ },
+ {
+  "file": "L4_L5_cover_a_shift.png",
+  "lesson": "Level4-L5",
+  "word": "cover a shift",
+  "kind": "vocab",
+  "twemoji": [
+   "1f550",
+   "1f64b"
+  ],
+  "note": "a person raising a hand and a clock [sign: COVER: SAT]"
+ },
+ {
+  "file": "L4_L5_be_away.png",
+  "lesson": "Level4-L5",
+  "word": "be away",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9f3",
+   "2708"
+  ],
+  "note": "a suitcase and a plane"
+ },
+ {
+  "file": "L4_L5_owe.png",
+  "lesson": "Level4-L5",
+  "word": "owe (someone)",
+  "kind": "vocab",
+  "twemoji": [
+   "1f91d"
+  ],
+  "note": "a handshake [sign: I OWE YOU ONE]"
+ },
+ {
+  "file": "L4_L5_thank_you_note.png",
+  "lesson": "Level4-L5",
+  "word": "thank-you note",
+  "kind": "vocab",
+  "twemoji": [
+   "1f490",
+   "1f4dd"
+  ],
+  "note": "a note and flowers [sign: THANK YOU!]"
+ }
+]

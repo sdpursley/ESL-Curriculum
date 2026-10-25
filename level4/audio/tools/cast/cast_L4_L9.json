@@ -1,0 +1,26 @@
+{
+ "TITLE": "I See Your Point",
+ "VOICES": {
+  "Narrator": "N",
+  "Mrs. Okafor": "Kim",
+  "Ray": "Sam",
+  "Lynn": "Ana_af_jessica"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Mrs. Okafor",
+  "Lynn"
+ ],
+ "NAMES": [
+  "Okafor",
+  "Ray",
+  "Lynn",
+  "Cedar"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 244,
+  "seconds": 108
+ }
+}

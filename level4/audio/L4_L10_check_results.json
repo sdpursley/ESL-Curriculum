@@ -1,0 +1,270 @@
+{
+ "file": "L4_L10_listening.mp3",
+ "duration_s": 126.75,
+ "wer": 0.0148,
+ "errors": 4,
+ "ref_words": 270,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "sofia",
+   "hyp": "sophia",
+   "ctx": "their power bill then sofia calls the electric company"
+  },
+  {
+   "op": "replace",
+   "ref": "hana",
+   "hyp": "anna",
+   "ctx": "calls the electric company hana look at this our"
+  },
+  {
+   "op": "replace",
+   "ref": "light bulbs",
+   "hyp": "lightbulbs",
+   "ctx": "you can get free light bulbs that sounds great can"
+  }
+ ],
+ "low_prob_words": [
+  [
+   "Anna,",
+   8.08,
+   0.39
+  ]
+ ],
+ "lines_ok": "20/20",
+ "lines_with_flags": [
+  {
+   "t": 28.48,
+   "spk": "Hana",
+   "line": "You're right. I always forget to turn them off. Oh, the TV is on now, and nobody is watching. I'll turn it off.",
+   "ok": true,
+   "hyp": "you're right i always forget to turn them off oh the tv is on now and nobody is watching i'll turn it off",
+   "min_prob": 0.8,
+   "flags": [
+    "HF whine 200ms"
+   ],
+   "f0_med": 214.9
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Sofia": 216.8,
+  "Hana": 217.4,
+  "Paul": 126.2,
+  "Narrator": 183.8
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.9,
+ "peak": 0.899,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 8.08,
+   "spk": "Sofia",
+   "line": "Hana, look at this. Our power bill is one forty-two dollars this month!",
+   "ok": true,
+   "hyp": "hana look at this our power bill is 142 dollars this month",
+   "min_prob": 0.48,
+   "flags": [],
+   "f0_med": 198.2
+  },
+  {
+   "t": 14.79,
+   "spk": "Hana",
+   "line": "Last month it was only $90. Why is it so high?",
+   "ok": true,
+   "hyp": "last month it was only 90 dollars why is it so high",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 219.9
+  },
+  {
+   "t": 20.53,
+   "spk": "Sofia",
+   "line": "Well, we use too much electricity. The heat is on all day, and the lights are on in empty rooms.",
+   "ok": true,
+   "hyp": "well we use too much electricity the heat is on all day and the lights are on in empty rooms",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 216.1
+  },
+  {
+   "t": 28.48,
+   "spk": "Hana",
+   "line": "You're right. I always forget to turn them off. Oh, the TV is on now, and nobody is watching. I'll turn it off.",
+   "ok": true,
+   "hyp": "you're right i always forget to turn them off oh the tv is on now and nobody is watching i'll turn it off",
+   "min_prob": 0.8,
+   "flags": [
+    "HF whine 200ms"
+   ],
+   "f0_med": 214.9
+  },
+  {
+   "t": 37.69,
+   "spk": "Sofia",
+   "line": "OK, let's make a plan. First, we can turn down the heat at night. Sixty-eight degrees is fine.",
+   "ok": true,
+   "hyp": "ok let's make a plan first we can turn down the heat at night 68 degrees is fine",
+   "min_prob": 0.57,
+   "flags": [],
+   "f0_med": 219.9
+  },
+  {
+   "t": 46.18,
+   "spk": "Hana",
+   "line": "Good idea. And I'm going to unplug my phone charger in the morning. It uses electricity all day.",
+   "ok": true,
+   "hyp": "good idea and i'm going to unplug my phone charger in the morning it uses electricity all day",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 230.3
+  },
+  {
+   "t": 54.31,
+   "spk": "Sofia",
+   "line": "Also, let's put on sweaters and not turn up the heat. Can you call the electric company? I have class.",
+   "ok": true,
+   "hyp": "also let's put on sweaters and not turn up the heat can you call the electric company i have class",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 217.4
+  },
+  {
+   "t": 62.67,
+   "spk": "Hana",
+   "line": "Sorry, I have work. Can you call them tonight?",
+   "ok": true,
+   "hyp": "sorry i have work can you call them tonight",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 208.2
+  },
+  {
+   "t": 67.65,
+   "spk": "Sofia",
+   "line": "Sure. I'll call them now.",
+   "ok": true,
+   "hyp": "sure i'll call them now",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 296.9
+  },
+  {
+   "t": 70.46,
+   "spk": "Paul",
+   "line": "Thank you for calling City Power. This is Paul. How can I help you?",
+   "ok": true,
+   "hyp": "thank you for calling city power this is paul how can i help you",
+   "min_prob": 0.7,
+   "flags": [],
+   "f0_med": 103.2
+  },
+  {
+   "t": 76.4,
+   "spk": "Sofia",
+   "line": "Hi. I'm calling about my bill. When is it due?",
+   "ok": true,
+   "hyp": "hi i'm calling about my bill when is it due",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 205.2
+  },
+  {
+   "t": 82.08,
+   "spk": "Paul",
+   "line": "Can I have your account number, please?",
+   "ok": true,
+   "hyp": "can i have your account number please",
+   "min_prob": 0.6,
+   "flags": [],
+   "f0_med": 129.6
+  },
+  {
+   "t": 85.33,
+   "spk": "Sofia",
+   "line": "Yes. It's four, seven, two, one, nine.",
+   "ok": true,
+   "hyp": "yes it's 47219",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 213.6
+  },
+  {
+   "t": 90.26,
+   "spk": "Paul",
+   "line": "Thank you. Your bill is due on March fifteenth.",
+   "ok": true,
+   "hyp": "thank you your bill is due on march fifteenth",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 122.7
+  },
+  {
+   "t": 94.04,
+   "spk": "Sofia",
+   "line": "OK. Also, do you have any programs to help us save energy?",
+   "ok": true,
+   "hyp": "ok also do you have any programs to help us save energy",
+   "min_prob": 0.65,
+   "flags": [],
+   "f0_med": 218.6
+  },
+  {
+   "t": 99.52,
+   "spk": "Paul",
+   "line": "Yes. We have a free home energy check. Someone visits your apartment and gives you tips. And you can get free light bulbs.",
+   "ok": true,
+   "hyp": "yes we have a free home energy check someone visits your apartment and gives you tips and you can get free light bulbs",
+   "min_prob": 0.62,
+   "flags": [],
+   "f0_med": 117.2
+  },
+  {
+   "t": 108.45,
+   "spk": "Sofia",
+   "line": "That sounds great. Can I sign up?",
+   "ok": true,
+   "hyp": "that sounds great can i sign up",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 200.5
+  },
+  {
+   "t": 112.84,
+   "spk": "Paul",
+   "line": "Sure. Is next Tuesday morning OK?",
+   "ok": true,
+   "hyp": "sure is next tuesday morning ok",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 133.0
+  },
+  {
+   "t": 116.69,
+   "spk": "Sofia",
+   "line": "Yes, that's perfect. Thank you.",
+   "ok": true,
+   "hyp": "yes that's perfect thank you",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 273.1
+  },
+  {
+   "t": 119.85,
+   "spk": "Paul",
+   "line": "You're welcome. And don't forget to turn off the lights when you leave a room!",
+   "ok": true,
+   "hyp": "you're welcome and don't forget to turn off the lights when you leave a room",
+   "min_prob": 0.96,
+   "flags": [],
+   "f0_med": 140.9
+  }
+ ],
+ "hyp": "lesson 10 the 2 roommates look at their power bill then sophia calls the electric company anna look at this our power bill is 142 dollars this month last month it was only 90 dollars why is it so high well we use too much electricity the heat is on all day and the lights are on in empty rooms you're right i always forget to turn them off oh the tv is on now and nobody is watching i'll turn it off ok let's make a plan first we can turn down the heat at night 68 degrees is fine good idea and i'm going to unplug my phone charger in the morning it uses electricity all day also let's put on sweaters and not turn up the heat can you call the electric company i have class sorry i have work can you call them tonight sure i'll call them now thank you for calling city power this is paul how can i help you hi i'm calling about my bill when is it due can i have your account number please yes it's 47219 thank you your bill is due on march fifteenth ok also do you have any programs to help us save energy yes we have a free home energy check someone visits your apartment and gives you tips and you can get free lightbulbs that sounds great can i sign up sure is next tuesday morning ok yes that's perfect thank you you're welcome and don't forget to turn off the lights when you leave a room that's the end of the listening"
+}

@@ -1,0 +1,133 @@
+[
+ {
+  "file": "L4_L7_on_time.png",
+  "lesson": "Level4-L7",
+  "word": "on time",
+  "kind": "vocab",
+  "twemoji": [
+   "23f0",
+   "2705"
+  ],
+  "note": "an alarm clock and a check mark [sign: 7:00]"
+ },
+ {
+  "file": "L4_L7_early.png",
+  "lesson": "Level4-L7",
+  "word": "early",
+  "kind": "vocab",
+  "twemoji": [
+   "1f305",
+   "23f0"
+  ],
+  "note": "a sunrise and an alarm clock [sign: 6:50]"
+ },
+ {
+  "file": "L4_L7_late.png",
+  "lesson": "Level4-L7",
+  "word": "late",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3c3",
+   "23f0"
+  ],
+  "note": "a person running and an alarm clock [sign: 7:20]"
+ },
+ {
+  "file": "L4_L7_dress_code.png",
+  "lesson": "Level4-L7",
+  "word": "dress code",
+  "kind": "vocab",
+  "twemoji": [
+   "1f454",
+   "1f4cb"
+  ],
+  "note": "a clipboard and a shirt with a tie [sign: DRESS CODE]"
+ },
+ {
+  "file": "L4_L7_uniform.png",
+  "lesson": "Level4-L7",
+  "word": "uniform",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9ba",
+   "1f9e2"
+  ],
+  "note": "a safety vest and a cap [sign: UNIFORM]"
+ },
+ {
+  "file": "L4_L7_casual.png",
+  "lesson": "Level4-L7",
+  "word": "casual",
+  "kind": "vocab",
+  "twemoji": [
+   "1f455",
+   "1f456"
+  ],
+  "note": "a T-shirt and jeans"
+ },
+ {
+  "file": "L4_L7_formal.png",
+  "lesson": "Level4-L7",
+  "word": "formal",
+  "kind": "vocab",
+  "twemoji": [
+   "1f454",
+   "1f45e"
+  ],
+  "note": "a shirt with a tie and dress shoes"
+ },
+ {
+  "file": "L4_L7_closed_toe_shoes.png",
+  "lesson": "Level4-L7",
+  "word": "closed-toe shoes",
+  "kind": "vocab",
+  "twemoji": [
+   "1f45f",
+   "2705"
+  ],
+  "note": "a sneaker and a check mark [sign: CLOSED-TOE]"
+ },
+ {
+  "file": "L4_L7_name_badge.png",
+  "lesson": "Level4-L7",
+  "word": "name badge",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4db"
+  ],
+  "note": "a name badge [sign: HI, I'M NADIA]"
+ },
+ {
+  "file": "L4_L7_invitation.png",
+  "lesson": "Level4-L7",
+  "word": "invitation",
+  "kind": "vocab",
+  "twemoji": [
+   "1f389",
+   "2709"
+  ],
+  "note": "an envelope and a party popper [sign: PARTY SAT 7:00]"
+ },
+ {
+  "file": "L4_L7_rsvp.png",
+  "lesson": "Level4-L7",
+  "word": "RSVP",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f1",
+   "2705"
+  ],
+  "note": "a phone and a check mark [sign: RSVP BY FRI]"
+ },
+ {
+  "file": "L4_L7_host.png",
+  "lesson": "Level4-L7",
+  "word": "host",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e0",
+   "1f9d1"
+  ],
+  "note": "a person and a house [sign: HOST]"
+ }
+]

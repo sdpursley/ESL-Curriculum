@@ -1,0 +1,27 @@
+{
+ "TITLE": "Have You Finished Yet?",
+ "VOICES": {
+  "Narrator": "N",
+  "Ms. Rivera": "Rosa",
+  "Jamal": "Sam",
+  "Kim": "Kim"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Ms. Rivera",
+  "Kim"
+ ],
+ "NAMES": [
+  "Rivera",
+  "Jamal",
+  "Kim"
+ ],
+ "SAME": {},
+ "TTS": {
+  "Thank you, Ms Rivera. I will see you tomorrow.": "Thank you, Miss Rivera. I will see you tomorrow."
+ },
+ "ESTIMATE": {
+  "words": 238,
+  "seconds": 112
+ }
+}

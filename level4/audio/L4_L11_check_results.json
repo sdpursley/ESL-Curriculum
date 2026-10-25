@@ -1,0 +1,207 @@
+{
+ "file": "L4_L11_listening.mp3",
+ "duration_s": 104.16,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 241,
+ "diffs": [],
+ "low_prob_words": [
+  [
+   "Ms.",
+   8.36,
+   0.23
+  ]
+ ],
+ "lines_ok": "15/16",
+ "lines_with_flags": [],
+ "lines_not_exact": [
+  {
+   "t": 8.42,
+   "spk": "Luis",
+   "line": "Ms. Adams, do you have a minute? I'd like to ask for some time off.",
+   "ok": false,
+   "hyp": "miss adams do you have a minute i'd like to ask for some time off",
+   "min_prob": 0.12,
+   "flags": [],
+   "f0_med": 124.1
+  }
+ ],
+ "pitch_median_hz": {
+  "Luis": 119.6,
+  "Ms. Adams": 190.3,
+  "Rosa": 227.1,
+  "Narrator": 198.2
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.5,
+ "peak": 0.909,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.8,
+ "per_line": [
+  {
+   "t": 8.42,
+   "spk": "Luis",
+   "line": "Ms. Adams, do you have a minute? I'd like to ask for some time off.",
+   "ok": false,
+   "hyp": "miss adams do you have a minute i'd like to ask for some time off",
+   "min_prob": 0.12,
+   "flags": [],
+   "f0_med": 124.1
+  },
+  {
+   "t": 13.51,
+   "spk": "Ms. Adams",
+   "line": "Sure. When do you want to take the time off?",
+   "ok": true,
+   "hyp": "sure when do you want to take the time off",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 200.5
+  },
+  {
+   "t": 17.2,
+   "spk": "Luis",
+   "line": "I need June fifth to June seventh. That's three days.",
+   "ok": true,
+   "hyp": "i need june fifth to june seventh that's 3 days",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 128.5
+  },
+  {
+   "t": 22.22,
+   "spk": "Ms. Adams",
+   "line": "And why are you taking time off?",
+   "ok": true,
+   "hyp": "and why are you taking time off",
+   "min_prob": 0.81,
+   "flags": [],
+   "f0_med": 194.8
+  },
+  {
+   "t": 25.0,
+   "spk": "Luis",
+   "line": "To visit my mother in San Antonio. She is turning seventy.",
+   "ok": true,
+   "hyp": "to visit my mother in san antonio she is turning 70",
+   "min_prob": 0.22,
+   "flags": [],
+   "f0_med": 115.1
+  },
+  {
+   "t": 30.09,
+   "spk": "Ms. Adams",
+   "line": "How nice! Did you fill out the request form?",
+   "ok": true,
+   "hyp": "how nice did you fill out the request form",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 184.9
+  },
+  {
+   "t": 33.93,
+   "spk": "Luis",
+   "line": "Yes, I've already filled it out. Here it is.",
+   "ok": true,
+   "hyp": "yes i've already filled it out here it is",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 109.9
+  },
+  {
+   "t": 38.24,
+   "spk": "Ms. Adams",
+   "line": "Thanks. Who can cover your shifts?",
+   "ok": true,
+   "hyp": "thanks who can cover your shifts",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 190.3
+  },
+  {
+   "t": 42.01,
+   "spk": "Luis",
+   "line": "Anna has agreed to cover Thursday and Friday. I'm still looking for someone for Saturday.",
+   "ok": true,
+   "hyp": "anna has agreed to cover thursday and friday i'm still looking for someone for saturday",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 121.6
+  },
+  {
+   "t": 48.11,
+   "spk": "Ms. Adams",
+   "line": "Ask Ben. He doesn't mind working on weekends. Then I can approve it.",
+   "ok": true,
+   "hyp": "ask ben he doesn't mind working on weekends then i can approve it",
+   "min_prob": 0.33,
+   "flags": [],
+   "f0_med": 183.8
+  },
+  {
+   "t": 53.18,
+   "spk": "Luis",
+   "line": "Great. Thank you, Ms. Adams.",
+   "ok": true,
+   "hyp": "great thank you ms adams",
+   "min_prob": 0.72,
+   "flags": [],
+   "f0_med": 103.2
+  },
+  {
+   "t": 55.74,
+   "spk": "Luis",
+   "line": "Hi, Rosa, it's Luis. I'm calling to tell you about my trip. I'm going to take the bus on Thursday, June fifth. It's bus number forty-two, and it gets to San Antonio at six thirty in the evening. Can you pick me up at the bus station? Also, don't forget to bring Mom's birthday card. I want everyone to sign it. Call me back at five five five, two one four, eight eight three zero. Bye!",
+   "ok": true,
+   "hyp": "hi rosa it's luis i'm calling to tell you about my trip i'm going to take the bus on thursday june fifth it's bus number 42 and it gets to san antonio at 630 in the evening can you pick me up at the bus station also don't forget to bring mom's birthday card i want everyone to sign it call me back at 5552148830 bye",
+   "min_prob": 0.28,
+   "flags": [],
+   "f0_med": 114.5
+  },
+  {
+   "t": 80.53,
+   "spk": "Rosa",
+   "line": "Hi, Luis! I got your message. Yes, I can pick you up at six thirty.",
+   "ok": true,
+   "hyp": "hi luis i got your message yes i can pick you up at 630",
+   "min_prob": 0.24,
+   "flags": [],
+   "f0_med": 231.6
+  },
+  {
+   "t": 86.46,
+   "spk": "Luis",
+   "line": "Thanks, Rosa. Mom doesn't know I'm coming, right?",
+   "ok": true,
+   "hyp": "thanks rosa mom doesn't know i'm coming right",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 119.6
+  },
+  {
+   "t": 90.06,
+   "spk": "Rosa",
+   "line": "No, it's a surprise. She's going to be so happy. I enjoy planning surprises!",
+   "ok": true,
+   "hyp": "no it's a surprise she's going to be so happy i enjoy planning surprises",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 222.5
+  },
+  {
+   "t": 99.02,
+   "spk": "Luis",
+   "line": "Me too. See you on Thursday!",
+   "ok": true,
+   "hyp": "me too see you on thursday",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 130.0
+  }
+ ],
+ "hyp": "lesson 11 luis asks his supervisor for time off then he leaves a voicemail for his sister ms adams do you have a minute i'd like to ask for some time off sure when do you want to take the time off i need june fifth to june seventh that's 3 days and why are you taking time off to visit my mother in san antonio she is turning 70 how nice did you fill out the request form yes i've already filled it out here it is thanks who can cover your shifts anna has agreed to cover thursday and friday i'm still looking for someone for saturday ask ben he doesn't mind working on weekends then i can approve it great thank you ms adams hi rosa it's luis i'm calling to tell you about my trip i'm going to take the bus on thursday june fifth it's bus number 42 and it gets to san antonio at 630 in the evening can you pick me up at the bus station also don't forget to bring mom's birthday card i want everyone to sign it call me back at 5552148830 bye hi luis i got your message yes i can pick you up at 630 thanks rosa mom doesn't know i'm coming right no it's a surprise she's going to be so happy i enjoy planning surprises me too see you on thursday that's the end of the listening"
+}

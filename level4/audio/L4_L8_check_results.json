@@ -1,0 +1,209 @@
+{
+ "file": "L4_L8_listening.mp3",
+ "duration_s": 109.51,
+ "wer": 0.0112,
+ "errors": 3,
+ "ref_words": 269,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "coworkers",
+   "hyp": "co workers",
+   "ctx": "the radio then 2 coworkers talk about the news"
+  },
+  {
+   "op": "replace",
+   "ref": "number",
+   "hyp": "no",
+   "ctx": "the road closure the number 12 bus will take"
+  }
+ ],
+ "low_prob_words": [
+  [
+   "No.",
+   26.76,
+   0.34
+  ]
+ ],
+ "lines_ok": "16/16",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Diane Lee": 184.9,
+  "Narrator": 185.6,
+  "Marco": 114.0,
+  "Joy": 179.9
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.3,
+ "peak": 0.896,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 9.08,
+   "spk": "Diane Lee",
+   "line": "Good morning. This is Diane Lee with your local news. Starting Monday, Oak Street will be closed between First and Fifth Avenue. Workers are going to replace an old water pipe under the street.",
+   "ok": true,
+   "hyp": "good morning this is diane lee with your local news starting monday oak street will be closed between first and fifth avenue workers are going to replace an old water pipe under the street",
+   "min_prob": 0.76,
+   "flags": [],
+   "f0_med": 173.5
+  },
+  {
+   "t": 19.85,
+   "spk": "Diane Lee",
+   "line": "The city says the construction might take two weeks. It may take longer if it rains.",
+   "ok": true,
+   "hyp": "the city says the construction might take 2 weeks it may take longer if it rains",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 187.1
+  },
+  {
+   "t": 25.63,
+   "spk": "Diane Lee",
+   "line": "During the road closure, the number twelve bus will take a detour on Pine Street. Riders should expect delays of about fifteen minutes. The city will post updates on its website. I'm Diane Lee, and that's the news.",
+   "ok": true,
+   "hyp": "during the road closure the number 12 bus will take a detour on pine street riders should expect delays of about 15 minutes the city will post updates on its website i'm diane lee and that's the news",
+   "min_prob": 0.53,
+   "flags": [],
+   "f0_med": 184.9
+  },
+  {
+   "t": 38.73,
+   "spk": "Narrator",
+   "line": "Later that morning, at work, Marco and Joy talk about the news.",
+   "ok": true,
+   "hyp": "later that morning at work marco and joy talk about the news",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 178.6
+  },
+  {
+   "t": 44.04,
+   "spk": "Marco",
+   "line": "Joy, did you hear the news? They're closing Oak Street on Monday.",
+   "ok": true,
+   "hyp": "joy did you hear the news they're closing oak street on monday",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 125.6
+  },
+  {
+   "t": 49.07,
+   "spk": "Joy",
+   "line": "Oh no. I take the number twelve bus on Oak Street every day.",
+   "ok": true,
+   "hyp": "oh no i take the number 12 bus on oak street every day",
+   "min_prob": 0.56,
+   "flags": [],
+   "f0_med": 169.6
+  },
+  {
+   "t": 55.47,
+   "spk": "Marco",
+   "line": "The bus is going to take a detour on Pine Street. It might be fifteen minutes late.",
+   "ok": true,
+   "hyp": "the bus is going to take a detour on pine street it might be 15 minutes late",
+   "min_prob": 0.58,
+   "flags": [],
+   "f0_med": 113.2
+  },
+  {
+   "t": 60.98,
+   "spk": "Joy",
+   "line": "Fifteen minutes? I might be late for work. Do you know when the bus leaves Pine Street?",
+   "ok": true,
+   "hyp": "15 minutes i might be late for work do you know when the bus leaves pine street",
+   "min_prob": 0.32,
+   "flags": [],
+   "f0_med": 175.0
+  },
+  {
+   "t": 69.12,
+   "spk": "Marco",
+   "line": "I'm not sure. You could check the city website.",
+   "ok": true,
+   "hyp": "i'm not sure you could check the city website",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 108.1
+  },
+  {
+   "t": 73.35,
+   "spk": "Joy",
+   "line": "Good idea. Do you know how long the closure is?",
+   "ok": true,
+   "hyp": "good idea do you know how long the closure is",
+   "min_prob": 0.96,
+   "flags": [],
+   "f0_med": 184.9
+  },
+  {
+   "t": 77.43,
+   "spk": "Marco",
+   "line": "They said two weeks. But it might take longer if it rains.",
+   "ok": true,
+   "hyp": "they said 2 weeks but it might take longer if it rains",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 140.1
+  },
+  {
+   "t": 82.34,
+   "spk": "Joy",
+   "line": "Hmm. Maybe I'll take the earlier bus. I don't want to be late.",
+   "ok": true,
+   "hyp": "hmm maybe i'll take the earlier bus i don't want to be late",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 173.5
+  },
+  {
+   "t": 88.42,
+   "spk": "Marco",
+   "line": "Or I could give you a ride. I drive past your street.",
+   "ok": true,
+   "hyp": "or i could give you a ride i drive past your street",
+   "min_prob": 0.64,
+   "flags": [],
+   "f0_med": 114.8
+  },
+  {
+   "t": 93.32,
+   "spk": "Joy",
+   "line": "Really? That would be great. Do you know where the detour starts?",
+   "ok": true,
+   "hyp": "really that would be great do you know where the detour starts",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 200.5
+  },
+  {
+   "t": 99.63,
+   "spk": "Marco",
+   "line": "I think it starts at First Avenue. I'm going to look at the map tonight.",
+   "ok": true,
+   "hyp": "i think it starts at first avenue i'm going to look at the map tonight",
+   "min_prob": 0.55,
+   "flags": [],
+   "f0_med": 103.8
+  },
+  {
+   "t": 104.85,
+   "spk": "Joy",
+   "line": "Thanks, Marco!",
+   "ok": true,
+   "hyp": "thanks marco",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 210.0
+  }
+ ],
+ "hyp": "lesson 8 first listen to a short news report on the radio then 2 co workers talk about the news good morning this is diane lee with your local news starting monday oak street will be closed between first and fifth avenue workers are going to replace an old water pipe under the street the city says the construction might take 2 weeks it may take longer if it rains during the road closure the no 12 bus will take a detour on pine street riders should expect delays of about 15 minutes the city will post updates on its website i'm diane lee and that's the news later that morning at work marco and joy talk about the news joy did you hear the news they're closing oak street on monday oh no i take the number 12 bus on oak street every day the bus is going to take a detour on pine street it might be 15 minutes late 15 minutes i might be late for work do you know when the bus leaves pine street i'm not sure you could check the city website good idea do you know how long the closure is they said 2 weeks but it might take longer if it rains hmm maybe i'll take the earlier bus i don't want to be late or i could give you a ride i drive past your street really that would be great do you know where the detour starts i think it starts at first avenue i'm going to look at the map tonight thanks marco that's the end of the listening"
+}

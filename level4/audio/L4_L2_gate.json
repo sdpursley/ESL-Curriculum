@@ -1,0 +1,49 @@
+{
+ "duration_s": 114.85,
+ "duration": "1:55",
+ "length_ok": true,
+ "small_whole_file_wer": 0.0046,
+ "small_whole_file_errors": "1/219",
+ "small_whole_file_diffs": [
+  {
+   "op": "replace",
+   "ref": "first",
+   "hyp": "1",
+   "ctx": "is ready on june first the lease is for"
+  }
+ ],
+ "small_lines_ok": "21/21",
+ "small_line_problems": [],
+ "medium_per_line": {
+  "wer": 0.0,
+  "errors": 0,
+  "words": 219,
+  "exact": "23/23"
+ },
+ "medium_differences": [],
+ "pitch_median_hz": {
+  "Mr. Chen": 140.1,
+  "Marisol": 219.9,
+  "Narrator": 195.9
+ },
+ "pitch_problems": [],
+ "clipped_samples": 0,
+ "peak": 0.897,
+ "loudness_lufs": -16.6,
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "gaps_ok": true,
+ "noisy_pauses": [],
+ "failed_sentences": [],
+ "sentences": 38,
+ "takes_tried": 145,
+ "lines_wrong_in_both_checkers": [],
+ "single_checker_misses_or_flags_ignored": {
+  "small": [],
+  "medium": []
+ },
+ "rule": "line bad only if small.en AND medium.en both mishear it; pitch, clipping, length, gaps, FAILED still gate",
+ "PASS": true
+}

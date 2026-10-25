@@ -1,0 +1,220 @@
+{
+ "file": "L4_L5_listening.mp3",
+ "duration_s": 114.3,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 233,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "19/19",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Patricia": 185.4,
+  "Mr. Wilson": 143.4,
+  "Narrator": 192.1,
+  "Omar": 126.9
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 5.4,
+ "peak": 0.875,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.6,
+ "per_line": [
+  {
+   "t": 8.72,
+   "spk": "Patricia",
+   "line": "Hi, Mr. Wilson. Could I ask you a favor?",
+   "ok": true,
+   "hyp": "hi mr wilson could i ask you a favor",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 173.5
+  },
+  {
+   "t": 13.27,
+   "spk": "Mr. Wilson",
+   "line": "Of course, Patricia. What is it?",
+   "ok": true,
+   "hyp": "of course patricia what is it",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 129.6
+  },
+  {
+   "t": 17.53,
+   "spk": "Patricia",
+   "line": "I'm going to be away next week. I'm visiting my sister. Would you mind getting my mail?",
+   "ok": true,
+   "hyp": "i'm going to be away next week i'm visiting my sister would you mind getting my mail",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 195.9
+  },
+  {
+   "t": 25.02,
+   "spk": "Mr. Wilson",
+   "line": "No, not at all. I'm home all week.",
+   "ok": true,
+   "hyp": "no not at all i'm home all week",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 143.4
+  },
+  {
+   "t": 29.62,
+   "spk": "Patricia",
+   "line": "Thank you! And would you mind watering my plants? Just two times, on Tuesday and Friday.",
+   "ok": true,
+   "hyp": "thank you and would you mind watering my plants just 2 times on tuesday and friday",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 188.1
+  },
+  {
+   "t": 37.1,
+   "spk": "Mr. Wilson",
+   "line": "That is no problem. Where are you going to leave the key?",
+   "ok": true,
+   "hyp": "that is no problem where are you going to leave the key",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 140.9
+  },
+  {
+   "t": 42.36,
+   "spk": "Patricia",
+   "line": "I'm going to give you my spare key tonight. Oh, and would you mind feeding my cat, too?",
+   "ok": true,
+   "hyp": "i'm going to give you my spare key tonight oh and would you mind feeding my cat too",
+   "min_prob": 0.66,
+   "flags": [],
+   "f0_med": 182.8
+  },
+  {
+   "t": 49.25,
+   "spk": "Mr. Wilson",
+   "line": "Sure, I'll do it. I love cats. Do you mind if I put your packages inside, too?",
+   "ok": true,
+   "hyp": "sure i'll do it i love cats do you mind if i put your packages inside too",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 146.8
+  },
+  {
+   "t": 56.85,
+   "spk": "Patricia",
+   "line": "No, go ahead. That's very kind.",
+   "ok": true,
+   "hyp": "no go ahead that's very kind",
+   "min_prob": 0.66,
+   "flags": [],
+   "f0_med": 195.3
+  },
+  {
+   "t": 62.17,
+   "spk": "Mr. Wilson",
+   "line": "Have a good trip. Don't worry about anything.",
+   "ok": true,
+   "hyp": "have a good trip don't worry about anything",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 148.5
+  },
+  {
+   "t": 66.62,
+   "spk": "Narrator",
+   "line": "The next day at work, Patricia talks with Omar.",
+   "ok": true,
+   "hyp": "the next day at work patricia talks with omar",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 186.0
+  },
+  {
+   "t": 70.85,
+   "spk": "Omar",
+   "line": "Hey, Patricia. Would you mind covering my Saturday shift? My son has a soccer game.",
+   "ok": true,
+   "hyp": "hey patricia would you mind covering my saturday shift my son has a soccer game",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 136.1
+  },
+  {
+   "t": 77.24,
+   "spk": "Patricia",
+   "line": "Oh, I'm sorry, I can't. I'll be away on Saturday. I want to help, but I can't.",
+   "ok": true,
+   "hyp": "oh i'm sorry i can't i'll be away on saturday i want to help but i can't",
+   "min_prob": 0.52,
+   "flags": [],
+   "f0_med": 183.8
+  },
+  {
+   "t": 85.41,
+   "spk": "Omar",
+   "line": "Oh, right. You told me.",
+   "ok": true,
+   "hyp": "oh right you told me",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 108.7
+  },
+  {
+   "t": 88.1,
+   "spk": "Patricia",
+   "line": "Why don't you ask Lena? She wants more hours this month.",
+   "ok": true,
+   "hyp": "why don't you ask lena she wants more hours this month",
+   "min_prob": 0.51,
+   "flags": [],
+   "f0_med": 177.6
+  },
+  {
+   "t": 93.69,
+   "spk": "Omar",
+   "line": "Good idea. Do you mind if I tell her you suggested it?",
+   "ok": true,
+   "hyp": "good idea do you mind if i tell her you suggested it",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 139.3
+  },
+  {
+   "t": 98.31,
+   "spk": "Patricia",
+   "line": "No, not at all. But ask the supervisor first, OK?",
+   "ok": true,
+   "hyp": "no not at all but ask the supervisor first ok",
+   "min_prob": 0.66,
+   "flags": [],
+   "f0_med": 185.4
+  },
+  {
+   "t": 103.94,
+   "spk": "Omar",
+   "line": "Sure. Thanks, Patricia. I owe you one.",
+   "ok": true,
+   "hyp": "sure thanks patricia i owe you 1",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 117.8
+  },
+  {
+   "t": 108.54,
+   "spk": "Patricia",
+   "line": "You're welcome. Good luck with the game!",
+   "ok": true,
+   "hyp": "you're welcome good luck with the game",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 226.3
+  }
+ ],
+ "hyp": "lesson 5 patricia is going away for a week first she talks to her neighbor mr wilson hi mr wilson could i ask you a favor of course patricia what is it i'm going to be away next week i'm visiting my sister would you mind getting my mail no not at all i'm home all week thank you and would you mind watering my plants just 2 times on tuesday and friday that is no problem where are you going to leave the key i'm going to give you my spare key tonight oh and would you mind feeding my cat too sure i'll do it i love cats do you mind if i put your packages inside too no go ahead that's very kind have a good trip don't worry about anything the next day at work patricia talks with omar hey patricia would you mind covering my saturday shift my son has a soccer game oh i'm sorry i can't i'll be away on saturday i want to help but i can't oh right you told me why don't you ask lena she wants more hours this month good idea do you mind if i tell her you suggested it no not at all but ask the supervisor first ok sure thanks patricia i owe you 1 you're welcome good luck with the game that's the end of the listening"
+}

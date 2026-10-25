@@ -1,0 +1,185 @@
+{
+ "file": "L4_L9_listening.mp3",
+ "duration_s": 108.09,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 247,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "14/14",
+ "lines_with_flags": [
+  {
+   "t": 50.38,
+   "spk": "Lynn",
+   "line": "First, a garden isn't as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.",
+   "ok": true,
+   "hyp": "first a garden isn't as expensive as a parking lot also if we had a garden families would grow vegetables and kids would spend more time outside",
+   "min_prob": 0.95,
+   "flags": [
+    "HF whine 240ms"
+   ],
+   "f0_med": 248.3
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Mrs. Okafor": 181.7,
+  "Ray": 120.6,
+  "Lynn": 220.8,
+  "Narrator": 177.6
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.4,
+ "peak": 0.924,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 8.71,
+   "spk": "Mrs. Okafor",
+   "line": "Good evening, everyone, and welcome. Thank you for coming. Tonight we want to talk about the empty lot on Cedar Street. The city says we can choose a plan. Ray, what do you think about it?",
+   "ok": true,
+   "hyp": "good evening everyone and welcome thank you for coming tonight we want to talk about the empty lot on cedar street the city says we can choose a plan ray what do you think about it",
+   "min_prob": 0.6,
+   "flags": [],
+   "f0_med": 181.7
+  },
+  {
+   "t": 22.94,
+   "spk": "Ray",
+   "line": "Thanks, Mrs. Okafor. In my opinion, we need a parking lot. There aren't enough parking spaces on our street. I drive around for twenty minutes every night.",
+   "ok": true,
+   "hyp": "thanks mrs okafor in my opinion we need a parking lot there aren't enough parking spaces on our street i drive around for 20 minutes every night",
+   "min_prob": 0.48,
+   "flags": [],
+   "f0_med": 120.6
+  },
+  {
+   "t": 34.06,
+   "spk": "Mrs. Okafor",
+   "line": "Yes, the parking problem is serious. Lynn, how do you feel about it?",
+   "ok": true,
+   "hyp": "yes the parking problem is serious lynn how do you feel about it",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 178.6
+  },
+  {
+   "t": 39.93,
+   "spk": "Lynn",
+   "line": "I see your point, Ray, but I'm not sure I agree. I think a community garden is a better idea.",
+   "ok": true,
+   "hyp": "i see your point ray but i'm not sure i agree i think a community garden is a better idea",
+   "min_prob": 0.57,
+   "flags": [],
+   "f0_med": 200.5
+  },
+  {
+   "t": 47.12,
+   "spk": "Ray",
+   "line": "A garden? Why?",
+   "ok": true,
+   "hyp": "a garden why",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 134.6
+  },
+  {
+   "t": 50.38,
+   "spk": "Lynn",
+   "line": "First, a garden isn't as expensive as a parking lot. Also, if we had a garden, families would grow vegetables, and kids would spend more time outside.",
+   "ok": true,
+   "hyp": "first a garden isn't as expensive as a parking lot also if we had a garden families would grow vegetables and kids would spend more time outside",
+   "min_prob": 0.95,
+   "flags": [
+    "HF whine 240ms"
+   ],
+   "f0_med": 248.3
+  },
+  {
+   "t": 61.41,
+   "spk": "Ray",
+   "line": "That's a good idea, but a garden is a lot of work. Who's going to take care of it?",
+   "ok": true,
+   "hyp": "that's a good idea but a garden is a lot of work who's going to take care of it",
+   "min_prob": 0.95,
+   "flags": [],
+   "f0_med": 119.2
+  },
+  {
+   "t": 68.41,
+   "spk": "Lynn",
+   "line": "I'd help, and I think many neighbors would help too.",
+   "ok": true,
+   "hyp": "i'd help and i think many neighbors would help too",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 241.2
+  },
+  {
+   "t": 72.68,
+   "spk": "Mrs. Okafor",
+   "line": "Ray, do you agree with that?",
+   "ok": true,
+   "hyp": "ray do you agree with that",
+   "min_prob": 0.42,
+   "flags": [],
+   "f0_med": 194.8
+  },
+  {
+   "t": 75.58,
+   "spk": "Ray",
+   "line": "Well, I agree that a garden is nice. But for me, parking is as important as a garden.",
+   "ok": true,
+   "hyp": "well i agree that a garden is nice but for me parking is as important as a garden",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 124.8
+  },
+  {
+   "t": 83.25,
+   "spk": "Mrs. Okafor",
+   "line": "OK. Those are two good ideas. Let's do a survey. We'll ask every neighbor on Cedar Street.",
+   "ok": true,
+   "hyp": "ok those are 2 good ideas let's do a survey we'll ask every neighbor on cedar street",
+   "min_prob": 0.62,
+   "flags": [],
+   "f0_med": 181.7
+  },
+  {
+   "t": 91.86,
+   "spk": "Lynn",
+   "line": "I agree. That's fair.",
+   "ok": true,
+   "hyp": "i agree that's fair",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 192.5
+  },
+  {
+   "t": 94.67,
+   "spk": "Ray",
+   "line": "Yes, that's a good plan. I'll help with the survey.",
+   "ok": true,
+   "hyp": "yes that's a good plan i'll help with the survey",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 116.8
+  },
+  {
+   "t": 99.26,
+   "spk": "Mrs. Okafor",
+   "line": "Great. We'll vote at the next meeting, on May twelfth. Thank you, everyone.",
+   "ok": true,
+   "hyp": "great we'll vote at the next meeting on may twelfth thank you everyone",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 171.5
+  }
+ ],
+ "hyp": "lesson 9 neighbors are at a community meeting they are talking about the empty lot on cedar street good evening everyone and welcome thank you for coming tonight we want to talk about the empty lot on cedar street the city says we can choose a plan ray what do you think about it thanks mrs okafor in my opinion we need a parking lot there aren't enough parking spaces on our street i drive around for 20 minutes every night yes the parking problem is serious lynn how do you feel about it i see your point ray but i'm not sure i agree i think a community garden is a better idea a garden why first a garden isn't as expensive as a parking lot also if we had a garden families would grow vegetables and kids would spend more time outside that's a good idea but a garden is a lot of work who's going to take care of it i'd help and i think many neighbors would help too ray do you agree with that well i agree that a garden is nice but for me parking is as important as a garden ok those are 2 good ideas let's do a survey we'll ask every neighbor on cedar street i agree that's fair yes that's a good plan i'll help with the survey great we'll vote at the next meeting on may twelfth thank you everyone that's the end of the listening"
+}

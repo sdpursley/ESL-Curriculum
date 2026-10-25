@@ -1,0 +1,28 @@
+{
+ "TITLE": "In the News",
+ "VOICES": {
+  "Narrator": "N",
+  "Diane Lee": "Receptionist",
+  "Marco": "Marco",
+  "Joy": "Kim"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Diane Lee",
+  "Joy"
+ ],
+ "NAMES": [
+  "Diane",
+  "Lee",
+  "Marco",
+  "Joy",
+  "Oak",
+  "Pine"
+ ],
+ "SAME": {},
+ "TTS": {},
+ "ESTIMATE": {
+  "words": 267,
+  "seconds": 119
+ }
+}

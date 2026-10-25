@@ -1,0 +1,132 @@
+[
+ {
+  "file": "L4_L10_utility_bill.png",
+  "lesson": "Level4-L10",
+  "word": "utility bill",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9fe",
+   "26a1"
+  ],
+  "note": "a receipt and a lightning bolt [sign: AMOUNT DUE]"
+ },
+ {
+  "file": "L4_L10_electricity.png",
+  "lesson": "Level4-L10",
+  "word": "electricity",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a1",
+   "26a1"
+  ],
+  "note": "a lightning bolt and a light bulb"
+ },
+ {
+  "file": "L4_L10_thermostat.png",
+  "lesson": "Level4-L10",
+  "word": "thermostat",
+  "kind": "vocab",
+  "twemoji": [
+   "1f321",
+   "1f3e0"
+  ],
+  "note": "a thermometer and a house [sign: 68 degrees]"
+ },
+ {
+  "file": "L4_L10_save_energy.png",
+  "lesson": "Level4-L10",
+  "word": "save energy",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a1",
+   "2705"
+  ],
+  "note": "a light bulb and a check mark [sign: SAVE ENERGY]"
+ },
+ {
+  "file": "L4_L10_unplug.png",
+  "lesson": "Level4-L10",
+  "word": "unplug",
+  "kind": "vocab",
+  "twemoji": [
+   "1f50c",
+   "274c"
+  ],
+  "note": "a plug and a red X"
+ },
+ {
+  "file": "L4_L10_charger.png",
+  "lesson": "Level4-L10",
+  "word": "charger",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f1",
+   "1f50c"
+  ],
+  "note": "a plug and a phone"
+ },
+ {
+  "file": "L4_L10_outlet.png",
+  "lesson": "Level4-L10",
+  "word": "outlet",
+  "kind": "vocab",
+  "twemoji": [
+   "1f50c"
+  ],
+  "note": "a plug [sign: OUTLET]"
+ },
+ {
+  "file": "L4_L10_fan.png",
+  "lesson": "Level4-L10",
+  "word": "fan",
+  "kind": "vocab",
+  "twemoji": [
+   "1f32c",
+   "1f4a8"
+  ],
+  "note": "a wind face and a puff of air [sign: FAN]"
+ },
+ {
+  "file": "L4_L10_deadbolt.png",
+  "lesson": "Level4-L10",
+  "word": "deadbolt",
+  "kind": "vocab",
+  "twemoji": [
+   "1f512",
+   "1f6aa"
+  ],
+  "note": "a lock and a door"
+ },
+ {
+  "file": "L4_L10_peephole.png",
+  "lesson": "Level4-L10",
+  "word": "peephole",
+  "kind": "vocab",
+  "twemoji": [
+   "1f441",
+   "1f6aa"
+  ],
+  "note": "an eye and a door"
+ },
+ {
+  "file": "L4_L10_fire_extinguisher.png",
+  "lesson": "Level4-L10",
+  "word": "fire extinguisher",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9ef"
+  ],
+  "note": "a fire extinguisher"
+ },
+ {
+  "file": "L4_L10_usage.png",
+  "lesson": "Level4-L10",
+  "word": "usage",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ca",
+   "26a1"
+  ],
+  "note": "a bar chart and a lightning bolt [sign: USAGE]"
+ }
+]
