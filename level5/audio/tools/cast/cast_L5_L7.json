@@ -1,0 +1,21 @@
+{
+ "TITLE": "You Sent It, Didn't You?",
+ "VOICES": {
+  "Narrator": "N",
+  "Leah": "Rosa",
+  "Mr. Ortiz": "Marco"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Leah"
+ ],
+ "NAMES": [
+  "Leah",
+  "Ortiz"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

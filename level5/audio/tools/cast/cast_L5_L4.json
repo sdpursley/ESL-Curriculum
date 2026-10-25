@@ -1,0 +1,24 @@
+{
+ "TITLE": "Unless You Call First",
+ "VOICES": {
+  "Narrator": "N",
+  "Helen": "Kim",
+  "Mei": "Receptionist",
+  "Andre": "Sam"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Helen",
+  "Mei"
+ ],
+ "NAMES": [
+  "Helen",
+  "Mei",
+  "Andre"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

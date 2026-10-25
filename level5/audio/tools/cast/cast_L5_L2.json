@@ -1,0 +1,24 @@
+{
+ "TITLE": "By the Time We Opened",
+ "VOICES": {
+  "Narrator": "N",
+  "Ms. Cole": "Kim",
+  "Priya": "Rosa",
+  "Ben": "Sam"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Ms. Cole",
+  "Priya"
+ ],
+ "NAMES": [
+  "Cole",
+  "Priya",
+  "Ben"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

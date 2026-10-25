@@ -1,0 +1,21 @@
+{
+ "TITLE": "I'd Like to File a Claim",
+ "VOICES": {
+  "Narrator": "N",
+  "Ms. Lane": "Kim",
+  "Hector": "Marco"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Ms. Lane"
+ ],
+ "NAMES": [
+  "Lane",
+  "Hector"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

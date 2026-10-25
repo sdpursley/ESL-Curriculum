@@ -1,0 +1,21 @@
+{
+ "TITLE": "A Short Talk",
+ "VOICES": {
+  "Narrator": "N",
+  "Imani": "Rosa",
+  "Mr. Gordon": "Marco"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Imani"
+ ],
+ "NAMES": [
+  "Imani",
+  "Gordon"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

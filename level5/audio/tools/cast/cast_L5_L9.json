@@ -1,0 +1,21 @@
+{
+ "TITLE": "It Must Be an Ad",
+ "VOICES": {
+  "Narrator": "N",
+  "Aisha": "Kim",
+  "Noah": "Marco"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Aisha"
+ ],
+ "NAMES": [
+  "Aisha",
+  "Noah"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

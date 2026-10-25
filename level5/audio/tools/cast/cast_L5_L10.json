@@ -1,0 +1,24 @@
+{
+ "TITLE": "Can We Meet in the Middle?",
+ "VOICES": {
+  "Narrator": "N",
+  "Ms. Nguyen": "Kim",
+  "Camila": "Rosa",
+  "Jon": "Sam"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Ms. Nguyen",
+  "Camila"
+ ],
+ "NAMES": [
+  "Nguyen",
+  "Camila",
+  "Jon"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

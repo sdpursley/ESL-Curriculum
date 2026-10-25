@@ -1,0 +1,21 @@
+{
+ "TITLE": "It Was Posted on Tuesday",
+ "VOICES": {
+  "Narrator": "N",
+  "Diego": "Marco",
+  "Ms. Brooks": "Kim"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Ms. Brooks"
+ ],
+ "NAMES": [
+  "Diego",
+  "Brooks"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

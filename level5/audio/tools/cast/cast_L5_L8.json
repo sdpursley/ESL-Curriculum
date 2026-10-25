@@ -1,0 +1,21 @@
+{
+ "TITLE": "Do You Know If It's Tonight?",
+ "VOICES": {
+  "Narrator": "N",
+  "Maya": "Rosa",
+  "Mr. Reed": "Sam"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Maya"
+ ],
+ "NAMES": [
+  "Maya",
+  "Reed"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}
