@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 1 (Week 1): How Long Have You Been Working Here?
 
-**Status:** Not published. Listening audio is not recorded.
+**Status:** Not published. Draft listening audio is recorded.
 
 **Date:** October 2026
 
@@ -110,7 +110,7 @@
 :::step Step 3 · 6:12–6:32 · Listening + "Hear it, say it" · 20 min
 - **Grouping:** individuals, then pairs. With 5 or fewer, check together.
 - **Before you listen:** "Nora is practicing for a hotel front-desk job. Samir is her coach. Ms. Hale asks the questions. Listen: what job is the practice for?"
-- **Voices:** Nora, Samir, and Ms. Hale. A narrator opens and closes. The audio is not recorded yet (about 2:10). Read the script with volunteers, two times. Press nothing. A third read is fine if the class needs it.
+- **Voices:** Nora, Samir, and Ms. Hale. A narrator opens and closes. The audio is recorded (about 1:37). Read the script with volunteers, two times. Press nothing. A third read is fine if the class needs it.
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together: **b. a hotel front-desk job.**
 - **Read Tasks B and C** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers.
@@ -162,7 +162,7 @@
 ---
 ### Listening script
 
-Audio is not recorded yet (about 2:10). Read it with volunteers at a natural, friendly speed. The spoken lines use *going to* and *want to*. *gonna* and *wanna* are short forms. This listening uses the full forms.
+Audio is recorded (about 1:37). Read it with volunteers at a natural, friendly speed. The spoken lines use *going to* and *want to*. *gonna* and *wanna* are short forms. This listening uses the full forms.
 
 > **Narrator:** Lesson one. The community center is holding a practice interview night. Nora wants a hotel front-desk job.
 > **Samir:** Hi, Nora. I'm Samir, your coach. Are you ready to practice?

@@ -6,7 +6,7 @@ No extra lines were added.
 
 | Lesson | Status |
 |---|---|
-| 1 | not started |
+| 1 | PASS 1:37 |
 | 2 | not started |
 | 3 | not started |
 | 4 | not started |

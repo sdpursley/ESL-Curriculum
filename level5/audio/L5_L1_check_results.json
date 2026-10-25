@@ -1,0 +1,216 @@
+{
+ "file": "L5_L1_listening.mp3",
+ "duration_s": 96.53,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 200,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "18/18",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Samir": 109.5,
+  "Nora": 205.2,
+  "Ms. Hale": 192.5,
+  "Narrator": 180.7
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [
+  [
+   47.34,
+   47.8,
+   -48.9
+  ]
+ ],
+ "click_ratio": 4.1,
+ "peak": 0.894,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 9.24,
+   "spk": "Samir",
+   "line": "Hi, Nora. I'm Samir, your coach. Are you ready to practice?",
+   "ok": true,
+   "hyp": "hi nora i'm samir your coach are you ready to practice",
+   "min_prob": 0.61,
+   "flags": [],
+   "f0_med": 107.1
+  },
+  {
+   "t": 14.44,
+   "spk": "Nora",
+   "line": "Yes. I want to practice for a front-desk job at the Harbor Hotel.",
+   "ok": true,
+   "hyp": "yes i want to practice for a front desk job at the harbor hotel",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 205.2
+  },
+  {
+   "t": 19.84,
+   "spk": "Samir",
+   "line": "Good. Ms. Hale is going to ask the questions. I am going to take notes.",
+   "ok": true,
+   "hyp": "good miss hale is going to ask the questions i am going to take notes",
+   "min_prob": 0.6,
+   "flags": [],
+   "f0_med": 113.2
+  },
+  {
+   "t": 25.9,
+   "spk": "Ms. Hale",
+   "line": "Welcome, Nora. How long have you been working with customers?",
+   "ok": true,
+   "hyp": "welcome nora how long have you been working with customers",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 214.9
+  },
+  {
+   "t": 30.43,
+   "spk": "Nora",
+   "line": "I've been working with customers for three years. I work at a store now.",
+   "ok": true,
+   "hyp": "i've been working with customers for 3 years i work at a store now",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 202.8
+  },
+  {
+   "t": 36.36,
+   "spk": "Ms. Hale",
+   "line": "Tell me one accomplishment.",
+   "ok": true,
+   "hyp": "tell me 1 accomplishment",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 177.6
+  },
+  {
+   "t": 39.71,
+   "spk": "Nora",
+   "line": "I trained two new cashiers last spring.",
+   "ok": true,
+   "hyp": "i trained 2 new cashiers last spring",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 194.8
+  },
+  {
+   "t": 43.8,
+   "spk": "Ms. Hale",
+   "line": "Can you give an example?",
+   "ok": true,
+   "hyp": "can you give an example",
+   "min_prob": 0.98,
+   "flags": [],
+   "f0_med": 270.7
+  },
+  {
+   "t": 46.81,
+   "spk": "Nora",
+   "line": "Yes. One new cashier was nervous. I stayed with her for a week.",
+   "ok": true,
+   "hyp": "yes 1 new cashier was nervous i stayed with her for a week",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 234.3
+  },
+  {
+   "t": 52.97,
+   "spk": "Ms. Hale",
+   "line": "Have you finished any hotel training?",
+   "ok": true,
+   "hyp": "have you finished any hotel training",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 192.5
+  },
+  {
+   "t": 56.64,
+   "spk": "Nora",
+   "line": "Not yet. I want to start the front-desk training next month.",
+   "ok": true,
+   "hyp": "not yet i want to start the front desk training next month",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 229.0
+  },
+  {
+   "t": 61.65,
+   "spk": "Samir",
+   "line": "That example was clear. You said, \"I've been working.\"",
+   "ok": true,
+   "hyp": "that example was clear you said i've been working",
+   "min_prob": 0.56,
+   "flags": [],
+   "f0_med": 111.9
+  },
+  {
+   "t": 66.64,
+   "spk": "Ms. Hale",
+   "line": "What did you do in 2022?",
+   "ok": true,
+   "hyp": "what did you do in 2022",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 177.6
+  },
+  {
+   "t": 70.09,
+   "spk": "Nora",
+   "line": "I worked at a bakery in 2022. That job is finished.",
+   "ok": true,
+   "hyp": "i worked at a bakery in 2022 that job is finished",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 202.8
+  },
+  {
+   "t": 76.36,
+   "spk": "Ms. Hale",
+   "line": "Do you have a follow-up question?",
+   "ok": true,
+   "hyp": "do you have a follow up question",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 208.8
+  },
+  {
+   "t": 79.63,
+   "spk": "Nora",
+   "line": "Yes. What do you send after the interview?",
+   "ok": true,
+   "hyp": "yes what do you send after the interview",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 217.4
+  },
+  {
+   "t": 83.74,
+   "spk": "Ms. Hale",
+   "line": "A short note. A handshake and a thank-you are a good start.",
+   "ok": true,
+   "hyp": "a short note a handshake and a thank you are a good start",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 182.8
+  },
+  {
+   "t": 89.53,
+   "spk": "Samir",
+   "line": "Next, you are going to put one accomplishment in your portfolio.",
+   "ok": true,
+   "hyp": "next you are going to put 1 accomplishment in your portfolio",
+   "min_prob": 0.95,
+   "flags": [],
+   "f0_med": 104.7
+  }
+ ],
+ "hyp": "lesson 1 the community center is holding a practice interview night nora wants a hotel front desk job hi nora i'm samir your coach are you ready to practice yes i want to practice for a front desk job at the harbor hotel good miss hale is going to ask the questions i am going to take notes welcome nora how long have you been working with customers i've been working with customers for 3 years i work at a store now tell me 1 accomplishment i trained 2 new cashiers last spring can you give an example yes 1 new cashier was nervous i stayed with her for a week have you finished any hotel training not yet i want to start the front desk training next month that example was clear you said i've been working what did you do in 2022 i worked at a bakery in 2022 that job is finished do you have a follow up question yes what do you send after the interview a short note a handshake and a thank you are a good start next you are going to put 1 accomplishment in your portfolio that's the end of the listening"
+}
