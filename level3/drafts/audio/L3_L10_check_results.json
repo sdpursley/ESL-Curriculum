@@ -1,0 +1,178 @@
+{
+ "file": "L3_L10_listening.mp3",
+ "duration_s": 71.27,
+ "wer": 0.0187,
+ "errors": 3,
+ "ref_words": 160,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "coworker",
+   "hyp": "co worker",
+   "ctx": "at a supermarket her coworker tom is teaching her"
+  },
+  {
+   "op": "replace",
+   "ref": "cup",
+   "hyp": "couple",
+   "ctx": "eyes next add 1 cup of detergent not more"
+  }
+ ],
+ "low_prob_words": [
+  [
+   "one",
+   36.11,
+   0.04
+  ]
+ ],
+ "lines_ok": "13/13",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Tom": 124.8,
+  "Maria": 199.9,
+  "Narrator": 175.5
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.2,
+ "peak": 0.884,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.8,
+ "per_line": [
+  {
+   "t": 11.22,
+   "spk": "Tom",
+   "line": "Hi, Maria. Welcome to the team! Today I'm going to show you the floor cleaning machine. It's easy.",
+   "ok": true,
+   "hyp": "hi maria welcome to the team today i'm going to show you the floor cleaning machine it's easy",
+   "min_prob": 0.11,
+   "flags": [],
+   "f0_med": 122.4
+  },
+  {
+   "t": 18.36,
+   "spk": "Maria",
+   "line": "Great. How do I start?",
+   "ok": true,
+   "hyp": "great how do i start",
+   "min_prob": 0.97,
+   "flags": [],
+   "f0_med": 188.1
+  },
+  {
+   "t": 21.28,
+   "spk": "Tom",
+   "line": "First, put on your safety goggles. Then, fill the tank with water.",
+   "ok": true,
+   "hyp": "first put on your safety goggles then fill the tank with water",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 130.0
+  },
+  {
+   "t": 27.1,
+   "spk": "Maria",
+   "line": "Why do I need goggles?",
+   "ok": true,
+   "hyp": "why do i need goggles",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 195.9
+  },
+  {
+   "t": 29.88,
+   "spk": "Tom",
+   "line": "Because the detergent can hurt your eyes. Next, add one cup of detergent. Not more!",
+   "ok": true,
+   "hyp": "because the detergent can hurt your eyes next add 1 cup of detergent not more",
+   "min_prob": 0.45,
+   "flags": [],
+   "f0_med": 135.4
+  },
+  {
+   "t": 36.29,
+   "spk": "Maria",
+   "line": "One cup. Got it. What do I do after that?",
+   "ok": true,
+   "hyp": "1 cup got it what do i do after that",
+   "min_prob": 0.67,
+   "flags": [],
+   "f0_med": 255.5
+  },
+  {
+   "t": 40.85,
+   "spk": "Tom",
+   "line": "After that, plug it in and turn it on. A green light comes on.",
+   "ok": true,
+   "hyp": "after that plug it in and turn it on a green light comes on",
+   "min_prob": 0.96,
+   "flags": [],
+   "f0_med": 124.8
+  },
+  {
+   "t": 46.13,
+   "spk": "Maria",
+   "line": "And then I just push it?",
+   "ok": true,
+   "hyp": "and then i just push it",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 193.7
+  },
+  {
+   "t": 49.04,
+   "spk": "Tom",
+   "line": "Right. Push it slowly. Don't leave it alone when it's on.",
+   "ok": true,
+   "hyp": "right push it slowly don't leave it alone when it's on",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 108.7
+  },
+  {
+   "t": 53.79,
+   "spk": "Maria",
+   "line": "What do I do when I finish?",
+   "ok": true,
+   "hyp": "what do i do when i finish",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 204.0
+  },
+  {
+   "t": 56.79,
+   "spk": "Tom",
+   "line": "Finally, turn it off, unplug it, and empty the tank.",
+   "ok": true,
+   "hyp": "finally turn it off unplug it and empty the tank",
+   "min_prob": 0.7,
+   "flags": [],
+   "f0_med": 127.0
+  },
+  {
+   "t": 60.91,
+   "spk": "Maria",
+   "line": "Thanks, Tom. Can I try it now?",
+   "ok": true,
+   "hyp": "thanks tom can i try it now",
+   "min_prob": 0.53,
+   "flags": [],
+   "f0_med": 220.5
+  },
+  {
+   "t": 63.91,
+   "spk": "Tom",
+   "line": "Sure. Press the start button, and let's go. I'll walk with you.",
+   "ok": true,
+   "hyp": "sure press the start button and let's go i'll walk with you",
+   "min_prob": 0.67,
+   "flags": [],
+   "f0_med": 107.4
+  }
+ ],
+ "hyp": "lesson 10 listening maria is a new worker at a supermarket her co worker tom is teaching her to use a machine listen hi maria welcome to the team today i'm going to show you the floor cleaning machine it's easy great how do i start first put on your safety goggles then fill the tank with water why do i need goggles because the detergent can hurt your eyes next add 1 couple of detergent not more 1 cup got it what do i do after that after that plug it in and turn it on a green light comes on and then i just push it right push it slowly don't leave it alone when it's on what do i do when i finish finally turn it off unplug it and empty the tank thanks tom can i try it now sure press the start button and let's go i'll walk with you that's the end of the listening"
+}

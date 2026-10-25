@@ -6,7 +6,7 @@ All commands run from the repository root unless a step says `cd`.
 
 **Get the owner's approval before you publish anything** (before merging into `main`: a push to `main` deploys the public website).
 
-**Contents:** [1. Project layout](#1-project-layout) · [2. Content rules](#2-content-rules) · [3. Audio rules](#3-audio-rules) · [4. Audio check rules](#4-audio-check-rules) · [5. Step by step: add a lesson](#5-step-by-step-add-a-lesson-example-level-1-lesson-n-level-3-is-the-same-with-level3--l3) · [6. Slide decks (all levels)](#6-slide-decks-all-levels) · [7. Never commit](#7-never-commit) · [8. Repository rules](#8-repository-rules)
+**Contents:** [1. Project layout](#1-project-layout) · [2. Content rules](#2-content-rules) · [3. Audio rules](#3-audio-rules) · [4. Audio check rules](#4-audio-check-rules) · [5. Step by step: add a lesson](#5-step-by-step-add-a-lesson-example-level-1-lesson-n-level-3-is-the-same-with-level3--l3) · [6. Slide decks (all levels)](#6-slide-decks-all-levels) · [7. Running audio locally](#7-running-audio-locally-level-3-lessons-213-drafts) · [8. Never commit](#8-never-commit) · [9. Repository rules](#9-repository-rules)
 
 ---
 
@@ -22,7 +22,8 @@ plus the sources and build scripts for four levels of a 5-level adult ESL progre
 | DOCX + PDF build | `level1/curriculum/build.sh <N> [--publish]` (uses `md2docx_L1.py`) | `curriculum/build.sh` (uses `md2docx.py`, `packets.py`) | `level3/curriculum/build.sh <N> [--publish]` (uses `md2docx_L3.py`) | `level4/curriculum/tools/build_lesson_L4.sh <N>` (uses `md2docx_L4.py`); the PDF + DOCX are committed next to the Markdown, and `export_content.py` copies them into `public/level4/downloads/` |
 | Exams | `level1/exams/` (Markdown, `images/`, `audio/`, `build/`); build: `level1/exams/build/build_all.sh [--publish]` | cut out of the book by `curriculum/build.sh` into `public/downloads/exams/` | not built yet | not built yet |
 | Pictures | `level1/images/` (+ `CREDITS.md`); scripts `level1/images/tools/make_images_L1.py`, `make_images_L1_L<N>.py`, helpers `level1/images/tools/lib/` | `public/images/` (+ `CREDITS.md`); scripts `tools/images/` | `level3/images/` (+ `CREDITS.md`); scripts `level3/images/tools/make_images_L3_L<N>.py` | `level4/images/` (+ `CREDITS.md`); scripts `level4/images/tools/make_images_L4_L<N>.py` |
-| Listening audio | `level1/audio/` (MP3 + check results + READMEs); Lesson 1 scripts `level1/audio/tools/`; Lessons 2–13 and exams use the shared builder `level1/audio/tools/lessons/` | `public/audio/`; scripts `tools/audio/` (`processor.py`, `asr_check*.py`) | `level3/audio/`; scripts `level3/audio/tools/` (`build_L3_L<N>.py`, `check_L3_L<N>.py`, `script_L3_L<N>.py`) | `level4/audio/` (no MP3 yet: the pages and slides say "coming soon"); scripts `level4/audio/tools/` |
+| Listening audio | `level1/audio/` (MP3 + check results + READMEs); Lesson 1 scripts `level1/audio/tools/`; Lessons 2–13 and exams use the shared builder `level1/audio/tools/lessons/` | `public/audio/`; scripts `tools/audio/` (`processor.py`, `asr_check*.py`) | `level3/audio/`; scripts `level3/audio/tools/` (`build_L3_L<N>.py`, `check_L3_L<N>.py`, `script_L3_L<N>.py`) | `level4/audio/` (MP3 + check results + READMEs for Lessons 1–13); scripts `level4/audio/tools/` |
+| Level 3 drafts (Lessons 2–13; the website uses `level3/`, not this folder) | | | `level3/drafts/` (`curriculum/`, `images/`, `audio/`, `audio/tools/`); status `level3/AUDIO_STATUS.md`; see section 7 | |
 | Voice reference clips | `tools/audio/samples/refs/*.wav` and `level1/audio/tools/natural/kokoro_refs/af_jessica.wav` (list: `level1/audio/tools/lessons/REFS.md`) | `tools/audio/samples/refs/` | `tools/audio/samples/refs/` | `level4/audio/tools/REFS_L4.md` |
 | Slide decks (source) | `level1/slides/Level1_Lesson<N>_Slides.pptx` | `public/downloads/slides/Lesson<N>_Slides.pptx` | `level3/slides/Level3_Lesson<N>_Slides.pptx` | `level4/slides/Level4_Lesson<N>_Slides.pptx` (specs: `level4/slides/specs/`) |
 | Website files (generated, don't edit by hand) | `public/level1/` (images, audio, downloads, downloads/slides, downloads/exams) | `public/images/`, `public/audio/`, `public/downloads/` | `public/level3/` | `public/level4/` |
@@ -244,7 +245,7 @@ The repo's `tools/audio/processor.py` is the one to use (resampling, trimming, s
    - `#/level1/present/<N>`: click through every slide. Answers appear on click, there are no empty or stuck steps, and the counter ends on the last slide.
    - `#/level1/downloads`, `#/level1/exams`, and the Level 2 and Level 3 pages.
    - No browser console errors, and every image, PDF, DOCX, PPTX, and MP3 link returns 200.
-10. **PR.** Follow section 8 and ask the owner for approval before you merge.
+10. **PR.** Follow section 9 and ask the owner for approval before you merge.
 
 **Exams (Level 1 Week 8 Midterm, Week 15 Final)**
 
@@ -287,7 +288,7 @@ The site scripts are `scripts/check_slides.py` (click targets), `scripts/export_
 
 ### 6.1 Inputs: the lesson is the only source
 
-- **Lesson text:** `level<V>/curriculum/Level<V>_Lesson<N>.md`. While a lesson is still a draft it may live on a branch as `level<V>/drafts/curriculum/Level<V>_Lesson<N>.md` (for example, Level 3 Lessons 2–13 are on the branch `level3-L2-13-audio-handoff`). Read it without switching branches: `git show origin/<branch>:level<V>/drafts/curriculum/Level<V>_Lesson<N>.md > /tmp/Level<V>_Lesson<N>.md`, then pass `--md /tmp/Level<V>_Lesson<N>.md`.
+- **Lesson text:** `level<V>/curriculum/Level<V>_Lesson<N>.md`. While a lesson is still a draft it may live in `level<V>/drafts/curriculum/` or on a feature branch. Published Level 3 Lessons 1–13 are in `level3/curriculum/`. Draft copies and the audio tools stay in `level3/drafts/` (section 7). A later level's drafts may be on a branch. Read a branch copy without switching: `git show origin/<branch>:level<V>/drafts/curriculum/Level<V>_Lesson<N>.md > /tmp/Level<V>_Lesson<N>.md`, then pass `--md /tmp/Level<V>_Lesson<N>.md`.
 - **Pictures:** `level<V>/images/L<V>_L<N>_<name>.png` and the level's `level<V>/images/CREDITS.md` (one table row per file: file, word, what it shows, Twemoji source). The alt text of every picture on the slides is built from that row.
 - **Answer keys:** the lesson's teacher plan and answer key sections. Every answer revealed on a slide must be the key's answer, word for word.
 - **Everything on a slide comes from the lesson page.** Same words, same order, same item numbers, same answers, same names, same times. Never invent an item, an example, a name, a word, or an answer. If a slide needs text the lesson does not have, change the slide (fewer rows), not the content. If the lesson itself looks wrong, stop and report it; do not "fix" it on the slide.
@@ -428,7 +429,7 @@ It installs, if missing: LibreOffice Impress (`soffice`), poppler-utils (`pdftop
 
 ### 6.8 Step by step: make a deck (example: Level 3 Lesson N; for Level 4/5 replace `3`)
 
-Work on a feature branch (section 8). Set the numbers once:
+Work on a feature branch (section 9). Set the numbers once:
 
 ```bash
 V=3; N=5; P=$((N-1))
@@ -541,7 +542,7 @@ npm run preview   # http://localhost:4173/
 
 **10. Presenter click-through:** open `http://localhost:4173/#/level$V/present/$N`, press → (or click) through every slide: each click reveals one step, answers appear in order, nothing is stuck or empty, the counter ends on the last slide, and the PowerPoint download link works. Also open `#/level$V/lesson/$N` and `#/level$V/downloads`. No browser console errors.
 
-**11. Commit and open a PR** (section 8). Commit the deck, the spec, and the generated site files together.
+**11. Commit and open a PR** (section 9). Commit the deck, the spec, and the generated site files together.
 
 #### 6.8.1 Reproduce a published deck (to check your setup)
 
@@ -598,10 +599,10 @@ Then run steps 5–11 on the saved file. (An image part can be shared by several
 **How a lesson appears** (`scripts/export_content.py`, `export_level()` and `lesson_page()`):
 
 - **Ready:** `level<V>/curriculum/Level<V>_Lesson<N>.md` is on `main`. The lesson gets its pages, PDF/DOCX (`level<V>/curriculum/build.sh <N> --publish`), MP3 (if `level<V>/audio/L<V>_L<N>_listening.mp3` exists), and the slides.
-- **Slides only:** no lesson Markdown on `main`, but `level<V>/slides/Level<V>_Lesson<N>_Slides.pptx` exists. The lessons list shows **"Slides ready"** and **"Lesson book soon"**; the lesson page shows only the slide card (present + PowerPoint download); the Downloads page lists it under "Teacher slides". This is how Level 3 Lessons 2–13 are published now (`slidesOnly` in `src/level3.tsx`).
+- **Slides only:** no lesson Markdown on `main`, but `level<V>/slides/Level<V>_Lesson<N>_Slides.pptx` exists. The lessons list shows **"Slides ready"** and **"Lesson book soon"**; the lesson page shows only the slide card (present + PowerPoint download); the Downloads page lists it under "Teacher slides". Level 3 Lessons 1–13 are ready. This path remains for a lesson that has a deck but no lesson book (`slidesOnly` in `src/level3.tsx`).
 - **Coming soon:** neither file.
 
-**From slides-only to fully ready** (Level 3 Lessons 2–13 when their lesson books are approved):
+**From slides-only to fully ready** (the path used for Level 3 Lessons 2–13):
 
 1. Add `level3/curriculum/Level3_Lesson<N>.md` to `main` (plus its pictures and `CREDITS.md` rows if not there yet).
 2. `level3/curriculum/build.sh <N> --publish` (PDF + DOCX).
@@ -628,13 +629,108 @@ Then `npm run build`, preview every Level 1–4 page, and check that Level 1–3
 
 - One **feature branch** per job (e.g. `level4-L1-slides`), made from the current `origin/main`. Commit the spec, the deck, and the generated site files together.
 - Test before pushing: 6.8 steps 5–10 (checks, renders, export, `npm run build`, presenter click-through).
-- **Never commit** `node_modules/`, `dist/`, `build/` (renders, rebuilt decks), virtual environments, model weights, WAV files, fonts, or secrets (section 7).
-- Push the branch normally (no force-push), open a PR into `main`, and **wait for the owner's approval**. Merge with a **merge commit**, delete the branch, wait for the "Deploy to GitHub Pages" run, and check the live site: `https://sdpursley.github.io/ESL-Curriculum/#/level<V>/present/<N>` clicks through, the PowerPoint link returns 200 (section 8).
+- **Never commit** `node_modules/`, `dist/`, `build/` (renders, rebuilt decks), virtual environments, model weights, WAV files, fonts, or secrets (section 8).
+- Push the branch normally (no force-push), open a PR into `main`, and **wait for the owner's approval**. Merge with a **merge commit**, delete the branch, wait for the "Deploy to GitHub Pages" run, and check the live site: `https://sdpursley.github.io/ESL-Curriculum/#/level<V>/present/<N>` clicks through, the PowerPoint link returns 200 (section 9).
 - Never change the repository visibility or the Pages settings.
 
 ---
 
-## 7. Never commit
+## 7. Running audio locally (Level 3 Lessons 2–13 drafts)
+
+Draft copies of Level 3 Lessons 2–13 stay in `level3/drafts/` (`curriculum/`, `images/`, `audio/`, `audio/tools/`). The website does not read
+this folder. Published copies are in `level3/curriculum/`, `level3/images/`, and `level3/audio/`. Which lessons still need audio is in [`level3/AUDIO_STATUS.md`](level3/AUDIO_STATUS.md):
+**done**, **partial**, or **to-do**, with the lines that remain. Level 3's draft audio is in this repository. For the next level, make a new branch from `main` the same way (`level3-L2-13-audio-handoff` was that branch for Level 3) and run the commands below on that branch.
+All rules in sections 3 and 4 apply. The Level 3 drafts tooling is in `level3/drafts/audio/tools/`:
+
+| File | What it does |
+|---|---|
+| `scripts/script_L3_L<N>.py` | Line file: `INTRO`, `LINES` (speaker, line text), `END`, `VOICES` (speaker → clip), `FEMALE`, `SAME` (voice-text spellings). Made from the lesson Markdown by `make_script_L3.py <N>` with `cast/cast_L3_L<N>.json` |
+| `make_refs_L3.py` | Rebuilds the Kokoro-82M reference clips in `refs/` from their voice ids (`--check` compares them with the committed clips, `--copy` copies those instead). List: `REFS_L3.md` |
+| `run_audio_L3.sh <N>` | Build + small.en check + medium.en second opinion + gate, each heavy step under the lock; output in `out/L<N>/` |
+| `publish_audio_L3.sh <N> ['notes']` | Only after gate PASS and listening: copies the MP3, log, check results, gate, second opinion into `level3/drafts/audio/` and writes `L3_L<N>_README.md` |
+| `build_listening_L3.py`, `engine.py` | Chatterbox whole-sentence takes (seeds 2026 + k·7919, up to `MAXT`=16), take cache in `cache/` |
+| `check_listening_L3.py`, `second_opinion_lines.py`, `audio_gate_L3.py`, `whisper_cfg.py`, `canon.py`, `metrics.py` | The checks (section 4) |
+| `lockrun.py` | Portable lock (`flock` is not on macOS): `python lockrun.py /tmp/chatterbox.lock <cmd> ...` |
+
+**Prerequisites**
+
+- Python **3.11**, **ffmpeg** on `PATH`, about 10 GB of free disk space (models) and 16 GB RAM. Windows: use WSL (`lockrun.py` needs `fcntl`).
+- One virtual environment at the repository root (not committed):
+  ```bash
+  python3.11 -m venv .venv-audio
+  .venv-audio/bin/pip install -U pip
+  .venv-audio/bin/pip install -r level3/drafts/audio/tools/requirements.txt   # chatterbox-tts 0.1.7, torch 2.6.0, faster-whisper 1.2.1, kokoro-onnx 0.6.1 ...
+  ```
+- The checks use **faster-whisper** (small.en and medium.en; downloaded on first use). openai-whisper is not needed. Do not swap it in: its
+  text differs, and the pass rule was set with faster-whisper.
+- Kokoro model files for `make_refs_L3.py` go in `tools/audio/models/` (not committed):
+  `kokoro-v1.0.onnx` and `voices-v1.0.bin` from https://github.com/thewh1teagle/kokoro-onnx/releases/tag/model-files-v1.0
+  (or set `KOKORO_MODEL` / `KOKORO_VOICES`). If kokoro-onnx is not installed, the script uses the PyTorch `kokoro` package.
+
+**Devices and time**
+
+- `TTS_DEVICE=auto` (default) picks **CUDA**, then **MPS** (Apple Silicon), then **CPU** for Chatterbox. Force one with `TTS_DEVICE=cpu|mps|cuda`.
+- Whisper runs on the **CPU** with `compute_type=float32` and `cpu_threads=1` (`whisper_cfg.py`; `WHISPER_DEVICE`, `WHISPER_COMPUTE`, `WHISPER_THREADS`).
+  This is the deciding setting from section 4, so keep it. faster-whisper has no MPS backend. Use `WHISPER_DEVICE=cuda` only for a quick look, and
+  run the check again on the CPU before you publish.
+- Expect, for one lesson (about 15 lines, 40–50 takes with the retries): CPU, 8 cores: building 45–60 min (about 1 min per take; Lesson 5 took
+  48 min), small.en check about 2 min, medium.en about 4–8 min, so about **1 hour per lesson** and 10–12 hours for the 10 lessons left.
+  CUDA: building a few minutes. MPS: building usually 2–4× faster than the CPU (if MPS fails on an operation, use `TTS_DEVICE=cpu`).
+  Each retake costs only the rejected lines (the other takes come from `cache/`).
+- The same seed gives a **different take on another computer or device**, and the cache does not carry over. Old seeds from
+  `AUDIO_STATUS.md` are only notes. Build every lesson that is not done from line 1.
+
+**Commands** (from the repository root; `T=level3/drafts/audio/tools`)
+
+```bash
+T=level3/drafts/audio/tools
+# 1. reference clips (once): writes $T/refs/*.wav from the Kokoro voice ids; --check must say OK for all 10
+.venv-audio/bin/python $T/make_refs_L3.py && .venv-audio/bin/python $T/make_refs_L3.py --check
+# 2. record + check + gate one lesson (example: Lesson 6)
+bash $T/run_audio_L3.sh 6
+#    retake: add the seeds of the takes that failed (sentence text exactly as in the log), then run again
+EXCLUDE='{"<sentence>": [<seed>], "<other sentence>": [<seed>, <seed>]}' bash $T/run_audio_L3.sh 6
+# 3. listen to $T/out/L6/L3_L6_listening.mp3 from start to end, then publish into level3/drafts/audio/
+bash $T/publish_audio_L3.sh 6 'Optional note for the README'
+```
+
+`run_audio_L3.sh` stitches the MP3 itself (the builder joins the takes with the pauses, normalizes loudness, writes the WAV master and the
+MP3 with ffmpeg). Its last line is the gate summary: `PASS True` is needed. Details: `out/L<N>/L3_L<N>_gate.json`, `build.log`,
+`L3_L<N>_check_results.json`, `L3_L<N>_second_opinion_medium.txt`. Use `PY=` for another Python and `LOCK=` for another lock file.
+If a lesson's Markdown changes, run `.venv-audio/bin/python $T/make_script_L3.py <N>` first, and rebuild the DOCX/PDF with
+`PYTHON=.venv-docs/bin/python level3/drafts/curriculum/build_draft.sh <N> --inplace`. Keep the "Draft for review" wording in the lesson files.
+
+**Rules for these files** (sections 3 and 4, applied to Level 3)
+
+- Voices: Chatterbox clones of the synthetic Kokoro-82M clips in `refs/` only (`engine.py` refuses any other path). Never use real-person voices,
+  LibriTTS/LibriVox, Piper, or the Chatterbox default voice. Female characters get female clips (`FEMALE` in the script).
+- Settings: **exaggeration 0.72, cfg 0.32** for the characters. The Level 3 **narrator uses 0.55 / 0.40** (built in; do not change).
+- **Whole-sentence takes**. Pauses **1.3–1.5 s** between speakers (`PAUSE_SPK`, default 1.3; the gate accepts 1.25–1.6 s).
+- Length: **about 1:30 at most** (the gate allows 1:00–1:30), **up to 3 speakers** (Narrator + 2). If it is too long, shorten the lesson
+  Markdown and run `make_script_L3.py` again. Do not speed up the audio.
+- **Pass rule:** a line passes if **either** small.en **or** medium.en hears it correctly (after `canon.py`), **and** its pitch is OK
+  (male median **under 150 Hz**, female 165 Hz or more) **and** it has **no clipping**. Retake only lines that both checkers miss, or for pitch or clipping.
+- **Spelled letters and digit strings are checked by ear**, not by the score.
+- **Only one heavy model process at a time** (Chatterbox, Whisper, Kokoro). The scripts hold `/tmp/chatterbox.lock`. Do not run two lessons in parallel.
+- Listen to the whole file before you publish it, even after `PASS True`.
+
+**Commit the results back** (same branch, no PR, no merge without the owner):
+
+1. `bash $T/publish_audio_L3.sh <N>` copies `L3_L<N>_listening.mp3`, `_listening_log.json`, `_check_results.json`, `_gate.json`,
+   `_second_opinion_medium.txt` and `L3_L<N>_README.md` into `level3/drafts/audio/`.
+2. Set that lesson's row in `level3/AUDIO_STATUS.md` to **done** (length, gate PASS, retakes), and update the real length in the listening-script heading of `level3/drafts/curriculum/Level3_Lesson<N>.md`.
+3. `git status`: commit **only** those files (and changed scripts, if any). **Never commit WAV files**, `refs/`, `cache/`, `out/`, `build/`, `.venv-audio/` or model files.
+   ```bash
+   git switch <audio-branch> && git pull
+   git add level3/drafts/audio/L3_L<N>_* level3/AUDIO_STATUS.md level3/drafts/curriculum/Level3_Lesson<N>.md
+   git status --short | grep -iE '\.wav|\.onnx|\.bin|\.pt|venv|cache/|out/' && echo STOP   # must print nothing
+   git commit -m "Level 3 Lesson <N> draft listening audio" && git push origin <audio-branch>
+   ```
+   A normal push only, never force-push. Moving drafts onto the website (into `level3/curriculum/`, `level3/images/`, `level3/audio/`) is a separate step that needs the owner's approval.
+
+---
+
+## 8. Never commit
 
 - `node_modules/` or `dist/`
 - Python environments (`.venv*`)
@@ -647,7 +743,7 @@ Then `npm run build`, preview every Level 1–4 page, and check that Level 1–3
 
 `.gitignore` covers most of these. Still check `git status` before every commit.
 
-## 8. Repository rules
+## 9. Repository rules
 
 - Work on a **feature branch**, then open a **pull request** into `main`.
 - Merge with a **merge commit** (not squash or rebase), then delete the branch.

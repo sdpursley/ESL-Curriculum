@@ -1,0 +1,23 @@
+{
+ "TITLE": "It Happened So Fast",
+ "VOICES": {
+  "Narrator": "N",
+  "Elena": "Rosa",
+  "Mark": "Marco"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Elena"
+ ],
+ "NAMES": [
+  "elena",
+  "ramos",
+  "mark"
+ ],
+ "SAME": {
+  "okay": "ok",
+  "2nd": "second",
+  "saferoad": "safe road"
+ },
+ "TTS": {}
+}

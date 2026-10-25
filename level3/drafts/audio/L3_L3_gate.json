@@ -1,0 +1,116 @@
+{
+ "duration_s": 74.63,
+ "duration": "1:15",
+ "length_ok": true,
+ "small_whole_file_wer": 0.0,
+ "small_whole_file_errors": "0/176",
+ "small_whole_file_diffs": [],
+ "small_lines_ok": "15/15",
+ "small_line_problems": [
+  {
+   "t": 11.2,
+   "spk": "Teresa",
+   "line": "Yes! That's me with my sister. We used to live in a small village.",
+   "hyp": "yes that's me with my sister we use to live in a small village",
+   "flags": [
+    "HF whine 280ms"
+   ]
+  },
+  {
+   "t": 43.71,
+   "spk": "Teresa",
+   "line": "We used to do our chores. Then we used to climb trees and swim in the river.",
+   "hyp": "we use to do our chores then we use to climb trees and swim in the river",
+   "flags": [
+    "HF whine 260ms"
+   ]
+  },
+  {
+   "t": 52.05,
+   "spk": "Teresa",
+   "line": "No, we didn't use to have a TV. We used to listen to the radio at night.",
+   "hyp": "no we didn't use to have a tv we use to listen to the radio at night",
+   "flags": [
+    "HF whine 220ms"
+   ]
+  },
+  {
+   "t": 60.9,
+   "spk": "Teresa",
+   "line": "No. We used to write letters to my aunt in the city. Now I send you text messages every day!",
+   "hyp": "no we use to write letters to my aunt in the city now i send you text messages every day",
+   "flags": [
+    "HF whine 340ms"
+   ]
+  }
+ ],
+ "medium_per_line": {
+  "wer": 0.0,
+  "errors": 0,
+  "words": 176,
+  "exact": "17/17"
+ },
+ "medium_differences": [],
+ "pitch_median_hz": {
+  "Daniel": 137.4,
+  "Teresa": 213.6,
+  "Narrator": 174.5
+ },
+ "pitch_problems": [],
+ "clipped_samples": 0,
+ "peak": 0.884,
+ "loudness_lufs": -16.6,
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "gaps_ok": true,
+ "noisy_pauses": [],
+ "failed_sentences": [],
+ "sentences": 23,
+ "takes_tried": 62,
+ "lines_wrong_in_both_checkers": [],
+ "single_checker_misses_or_flags_ignored": {
+  "small": [
+   {
+    "t": 11.2,
+    "spk": "Teresa",
+    "line": "Yes! That's me with my sister. We used to live in a small village.",
+    "hyp": "yes that's me with my sister we use to live in a small village",
+    "flags": [
+     "HF whine 280ms"
+    ]
+   },
+   {
+    "t": 43.71,
+    "spk": "Teresa",
+    "line": "We used to do our chores. Then we used to climb trees and swim in the river.",
+    "hyp": "we use to do our chores then we use to climb trees and swim in the river",
+    "flags": [
+     "HF whine 260ms"
+    ]
+   },
+   {
+    "t": 52.05,
+    "spk": "Teresa",
+    "line": "No, we didn't use to have a TV. We used to listen to the radio at night.",
+    "hyp": "no we didn't use to have a tv we use to listen to the radio at night",
+    "flags": [
+     "HF whine 220ms"
+    ]
+   },
+   {
+    "t": 60.9,
+    "spk": "Teresa",
+    "line": "No. We used to write letters to my aunt in the city. Now I send you text messages every day!",
+    "hyp": "no we use to write letters to my aunt in the city now i send you text messages every day",
+    "flags": [
+     "HF whine 340ms"
+    ]
+   }
+  ],
+  "medium": []
+ },
+ "rule": "line bad only if small.en AND medium.en both mishear it; pitch, clipping, length, gaps, FAILED still gate",
+ "PASS": true
+}

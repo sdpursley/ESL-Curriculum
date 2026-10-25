@@ -1,0 +1,6 @@
+{"TITLE": "Don't Worry, I'll Do It",
+ "VOICES": {"Narrator": "N", "Carmen": "Receptionist", "David": "Sam"},
+ "FEMALE": ["Narrator", "Carmen"],
+ "NAMES": ["carmen", "david", "rosa", "hillside"],
+ "SAME": {"okay": "ok", "five": "5", "eight": "8"},
+ "TTS": {}}

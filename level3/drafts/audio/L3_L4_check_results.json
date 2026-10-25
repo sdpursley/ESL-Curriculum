@@ -1,0 +1,207 @@
+{
+ "file": "L3_L4_listening.mp3",
+ "duration_s": 77.97,
+ "wer": 0.0061,
+ "errors": 1,
+ "ref_words": 165,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "elena",
+   "hyp": "alaina",
+   "ctx": "lesson 4 listening elena had a small car"
+  }
+ ],
+ "low_prob_words": [],
+ "lines_ok": "15/16",
+ "lines_with_flags": [],
+ "lines_not_exact": [
+  {
+   "t": 14.77,
+   "spk": "Elena",
+   "line": "Hi, this is Elena Ramos. I had a small car accident this morning.",
+   "ok": false,
+   "hyp": "hi this is alana ramos i had a small car accident",
+   "min_prob": 0.55,
+   "flags": [],
+   "f0_med": 202.8
+  }
+ ],
+ "pitch_median_hz": {
+  "Mark": 123.0,
+  "Elena": 210.9,
+  "Narrator": 188.1
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.4,
+ "peak": 0.893,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 10.15,
+   "spk": "Mark",
+   "line": "Safe Road Insurance, this is Mark. How can I help you?",
+   "ok": true,
+   "hyp": "safe road insurance this is mark how can i help you",
+   "min_prob": 0.67,
+   "flags": [],
+   "f0_med": 119.2
+  },
+  {
+   "t": 14.77,
+   "spk": "Elena",
+   "line": "Hi, this is Elena Ramos. I had a small car accident this morning.",
+   "ok": false,
+   "hyp": "hi this is alana ramos i had a small car accident",
+   "min_prob": 0.55,
+   "flags": [],
+   "f0_med": 202.8
+  },
+  {
+   "t": 20.84,
+   "spk": "Mark",
+   "line": "I'm sorry to hear that. Was anyone hurt?",
+   "ok": true,
+   "hyp": "i'm sorry to hear that was anyone hurt",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 133.8
+  },
+  {
+   "t": 24.58,
+   "spk": "Elena",
+   "line": "No, everyone was OK. But my car has a dent.",
+   "ok": true,
+   "hyp": "no everyone was ok but my car has a dent",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 222.5
+  },
+  {
+   "t": 29.91,
+   "spk": "Mark",
+   "line": "Where did it happen?",
+   "ok": true,
+   "hyp": "where did it happen",
+   "min_prob": 0.81,
+   "flags": [],
+   "f0_med": 130.8
+  },
+  {
+   "t": 32.11,
+   "spk": "Elena",
+   "line": "At the intersection of Oak Street and Second Avenue.",
+   "ok": true,
+   "hyp": "at the intersection of oak street and second avenue",
+   "min_prob": 0.58,
+   "flags": [],
+   "f0_med": 214.3
+  },
+  {
+   "t": 36.16,
+   "spk": "Mark",
+   "line": "What were you doing when it happened?",
+   "ok": true,
+   "hyp": "what were you doing when it happened",
+   "min_prob": 0.55,
+   "flags": [],
+   "f0_med": 97.1
+  },
+  {
+   "t": 39.0,
+   "spk": "Elena",
+   "line": "I was driving to work. The light was red, so I stopped.",
+   "ok": true,
+   "hyp": "i was driving to work the light was red so i stopped",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 188.7
+  },
+  {
+   "t": 44.12,
+   "spk": "Mark",
+   "line": "And what was the other driver doing?",
+   "ok": true,
+   "hyp": "and what was the other driver doing",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 124.1
+  },
+  {
+   "t": 47.14,
+   "spk": "Elena",
+   "line": "He was talking on his phone. He wasn't looking, and he hit my car.",
+   "ok": true,
+   "hyp": "he was talking on his phone he wasn't looking and he hit my car",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 219.9
+  },
+  {
+   "t": 52.84,
+   "spk": "Mark",
+   "line": "Did anyone see the accident?",
+   "ok": true,
+   "hyp": "did anyone see the accident",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 122.0
+  },
+  {
+   "t": 55.49,
+   "spk": "Elena",
+   "line": "Yes. Two people were crossing the street. One woman gave me her phone number.",
+   "ok": true,
+   "hyp": "yes 2 people were crossing the street 1 woman gave me her phone number",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 197.0
+  },
+  {
+   "t": 61.53,
+   "spk": "Mark",
+   "line": "Good. Did the police come?",
+   "ok": true,
+   "hyp": "good did the police come",
+   "min_prob": 0.79,
+   "flags": [],
+   "f0_med": 147.6
+  },
+  {
+   "t": 64.19,
+   "spk": "Elena",
+   "line": "Yes. A police officer came and wrote a report.",
+   "ok": true,
+   "hyp": "yes a police officer came and wrote a report",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 207.6
+  },
+  {
+   "t": 68.66,
+   "spk": "Mark",
+   "line": "OK. Please send me the report number today.",
+   "ok": true,
+   "hyp": "ok please send me the report number today",
+   "min_prob": 0.57,
+   "flags": [],
+   "f0_med": 117.5
+  },
+  {
+   "t": 72.34,
+   "spk": "Elena",
+   "line": "I will. Thank you for your help.",
+   "ok": true,
+   "hyp": "i will thank you for your help",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 219.9
+  }
+ ],
+ "hyp": "lesson 4 listening alaina had a small car accident now she's calling her insurance company listen safe road insurance this is mark how can i help you hi this is elena ramos i had a small car accident this morning i'm sorry to hear that was anyone hurt no everyone was ok but my car has a dent where did it happen at the intersection of oak street and second avenue what were you doing when it happened i was driving to work the light was red so i stopped and what was the other driver doing he was talking on his phone he wasn't looking and he hit my car did anyone see the accident yes 2 people were crossing the street 1 woman gave me her phone number good did the police come yes a police officer came and wrote a report ok please send me the report number today i will thank you for your help that's the end of the listening"
+}

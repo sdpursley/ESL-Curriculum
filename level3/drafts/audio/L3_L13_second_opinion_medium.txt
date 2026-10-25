@@ -1,0 +1,2 @@
+medium.en per-line WER 0.006 (1/159), 12/13 lines exact
+   ('Sofia', 'My main goal is to get a medical assistant certificate. I hope to work at a clinic.', 'my main goal is to get a medical assistance certificate i hope to work at a clinic')

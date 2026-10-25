@@ -1,0 +1,705 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Carmen": "refs/Receptionist.wav",
+   "David": "refs/Sam.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson five. Listening.",
+    "tts_text": "Lesson five. Listening.",
+    "seed": 9945,
+    "hyp": "lesson 5 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.95,
+    "dur": 1.84,
+    "raw_peak": 0.7,
+    "pitch_ok": true,
+    "score": 1.548,
+    "f0_med": 224.4,
+    "f0_st_sd": 4.72,
+    "f0_range_st": 11.5
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Carmen and David are parents at Hillside School.",
+    "tts_text": "Carmen and David are parents at Hillside School.",
+    "seed": 2026,
+    "hyp": "carmen and david are parents at hillside school",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.94,
+    "dur": 2.83,
+    "raw_peak": 0.813,
+    "pitch_ok": true,
+    "score": 1.441,
+    "f0_med": 189.8,
+    "f0_st_sd": 3.34,
+    "f0_range_st": 10.45
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Carmen is calling David. Listen.",
+    "tts_text": "Carmen is calling David. Listen.",
+    "seed": 2026,
+    "hyp": "carmen is calling david listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.94,
+    "dur": 2.31,
+    "raw_peak": 0.679,
+    "pitch_ok": true,
+    "score": 1.455,
+    "f0_med": 176.6,
+    "f0_st_sd": 3.45,
+    "f0_range_st": 10.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Hi, David. It's Carmen.",
+    "tts_text": "Hi, David. It's Carmen.",
+    "seed": 9945,
+    "hyp": "hi david it's carmen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.85,
+    "dur": 1.36,
+    "raw_peak": 0.746,
+    "pitch_ok": true,
+    "score": 1.187,
+    "f0_med": 195.9,
+    "f0_st_sd": 2.28,
+    "f0_range_st": 7.1
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "It's about the family night at school on Friday.",
+    "tts_text": "It's about the family night at school on Friday.",
+    "seed": 2026,
+    "hyp": "it's about the family night at school on friday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 2.1,
+    "raw_peak": 0.699,
+    "pitch_ok": true,
+    "score": 1.511,
+    "f0_med": 190.3,
+    "f0_st_sd": 3.6,
+    "f0_range_st": 11.18
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "Oh, right. How can I help?",
+    "tts_text": "Oh, right. How can I help?",
+    "seed": 2026,
+    "hyp": "oh right how can i help",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 1.58,
+    "raw_peak": 0.511,
+    "pitch_ok": true,
+    "score": 1.367,
+    "f0_med": 119.9,
+    "f0_st_sd": 2.64,
+    "f0_range_st": 8.0
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "We need someone to set up the tables and chairs.",
+    "tts_text": "We need someone to set up the tables and chairs.",
+    "seed": 2026,
+    "hyp": "we need someone to set up the tables and chairs",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.99,
+    "raw_peak": 0.567,
+    "pitch_ok": true,
+    "score": 1.549,
+    "f0_med": 169.6,
+    "f0_st_sd": 3.81,
+    "f0_range_st": 7.89
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "No problem. I'll set them up.",
+    "tts_text": "No problem. I'll set them up.",
+    "seed": 9945,
+    "hyp": "no problem i'll set them up",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.96,
+    "raw_peak": 0.651,
+    "pitch_ok": true,
+    "score": 1.201,
+    "f0_med": 130.0,
+    "f0_st_sd": 1.5,
+    "f0_range_st": 5.16
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "I'll come early, at five.",
+    "tts_text": "I'll come early, at five.",
+    "seed": 2026,
+    "hyp": "i'll come early at 5",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.63,
+    "mean_prob": 0.92,
+    "dur": 1.96,
+    "raw_peak": 0.83,
+    "pitch_ok": true,
+    "score": 1.418,
+    "f0_med": 136.5,
+    "f0_st_sd": 3.34,
+    "f0_range_st": 11.08
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Thank you! And Rosa is going to bring pizza.",
+    "tts_text": "Thank you! And Rosa is going to bring pizza.",
+    "seed": 49540,
+    "hyp": "thank you and rosa is going to bring pizza",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.93,
+    "dur": 2.58,
+    "raw_peak": 0.52,
+    "pitch_ok": true,
+    "score": 1.294,
+    "f0_med": 172.5,
+    "f0_st_sd": 2.42,
+    "f0_range_st": 8.3
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "She ordered it yesterday.",
+    "tts_text": "She ordered it yesterday.",
+    "seed": 25783,
+    "hyp": "she ordered it yesterday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.2,
+    "raw_peak": 0.464,
+    "pitch_ok": true,
+    "score": 1.113,
+    "f0_med": 214.9,
+    "f0_st_sd": 0.89,
+    "f0_range_st": 2.66
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "Great. What about drinks?",
+    "tts_text": "Great. What about drinks?",
+    "seed": 2026,
+    "hyp": "great what about drinks",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.82,
+    "raw_peak": 0.566,
+    "pitch_ok": true,
+    "score": 1.367,
+    "f0_med": 140.9,
+    "f0_st_sd": 2.67,
+    "f0_range_st": 8.78
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Hmm. No one has the drinks yet.",
+    "tts_text": "Hmm. No one has the drinks yet.",
+    "seed": 9945,
+    "hyp": "hmm no 1 has the drinks yet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.65,
+    "mean_prob": 0.93,
+    "dur": 2.23,
+    "raw_peak": 0.686,
+    "pitch_ok": true,
+    "score": 1.535,
+    "f0_med": 199.3,
+    "f0_st_sd": 4.63,
+    "f0_range_st": 14.46
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "OK, I'll bring the drinks.",
+    "tts_text": "OK, I'll bring the drinks.",
+    "seed": 9945,
+    "hyp": "ok i'll bring the drinks",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.57,
+    "mean_prob": 0.91,
+    "dur": 1.22,
+    "raw_peak": 0.411,
+    "pitch_ok": true,
+    "score": 1.23,
+    "f0_med": 127.8,
+    "f0_st_sd": 2.14,
+    "f0_range_st": 5.86
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "Juice and water.",
+    "tts_text": "Juice and water.",
+    "seed": 2026,
+    "hyp": "juice and water",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.57,
+    "mean_prob": 0.77,
+    "dur": 1.35,
+    "raw_peak": 0.332,
+    "pitch_ok": true,
+    "score": 1.354,
+    "f0_med": 113.8,
+    "f0_st_sd": 3.92,
+    "f0_range_st": 14.74
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Perfect. Can you also make a flyer?",
+    "tts_text": "Perfect. Can you also make a flyer?",
+    "seed": 9945,
+    "hyp": "perfect can you also make a flyer",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.95,
+    "dur": 2.51,
+    "raw_peak": 0.641,
+    "pitch_ok": true,
+    "score": 1.48,
+    "f0_med": 230.3,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.58
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "I'm going to be very busy at work this week.",
+    "tts_text": "I'm going to be very busy at work this week.",
+    "seed": 2026,
+    "hyp": "i'm going to be very busy at work this week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.67,
+    "raw_peak": 0.443,
+    "pitch_ok": true,
+    "score": 1.395,
+    "f0_med": 125.6,
+    "f0_st_sd": 2.75,
+    "f0_range_st": 9.12
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "But my sister can make one.",
+    "tts_text": "But my sister can make one.",
+    "seed": 2026,
+    "hyp": "but my sister can make 1",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.56,
+    "mean_prob": 0.92,
+    "dur": 1.38,
+    "raw_peak": 0.4,
+    "pitch_ok": true,
+    "score": 1.517,
+    "f0_med": 115.1,
+    "f0_st_sd": 5.34,
+    "f0_range_st": 14.66
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "I'll ask her and call you back tonight.",
+    "tts_text": "I'll ask her and call you back tonight.",
+    "seed": 2026,
+    "hyp": "i'll ask her and call you back tonight",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 2.21,
+    "raw_peak": 0.367,
+    "pitch_ok": true,
+    "score": 1.532,
+    "f0_med": 108.7,
+    "f0_st_sd": 3.68,
+    "f0_range_st": 12.92
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Will you call me before eight?",
+    "tts_text": "Will you call me before eight?",
+    "seed": 2026,
+    "hyp": "will you call me before 8",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.58,
+    "mean_prob": 0.88,
+    "dur": 1.78,
+    "raw_peak": 0.703,
+    "pitch_ok": true,
+    "score": 1.278,
+    "f0_med": 192.5,
+    "f0_st_sd": 2.68,
+    "f0_range_st": 9.34
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "Yes, I will.",
+    "tts_text": "Yes, I will.",
+    "seed": 2026,
+    "hyp": "yes i will",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.94,
+    "dur": 1.21,
+    "raw_peak": 0.448,
+    "pitch_ok": true,
+    "score": 1.208,
+    "f0_med": 115.5,
+    "f0_st_sd": 1.77,
+    "f0_range_st": 4.96
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "I promise. Don't worry, I won't forget.",
+    "tts_text": "I promise. Don't worry, I won't forget.",
+    "seed": 2026,
+    "hyp": "i promise don't worry i won't forget",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 2.66,
+    "raw_peak": 0.589,
+    "pitch_ok": true,
+    "score": 1.358,
+    "f0_med": 119.9,
+    "f0_st_sd": 2.57,
+    "f0_range_st": 8.38
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Carmen",
+    "text": "Thanks, David. I'm going to clean up after the event.",
+    "tts_text": "Thanks, David. I'm going to clean up after the event.",
+    "seed": 49540,
+    "hyp": "thanks david i'm going to clean up after the event",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.94,
+    "dur": 2.56,
+    "raw_peak": 0.805,
+    "pitch_ok": true,
+    "score": 1.43,
+    "f0_med": 189.2,
+    "f0_st_sd": 3.26,
+    "f0_range_st": 9.35
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "I'll help you clean up, too.",
+    "tts_text": "I'll help you clean up, too.",
+    "seed": 17864,
+    "hyp": "i'll help you clean up too",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.99,
+    "mean_prob": 0.99,
+    "dur": 1.4,
+    "raw_peak": 0.481,
+    "pitch_ok": true,
+    "score": 1.593,
+    "f0_med": 116.8,
+    "f0_st_sd": 4.28,
+    "f0_range_st": 13.91
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "See you on Friday!",
+    "tts_text": "See you on Friday!",
+    "seed": 25783,
+    "hyp": "see you on friday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.3,
+    "raw_peak": 0.415,
+    "pitch_ok": true,
+    "score": 1.268,
+    "f0_med": 134.6,
+    "f0_st_sd": 2.02,
+    "f0_range_st": 5.5
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.494,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   10.18,
+   14.19,
+   "Carmen",
+   "Hi, David. It's Carmen. It's about the family night at school on Friday."
+  ],
+  [
+   15.49,
+   17.07,
+   "David",
+   "Oh, right. How can I help?"
+  ],
+  [
+   18.37,
+   21.36,
+   "Carmen",
+   "We need someone to set up the tables and chairs."
+  ],
+  [
+   22.66,
+   27.13,
+   "David",
+   "No problem. I'll set them up. I'll come early, at five."
+  ],
+  [
+   28.43,
+   32.76,
+   "Carmen",
+   "Thank you! And Rosa is going to bring pizza. She ordered it yesterday."
+  ],
+  [
+   34.06,
+   35.88,
+   "David",
+   "Great. What about drinks?"
+  ],
+  [
+   37.18,
+   39.41,
+   "Carmen",
+   "Hmm. No one has the drinks yet."
+  ],
+  [
+   40.71,
+   43.83,
+   "David",
+   "OK, I'll bring the drinks. Juice and water."
+  ],
+  [
+   45.13,
+   47.64,
+   "Carmen",
+   "Perfect. Can you also make a flyer?"
+  ],
+  [
+   48.94,
+   56.3,
+   "David",
+   "I'm going to be very busy at work this week. But my sister can make one. I'll ask her and call you back tonight."
+  ],
+  [
+   57.6,
+   59.38,
+   "Carmen",
+   "Will you call me before eight?"
+  ],
+  [
+   60.68,
+   65.1,
+   "David",
+   "Yes, I will. I promise. Don't worry, I won't forget."
+  ],
+  [
+   66.4,
+   68.96,
+   "Carmen",
+   "Thanks, David. I'm going to clean up after the event."
+  ],
+  [
+   70.26,
+   73.51,
+   "David",
+   "I'll help you clean up, too. See you on Friday!"
+  ]
+ ]
+}

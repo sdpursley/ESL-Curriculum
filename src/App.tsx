@@ -323,7 +323,7 @@ function AboutPage() {
     <blockquote className="mt-3 rounded-r-2xl border-l-4 border-amber-400 bg-amber-50 p-5 text-lg text-slate-800"><p className="mb-1 font-semibold">Level 4</p><p dangerouslySetInnerHTML={{ __html: level4.creditHtml }} /></blockquote>
     <p className="mt-4 text-lg text-slate-700">The vocabulary pictures are modified versions of the original Twemoji graphics: the SVGs were rendered to PNG, resized, and combined with other emoji on a white card with a border, and some cards have added arrows, lines, calendars, clocks, ID cards, a name tag, forms, family-tree lines, speech bubbles, signs, letter tiles, or text labels. The Twemoji parts remain under CC BY 4.0. Text labels use the DejaVu Sans font (free font license). No photos or stock images are used.</p>
     <SectionTitle icon={<Headphones size={20} />}>Audio</SectionTitle>
-    <p className="text-lg text-slate-700">The listening audio was made with the free Chatterbox text-to-speech model by Resemble AI (MIT License). The voices are synthetic, not real people, and each file carries an inaudible Perth watermark that marks it as AI-generated. Chatterbox copied each voice from a short reference clip, and every reference clip was made with the Kokoro-82M text-to-speech model (Apache 2.0). No recordings of real people were used. This is true for all three levels: in Level 1, the narrator, Ana, Carlos, Rosa, Marco, Kim, the receptionist, the cashier, the server, the rental agent, the 911 operator, the manager, and the phone message are synthetic voices cloned from Kokoro-82M reference clips, and the Week 8 Midterm and Week 15 Final Exam listening files use the same synthetic narrator, receptionist, Marco, Kim, and Carlos voices; in Level 3, the narrator, Elena, and David are synthetic voices cloned from Kokoro-82M reference clips. The Level 4 listening audio is coming soon; until then, teachers read the listening scripts aloud.</p>
+    <p className="text-lg text-slate-700">The listening audio was made with the free Chatterbox text-to-speech model by Resemble AI (MIT License). The voices are synthetic, not real people, and each file carries an inaudible Perth watermark that marks it as AI-generated. Chatterbox copied each voice from a short reference clip, and every reference clip was made with the Kokoro-82M text-to-speech model (Apache 2.0). No recordings of real people were used. This is true for all four levels: in Level 1, the narrator, Ana, Carlos, Rosa, Marco, Kim, the receptionist, the cashier, the server, the rental agent, the 911 operator, the manager, and the phone message are synthetic voices cloned from Kokoro-82M reference clips, and the Week 8 Midterm and Week 15 Final Exam listening files use the same synthetic narrator, receptionist, Marco, Kim, and Carlos voices; in Level 3 and Level 4, the narrator and the characters in each lesson are synthetic voices cloned from Kokoro-82M reference clips.</p>
     <SectionTitle icon={<Presentation size={20} />}>Fonts</SectionTitle>
     <p className="text-lg text-slate-700">The teacher slides and the in-browser presenter use the Lexend Deca font by The Lexend Project Authors, licensed under the <a className="link" href="https://openfontlicense.org">SIL Open Font License 1.1</a>.</p>
     <SectionTitle icon={<FileText size={20} />}>Disclaimer</SectionTitle>
@@ -388,7 +388,7 @@ function LevelPicker() {
         <ul className="mt-4 space-y-1.5 text-slate-600">
           <li>💬 Follow-up questions, reasons, and longer talks</li>
           <li>✍️ A Read &amp; Write page every week</li>
-          <li>🧑‍🏫 Lesson {l3Ready === 1 ? '1 is' : `1–${l3Ready} are`} ready · Lessons {l3Ready + 1}–13 coming soon</li>
+          <li>🧑‍🏫 {l3Ready === 13 ? 'All 13 lessons are ready' : <>Lesson {l3Ready === 1 ? '1 is' : `1–${l3Ready} are`} ready · Lessons {l3Ready + 1}–13 coming soon</>}</li>
         </ul>
         <span className="mt-6 inline-flex items-center gap-2 self-start rounded-xl bg-emerald-600 px-5 py-2.5 font-semibold text-white transition group-hover:bg-emerald-700">Go to Level 3 <ArrowRight size={18} aria-hidden="true" /></span>
       </Link>
@@ -401,7 +401,7 @@ function LevelPicker() {
         <p className="mt-2 text-lg text-slate-700">For learners who finished Level 3: talk about life experiences and how long, health, favors, imaginary situations, local news, and opinions, and disagree politely.</p>
         <ul className="mt-4 space-y-1.5 text-slate-600">
           <li>🗣️ Longer Talk Time, opinions, and polite disagreement</li>
-          <li>🎧 Listening audio coming soon (the teacher reads the script)</li>
+          <li>🎧 Listening audio for all 13 lessons</li>
           <li>🧑‍🏫 {l4Ready === 13 ? 'All 13 lessons are ready' : <>{l4Ready === 1 ? 'Lesson 1 is' : `Lessons 1–${l4Ready} are`} ready · Lessons {l4Ready + 1}–13 coming soon</>}</li>
         </ul>
         <span className="mt-6 inline-flex items-center gap-2 self-start rounded-xl bg-amber-600 px-5 py-2.5 font-semibold text-white transition group-hover:bg-amber-700">Go to Level 4 <ArrowRight size={18} aria-hidden="true" /></span>

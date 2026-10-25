@@ -1,0 +1,212 @@
+{
+ "file": "L3_L2_listening.mp3",
+ "duration_s": 87.92,
+ "wer": 0.0114,
+ "errors": 2,
+ "ref_words": 175,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "coworkers",
+   "hyp": "co workers",
+   "ctx": "tells him about 2 coworkers listen welcome omar today"
+  }
+ ],
+ "low_prob_words": [
+  [
+   "Is",
+   67.07,
+   0.32
+  ]
+ ],
+ "lines_ok": "17/17",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Linda": 237.0,
+  "Omar": 115.2,
+  "Narrator": 183.8
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.3,
+ "peak": 0.897,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 11.34,
+   "spk": "Linda",
+   "line": "Welcome, Omar! Today you're going to work with Kevin and Nora.",
+   "ok": true,
+   "hyp": "welcome omar today you're going to work with kevin and nora",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 213.6
+  },
+  {
+   "t": 16.35,
+   "spk": "Omar",
+   "line": "Great. What's Kevin like?",
+   "ok": true,
+   "hyp": "great what's kevin like",
+   "min_prob": 0.95,
+   "flags": [],
+   "f0_med": 132.3
+  },
+  {
+   "t": 19.21,
+   "spk": "Linda",
+   "line": "He's very friendly, and he's really funny. Everyone likes him.",
+   "ok": true,
+   "hyp": "he's very friendly and he's really funny everyone likes him",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 219.9
+  },
+  {
+   "t": 25.1,
+   "spk": "Omar",
+   "line": "What does he look like?",
+   "ok": true,
+   "hyp": "what does he look like",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 103.8
+  },
+  {
+   "t": 27.34,
+   "spk": "Linda",
+   "line": "He's tall, and he has a beard and glasses. You can ask him for help.",
+   "ok": true,
+   "hyp": "he's tall and he has a beard and glasses you can ask him for help",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 237.0
+  },
+  {
+   "t": 32.86,
+   "spk": "Omar",
+   "line": "OK. And who is Nora?",
+   "ok": true,
+   "hyp": "ok and who is nora",
+   "min_prob": 0.61,
+   "flags": [],
+   "f0_med": 136.1
+  },
+  {
+   "t": 35.58,
+   "spk": "Linda",
+   "line": "Nora is the short woman with long, straight hair. She's a little shy.",
+   "ok": true,
+   "hyp": "nora is the short woman with long straight hair she's a little shy",
+   "min_prob": 0.97,
+   "flags": [],
+   "f0_med": 204.0
+  },
+  {
+   "t": 42.03,
+   "spk": "Omar",
+   "line": "Is she nice?",
+   "ok": true,
+   "hyp": "is she nice",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 79.6
+  },
+  {
+   "t": 44.27,
+   "spk": "Linda",
+   "line": "Yes. She's quiet, but she's really hardworking.",
+   "ok": true,
+   "hyp": "yes she's quiet but she's really hardworking",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 250.4
+  },
+  {
+   "t": 48.94,
+   "spk": "Omar",
+   "line": "Does she talk a lot?",
+   "ok": true,
+   "hyp": "does she talk a lot",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 129.3
+  },
+  {
+   "t": 51.22,
+   "spk": "Linda",
+   "line": "Not at first. Talk to her, and ask her questions. She's very patient.",
+   "ok": true,
+   "hyp": "not at first talk to her and ask her questions she's very patient",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 251.1
+  },
+  {
+   "t": 58.38,
+   "spk": "Omar",
+   "line": "Where can I find them?",
+   "ok": true,
+   "hyp": "where can i find them",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 113.8
+  },
+  {
+   "t": 60.73,
+   "spk": "Linda",
+   "line": "They're in the laundry room. Come with me. I can introduce you to them.",
+   "ok": true,
+   "hyp": "they're in the laundry room come with me i can introduce you to them",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 243.3
+  },
+  {
+   "t": 67.31,
+   "spk": "Omar",
+   "line": "Is that Kevin? The man with curly hair?",
+   "ok": true,
+   "hyp": "is that kevin the man with curly hair",
+   "min_prob": 0.33,
+   "flags": [],
+   "f0_med": 116.5
+  },
+  {
+   "t": 71.29,
+   "spk": "Linda",
+   "line": "No, that's Sam. He works at the front desk. Kevin is the tall man next to him.",
+   "ok": true,
+   "hyp": "no that's sam he works at the front desk kevin is the tall man next to him",
+   "min_prob": 0.56,
+   "flags": [],
+   "f0_med": 193.1
+  },
+  {
+   "t": 78.93,
+   "spk": "Omar",
+   "line": "Oh, I see him. He's waving at us.",
+   "ok": true,
+   "hyp": "oh i see him he's waving at us",
+   "min_prob": 0.39,
+   "flags": [],
+   "f0_med": 106.5
+  },
+  {
+   "t": 83.14,
+   "spk": "Linda",
+   "line": "Let's go and say hi to him.",
+   "ok": true,
+   "hyp": "let's go and say hi to him",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 246.8
+  }
+ ],
+ "hyp": "lesson 2 listening it's omar's first day at a hotel his supervisor linda tells him about 2 co workers listen welcome omar today you're going to work with kevin and nora great what's kevin like he's very friendly and he's really funny everyone likes him what does he look like he's tall and he has a beard and glasses you can ask him for help ok and who is nora nora is the short woman with long straight hair she's a little shy is she nice yes she's quiet but she's really hardworking does she talk a lot not at first talk to her and ask her questions she's very patient where can i find them they're in the laundry room come with me i can introduce you to them is that kevin the man with curly hair no that's sam he works at the front desk kevin is the tall man next to him oh i see him he's waving at us let's go and say hi to him that's the end of the listening"
+}

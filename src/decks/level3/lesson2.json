@@ -4568,7 +4568,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Audio: about 1:20. It plays once.",
+          "t": "Audio: about 1:28. It plays once.",
           "sz": 22.0,
           "b": false,
           "i": false,
@@ -4651,7 +4651,7 @@
      "effect": "fade"
     }
    ],
-   "notes": "Step 3 · 6:18–6:30 · Listening + \"Say it\" · 12 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (1 min). Point to the picture and say: \"It's Omar's first day at a hotel. His supervisor is Linda. She tells him about two coworkers, Kevin and Nora. Who is Kevin? Who is Nora? Listen.\"\nThere are three voices: a Narrator, Linda, and Omar. Each click highlights the next voice.\nThe audio (about 1:20) is coming soon. When it is ready, it plays the conversation once; press play again for play 2. Until then, read the listening script (at the end of these notes) with a volunteer.\nNo speaker? Read the script with a volunteer at a normal, friendly speed.\nAudio: the listening audio for this lesson (about 1:20) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with drawn bodies, glasses, speech bubbles, and labels (images/CREDITS.md).\nListening script (the audio is coming soon; until then, read it aloud with a volunteer at a normal, friendly speed):\nNarrator: Lesson two. Listening. It's Omar's first day at a hotel. His supervisor, Linda, tells him about two coworkers. Listen.\nLinda: Welcome, Omar! Today you're going to work with Kevin and Nora.\nOmar: Great. What's Kevin like?\nLinda: He's very friendly, and he's really funny. Everyone likes him.\nOmar: What does he look like?\nLinda: He's tall, and he has a beard and glasses. You can ask him for help.\nOmar: OK. And who is Nora?\nLinda: Nora is the short woman with long, straight hair. She's a little shy.\nOmar: Is she nice?\nLinda: Yes. She's quiet, but she's really hardworking.\nOmar: Does she talk a lot?\nLinda: Not at first. Talk to her, and ask her questions. She's very patient.\nOmar: Where can I find them?\nLinda: They're in the laundry room. Come with me. I can introduce you to them.\nOmar: Is that Kevin? The man with curly hair?\nLinda: No, that's Sam. He works at the front desk. Kevin is the tall man next to him.\nOmar: Oh, I see him. He's waving at us.\nLinda: Let's go and say hi to him.\nNarrator: That's the end of the listening.",
+   "notes": "Step 3 · 6:18–6:30 · Listening + \"Say it\" · 12 min (slides 8 to 12). Individuals, then pairs check.\nBefore you listen (1 min). Point to the picture and say: \"It's Omar's first day at a hotel. His supervisor is Linda. She tells him about two coworkers, Kevin and Nora. Who is Kevin? Who is Nora? Listen.\"\nThere are three voices: a Narrator, Linda, and Omar. Each click highlights the next voice.\nThe audio (L3_L2_listening.mp3, about 1:28) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.\nNo speaker? Read the script with a volunteer at a normal, friendly speed.\nAudio: synthetic voices, computer-generated (Chatterbox TTS cloned from Kokoro-82M reference clips). No recordings of real people. The names and the story are invented.\nLesson plan: Step 3; Listening script; Listening page.\nPicture: Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); resized and combined, with drawn bodies, glasses, speech bubbles, and labels (images/CREDITS.md).",
    "title": "Before You Listen"
   },
   {
@@ -17289,7 +17289,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "Audio (coming soon): synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people. Each file will carry an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).",
+          "t": "Audio: synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people were used. Each file carries an inaudible Perth watermark marking it as AI-generated. Font: Lexend Deca (OFL 1.1).",
           "sz": 13.5,
           "b": false,
           "i": false,
@@ -17322,7 +17322,7 @@
     }
    ],
    "steps": [],
-   "notes": "Credits. You don't need to read this slide in class.\nPictures: Twemoji graphics by Twitter, Inc. and other contributors, CC BY 4.0; the file-by-file list is in images/CREDITS.md.\nAudio: the listening audio for this lesson (about 1:20) is coming soon. It will use computer-generated voices (Chatterbox TTS cloned from synthetic Kokoro-82M reference clips); no recordings of real people. Until it is ready, read the listening script (in the notes of the Before You Listen slide) with a volunteer. The names and the story are invented.\nCourse materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).\nLesson plan: Picture Credits. Picture list: images/CREDITS.md.",
+   "notes": "Credits. You don't need to read this slide in class.\nPictures: Twemoji graphics by Twitter, Inc. and other contributors, CC BY 4.0; the file-by-file list is in images/CREDITS.md.\nAudio: synthetic voices, computer-generated (Chatterbox TTS cloned from Kokoro-82M reference clips). No recordings of real people. The names and the story are invented.\nCourse materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).\nLesson plan: Picture Credits. Picture list: images/CREDITS.md.",
    "title": "Credits"
   }
  ]

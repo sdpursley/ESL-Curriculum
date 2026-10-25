@@ -68,7 +68,7 @@ SLIDES = [
   'notes': ['Step 3 · 6:18–6:30 · Listening + "Say it" · 12 min (slides 8 to 12). Individuals, then pairs check.',
             'Before you listen (1 min). Point to the accident picture and say: "This is Elena\'s car. She had a small accident. No one was hurt. Now she\'s calling her insurance company. Where did it happen? Listen."',
             'There are three voices: a Narrator, Mark (Safe Road Insurance), and Elena. Each click highlights the next voice.',
-            'The audio (L3_L4_listening.mp3, about 1:18; the teacher steps say about 1:15) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
+            'The audio (L3_L4_listening.mp3, about 1:18) plays the conversation once. Press play again for play 2. A third play is fine if the class needs it.',
             'No speaker? Read the script with a volunteer at a normal, friendly speed.', audio_note(N, '1:18', True),
             f'{SRC} (Step 3; Listening script; Listening page).', PC]},
  {'kind': 'gaps', 'title': ['Listening A'], 'side': ['Pairs: compare your answers.', 'Then *check together.*'],

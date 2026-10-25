@@ -1,0 +1,135 @@
+[
+ {
+  "file": "L3_L12_landlord.png",
+  "lesson": "Level3-L12",
+  "word": "landlord",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e2",
+   "1f468-200d-1f4bc"
+  ],
+  "note": "a man in work clothes and an apartment building"
+ },
+ {
+  "file": "L3_L12_repair_person.png",
+  "lesson": "Level3-L12",
+  "word": "repair person",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1-200d-1f527",
+   "1f9f0"
+  ],
+  "note": "a mechanic and a toolbox"
+ },
+ {
+  "file": "L3_L12_maintenance_request.png",
+  "lesson": "Level3-L12",
+  "word": "maintenance request",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "a drawn request form with \"Problem\" highlighted"
+ },
+ {
+  "file": "L3_L12_leak.png",
+  "lesson": "Level3-L12",
+  "word": "leak",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "a drawn pipe with water drops"
+ },
+ {
+  "file": "L3_L12_sink.png",
+  "lesson": "Level3-L12",
+  "word": "sink",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "a drawn sink and faucet"
+ },
+ {
+  "file": "L3_L12_toilet.png",
+  "lesson": "Level3-L12",
+  "word": "toilet",
+  "kind": "vocab",
+  "twemoji": [
+   "1f6bd"
+  ],
+  "note": "a toilet"
+ },
+ {
+  "file": "L3_L12_heater.png",
+  "lesson": "Level3-L12",
+  "word": "heater",
+  "kind": "vocab",
+  "twemoji": [
+   "1f321"
+  ],
+  "note": "a drawn heater and a thermometer"
+ },
+ {
+  "file": "L3_L12_light_bulb.png",
+  "lesson": "Level3-L12",
+  "word": "light bulb",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a1"
+  ],
+  "note": "a light bulb"
+ },
+ {
+  "file": "L3_L12_lock.png",
+  "lesson": "Level3-L12",
+  "word": "lock",
+  "kind": "vocab",
+  "twemoji": [
+   "1f512"
+  ],
+  "note": "a lock"
+ },
+ {
+  "file": "L3_L12_smoke_alarm.png",
+  "lesson": "Level3-L12",
+  "word": "smoke alarm",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a8"
+  ],
+  "note": "a drawn smoke alarm \"BEEP!\" and a puff of smoke"
+ },
+ {
+  "file": "L3_L12_mouse.png",
+  "lesson": "Level3-L12",
+  "word": "mouse",
+  "kind": "vocab",
+  "twemoji": [
+   "1f401"
+  ],
+  "note": "a mouse"
+ },
+ {
+  "file": "L3_L12_cockroach.png",
+  "lesson": "Level3-L12",
+  "word": "cockroach",
+  "kind": "vocab",
+  "twemoji": [
+   "1fab3"
+  ],
+  "note": "a cockroach"
+ },
+ {
+  "file": "L3_L12_apartment.png",
+  "lesson": "Level3-L12",
+  "word": "Talk Time: the apartment with problems",
+  "kind": "activity",
+  "twemoji": [
+   "1f401",
+   "1f4a1",
+   "1f513",
+   "1f5bc",
+   "1fa91",
+   "1fab3",
+   "1fab4",
+   "2744"
+  ],
+  "note": "a drawn room: smoke alarm \"BEEP!\", a light bulb recolored grey, a leaking sink, a heater and a snowflake, a door with an open lock, a cockroach, a mouse, a plant, a chair, a picture"
+ }
+]

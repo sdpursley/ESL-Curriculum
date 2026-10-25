@@ -1,0 +1,138 @@
+[
+ {
+  "file": "L3_L9_strength.png",
+  "lesson": "Level3-L9",
+  "word": "strength",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4aa",
+   "2b50"
+  ],
+  "note": "a flexed arm and a star"
+ },
+ {
+  "file": "L3_L9_good_at.png",
+  "lesson": "Level3-L9",
+  "word": "good at",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1-200d-1f527"
+  ],
+  "note": "a mechanic; bubble \"I'm good at fixing things.\"; a check mark (bubble, check drawn)"
+ },
+ {
+  "file": "L3_L9_interested_in.png",
+  "lesson": "Level3-L9",
+  "word": "interested in",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a1",
+   "1f4bb",
+   "1f9d1"
+  ],
+  "note": "a person, a light bulb, an arrow to a laptop"
+ },
+ {
+  "file": "L3_L9_experience.png",
+  "lesson": "Level3-L9",
+  "word": "experience",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9f0"
+  ],
+  "note": "a toolbox and a sign \"5 years\" (sign drawn)"
+ },
+ {
+  "file": "L3_L9_reliable.png",
+  "lesson": "Level3-L9",
+  "word": "reliable",
+  "kind": "vocab",
+  "twemoji": [
+   "23f0"
+  ],
+  "note": "an alarm clock and \"on time every day\" (text drawn)"
+ },
+ {
+  "file": "L3_L9_teamwork.png",
+  "lesson": "Level3-L9",
+  "word": "teamwork",
+  "kind": "vocab",
+  "twemoji": [
+   "1f468",
+   "1f469",
+   "1f91d"
+  ],
+  "note": "a woman, a handshake, a man"
+ },
+ {
+  "file": "L3_L9_organize.png",
+  "lesson": "Level3-L9",
+  "word": "organize",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "three drawn labeled binders (our drawing)"
+ },
+ {
+  "file": "L3_L9_solve_problems.png",
+  "lesson": "Level3-L9",
+  "word": "solve problems",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9e9"
+  ],
+  "note": "two puzzle pieces (one mirrored), an arrow, a check mark"
+ },
+ {
+  "file": "L3_L9_resume.png",
+  "lesson": "Level3-L9",
+  "word": "résumé",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "a drawn résumé form (name, experience, skills, training)"
+ },
+ {
+  "file": "L3_L9_apply.png",
+  "lesson": "Level3-L9",
+  "word": "apply",
+  "kind": "vocab",
+  "twemoji": [
+   "270f"
+  ],
+  "note": "a drawn job application form and a pencil"
+ },
+ {
+  "file": "L3_L9_training.png",
+  "lesson": "Level3-L9",
+  "word": "training",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1",
+   "1f9d1-200d-1f3eb"
+  ],
+  "note": "a teacher and two learners (one mirrored)"
+ },
+ {
+  "file": "L3_L9_shift.png",
+  "lesson": "Level3-L9",
+  "word": "shift",
+  "kind": "vocab",
+  "twemoji": [
+   "1f319",
+   "2600"
+  ],
+  "note": "a sun \"7 a.m.–3 p.m.\" and a moon \"3 p.m.–11 p.m.\" (text drawn)"
+ },
+ {
+  "file": "L3_L9_job_cards.png",
+  "lesson": "Level3-L9",
+  "word": "Talk Time: four job cards",
+  "kind": "activity",
+  "twemoji": [
+   "1f373",
+   "1f3e8",
+   "1f4e6",
+   "1f9f8"
+  ],
+  "note": "four numbered cards: boxes (warehouse), a hotel, a frying pan (kitchen), a teddy bear (childcare); cards and text drawn"
+ }
+]

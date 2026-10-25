@@ -1,0 +1,141 @@
+[
+ {
+  "file": "L3_L8_wallet.png",
+  "lesson": "Level3-L8",
+  "word": "wallet",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "a drawn brown wallet"
+ },
+ {
+  "file": "L3_L8_purse.png",
+  "lesson": "Level3-L8",
+  "word": "purse",
+  "kind": "vocab",
+  "twemoji": [
+   "1f45c"
+  ],
+  "note": "a handbag"
+ },
+ {
+  "file": "L3_L8_keys.png",
+  "lesson": "Level3-L8",
+  "word": "keys",
+  "kind": "vocab",
+  "twemoji": [
+   "1f511"
+  ],
+  "note": "two keys"
+ },
+ {
+  "file": "L3_L8_umbrella.png",
+  "lesson": "Level3-L8",
+  "word": "umbrella",
+  "kind": "vocab",
+  "twemoji": [
+   "2602"
+  ],
+  "note": "an umbrella"
+ },
+ {
+  "file": "L3_L8_backpack.png",
+  "lesson": "Level3-L8",
+  "word": "backpack",
+  "kind": "vocab",
+  "twemoji": [
+   "1f392"
+  ],
+  "note": "a backpack"
+ },
+ {
+  "file": "L3_L8_sunglasses.png",
+  "lesson": "Level3-L8",
+  "word": "sunglasses",
+  "kind": "vocab",
+  "twemoji": [
+   "1f576"
+  ],
+  "note": "sunglasses"
+ },
+ {
+  "file": "L3_L8_headphones.png",
+  "lesson": "Level3-L8",
+  "word": "headphones",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3a7"
+  ],
+  "note": "headphones"
+ },
+ {
+  "file": "L3_L8_gloves.png",
+  "lesson": "Level3-L8",
+  "word": "gloves",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9e4"
+  ],
+  "note": "gloves"
+ },
+ {
+  "file": "L3_L8_scarf.png",
+  "lesson": "Level3-L8",
+  "word": "scarf",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9e3"
+  ],
+  "note": "a scarf"
+ },
+ {
+  "file": "L3_L8_lost_and_found.png",
+  "lesson": "Level3-L8",
+  "word": "lost and found",
+  "kind": "vocab",
+  "twemoji": [
+   "1f392",
+   "1f9e3",
+   "2602"
+  ],
+  "note": "a drawn box \"LOST & FOUND\" with an umbrella, a backpack, a scarf"
+ },
+ {
+  "file": "L3_L8_belong_to.png",
+  "lesson": "Level3-L8",
+  "word": "belong to",
+  "kind": "vocab",
+  "twemoji": [
+   "1f45c",
+   "1f469"
+  ],
+  "note": "a woman, bubble \"It's mine.\", an arrow to a handbag (bubble drawn)"
+ },
+ {
+  "file": "L3_L8_describe.png",
+  "lesson": "Level3-L8",
+  "word": "describe",
+  "kind": "vocab",
+  "twemoji": [
+   "1f392",
+   "1f9d1"
+  ],
+  "note": "a person; bubble \"It's big and blue, with a zipper.\"; a backpack (recolored blue)"
+ },
+ {
+  "file": "L3_L8_lost_box.png",
+  "lesson": "Level3-L8",
+  "word": "Talk Time: the Lost and Found box",
+  "kind": "activity",
+  "twemoji": [
+   "1f392",
+   "1f453",
+   "1f511",
+   "1f576",
+   "1f9e3",
+   "2602",
+   "2764",
+   "2b50"
+  ],
+  "note": "12 numbered items: backpacks, umbrellas, keys, sunglasses, glasses, wallets, scarves (some emoji recolored; wallets, tiles drawn)"
+ }
+]

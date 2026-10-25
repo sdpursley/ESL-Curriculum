@@ -73,11 +73,15 @@ def table(rows,cls=''):
         items=[c for r in body for c in r if c]
         if not any('<br>' in c for c in items):   # one big picture with no caption (Level 1 Lesson 4 family trees)
             return '<div class="pictures">'+''.join(f'<figure>{inline(c)}</figure>' for c in items)+'</div>'
-        out=[]
-        for c in items:
-            m=re.match(r'(!\[[^\]]*\]\([^)]+\))<br>(.*)',c)
-            out.append(f'<figure class="word">{inline(m.group(1))}<figcaption>{inline(m.group(2))}</figcaption></figure>')
-        return '<div class="words">'+'\n'.join(out)+'</div>'
+        word=re.compile(r'(!\[[^\]]*\]\([^)]+\))<br>(.*)')
+        matched=[word.match(c) for c in items]
+        if all(matched):
+            out=[f'<figure class="word">{inline(m.group(1))}<figcaption>{inline(m.group(2))}</figcaption></figure>' for m in matched]
+            return '<div class="words">'+'\n'.join(out)+'</div>'
+        # A header-less table that mixes a picture with other text (Level 3 Lesson 6
+        # emergency-kit checklist) is not a word grid. Render the cells and skip the empty header.
+        trs=''.join('<tr>'+''.join(f'<td>{inline(v)}</td>' for v in r)+'</tr>\n' for r in body)
+        return f'<div class="tablewrap"><table><tbody>\n{trs}</tbody></table></div>'
     th=''.join(f'<th scope="col">{inline(h)}</th>' for h in hdr)
     trs=''.join('<tr>'+''.join(f'<td>{inline(v)}</td>' for v in r)+'</tr>\n' for r in body)
     return f'<div class="tablewrap"><table><thead><tr>{th}</tr></thead><tbody>\n{trs}</tbody></table></div>'

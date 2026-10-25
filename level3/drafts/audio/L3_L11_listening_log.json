@@ -1,0 +1,722 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Elena": "refs/Rosa.wav",
+   "Luis": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson eleven. Listening.",
+    "tts_text": "Lesson eleven. Listening.",
+    "seed": 2026,
+    "hyp": "lesson 11 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.95,
+    "dur": 1.86,
+    "raw_peak": 0.552,
+    "pitch_ok": true,
+    "score": 1.549,
+    "f0_med": 178.6,
+    "f0_st_sd": 4.54,
+    "f0_range_st": 14.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "It's Monday morning.",
+    "tts_text": "It's Monday morning.",
+    "seed": 2026,
+    "hyp": "it's monday morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.97,
+    "dur": 1.12,
+    "raw_peak": 0.359,
+    "pitch_ok": true,
+    "score": 1.364,
+    "f0_med": 167.6,
+    "f0_st_sd": 2.62,
+    "f0_range_st": 7.74
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Elena and Luis are coworkers.",
+    "tts_text": "Elena and Luis are coworkers.",
+    "seed": 17864,
+    "hyp": "elena and luis are coworkers",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.8,
+    "dur": 1.92,
+    "raw_peak": 0.602,
+    "pitch_ok": true,
+    "score": 1.341,
+    "f0_med": 180.7,
+    "f0_st_sd": 3.59,
+    "f0_range_st": 11.3
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "They're talking about the weekend. Listen.",
+    "tts_text": "They're talking about the weekend. Listen.",
+    "seed": 9945,
+    "hyp": "they're talking about the weekend listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 2.25,
+    "raw_peak": 0.613,
+    "pitch_ok": true,
+    "score": 1.228,
+    "f0_med": 219.9,
+    "f0_st_sd": 1.74,
+    "f0_range_st": 5.17
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Hi, Elena. How was your weekend?",
+    "tts_text": "Hi, Elena. How was your weekend?",
+    "seed": 2026,
+    "hyp": "hi elena how was your weekend",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.9,
+    "dur": 1.86,
+    "raw_peak": 1.002,
+    "pitch_ok": true,
+    "score": 1.498,
+    "f0_med": 132.3,
+    "f0_st_sd": 4.7,
+    "f0_range_st": 16.03
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Did you do anything fun?",
+    "tts_text": "Did you do anything fun?",
+    "seed": 2026,
+    "hyp": "did you do anything fun",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.21,
+    "raw_peak": 0.873,
+    "pitch_ok": true,
+    "score": 1.529,
+    "f0_med": 136.9,
+    "f0_st_sd": 3.75,
+    "f0_range_st": 12.28
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "It was great!",
+    "tts_text": "It was great!",
+    "seed": 9945,
+    "hyp": "it was great",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.41,
+    "raw_peak": 0.438,
+    "pitch_ok": true,
+    "score": 1.569,
+    "f0_med": 356.2,
+    "f0_st_sd": 4.29,
+    "f0_range_st": 11.73
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "I went to the food festival at Riverside Park with my sister.",
+    "tts_text": "I went to the food festival at Riverside Park with my sister.",
+    "seed": 9945,
+    "hyp": "i went to the food festival at riverside park with my sister",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.97,
+    "dur": 3.18,
+    "raw_peak": 0.588,
+    "pitch_ok": true,
+    "score": 1.436,
+    "f0_med": 198.2,
+    "f0_st_sd": 3.12,
+    "f0_range_st": 10.02
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Really? How was it?",
+    "tts_text": "Really? How was it?",
+    "seed": 9945,
+    "hyp": "really how was it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.57,
+    "raw_peak": 1.0,
+    "pitch_ok": true,
+    "score": 1.568,
+    "f0_med": 139.3,
+    "f0_st_sd": 6.2,
+    "f0_range_st": 17.18
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "It was so exciting.",
+    "tts_text": "It was so exciting.",
+    "seed": 9945,
+    "hyp": "it was so exciting",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.33,
+    "raw_peak": 0.369,
+    "pitch_ok": true,
+    "score": 1.321,
+    "f0_med": 199.3,
+    "f0_st_sd": 2.25,
+    "f0_range_st": 7.41
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "There was live music, and we tried food from ten countries.",
+    "tts_text": "There was live music, and we tried food from ten countries.",
+    "seed": 2026,
+    "hyp": "there was live music and we tried food from 10 countries",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.91,
+    "dur": 3.4,
+    "raw_peak": 0.683,
+    "pitch_ok": true,
+    "score": 1.334,
+    "f0_med": 195.9,
+    "f0_st_sd": 2.82,
+    "f0_range_st": 8.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Was it crowded?",
+    "tts_text": "Was it crowded?",
+    "seed": 9945,
+    "hyp": "was it crowded",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.94,
+    "dur": 0.84,
+    "raw_peak": 0.987,
+    "pitch_ok": true,
+    "score": 1.255,
+    "f0_med": 122.4,
+    "f0_st_sd": 2.12,
+    "f0_range_st": 5.55
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "Yes, very. The lines were long, so I was a little tired at the end.",
+    "tts_text": "Yes, very. The lines were long, so I was a little tired at the end.",
+    "seed": 2026,
+    "hyp": "yes very the lines were long so i was a little tired at the end",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.98,
+    "dur": 4.61,
+    "raw_peak": 0.76,
+    "pitch_ok": true,
+    "score": 1.581,
+    "f0_med": 223.1,
+    "f0_st_sd": 4.24,
+    "f0_range_st": 15.01
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "How about you?",
+    "tts_text": "How about you?",
+    "seed": 9945,
+    "hyp": "how about you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.96,
+    "dur": 0.72,
+    "raw_peak": 0.55,
+    "pitch_ok": true,
+    "score": 1.213,
+    "f0_med": 234.3,
+    "f0_st_sd": 1.66,
+    "f0_range_st": 4.48
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "I went to a photo workshop at the city museum on Sunday.",
+    "tts_text": "I went to a photo workshop at the city museum on Sunday.",
+    "seed": 9945,
+    "hyp": "i went to a photo workshop at the city museum on sunday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.95,
+    "dur": 2.83,
+    "raw_peak": 1.04,
+    "pitch_ok": true,
+    "score": 1.481,
+    "f0_med": 111.2,
+    "f0_st_sd": 3.53,
+    "f0_range_st": 12.12
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "I was really interested in it.",
+    "tts_text": "I was really interested in it.",
+    "seed": 2026,
+    "hyp": "i was really interested in it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.734,
+    "pitch_ok": true,
+    "score": 1.342,
+    "f0_med": 137.7,
+    "f0_st_sd": 2.48,
+    "f0_range_st": 7.74
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "Oh, nice! Was it interesting?",
+    "tts_text": "Oh, nice! Was it interesting?",
+    "seed": 2026,
+    "hyp": "oh nice was it interesting",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 2.33,
+    "raw_peak": 0.664,
+    "pitch_ok": true,
+    "score": 1.57,
+    "f0_med": 236.4,
+    "f0_st_sd": 4.2,
+    "f0_range_st": 13.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Not really. I thought it was confusing.",
+    "tts_text": "Not really. I thought it was confusing.",
+    "seed": 17864,
+    "hyp": "not really i thought it was confusing",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.96,
+    "dur": 1.95,
+    "raw_peak": 1.014,
+    "pitch_ok": true,
+    "score": 1.363,
+    "f0_med": 148.9,
+    "f0_st_sd": 2.66,
+    "f0_range_st": 6.65
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "The teacher talked very fast.",
+    "tts_text": "The teacher talked very fast.",
+    "seed": 2026,
+    "hyp": "the teacher talked very fast",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.93,
+    "dur": 1.64,
+    "raw_peak": 0.861,
+    "pitch_ok": true,
+    "score": 1.529,
+    "f0_med": 119.2,
+    "f0_st_sd": 4.74,
+    "f0_range_st": 13.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "Oh no. Were you bored?",
+    "tts_text": "Oh no. Were you bored?",
+    "seed": 9945,
+    "hyp": "oh no were you bored",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.92,
+    "dur": 1.84,
+    "raw_peak": 0.523,
+    "pitch_ok": true,
+    "score": 1.517,
+    "f0_med": 249.7,
+    "f0_st_sd": 4.73,
+    "f0_range_st": 15.25
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Yes, I was bored, so I left early.",
+    "tts_text": "Yes, I was bored, so I left early.",
+    "seed": 2026,
+    "hyp": "yes i was bored so i left early",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.97,
+    "dur": 2.57,
+    "raw_peak": 1.02,
+    "pitch_ok": true,
+    "score": 1.121,
+    "f0_med": 106.8,
+    "f0_st_sd": 0.99,
+    "f0_range_st": 3.27
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "But the museum coffee shop was really relaxing.",
+    "tts_text": "But the museum coffee shop was really relaxing.",
+    "seed": 2026,
+    "hyp": "but the museum coffee shop was really relaxing",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.68,
+    "mean_prob": 0.92,
+    "dur": 2.36,
+    "raw_peak": 0.965,
+    "pitch_ok": true,
+    "score": 1.524,
+    "f0_med": 115.8,
+    "f0_st_sd": 5.01,
+    "f0_range_st": 15.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "Next time, come to the festival with me.",
+    "tts_text": "Next time, come to the festival with me.",
+    "seed": 2026,
+    "hyp": "next time come to the festival with me",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.95,
+    "dur": 1.95,
+    "raw_peak": 0.619,
+    "pitch_ok": true,
+    "score": 1.29,
+    "f0_med": 223.7,
+    "f0_st_sd": 2.24,
+    "f0_range_st": 8.04
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Elena",
+    "text": "You'll love it!",
+    "tts_text": "You'll love it!",
+    "seed": 2026,
+    "hyp": "you'll love it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 0.92,
+    "raw_peak": 0.379,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 218.6,
+    "f0_st_sd": 3.96,
+    "f0_range_st": 9.72
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "OK. That sounds fun.",
+    "tts_text": "OK. That sounds fun.",
+    "seed": 2026,
+    "hyp": "ok that sounds fun",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.58,
+    "mean_prob": 0.82,
+    "dur": 1.41,
+    "raw_peak": 0.883,
+    "pitch_ok": true,
+    "score": 1.087,
+    "f0_med": 111.9,
+    "f0_st_sd": 1.79,
+    "f0_range_st": 4.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Luis",
+    "text": "Maybe next month.",
+    "tts_text": "Maybe next month.",
+    "seed": 2026,
+    "hyp": "maybe next month",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.5,
+    "mean_prob": 0.82,
+    "dur": 0.94,
+    "raw_peak": 0.786,
+    "pitch_ok": true,
+    "score": 1.299,
+    "f0_med": 102.6,
+    "f0_st_sd": 3.18,
+    "f0_range_st": 9.89
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   10.9,
+   14.52,
+   "Luis",
+   "Hi, Elena. How was your weekend? Did you do anything fun?"
+  ],
+  [
+   15.82,
+   20.96,
+   "Elena",
+   "It was great! I went to the food festival at Riverside Park with my sister."
+  ],
+  [
+   22.26,
+   23.83,
+   "Luis",
+   "Really? How was it?"
+  ],
+  [
+   25.13,
+   30.41,
+   "Elena",
+   "It was so exciting. There was live music, and we tried food from ten countries."
+  ],
+  [
+   31.71,
+   32.55,
+   "Luis",
+   "Was it crowded?"
+  ],
+  [
+   33.85,
+   39.73,
+   "Elena",
+   "Yes, very. The lines were long, so I was a little tired at the end. How about you?"
+  ],
+  [
+   41.03,
+   45.83,
+   "Luis",
+   "I went to a photo workshop at the city museum on Sunday. I was really interested in it."
+  ],
+  [
+   47.13,
+   49.46,
+   "Elena",
+   "Oh, nice! Was it interesting?"
+  ],
+  [
+   50.76,
+   54.9,
+   "Luis",
+   "Not really. I thought it was confusing. The teacher talked very fast."
+  ],
+  [
+   56.2,
+   58.04,
+   "Elena",
+   "Oh no. Were you bored?"
+  ],
+  [
+   59.34,
+   64.82,
+   "Luis",
+   "Yes, I was bored, so I left early. But the museum coffee shop was really relaxing."
+  ],
+  [
+   66.12,
+   69.54,
+   "Elena",
+   "Next time, come to the festival with me. You'll love it!"
+  ],
+  [
+   70.84,
+   73.74,
+   "Luis",
+   "OK. That sounds fun. Maybe next month."
+  ]
+ ]
+}

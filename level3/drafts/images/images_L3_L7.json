@@ -1,0 +1,119 @@
+[
+ {
+  "file": "L3_L7_return.png",
+  "lesson": "Level3-L7",
+  "word": "return",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3ec",
+   "1f4e6",
+   "1f9d1"
+  ],
+  "note": "a person with a box, an arrow back to a store"
+ },
+ {
+  "file": "L3_L7_exchange.png",
+  "lesson": "Level3-L7",
+  "word": "exchange",
+  "kind": "vocab",
+  "twemoji": [
+   "1f455"
+  ],
+  "note": "a small shirt (S) and a large shirt (L) with arrows both ways (arrows, letters drawn)"
+ },
+ {
+  "file": "L3_L7_refund.png",
+  "lesson": "Level3-L7",
+  "word": "refund",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b5",
+   "1f91a"
+  ],
+  "note": "money, an arrow to a hand, label \"money back\""
+ },
+ {
+  "file": "L3_L7_store_credit.png",
+  "lesson": "Level3-L7",
+  "word": "store credit",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "a drawn store credit card \"$24.00, Valley Mart\" (invented store)"
+ },
+ {
+  "file": "L3_L7_size.png",
+  "lesson": "Level3-L7",
+  "word": "size",
+  "kind": "vocab",
+  "twemoji": [
+   "1f455"
+  ],
+  "note": "three shirts, S / M / L"
+ },
+ {
+  "file": "L3_L7_broken.png",
+  "lesson": "Level3-L7",
+  "word": "broken",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f1"
+  ],
+  "note": "a phone with cracks (cracks drawn)"
+ },
+ {
+  "file": "L3_L7_customer.png",
+  "lesson": "Level3-L7",
+  "word": "customer",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3ec",
+   "1f469",
+   "1f6cd"
+  ],
+  "note": "a woman with a shopping bag, a store"
+ },
+ {
+  "file": "L3_L7_manager.png",
+  "lesson": "Level3-L7",
+  "word": "manager",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1-200d-1f4bc"
+  ],
+  "note": "an office worker with a MANAGER name tag (tag drawn)"
+ },
+ {
+  "file": "L3_L7_cancel.png",
+  "lesson": "Level3-L7",
+  "word": "cancel",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "a drawn calendar with an appointment crossed out"
+ },
+ {
+  "file": "L3_L7_reschedule.png",
+  "lesson": "Level3-L7",
+  "word": "reschedule",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "a drawn calendar: Monday 10:00 crossed out, an arrow to Thursday 4:30"
+ },
+ {
+  "file": "L3_L7_available.png",
+  "lesson": "Level3-L7",
+  "word": "available",
+  "kind": "vocab",
+  "twemoji": [],
+  "note": "three time slots; 4:30 checked green, the others crossed (drawn)"
+ },
+ {
+  "file": "L3_L7_stain.png",
+  "lesson": "Level3-L7",
+  "word": "stain",
+  "kind": "vocab",
+  "twemoji": [
+   "1f455"
+  ],
+  "note": "a shirt with a brown spot circled (spot drawn)"
+ }
+]

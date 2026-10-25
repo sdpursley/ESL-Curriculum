@@ -1,0 +1,6 @@
+{"TITLE": "Bored or Boring?",
+ "VOICES": {"Narrator": "N", "Elena": "Rosa", "Luis": "Marco"},
+ "FEMALE": ["Narrator", "Elena"],
+ "NAMES": ["elena", "luis", "riverside"],
+ "SAME": {"okay": "ok"},
+ "TTS": {}}

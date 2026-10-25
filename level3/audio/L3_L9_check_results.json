@@ -1,0 +1,169 @@
+{
+ "file": "L3_L9_listening.mp3",
+ "duration_s": 79.98,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 168,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "14/14",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Mr. Hall": 123.4,
+  "Lucia": 242.6,
+  "Narrator": 184.9
+ },
+ "gap_between_speakers_s": [
+  1.3,
+  1.3
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.2,
+ "peak": 0.907,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.8,
+ "per_line": [
+  {
+   "t": 9.86,
+   "spk": "Mr. Hall",
+   "line": "Hi, Lucia. Thank you for coming in. Please sit down. So, tell me about yourself.",
+   "ok": true,
+   "hyp": "hi lucia thank you for coming in please sit down so tell me about yourself",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 119.9
+  },
+  {
+   "t": 17.73,
+   "spk": "Lucia",
+   "line": "Well, I have three years of experience in maintenance. I worked at a big apartment building.",
+   "ok": true,
+   "hyp": "well i have 3 years of experience in maintenance i worked at a big apartment building",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 242.6
+  },
+  {
+   "t": 24.89,
+   "spk": "Mr. Hall",
+   "line": "That's great. What are you good at?",
+   "ok": true,
+   "hyp": "that's great what are you good at",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 133.0
+  },
+  {
+   "t": 28.61,
+   "spk": "Lucia",
+   "line": "I'm good at fixing things, and I'm good at solving problems.",
+   "ok": true,
+   "hyp": "i'm good at fixing things and i'm good at solving problems",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 234.3
+  },
+  {
+   "t": 33.14,
+   "spk": "Mr. Hall",
+   "line": "Are you reliable?",
+   "ok": true,
+   "hyp": "are you reliable",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 132.7
+  },
+  {
+   "t": 35.53,
+   "spk": "Lucia",
+   "line": "Yes. I was never late at my last job, and I always finish my work.",
+   "ok": true,
+   "hyp": "yes i was never late at my last job and i always finish my work",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 244.0
+  },
+  {
+   "t": 41.57,
+   "spk": "Mr. Hall",
+   "line": "Good. Do you enjoy working on a team?",
+   "ok": true,
+   "hyp": "good do you enjoy working on a team",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 127.0
+  },
+  {
+   "t": 45.41,
+   "spk": "Lucia",
+   "line": "Yes, I enjoy helping people. I like teamwork.",
+   "ok": true,
+   "hyp": "yes i enjoy helping people i like teamwork",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 254.1
+  },
+  {
+   "t": 50.23,
+   "spk": "Mr. Hall",
+   "line": "Are you interested in training? We have a class for new workers.",
+   "ok": true,
+   "hyp": "are you interested in training we have a class for new workers",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 123.4
+  },
+  {
+   "t": 55.2,
+   "spk": "Lucia",
+   "line": "Yes! I'm very interested in learning about the machines here.",
+   "ok": true,
+   "hyp": "yes i'm very interested in learning about the machines here",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 231.6
+  },
+  {
+   "t": 60.33,
+   "spk": "Mr. Hall",
+   "line": "Which shift can you work?",
+   "ok": true,
+   "hyp": "which shift can you work",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 115.1
+  },
+  {
+   "t": 63.0,
+   "spk": "Lucia",
+   "line": "I can work the day shift. And I don't mind working weekends.",
+   "ok": true,
+   "hyp": "i can work the day shift and i don't mind working weekends",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 176.6
+  },
+  {
+   "t": 68.09,
+   "spk": "Mr. Hall",
+   "line": "Great. I'd like you to meet our team. Can you come back on Thursday for a second interview?",
+   "ok": true,
+   "hyp": "great i'd like you to meet our team can you come back on thursday for a second interview",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 121.6
+  },
+  {
+   "t": 74.29,
+   "spk": "Lucia",
+   "line": "Yes, of course. Thank you!",
+   "ok": true,
+   "hyp": "yes of course thank you",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 333.3
+  }
+ ],
+ "hyp": "lesson 9 listening lucia has a job interview at a hotel mr hall is the manager listen hi lucia thank you for coming in please sit down so tell me about yourself well i have 3 years of experience in maintenance i worked at a big apartment building that's great what are you good at i'm good at fixing things and i'm good at solving problems are you reliable yes i was never late at my last job and i always finish my work good do you enjoy working on a team yes i enjoy helping people i like teamwork are you interested in training we have a class for new workers yes i'm very interested in learning about the machines here which shift can you work i can work the day shift and i don't mind working weekends great i'd like you to meet our team can you come back on thursday for a second interview yes of course thank you that's the end of the listening"
+}

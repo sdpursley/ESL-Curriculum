@@ -1,0 +1,711 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Joan": "refs/Receptionist.wav",
+   "David": "refs/Sam.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson eight. Listening.",
+    "tts_text": "Lesson eight. Listening.",
+    "seed": 2026,
+    "hyp": "lesson 8 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.96,
+    "dur": 1.71,
+    "raw_peak": 0.54,
+    "pitch_ok": true,
+    "score": 1.489,
+    "f0_med": 175.6,
+    "f0_st_sd": 3.53,
+    "f0_range_st": 9.57
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "David lost something on the bus.",
+    "tts_text": "David lost something on the bus.",
+    "seed": 2026,
+    "hyp": "david lost something on the bus",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.72,
+    "raw_peak": 0.693,
+    "pitch_ok": true,
+    "score": 1.356,
+    "f0_med": 172.5,
+    "f0_st_sd": 2.5,
+    "f0_range_st": 7.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "He's calling the lost and found. Listen.",
+    "tts_text": "He's calling the lost and found. Listen.",
+    "seed": 9945,
+    "hyp": "he's calling the lost and found listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 2.36,
+    "raw_peak": 0.551,
+    "pitch_ok": true,
+    "score": 1.431,
+    "f0_med": 196.5,
+    "f0_st_sd": 3.02,
+    "f0_range_st": 9.26
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "City Bus, Lost and Found.",
+    "tts_text": "City Bus, Lost and Found.",
+    "seed": 17864,
+    "hyp": "city bus lost and found",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.27,
+    "mean_prob": 0.79,
+    "dur": 1.87,
+    "raw_peak": 0.791,
+    "pitch_ok": true,
+    "score": 1.294,
+    "f0_med": 198.2,
+    "f0_st_sd": 3.38,
+    "f0_range_st": 10.77
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "How can I help you?",
+    "tts_text": "How can I help you?",
+    "seed": 2026,
+    "hyp": "how can i help you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.96,
+    "dur": 1.26,
+    "raw_peak": 0.635,
+    "pitch_ok": true,
+    "score": 1.464,
+    "f0_med": 234.3,
+    "f0_st_sd": 3.33,
+    "f0_range_st": 11.37
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "Hi. I lost my backpack on the bus this morning.",
+    "tts_text": "Hi. I lost my backpack on the bus this morning.",
+    "seed": 2026,
+    "hyp": "hi i lost my backpack on the bus this morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 2.66,
+    "raw_peak": 0.52,
+    "pitch_ok": true,
+    "score": 1.439,
+    "f0_med": 114.8,
+    "f0_st_sd": 3.03,
+    "f0_range_st": 9.33
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "OK. Can you describe it?",
+    "tts_text": "OK. Can you describe it?",
+    "seed": 17864,
+    "hyp": "ok can you describe it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.92,
+    "dur": 1.8,
+    "raw_peak": 0.705,
+    "pitch_ok": true,
+    "score": 1.521,
+    "f0_med": 184.9,
+    "f0_st_sd": 4.33,
+    "f0_range_st": 13.78
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "It's a big blue backpack with a black zipper.",
+    "tts_text": "It's a big blue backpack with a black zipper.",
+    "seed": 2026,
+    "hyp": "it's a big blue backpack with a black zipper",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.96,
+    "dur": 3.02,
+    "raw_peak": 0.44,
+    "pitch_ok": true,
+    "score": 1.343,
+    "f0_med": 117.5,
+    "f0_st_sd": 2.54,
+    "f0_range_st": 8.65
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "My brother has the same one, but his is green.",
+    "tts_text": "My brother has the same one, but his is green.",
+    "seed": 2026,
+    "hyp": "my brother has the same 1 but his is green",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 2.28,
+    "raw_peak": 0.613,
+    "pitch_ok": true,
+    "score": 1.557,
+    "f0_med": 117.2,
+    "f0_st_sd": 3.87,
+    "f0_range_st": 11.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "What was inside?",
+    "tts_text": "What was inside?",
+    "seed": 2026,
+    "hyp": "what was inside",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.05,
+    "raw_peak": 0.549,
+    "pitch_ok": true,
+    "score": 1.494,
+    "f0_med": 244.7,
+    "f0_st_sd": 3.46,
+    "f0_range_st": 10.52
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "My headphones, a red scarf, and some gloves.",
+    "tts_text": "My headphones, a red scarf, and some gloves.",
+    "seed": 2026,
+    "hyp": "my headphones a red scarf and some gloves",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.93,
+    "dur": 3.22,
+    "raw_peak": 0.496,
+    "pitch_ok": true,
+    "score": 1.375,
+    "f0_med": 132.3,
+    "f0_st_sd": 2.96,
+    "f0_range_st": 9.42
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "And what were you doing when you lost it?",
+    "tts_text": "And what were you doing when you lost it?",
+    "seed": 2026,
+    "hyp": "and what were you doing when you lost it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.97,
+    "dur": 1.81,
+    "raw_peak": 0.567,
+    "pitch_ok": true,
+    "score": 1.371,
+    "f0_med": 186.0,
+    "f0_st_sd": 2.66,
+    "f0_range_st": 7.39
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "I was talking on the phone.",
+    "tts_text": "I was talking on the phone.",
+    "seed": 2026,
+    "hyp": "i was talking on the phone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.3,
+    "raw_peak": 0.485,
+    "pitch_ok": true,
+    "score": 1.284,
+    "f0_med": 113.2,
+    "f0_st_sd": 2.06,
+    "f0_range_st": 6.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "I got off at Park Street, and I left it on the seat.",
+    "tts_text": "I got off at Park Street, and I left it on the seat.",
+    "seed": 2026,
+    "hyp": "i got off at park street and i left it on the seat",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.94,
+    "dur": 2.38,
+    "raw_peak": 0.513,
+    "pitch_ok": true,
+    "score": 1.416,
+    "f0_med": 117.2,
+    "f0_st_sd": 3.19,
+    "f0_range_st": 9.62
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "Let me check.",
+    "tts_text": "Let me check.",
+    "seed": 17864,
+    "hyp": "let me check",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 0.87,
+    "raw_peak": 0.385,
+    "pitch_ok": true,
+    "score": 1.042,
+    "f0_med": 166.7,
+    "f0_st_sd": 0.51,
+    "f0_range_st": 1.2
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "We have two blue backpacks.",
+    "tts_text": "We have two blue backpacks.",
+    "seed": 2026,
+    "hyp": "we have 2 blue backpacks",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 1.63,
+    "raw_peak": 0.639,
+    "pitch_ok": true,
+    "score": 1.547,
+    "f0_med": 165.7,
+    "f0_st_sd": 5.32,
+    "f0_range_st": 21.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "One is small, and one is big.",
+    "tts_text": "One is small, and one is big.",
+    "seed": 2026,
+    "hyp": "1 is small and 1 is big",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.93,
+    "dur": 1.98,
+    "raw_peak": 0.632,
+    "pitch_ok": true,
+    "score": 1.533,
+    "f0_med": 186.0,
+    "f0_st_sd": 4.03,
+    "f0_range_st": 13.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "The big one is mine.",
+    "tts_text": "The big one is mine.",
+    "seed": 2026,
+    "hyp": "the big 1 is mine",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.92,
+    "dur": 1.47,
+    "raw_peak": 0.426,
+    "pitch_ok": true,
+    "score": 1.386,
+    "f0_med": 101.1,
+    "f0_st_sd": 3.12,
+    "f0_range_st": 10.17
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "There are white headphones inside.",
+    "tts_text": "There are white headphones inside.",
+    "seed": 9945,
+    "hyp": "there are white headphones inside",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 1.47,
+    "raw_peak": 0.515,
+    "pitch_ok": true,
+    "score": 1.296,
+    "f0_med": 169.6,
+    "f0_st_sd": 2.21,
+    "f0_range_st": 6.82
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "Are they yours?",
+    "tts_text": "Are they yours?",
+    "seed": 25783,
+    "hyp": "are they yours",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.94,
+    "dur": 0.97,
+    "raw_peak": 0.55,
+    "pitch_ok": true,
+    "score": 1.452,
+    "f0_med": 170.1,
+    "f0_st_sd": 3.42,
+    "f0_range_st": 9.75
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "No, mine are black.",
+    "tts_text": "No, mine are black.",
+    "seed": 9945,
+    "hyp": "no mine are black",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.95,
+    "dur": 1.58,
+    "raw_peak": 0.395,
+    "pitch_ok": true,
+    "score": 1.218,
+    "f0_med": 106.8,
+    "f0_st_sd": 1.76,
+    "f0_range_st": 5.05
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "Those aren't mine.",
+    "tts_text": "Those aren't mine.",
+    "seed": 2026,
+    "hyp": "those aren't mine",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.83,
+    "dur": 1.06,
+    "raw_peak": 0.321,
+    "pitch_ok": true,
+    "score": 1.166,
+    "f0_med": 130.0,
+    "f0_st_sd": 2.23,
+    "f0_range_st": 7.34
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "Wait. Here's another big one, with black headphones and a red scarf.",
+    "tts_text": "Wait. Here's another big one, with black headphones and a red scarf.",
+    "seed": 2026,
+    "hyp": "wait here's another big 1 with black headphones and a red scarf",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.98,
+    "dur": 3.88,
+    "raw_peak": 0.827,
+    "pitch_ok": true,
+    "score": 1.398,
+    "f0_med": 179.6,
+    "f0_st_sd": 2.78,
+    "f0_range_st": 8.14
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "David",
+    "text": "Yes! That's mine. Thank you!",
+    "tts_text": "Yes! That's mine. Thank you!",
+    "seed": 2026,
+    "hyp": "yes that's mine thank you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.96,
+    "dur": 2.38,
+    "raw_peak": 0.449,
+    "pitch_ok": true,
+    "score": 1.561,
+    "f0_med": 122.0,
+    "f0_st_sd": 4.78,
+    "f0_range_st": 14.67
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Joan",
+    "text": "You're welcome. You can pick it up today before five.",
+    "tts_text": "You're welcome. You can pick it up today before five.",
+    "seed": 2026,
+    "hyp": "you're welcome you can pick it up today before 5",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.96,
+    "dur": 2.6,
+    "raw_peak": 0.623,
+    "pitch_ok": true,
+    "score": 1.512,
+    "f0_med": 171.5,
+    "f0_st_sd": 3.65,
+    "f0_range_st": 11.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   8.99,
+   12.67,
+   "Joan",
+   "City Bus, Lost and Found. How can I help you?"
+  ],
+  [
+   13.97,
+   16.63,
+   "David",
+   "Hi. I lost my backpack on the bus this morning."
+  ],
+  [
+   17.93,
+   19.73,
+   "Joan",
+   "OK. Can you describe it?"
+  ],
+  [
+   21.03,
+   26.88,
+   "David",
+   "It's a big blue backpack with a black zipper. My brother has the same one, but his is green."
+  ],
+  [
+   28.18,
+   29.23,
+   "Joan",
+   "What was inside?"
+  ],
+  [
+   30.53,
+   33.75,
+   "David",
+   "My headphones, a red scarf, and some gloves."
+  ],
+  [
+   35.05,
+   36.86,
+   "Joan",
+   "And what were you doing when you lost it?"
+  ],
+  [
+   38.16,
+   42.39,
+   "David",
+   "I was talking on the phone. I got off at Park Street, and I left it on the seat."
+  ],
+  [
+   43.69,
+   49.27,
+   "Joan",
+   "Let me check. We have two blue backpacks. One is small, and one is big."
+  ],
+  [
+   50.57,
+   52.04,
+   "David",
+   "The big one is mine."
+  ],
+  [
+   53.34,
+   56.33,
+   "Joan",
+   "There are white headphones inside. Are they yours?"
+  ],
+  [
+   57.63,
+   60.82,
+   "David",
+   "No, mine are black. Those aren't mine."
+  ],
+  [
+   62.12,
+   66.0,
+   "Joan",
+   "Wait. Here's another big one, with black headphones and a red scarf."
+  ],
+  [
+   67.3,
+   69.68,
+   "David",
+   "Yes! That's mine. Thank you!"
+  ],
+  [
+   70.98,
+   73.58,
+   "Joan",
+   "You're welcome. You can pick it up today before five."
+  ]
+ ]
+}

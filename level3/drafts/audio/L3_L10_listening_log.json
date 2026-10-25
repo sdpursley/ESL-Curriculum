@@ -1,0 +1,653 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.3,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Maria": "refs/Rosa.wav",
+   "Tom": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson ten. Listening.",
+    "tts_text": "Lesson ten. Listening.",
+    "seed": 2026,
+    "hyp": "lesson 10 listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.89,
+    "dur": 1.93,
+    "raw_peak": 0.726,
+    "pitch_ok": true,
+    "score": 1.447,
+    "f0_med": 176.1,
+    "f0_st_sd": 3.69,
+    "f0_range_st": 11.24
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Maria is a new worker at a supermarket.",
+    "tts_text": "Maria is a new worker at a supermarket.",
+    "seed": 2026,
+    "hyp": "maria is a new worker at a supermarket",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.99,
+    "dur": 2.52,
+    "raw_peak": 0.562,
+    "pitch_ok": true,
+    "score": 1.475,
+    "f0_med": 179.1,
+    "f0_st_sd": 3.26,
+    "f0_range_st": 10.98
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Her coworker Tom is teaching her to use a machine. Listen.",
+    "tts_text": "Her coworker Tom is teaching her to use a machine. Listen.",
+    "seed": 33702,
+    "hyp": "her coworker tom is teaching her to use a machine listen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.93,
+    "dur": 3.57,
+    "raw_peak": 0.614,
+    "pitch_ok": true,
+    "score": 1.495,
+    "f0_med": 172.5,
+    "f0_st_sd": 3.8,
+    "f0_range_st": 11.73
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "Hi, Maria. Welcome to the team!",
+    "tts_text": "Hi, Maria. Welcome to the team!",
+    "seed": 2026,
+    "hyp": "hi maria welcome to the team",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.91,
+    "dur": 1.8,
+    "raw_peak": 1.004,
+    "pitch_ok": true,
+    "score": 1.39,
+    "f0_med": 120.6,
+    "f0_st_sd": 3.18,
+    "f0_range_st": 8.92
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "Today I'm going to show you the floor cleaning machine. It's easy.",
+    "tts_text": "Today I'm going to show you the floor cleaning machine. It's easy.",
+    "seed": 2026,
+    "hyp": "today i'm going to show you the floor cleaning machine it's easy",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.96,
+    "dur": 3.49,
+    "raw_peak": 0.798,
+    "pitch_ok": true,
+    "score": 1.479,
+    "f0_med": 123.4,
+    "f0_st_sd": 3.47,
+    "f0_range_st": 11.16
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maria",
+    "text": "Great. How do I start?",
+    "tts_text": "Great. How do I start?",
+    "seed": 2026,
+    "hyp": "great how do i start",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 1.62,
+    "raw_peak": 0.402,
+    "pitch_ok": true,
+    "score": 1.563,
+    "f0_med": 188.1,
+    "f0_st_sd": 3.85,
+    "f0_range_st": 9.48
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "First, put on your safety goggles.",
+    "tts_text": "First, put on your safety goggles.",
+    "seed": 2026,
+    "hyp": "first put on your safety goggles",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.85,
+    "raw_peak": 1.021,
+    "pitch_ok": true,
+    "score": 1.457,
+    "f0_med": 130.0,
+    "f0_st_sd": 3.22,
+    "f0_range_st": 9.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "Then, fill the tank with water.",
+    "tts_text": "Then, fill the tank with water.",
+    "seed": 2026,
+    "hyp": "then fill the tank with water",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 2.12,
+    "raw_peak": 0.923,
+    "pitch_ok": true,
+    "score": 1.392,
+    "f0_med": 130.0,
+    "f0_st_sd": 2.84,
+    "f0_range_st": 7.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maria",
+    "text": "Why do I need goggles?",
+    "tts_text": "Why do I need goggles?",
+    "seed": 2026,
+    "hyp": "why do i need goggles",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.48,
+    "raw_peak": 0.51,
+    "pitch_ok": true,
+    "score": 1.575,
+    "f0_med": 207.6,
+    "f0_st_sd": 5.16,
+    "f0_range_st": 15.26
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "Because the detergent can hurt your eyes.",
+    "tts_text": "Because the detergent can hurt your eyes.",
+    "seed": 41621,
+    "hyp": "because the detergent can hurt your eyes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.51,
+    "mean_prob": 0.93,
+    "dur": 2.03,
+    "raw_peak": 0.976,
+    "pitch_ok": true,
+    "score": 1.526,
+    "f0_med": 100.0,
+    "f0_st_sd": 4.58,
+    "f0_range_st": 12.67
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "Next, add one cup of detergent. Not more!",
+    "tts_text": "Next, add one cup of detergent. Not more!",
+    "seed": 2026,
+    "hyp": "next add 1 cup of detergent not more",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.89,
+    "dur": 2.53,
+    "raw_peak": 1.029,
+    "pitch_ok": true,
+    "score": 1.384,
+    "f0_med": 129.6,
+    "f0_st_sd": 3.27,
+    "f0_range_st": 11.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maria",
+    "text": "One cup. Got it.",
+    "tts_text": "One cup. Got it.",
+    "seed": 25783,
+    "hyp": "1 cup got it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.9,
+    "dur": 1.48,
+    "raw_peak": 0.534,
+    "pitch_ok": true,
+    "score": 1.149,
+    "f0_med": 214.9,
+    "f0_st_sd": 1.63,
+    "f0_range_st": 5.34
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maria",
+    "text": "What do I do after that?",
+    "tts_text": "What do I do after that?",
+    "seed": 2026,
+    "hyp": "what do i do after that",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.98,
+    "dur": 1.23,
+    "raw_peak": 0.599,
+    "pitch_ok": true,
+    "score": 1.293,
+    "f0_med": 268.4,
+    "f0_st_sd": 2.1,
+    "f0_range_st": 6.92
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "After that, plug it in and turn it on.",
+    "tts_text": "After that, plug it in and turn it on.",
+    "seed": 2026,
+    "hyp": "after that plug it in and turn it on",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.94,
+    "raw_peak": 0.824,
+    "pitch_ok": true,
+    "score": 1.274,
+    "f0_med": 128.1,
+    "f0_st_sd": 1.92,
+    "f0_range_st": 6.53
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "A green light comes on.",
+    "tts_text": "A green light comes on.",
+    "seed": 2026,
+    "hyp": "a green light comes on",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.93,
+    "dur": 1.49,
+    "raw_peak": 0.86,
+    "pitch_ok": true,
+    "score": 1.456,
+    "f0_med": 117.8,
+    "f0_st_sd": 3.49,
+    "f0_range_st": 10.65
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maria",
+    "text": "And then I just push it?",
+    "tts_text": "And then I just push it?",
+    "seed": 2026,
+    "hyp": "and then i just push it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.91,
+    "dur": 1.61,
+    "raw_peak": 0.422,
+    "pitch_ok": true,
+    "score": 1.514,
+    "f0_med": 190.3,
+    "f0_st_sd": 4.76,
+    "f0_range_st": 14.04
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "Right. Push it slowly.",
+    "tts_text": "Right. Push it slowly.",
+    "seed": 112892,
+    "hyp": "right push it slowly",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.41,
+    "raw_peak": 0.792,
+    "pitch_ok": true,
+    "score": 1.169,
+    "f0_med": 104.7,
+    "f0_st_sd": 1.32,
+    "f0_range_st": 4.01
+   },
+   "tries": 15,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "Don't leave it alone when it's on.",
+    "tts_text": "Don't leave it alone when it's on.",
+    "seed": 2026,
+    "hyp": "don't leave it alone when it's on",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.49,
+    "raw_peak": 0.959,
+    "pitch_ok": true,
+    "score": 1.409,
+    "f0_med": 111.2,
+    "f0_st_sd": 2.88,
+    "f0_range_st": 8.86
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maria",
+    "text": "What do I do when I finish?",
+    "tts_text": "What do I do when I finish?",
+    "seed": 2026,
+    "hyp": "what do i do when i finish",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.98,
+    "dur": 1.7,
+    "raw_peak": 0.43,
+    "pitch_ok": true,
+    "score": 1.441,
+    "f0_med": 202.8,
+    "f0_st_sd": 3.1,
+    "f0_range_st": 8.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "Finally, turn it off, unplug it, and empty the tank.",
+    "tts_text": "Finally, turn it off, unplug it, and empty the tank.",
+    "seed": 2026,
+    "hyp": "finally turn it off unplug it and empty the tank",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.96,
+    "dur": 2.82,
+    "raw_peak": 1.021,
+    "pitch_ok": true,
+    "score": 1.561,
+    "f0_med": 127.8,
+    "f0_st_sd": 4.71,
+    "f0_range_st": 13.94
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maria",
+    "text": "Thanks, Tom. Can I try it now?",
+    "tts_text": "Thanks, Tom. Can I try it now?",
+    "seed": 2026,
+    "hyp": "thanks tom can i try it now",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.98,
+    "dur": 1.7,
+    "raw_peak": 0.49,
+    "pitch_ok": true,
+    "score": 1.434,
+    "f0_med": 219.9,
+    "f0_st_sd": 3.05,
+    "f0_range_st": 10.96
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "Sure. Press the start button, and let's go.",
+    "tts_text": "Sure. Press the start button, and let's go.",
+    "seed": 9945,
+    "hyp": "sure press the start button and let's go",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.89,
+    "dur": 2.45,
+    "raw_peak": 0.898,
+    "pitch_ok": true,
+    "score": 1.195,
+    "f0_med": 111.2,
+    "f0_st_sd": 2.04,
+    "f0_range_st": 5.4
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "I'll walk with you.",
+    "tts_text": "I'll walk with you.",
+    "seed": 2026,
+    "hyp": "i'll walk with you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 0.94,
+    "raw_peak": 0.653,
+    "pitch_ok": true,
+    "score": 1.206,
+    "f0_med": 106.2,
+    "f0_st_sd": 1.51,
+    "f0_range_st": 4.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   11.22,
+   17.06,
+   "Tom",
+   "Hi, Maria. Welcome to the team! Today I'm going to show you the floor cleaning machine. It's easy."
+  ],
+  [
+   18.36,
+   19.98,
+   "Maria",
+   "Great. How do I start?"
+  ],
+  [
+   21.28,
+   25.8,
+   "Tom",
+   "First, put on your safety goggles. Then, fill the tank with water."
+  ],
+  [
+   27.1,
+   28.58,
+   "Maria",
+   "Why do I need goggles?"
+  ],
+  [
+   29.88,
+   34.99,
+   "Tom",
+   "Because the detergent can hurt your eyes. Next, add one cup of detergent. Not more!"
+  ],
+  [
+   36.29,
+   39.55,
+   "Maria",
+   "One cup. Got it. What do I do after that?"
+  ],
+  [
+   40.85,
+   44.83,
+   "Tom",
+   "After that, plug it in and turn it on. A green light comes on."
+  ],
+  [
+   46.13,
+   47.74,
+   "Maria",
+   "And then I just push it?"
+  ],
+  [
+   49.04,
+   52.49,
+   "Tom",
+   "Right. Push it slowly. Don't leave it alone when it's on."
+  ],
+  [
+   53.79,
+   55.49,
+   "Maria",
+   "What do I do when I finish?"
+  ],
+  [
+   56.79,
+   59.61,
+   "Tom",
+   "Finally, turn it off, unplug it, and empty the tank."
+  ],
+  [
+   60.91,
+   62.61,
+   "Maria",
+   "Thanks, Tom. Can I try it now?"
+  ],
+  [
+   63.91,
+   67.85,
+   "Tom",
+   "Sure. Press the start button, and let's go. I'll walk with you."
+  ]
+ ]
+}
