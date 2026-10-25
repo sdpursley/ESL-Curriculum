@@ -1,0 +1,126 @@
+[
+ {
+  "file": "L5_L7_spelling.png",
+  "lesson": "Level5-L7",
+  "word": "spelling",
+  "kind": "vocab",
+  "twemoji": [
+   "1f524",
+   "270f"
+  ],
+  "note": "latin letters and a pencil [sign: A B C]"
+ },
+ {
+  "file": "L5_L7_email_address.png",
+  "lesson": "Level5-L7",
+  "word": "email address",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4e7"
+  ],
+  "note": "an e-mail icon [sign: EMAIL]"
+ },
+ {
+  "file": "L5_L7_phone_number.png",
+  "lesson": "Level5-L7",
+  "word": "phone number",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f1"
+  ],
+  "note": "a mobile phone [sign: PHONE]"
+ },
+ {
+  "file": "L5_L7_schedule.png",
+  "lesson": "Level5-L7",
+  "word": "schedule",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c5",
+   "23f0"
+  ],
+  "note": "a calendar and an alarm clock [sign: TUE 6:00]"
+ },
+ {
+  "file": "L5_L7_signature.png",
+  "lesson": "Level5-L7",
+  "word": "signature",
+  "kind": "vocab",
+  "twemoji": [
+   "270d"
+  ],
+  "note": "a writing hand [sign: SIGN HERE]"
+ },
+ {
+  "file": "L5_L7_form.png",
+  "lesson": "Level5-L7",
+  "word": "form",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb"
+  ],
+  "note": "a clipboard [sign: FORM]"
+ },
+ {
+  "file": "L5_L7_checkbox.png",
+  "lesson": "Level5-L7",
+  "word": "checkbox",
+  "kind": "vocab",
+  "twemoji": [
+   "2611"
+  ],
+  "note": "a ballot box with a check [sign: YES]"
+ },
+ {
+  "file": "L5_L7_correction.png",
+  "lesson": "Level5-L7",
+  "word": "correction",
+  "kind": "vocab",
+  "twemoji": [
+   "270f",
+   "274c"
+  ],
+  "note": "a pencil and a cross mark [sign: FIX]"
+ },
+ {
+  "file": "L5_L7_double_check.png",
+  "lesson": "Level5-L7",
+  "word": "double-check",
+  "kind": "vocab",
+  "twemoji": [
+   "2705"
+  ],
+  "note": "two check marks [sign: AGAIN]"
+ },
+ {
+  "file": "L5_L7_copy.png",
+  "lesson": "Level5-L7",
+  "word": "copy",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c4"
+  ],
+  "note": "two pages [sign: COPY]"
+ },
+ {
+  "file": "L5_L7_initial.png",
+  "lesson": "Level5-L7",
+  "word": "initial",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4dd",
+   "270d"
+  ],
+  "note": "a writing hand and a memo [sign: L.P.]"
+ },
+ {
+  "file": "L5_L7_capital_letter.png",
+  "lesson": "Level5-L7",
+  "word": "capital letter",
+  "kind": "vocab",
+  "twemoji": [
+   "1f520"
+  ],
+  "note": "a capital-letters key [sign: ABC]"
+ }
+]

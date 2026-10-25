@@ -1,0 +1,126 @@
+[
+ {
+  "file": "L5_L5_statement.png",
+  "lesson": "Level5-L5",
+  "word": "statement",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b5",
+   "1f4c4"
+  ],
+  "note": "a page and a dollar bill [sign: STATEMENT]"
+ },
+ {
+  "file": "L5_L5_charge.png",
+  "lesson": "Level5-L5",
+  "word": "charge",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b8"
+  ],
+  "note": "money with wings [sign: CHARGE]"
+ },
+ {
+  "file": "L5_L5_payment.png",
+  "lesson": "Level5-L5",
+  "word": "payment",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b5"
+  ],
+  "note": "a dollar bill with a green check [sign: PAID]"
+ },
+ {
+  "file": "L5_L5_balance.png",
+  "lesson": "Level5-L5",
+  "word": "balance",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b0"
+  ],
+  "note": "a money bag [sign: BALANCE]"
+ },
+ {
+  "file": "L5_L5_fee.png",
+  "lesson": "Level5-L5",
+  "word": "fee",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b2"
+  ],
+  "note": "a heavy dollar sign [sign: FEE]"
+ },
+ {
+  "file": "L5_L5_receipt.png",
+  "lesson": "Level5-L5",
+  "word": "receipt",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9fe"
+  ],
+  "note": "a receipt [sign: RECEIPT]"
+ },
+ {
+  "file": "L5_L5_refund.png",
+  "lesson": "Level5-L5",
+  "word": "refund",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b5",
+   "1f519"
+  ],
+  "note": "a dollar bill and a BACK arrow [sign: REFUND]"
+ },
+ {
+  "file": "L5_L5_budget.png",
+  "lesson": "Level5-L5",
+  "word": "budget",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ca"
+  ],
+  "note": "a bar chart [sign: BUDGET]"
+ },
+ {
+  "file": "L5_L5_deposit.png",
+  "lesson": "Level5-L5",
+  "word": "deposit",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e6",
+   "1f4b0"
+  ],
+  "note": "a bank and a money bag [sign: DEPOSIT]"
+ },
+ {
+  "file": "L5_L5_due_date.png",
+  "lesson": "Level5-L5",
+  "word": "due date",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c5"
+  ],
+  "note": "a calendar [sign: DUE DATE]"
+ },
+ {
+  "file": "L5_L5_account_number.png",
+  "lesson": "Level5-L5",
+  "word": "account number",
+  "kind": "vocab",
+  "twemoji": [
+   "1f522"
+  ],
+  "note": "number keys [sign: ACCT]"
+ },
+ {
+  "file": "L5_L5_credit.png",
+  "lesson": "Level5-L5",
+  "word": "credit",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4b5",
+   "1f4c4"
+  ],
+  "note": "a page and a dollar bill with a green check [sign: MONEY BACK]"
+ }
+]

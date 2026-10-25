@@ -1,11 +1,11 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum: Scope and Sequence
 
-**Status:** Draft plan for review (October 25, 2026). No Level 5 lesson book, slide deck, or listening file is published.
+**Status:** Lesson pages and slide decks are on this branch for review (October 25, 2026). Listening audio is not recorded. Not published.
 
 **Date:** October 25, 2026
 
-**Audience:** Program coordinators and the curriculum author (for review before any Level 5 lessons are built)
+**Audience:** Program coordinators and the curriculum author (for review before Level 5 is published)
 
 **Sits directly above:** the Level 4 curriculum (`level4/curriculum/Level4_Scope_and_Sequence.md`, 13 lessons, Week 8 midterm, Week 15 final, Week 16 graduation). **Sits at the top of this series.** There is no Level 6 in this plan.
 

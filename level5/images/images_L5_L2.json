@@ -1,0 +1,131 @@
+[
+ {
+  "file": "L5_L2_bakery.png",
+  "lesson": "Level5-L2",
+  "word": "bakery",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3ea",
+   "1f956"
+  ],
+  "note": "a baguette and a shop [sign: BAKERY]"
+ },
+ {
+  "file": "L5_L2_oven.png",
+  "lesson": "Level5-L2",
+  "word": "oven",
+  "kind": "vocab",
+  "twemoji": [
+   "1f35e",
+   "1f525"
+  ],
+  "note": "a fire and a loaf of bread [sign: OVEN]"
+ },
+ {
+  "file": "L5_L2_permit.png",
+  "lesson": "Level5-L2",
+  "word": "permit",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c4",
+   "2705"
+  ],
+  "note": "a page and a check mark [sign: PERMIT]"
+ },
+ {
+  "file": "L5_L2_inspector.png",
+  "lesson": "Level5-L2",
+  "word": "inspector",
+  "kind": "vocab",
+  "twemoji": [
+   "1f50d",
+   "1f9d1"
+  ],
+  "note": "a person and a magnifying glass [sign: INSPECTOR]"
+ },
+ {
+  "file": "L5_L2_paint_roller.png",
+  "lesson": "Level5-L2",
+  "word": "paint roller",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3a8",
+   "1f58c"
+  ],
+  "note": "a palette and a paintbrush [sign: PAINT ROLLER]"
+ },
+ {
+  "file": "L5_L2_store_sign.png",
+  "lesson": "Level5-L2",
+  "word": "store sign",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3ea"
+  ],
+  "note": "a shop [sign: OPEN]"
+ },
+ {
+  "file": "L5_L2_ribbon.png",
+  "lesson": "Level5-L2",
+  "word": "ribbon",
+  "kind": "vocab",
+  "twemoji": [
+   "1f380"
+  ],
+  "note": "a ribbon [sign: RIBBON]"
+ },
+ {
+  "file": "L5_L2_opening_day.png",
+  "lesson": "Level5-L2",
+  "word": "opening day",
+  "kind": "vocab",
+  "twemoji": [
+   "1f389",
+   "1f4c5"
+  ],
+  "note": "a calendar and a party popper [sign: OPENING DAY]"
+ },
+ {
+  "file": "L5_L2_counter.png",
+  "lesson": "Level5-L2",
+  "word": "counter",
+  "kind": "vocab",
+  "twemoji": [
+   "1f950",
+   "1f9d1"
+  ],
+  "note": "a person and a croissant [sign: COUNTER]"
+ },
+ {
+  "file": "L5_L2_display_case.png",
+  "lesson": "Level5-L2",
+  "word": "display case",
+  "kind": "vocab",
+  "twemoji": [
+   "1f36a",
+   "1f370"
+  ],
+  "note": "a cake and a cookie [sign: DISPLAY CASE]"
+ },
+ {
+  "file": "L5_L2_awning.png",
+  "lesson": "Level5-L2",
+  "word": "awning",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3ea",
+   "26f1"
+  ],
+  "note": "a beach umbrella and a shop [sign: AWNING]"
+ },
+ {
+  "file": "L5_L2_poster.png",
+  "lesson": "Level5-L2",
+  "word": "poster",
+  "kind": "vocab",
+  "twemoji": [
+   "1f5bc"
+  ],
+  "note": "a framed picture [sign: POSTER]"
+ }
+]

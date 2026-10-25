@@ -1,0 +1,14 @@
+| File | Word / use | What it shows (drawn parts in brackets) | Twemoji source (CC BY 4.0) |
+|---|---|---|---|
+| L5_L2_bakery.png | bakery | a baguette and a shop [sign: BAKERY] | [1f956](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f956.svg), [1f3ea](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3ea.svg) |
+| L5_L2_oven.png | oven | a fire and bread [sign: OVEN] | [1f525](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f525.svg), [1f35e](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f35e.svg) |
+| L5_L2_permit.png | permit | a page and a green check mark [sign: PERMIT] | [1f4c4](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c4.svg), [2705](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/2705.svg) |
+| L5_L2_inspector.png | inspector | a person and a magnifying glass [sign: INSPECTOR] | [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg), [1f50d](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f50d.svg) |
+| L5_L2_paint_roller.png | paint roller | a palette and a paintbrush [sign: PAINT ROLLER] | [1f3a8](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3a8.svg), [1f58c](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f58c.svg) |
+| L5_L2_store_sign.png | store sign | a shop with a sign on the roof [sign: OPEN] | [1f3ea](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3ea.svg) |
+| L5_L2_ribbon.png | ribbon | a ribbon [sign: RIBBON] | [1f380](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f380.svg) |
+| L5_L2_opening_day.png | opening day | a calendar and a party popper [sign: OPENING DAY] | [1f4c5](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f4c5.svg), [1f389](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f389.svg) |
+| L5_L2_counter.png | counter | a person and a croissant [sign: COUNTER] | [1f9d1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f9d1.svg), [1f950](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f950.svg) |
+| L5_L2_display_case.png | display case | a slice of cake and a cookie [sign: DISPLAY CASE] | [1f370](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f370.svg), [1f36a](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f36a.svg) |
+| L5_L2_awning.png | awning | a beach umbrella and a shop [sign: AWNING] | [26f1](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/26f1.svg), [1f3ea](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f3ea.svg) |
+| L5_L2_poster.png | poster | a framed picture [sign: POSTER] | [1f5bc](https://raw.githubusercontent.com/jdecked/twemoji/main/assets/svg/1f5bc.svg) |

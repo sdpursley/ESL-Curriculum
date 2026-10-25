@@ -1,0 +1,131 @@
+[
+ {
+  "file": "L5_L11_claim_form.png",
+  "lesson": "Level5-L11",
+  "word": "claim form",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "1f4dd"
+  ],
+  "note": "a clipboard and a memo [sign: CLAIM]"
+ },
+ {
+  "file": "L5_L11_policy_number.png",
+  "lesson": "Level5-L11",
+  "word": "policy number",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c4"
+  ],
+  "note": "a document [sign: POLICY NO.]"
+ },
+ {
+  "file": "L5_L11_photo.png",
+  "lesson": "Level5-L11",
+  "word": "photo",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f7"
+  ],
+  "note": "a camera [sign: PHOTO]"
+ },
+ {
+  "file": "L5_L11_estimate.png",
+  "lesson": "Level5-L11",
+  "word": "estimate",
+  "kind": "vocab",
+  "twemoji": [
+   "1f58a",
+   "1f9fe"
+  ],
+  "note": "a receipt and a pen [sign: ESTIMATE]"
+ },
+ {
+  "file": "L5_L11_complaint.png",
+  "lesson": "Level5-L11",
+  "word": "complaint",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ac",
+   "1f4e8"
+  ],
+  "note": "an envelope and a speech balloon [sign: COMPLAINT]"
+ },
+ {
+  "file": "L5_L11_attachment.png",
+  "lesson": "Level5-L11",
+  "word": "attachment",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ce"
+  ],
+  "note": "a paperclip [sign: ATTACHMENT]"
+ },
+ {
+  "file": "L5_L11_reference_number.png",
+  "lesson": "Level5-L11",
+  "word": "reference number",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c4",
+   "1f522"
+  ],
+  "note": "a document and a number sign [sign: REF. NO.]"
+ },
+ {
+  "file": "L5_L11_customer_service.png",
+  "lesson": "Level5-L11",
+  "word": "customer service",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3a7",
+   "1f4de"
+  ],
+  "note": "headphones and a telephone [sign: SERVICE]"
+ },
+ {
+  "file": "L5_L11_on_hold.png",
+  "lesson": "Level5-L11",
+  "word": "on hold",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4de",
+   "23f3"
+  ],
+  "note": "a telephone and an hourglass [sign: ON HOLD]"
+ },
+ {
+  "file": "L5_L11_resolution.png",
+  "lesson": "Level5-L11",
+  "word": "resolution",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c4",
+   "2705"
+  ],
+  "note": "a check mark and a document [sign: SOLVED]"
+ },
+ {
+  "file": "L5_L11_cracked_screen.png",
+  "lesson": "Level5-L11",
+  "word": "cracked screen",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a5",
+   "1f4f1"
+  ],
+  "note": "a mobile phone and a collision mark"
+ },
+ {
+  "file": "L5_L11_water_stain.png",
+  "lesson": "Level5-L11",
+  "word": "water stain",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a7",
+   "1f4c4"
+  ],
+  "note": "a drop and a document"
+ }
+]

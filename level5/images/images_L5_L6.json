@@ -1,0 +1,127 @@
+[
+ {
+  "file": "L5_L6_message.png",
+  "lesson": "Level5-L6",
+  "word": "message",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ac"
+  ],
+  "note": "a speech balloon [sign: MESSAGE]"
+ },
+ {
+  "file": "L5_L6_note.png",
+  "lesson": "Level5-L6",
+  "word": "note",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4dd"
+  ],
+  "note": "a memo and a pencil [sign: NOTE]"
+ },
+ {
+  "file": "L5_L6_callback.png",
+  "lesson": "Level5-L6",
+  "word": "callback",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4de"
+  ],
+  "note": "a telephone [sign: CALL BACK]"
+ },
+ {
+  "file": "L5_L6_nurse.png",
+  "lesson": "Level5-L6",
+  "word": "nurse",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1-200d-2695-fe0f"
+  ],
+  "note": "a health worker with a stethoscope [sign: NURSE]"
+ },
+ {
+  "file": "L5_L6_clinic.png",
+  "lesson": "Level5-L6",
+  "word": "clinic",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e5"
+  ],
+  "note": "a hospital building with a cross on it [sign: CLINIC]"
+ },
+ {
+  "file": "L5_L6_folder.png",
+  "lesson": "Level5-L6",
+  "word": "folder",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c1"
+  ],
+  "note": "a file folder [sign: FOLDER]"
+ },
+ {
+  "file": "L5_L6_detail.png",
+  "lesson": "Level5-L6",
+  "word": "detail",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4dd",
+   "1f50d"
+  ],
+  "note": "a magnifying glass and a memo with a pencil [sign: DETAIL]"
+ },
+ {
+  "file": "L5_L6_time_change.png",
+  "lesson": "Level5-L6",
+  "word": "time change",
+  "kind": "vocab",
+  "twemoji": [
+   "1f504",
+   "1f553"
+  ],
+  "note": "a clock and circular arrows [sign: NEW TIME]"
+ },
+ {
+  "file": "L5_L6_family_member.png",
+  "lesson": "Level5-L6",
+  "word": "family member",
+  "kind": "vocab",
+  "twemoji": [
+   "1f46a"
+  ],
+  "note": "a family [sign: FAMILY]"
+ },
+ {
+  "file": "L5_L6_relay.png",
+  "lesson": "Level5-L6",
+  "word": "relay",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ac",
+   "27a1"
+  ],
+  "note": "a speech balloon and a right arrow [sign: PASS IT ON]"
+ },
+ {
+  "file": "L5_L6_phone_log.png",
+  "lesson": "Level5-L6",
+  "word": "phone log",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "1f4de"
+  ],
+  "note": "a telephone and a clipboard [sign: PHONE LOG]"
+ },
+ {
+  "file": "L5_L6_waiting_room.png",
+  "lesson": "Level5-L6",
+  "word": "waiting room",
+  "kind": "vocab",
+  "twemoji": [
+   "1f552",
+   "1f6cb"
+  ],
+  "note": "a couch with a lamp and a clock [sign: PLEASE WAIT]"
+ }
+]
