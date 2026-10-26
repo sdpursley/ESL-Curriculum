@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 9 (Week 10): It Must Be an Ad
 
-**Status:** Not published. Listening audio is not recorded.
+**Status:** Not published. Draft listening audio is recorded.
 
 **Date:** October 2026
 
 **Audience:** Program coordinators and volunteer teachers
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L9.md`). Listening audio is not recorded yet (about 2:20).
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L9.md`). Listening audio is recorded (about 1:50).
 
 > **Topic:** Decide whether a short web page is reliable: who wrote it, how old it is, and whether it is an advertisement. Say *must be*, *might be*, and *can't be* with a reason. Use only the invented pages in this lesson.
 
@@ -64,7 +64,7 @@ By the end of class, you can do these four things.
 :::box Materials
 - Student Pages for Lesson 9 (print for the number expected + 3 spares)
 - The three class pages on the Talk Time page (city bus notice, amazing-deal page, neighborhood post)
-- Listening: phone + small speaker. The audio is not recorded yet (about 2:20). No speaker? Read the script aloud with a volunteer.
+- Listening: phone + small speaker. The audio is recorded (about 1:50). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes (read the plan; practice stress on *MUST* and *CAN'T*).
 :::
 
@@ -123,7 +123,7 @@ By the end of class, you can do these four things.
 - **Read Tasks B and C together.**
 - **Play 2 → Tasks B and C.** Then show the answers.
 - **"Hear it, say it":** *gonna* and *wanna* are short forms. This listening uses the full forms. You can say *going to* and *want to*. Say each line two times. Stress the modal: *It MUST be a rumor. It CAN'T be a fact.* *Might* stays softer.
-- **The audio is not recorded yet (about 2:20).** When it is ready, it plays the conversation once. Press play again for play 2. A third play is fine if the class needs it. Until then, read the script with a volunteer at a normal, friendly speed, two times.
+- **The audio is recorded (about 1:50).** When it is ready, it plays the conversation once. Press play again for play 2. A third play is fine if the class needs it. Until then, read the script with a volunteer at a normal, friendly speed, two times.
 - **If behind:** do Task C together on the board.
 :::
 

@@ -1,0 +1,1005 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Aisha": "refs/Kim.wav",
+   "Noah": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson nine. Noah shows Aisha a post.",
+    "tts_text": "Lesson nine. Noah shows Aisha a post.",
+    "seed": 33702,
+    "hyp": "lesson 9 noah shows aisha a post",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.81,
+    "dur": 3.44,
+    "raw_peak": 0.772,
+    "pitch_ok": true,
+    "score": 1.336,
+    "f0_med": 188.1,
+    "f0_st_sd": 3.5,
+    "f0_range_st": 11.28
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "The post says their grocery store is closing.",
+    "tts_text": "The post says their grocery store is closing.",
+    "seed": 2026,
+    "hyp": "the post says their grocery store is closing",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.94,
+    "dur": 2.41,
+    "raw_peak": 0.542,
+    "pitch_ok": true,
+    "score": 1.538,
+    "f0_med": 197.0,
+    "f0_st_sd": 4.76,
+    "f0_range_st": 14.48
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "They want to check the source.",
+    "tts_text": "They want to check the source.",
+    "seed": 2026,
+    "hyp": "they want to check the source",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 1.49,
+    "raw_peak": 0.479,
+    "pitch_ok": true,
+    "score": 1.217,
+    "f0_med": 184.9,
+    "f0_st_sd": 1.65,
+    "f0_range_st": 5.81
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "Aisha, please look at this post.",
+    "tts_text": "Aisha, please look at this post.",
+    "seed": 9945,
+    "hyp": "aisha please look at this post",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.96,
+    "dur": 1.73,
+    "raw_peak": 1.028,
+    "pitch_ok": true,
+    "score": 1.377,
+    "f0_med": 121.3,
+    "f0_st_sd": 2.81,
+    "f0_range_st": 8.0
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "It says our grocery store is closing on Friday.",
+    "tts_text": "It says our grocery store is closing on Friday.",
+    "seed": 2026,
+    "hyp": "it says our grocery store is closing on friday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 2.11,
+    "raw_peak": 1.046,
+    "pitch_ok": true,
+    "score": 1.228,
+    "f0_med": 99.1,
+    "f0_st_sd": 1.74,
+    "f0_range_st": 5.34
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "Do you know who wrote it?",
+    "tts_text": "Do you know who wrote it?",
+    "seed": 2026,
+    "hyp": "do you know who wrote it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.87,
+    "raw_peak": 0.217,
+    "pitch_ok": true,
+    "score": 1.585,
+    "f0_med": 181.7,
+    "f0_st_sd": 5.54,
+    "f0_range_st": 16.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "I don't see an author.",
+    "tts_text": "I don't see an author.",
+    "seed": 25783,
+    "hyp": "i don't see an author",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 1.92,
+    "raw_peak": 0.372,
+    "pitch_ok": true,
+    "score": 1.391,
+    "f0_med": 183.8,
+    "f0_st_sd": 2.88,
+    "f0_range_st": 9.33
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "There is no author.",
+    "tts_text": "There is no author.",
+    "seed": 9945,
+    "hyp": "there is no author",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.87,
+    "dur": 1.29,
+    "raw_peak": 0.828,
+    "pitch_ok": true,
+    "score": 1.126,
+    "f0_med": 115.1,
+    "f0_st_sd": 1.7,
+    "f0_range_st": 4.68
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "And I don't see a date stamp.",
+    "tts_text": "And I don't see a date stamp.",
+    "seed": 33702,
+    "hyp": "and i don't see a date stamp",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.51,
+    "mean_prob": 0.92,
+    "dur": 1.35,
+    "raw_peak": 1.001,
+    "pitch_ok": true,
+    "score": 1.348,
+    "f0_med": 132.3,
+    "f0_st_sd": 2.86,
+    "f0_range_st": 9.53
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "Then it might be old.",
+    "tts_text": "Then it might be old.",
+    "seed": 41621,
+    "hyp": "then it might be old",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.91,
+    "dur": 1.41,
+    "raw_peak": 0.276,
+    "pitch_ok": true,
+    "score": 1.35,
+    "f0_med": 221.2,
+    "f0_st_sd": 2.92,
+    "f0_range_st": 10.28
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "It might be a rumor.",
+    "tts_text": "It might be a rumor.",
+    "seed": 2026,
+    "hyp": "it might be a rumor",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.96,
+    "dur": 1.25,
+    "raw_peak": 0.248,
+    "pitch_ok": true,
+    "score": 1.383,
+    "f0_med": 217.4,
+    "f0_st_sd": 2.83,
+    "f0_range_st": 9.56
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "I'm going to look for the store's own page.",
+    "tts_text": "I'm going to look for the store's own page.",
+    "seed": 2026,
+    "hyp": "i'm going to look for the store's own page",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.34,
+    "raw_peak": 0.284,
+    "pitch_ok": true,
+    "score": 1.547,
+    "f0_med": 202.8,
+    "f0_st_sd": 3.78,
+    "f0_range_st": 12.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "Here it is.",
+    "tts_text": "Here it is.",
+    "seed": 9945,
+    "hyp": "here it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.96,
+    "dur": 0.81,
+    "raw_peak": 0.931,
+    "pitch_ok": true,
+    "score": 1.21,
+    "f0_med": 127.0,
+    "f0_st_sd": 1.67,
+    "f0_range_st": 4.79
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "The logo matches our store.",
+    "tts_text": "The logo matches our store.",
+    "seed": 2026,
+    "hyp": "the logo matches our store",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.96,
+    "dur": 1.71,
+    "raw_peak": 0.911,
+    "pitch_ok": true,
+    "score": 1.247,
+    "f0_med": 124.1,
+    "f0_st_sd": 1.92,
+    "f0_range_st": 5.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "What does that page say?",
+    "tts_text": "What does that page say?",
+    "seed": 2026,
+    "hyp": "what does that page say",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.65,
+    "raw_peak": 0.326,
+    "pitch_ok": true,
+    "score": 1.307,
+    "f0_med": 228.3,
+    "f0_st_sd": 2.24,
+    "f0_range_st": 7.29
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "It says the store is open.",
+    "tts_text": "It says the store is open.",
+    "seed": 2026,
+    "hyp": "it says the store is open",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.95,
+    "dur": 1.82,
+    "raw_peak": 0.76,
+    "pitch_ok": true,
+    "score": 1.365,
+    "f0_med": 145.1,
+    "f0_st_sd": 2.76,
+    "f0_range_st": 8.36
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "The hours are the same.",
+    "tts_text": "The hours are the same.",
+    "seed": 2026,
+    "hyp": "the hours are the same",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 1.54,
+    "raw_peak": 0.983,
+    "pitch_ok": true,
+    "score": 1.354,
+    "f0_med": 123.4,
+    "f0_st_sd": 2.59,
+    "f0_range_st": 7.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "Then the closing post can't be true.",
+    "tts_text": "Then the closing post can't be true.",
+    "seed": 2026,
+    "hyp": "then the closing post can't be true",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.93,
+    "dur": 1.88,
+    "raw_peak": 0.266,
+    "pitch_ok": true,
+    "score": 1.283,
+    "f0_med": 186.0,
+    "f0_st_sd": 2.34,
+    "f0_range_st": 7.66
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "It must be a rumor.",
+    "tts_text": "It must be a rumor.",
+    "seed": 2026,
+    "hyp": "it must be a rumor",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 1.26,
+    "raw_peak": 0.315,
+    "pitch_ok": true,
+    "score": 1.318,
+    "f0_med": 187.1,
+    "f0_st_sd": 2.46,
+    "f0_range_st": 6.58
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "The post has a share button.",
+    "tts_text": "The post has a share button.",
+    "seed": 9945,
+    "hyp": "the post has a share button",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.9,
+    "dur": 1.65,
+    "raw_peak": 1.019,
+    "pitch_ok": true,
+    "score": 1.331,
+    "f0_med": 131.5,
+    "f0_st_sd": 2.89,
+    "f0_range_st": 8.9
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "I was going to share it.",
+    "tts_text": "I was going to share it.",
+    "seed": 2026,
+    "hyp": "i was going to share it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.24,
+    "raw_peak": 0.883,
+    "pitch_ok": true,
+    "score": 1.277,
+    "f0_med": 110.6,
+    "f0_st_sd": 2.02,
+    "f0_range_st": 6.28
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "Don't share it yet.",
+    "tts_text": "Don't share it yet.",
+    "seed": 17864,
+    "hyp": "don't share it yet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.96,
+    "dur": 1.41,
+    "raw_peak": 0.26,
+    "pitch_ok": true,
+    "score": 1.561,
+    "f0_med": 167.6,
+    "f0_st_sd": 8.58,
+    "f0_range_st": 28.11
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "We want to check a second source first.",
+    "tts_text": "We want to check a second source first.",
+    "seed": 2026,
+    "hyp": "we want to check a second source first",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 2.27,
+    "raw_peak": 0.301,
+    "pitch_ok": true,
+    "score": 1.593,
+    "f0_med": 176.6,
+    "f0_st_sd": 5.05,
+    "f0_range_st": 16.07
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "The store page names the author.",
+    "tts_text": "The store page names the author.",
+    "seed": 2026,
+    "hyp": "the store page names the author",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.9,
+    "dur": 1.94,
+    "raw_peak": 0.905,
+    "pitch_ok": true,
+    "score": 1.498,
+    "f0_med": 100.2,
+    "f0_st_sd": 4.33,
+    "f0_range_st": 12.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "The author is the store.",
+    "tts_text": "The author is the store.",
+    "seed": 2026,
+    "hyp": "the author is the store",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.83,
+    "dur": 1.66,
+    "raw_peak": 0.767,
+    "pitch_ok": true,
+    "score": 1.345,
+    "f0_med": 94.6,
+    "f0_st_sd": 3.43,
+    "f0_range_st": 9.98
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "The date is this week.",
+    "tts_text": "The date is this week.",
+    "seed": 2026,
+    "hyp": "the date is this week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.95,
+    "dur": 1.27,
+    "raw_peak": 0.837,
+    "pitch_ok": true,
+    "score": 1.057,
+    "f0_med": 141.8,
+    "f0_st_sd": 0.7,
+    "f0_range_st": 2.05
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "That page must be the one we trust.",
+    "tts_text": "That page must be the one we trust.",
+    "seed": 2026,
+    "hyp": "that page must be the 1 we trust",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 2.4,
+    "raw_peak": 0.303,
+    "pitch_ok": true,
+    "score": 1.583,
+    "f0_med": 173.5,
+    "f0_st_sd": 5.7,
+    "f0_range_st": 21.56
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "The first post has no author and no date.",
+    "tts_text": "The first post has no author and no date.",
+    "seed": 9945,
+    "hyp": "the first post has no author and no date",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 2.84,
+    "raw_peak": 0.245,
+    "pitch_ok": true,
+    "score": 1.509,
+    "f0_med": 169.6,
+    "f0_st_sd": 3.58,
+    "f0_range_st": 10.33
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "So the store isn't closing.",
+    "tts_text": "So the store isn't closing.",
+    "seed": 25783,
+    "hyp": "so the store isn't closing",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.88,
+    "dur": 1.56,
+    "raw_peak": 0.915,
+    "pitch_ok": true,
+    "score": 1.476,
+    "f0_med": 130.8,
+    "f0_st_sd": 4.32,
+    "f0_range_st": 13.23
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "I'm not going to share the post.",
+    "tts_text": "I'm not going to share the post.",
+    "seed": 2026,
+    "hyp": "i'm not going to share the post",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.64,
+    "raw_peak": 0.979,
+    "pitch_ok": true,
+    "score": 1.307,
+    "f0_med": 98.5,
+    "f0_st_sd": 2.22,
+    "f0_range_st": 6.12
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "Good. It can't be a fact when the store's own page says the opposite.",
+    "tts_text": "Good. It can't be a fact when the store's own page says the opposite.",
+    "seed": 49540,
+    "hyp": "good it can't be a fact when the store's own page says the opposite",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 3.5,
+    "raw_peak": 0.349,
+    "pitch_ok": true,
+    "score": 1.53,
+    "f0_med": 198.8,
+    "f0_st_sd": 3.62,
+    "f0_range_st": 10.84
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "There is a comment under the post, but the comment has no source.",
+    "tts_text": "There is a comment under the post, but the comment has no source.",
+    "seed": 2026,
+    "hyp": "there is a comment under the post but the comment has no source",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 3.22,
+    "raw_peak": 1.023,
+    "pitch_ok": true,
+    "score": 1.506,
+    "f0_med": 113.2,
+    "f0_st_sd": 3.48,
+    "f0_range_st": 10.05
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "A comment is not a fact.",
+    "tts_text": "A comment is not a fact.",
+    "seed": 17864,
+    "hyp": "a comment is not a fact",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.96,
+    "dur": 2.26,
+    "raw_peak": 0.25,
+    "pitch_ok": true,
+    "score": 1.56,
+    "f0_med": 186.0,
+    "f0_st_sd": 4.16,
+    "f0_range_st": 11.81
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "It might be someone's guess.",
+    "tts_text": "It might be someone's guess.",
+    "seed": 2026,
+    "hyp": "it might be someone's guess",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.98,
+    "dur": 2.04,
+    "raw_peak": 0.256,
+    "pitch_ok": true,
+    "score": 1.575,
+    "f0_med": 188.1,
+    "f0_st_sd": 4.99,
+    "f0_range_st": 15.83
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Noah",
+    "text": "I see. A reliable page names the author and the date.",
+    "tts_text": "I see. A reliable page names the author and the date.",
+    "seed": 2026,
+    "hyp": "i see a reliable page names the author and the date",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.96,
+    "dur": 3.17,
+    "raw_peak": 0.963,
+    "pitch_ok": true,
+    "score": 1.559,
+    "f0_med": 134.6,
+    "f0_st_sd": 6.88,
+    "f0_range_st": 22.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "Yes. And it matches a second source.",
+    "tts_text": "Yes. And it matches a second source.",
+    "seed": 33702,
+    "hyp": "yes and it matches a second source",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 2.63,
+    "raw_peak": 0.537,
+    "pitch_ok": true,
+    "score": 1.285,
+    "f0_med": 197.6,
+    "f0_st_sd": 2.12,
+    "f0_range_st": 7.25
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Aisha",
+    "text": "This one does.",
+    "tts_text": "This one does.",
+    "seed": 65378,
+    "hyp": "this 1 does",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 1.21,
+    "raw_peak": 0.288,
+    "pitch_ok": true,
+    "score": 1.587,
+    "f0_med": 175.1,
+    "f0_st_sd": 5.42,
+    "f0_range_st": 15.45
+   },
+   "tries": 9,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   10.54,
+   14.93,
+   "Noah",
+   "Aisha, please look at this post. It says our grocery store is closing on Friday."
+  ],
+  [
+   16.33,
+   20.67,
+   "Aisha",
+   "Do you know who wrote it? I don't see an author."
+  ],
+  [
+   22.07,
+   25.26,
+   "Noah",
+   "There is no author. And I don't see a date stamp."
+  ],
+  [
+   26.66,
+   32.76,
+   "Aisha",
+   "Then it might be old. It might be a rumor. I'm going to look for the store's own page."
+  ],
+  [
+   34.16,
+   37.23,
+   "Noah",
+   "Here it is. The logo matches our store."
+  ],
+  [
+   38.63,
+   40.28,
+   "Aisha",
+   "What does that page say?"
+  ],
+  [
+   41.68,
+   45.59,
+   "Noah",
+   "It says the store is open. The hours are the same."
+  ],
+  [
+   46.99,
+   50.68,
+   "Aisha",
+   "Then the closing post can't be true. It must be a rumor."
+  ],
+  [
+   52.08,
+   55.52,
+   "Noah",
+   "The post has a share button. I was going to share it."
+  ],
+  [
+   56.92,
+   61.15,
+   "Aisha",
+   "Don't share it yet. We want to check a second source first."
+  ],
+  [
+   62.55,
+   68.52,
+   "Noah",
+   "The store page names the author. The author is the store. The date is this week."
+  ],
+  [
+   69.92,
+   75.71,
+   "Aisha",
+   "That page must be the one we trust. The first post has no author and no date."
+  ],
+  [
+   77.11,
+   80.86,
+   "Noah",
+   "So the store isn't closing. I'm not going to share the post."
+  ],
+  [
+   82.26,
+   85.76,
+   "Aisha",
+   "Good. It can't be a fact when the store's own page says the opposite."
+  ],
+  [
+   87.16,
+   90.38,
+   "Noah",
+   "There is a comment under the post, but the comment has no source."
+  ],
+  [
+   91.78,
+   96.63,
+   "Aisha",
+   "A comment is not a fact. It might be someone's guess."
+  ],
+  [
+   98.03,
+   101.2,
+   "Noah",
+   "I see. A reliable page names the author and the date."
+  ],
+  [
+   102.6,
+   106.99,
+   "Aisha",
+   "Yes. And it matches a second source. This one does."
+  ]
+ ]
+}

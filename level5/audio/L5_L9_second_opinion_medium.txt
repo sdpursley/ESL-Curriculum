@@ -1,0 +1,2 @@
+medium.en per-line WER 0.004 (1/247), 19/20 lines exact
+   ('Noah', 'Aisha, please look at this post. It says our grocery store is closing on Friday.', 'ayesha please look at this post it says our grocery store is closing on friday')
