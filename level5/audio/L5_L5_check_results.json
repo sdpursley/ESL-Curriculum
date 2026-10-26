@@ -1,0 +1,186 @@
+{
+ "file": "L5_L5_listening.mp3",
+ "duration_s": 103.01,
+ "wer": 0.0046,
+ "errors": 1,
+ "ref_words": 219,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "6",
+   "hyp": "styx",
+   "ctx": "no it wasn't the 6 dollars was credited that"
+  }
+ ],
+ "low_prob_words": [],
+ "lines_ok": "15/15",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Diego": 114.8,
+  "Ms. Brooks": 184.9,
+  "Narrator": 194.7
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.3,
+ "peak": 0.88,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 9.4,
+   "spk": "Diego",
+   "line": "Hello. I want to understand my statement. A fee was added, and I am going to ask about it.",
+   "ok": true,
+   "hyp": "hello i want to understand my statement a fee was added and i am going to ask about it",
+   "min_prob": 0.57,
+   "flags": [],
+   "f0_med": 122.0
+  },
+  {
+   "t": 16.24,
+   "spk": "Ms. Brooks",
+   "line": "I can help. The fee was added on Tuesday. The fee was $6.",
+   "ok": true,
+   "hyp": "i can help the fee was added on tuesday the fee was 6 dollars",
+   "min_prob": 0.5,
+   "flags": [],
+   "f0_med": 179.6
+  },
+  {
+   "t": 23.31,
+   "spk": "Diego",
+   "line": "Was the payment received?",
+   "ok": true,
+   "hyp": "was the payment received",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 132.3
+  },
+  {
+   "t": 25.91,
+   "spk": "Ms. Brooks",
+   "line": "Yes, it was. The payment was received on Friday. The payment was forty dollars.",
+   "ok": true,
+   "hyp": "yes it was the payment was received on friday the payment was 40 dollars",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 184.9
+  },
+  {
+   "t": 33.72,
+   "spk": "Diego",
+   "line": "And the credit? I want to know what that word means.",
+   "ok": true,
+   "hyp": "and the credit i want to know what that word means",
+   "min_prob": 0.46,
+   "flags": [],
+   "f0_med": 114.8
+  },
+  {
+   "t": 38.16,
+   "spk": "Ms. Brooks",
+   "line": "The credit was posted by the phone company. Credit means money back. It is not a new phone.",
+   "ok": true,
+   "hyp": "the credit was posted by the phone company credit means money back it is not a new phone",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 185.4
+  },
+  {
+   "t": 46.02,
+   "spk": "Diego",
+   "line": "Was the fee removed?",
+   "ok": true,
+   "hyp": "was the fee removed",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 115.8
+  },
+  {
+   "t": 48.67,
+   "spk": "Ms. Brooks",
+   "line": "No, it wasn't. The six dollars was credited. That is the money back.",
+   "ok": true,
+   "hyp": "no it wasn't the 6 dollars was credited that is the money back",
+   "min_prob": 0.66,
+   "flags": [],
+   "f0_med": 186.0
+  },
+  {
+   "t": 56.73,
+   "spk": "Diego",
+   "line": "Are the calls listed?",
+   "ok": true,
+   "hyp": "are the calls listed",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 109.9
+  },
+  {
+   "t": 59.32,
+   "spk": "Ms. Brooks",
+   "line": "Yes, they are. They are listed on page 2. The bill is mailed on the first of the month.",
+   "ok": true,
+   "hyp": "yes they are they are listed on page 2 the bill is mailed on the first of the month",
+   "min_prob": 0.36,
+   "flags": [],
+   "f0_med": 186.0
+  },
+  {
+   "t": 67.2,
+   "spk": "Diego",
+   "line": "What is due today?",
+   "ok": true,
+   "hyp": "what is due today",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 112.0
+  },
+  {
+   "t": 69.58,
+   "spk": "Ms. Brooks",
+   "line": "Nothing is due today. Due today is $0. The due date on the statement is the 20th.",
+   "ok": true,
+   "hyp": "nothing is due today due today is 0 dollars the due date on the statement is the twentieth",
+   "min_prob": 0.65,
+   "flags": [],
+   "f0_med": 179.6
+  },
+  {
+   "t": 78.59,
+   "spk": "Diego",
+   "line": "Thank you. I am going to read the due date again at home. The balance is $28.",
+   "ok": true,
+   "hyp": "thank you i am going to read the due date again at home the balance is 28 dollars",
+   "min_prob": 0.66,
+   "flags": [],
+   "f0_med": 113.2
+  },
+  {
+   "t": 85.43,
+   "spk": "Ms. Brooks",
+   "line": "That is right. For a real charge, call the number on your own statement. This call is practice.",
+   "ok": true,
+   "hyp": "that is right for a real charge call the number on your own statement this call is practice",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 180.7
+  },
+  {
+   "t": 94.43,
+   "spk": "Narrator",
+   "line": "Diego writes two lines: the fee was added on Tuesday, and the payment was received on Friday.",
+   "ok": true,
+   "hyp": "diego writes 2 lines the fee was added on tuesday and the payment was received on friday",
+   "min_prob": 0.66,
+   "flags": [],
+   "f0_med": 203.4
+  }
+ ],
+ "hyp": "lesson 5 diego calls northline phone about a practice statement nothing on this call is a real bill hello i want to understand my statement a fee was added and i am going to ask about it i can help the fee was added on tuesday the fee was 6 dollars was the payment received yes it was the payment was received on friday the payment was 40 dollars and the credit i want to know what that word means the credit was posted by the phone company credit means money back it is not a new phone was the fee removed no it wasn't the styx dollars was credited that is the money back are the calls listed yes they are they are listed on page 2 the bill is mailed on the first of the month what is due today nothing is due today due today is 0 dollars the due date on the statement is the twentieth thank you i am going to read the due date again at home the balance is 28 dollars that is right for a real charge call the number on your own statement this call is practice diego writes 2 lines the fee was added on tuesday and the payment was received on friday that's the end of the listening"
+}

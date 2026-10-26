@@ -7,7 +7,7 @@ PC = pic_credit(MOD); PCS = pic_credit(MOD, True)
 I = lambda stem: f'L5_L5_{stem}.png'
 A = lambda stem: alt(N, I(stem))
 SRC = 'Source: Level5_Lesson5.md'
-LEN = '2:20'
+LEN = '1:43'
 AUDIO = f'Audio: about {LEN}. It plays once.' if CFG['audio'] else f'Audio (about {LEN}): coming soon.'
 BUL = ['I can say what is done with is or are and was or were plus a participle.', 'I can add by when the doer matters.', 'I can find the amount due, the due date, and one charge.']
 W = newwords(N)

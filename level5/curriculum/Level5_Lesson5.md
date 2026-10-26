@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 5 (Week 5): It Was Posted on Tuesday
 
-**Status:** Not published. Listening audio is not recorded.
+**Status:** Not published. Draft listening audio is recorded.
 
 **Date:** October 2026
 
@@ -84,7 +84,7 @@ By the end of class, you can do these things.
 
 ### Listening script
 
-Audio is not recorded yet (about 2:20). Read it with volunteers at a natural, friendly speed. The spoken lines use *going to* and *want to*. *gonna* and *wanna* are short forms. This listening uses the full forms.
+Audio is recorded (about 1:43). Read it with volunteers at a natural, friendly speed. The spoken lines use *going to* and *want to*. *gonna* and *wanna* are short forms. This listening uses the full forms.
 
 > **Narrator:** Lesson five. Diego calls Northline Phone about a practice statement. Nothing on this call is a real bill.
 > **Diego:** Hello. I want to understand my statement. A fee was added, and I am going to ask about it.
