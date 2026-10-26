@@ -1,0 +1,209 @@
+{
+ "file": "L5_L7_listening.mp3",
+ "duration_s": 89.95,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 196,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "18/18",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Mr. Ortiz": 120.6,
+  "Leah": 216.1,
+  "Narrator": 204.0
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.4,
+ "peak": 0.899,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 10.66,
+   "spk": "Mr. Ortiz",
+   "line": "Good evening. You sent the form, didn't you?",
+   "ok": true,
+   "hyp": "good evening you sent the form didn't you",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 120.2
+  },
+  {
+   "t": 14.05,
+   "spk": "Leah",
+   "line": "Yes, I did. I want to double-check every line.",
+   "ok": true,
+   "hyp": "yes i did i want to double check every line",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 196.5
+  },
+  {
+   "t": 19.44,
+   "spk": "Mr. Ortiz",
+   "line": "Your class ID is C42, isn't it?",
+   "ok": true,
+   "hyp": "your class id is c42 isn't it",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 117.5
+  },
+  {
+   "t": 22.77,
+   "spk": "Leah",
+   "line": "Yes, it is.",
+   "ok": true,
+   "hyp": "yes it is",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 202.8
+  },
+  {
+   "t": 25.07,
+   "spk": "Mr. Ortiz",
+   "line": "And the email address is right, isn't it?",
+   "ok": true,
+   "hyp": "and the email address is right isn't it",
+   "min_prob": 0.62,
+   "flags": [],
+   "f0_med": 120.6
+  },
+  {
+   "t": 28.48,
+   "spk": "Leah",
+   "line": "Yes, it is. The name starts with a capital letter. Please check the spelling.",
+   "ok": true,
+   "hyp": "yes it is the name starts with a capital letter please check the spelling",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 216.1
+  },
+  {
+   "t": 35.17,
+   "spk": "Mr. Ortiz",
+   "line": "I will. You wrote a phone number on line three, didn't you?",
+   "ok": true,
+   "hyp": "i will you wrote a phone number on line 3 didn't you",
+   "min_prob": 0.55,
+   "flags": [],
+   "f0_med": 125.6
+  },
+  {
+   "t": 39.16,
+   "spk": "Leah",
+   "line": "Yes, I did. I double-checked it at home.",
+   "ok": true,
+   "hyp": "yes i did i double checked it at home",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 215.5
+  },
+  {
+   "t": 43.74,
+   "spk": "Mr. Ortiz",
+   "line": "The class is on Tuesday at six, isn't it?",
+   "ok": true,
+   "hyp": "the class is on tuesday at 6 isn't it",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 129.3
+  },
+  {
+   "t": 47.15,
+   "spk": "Leah",
+   "line": "Yes, it is. I'm going to come straight from work.",
+   "ok": true,
+   "hyp": "yes it is i'm going to come straight from work",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 216.1
+  },
+  {
+   "t": 51.95,
+   "spk": "Mr. Ortiz",
+   "line": "And the room is A, isn't it?",
+   "ok": true,
+   "hyp": "and the room is a isn't it",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 127.4
+  },
+  {
+   "t": 54.56,
+   "spk": "Leah",
+   "line": "Actually, it isn't. The schedule says room C. Can you make that correction?",
+   "ok": true,
+   "hyp": "actually it isn't the schedule says room c can you make that correction",
+   "min_prob": 0.52,
+   "flags": [],
+   "f0_med": 266.1
+  },
+  {
+   "t": 62.2,
+   "spk": "Mr. Ortiz",
+   "line": "You're right. I'll change the room to C and initial the correction.",
+   "ok": true,
+   "hyp": "you're right i'll change the room to c and initial the correction",
+   "min_prob": 0.65,
+   "flags": [],
+   "f0_med": 128.5
+  },
+  {
+   "t": 66.63,
+   "spk": "Leah",
+   "line": "Thank you. My signature is on the form, isn't it?",
+   "ok": true,
+   "hyp": "thank you my signature is on the form isn't it",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 233.0
+  },
+  {
+   "t": 70.82,
+   "spk": "Mr. Ortiz",
+   "line": "Yes, it is. I'll check the box and give you this copy.",
+   "ok": true,
+   "hyp": "yes it is i'll check the box and give you this copy",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 112.5
+  },
+  {
+   "t": 75.88,
+   "spk": "Leah",
+   "line": "Great. I'm going to keep the copy.",
+   "ok": true,
+   "hyp": "great i'm going to keep the copy",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 263.0
+  },
+  {
+   "t": 79.23,
+   "spk": "Mr. Ortiz",
+   "line": "Your friend isn't in this class, is she?",
+   "ok": true,
+   "hyp": "your friend isn't in this class is she",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 116.2
+  },
+  {
+   "t": 82.56,
+   "spk": "Leah",
+   "line": "No, she isn't. This copy is only for me.",
+   "ok": true,
+   "hyp": "no she isn't this copy is only for me",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 199.3
+  }
+ ],
+ "hyp": "lesson 7 leah is at the community center desk she wants to check her evening class form mister ortiz has the copy good evening you sent the form didn't you yes i did i want to double check every line your class id is c42 isn't it yes it is and the email address is right isn't it yes it is the name starts with a capital letter please check the spelling i will you wrote a phone number on line 3 didn't you yes i did i double checked it at home the class is on tuesday at 6 isn't it yes it is i'm going to come straight from work and the room is a isn't it actually it isn't the schedule says room c can you make that correction you're right i'll change the room to c and initial the correction thank you my signature is on the form isn't it yes it is i'll check the box and give you this copy great i'm going to keep the copy your friend isn't in this class is she no she isn't this copy is only for me that's the end of the listening"
+}

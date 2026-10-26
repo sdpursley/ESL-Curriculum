@@ -7,7 +7,7 @@ PC = pic_credit(MOD); PCS = pic_credit(MOD, True)
 I = lambda stem: f'L5_L7_{stem}.png'
 A = lambda stem: alt(N, I(stem))
 SRC = 'Source: Level5_Lesson7.md'
-LEN = '2:10'
+LEN = '1:30'
 AUDIO = f'Audio: about {LEN}. It plays once.' if CFG['audio'] else f'Audio (about {LEN}): coming soon.'
 BUL = ['I can add a tag to a statement I think is true.', 'I can answer a tag with a short yes or no.', 'I can correct a wrong detail politely.']
 W = newwords(N)

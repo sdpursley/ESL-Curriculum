@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 7 (Week 7): You Sent It, Didn't You?
 
-**Status:** Not published. Listening audio is not recorded.
+**Status:** Not published. Draft listening audio is recorded.
 
 **Date:** October 2026
 
 **Audience:** Program coordinators and volunteer teachers
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L7.md`). Listening audio is not recorded yet (about 2:10).
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L7.md`). Listening audio is recorded (about 1:30).
 
 > **Topic:** Confirm the details on a class registration: spelling, email, day, and phone number. The tag means "I think this is right. Please confirm." The forms use a class ID only.
 
@@ -65,7 +65,7 @@ By the end of class, you can do these four things.
 - Student Pages for Lesson 7 (print for the number expected + 3 spares)
 - Board and markers
 - Two copies of the Detail Check form on the Talk Time page (one says Tuesday; one says Wednesday)
-- Listening: phone + small speaker. The audio is not recorded yet (about 2:10). No speaker? Read the script aloud with a volunteer.
+- Listening: phone + small speaker. The audio is recorded (about 1:30). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes (read the plan; mark one wrong detail on a desk copy; practice the falling tag).
 :::
 
@@ -124,7 +124,7 @@ By the end of class, you can do these four things.
 - **Read Tasks B and C together** so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers.
 - **"Hear it, say it":** *gonna* and *wanna* are short forms. This listening uses the full forms. You can say *going to* and *want to*. Say each line two times. The tag falls when you are only checking. A rising tag can mean a real question. This lesson practices the falling check.
-- **The audio is not recorded yet (about 2:10).** When it is ready, it plays the conversation once. Press play again for play 2. A third play is fine if the class needs it. Until then, read the script with a volunteer at a normal, friendly speed, two times.
+- **The audio is recorded (about 1:30).** When it is ready, it plays the conversation once. Press play again for play 2. A third play is fine if the class needs it. Until then, read the script with a volunteer at a normal, friendly speed, two times.
 - **If behind:** do Task C together on the board.
 :::
 

@@ -1,0 +1,844 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Leah": "refs/Rosa.wav",
+   "Mr. Ortiz": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson seven. Leah is at the community center desk.",
+    "tts_text": "Lesson seven. Leah is at the community center desk.",
+    "seed": 2026,
+    "hyp": "lesson 7 leah is at the community center desk",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.86,
+    "dur": 3.47,
+    "raw_peak": 0.666,
+    "pitch_ok": true,
+    "score": 1.418,
+    "f0_med": 202.8,
+    "f0_st_sd": 3.73,
+    "f0_range_st": 12.52
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "She wants to check her evening-class form.",
+    "tts_text": "She wants to check her evening-class form.",
+    "seed": 2026,
+    "hyp": "she wants to check her evening class form",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 2.14,
+    "raw_peak": 0.588,
+    "pitch_ok": true,
+    "score": 1.279,
+    "f0_med": 206.4,
+    "f0_st_sd": 1.97,
+    "f0_range_st": 6.53
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Mr. Ortiz has the copy.",
+    "tts_text": "Mister Ortiz has the copy.",
+    "seed": 2026,
+    "hyp": "mister ortiz has the copy",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.85,
+    "raw_peak": 0.62,
+    "pitch_ok": true,
+    "score": 1.362,
+    "f0_med": 188.7,
+    "f0_st_sd": 2.57,
+    "f0_range_st": 7.51
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Ortiz",
+    "text": "Good evening. You sent the form, didn't you?",
+    "tts_text": "Good evening. You sent the form, didn't you?",
+    "seed": 2026,
+    "hyp": "good evening you sent the form didn't you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.95,
+    "dur": 1.99,
+    "raw_peak": 0.953,
+    "pitch_ok": true,
+    "score": 1.546,
+    "f0_med": 119.9,
+    "f0_st_sd": 5.29,
+    "f0_range_st": 13.99
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "Yes, I did.",
+    "tts_text": "Yes, I did.",
+    "seed": 2026,
+    "hyp": "yes i did",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 0.95,
+    "raw_peak": 0.544,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 188.2,
+    "f0_st_sd": 4.24,
+    "f0_range_st": 11.64
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "I want to double-check every line.",
+    "tts_text": "I want to double-check every line.",
+    "seed": 2026,
+    "hyp": "i want to double check every line",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.95,
+    "dur": 2.49,
+    "raw_peak": 0.655,
+    "pitch_ok": true,
+    "score": 1.326,
+    "f0_med": 199.9,
+    "f0_st_sd": 2.48,
+    "f0_range_st": 7.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Ortiz",
+    "text": "Your class ID is C42, isn't it?",
+    "tts_text": "Your class ID is C42, isn't it?",
+    "seed": 2026,
+    "hyp": "your class id is c42 isn't it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.89,
+    "dur": 1.93,
+    "raw_peak": 1.003,
+    "pitch_ok": true,
+    "score": 1.26,
+    "f0_med": 116.5,
+    "f0_st_sd": 2.44,
+    "f0_range_st": 7.98
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "Yes, it is.",
+    "tts_text": "Yes, it is.",
+    "seed": 2026,
+    "hyp": "yes it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 0.9,
+    "raw_peak": 0.469,
+    "pitch_ok": true,
+    "score": 1.471,
+    "f0_med": 200.5,
+    "f0_st_sd": 3.33,
+    "f0_range_st": 10.02
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Ortiz",
+    "text": "And the email address is right, isn't it?",
+    "tts_text": "And the email address is right, isn't it?",
+    "seed": 2026,
+    "hyp": "and the email address is right isn't it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.54,
+    "mean_prob": 0.92,
+    "dur": 2.01,
+    "raw_peak": 1.071,
+    "pitch_ok": true,
+    "score": 1.183,
+    "f0_med": 120.6,
+    "f0_st_sd": 1.74,
+    "f0_range_st": 5.26
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "Yes, it is.",
+    "tts_text": "Yes, it is.",
+    "seed": 2026,
+    "hyp": "yes it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 0.9,
+    "raw_peak": 0.469,
+    "pitch_ok": true,
+    "score": 1.471,
+    "f0_med": 200.5,
+    "f0_st_sd": 3.33,
+    "f0_range_st": 10.02
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "The name starts with a capital letter.",
+    "tts_text": "The name starts with a capital letter.",
+    "seed": 2026,
+    "hyp": "the name starts with a capital letter",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.99,
+    "dur": 1.81,
+    "raw_peak": 0.45,
+    "pitch_ok": true,
+    "score": 1.476,
+    "f0_med": 212.4,
+    "f0_st_sd": 3.26,
+    "f0_range_st": 11.65
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "Please check the spelling.",
+    "tts_text": "Please check the spelling.",
+    "seed": 2026,
+    "hyp": "please check the spelling",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 1.48,
+    "raw_peak": 0.327,
+    "pitch_ok": true,
+    "score": 1.555,
+    "f0_med": 248.3,
+    "f0_st_sd": 4.35,
+    "f0_range_st": 12.13
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Ortiz",
+    "text": "I will. You wrote a phone number on line three, didn't you?",
+    "tts_text": "I will. You wrote a phone number on line three, didn't you?",
+    "seed": 9945,
+    "hyp": "i will you wrote a phone number on line 3 didn't you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.65,
+    "mean_prob": 0.92,
+    "dur": 2.59,
+    "raw_peak": 0.914,
+    "pitch_ok": true,
+    "score": 1.517,
+    "f0_med": 125.6,
+    "f0_st_sd": 4.09,
+    "f0_range_st": 13.53
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "Yes, I did.",
+    "tts_text": "Yes, I did.",
+    "seed": 2026,
+    "hyp": "yes i did",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 0.95,
+    "raw_peak": 0.544,
+    "pitch_ok": true,
+    "score": 1.571,
+    "f0_med": 188.2,
+    "f0_st_sd": 4.24,
+    "f0_range_st": 11.64
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "I double-checked it at home.",
+    "tts_text": "I double-checked it at home.",
+    "seed": 2026,
+    "hyp": "i double checked it at home",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.95,
+    "dur": 1.68,
+    "raw_peak": 0.624,
+    "pitch_ok": true,
+    "score": 1.482,
+    "f0_med": 222.5,
+    "f0_st_sd": 3.55,
+    "f0_range_st": 11.78
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Ortiz",
+    "text": "The class is on Tuesday at six, isn't it?",
+    "tts_text": "The class is on Tuesday at six, isn't it?",
+    "seed": 2026,
+    "hyp": "the class is on tuesday at 6 isn't it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.94,
+    "dur": 2.01,
+    "raw_peak": 1.006,
+    "pitch_ok": true,
+    "score": 1.406,
+    "f0_med": 125.6,
+    "f0_st_sd": 3.13,
+    "f0_range_st": 9.71
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "Yes, it is.",
+    "tts_text": "Yes, it is.",
+    "seed": 2026,
+    "hyp": "yes it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 0.9,
+    "raw_peak": 0.469,
+    "pitch_ok": true,
+    "score": 1.471,
+    "f0_med": 200.5,
+    "f0_st_sd": 3.33,
+    "f0_range_st": 10.02
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "I'm going to come straight from work.",
+    "tts_text": "I'm going to come straight from work.",
+    "seed": 2026,
+    "hyp": "i'm going to come straight from work",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 1.95,
+    "raw_peak": 0.452,
+    "pitch_ok": true,
+    "score": 1.479,
+    "f0_med": 218.6,
+    "f0_st_sd": 3.25,
+    "f0_range_st": 10.94
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Ortiz",
+    "text": "And the room is A, isn't it?",
+    "tts_text": "And the room is A, isn't it?",
+    "seed": 2026,
+    "hyp": "and the room is a isn't it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.71,
+    "mean_prob": 0.92,
+    "dur": 1.21,
+    "raw_peak": 0.918,
+    "pitch_ok": true,
+    "score": 1.517,
+    "f0_med": 126.7,
+    "f0_st_sd": 4.17,
+    "f0_range_st": 13.77
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "Actually, it isn't.",
+    "tts_text": "Actually, it isn't.",
+    "seed": 17864,
+    "hyp": "actually it isn't",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.97,
+    "dur": 1.76,
+    "raw_peak": 0.567,
+    "pitch_ok": true,
+    "score": 1.412,
+    "f0_med": 327.6,
+    "f0_st_sd": 2.93,
+    "f0_range_st": 8.21
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "The schedule says room C.",
+    "tts_text": "The schedule says room C.",
+    "seed": 41621,
+    "hyp": "the schedule says room c",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.89,
+    "dur": 1.72,
+    "raw_peak": 0.45,
+    "pitch_ok": true,
+    "score": 1.434,
+    "f0_med": 229.0,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 10.9
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "Can you make that correction?",
+    "tts_text": "Can you make that correction?",
+    "seed": 2026,
+    "hyp": "can you make that correction",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 1.66,
+    "raw_peak": 0.379,
+    "pitch_ok": true,
+    "score": 1.493,
+    "f0_med": 275.5,
+    "f0_st_sd": 3.55,
+    "f0_range_st": 10.15
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Ortiz",
+    "text": "You're right. I'll change the room to C and initial the correction.",
+    "tts_text": "You're right. I'll change the room to C and initial the correction.",
+    "seed": 2026,
+    "hyp": "you're right i'll change the room to c and initial the correction",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.53,
+    "mean_prob": 0.93,
+    "dur": 3.03,
+    "raw_peak": 0.972,
+    "pitch_ok": true,
+    "score": 1.388,
+    "f0_med": 128.5,
+    "f0_st_sd": 3.08,
+    "f0_range_st": 9.56
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "Thank you. My signature is on the form, isn't it?",
+    "tts_text": "Thank you. My signature is on the form, isn't it?",
+    "seed": 2026,
+    "hyp": "thank you my signature is on the form isn't it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 2.79,
+    "raw_peak": 0.664,
+    "pitch_ok": true,
+    "score": 1.504,
+    "f0_med": 235.7,
+    "f0_st_sd": 3.5,
+    "f0_range_st": 12.57
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Ortiz",
+    "text": "Yes, it is.",
+    "tts_text": "Yes, it is.",
+    "seed": 9945,
+    "hyp": "yes it is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.93,
+    "dur": 1.15,
+    "raw_peak": 0.81,
+    "pitch_ok": true,
+    "score": 1.101,
+    "f0_med": 124.1,
+    "f0_st_sd": 1.16,
+    "f0_range_st": 3.65
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Ortiz",
+    "text": "I'll check the box and give you this copy.",
+    "tts_text": "I'll check the box and give you this copy.",
+    "seed": 2026,
+    "hyp": "i'll check the box and give you this copy",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 1.96,
+    "raw_peak": 0.833,
+    "pitch_ok": true,
+    "score": 1.21,
+    "f0_med": 108.1,
+    "f0_st_sd": 1.48,
+    "f0_range_st": 4.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "Great. I'm going to keep the copy.",
+    "tts_text": "Great. I'm going to keep the copy.",
+    "seed": 2026,
+    "hyp": "great i'm going to keep the copy",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.95,
+    "raw_peak": 0.714,
+    "pitch_ok": true,
+    "score": 1.371,
+    "f0_med": 263.0,
+    "f0_st_sd": 2.61,
+    "f0_range_st": 9.13
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Ortiz",
+    "text": "Your friend isn't in this class, is she?",
+    "tts_text": "Your friend isn't in this class, is she?",
+    "seed": 2026,
+    "hyp": "your friend isn't in this class is she",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 1.93,
+    "raw_peak": 0.984,
+    "pitch_ok": true,
+    "score": 1.582,
+    "f0_med": 114.8,
+    "f0_st_sd": 4.54,
+    "f0_range_st": 13.26
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "No, she isn't.",
+    "tts_text": "No, she isn't.",
+    "seed": 9945,
+    "hyp": "no she isn't",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.41,
+    "raw_peak": 0.299,
+    "pitch_ok": true,
+    "score": 1.454,
+    "f0_med": 180.7,
+    "f0_st_sd": 3.19,
+    "f0_range_st": 8.72
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Leah",
+    "text": "This copy is only for me.",
+    "tts_text": "This copy is only for me.",
+    "seed": 2026,
+    "hyp": "this copy is only for me",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 2.01,
+    "raw_peak": 0.472,
+    "pitch_ok": true,
+    "score": 1.385,
+    "f0_med": 202.8,
+    "f0_st_sd": 2.64,
+    "f0_range_st": 8.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   10.66,
+   12.65,
+   "Mr. Ortiz",
+   "Good evening. You sent the form, didn't you?"
+  ],
+  [
+   14.05,
+   18.04,
+   "Leah",
+   "Yes, I did. I want to double-check every line."
+  ],
+  [
+   19.44,
+   21.37,
+   "Mr. Ortiz",
+   "Your class ID is C42, isn't it?"
+  ],
+  [
+   22.77,
+   23.67,
+   "Leah",
+   "Yes, it is."
+  ],
+  [
+   25.07,
+   27.08,
+   "Mr. Ortiz",
+   "And the email address is right, isn't it?"
+  ],
+  [
+   28.48,
+   33.77,
+   "Leah",
+   "Yes, it is. The name starts with a capital letter. Please check the spelling."
+  ],
+  [
+   35.17,
+   37.76,
+   "Mr. Ortiz",
+   "I will. You wrote a phone number on line three, didn't you?"
+  ],
+  [
+   39.16,
+   42.34,
+   "Leah",
+   "Yes, I did. I double-checked it at home."
+  ],
+  [
+   43.74,
+   45.75,
+   "Mr. Ortiz",
+   "The class is on Tuesday at six, isn't it?"
+  ],
+  [
+   47.15,
+   50.55,
+   "Leah",
+   "Yes, it is. I'm going to come straight from work."
+  ],
+  [
+   51.95,
+   53.16,
+   "Mr. Ortiz",
+   "And the room is A, isn't it?"
+  ],
+  [
+   54.56,
+   60.8,
+   "Leah",
+   "Actually, it isn't. The schedule says room C. Can you make that correction?"
+  ],
+  [
+   62.2,
+   65.23,
+   "Mr. Ortiz",
+   "You're right. I'll change the room to C and initial the correction."
+  ],
+  [
+   66.63,
+   69.42,
+   "Leah",
+   "Thank you. My signature is on the form, isn't it?"
+  ],
+  [
+   70.82,
+   74.48,
+   "Mr. Ortiz",
+   "Yes, it is. I'll check the box and give you this copy."
+  ],
+  [
+   75.88,
+   77.83,
+   "Leah",
+   "Great. I'm going to keep the copy."
+  ],
+  [
+   79.23,
+   81.16,
+   "Mr. Ortiz",
+   "Your friend isn't in this class, is she?"
+  ],
+  [
+   82.56,
+   86.53,
+   "Leah",
+   "No, she isn't. This copy is only for me."
+  ]
+ ]
+}
