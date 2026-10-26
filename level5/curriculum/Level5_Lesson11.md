@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 11 (Week 12): I'd Like to File a Claim
 
-**Status:** Not published. Listening audio is not recorded.
+**Status:** Not published. Draft listening audio is recorded.
 
 **Date:** October 2026
 

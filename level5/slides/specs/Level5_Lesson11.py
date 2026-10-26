@@ -7,7 +7,7 @@ PC = pic_credit(MOD); PCS = pic_credit(MOD, True)
 I = lambda stem: f'L5_L11_{stem}.png'
 A = lambda stem: alt(N, I(stem))
 SRC = 'Source: Level5_Lesson11.md'
-LEN = '2:30'
+LEN = '2:02'
 AUDIO = f'Audio: about {LEN}. It plays once.' if CFG['audio'] else f'Audio (about {LEN}): coming soon.'
 BUL = ['I can start a sentence with a gerund (*Waiting on hold is tiring*)', 'I can soften a request with *I was wondering if…*', 'I can say what was sent or attached, in the passive']
 W = newwords(N)
