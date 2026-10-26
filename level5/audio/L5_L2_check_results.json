@@ -1,0 +1,205 @@
+{
+ "file": "L5_L2_listening.mp3",
+ "duration_s": 99.46,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 209,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "16/16",
+ "lines_with_flags": [
+  {
+   "t": 52.05,
+   "spk": "Ben",
+   "line": "First I cleaned the kitchen. Second, the oven arrived. Third, we painted. Fourth, the poster went up. You arrived last.",
+   "ok": true,
+   "hyp": "first i cleaned the kitchen second the oven arrived third we painted fourth the poster went up you arrived last",
+   "min_prob": 0.62,
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "f0_med": 115.8
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Ms. Cole": 189.8,
+  "Priya": 221.2,
+  "Ben": 122.7,
+  "Narrator": 171.5
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 5.2,
+ "peak": 0.892,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.6,
+ "per_line": [
+  {
+   "t": 10.68,
+   "spk": "Ms. Cole",
+   "line": "Good morning. I'm Ms. Cole. Is the bakery open yet?",
+   "ok": true,
+   "hyp": "good morning i'm miss cole is the bakery open yet",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 191.4
+  },
+  {
+   "t": 16.3,
+   "spk": "Priya",
+   "line": "Not yet. We want to open tomorrow. We are going to cut the ribbon in the morning.",
+   "ok": true,
+   "hyp": "not yet we want to open tomorrow we are going to cut the ribbon in the morning",
+   "min_prob": 0.75,
+   "flags": [],
+   "f0_med": 221.2
+  },
+  {
+   "t": 23.05,
+   "spk": "Ms. Cole",
+   "line": "What had you already finished before I arrived?",
+   "ok": true,
+   "hyp": "what had you already finished before i arrived",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 186.5
+  },
+  {
+   "t": 27.47,
+   "spk": "Ben",
+   "line": "By the time you arrived, we had already painted the walls.",
+   "ok": true,
+   "hyp": "by the time you arrived we had already painted the walls",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 121.6
+  },
+  {
+   "t": 32.16,
+   "spk": "Priya",
+   "line": "When the oven was delivered, Ben had already cleaned the kitchen.",
+   "ok": true,
+   "hyp": "when the oven was delivered ben had already cleaned the kitchen",
+   "min_prob": 0.98,
+   "flags": [],
+   "f0_med": 221.2
+  },
+  {
+   "t": 36.77,
+   "spk": "Ms. Cole",
+   "line": "Had you finished the store sign before the poster went up?",
+   "ok": true,
+   "hyp": "had you finished the store sign before the poster went up",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 212.4
+  },
+  {
+   "t": 41.14,
+   "spk": "Ben",
+   "line": "Yes, we had. The sign was first. Then the poster went up.",
+   "ok": true,
+   "hyp": "yes we had the sign was first then the poster went up",
+   "min_prob": 0.7,
+   "flags": [],
+   "f0_med": 122.7
+  },
+  {
+   "t": 47.92,
+   "spk": "Priya",
+   "line": "We had already picked up the permit before we painted.",
+   "ok": true,
+   "hyp": "we had already picked up the permit before we painted",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 222.5
+  },
+  {
+   "t": 52.05,
+   "spk": "Ben",
+   "line": "First I cleaned the kitchen. Second, the oven arrived. Third, we painted. Fourth, the poster went up. You arrived last.",
+   "ok": true,
+   "hyp": "first i cleaned the kitchen second the oven arrived third we painted fourth the poster went up you arrived last",
+   "min_prob": 0.62,
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "f0_med": 115.8
+  },
+  {
+   "t": 64.25,
+   "spk": "Ms. Cole",
+   "line": "Was the painter still working when I knocked?",
+   "ok": true,
+   "hyp": "was the painter still working when i knocked",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 218.6
+  },
+  {
+   "t": 68.02,
+   "spk": "Priya",
+   "line": "Yes. The painter was still working. The walls are dry now.",
+   "ok": true,
+   "hyp": "yes the painter was still working the walls are dry now",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 226.3
+  },
+  {
+   "t": 73.78,
+   "spk": "Ms. Cole",
+   "line": "The display case and the awning look ready. You can open tomorrow.",
+   "ok": true,
+   "hyp": "the display case and the awning look ready you can open tomorrow",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 188.1
+  },
+  {
+   "t": 79.83,
+   "spk": "Ben",
+   "line": "The counter was ready yesterday. Thank you.",
+   "ok": true,
+   "hyp": "the counter was ready yesterday thank you",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 128.5
+  },
+  {
+   "t": 83.85,
+   "spk": "Ms. Cole",
+   "line": "Bring the permit to the door in the morning.",
+   "ok": true,
+   "hyp": "bring the permit to the door in the morning",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 186.5
+  },
+  {
+   "t": 87.11,
+   "spk": "Ben",
+   "line": "We will. It is already in the folder.",
+   "ok": true,
+   "hyp": "we will it is already in the folder",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 140.1
+  },
+  {
+   "t": 91.25,
+   "spk": "Priya",
+   "line": "We want to tell the staff tonight. We are going to hang the ribbon in the morning.",
+   "ok": true,
+   "hyp": "we want to tell the staff tonight we are going to hang the ribbon in the morning",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 204.0
+  }
+ ],
+ "hyp": "lesson 2 priya and ben work at a new bakery opening day is tomorrow miss cole the inspector is here today good morning i'm miss cole is the bakery open yet not yet we want to open tomorrow we are going to cut the ribbon in the morning what had you already finished before i arrived by the time you arrived we had already painted the walls when the oven was delivered ben had already cleaned the kitchen had you finished the store sign before the poster went up yes we had the sign was first then the poster went up we had already picked up the permit before we painted first i cleaned the kitchen second the oven arrived third we painted fourth the poster went up you arrived last was the painter still working when i knocked yes the painter was still working the walls are dry now the display case and the awning look ready you can open tomorrow the counter was ready yesterday thank you bring the permit to the door in the morning we will it is already in the folder we want to tell the staff tonight we are going to hang the ribbon in the morning that's the end of the listening"
+}

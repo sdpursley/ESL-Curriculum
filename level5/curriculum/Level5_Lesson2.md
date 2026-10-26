@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 2 (Week 2): By the Time We Opened
 
-**Status:** Not published. Listening audio is not recorded.
+**Status:** Not published. Draft listening audio is recorded.
 
 **Date:** October 2026
 
@@ -107,7 +107,7 @@
 
 :::step Step 3 · 6:12–6:32 · Listening + "Hear it, say it" · 20 min
 - **Before you listen:** "Priya and Ben work at a new bakery. Ms. Cole, the inspector, visits before opening day. Listen: is the bakery open yet?"
-- **Voices:** Priya, Ben, and Ms. Cole. A narrator opens and closes. Audio is not recorded yet (about 2:15). Read the script two times.
+- **Voices:** Priya, Ben, and Ms. Cole. A narrator opens and closes. Audio is recorded (about 1:39). Read the script two times.
 - **Play 1 → Task A.** Answer: **b. No. It opens tomorrow.**
 - **Play 2 → Tasks B and C.** B is the order of five events. C is *had* or the simple past.
 - **"Hear it, say it":** *gonna* and *wanna* are short forms. This listening uses the full forms. Say the full *had* so the two times stay clear. *We'd already* is easy to miss. In this lesson, say *had*.
@@ -152,7 +152,7 @@
 ---
 ### Listening script
 
-Audio is not recorded yet (about 2:15). Read it with volunteers at a natural, friendly speed. The spoken lines use *going to* and *want to*. *gonna* and *wanna* are short forms. This listening uses the full forms.
+Audio is recorded (about 1:39). Read it with volunteers at a natural, friendly speed. The spoken lines use *going to* and *want to*. *gonna* and *wanna* are short forms. This listening uses the full forms.
 
 > **Narrator:** Lesson two. Priya and Ben work at a new bakery. Opening day is tomorrow. Ms. Cole, the inspector, is here today.
 > **Ms. Cole:** Good morning. I'm Ms. Cole. Is the bakery open yet?

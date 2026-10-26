@@ -7,7 +7,7 @@ PC = pic_credit(MOD); PCS = pic_credit(MOD, True)
 I = lambda stem: f'L5_L2_{stem}.png'
 A = lambda stem: alt(N, I(stem))
 SRC = 'Source: Level5_Lesson2.md'
-LEN = '2:15'
+LEN = '1:39'
 AUDIO = f'Audio: about {LEN}. It plays once.' if CFG['audio'] else f'Audio (about {LEN}): coming soon.'
 BUL = ['I can say what had already happened', 'I can use *by the time* and *when* with two past times', 'I can put four events in order']
 W = newwords(N)
