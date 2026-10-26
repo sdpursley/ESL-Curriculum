@@ -120,13 +120,13 @@ About 2:20. Spoken lines use *going to* and *want to*.
 > **Narrator:** Lesson thirteen. Imani, a former learner, gives a short talk at a practice night at the community center. Then Mr. Gordon asks one question.
 > **Imani:** Good evening. My point is simple. I've been learning to speak up at work, and a mentor helped me.
 > **Imani:** That is my introduction. I want to give two examples.
-> **Imani:** Example one. By the time I finished my first month, I had learned to pause and look up from my notecard.
+> **Imani:** Example one. By the time I finished my first month, I had learned to pause.
 > **Imani:** The hard moment was a team meeting. I wish I had looked up sooner, so next time I will make eye contact.
 > **Imani:** Example two. My mentor at the community center listened and asked one question.
 > **Imani:** That question helped me find my point. The achievement was small, and it was mine.
-> **Imani:** I'm going to practice with a stopwatch for two minutes. The outline is on my notecard.
+> **Imani:** I'm going to practice with a stopwatch for two minutes. The outline is on my note card.
 > **Imani:** This is my conclusion. I can speak from notes. My next step is one short talk a week at work.
-> **Mr. Gordon:** Thank you, Imani. Which example do you want to keep?
+> **Mr. Gordon:** Thank you. Which example do you want to keep?
 > **Imani:** I want to keep the mentor example. I'm going to say it again, more slowly.
 > **Mr. Gordon:** Good. A pause between the parts helps. Applause is for finishing, not for the longest story.
 > **Imani:** I am not going to memorize the talk. Eye contact means I look up from the card.

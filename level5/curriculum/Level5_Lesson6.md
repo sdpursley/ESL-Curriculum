@@ -90,19 +90,19 @@ Audio is not recorded yet (about 2:25). Read it with volunteers at a natural, fr
 > **Jana:** Hello. I want to check my appointment. I am going to write down every detail.
 > **Nurse Patel:** The checkup is on Thursday. The time has changed.
 > **Jana:** Thursday. I want to be sure I have it.
-> **Nurse Patel:** Please call before 3:00. And please bring the appointment card.
-> **Jana:** I am going to call before 3:00, and I am going to bring the card.
+> **Nurse Patel:** Please call before three o'clock. And please bring the appointment card.
+> **Jana:** I am going to call before three o'clock, and I am going to bring the card.
 > **Nurse Patel:** We will call you if the room changes. Is Thursday OK?
 > **Jana:** Yes. Thursday is OK.
 > **Narrator:** The call ends. Jana is home now. She tells her brother Ken. Ken was not on the clinic call.
 > **Jana:** The nurse said the checkup was on Thursday. She told me the time had changed.
 > **Ken:** What did she ask you to do?
-> **Jana:** She asked me to call before 3:00. She asked me to bring the appointment card.
+> **Jana:** She asked me to call before three o'clock. She asked me to bring the appointment card.
 > **Ken:** Did she ask a yes or no question?
 > **Jana:** She asked if Thursday was OK. I said yes.
 > **Ken:** Anything else?
 > **Jana:** She said they would call me if the room changes. I am going to put the note in the folder.
-> **Ken:** I can read it back. Thursday, call before 3:00, bring the card.
+> **Ken:** I can read it back. Thursday, call before three o'clock, bring the card.
 > **Narrator:** The message has who, the day, and what to do. That is enough.
 > **Narrator:** That's the end of the listening.
 

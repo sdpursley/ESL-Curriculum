@@ -175,10 +175,10 @@ By the end of class, you can do these four things.
 > **Narrator:** Lesson seven. Leah is at the community center desk. She wants to check her evening-class form. Mr. Ortiz has the copy.
 > **Mr. Ortiz:** Good evening. You sent the form, didn't you?
 > **Leah:** Yes, I did. I want to double-check every line.
-> **Mr. Ortiz:** Your class ID is C forty-two, isn't it?
+> **Mr. Ortiz:** Your class ID is C42, isn't it?
 > **Leah:** Yes, it is.
-> **Mr. Ortiz:** And the email address is leah at mail dot example, isn't it?
-> **Leah:** Yes, it is. The L in Leah is a capital letter. Please check the spelling.
+> **Mr. Ortiz:** And the email address is right, isn't it?
+> **Leah:** Yes, it is. The name starts with a capital letter. Please check the spelling.
 > **Mr. Ortiz:** I will. You wrote a phone number on line three, didn't you?
 > **Leah:** Yes, I did. I double-checked it at home.
 > **Mr. Ortiz:** The class is on Tuesday at six, isn't it?
@@ -196,7 +196,7 @@ By the end of class, you can do these four things.
 ### Answer key
 
 - *Listening Task A:* **b** (No. The room is wrong.)
-- *Listening Task B:* 1 Correct, 2 Correct, 3 Correct, 4 Correct, 5 Wrong. C forty-two is class ID C-42. Tuesday at six is 6:00. The room on his copy is A; the schedule says room C.
+- *Listening Task B:* 1 Correct, 2 Correct, 3 Correct, 4 Correct, 5 Wrong. C42 is the class ID. Tuesday at six is 6:00. The room on his copy is A; the schedule says room C.
 - *Listening Task C:* 1 didn't you, 2 isn't it, 3 isn't it, 4 didn't you, 5 isn't it, 6 is she.
 - *Grammar Practice A:* 1 didn't you, 2 isn't it, 3 is she, 4 don't you, 5 doesn't it, 6 didn't she.
 - *Grammar Practice B:* 1 Yes, I did. 2 isn't it, 3 is she, 4 didn't you, 5 isn't it, 6 No, I didn't.

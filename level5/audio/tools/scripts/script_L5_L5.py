@@ -5,7 +5,7 @@ LESSON = 5
 TITLE = 'It Was Posted on Tuesday'
 VOICES = {'Narrator': 'N', 'Diego': 'Marco', 'Ms. Brooks': 'Kim'}
 FEMALE = {'Ms. Brooks', 'Narrator'}
-NAMES = {'brooks', 'diego'}
+NAMES = {'diego', 'brooks'}
 SAME = {'okay': 'ok', 'ms': 'miss', 'mr': 'mister'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [70, 180]}
 INTRO = 'Lesson five. Diego calls Northline Phone about a practice statement. Nothing on this call is a real bill.'
@@ -13,11 +13,11 @@ LINES = [
  ('Diego', 'Hello. I want to understand my statement. A fee was added, and I am going to ask about it.'),
  ('Ms. Brooks', 'I can help. The fee was added on Tuesday. The fee was $6.'),
  ('Diego', 'Was the payment received?'),
- ('Ms. Brooks', 'Yes, it was. The payment was received on Friday. It was $40.'),
+ ('Ms. Brooks', 'Yes, it was. The payment was received on Friday. The payment was forty dollars.'),
  ('Diego', 'And the credit? I want to know what that word means.'),
  ('Ms. Brooks', 'The credit was posted by the phone company. Credit means money back. It is not a new phone.'),
  ('Diego', 'Was the fee removed?'),
- ('Ms. Brooks', "No, it wasn't. The $6 was credited. That is the money back."),
+ ('Ms. Brooks', "No, it wasn't. The six dollars was credited. That is the money back."),
  ('Diego', 'Are the calls listed?'),
  ('Ms. Brooks', 'Yes, they are. They are listed on page 2. The bill is mailed on the first of the month.'),
  ('Diego', 'What is due today?'),

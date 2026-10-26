@@ -4,8 +4,8 @@
 LESSON = 2
 TITLE = 'By the Time We Opened'
 VOICES = {'Narrator': 'N', 'Ms. Cole': 'Kim', 'Priya': 'Rosa', 'Ben': 'Sam'}
-FEMALE = {'Narrator', 'Priya', 'Ms. Cole'}
-NAMES = {'ben', 'priya', 'cole'}
+FEMALE = {'Narrator', 'Ms. Cole', 'Priya'}
+NAMES = {'cole', 'priya', 'ben'}
 SAME = {'okay': 'ok', 'ms': 'miss', 'mr': 'mister'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [70, 180]}
 INTRO = 'Lesson two. Priya and Ben work at a new bakery. Opening day is tomorrow. Ms. Cole, the inspector, is here today.'

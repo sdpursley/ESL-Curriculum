@@ -4,7 +4,7 @@
 LESSON = 12
 TITLE = 'The Room Where We Meet'
 VOICES = {'Narrator': 'N', 'Ms. Adeyemi': 'Kim', 'Grace': 'Rosa', 'Tom': 'Sam'}
-FEMALE = {'Ms. Adeyemi', 'Narrator', 'Grace'}
+FEMALE = {'Grace', 'Ms. Adeyemi', 'Narrator'}
 NAMES = {'tom', 'grace', 'adeyemi'}
 SAME = {'okay': 'ok', 'ms': 'miss', 'mr': 'mister'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [70, 180]}
@@ -25,7 +25,7 @@ LINES = [
  ('Ms. Adeyemi', 'Our decision is a one-month try on Thursday, until eight. The timer says we should stop.'),
  ('Tom', 'My name tent is on the table, so the minutes can show who spoke.'),
  ('Grace', 'The auditorium is too big. This library room is the place where we should meet.'),
- ('Ms. Adeyemi', 'I am going to put the decision in the minutes. Thank you for a calm meeting.'),
+ ('Ms. Adeyemi', 'I am going to put the decision in the minutes. Thank you. I am glad the meeting was calm.'),
  ('Tom', 'I want to ask one question. Which bus still runs at eight?'),
  ('Grace', 'The bus where I get off stops at seven. Thursday is the only day I can try.'),
  ('Ms. Adeyemi', 'Then Thursday is the try. We are not going to move the meeting to the auditorium.'),

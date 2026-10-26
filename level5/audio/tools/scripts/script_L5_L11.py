@@ -4,7 +4,7 @@
 LESSON = 11
 TITLE = "I'd Like to File a Claim"
 VOICES = {'Narrator': 'N', 'Ms. Lane': 'Kim', 'Hector': 'Marco'}
-FEMALE = {'Ms. Lane', 'Narrator'}
+FEMALE = {'Narrator', 'Ms. Lane'}
 NAMES = {'lane', 'hector'}
 SAME = {'okay': 'ok', 'ms': 'miss', 'mr': 'mister'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [70, 180]}

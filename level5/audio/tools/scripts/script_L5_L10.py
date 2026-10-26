@@ -4,9 +4,9 @@
 LESSON = 10
 TITLE = 'Can We Meet in the Middle?'
 VOICES = {'Narrator': 'N', 'Ms. Nguyen': 'Kim', 'Camila': 'Rosa', 'Jon': 'Sam'}
-FEMALE = {'Camila', 'Narrator', 'Ms. Nguyen'}
-NAMES = {'camila', 'nguyen', 'jon'}
-SAME = {'okay': 'ok', 'ms': 'miss', 'mr': 'mister'}
+FEMALE = {'Ms. Nguyen', 'Narrator', 'Camila'}
+NAMES = {'nguyen', 'jon', 'camila'}
+SAME = {'okay': 'ok', 'ms': 'miss', 'mr': 'mister', 'jon': 'john'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [70, 180]}
 INTRO = 'Lesson ten. Camila and Jon share a Saturday job. They both want the day off. Ms. Nguyen asks them to work it out before she calls the shift off.'
 LINES = [

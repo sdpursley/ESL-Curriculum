@@ -15,7 +15,9 @@
  ],
  "SAME": {
   "ms": "miss",
-  "mr": "mister"
+  "mr": "mister",
+  "reed": "read",
+  "signup": "sign up"
  },
  "TTS": {}
 }

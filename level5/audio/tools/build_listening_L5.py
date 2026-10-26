@@ -33,10 +33,14 @@ def asr(a):
     segs, _ = ASR.transcribe(x16, beam_size=5, language='en', word_timestamps=True, condition_on_previous_text=False)
     ws = [(w.word, w.start-.3, w.end-.3, w.probability) for s in segs for w in (s.words or [])]
     return ws
+def _pieces(t):
+    """Sentences, keeping Ms. / Mr. / Dr. from looking like the end of a sentence."""
+    import re
+    raw = t.replace('Ms.', 'Ms\x01').replace('Mr.', 'Mr\x01').replace('Dr.', 'Dr\x01')
+    return [s.strip().replace('\x01', '.') for s in re.findall(r'[^.!?]+[.!?]+|[^.!?]+$', raw) if s.strip()]
 def split_sents(t, minw=3):
     """Sentences; a sentence under 3 words is joined to its neighbor (Chatterbox garbles 1-2 word inputs)."""
-    import re
-    ss = [s.strip() for s in re.findall(r'[^.!?]+[.!?]+|[^.!?]+$', t) if s.strip()]
+    ss = _pieces(t)
     out = []
     for s in ss:
         if out and len(out[-1].split()) < minw: out[-1] += ' ' + s
@@ -90,9 +94,7 @@ def take(display, tts, spk):
 def line(spk, text, tts=None):
     ds = split_sents(text); ts = split_sents(tts) if tts else ds
     if len(ds) != len(ts):   # group display sentences the same way as the TTS text (e.g. "It's $12." is 2 words, "It's twelve dollars." is 3)
-        import re
-        raw = lambda t: [x.strip() for x in re.findall(r'[^.!?]+[.!?]+|[^.!?]+$', t) if x.strip()]
-        rd, rt = raw(text), raw(tts)
+        rd, rt = _pieces(text), _pieces(tts)
         if len(rd) != len(rt): ds, ts = [text], [tts]   # TTS text punctuated differently: the whole line is one take
         else:
             ds = []; k = 0

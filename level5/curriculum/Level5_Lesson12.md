@@ -137,7 +137,7 @@ About 2:35. Spoken lines use *going to* and *want to*.
 > **Ms. Adeyemi:** Our decision is a one-month try on Thursday, until eight. The timer says we should stop.
 > **Tom:** My name tent is on the table, so the minutes can show who spoke.
 > **Grace:** The auditorium is too big. This library room is the place where we should meet.
-> **Ms. Adeyemi:** I am going to put the decision in the minutes. Thank you for a calm meeting.
+> **Ms. Adeyemi:** I am going to put the decision in the minutes. Thank you. I am glad the meeting was calm.
 > **Tom:** I want to ask one question. Which bus still runs at eight?
 > **Grace:** The bus where I get off stops at seven. Thursday is the only day I can try.
 > **Ms. Adeyemi:** Then Thursday is the try. We are not going to move the meeting to the auditorium.

@@ -5,12 +5,12 @@ LESSON = 9
 TITLE = 'It Must Be an Ad'
 VOICES = {'Narrator': 'N', 'Aisha': 'Kim', 'Noah': 'Marco'}
 FEMALE = {'Aisha', 'Narrator'}
-NAMES = {'aisha', 'noah'}
+NAMES = {'noah', 'aisha'}
 SAME = {'okay': 'ok', 'ms': 'miss', 'mr': 'mister'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [70, 180]}
 INTRO = 'Lesson nine. Noah shows Aisha a post. The post says their grocery store is closing. They want to check the source.'
 LINES = [
- ('Noah', 'Aisha, look at this post. It says our grocery store is closing on Friday.'),
+ ('Noah', 'Aisha, please look at this post. It says our grocery store is closing on Friday.'),
  ('Aisha', "Do you know who wrote it? I don't see an author."),
  ('Noah', "There is no author. And I don't see a date stamp."),
  ('Aisha', "Then it might be old. It might be a rumor. I'm going to look for the store's own page."),

@@ -5,17 +5,17 @@ LESSON = 7
 TITLE = "You Sent It, Didn't You?"
 VOICES = {'Narrator': 'N', 'Leah': 'Rosa', 'Mr. Ortiz': 'Marco'}
 FEMALE = {'Narrator', 'Leah'}
-NAMES = {'leah', 'ortiz'}
+NAMES = {'ortiz', 'leah'}
 SAME = {'okay': 'ok', 'ms': 'miss', 'mr': 'mister'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [70, 180]}
 INTRO = 'Lesson seven. Leah is at the community center desk. She wants to check her evening-class form. Mr. Ortiz has the copy.'
 LINES = [
  ('Mr. Ortiz', "Good evening. You sent the form, didn't you?"),
  ('Leah', 'Yes, I did. I want to double-check every line.'),
- ('Mr. Ortiz', "Your class ID is C forty-two, isn't it?"),
+ ('Mr. Ortiz', "Your class ID is C42, isn't it?"),
  ('Leah', 'Yes, it is.'),
- ('Mr. Ortiz', "And the email address is leah at mail dot example, isn't it?"),
- ('Leah', 'Yes, it is. The L in Leah is a capital letter. Please check the spelling.'),
+ ('Mr. Ortiz', "And the email address is right, isn't it?"),
+ ('Leah', 'Yes, it is. The name starts with a capital letter. Please check the spelling.'),
  ('Mr. Ortiz', "I will. You wrote a phone number on line three, didn't you?"),
  ('Leah', 'Yes, I did. I double-checked it at home.'),
  ('Mr. Ortiz', "The class is on Tuesday at six, isn't it?"),
