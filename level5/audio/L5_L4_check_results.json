@@ -1,0 +1,235 @@
+{
+ "file": "L5_L4_listening.mp3",
+ "duration_s": 108.27,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 244,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "19/19",
+ "lines_with_flags": [
+  {
+   "t": 84.85,
+   "spk": "Helen",
+   "line": "Yes. I can cancel it, or you can wait. Office hours end at five.",
+   "ok": true,
+   "hyp": "yes i can cancel it or you can wait office hours end at 5",
+   "min_prob": 0.47,
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "f0_med": 192.0
+  }
+ ],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Helen": 179.6,
+  "Andre": 122.7,
+  "Mei": 179.6,
+  "Narrator": 189.2
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 6.1,
+ "peak": 0.913,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 8.16,
+   "spk": "Helen",
+   "line": "Good afternoon. Do you have an appointment?",
+   "ok": true,
+   "hyp": "good afternoon do you have an appointment",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 236.4
+  },
+  {
+   "t": 11.78,
+   "spk": "Andre",
+   "line": "I want to go to the four o'clock meeting. I did not call this morning.",
+   "ok": true,
+   "hyp": "i want to go to the 4 oclock meeting i did not call this morning",
+   "min_prob": 0.58,
+   "flags": [],
+   "f0_med": 122.0
+  },
+  {
+   "t": 17.42,
+   "spk": "Helen",
+   "line": "I'm sorry. You can't go in unless you call first. That rule is on the notice.",
+   "ok": true,
+   "hyp": "i'm sorry you can't go in unless you call first that rule is on the notice",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 182.8
+  },
+  {
+   "t": 25.41,
+   "spk": "Andre",
+   "line": "Even though I am on time?",
+   "ok": true,
+   "hyp": "even though i am on time",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 123.4
+  },
+  {
+   "t": 28.86,
+   "spk": "Helen",
+   "line": "Even though you are on time, you still need to confirm.",
+   "ok": true,
+   "hyp": "even though you are on time you still need to confirm",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 179.7
+  },
+  {
+   "t": 33.62,
+   "spk": "Andre",
+   "line": "What do I have to do?",
+   "ok": true,
+   "hyp": "what do i have to do",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 113.2
+  },
+  {
+   "t": 37.1,
+   "spk": "Helen",
+   "line": "You have to sign the book, and you must wear a visitor badge.",
+   "ok": true,
+   "hyp": "you have to sign the book and you must wear a visitor badge",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 178.6
+  },
+  {
+   "t": 42.11,
+   "spk": "Andre",
+   "line": "Is there an exception if I already have permission?",
+   "ok": true,
+   "hyp": "is there an exception if i already have permission",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 117.2
+  },
+  {
+   "t": 46.24,
+   "spk": "Helen",
+   "line": "Permission is not the same as an appointment. Unless you confirm, the desk cannot make an exception.",
+   "ok": true,
+   "hyp": "permission is not the same as an appointment unless you confirm the desk cannot make an exception",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 171.5
+  },
+  {
+   "t": 53.63,
+   "spk": "Helen",
+   "line": "The requirement is on the door. Please read the policy before you sit down.",
+   "ok": true,
+   "hyp": "the requirement is on the door please read the policy before you sit down",
+   "min_prob": 0.79,
+   "flags": [],
+   "f0_med": 169.1
+  },
+  {
+   "t": 60.92,
+   "spk": "Mei",
+   "line": "Hi, Andre. You can wait as long as the four o'clock group finishes on time.",
+   "ok": true,
+   "hyp": "hi andre you can wait as long as the 4 oclock group finishes on time",
+   "min_prob": 0.52,
+   "flags": [],
+   "f0_med": 179.6
+  },
+  {
+   "t": 65.66,
+   "spk": "Andre",
+   "line": "What happens unless they finish?",
+   "ok": true,
+   "hyp": "what happens unless they finish",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 115.8
+  },
+  {
+   "t": 68.98,
+   "spk": "Mei",
+   "line": "Then the room is closed. If you call first next time, they will hold the room.",
+   "ok": true,
+   "hyp": "then the room is closed if you call first next time they will hold the room",
+   "min_prob": 0.76,
+   "flags": [],
+   "f0_med": 171.5
+  },
+  {
+   "t": 74.61,
+   "spk": "Helen",
+   "line": "You can bring a guest as long as you tell the front desk.",
+   "ok": true,
+   "hyp": "you can bring a guest as long as you tell the front desk",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 179.6
+  },
+  {
+   "t": 78.8,
+   "spk": "Andre",
+   "line": "I am going to call tomorrow. Can I cancel today's meeting?",
+   "ok": true,
+   "hyp": "i am going to call tomorrow can i cancel today's meeting",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 125.6
+  },
+  {
+   "t": 84.85,
+   "spk": "Helen",
+   "line": "Yes. I can cancel it, or you can wait. Office hours end at five.",
+   "ok": true,
+   "hyp": "yes i can cancel it or you can wait office hours end at 5",
+   "min_prob": 0.47,
+   "flags": [
+    "sustained non-speech 300ms"
+   ],
+   "f0_med": 192.0
+  },
+  {
+   "t": 92.08,
+   "spk": "Andre",
+   "line": "What happens unless I call tomorrow too?",
+   "ok": true,
+   "hyp": "what happens unless i call tomorrow too",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 126.7
+  },
+  {
+   "t": 96.13,
+   "spk": "Mei",
+   "line": "Call during office hours, from nine to five. Then they can confirm the room.",
+   "ok": true,
+   "hyp": "call during office hours from 9 to 5 then they can confirm the room",
+   "min_prob": 0.14,
+   "flags": [],
+   "f0_med": 187.6
+  },
+  {
+   "t": 102.08,
+   "spk": "Andre",
+   "line": "I'll wait. Thank you for explaining the policy.",
+   "ok": true,
+   "hyp": "i'll wait thank you for explaining the policy",
+   "min_prob": 0.95,
+   "flags": [],
+   "f0_med": 124.1
+  }
+ ],
+ "hyp": "lesson 4 andre is at the front desk he wants to go to a meeting but he did not call first good afternoon do you have an appointment i want to go to the 4 oclock meeting i did not call this morning i'm sorry you can't go in unless you call first that rule is on the notice even though i am on time even though you are on time you still need to confirm what do i have to do you have to sign the book and you must wear a visitor badge is there an exception if i already have permission permission is not the same as an appointment unless you confirm the desk cannot make an exception the requirement is on the door please read the policy before you sit down hi andre you can wait as long as the 4 oclock group finishes on time what happens unless they finish then the room is closed if you call first next time they will hold the room you can bring a guest as long as you tell the front desk i am going to call tomorrow can i cancel today's meeting yes i can cancel it or you can wait office hours end at 5 what happens unless i call tomorrow too call during office hours from 9 to 5 then they can confirm the room i'll wait thank you for explaining the policy that's the end of the listening"
+}

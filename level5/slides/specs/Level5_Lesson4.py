@@ -7,7 +7,7 @@ PC = pic_credit(MOD); PCS = pic_credit(MOD, True)
 I = lambda stem: f'L5_L4_{stem}.png'
 A = lambda stem: alt(N, I(stem))
 SRC = 'Source: Level5_Lesson4.md'
-LEN = '2:15'
+LEN = '1:48'
 AUDIO = f'Audio: about {LEN}. It plays once.' if CFG['audio'] else f'Audio (about {LEN}): coming soon.'
 BUL = ['I can explain *unless* in their own words', 'I can say what is allowed *as long as* something else is true', 'I can contrast with *even though*']
 W = newwords(N)
