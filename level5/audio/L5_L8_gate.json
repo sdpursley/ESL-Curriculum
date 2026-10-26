@@ -1,0 +1,46 @@
+{
+ "duration_s": 103.45,
+ "duration": "1:43",
+ "length_ok": true,
+ "small_whole_file_wer": 0.0,
+ "small_whole_file_errors": "0/230",
+ "small_whole_file_diffs": [],
+ "small_lines_ok": "21/21",
+ "small_line_problems": [],
+ "medium_per_line": {
+  "wer": 0.004,
+  "errors": 1,
+  "words": 230,
+  "exact": "22/23"
+ },
+ "medium_differences": [
+  "('Mr. Reed', \"It's down the hallway, past the bell.\", \"it's down the hallway pass the bell\")"
+ ],
+ "pitch_median_hz": {
+  "Mr. Reed": 124.1,
+  "Maya": 204.1,
+  "Narrator": 190.3
+ },
+ "pitch_problems": [],
+ "clipped_samples": 0,
+ "peak": 0.943,
+ "loudness_lufs": -16.7,
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "gaps_ok": true,
+ "noisy_pauses": [],
+ "failed_sentences": [],
+ "sentences": 31,
+ "takes_tried": 50,
+ "lines_wrong_in_both_checkers": [],
+ "single_checker_misses_or_flags_ignored": {
+  "small": [],
+  "medium": [
+   "('Mr. Reed', \"It's down the hallway, past the bell.\", \"it's down the hallway pass the bell\")"
+  ]
+ },
+ "rule": "line bad only if small.en AND medium.en both mishear it; pitch, clipping, length, gaps, FAILED still gate",
+ "PASS": true
+}

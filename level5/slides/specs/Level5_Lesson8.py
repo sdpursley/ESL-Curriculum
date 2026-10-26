@@ -7,7 +7,7 @@ PC = pic_credit(MOD); PCS = pic_credit(MOD, True)
 I = lambda stem: f'L5_L8_{stem}.png'
 A = lambda stem: alt(N, I(stem))
 SRC = 'Source: Level5_Lesson8.md'
-LEN = '2:20'
+LEN = '1:43'
 AUDIO = f'Audio: about {LEN}. It plays once.' if CFG['audio'] else f'Audio (about {LEN}): coming soon.'
 BUL = ['I can ask *Do you know if / whether…?*', 'I can keep statement order after *if*.', 'I can ask *Do you know when / where…?* the Level 4 way.']
 W = newwords(N)

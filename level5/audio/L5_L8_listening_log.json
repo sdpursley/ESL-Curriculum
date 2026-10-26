@@ -1,0 +1,862 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Maya": "refs/Rosa.wav",
+   "Mr. Reed": "refs/Sam.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson eight. Maya is calling the office at Northside School.",
+    "tts_text": "Lesson eight. Maya is calling the office at Northside School.",
+    "seed": 2026,
+    "hyp": "lesson 8 maya is calling the office at northside school",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.94,
+    "dur": 3.72,
+    "raw_peak": 0.663,
+    "pitch_ok": true,
+    "score": 1.392,
+    "f0_med": 187.1,
+    "f0_st_sd": 2.98,
+    "f0_range_st": 10.37
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "She volunteers for the after-school reading hour.",
+    "tts_text": "She volunteers for the after-school reading hour.",
+    "seed": 2026,
+    "hyp": "she volunteers for the after school reading hour",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.94,
+    "dur": 2.3,
+    "raw_peak": 0.803,
+    "pitch_ok": true,
+    "score": 1.518,
+    "f0_med": 213.6,
+    "f0_st_sd": 3.83,
+    "f0_range_st": 11.42
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Mr. Reed answers the phone.",
+    "tts_text": "Mister Reed answers the phone.",
+    "seed": 57459,
+    "hyp": "mister read answers the phone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.89,
+    "dur": 1.54,
+    "raw_peak": 0.446,
+    "pitch_ok": true,
+    "score": 1.206,
+    "f0_med": 184.9,
+    "f0_st_sd": 2.11,
+    "f0_range_st": 7.26
+   },
+   "tries": 8,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "Northside School office.",
+    "tts_text": "Northside School office.",
+    "seed": 2026,
+    "hyp": "northside school office",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.83,
+    "dur": 1.62,
+    "raw_peak": 0.388,
+    "pitch_ok": true,
+    "score": 1.102,
+    "f0_med": 116.5,
+    "f0_st_sd": 1.83,
+    "f0_range_st": 6.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "This is Mr. Reed.",
+    "tts_text": "This is Mister Reed.",
+    "seed": 17864,
+    "hyp": "this is mister read",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.87,
+    "dur": 1.59,
+    "raw_peak": 0.375,
+    "pitch_ok": true,
+    "score": 1.444,
+    "f0_med": 111.2,
+    "f0_st_sd": 3.81,
+    "f0_range_st": 13.56
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "Hello. This is Maya.",
+    "tts_text": "Hello. This is Maya.",
+    "seed": 9945,
+    "hyp": "hello this is maya",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.96,
+    "dur": 1.82,
+    "raw_peak": 0.556,
+    "pitch_ok": true,
+    "score": 1.446,
+    "f0_med": 231.7,
+    "f0_st_sd": 3.27,
+    "f0_range_st": 9.9
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "I want to ask about the conference.",
+    "tts_text": "I want to ask about the conference.",
+    "seed": 17864,
+    "hyp": "i want to ask about the conference",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.94,
+    "dur": 1.9,
+    "raw_peak": 0.677,
+    "pitch_ok": true,
+    "score": 1.486,
+    "f0_med": 202.8,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 10.73
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "Of course. How can I help you?",
+    "tts_text": "Of course. How can I help you?",
+    "seed": 2026,
+    "hyp": "of course how can i help you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 1.73,
+    "raw_peak": 0.608,
+    "pitch_ok": true,
+    "score": 1.543,
+    "f0_med": 133.8,
+    "f0_st_sd": 3.76,
+    "f0_range_st": 10.25
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "Do you know if the conference is tonight?",
+    "tts_text": "Do you know if the conference is tonight?",
+    "seed": 2026,
+    "hyp": "do you know if the conference is tonight",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 2.16,
+    "raw_peak": 0.452,
+    "pitch_ok": true,
+    "score": 1.45,
+    "f0_med": 194.2,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 9.54
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "Yes. It starts at six thirty, in the library.",
+    "tts_text": "Yes. It starts at six thirty, in the library.",
+    "seed": 2026,
+    "hyp": "yes it starts at 630 in the library",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.93,
+    "dur": 3.12,
+    "raw_peak": 0.6,
+    "pitch_ok": true,
+    "score": 1.532,
+    "f0_med": 135.4,
+    "f0_st_sd": 4.16,
+    "f0_range_st": 12.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "Thank you. Do you know whether I should bring the signup sheet?",
+    "tts_text": "Thank you. Do you know whether I should bring the signup sheet?",
+    "seed": 2026,
+    "hyp": "thank you do you know whether i should bring the sign up sheet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.74,
+    "mean_prob": 0.96,
+    "dur": 3.11,
+    "raw_peak": 0.675,
+    "pitch_ok": true,
+    "score": 1.338,
+    "f0_med": 217.4,
+    "f0_st_sd": 2.5,
+    "f0_range_st": 7.67
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "Yes. Please bring the signup sheet.",
+    "tts_text": "Yes. Please bring the signup sheet.",
+    "seed": 2026,
+    "hyp": "yes please bring the sign up sheet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.93,
+    "dur": 2.09,
+    "raw_peak": 0.463,
+    "pitch_ok": true,
+    "score": 1.468,
+    "f0_med": 115.1,
+    "f0_st_sd": 3.57,
+    "f0_range_st": 11.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "I'm going to set it by the office window.",
+    "tts_text": "I'm going to set it by the office window.",
+    "seed": 2026,
+    "hyp": "i'm going to set it by the office window",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.95,
+    "dur": 1.74,
+    "raw_peak": 0.551,
+    "pitch_ok": true,
+    "score": 1.453,
+    "f0_med": 116.2,
+    "f0_st_sd": 3.35,
+    "f0_range_st": 10.28
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "Do you know where the office window is?",
+    "tts_text": "Do you know where the office window is?",
+    "seed": 2026,
+    "hyp": "do you know where the office window is",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 1.78,
+    "raw_peak": 0.469,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 214.9,
+    "f0_st_sd": 3.41,
+    "f0_range_st": 10.12
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "It's down the hallway, past the bell.",
+    "tts_text": "It's down the hallway, past the bell.",
+    "seed": 2026,
+    "hyp": "it's down the hallway past the bell",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.94,
+    "dur": 2.42,
+    "raw_peak": 0.412,
+    "pitch_ok": true,
+    "score": 1.262,
+    "f0_med": 113.8,
+    "f0_st_sd": 2.12,
+    "f0_range_st": 7.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "Can you tell me if I need a permission slip?",
+    "tts_text": "Can you tell me if I need a permission slip?",
+    "seed": 2026,
+    "hyp": "can you tell me if i need a permission slip",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 2.68,
+    "raw_peak": 0.426,
+    "pitch_ok": true,
+    "score": 1.377,
+    "f0_med": 211.8,
+    "f0_st_sd": 2.62,
+    "f0_range_st": 9.13
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "I'm a volunteer, not a parent.",
+    "tts_text": "I'm a volunteer, not a parent.",
+    "seed": 2026,
+    "hyp": "i'm a volunteer not a parent",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.95,
+    "raw_peak": 0.722,
+    "pitch_ok": true,
+    "score": 1.417,
+    "f0_med": 222.5,
+    "f0_st_sd": 2.98,
+    "f0_range_st": 8.49
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "A volunteer does not need a slip.",
+    "tts_text": "A volunteer does not need a slip.",
+    "seed": 2026,
+    "hyp": "a volunteer does not need a slip",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.88,
+    "raw_peak": 0.657,
+    "pitch_ok": true,
+    "score": 1.35,
+    "f0_med": 122.7,
+    "f0_st_sd": 2.46,
+    "f0_range_st": 8.55
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "A parent brings a permission slip for early pickup.",
+    "tts_text": "A parent brings a permission slip for early pickup.",
+    "seed": 9945,
+    "hyp": "a parent brings a permission slip for early pickup",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.56,
+    "mean_prob": 0.92,
+    "dur": 2.79,
+    "raw_peak": 0.51,
+    "pitch_ok": true,
+    "score": 1.295,
+    "f0_med": 127.0,
+    "f0_st_sd": 2.53,
+    "f0_range_st": 7.9
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "Do you know when I should arrive?",
+    "tts_text": "Do you know when I should arrive?",
+    "seed": 2026,
+    "hyp": "do you know when i should arrive",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.69,
+    "raw_peak": 0.644,
+    "pitch_ok": true,
+    "score": 1.53,
+    "f0_med": 189.2,
+    "f0_st_sd": 3.64,
+    "f0_range_st": 11.38
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "Please arrive ten minutes early.",
+    "tts_text": "Please arrive ten minutes early.",
+    "seed": 2026,
+    "hyp": "please arrive 10 minutes early",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.63,
+    "mean_prob": 0.87,
+    "dur": 1.84,
+    "raw_peak": 0.399,
+    "pitch_ok": true,
+    "score": 1.357,
+    "f0_med": 105.0,
+    "f0_st_sd": 3.28,
+    "f0_range_st": 10.26
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "I will. I'm going to put the sheet in my backpack.",
+    "tts_text": "I will. I'm going to put the sheet in my backpack.",
+    "seed": 2026,
+    "hyp": "i will i'm going to put the sheet in my backpack",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.62,
+    "raw_peak": 0.846,
+    "pitch_ok": true,
+    "score": 1.453,
+    "f0_med": 201.6,
+    "f0_st_sd": 3.16,
+    "f0_range_st": 9.77
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "Do you know where I should leave my backpack?",
+    "tts_text": "Do you know where I should leave my backpack?",
+    "seed": 2026,
+    "hyp": "do you know where i should leave my backpack",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.99,
+    "dur": 2.04,
+    "raw_peak": 0.631,
+    "pitch_ok": true,
+    "score": 1.413,
+    "f0_med": 201.1,
+    "f0_st_sd": 2.82,
+    "f0_range_st": 8.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "Leave it by the office window.",
+    "tts_text": "Leave it by the office window.",
+    "seed": 17864,
+    "hyp": "leave it by the office window",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.96,
+    "dur": 1.55,
+    "raw_peak": 0.563,
+    "pitch_ok": true,
+    "score": 1.237,
+    "f0_med": 137.7,
+    "f0_st_sd": 1.86,
+    "f0_range_st": 6.0
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "The newsletter also says the conference is tonight.",
+    "tts_text": "The newsletter also says the conference is tonight.",
+    "seed": 2026,
+    "hyp": "the newsletter also says the conference is tonight",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.71,
+    "mean_prob": 0.94,
+    "dur": 3.61,
+    "raw_peak": 0.814,
+    "pitch_ok": true,
+    "score": 1.482,
+    "f0_med": 140.9,
+    "f0_st_sd": 3.62,
+    "f0_range_st": 9.64
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "Do you know if dismissal is at the usual time?",
+    "tts_text": "Do you know if dismissal is at the usual time?",
+    "seed": 2026,
+    "hyp": "do you know if dismissal is at the usual time",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.96,
+    "raw_peak": 0.502,
+    "pitch_ok": true,
+    "score": 1.387,
+    "f0_med": 195.9,
+    "f0_st_sd": 2.7,
+    "f0_range_st": 8.75
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "Yes. Dismissal is at three.",
+    "tts_text": "Yes. Dismissal is at three.",
+    "seed": 2026,
+    "hyp": "yes dismissal is at 3",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.59,
+    "mean_prob": 0.89,
+    "dur": 2.17,
+    "raw_peak": 0.563,
+    "pitch_ok": true,
+    "score": 1.339,
+    "f0_med": 117.8,
+    "f0_st_sd": 2.98,
+    "f0_range_st": 9.79
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "The conference is in the evening.",
+    "tts_text": "The conference is in the evening.",
+    "seed": 9945,
+    "hyp": "the conference is in the evening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.96,
+    "dur": 1.86,
+    "raw_peak": 0.538,
+    "pitch_ok": true,
+    "score": 1.429,
+    "f0_med": 133.8,
+    "f0_st_sd": 3.15,
+    "f0_range_st": 10.24
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Maya",
+    "text": "Thank you. I don't want to miss the start.",
+    "tts_text": "Thank you. I don't want to miss the start.",
+    "seed": 9945,
+    "hyp": "thank you i don't want to miss the start",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.94,
+    "dur": 2.4,
+    "raw_peak": 0.486,
+    "pitch_ok": true,
+    "score": 1.317,
+    "f0_med": 205.2,
+    "f0_st_sd": 2.51,
+    "f0_range_st": 7.25
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Reed",
+    "text": "You're welcome. We'll see you ten minutes early.",
+    "tts_text": "You're welcome. We'll see you ten minutes early.",
+    "seed": 17864,
+    "hyp": "you're welcome we'll see you 10 minutes early",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.93,
+    "dur": 2.15,
+    "raw_peak": 0.424,
+    "pitch_ok": true,
+    "score": 1.519,
+    "f0_med": 120.2,
+    "f0_st_sd": 3.91,
+    "f0_range_st": 13.42
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   10.76,
+   14.52,
+   "Mr. Reed",
+   "Northside School office. This is Mr. Reed."
+  ],
+  [
+   15.92,
+   20.19,
+   "Maya",
+   "Hello. This is Maya. I want to ask about the conference."
+  ],
+  [
+   21.59,
+   23.32,
+   "Mr. Reed",
+   "Of course. How can I help you?"
+  ],
+  [
+   24.72,
+   26.88,
+   "Maya",
+   "Do you know if the conference is tonight?"
+  ],
+  [
+   28.28,
+   31.4,
+   "Mr. Reed",
+   "Yes. It starts at six thirty, in the library."
+  ],
+  [
+   32.8,
+   35.91,
+   "Maya",
+   "Thank you. Do you know whether I should bring the signup sheet?"
+  ],
+  [
+   37.31,
+   41.69,
+   "Mr. Reed",
+   "Yes. Please bring the signup sheet. I'm going to set it by the office window."
+  ],
+  [
+   43.09,
+   44.87,
+   "Maya",
+   "Do you know where the office window is?"
+  ],
+  [
+   46.27,
+   48.69,
+   "Mr. Reed",
+   "It's down the hallway, past the bell."
+  ],
+  [
+   50.09,
+   55.27,
+   "Maya",
+   "Can you tell me if I need a permission slip? I'm a volunteer, not a parent."
+  ],
+  [
+   56.67,
+   61.89,
+   "Mr. Reed",
+   "A volunteer does not need a slip. A parent brings a permission slip for early pickup."
+  ],
+  [
+   63.29,
+   64.98,
+   "Maya",
+   "Do you know when I should arrive?"
+  ],
+  [
+   66.38,
+   68.22,
+   "Mr. Reed",
+   "Please arrive ten minutes early."
+  ],
+  [
+   69.62,
+   72.24,
+   "Maya",
+   "I will. I'm going to put the sheet in my backpack."
+  ],
+  [
+   72.99,
+   75.03,
+   "Maya",
+   "Do you know where I should leave my backpack?"
+  ],
+  [
+   76.43,
+   77.98,
+   "Mr. Reed",
+   "Leave it by the office window."
+  ],
+  [
+   78.73,
+   82.34,
+   "Mr. Reed",
+   "The newsletter also says the conference is tonight."
+  ],
+  [
+   83.74,
+   86.7,
+   "Maya",
+   "Do you know if dismissal is at the usual time?"
+  ],
+  [
+   88.1,
+   92.68,
+   "Mr. Reed",
+   "Yes. Dismissal is at three. The conference is in the evening."
+  ],
+  [
+   94.08,
+   96.48,
+   "Maya",
+   "Thank you. I don't want to miss the start."
+  ],
+  [
+   97.88,
+   100.03,
+   "Mr. Reed",
+   "You're welcome. We'll see you ten minutes early."
+  ]
+ ]
+}

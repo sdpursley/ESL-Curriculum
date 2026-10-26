@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 8 (Week 9): Do You Know If It's Tonight?
 
-**Status:** Not published. Listening audio is not recorded.
+**Status:** Not published. Draft listening audio is recorded.
 
 **Date:** October 2026
 
 **Audience:** Program coordinators and volunteer teachers
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L8.md`). Listening audio is not recorded yet (about 2:20).
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L8.md`). Listening audio is recorded (about 1:43).
 
 > **Topic:** Call a school office or a community program office. Ask *Do you know if…?* and *Do you know whether…?* Report what the office said. Some cards are a parent. Some are a volunteer. Pick either one.
 
@@ -65,7 +65,7 @@ By the end of class, you can do these four things.
 - Student Pages for Lesson 8 (print for the number expected + 3 spares)
 - Board and markers
 - Goal cards: one volunteer card and one parent card. Information cards for the office.
-- Listening: phone + small speaker. The audio is not recorded yet (about 2:20). No speaker? Read the script aloud with a volunteer.
+- Listening: phone + small speaker. The audio is recorded (about 1:43). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes (read the plan; cut the two goal cards; practice *Do you know if* as one chunk).
 :::
 
@@ -124,7 +124,7 @@ By the end of class, you can do these four things.
 - **Read Tasks B and C together.**
 - **Play 2 → Tasks B and C.** Then show the answers.
 - **"Hear it, say it":** *gonna* and *wanna* are short forms. This listening uses the full forms. You can say *going to* and *want to*. Say each line two times. *Do you know if* is one friendly chunk. The voice rises a little because it is a real question. Statement order stays even when the voice rises.
-- **The audio is not recorded yet (about 2:20).** When it is ready, it plays the conversation once. Press play again for play 2. A third play is fine if the class needs it. Until then, read the script with a volunteer at a normal, friendly speed, two times.
+- **The audio is recorded (about 1:43).** When it is ready, it plays the conversation once. Press play again for play 2. A third play is fine if the class needs it. Until then, read the script with a volunteer at a normal, friendly speed, two times.
 - **If behind:** do Task C together on the board.
 :::
 
