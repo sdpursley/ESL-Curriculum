@@ -1,0 +1,169 @@
+{
+ "file": "L5_L3_listening.mp3",
+ "duration_s": 83.23,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 210,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "14/14",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Alicia": 207.6,
+  "Chris": 110.3,
+  "Narrator": 182.9
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.9,
+ "peak": 0.907,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 8.24,
+   "spk": "Alicia",
+   "line": "I want to take the workshop, but the sign-up sheet was already full.",
+   "ok": true,
+   "hyp": "i want to take the workshop but the sign up sheet was already full",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 205.2
+  },
+  {
+   "t": 13.17,
+   "spk": "Chris",
+   "line": "I am going to be honest. I wish I had set an alarm.",
+   "ok": true,
+   "hyp": "i am going to be honest i wish i had set an alarm",
+   "min_prob": 0.49,
+   "flags": [],
+   "f0_med": 92.5
+  },
+  {
+   "t": 18.11,
+   "spk": "Alicia",
+   "line": "I wish I knew the deadline sooner. I wish I had asked the tutor on Monday.",
+   "ok": true,
+   "hyp": "i wish i knew the deadline sooner i wish i had asked the tutor on monday",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 219.3
+  },
+  {
+   "t": 24.07,
+   "spk": "Chris",
+   "line": "If you had asked, you would have known.",
+   "ok": true,
+   "hyp": "if you had asked you would have known",
+   "min_prob": 0.31,
+   "flags": [],
+   "f0_med": 126.3
+  },
+  {
+   "t": 27.05,
+   "spk": "Alicia",
+   "line": "Yes. If I had asked, I would have known. I should have asked earlier.",
+   "ok": true,
+   "hyp": "yes if i had asked i would have known i should have asked earlier",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 245.4
+  },
+  {
+   "t": 33.28,
+   "spk": "Chris",
+   "line": "I wish I had put a reminder on my calendar. The alarm on my phone was off.",
+   "ok": true,
+   "hyp": "i wish i had put a reminder on my calendar the alarm on my phone was off",
+   "min_prob": 0.88,
+   "flags": [],
+   "f0_med": 107.4
+  },
+  {
+   "t": 38.87,
+   "spk": "Alicia",
+   "line": "Next time I will ask on the first day.",
+   "ok": true,
+   "hyp": "next time i will ask on the first day",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 218.6
+  },
+  {
+   "t": 42.6,
+   "spk": "Chris",
+   "line": "I am going to put the reminder on the calendar tonight.",
+   "ok": true,
+   "hyp": "i am going to put the reminder on the calendar tonight",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 105.6
+  },
+  {
+   "t": 46.46,
+   "spk": "Alicia",
+   "line": "If I had another chance, I would ask on the first day. I would not wait.",
+   "ok": true,
+   "hyp": "if i had another chance i would ask on the first day i would not wait",
+   "min_prob": 0.4,
+   "flags": [],
+   "f0_med": 190.3
+  },
+  {
+   "t": 53.39,
+   "spk": "Chris",
+   "line": "If I had set the alarm, I would have arrived on time to sign up.",
+   "ok": true,
+   "hyp": "if i had set the alarm i would have arrived on time to sign up",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 115.8
+  },
+  {
+   "t": 58.08,
+   "spk": "Alicia",
+   "line": "We can still practice. I want to bring one question next week.",
+   "ok": true,
+   "hyp": "we can still practice i want to bring 1 question next week",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 207.6
+  },
+  {
+   "t": 63.83,
+   "spk": "Chris",
+   "line": "Good. Let us ask at the help desk if we are not sure which choice to make.",
+   "ok": true,
+   "hyp": "good let us ask at the help desk if we are not sure which choice to make",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 113.2
+  },
+  {
+   "t": 68.93,
+   "spk": "Alicia",
+   "line": "I am going to write the next step before I leave.",
+   "ok": true,
+   "hyp": "i am going to write the next step before i leave",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 196.5
+  },
+  {
+   "t": 73.45,
+   "spk": "Narrator",
+   "line": "They choose a next step. The regret stays small. It is only about the sign-up.",
+   "ok": true,
+   "hyp": "they choose a next step the regret stays small it is only about the sign up",
+   "min_prob": 0.7,
+   "flags": [],
+   "f0_med": 176.6
+  }
+ ],
+ "hyp": "lesson 3 after class alicia and chris talk about a workshop they signed up late i want to take the workshop but the sign up sheet was already full i am going to be honest i wish i had set an alarm i wish i knew the deadline sooner i wish i had asked the tutor on monday if you had asked you would have known yes if i had asked i would have known i should have asked earlier i wish i had put a reminder on my calendar the alarm on my phone was off next time i will ask on the first day i am going to put the reminder on the calendar tonight if i had another chance i would ask on the first day i would not wait if i had set the alarm i would have arrived on time to sign up we can still practice i want to bring 1 question next week good let us ask at the help desk if we are not sure which choice to make i am going to write the next step before i leave they choose a next step the regret stays small it is only about the sign up that's the end of the listening"
+}

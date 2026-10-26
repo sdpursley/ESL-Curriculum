@@ -7,8 +7,8 @@ No extra lines were added.
 | Lesson | Status |
 |---|---|
 | 1 | PASS 1:37 |
-| 2 | not started |
-| 3 | not started |
+| 2 | stuck |
+| 3 | PASS 1:23 |
 | 4 | not started |
 | 5 | not started |
 | 6 | not started |

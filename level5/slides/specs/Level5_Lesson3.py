@@ -7,7 +7,7 @@ PC = pic_credit(MOD); PCS = pic_credit(MOD, True)
 I = lambda stem: f'L5_L3_{stem}.png'
 A = lambda stem: alt(N, I(stem))
 SRC = 'Source: Level5_Lesson3.md'
-LEN = '2:10'
+LEN = '1:23'
 AUDIO = f'Audio: about {LEN}. It plays once.' if CFG['audio'] else f'Audio (about {LEN}): coming soon.'
 BUL = ['I can say I wish I had… for a past regret.', 'I can say I wish I knew… for something I want now.', 'I can say one If I had…, I would have… sentence.']
 W = newwords(N)

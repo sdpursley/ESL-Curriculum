@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 3 (Week 3): I Wish I Had Asked
 
-**Status:** Not published. Listening audio is not recorded.
+**Status:** Not published. Draft listening audio is recorded.
 
 **Date:** October 2026
 
@@ -84,7 +84,7 @@ By the end of class, you can do these things.
 
 ### Listening script
 
-Audio is not recorded yet (about 2:10). Read it with volunteers at a natural, friendly speed. The spoken lines use *going to* and *want to*. *gonna* and *wanna* are short forms. This listening uses the full forms.
+Audio is recorded (about 1:23). Read it with volunteers at a natural, friendly speed. The spoken lines use *going to* and *want to*. *gonna* and *wanna* are short forms. This listening uses the full forms.
 
 > **Narrator:** Lesson three. After class, Alicia and Chris talk about a workshop. They signed up late.
 > **Alicia:** I want to take the workshop, but the sign-up sheet was already full.

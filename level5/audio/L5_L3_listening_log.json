@@ -1,0 +1,682 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Alicia": "refs/Rosa.wav",
+   "Chris": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson three. After class, Alicia and Chris talk about a workshop.",
+    "tts_text": "Lesson three. After class, Alicia and Chris talk about a workshop.",
+    "seed": 2026,
+    "hyp": "lesson 3 after class alicia and chris talk about a workshop",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.93,
+    "dur": 4.41,
+    "raw_peak": 0.879,
+    "pitch_ok": true,
+    "score": 1.385,
+    "f0_med": 182.8,
+    "f0_st_sd": 3.04,
+    "f0_range_st": 10.14
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "They signed up late.",
+    "tts_text": "They signed up late.",
+    "seed": 2026,
+    "hyp": "they signed up late",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 1.18,
+    "raw_peak": 0.783,
+    "pitch_ok": true,
+    "score": 1.121,
+    "f0_med": 205.2,
+    "f0_st_sd": 1.03,
+    "f0_range_st": 3.35
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "I want to take the workshop, but the sign-up sheet was already full.",
+    "tts_text": "I want to take the workshop, but the sign-up sheet was already full.",
+    "seed": 2026,
+    "hyp": "i want to take the workshop but the sign up sheet was already full",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.97,
+    "dur": 3.53,
+    "raw_peak": 0.712,
+    "pitch_ok": true,
+    "score": 1.473,
+    "f0_med": 208.8,
+    "f0_st_sd": 3.33,
+    "f0_range_st": 10.35
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Chris",
+    "text": "I am going to be honest.",
+    "tts_text": "I am going to be honest.",
+    "seed": 2026,
+    "hyp": "i am going to be honest",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 1.42,
+    "raw_peak": 0.89,
+    "pitch_ok": true,
+    "score": 1.539,
+    "f0_med": 91.9,
+    "f0_st_sd": 3.87,
+    "f0_range_st": 12.62
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Chris",
+    "text": "I wish I had set an alarm.",
+    "tts_text": "I wish I had set an alarm.",
+    "seed": 9945,
+    "hyp": "i wish i had set an alarm",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 1.57,
+    "raw_peak": 0.93,
+    "pitch_ok": true,
+    "score": 1.497,
+    "f0_med": 108.1,
+    "f0_st_sd": 3.68,
+    "f0_range_st": 12.82
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "I wish I knew the deadline sooner.",
+    "tts_text": "I wish I knew the deadline sooner.",
+    "seed": 2026,
+    "hyp": "i wish i knew the deadline sooner",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.78,
+    "mean_prob": 0.96,
+    "dur": 1.99,
+    "raw_peak": 0.763,
+    "pitch_ok": true,
+    "score": 1.221,
+    "f0_med": 225.0,
+    "f0_st_sd": 1.76,
+    "f0_range_st": 5.85
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "I wish I had asked the tutor on Monday.",
+    "tts_text": "I wish I had asked the tutor on Monday.",
+    "seed": 25783,
+    "hyp": "i wish i had asked the tutor on monday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 2.02,
+    "raw_peak": 0.712,
+    "pitch_ok": true,
+    "score": 1.364,
+    "f0_med": 211.8,
+    "f0_st_sd": 2.55,
+    "f0_range_st": 8.78
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Chris",
+    "text": "If you had asked, you would have known.",
+    "tts_text": "If you had asked, you would have known.",
+    "seed": 2026,
+    "hyp": "if you had asked you would have known",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.71,
+    "mean_prob": 0.9,
+    "dur": 1.58,
+    "raw_peak": 0.906,
+    "pitch_ok": true,
+    "score": 1.275,
+    "f0_med": 125.6,
+    "f0_st_sd": 2.47,
+    "f0_range_st": 9.13
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "Yes. If I had asked, I would have known.",
+    "tts_text": "Yes. If I had asked, I would have known.",
+    "seed": 2026,
+    "hyp": "yes if i had asked i would have known",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.96,
+    "dur": 2.86,
+    "raw_peak": 0.75,
+    "pitch_ok": true,
+    "score": 1.316,
+    "f0_med": 245.4,
+    "f0_st_sd": 2.36,
+    "f0_range_st": 7.32
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "I should have asked earlier.",
+    "tts_text": "I should have asked earlier.",
+    "seed": 2026,
+    "hyp": "i should have asked earlier",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.73,
+    "mean_prob": 0.92,
+    "dur": 1.42,
+    "raw_peak": 0.837,
+    "pitch_ok": true,
+    "score": 1.525,
+    "f0_med": 191.0,
+    "f0_st_sd": 4.61,
+    "f0_range_st": 12.41
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Chris",
+    "text": "I wish I had put a reminder on my calendar.",
+    "tts_text": "I wish I had put a reminder on my calendar.",
+    "seed": 2026,
+    "hyp": "i wish i had put a reminder on my calendar",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 2.07,
+    "raw_peak": 1.027,
+    "pitch_ok": true,
+    "score": 1.57,
+    "f0_med": 105.6,
+    "f0_st_sd": 5.16,
+    "f0_range_st": 16.95
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Chris",
+    "text": "The alarm on my phone was off.",
+    "tts_text": "The alarm on my phone was off.",
+    "seed": 2026,
+    "hyp": "the alarm on my phone was off",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.57,
+    "raw_peak": 0.942,
+    "pitch_ok": true,
+    "score": 1.324,
+    "f0_med": 109.3,
+    "f0_st_sd": 2.29,
+    "f0_range_st": 7.52
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "Next time I will ask on the first day.",
+    "tts_text": "Next time I will ask on the first day.",
+    "seed": 2026,
+    "hyp": "next time i will ask on the first day",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.97,
+    "dur": 2.33,
+    "raw_peak": 0.583,
+    "pitch_ok": true,
+    "score": 1.365,
+    "f0_med": 214.3,
+    "f0_st_sd": 2.64,
+    "f0_range_st": 8.77
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Chris",
+    "text": "I am going to put the reminder on the calendar tonight.",
+    "tts_text": "I am going to put the reminder on the calendar tonight.",
+    "seed": 2026,
+    "hyp": "i am going to put the reminder on the calendar tonight",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.97,
+    "dur": 2.46,
+    "raw_peak": 0.97,
+    "pitch_ok": true,
+    "score": 1.433,
+    "f0_med": 105.3,
+    "f0_st_sd": 3.06,
+    "f0_range_st": 9.13
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "If I had another chance, I would ask on the first day.",
+    "tts_text": "If I had another chance, I would ask on the first day.",
+    "seed": 9945,
+    "hyp": "if i had another chance i would ask on the first day",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.99,
+    "dur": 3.14,
+    "raw_peak": 0.767,
+    "pitch_ok": true,
+    "score": 1.418,
+    "f0_med": 202.8,
+    "f0_st_sd": 2.86,
+    "f0_range_st": 7.9
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "I would not wait.",
+    "tts_text": "I would not wait.",
+    "seed": 9945,
+    "hyp": "i would not wait",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.68,
+    "mean_prob": 0.87,
+    "dur": 1.84,
+    "raw_peak": 0.491,
+    "pitch_ok": true,
+    "score": 1.15,
+    "f0_med": 174.5,
+    "f0_st_sd": 1.89,
+    "f0_range_st": 6.6
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Chris",
+    "text": "If I had set the alarm, I would have arrived on time to sign up.",
+    "tts_text": "If I had set the alarm, I would have arrived on time to sign up.",
+    "seed": 2026,
+    "hyp": "if i had set the alarm i would have arrived on time to sign up",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 3.29,
+    "raw_peak": 1.033,
+    "pitch_ok": true,
+    "score": 1.529,
+    "f0_med": 115.8,
+    "f0_st_sd": 3.64,
+    "f0_range_st": 13.03
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "We can still practice.",
+    "tts_text": "We can still practice.",
+    "seed": 2026,
+    "hyp": "we can still practice",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.95,
+    "dur": 1.34,
+    "raw_peak": 0.385,
+    "pitch_ok": true,
+    "score": 1.272,
+    "f0_med": 219.9,
+    "f0_st_sd": 2.18,
+    "f0_range_st": 7.94
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "I want to bring one question next week.",
+    "tts_text": "I want to bring one question next week.",
+    "seed": 2026,
+    "hyp": "i want to bring 1 question next week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.98,
+    "dur": 2.46,
+    "raw_peak": 0.636,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 177.6,
+    "f0_st_sd": 4.24,
+    "f0_range_st": 10.76
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Chris",
+    "text": "Good. Let us ask at the help desk if we are not sure which choice to make.",
+    "tts_text": "Good. Let us ask at the help desk if we are not sure which choice to make.",
+    "seed": 17864,
+    "hyp": "good let us ask at the help desk if we are not sure which choice to make",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.96,
+    "dur": 3.7,
+    "raw_peak": 0.984,
+    "pitch_ok": true,
+    "score": 1.451,
+    "f0_med": 113.8,
+    "f0_st_sd": 3.29,
+    "f0_range_st": 11.08
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Alicia",
+    "text": "I am going to write the next step before I leave.",
+    "tts_text": "I am going to write the next step before I leave.",
+    "seed": 9945,
+    "hyp": "i am going to write the next step before i leave",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 3.12,
+    "raw_peak": 0.576,
+    "pitch_ok": true,
+    "score": 1.427,
+    "f0_med": 198.2,
+    "f0_st_sd": 2.94,
+    "f0_range_st": 9.78
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "They choose a next step.",
+    "tts_text": "They choose a next step.",
+    "seed": 2026,
+    "hyp": "they choose a next step",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.94,
+    "dur": 1.47,
+    "raw_peak": 0.664,
+    "pitch_ok": true,
+    "score": 1.346,
+    "f0_med": 193.7,
+    "f0_st_sd": 2.71,
+    "f0_range_st": 8.96
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "The regret stays small.",
+    "tts_text": "The regret stays small.",
+    "seed": 2026,
+    "hyp": "the regret stays small",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 1.96,
+    "raw_peak": 0.591,
+    "pitch_ok": true,
+    "score": 1.451,
+    "f0_med": 170.6,
+    "f0_st_sd": 3.22,
+    "f0_range_st": 11.37
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "It is only about the sign-up.",
+    "tts_text": "It is only about the sign-up.",
+    "seed": 2026,
+    "hyp": "it is only about the sign up",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.7,
+    "mean_prob": 0.93,
+    "dur": 1.83,
+    "raw_peak": 0.668,
+    "pitch_ok": true,
+    "score": 1.475,
+    "f0_med": 180.2,
+    "f0_st_sd": 3.62,
+    "f0_range_st": 11.48
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   8.24,
+   11.77,
+   "Alicia",
+   "I want to take the workshop, but the sign-up sheet was already full."
+  ],
+  [
+   13.17,
+   16.71,
+   "Chris",
+   "I am going to be honest. I wish I had set an alarm."
+  ],
+  [
+   18.11,
+   22.67,
+   "Alicia",
+   "I wish I knew the deadline sooner. I wish I had asked the tutor on Monday."
+  ],
+  [
+   24.07,
+   25.65,
+   "Chris",
+   "If you had asked, you would have known."
+  ],
+  [
+   27.05,
+   31.88,
+   "Alicia",
+   "Yes. If I had asked, I would have known. I should have asked earlier."
+  ],
+  [
+   33.28,
+   37.47,
+   "Chris",
+   "I wish I had put a reminder on my calendar. The alarm on my phone was off."
+  ],
+  [
+   38.87,
+   41.2,
+   "Alicia",
+   "Next time I will ask on the first day."
+  ],
+  [
+   42.6,
+   45.06,
+   "Chris",
+   "I am going to put the reminder on the calendar tonight."
+  ],
+  [
+   46.46,
+   51.99,
+   "Alicia",
+   "If I had another chance, I would ask on the first day. I would not wait."
+  ],
+  [
+   53.39,
+   56.68,
+   "Chris",
+   "If I had set the alarm, I would have arrived on time to sign up."
+  ],
+  [
+   58.08,
+   62.43,
+   "Alicia",
+   "We can still practice. I want to bring one question next week."
+  ],
+  [
+   63.83,
+   67.53,
+   "Chris",
+   "Good. Let us ask at the help desk if we are not sure which choice to make."
+  ],
+  [
+   68.93,
+   72.05,
+   "Alicia",
+   "I am going to write the next step before I leave."
+  ],
+  [
+   73.45,
+   79.81,
+   "Narrator",
+   "They choose a next step. The regret stays small. It is only about the sign-up."
+  ]
+ ]
+}
