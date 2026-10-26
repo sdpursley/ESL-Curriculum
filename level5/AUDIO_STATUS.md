@@ -10,12 +10,12 @@ No extra lines were added.
 | 2 | stuck |
 | 3 | PASS 1:23 |
 | 4 | PASS 1:48 |
-| 5 | not started |
-| 6 | not started |
-| 7 | not started |
-| 8 | not started |
-| 9 | not started |
-| 10 | not started |
-| 11 | not started |
-| 12 | not started |
-| 13 | not started |
+| 5 | stuck |
+| 6 | stuck |
+| 7 | stuck |
+| 8 | stuck |
+| 9 | stuck |
+| 10 | stuck |
+| 11 | stuck |
+| 12 | stuck |
+| 13 | stuck |
