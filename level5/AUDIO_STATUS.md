@@ -17,5 +17,5 @@ No extra lines were added.
 | 9 | stuck |
 | 10 | stuck |
 | 11 | stuck |
-| 12 | stuck |
+| 12 | PASS 2:17 |
 | 13 | stuck |
