@@ -1,0 +1,832 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Imani": "refs/Rosa.wav",
+   "Mr. Gordon": "refs/Marco.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson thirteen. Imani, a former learner, gives a short talk at a practice night at the community center.",
+    "tts_text": "Lesson thirteen. Imani, a former learner, gives a short talk at a practice night at the community center.",
+    "seed": 17864,
+    "hyp": "lesson 13 imani a former learner gives a short talk at a practice night at the community center",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.53,
+    "mean_prob": 0.96,
+    "dur": 5.8,
+    "raw_peak": 0.759,
+    "pitch_ok": true,
+    "score": 1.475,
+    "f0_med": 186.0,
+    "f0_st_sd": 3.44,
+    "f0_range_st": 11.58
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Then Mr. Gordon asks one question.",
+    "tts_text": "Then Mister Gordon asks one question.",
+    "seed": 2026,
+    "hyp": "then mister gordon asks 1 question",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.97,
+    "dur": 2.33,
+    "raw_peak": 0.732,
+    "pitch_ok": true,
+    "score": 1.286,
+    "f0_med": 207.0,
+    "f0_st_sd": 2.09,
+    "f0_range_st": 6.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "Good evening. My point is simple.",
+    "tts_text": "Good evening. My point is simple.",
+    "seed": 2026,
+    "hyp": "good evening my point is simple",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 1.94,
+    "raw_peak": 0.498,
+    "pitch_ok": true,
+    "score": 1.587,
+    "f0_med": 272.3,
+    "f0_st_sd": 4.69,
+    "f0_range_st": 15.56
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "I've been learning to speak up at work, and a mentor helped me.",
+    "tts_text": "I've been learning to speak up at work, and a mentor helped me.",
+    "seed": 2026,
+    "hyp": "i've been learning to speak up at work and a mentor helped me",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 1.0,
+    "dur": 2.96,
+    "raw_peak": 0.664,
+    "pitch_ok": true,
+    "score": 1.408,
+    "f0_med": 222.5,
+    "f0_st_sd": 2.75,
+    "f0_range_st": 8.86
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "That is my introduction.",
+    "tts_text": "That is my introduction.",
+    "seed": 2026,
+    "hyp": "that is my introduction",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.98,
+    "dur": 1.61,
+    "raw_peak": 0.705,
+    "pitch_ok": true,
+    "score": 1.326,
+    "f0_med": 199.3,
+    "f0_st_sd": 2.33,
+    "f0_range_st": 8.22
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "I want to give two examples.",
+    "tts_text": "I want to give two examples.",
+    "seed": 2026,
+    "hyp": "i want to give 2 examples",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.88,
+    "raw_peak": 0.707,
+    "pitch_ok": true,
+    "score": 1.453,
+    "f0_med": 207.6,
+    "f0_st_sd": 3.12,
+    "f0_range_st": 9.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "Example one. By the time I finished my first month, I had learned to pause.",
+    "tts_text": "Example one. By the time I finished my first month, I had learned to pause.",
+    "seed": 25783,
+    "hyp": "example 1 by the time i finished my first month i had learned to pause",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.96,
+    "dur": 4.21,
+    "raw_peak": 0.622,
+    "pitch_ok": true,
+    "score": 1.433,
+    "f0_med": 218.6,
+    "f0_st_sd": 3.16,
+    "f0_range_st": 9.6
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "The hard moment was a team meeting.",
+    "tts_text": "The hard moment was a team meeting.",
+    "seed": 2026,
+    "hyp": "the hard moment was a team meeting",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 2.38,
+    "raw_peak": 0.52,
+    "pitch_ok": true,
+    "score": 1.4,
+    "f0_med": 233.0,
+    "f0_st_sd": 2.86,
+    "f0_range_st": 9.18
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "I wish I had looked up sooner, so next time I will make eye contact.",
+    "tts_text": "I wish I had looked up sooner, so next time I will make eye contact.",
+    "seed": 17864,
+    "hyp": "i wish i had looked up sooner so next time i will make eye contact",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.62,
+    "mean_prob": 0.96,
+    "dur": 4.11,
+    "raw_peak": 0.795,
+    "pitch_ok": true,
+    "score": 1.468,
+    "f0_med": 208.2,
+    "f0_st_sd": 3.37,
+    "f0_range_st": 9.95
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "Example two. My mentor at the community center listened and asked one question.",
+    "tts_text": "Example two. My mentor at the community center listened and asked one question.",
+    "seed": 25783,
+    "hyp": "example 2 my mentor at the community center listened and asked 1 question",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.91,
+    "dur": 4.92,
+    "raw_peak": 0.674,
+    "pitch_ok": true,
+    "score": 1.426,
+    "f0_med": 217.4,
+    "f0_st_sd": 3.45,
+    "f0_range_st": 10.65
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "That question helped me find my point.",
+    "tts_text": "That question helped me find my point.",
+    "seed": 25783,
+    "hyp": "that question helped me find my point",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.94,
+    "raw_peak": 0.622,
+    "pitch_ok": true,
+    "score": 1.428,
+    "f0_med": 211.2,
+    "f0_st_sd": 2.96,
+    "f0_range_st": 8.66
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "The achievement was small, and it was mine.",
+    "tts_text": "The achievement was small, and it was mine.",
+    "seed": 2026,
+    "hyp": "the achievement was small and it was mine",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 2.31,
+    "raw_peak": 0.53,
+    "pitch_ok": true,
+    "score": 1.338,
+    "f0_med": 235.7,
+    "f0_st_sd": 2.37,
+    "f0_range_st": 8.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "I'm going to practice with a stopwatch for two minutes.",
+    "tts_text": "I'm going to practice with a stopwatch for two minutes.",
+    "seed": 2026,
+    "hyp": "i'm going to practice with a stopwatch for 2 minutes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.96,
+    "dur": 2.72,
+    "raw_peak": 0.704,
+    "pitch_ok": true,
+    "score": 1.524,
+    "f0_med": 201.6,
+    "f0_st_sd": 3.73,
+    "f0_range_st": 12.29
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "The outline is on my note card.",
+    "tts_text": "The outline is on my note card.",
+    "seed": 25783,
+    "hyp": "the outline is on my note card",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.58,
+    "mean_prob": 0.92,
+    "dur": 1.53,
+    "raw_peak": 0.615,
+    "pitch_ok": true,
+    "score": 1.179,
+    "f0_med": 186.0,
+    "f0_st_sd": 1.74,
+    "f0_range_st": 5.32
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "This is my conclusion.",
+    "tts_text": "This is my conclusion.",
+    "seed": 2026,
+    "hyp": "this is my conclusion",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 0.99,
+    "dur": 1.32,
+    "raw_peak": 0.396,
+    "pitch_ok": true,
+    "score": 1.592,
+    "f0_med": 190.3,
+    "f0_st_sd": 4.12,
+    "f0_range_st": 12.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "I can speak from notes.",
+    "tts_text": "I can speak from notes.",
+    "seed": 17864,
+    "hyp": "i can speak from notes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.98,
+    "dur": 1.54,
+    "raw_peak": 0.652,
+    "pitch_ok": true,
+    "score": 1.457,
+    "f0_med": 192.5,
+    "f0_st_sd": 3.17,
+    "f0_range_st": 8.88
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "My next step is one short talk a week at work.",
+    "tts_text": "My next step is one short talk a week at work.",
+    "seed": 2026,
+    "hyp": "my next step is 1 short talk a week at work",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 2.39,
+    "raw_peak": 0.54,
+    "pitch_ok": true,
+    "score": 1.324,
+    "f0_med": 217.4,
+    "f0_st_sd": 2.28,
+    "f0_range_st": 6.98
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Gordon",
+    "text": "Thank you. Which example do you want to keep?",
+    "tts_text": "Thank you. Which example do you want to keep?",
+    "seed": 2026,
+    "hyp": "thank you which example do you want to keep",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.97,
+    "dur": 2.18,
+    "raw_peak": 0.945,
+    "pitch_ok": true,
+    "score": 1.181,
+    "f0_med": 107.4,
+    "f0_st_sd": 1.4,
+    "f0_range_st": 4.92
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "I want to keep the mentor example.",
+    "tts_text": "I want to keep the mentor example.",
+    "seed": 9945,
+    "hyp": "i want to keep the mentor example",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.99,
+    "raw_peak": 0.576,
+    "pitch_ok": true,
+    "score": 1.46,
+    "f0_med": 184.9,
+    "f0_st_sd": 3.22,
+    "f0_range_st": 10.88
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "I'm going to say it again, more slowly.",
+    "tts_text": "I'm going to say it again, more slowly.",
+    "seed": 2026,
+    "hyp": "i'm going to say it again more slowly",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 2.15,
+    "raw_peak": 0.517,
+    "pitch_ok": true,
+    "score": 1.48,
+    "f0_med": 238.4,
+    "f0_st_sd": 3.24,
+    "f0_range_st": 9.17
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Gordon",
+    "text": "Good. A pause between the parts helps.",
+    "tts_text": "Good. A pause between the parts helps.",
+    "seed": 2026,
+    "hyp": "good a pause between the parts helps",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 2.35,
+    "raw_peak": 0.874,
+    "pitch_ok": true,
+    "score": 1.123,
+    "f0_med": 124.1,
+    "f0_st_sd": 0.92,
+    "f0_range_st": 2.92
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Gordon",
+    "text": "Applause is for finishing, not for the longest story.",
+    "tts_text": "Applause is for finishing, not for the longest story.",
+    "seed": 2026,
+    "hyp": "applause is for finishing not for the longest story",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 3.22,
+    "raw_peak": 0.981,
+    "pitch_ok": true,
+    "score": 1.583,
+    "f0_med": 119.2,
+    "f0_st_sd": 4.05,
+    "f0_range_st": 12.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "I am not going to memorize the talk.",
+    "tts_text": "I am not going to memorize the talk.",
+    "seed": 25783,
+    "hyp": "i am not going to memorize the talk",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.93,
+    "dur": 2.38,
+    "raw_peak": 0.661,
+    "pitch_ok": true,
+    "score": 1.21,
+    "f0_med": 186.0,
+    "f0_st_sd": 1.87,
+    "f0_range_st": 6.02
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "Eye contact means I look up from the card.",
+    "tts_text": "Eye contact means I look up from the card.",
+    "seed": 17864,
+    "hyp": "eye contact means i look up from the card",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.95,
+    "dur": 2.38,
+    "raw_peak": 0.709,
+    "pitch_ok": true,
+    "score": 1.322,
+    "f0_med": 202.8,
+    "f0_st_sd": 2.49,
+    "f0_range_st": 6.74
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Gordon",
+    "text": "What is your next step, in one sentence?",
+    "tts_text": "What is your next step, in one sentence?",
+    "seed": 9945,
+    "hyp": "what is your next step in 1 sentence",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 2.21,
+    "raw_peak": 1.058,
+    "pitch_ok": true,
+    "score": 1.278,
+    "f0_med": 112.5,
+    "f0_st_sd": 2.01,
+    "f0_range_st": 6.38
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "I'm going to practice one talk a week.",
+    "tts_text": "I'm going to practice one talk a week.",
+    "seed": 2026,
+    "hyp": "i'm going to practice 1 talk a week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 2.78,
+    "raw_peak": 0.718,
+    "pitch_ok": true,
+    "score": 1.391,
+    "f0_med": 192.5,
+    "f0_st_sd": 2.75,
+    "f0_range_st": 8.43
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "I want to keep the introduction short.",
+    "tts_text": "I want to keep the introduction short.",
+    "seed": 33702,
+    "hyp": "i want to keep the introduction short",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.97,
+    "dur": 2.21,
+    "raw_peak": 0.726,
+    "pitch_ok": true,
+    "score": 1.527,
+    "f0_med": 199.9,
+    "f0_st_sd": 3.72,
+    "f0_range_st": 11.23
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Mr. Gordon",
+    "text": "The conclusion should repeat the point, not start a new story.",
+    "tts_text": "The conclusion should repeat the point, not start a new story.",
+    "seed": 9945,
+    "hyp": "the conclusion should repeat the point not start a new story",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.98,
+    "dur": 3.28,
+    "raw_peak": 1.031,
+    "pitch_ok": true,
+    "score": 1.496,
+    "f0_med": 131.5,
+    "f0_st_sd": 3.45,
+    "f0_range_st": 10.94
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "An achievement can be small.",
+    "tts_text": "An achievement can be small.",
+    "seed": 2026,
+    "hyp": "an achievement can be small",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.96,
+    "dur": 1.59,
+    "raw_peak": 0.379,
+    "pitch_ok": true,
+    "score": 1.469,
+    "f0_med": 205.8,
+    "f0_st_sd": 3.4,
+    "f0_range_st": 10.5
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Imani",
+    "text": "My class, my job, or a person who helped me is enough.",
+    "tts_text": "My class, my job, or a person who helped me is enough.",
+    "seed": 2026,
+    "hyp": "my class my job or a person who helped me is enough",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.98,
+    "dur": 3.07,
+    "raw_peak": 0.539,
+    "pitch_ok": true,
+    "score": 1.422,
+    "f0_med": 198.2,
+    "f0_st_sd": 2.97,
+    "f0_range_st": 9.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   10.78,
+   16.23,
+   "Imani",
+   "Good evening. My point is simple. I've been learning to speak up at work, and a mentor helped me."
+  ],
+  [
+   16.98,
+   21.02,
+   "Imani",
+   "That is my introduction. I want to give two examples."
+  ],
+  [
+   21.77,
+   25.98,
+   "Imani",
+   "Example one. By the time I finished my first month, I had learned to pause."
+  ],
+  [
+   26.73,
+   33.77,
+   "Imani",
+   "The hard moment was a team meeting. I wish I had looked up sooner, so next time I will make eye contact."
+  ],
+  [
+   34.52,
+   39.44,
+   "Imani",
+   "Example two. My mentor at the community center listened and asked one question."
+  ],
+  [
+   40.19,
+   44.99,
+   "Imani",
+   "That question helped me find my point. The achievement was small, and it was mine."
+  ],
+  [
+   45.74,
+   50.54,
+   "Imani",
+   "I'm going to practice with a stopwatch for two minutes. The outline is on my note card."
+  ],
+  [
+   51.29,
+   57.64,
+   "Imani",
+   "This is my conclusion. I can speak from notes. My next step is one short talk a week at work."
+  ],
+  [
+   59.04,
+   61.22,
+   "Mr. Gordon",
+   "Thank you. Which example do you want to keep?"
+  ],
+  [
+   62.62,
+   67.31,
+   "Imani",
+   "I want to keep the mentor example. I'm going to say it again, more slowly."
+  ],
+  [
+   68.71,
+   74.83,
+   "Mr. Gordon",
+   "Good. A pause between the parts helps. Applause is for finishing, not for the longest story."
+  ],
+  [
+   76.23,
+   81.54,
+   "Imani",
+   "I am not going to memorize the talk. Eye contact means I look up from the card."
+  ],
+  [
+   82.94,
+   85.15,
+   "Mr. Gordon",
+   "What is your next step, in one sentence?"
+  ],
+  [
+   86.55,
+   92.09,
+   "Imani",
+   "I'm going to practice one talk a week. I want to keep the introduction short."
+  ],
+  [
+   93.49,
+   96.77,
+   "Mr. Gordon",
+   "The conclusion should repeat the point, not start a new story."
+  ],
+  [
+   98.17,
+   103.38,
+   "Imani",
+   "An achievement can be small. My class, my job, or a person who helped me is enough."
+  ]
+ ]
+}

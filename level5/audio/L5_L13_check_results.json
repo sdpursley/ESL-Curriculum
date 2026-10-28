@@ -1,0 +1,206 @@
+{
+ "file": "L5_L13_listening.mp3",
+ "duration_s": 106.8,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 269,
+ "diffs": [],
+ "low_prob_words": [
+  [
+   "1.",
+   22.15,
+   0.39
+  ]
+ ],
+ "lines_ok": "15/16",
+ "lines_with_flags": [],
+ "lines_not_exact": [
+  {
+   "t": 98.17,
+   "spk": "Imani",
+   "line": "An achievement can be small. My class, my job, or a person who helped me is enough.",
+   "ok": false,
+   "hyp": "achievement can be small my class my job or a person who helped me is enough",
+   "min_prob": 0.11,
+   "flags": [],
+   "f0_med": 200.5
+  }
+ ],
+ "pitch_median_hz": {
+  "Imani": 207.0,
+  "Mr. Gordon": 118.7,
+  "Narrator": 191.4
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.1,
+ "peak": 0.9,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 10.78,
+   "spk": "Imani",
+   "line": "Good evening. My point is simple. I've been learning to speak up at work, and a mentor helped me.",
+   "ok": true,
+   "hyp": "good evening my point is simple i've been learning to speak up at work and a mentor helped me",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 233.0
+  },
+  {
+   "t": 16.98,
+   "spk": "Imani",
+   "line": "That is my introduction. I want to give two examples.",
+   "ok": true,
+   "hyp": "that is my introduction i want to give 2 examples",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 202.8
+  },
+  {
+   "t": 21.77,
+   "spk": "Imani",
+   "line": "Example one. By the time I finished my first month, I had learned to pause.",
+   "ok": true,
+   "hyp": "example 1 by the time i finished my first month i had learned to pause",
+   "min_prob": 0.64,
+   "flags": [],
+   "f0_med": 221.2
+  },
+  {
+   "t": 26.73,
+   "spk": "Imani",
+   "line": "The hard moment was a team meeting. I wish I had looked up sooner, so next time I will make eye contact.",
+   "ok": true,
+   "hyp": "the hard moment was a team meeting i wish i had looked up sooner so next time i will make eye contact",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 218.6
+  },
+  {
+   "t": 34.52,
+   "spk": "Imani",
+   "line": "Example two. My mentor at the community center listened and asked one question.",
+   "ok": true,
+   "hyp": "example 2 my mentor at the community center listened and asked 1 question",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 219.9
+  },
+  {
+   "t": 40.19,
+   "spk": "Imani",
+   "line": "That question helped me find my point. The achievement was small, and it was mine.",
+   "ok": true,
+   "hyp": "that question helped me find my point the achievement was small and it was mine",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 228.3
+  },
+  {
+   "t": 45.74,
+   "spk": "Imani",
+   "line": "I'm going to practice with a stopwatch for two minutes. The outline is on my note card.",
+   "ok": true,
+   "hyp": "i'm going to practice with a stopwatch for 2 minutes the outline is on my note card",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 189.2
+  },
+  {
+   "t": 51.29,
+   "spk": "Imani",
+   "line": "This is my conclusion. I can speak from notes. My next step is one short talk a week at work.",
+   "ok": true,
+   "hyp": "this is my conclusion i can speak from notes my next step is 1 short talk a week at work",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 211.2
+  },
+  {
+   "t": 59.04,
+   "spk": "Mr. Gordon",
+   "line": "Thank you. Which example do you want to keep?",
+   "ok": true,
+   "hyp": "thank you which example do you want to keep",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 108.1
+  },
+  {
+   "t": 62.62,
+   "spk": "Imani",
+   "line": "I want to keep the mentor example. I'm going to say it again, more slowly.",
+   "ok": true,
+   "hyp": "i want to keep the mentor example i'm going to say it again more slowly",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 191.4
+  },
+  {
+   "t": 68.71,
+   "spk": "Mr. Gordon",
+   "line": "Good. A pause between the parts helps. Applause is for finishing, not for the longest story.",
+   "ok": true,
+   "hyp": "good a pause between the parts helps applause is for finishing not for the longest story",
+   "min_prob": 0.74,
+   "flags": [],
+   "f0_med": 124.8
+  },
+  {
+   "t": 76.23,
+   "spk": "Imani",
+   "line": "I am not going to memorize the talk. Eye contact means I look up from the card.",
+   "ok": true,
+   "hyp": "i am not going to memorize the talk eye contact means i look up from the card",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 191.4
+  },
+  {
+   "t": 82.94,
+   "spk": "Mr. Gordon",
+   "line": "What is your next step, in one sentence?",
+   "ok": true,
+   "hyp": "what is your next step in 1 sentence",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 112.5
+  },
+  {
+   "t": 86.55,
+   "spk": "Imani",
+   "line": "I'm going to practice one talk a week. I want to keep the introduction short.",
+   "ok": true,
+   "hyp": "i'm going to practice 1 talk a week i want to keep the introduction short",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 197.0
+  },
+  {
+   "t": 93.49,
+   "spk": "Mr. Gordon",
+   "line": "The conclusion should repeat the point, not start a new story.",
+   "ok": true,
+   "hyp": "the conclusion should repeat the point not start a new story",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 130.0
+  },
+  {
+   "t": 98.17,
+   "spk": "Imani",
+   "line": "An achievement can be small. My class, my job, or a person who helped me is enough.",
+   "ok": false,
+   "hyp": "achievement can be small my class my job or a person who helped me is enough",
+   "min_prob": 0.11,
+   "flags": [],
+   "f0_med": 200.5
+  }
+ ],
+ "hyp": "lesson 13 imani a former learner gives a short talk at a practice night at the community center then mister gordon asks 1 question good evening my point is simple i've been learning to speak up at work and a mentor helped me that is my introduction i want to give 2 examples example 1 by the time i finished my first month i had learned to pause the hard moment was a team meeting i wish i had looked up sooner so next time i will make eye contact example 2 my mentor at the community center listened and asked 1 question that question helped me find my point the achievement was small and it was mine i'm going to practice with a stopwatch for 2 minutes the outline is on my note card this is my conclusion i can speak from notes my next step is 1 short talk a week at work thank you which example do you want to keep i want to keep the mentor example i'm going to say it again more slowly good a pause between the parts helps applause is for finishing not for the longest story i am not going to memorize the talk eye contact means i look up from the card what is your next step in 1 sentence i'm going to practice 1 talk a week i want to keep the introduction short the conclusion should repeat the point not start a new story an achievement can be small my class my job or a person who helped me is enough that's the end of the listening"
+}

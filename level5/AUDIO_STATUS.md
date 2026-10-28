@@ -18,4 +18,4 @@ No extra lines were added.
 | 10 | stuck |
 | 11 | stuck |
 | 12 | PASS 2:17 |
-| 13 | stuck |
+| 13 | PASS 1:47 |
