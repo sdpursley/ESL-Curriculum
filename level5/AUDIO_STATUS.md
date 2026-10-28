@@ -11,7 +11,7 @@ No extra lines were added.
 | 3 | PASS 1:23 |
 | 4 | PASS 1:48 |
 | 5 | stuck |
-| 6 | stuck |
+| 6 | PASS 1:41 |
 | 7 | stuck |
 | 8 | stuck |
 | 9 | stuck |

@@ -4,8 +4,8 @@
 LESSON = 6
 TITLE = 'She Told Me to Call'
 VOICES = {'Narrator': 'N', 'Jana': 'Rosa', 'Nurse Patel': 'Kim', 'Ken': 'Sam'}
-FEMALE = {'Nurse Patel', 'Narrator', 'Jana'}
-NAMES = {'ken', 'jana', 'patel'}
+FEMALE = {'Narrator', 'Jana', 'Nurse Patel'}
+NAMES = {'jana', 'patel', 'ken'}
 SAME = {'okay': 'ok', 'ms': 'miss', 'mr': 'mister'}
 SETTINGS = {'EXAG': 0.72, 'CFG': 0.32, 'NARRATOR_EXAG': 0.55, 'NARRATOR_CFG': 0.4, 'PAUSE_SPK': 1.4, 'LENGTH_S': [70, 180]}
 INTRO = 'Lesson six. Jana is in the waiting room. She calls the clinic. This checkup has no symptoms. It is only a time change.'
@@ -14,7 +14,7 @@ LINES = [
  ('Nurse Patel', 'The checkup is on Thursday. The time has changed.'),
  ('Jana', 'Thursday. I want to be sure I have it.'),
  ('Nurse Patel', "Please call before three o'clock. And please bring the appointment card."),
- ('Jana', "I am going to call before three o'clock, and I am going to bring the card."),
+ ('Jana', "I am going to call before three o'clock."),
  ('Nurse Patel', 'We will call you if the room changes. Is Thursday OK?'),
  ('Jana', 'Yes. Thursday is OK.'),
  ('Narrator', 'The call ends. Jana is home now. She tells her brother Ken. Ken was not on the clinic call.'),

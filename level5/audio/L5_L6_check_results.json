@@ -1,0 +1,207 @@
+{
+ "file": "L5_L6_listening.mp3",
+ "duration_s": 101.42,
+ "wer": 0.0092,
+ "errors": 2,
+ "ref_words": 218,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "checkup",
+   "hyp": "check up",
+   "ctx": "down every detail the checkup is on thursday the"
+  }
+ ],
+ "low_prob_words": [],
+ "lines_ok": "17/17",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Jana": 209.4,
+  "Nurse Patel": 186.0,
+  "Narrator": 182.8,
+  "Ken": 127.2
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.1,
+ "peak": 0.884,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.6,
+ "per_line": [
+  {
+   "t": 11.01,
+   "spk": "Jana",
+   "line": "Hello. I want to check my appointment. I am going to write down every detail.",
+   "ok": true,
+   "hyp": "hello i want to check my appointment i am going to write down every detail",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 218.6
+  },
+  {
+   "t": 17.88,
+   "spk": "Nurse Patel",
+   "line": "The checkup is on Thursday. The time has changed.",
+   "ok": true,
+   "hyp": "the checkup is on thursday the time has changed",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 186.0
+  },
+  {
+   "t": 23.76,
+   "spk": "Jana",
+   "line": "Thursday. I want to be sure I have it.",
+   "ok": true,
+   "hyp": "thursday i want to be sure i have it",
+   "min_prob": 0.33,
+   "flags": [],
+   "f0_med": 188.1
+  },
+  {
+   "t": 27.24,
+   "spk": "Nurse Patel",
+   "line": "Please call before three o'clock. And please bring the appointment card.",
+   "ok": true,
+   "hyp": "please call before 3 oclock and please bring the appointment card",
+   "min_prob": 0.38,
+   "flags": [],
+   "f0_med": 202.8
+  },
+  {
+   "t": 32.67,
+   "spk": "Jana",
+   "line": "I am going to call before three o'clock.",
+   "ok": true,
+   "hyp": "i am going to call before 3 oclock",
+   "min_prob": 0.64,
+   "flags": [],
+   "f0_med": 195.9
+  },
+  {
+   "t": 36.24,
+   "spk": "Nurse Patel",
+   "line": "We will call you if the room changes. Is Thursday OK?",
+   "ok": true,
+   "hyp": "we will call you if the room changes is thursday ok",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 183.8
+  },
+  {
+   "t": 41.61,
+   "spk": "Jana",
+   "line": "Yes. Thursday is OK.",
+   "ok": true,
+   "hyp": "yes thursday is ok",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 249.7
+  },
+  {
+   "t": 44.88,
+   "spk": "Narrator",
+   "line": "The call ends. Jana is home now. She tells her brother Ken. Ken was not on the clinic call.",
+   "ok": true,
+   "hyp": "the call ends jana is home now she tells her brother ken ken was not on the clinic call",
+   "min_prob": 0.7,
+   "flags": [],
+   "f0_med": 182.8
+  },
+  {
+   "t": 54.0,
+   "spk": "Jana",
+   "line": "The nurse said the checkup was on Thursday. She told me the time had changed.",
+   "ok": true,
+   "hyp": "the nurse said the checkup was on thursday she told me the time had changed",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 222.5
+  },
+  {
+   "t": 60.28,
+   "spk": "Ken",
+   "line": "What did she ask you to do?",
+   "ok": true,
+   "hyp": "what did she ask you to do",
+   "min_prob": 0.79,
+   "flags": [],
+   "f0_med": 122.4
+  },
+  {
+   "t": 63.3,
+   "spk": "Jana",
+   "line": "She asked me to call before three o'clock. She asked me to bring the appointment card.",
+   "ok": true,
+   "hyp": "she asked me to call before 3 oclock she asked me to bring the appointment card",
+   "min_prob": 0.6,
+   "flags": [],
+   "f0_med": 209.4
+  },
+  {
+   "t": 69.26,
+   "spk": "Ken",
+   "line": "Did she ask a yes or no question?",
+   "ok": true,
+   "hyp": "did she ask a yes or no question",
+   "min_prob": 0.71,
+   "flags": [],
+   "f0_med": 136.1
+  },
+  {
+   "t": 73.0,
+   "spk": "Jana",
+   "line": "She asked if Thursday was OK. I said yes.",
+   "ok": true,
+   "hyp": "she asked if thursday was ok i said yes",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 209.4
+  },
+  {
+   "t": 77.93,
+   "spk": "Ken",
+   "line": "Anything else?",
+   "ok": true,
+   "hyp": "anything else",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 125.2
+  },
+  {
+   "t": 80.15,
+   "spk": "Jana",
+   "line": "She said they would call me if the room changes. I am going to put the note in the folder.",
+   "ok": true,
+   "hyp": "she said they would call me if the room changes i am going to put the note in the folder",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 202.8
+  },
+  {
+   "t": 86.92,
+   "spk": "Ken",
+   "line": "I can read it back. Thursday, call before three o'clock, bring the card.",
+   "ok": true,
+   "hyp": "i can read it back thursday call before 3 oclock bring the card",
+   "min_prob": 0.59,
+   "flags": [],
+   "f0_med": 129.3
+  },
+  {
+   "t": 93.16,
+   "spk": "Narrator",
+   "line": "The message has who, the day, and what to do. That is enough.",
+   "ok": true,
+   "hyp": "the message has who the day and what to do that is enough",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 176.6
+  }
+ ],
+ "hyp": "lesson 6 jana is in the waiting room she calls the clinic this checkup has no symptoms it is only a time change hello i want to check my appointment i am going to write down every detail the check up is on thursday the time has changed thursday i want to be sure i have it please call before 3 oclock and please bring the appointment card i am going to call before 3 oclock we will call you if the room changes is thursday ok yes thursday is ok the call ends jana is home now she tells her brother ken ken was not on the clinic call the nurse said the checkup was on thursday she told me the time had changed what did she ask you to do she asked me to call before 3 oclock she asked me to bring the appointment card did she ask a yes or no question she asked if thursday was ok i said yes anything else she said they would call me if the room changes i am going to put the note in the folder i can read it back thursday call before 3 oclock bring the card the message has who the day and what to do that is enough that's the end of the listening"
+}

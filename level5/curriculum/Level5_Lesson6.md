@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 6 (Week 6): She Told Me to Call
 
-**Status:** Not published. Listening audio is not recorded.
+**Status:** Not published. Draft listening audio is recorded.
 
 **Date:** October 2026
 
@@ -84,14 +84,14 @@ By the end of class, you can do these things.
 
 ### Listening script
 
-Audio is not recorded yet (about 2:25). Read it with volunteers at a natural, friendly speed. The spoken lines use *going to* and *want to*. *gonna* and *wanna* are short forms. This listening uses the full forms.
+Audio is recorded (about 1:41). Read it with volunteers at a natural, friendly speed. The spoken lines use *going to* and *want to*. *gonna* and *wanna* are short forms. This listening uses the full forms.
 
 > **Narrator:** Lesson six. Jana is in the waiting room. She calls the clinic. This checkup has no symptoms. It is only a time change.
 > **Jana:** Hello. I want to check my appointment. I am going to write down every detail.
 > **Nurse Patel:** The checkup is on Thursday. The time has changed.
 > **Jana:** Thursday. I want to be sure I have it.
 > **Nurse Patel:** Please call before three o'clock. And please bring the appointment card.
-> **Jana:** I am going to call before three o'clock, and I am going to bring the card.
+> **Jana:** I am going to call before three o'clock.
 > **Nurse Patel:** We will call you if the room changes. Is Thursday OK?
 > **Jana:** Yes. Thursday is OK.
 > **Narrator:** The call ends. Jana is home now. She tells her brother Ken. Ken was not on the clinic call.
