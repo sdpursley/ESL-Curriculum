@@ -1,0 +1,2 @@
+medium.en per-line WER 0.009 (2/218), 18/19 lines exact
+   ('Nurse Patel', 'The checkup is on Thursday. The time has changed.', 'the check up is on thursday the time has changed')

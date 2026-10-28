@@ -1,0 +1,24 @@
+{
+ "TITLE": "How Long Have You Been Working Here?",
+ "VOICES": {
+  "Narrator": "N",
+  "Samir": "Marco",
+  "Nora": "Rosa",
+  "Ms. Hale": "Kim"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Nora",
+  "Ms. Hale"
+ ],
+ "NAMES": [
+  "Samir",
+  "Nora",
+  "Hale"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

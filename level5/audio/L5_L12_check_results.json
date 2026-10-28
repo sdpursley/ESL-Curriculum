@@ -1,0 +1,246 @@
+{
+ "file": "L5_L12_listening.mp3",
+ "duration_s": 136.66,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 324,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "18/19",
+ "lines_with_flags": [
+  {
+   "t": 87.12,
+   "spk": "Ms. Adeyemi",
+   "line": "Our decision is a one-month try on Thursday, until eight. The timer says we should stop.",
+   "ok": true,
+   "hyp": "our decision is a 1 month try on thursday until 8 the timer says we should stop",
+   "min_prob": 0.71,
+   "flags": [
+    "sustained non-speech 440ms"
+   ],
+   "f0_med": 172.0
+  }
+ ],
+ "lines_not_exact": [
+  {
+   "t": 57.07,
+   "spk": "Tom",
+   "line": "I think a one-month try is fair. I'm going to come after work on Thursday.",
+   "ok": false,
+   "hyp": "i think a 1 month try is fair i'm gonna come after work on thursday",
+   "min_prob": 0.47,
+   "flags": [],
+   "f0_med": 111.9
+  }
+ ],
+ "pitch_median_hz": {
+  "Ms. Adeyemi": 176.6,
+  "Tom": 122.5,
+  "Grace": 211.8,
+  "Narrator": 178.6
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.9,
+ "peak": 0.8478,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.9,
+ "per_line": [
+  {
+   "t": 11.19,
+   "spk": "Ms. Adeyemi",
+   "line": "Welcome. Please look at the agenda, which is on your handout. This is the room where we meet.",
+   "ok": true,
+   "hyp": "welcome please look at the agenda which is on your handout this is the room where we meet",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 178.6
+  },
+  {
+   "t": 18.12,
+   "spk": "Tom",
+   "line": "I want to speak about the proposal. I want later hours.",
+   "ok": true,
+   "hyp": "i want to speak about the proposal i want later hours",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 124.8
+  },
+  {
+   "t": 23.59,
+   "spk": "Grace",
+   "line": "I see your point, but I want to keep the current hours. The bus I take stops early.",
+   "ok": true,
+   "hyp": "i see your point but i want to keep the current hours the bus i take stops early",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 216.1
+  },
+  {
+   "t": 30.1,
+   "spk": "Ms. Adeyemi",
+   "line": "The proposal which I read is on page 2. It says a one-month try.",
+   "ok": true,
+   "hyp": "the proposal which i read is on page 2 it says a 1 month try",
+   "min_prob": 0.62,
+   "flags": [],
+   "f0_med": 176.6
+  },
+  {
+   "t": 36.8,
+   "spk": "Tom",
+   "line": "The library which we use closes at six. I want it open until eight.",
+   "ok": true,
+   "hyp": "the library which we use closes at 6 i want it open until 8",
+   "min_prob": 0.62,
+   "flags": [],
+   "f0_med": 121.3
+  },
+  {
+   "t": 43.59,
+   "spk": "Grace",
+   "line": "The stop where I catch the bus is dark after seven. That is my reason.",
+   "ok": true,
+   "hyp": "the stop where i catch the bus is dark after 7 that is my reason",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 207.6
+  },
+  {
+   "t": 49.81,
+   "spk": "Ms. Adeyemi",
+   "line": "The person who takes notes is writing the minutes. Please use the microphone when you speak.",
+   "ok": true,
+   "hyp": "the person who takes notes is writing the minutes please use the microphone when you speak",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 174.5
+  },
+  {
+   "t": 57.07,
+   "spk": "Tom",
+   "line": "I think a one-month try is fair. I'm going to come after work on Thursday.",
+   "ok": false,
+   "hyp": "i think a 1 month try is fair i'm gonna come after work on thursday",
+   "min_prob": 0.47,
+   "flags": [],
+   "f0_med": 111.9
+  },
+  {
+   "t": 63.15,
+   "spk": "Grace",
+   "line": "I see your point, but I need a safe ride. I can try it where the evening bus still runs.",
+   "ok": true,
+   "hyp": "i see your point but i need a safe ride i can try it where the evening bus still runs",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 205.2
+  },
+  {
+   "t": 70.11,
+   "spk": "Ms. Adeyemi",
+   "line": "Please take a question card. Tom, which hours do you want?",
+   "ok": true,
+   "hyp": "please take a question card tom which hours do you want",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 206.4
+  },
+  {
+   "t": 76.16,
+   "spk": "Tom",
+   "line": "I want eight o'clock on Thursday only. I want to keep the change small.",
+   "ok": true,
+   "hyp": "i want 8 oclock on thursday only i want to keep the change small",
+   "min_prob": 0.79,
+   "flags": [],
+   "f0_med": 122.0
+  },
+  {
+   "t": 82.33,
+   "spk": "Grace",
+   "line": "I can agree to Thursday if the sign-in sheet shows how many people come.",
+   "ok": true,
+   "hyp": "i can agree to thursday if the sign in sheet shows how many people come",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 225.0
+  },
+  {
+   "t": 87.12,
+   "spk": "Ms. Adeyemi",
+   "line": "Our decision is a one-month try on Thursday, until eight. The timer says we should stop.",
+   "ok": true,
+   "hyp": "our decision is a 1 month try on thursday until 8 the timer says we should stop",
+   "min_prob": 0.71,
+   "flags": [
+    "sustained non-speech 440ms"
+   ],
+   "f0_med": 172.0
+  },
+  {
+   "t": 95.86,
+   "spk": "Tom",
+   "line": "My name tent is on the table, so the minutes can show who spoke.",
+   "ok": true,
+   "hyp": "my name tent is on the table so the minutes can show who spoke",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 123.1
+  },
+  {
+   "t": 101.0,
+   "spk": "Grace",
+   "line": "The auditorium is too big. This library room is the place where we should meet.",
+   "ok": true,
+   "hyp": "the auditorium is too big this library room is the place where we should meet",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 216.1
+  },
+  {
+   "t": 107.89,
+   "spk": "Ms. Adeyemi",
+   "line": "I am going to put the decision in the minutes. Thank you. I am glad the meeting was calm.",
+   "ok": true,
+   "hyp": "i am going to put the decision in the minutes thank you i am glad the meeting was calm",
+   "min_prob": 0.46,
+   "flags": [],
+   "f0_med": 168.1
+  },
+  {
+   "t": 115.2,
+   "spk": "Tom",
+   "line": "I want to ask one question. Which bus still runs at eight?",
+   "ok": true,
+   "hyp": "i want to ask 1 question which bus still runs at 8",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 128.5
+  },
+  {
+   "t": 120.9,
+   "spk": "Grace",
+   "line": "The bus where I get off stops at seven. Thursday is the only day I can try.",
+   "ok": true,
+   "hyp": "the bus where i get off stops at 7 thursday is the only day i can try",
+   "min_prob": 0.56,
+   "flags": [],
+   "f0_med": 200.5
+  },
+  {
+   "t": 127.28,
+   "spk": "Ms. Adeyemi",
+   "line": "Then Thursday is the try. We are not going to move the meeting to the auditorium.",
+   "ok": true,
+   "hyp": "then thursday is the try we are not going to move the meeting to the auditorium",
+   "min_prob": 0.91,
+   "flags": [],
+   "f0_med": 180.7
+  }
+ ],
+ "hyp": "lesson 12 this is a short meeting at the library miss adeyemi is the chairperson tom and grace are going to talk about evening hours welcome please look at the agenda which is on your handout this is the room where we meet i want to speak about the proposal i want later hours i see your point but i want to keep the current hours the bus i take stops early the proposal which i read is on page 2 it says a 1 month try the library which we use closes at 6 i want it open until 8 the stop where i catch the bus is dark after 7 that is my reason the person who takes notes is writing the minutes please use the microphone when you speak i think a 1 month try is fair i'm going to come after work on thursday i see your point but i need a safe ride i can try it where the evening bus still runs please take a question card tom which hours do you want i want 8 oclock on thursday only i want to keep the change small i can agree to thursday if the sign in sheet shows how many people come our decision is a 1 month try on thursday until 8 the timer says we should stop my name tent is on the table so the minutes can show who spoke the auditorium is too big this library room is the place where we should meet i am going to put the decision in the minutes thank you i am glad the meeting was calm i want to ask 1 question which bus still runs at 8 the bus where i get off stops at 7 thursday is the only day i can try then thursday is the try we are not going to move the meeting to the auditorium that's the end of the listening"
+}

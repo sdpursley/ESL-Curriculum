@@ -1,0 +1,125 @@
+[
+ {
+  "file": "L5_L13_outline.png",
+  "lesson": "Level5-L13",
+  "word": "outline",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "1f4dd"
+  ],
+  "note": "a clipboard and a memo [sign: OUTLINE]"
+ },
+ {
+  "file": "L5_L13_notecard.png",
+  "lesson": "Level5-L13",
+  "word": "notecard",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c7"
+  ],
+  "note": "an index card [sign: NOTECARD]"
+ },
+ {
+  "file": "L5_L13_pause.png",
+  "lesson": "Level5-L13",
+  "word": "pause",
+  "kind": "vocab",
+  "twemoji": [
+   "23f8"
+  ],
+  "note": "a pause button [sign: PAUSE]"
+ },
+ {
+  "file": "L5_L13_eye_contact.png",
+  "lesson": "Level5-L13",
+  "word": "eye contact",
+  "kind": "vocab",
+  "twemoji": [
+   "1f440"
+  ],
+  "note": "a pair of eyes [sign: LOOK UP]"
+ },
+ {
+  "file": "L5_L13_introduction.png",
+  "lesson": "Level5-L13",
+  "word": "introduction",
+  "kind": "vocab",
+  "twemoji": [
+   "1f44b"
+  ],
+  "note": "a waving hand [sign: HELLO]"
+ },
+ {
+  "file": "L5_L13_example.png",
+  "lesson": "Level5-L13",
+  "word": "example",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a1"
+  ],
+  "note": "a light bulb [sign: EXAMPLE]"
+ },
+ {
+  "file": "L5_L13_conclusion.png",
+  "lesson": "Level5-L13",
+  "word": "conclusion",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3c1"
+  ],
+  "note": "a checkered flag [sign: THE END]"
+ },
+ {
+  "file": "L5_L13_mentor.png",
+  "lesson": "Level5-L13",
+  "word": "mentor",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ac",
+   "1f9d1"
+  ],
+  "note": "a person and a speech balloon [sign: MENTOR]"
+ },
+ {
+  "file": "L5_L13_applause.png",
+  "lesson": "Level5-L13",
+  "word": "applause",
+  "kind": "vocab",
+  "twemoji": [
+   "1f44f"
+  ],
+  "note": "clapping hands [sign: APPLAUSE]"
+ },
+ {
+  "file": "L5_L13_community_center.png",
+  "lesson": "Level5-L13",
+  "word": "community center",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3eb",
+   "1f465"
+  ],
+  "note": "a school building and two people [sign: CENTER]"
+ },
+ {
+  "file": "L5_L13_achievement.png",
+  "lesson": "Level5-L13",
+  "word": "achievement",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3c6"
+  ],
+  "note": "a trophy"
+ },
+ {
+  "file": "L5_L13_stopwatch.png",
+  "lesson": "Level5-L13",
+  "word": "stopwatch",
+  "kind": "vocab",
+  "twemoji": [
+   "23f1"
+  ],
+  "note": "a stopwatch"
+ }
+]

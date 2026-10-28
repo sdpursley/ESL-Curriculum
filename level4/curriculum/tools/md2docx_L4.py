@@ -187,6 +187,10 @@ def add_subst(rows):
     cells=parse_rows(rows); n=max(len(c) for c in cells)
     for r in cells:
         while len(r)<n: r.append('')
+    # Level 5 Lessons 7–9 mark a plain QUESTION | ANSWER table with <!-- subst --> and no gap column.
+    if '‖' not in cells[0]:
+        add_table(rows)
+        return
     g=cells[0].index('‖')
     t=doc.add_table(rows=len(cells),cols=n); t.alignment=WD_TABLE_ALIGNMENT.CENTER; t.autofit=False
     tbl_margins(t,top=70,side=110)

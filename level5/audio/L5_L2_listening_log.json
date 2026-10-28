@@ -1,0 +1,833 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Ms. Cole": "refs/Kim.wav",
+   "Priya": "refs/Rosa.wav",
+   "Ben": "refs/Sam.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson two. Priya and Ben work at a new bakery.",
+    "tts_text": "Lesson two. Priya and Ben work at a new bakery.",
+    "seed": 2026,
+    "hyp": "lesson 2 priya and ben work at a new bakery",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.57,
+    "mean_prob": 0.92,
+    "dur": 3.18,
+    "raw_peak": 0.562,
+    "pitch_ok": true,
+    "score": 1.521,
+    "f0_med": 176.6,
+    "f0_st_sd": 4.14,
+    "f0_range_st": 13.16
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Opening day is tomorrow.",
+    "tts_text": "Opening day is tomorrow.",
+    "seed": 2026,
+    "hyp": "opening day is tomorrow",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.91,
+    "dur": 1.74,
+    "raw_peak": 0.533,
+    "pitch_ok": true,
+    "score": 1.491,
+    "f0_med": 189.2,
+    "f0_st_sd": 3.89,
+    "f0_range_st": 11.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Ms. Cole, the inspector, is here today.",
+    "tts_text": "Miss Cole, the inspector, is here today.",
+    "seed": 9945,
+    "hyp": "miss cole the inspector is here today",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.91,
+    "dur": 2.56,
+    "raw_peak": 0.603,
+    "pitch_ok": true,
+    "score": 1.431,
+    "f0_med": 167.6,
+    "f0_st_sd": 3.49,
+    "f0_range_st": 11.37
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Cole",
+    "text": "Good morning. I'm Ms. Cole.",
+    "tts_text": "Good morning. I'm Miss Cole.",
+    "seed": 2026,
+    "hyp": "good morning i'm miss cole",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.89,
+    "dur": 2.03,
+    "raw_peak": 0.253,
+    "pitch_ok": true,
+    "score": 1.487,
+    "f0_med": 195.9,
+    "f0_st_sd": 4.2,
+    "f0_range_st": 13.26
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Cole",
+    "text": "Is the bakery open yet?",
+    "tts_text": "Is the bakery open yet?",
+    "seed": 2026,
+    "hyp": "is the bakery open yet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.64,
+    "raw_peak": 0.254,
+    "pitch_ok": true,
+    "score": 1.539,
+    "f0_med": 189.2,
+    "f0_st_sd": 3.79,
+    "f0_range_st": 13.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Priya",
+    "text": "Not yet. We want to open tomorrow.",
+    "tts_text": "Not yet. We want to open tomorrow.",
+    "seed": 2026,
+    "hyp": "not yet we want to open tomorrow",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.99,
+    "dur": 2.45,
+    "raw_peak": 0.62,
+    "pitch_ok": true,
+    "score": 1.328,
+    "f0_med": 211.2,
+    "f0_st_sd": 2.28,
+    "f0_range_st": 9.02
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Priya",
+    "text": "We are going to cut the ribbon in the morning.",
+    "tts_text": "We are going to cut the ribbon in the morning.",
+    "seed": 2026,
+    "hyp": "we are going to cut the ribbon in the morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.96,
+    "dur": 2.35,
+    "raw_peak": 0.548,
+    "pitch_ok": true,
+    "score": 1.456,
+    "f0_med": 231.6,
+    "f0_st_sd": 3.31,
+    "f0_range_st": 11.06
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Cole",
+    "text": "What had you already finished before I arrived?",
+    "tts_text": "What had you already finished before I arrived?",
+    "seed": 2026,
+    "hyp": "what had you already finished before i arrived",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.98,
+    "dur": 3.02,
+    "raw_peak": 0.283,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 186.0,
+    "f0_st_sd": 6.01,
+    "f0_range_st": 24.53
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "By the time you arrived, we had already painted the walls.",
+    "tts_text": "By the time you arrived, we had already painted the walls.",
+    "seed": 2026,
+    "hyp": "by the time you arrived we had already painted the walls",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.99,
+    "dur": 3.29,
+    "raw_peak": 0.391,
+    "pitch_ok": true,
+    "score": 1.379,
+    "f0_med": 122.7,
+    "f0_st_sd": 2.61,
+    "f0_range_st": 8.28
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Priya",
+    "text": "When the oven was delivered, Ben had already cleaned the kitchen.",
+    "tts_text": "When the oven was delivered, Ben had already cleaned the kitchen.",
+    "seed": 2026,
+    "hyp": "when the oven was delivered ben had already cleaned the kitchen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.99,
+    "mean_prob": 1.0,
+    "dur": 3.21,
+    "raw_peak": 0.661,
+    "pitch_ok": true,
+    "score": 1.489,
+    "f0_med": 223.7,
+    "f0_st_sd": 3.28,
+    "f0_range_st": 10.16
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Cole",
+    "text": "Had you finished the store sign before the poster went up?",
+    "tts_text": "Had you finished the store sign before the poster went up?",
+    "seed": 9945,
+    "hyp": "had you finished the store sign before the poster went up",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.96,
+    "dur": 2.97,
+    "raw_peak": 0.243,
+    "pitch_ok": true,
+    "score": 1.564,
+    "f0_med": 216.1,
+    "f0_st_sd": 4.62,
+    "f0_range_st": 12.98
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "Yes, we had.",
+    "tts_text": "Yes, we had.",
+    "seed": 9945,
+    "hyp": "yes we had",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.96,
+    "dur": 1.02,
+    "raw_peak": 0.289,
+    "pitch_ok": true,
+    "score": 1.475,
+    "f0_med": 109.9,
+    "f0_st_sd": 3.41,
+    "f0_range_st": 13.26
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "The sign was first.",
+    "tts_text": "The sign was first.",
+    "seed": 2026,
+    "hyp": "the sign was first",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.93,
+    "dur": 1.82,
+    "raw_peak": 0.811,
+    "pitch_ok": true,
+    "score": 1.196,
+    "f0_med": 140.1,
+    "f0_st_sd": 1.79,
+    "f0_range_st": 5.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "Then the poster went up.",
+    "tts_text": "Then the poster went up.",
+    "seed": 9945,
+    "hyp": "then the poster went up",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.94,
+    "dur": 1.44,
+    "raw_peak": 0.533,
+    "pitch_ok": true,
+    "score": 1.478,
+    "f0_med": 122.7,
+    "f0_st_sd": 3.61,
+    "f0_range_st": 10.61
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Priya",
+    "text": "We had already picked up the permit before we painted.",
+    "tts_text": "We had already picked up the permit before we painted.",
+    "seed": 2026,
+    "hyp": "we had already picked up the permit before we painted",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.99,
+    "dur": 2.73,
+    "raw_peak": 0.538,
+    "pitch_ok": true,
+    "score": 1.407,
+    "f0_med": 223.7,
+    "f0_st_sd": 2.78,
+    "f0_range_st": 9.13
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "First I cleaned the kitchen.",
+    "tts_text": "First I cleaned the kitchen.",
+    "seed": 9945,
+    "hyp": "first i cleaned the kitchen",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.95,
+    "dur": 1.65,
+    "raw_peak": 0.49,
+    "pitch_ok": true,
+    "score": 1.105,
+    "f0_med": 138.5,
+    "f0_st_sd": 1.06,
+    "f0_range_st": 2.84
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "Second, the oven arrived.",
+    "tts_text": "Second, the oven arrived.",
+    "seed": 9945,
+    "hyp": "second the oven arrived",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.96,
+    "dur": 2.02,
+    "raw_peak": 0.71,
+    "pitch_ok": true,
+    "score": 1.555,
+    "f0_med": 114.8,
+    "f0_st_sd": 4.06,
+    "f0_range_st": 12.52
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "Third, we painted.",
+    "tts_text": "Third, we painted.",
+    "seed": 2026,
+    "hyp": "third we painted",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.93,
+    "dur": 1.69,
+    "raw_peak": 0.442,
+    "pitch_ok": true,
+    "score": 1.266,
+    "f0_med": 137.7,
+    "f0_st_sd": 2.25,
+    "f0_range_st": 6.52
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "Fourth, the poster went up.",
+    "tts_text": "Fourth, the poster went up.",
+    "seed": 2026,
+    "hyp": "fourth the poster went up",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.58,
+    "raw_peak": 0.516,
+    "pitch_ok": true,
+    "score": 1.402,
+    "f0_med": 88.3,
+    "f0_st_sd": 2.88,
+    "f0_range_st": 7.83
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "You arrived last.",
+    "tts_text": "You arrived last.",
+    "seed": 2026,
+    "hyp": "you arrived last",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.91,
+    "dur": 1.66,
+    "raw_peak": 0.406,
+    "pitch_ok": true,
+    "score": 1.462,
+    "f0_med": 111.2,
+    "f0_st_sd": 3.7,
+    "f0_range_st": 14.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Cole",
+    "text": "Was the painter still working when I knocked?",
+    "tts_text": "Was the painter still working when I knocked?",
+    "seed": 17864,
+    "hyp": "was the painter still working when i knocked",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.97,
+    "dur": 2.37,
+    "raw_peak": 0.274,
+    "pitch_ok": true,
+    "score": 1.419,
+    "f0_med": 218.6,
+    "f0_st_sd": 3.02,
+    "f0_range_st": 10.62
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Priya",
+    "text": "Yes. The painter was still working.",
+    "tts_text": "Yes. The painter was still working.",
+    "seed": 2026,
+    "hyp": "yes the painter was still working",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 2.52,
+    "raw_peak": 0.359,
+    "pitch_ok": true,
+    "score": 1.344,
+    "f0_med": 231.0,
+    "f0_st_sd": 2.53,
+    "f0_range_st": 7.58
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Priya",
+    "text": "The walls are dry now.",
+    "tts_text": "The walls are dry now.",
+    "seed": 2026,
+    "hyp": "the walls are dry now",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 1.29,
+    "raw_peak": 0.486,
+    "pitch_ok": true,
+    "score": 1.48,
+    "f0_med": 207.0,
+    "f0_st_sd": 3.32,
+    "f0_range_st": 10.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Cole",
+    "text": "The display case and the awning look ready.",
+    "tts_text": "The display case and the awning look ready.",
+    "seed": 2026,
+    "hyp": "the display case and the awning look ready",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.95,
+    "dur": 2.61,
+    "raw_peak": 0.258,
+    "pitch_ok": true,
+    "score": 1.553,
+    "f0_med": 184.9,
+    "f0_st_sd": 4.99,
+    "f0_range_st": 21.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Cole",
+    "text": "You can open tomorrow.",
+    "tts_text": "You can open tomorrow.",
+    "seed": 17864,
+    "hyp": "you can open tomorrow",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.49,
+    "raw_peak": 0.29,
+    "pitch_ok": true,
+    "score": 1.567,
+    "f0_med": 213.6,
+    "f0_st_sd": 6.83,
+    "f0_range_st": 24.8
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "The counter was ready yesterday. Thank you.",
+    "tts_text": "The counter was ready yesterday. Thank you.",
+    "seed": 9945,
+    "hyp": "the counter was ready yesterday thank you",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.96,
+    "dur": 2.62,
+    "raw_peak": 0.545,
+    "pitch_ok": true,
+    "score": 1.464,
+    "f0_med": 130.0,
+    "f0_st_sd": 3.35,
+    "f0_range_st": 10.28
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Cole",
+    "text": "Bring the permit to the door in the morning.",
+    "tts_text": "Bring the permit to the door in the morning.",
+    "seed": 9945,
+    "hyp": "bring the permit to the door in the morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 1.86,
+    "raw_peak": 0.265,
+    "pitch_ok": true,
+    "score": 1.52,
+    "f0_med": 186.5,
+    "f0_st_sd": 3.58,
+    "f0_range_st": 11.87
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ben",
+    "text": "We will. It is already in the folder.",
+    "tts_text": "We will. It is already in the folder.",
+    "seed": 2026,
+    "hyp": "we will it is already in the folder",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 2.74,
+    "raw_peak": 0.572,
+    "pitch_ok": true,
+    "score": 1.312,
+    "f0_med": 140.1,
+    "f0_st_sd": 2.27,
+    "f0_range_st": 8.26
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Priya",
+    "text": "We want to tell the staff tonight.",
+    "tts_text": "We want to tell the staff tonight.",
+    "seed": 2026,
+    "hyp": "we want to tell the staff tonight",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 1.89,
+    "raw_peak": 0.667,
+    "pitch_ok": true,
+    "score": 1.591,
+    "f0_med": 218.6,
+    "f0_st_sd": 5.45,
+    "f0_range_st": 16.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Priya",
+    "text": "We are going to hang the ribbon in the morning.",
+    "tts_text": "We are going to hang the ribbon in the morning.",
+    "seed": 2026,
+    "hyp": "we are going to hang the ribbon in the morning",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.98,
+    "dur": 2.35,
+    "raw_peak": 0.431,
+    "pitch_ok": true,
+    "score": 1.458,
+    "f0_med": 204.0,
+    "f0_st_sd": 3.19,
+    "f0_range_st": 10.34
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   10.68,
+   14.9,
+   "Ms. Cole",
+   "Good morning. I'm Ms. Cole. Is the bakery open yet?"
+  ],
+  [
+   16.3,
+   21.65,
+   "Priya",
+   "Not yet. We want to open tomorrow. We are going to cut the ribbon in the morning."
+  ],
+  [
+   23.05,
+   26.07,
+   "Ms. Cole",
+   "What had you already finished before I arrived?"
+  ],
+  [
+   27.47,
+   30.76,
+   "Ben",
+   "By the time you arrived, we had already painted the walls."
+  ],
+  [
+   32.16,
+   35.37,
+   "Priya",
+   "When the oven was delivered, Ben had already cleaned the kitchen."
+  ],
+  [
+   36.77,
+   39.74,
+   "Ms. Cole",
+   "Had you finished the store sign before the poster went up?"
+  ],
+  [
+   41.14,
+   46.52,
+   "Ben",
+   "Yes, we had. The sign was first. Then the poster went up."
+  ],
+  [
+   47.92,
+   50.65,
+   "Priya",
+   "We had already picked up the permit before we painted."
+  ],
+  [
+   52.05,
+   62.85,
+   "Ben",
+   "First I cleaned the kitchen. Second, the oven arrived. Third, we painted. Fourth, the poster went up. You arrived last."
+  ],
+  [
+   64.25,
+   66.62,
+   "Ms. Cole",
+   "Was the painter still working when I knocked?"
+  ],
+  [
+   68.02,
+   72.38,
+   "Priya",
+   "Yes. The painter was still working. The walls are dry now."
+  ],
+  [
+   73.78,
+   78.43,
+   "Ms. Cole",
+   "The display case and the awning look ready. You can open tomorrow."
+  ],
+  [
+   79.83,
+   82.45,
+   "Ben",
+   "The counter was ready yesterday. Thank you."
+  ],
+  [
+   83.85,
+   85.71,
+   "Ms. Cole",
+   "Bring the permit to the door in the morning."
+  ],
+  [
+   87.11,
+   89.85,
+   "Ben",
+   "We will. It is already in the folder."
+  ],
+  [
+   91.25,
+   96.04,
+   "Priya",
+   "We want to tell the staff tonight. We are going to hang the ribbon in the morning."
+  ]
+ ]
+}

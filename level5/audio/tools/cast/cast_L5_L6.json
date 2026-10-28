@@ -1,0 +1,24 @@
+{
+ "TITLE": "She Told Me to Call",
+ "VOICES": {
+  "Narrator": "N",
+  "Jana": "Rosa",
+  "Nurse Patel": "Kim",
+  "Ken": "Sam"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Jana",
+  "Nurse Patel"
+ ],
+ "NAMES": [
+  "Jana",
+  "Patel",
+  "Ken"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

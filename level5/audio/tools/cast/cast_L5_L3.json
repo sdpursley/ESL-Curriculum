@@ -1,0 +1,21 @@
+{
+ "TITLE": "I Wish I Had Asked",
+ "VOICES": {
+  "Narrator": "N",
+  "Alicia": "Rosa",
+  "Chris": "Marco"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Alicia"
+ ],
+ "NAMES": [
+  "Alicia",
+  "Chris"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

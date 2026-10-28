@@ -61,7 +61,12 @@ level3/drafts/audio/tools/out/
 
 # Level 4 (Lessons 1-13): build caches, generated reference clips, local audio runs
 level4/images/tools/_twemoji_src/
+level5/images/tools/_twemoji_src/
 level4/audio/tools/refs/
 level4/audio/tools/cache/
 level4/audio/tools/out/
 level4/**/*.wav
+level5/audio/tools/refs/
+level5/audio/tools/cache/
+level5/audio/tools/out/
+level5/**/*.wav

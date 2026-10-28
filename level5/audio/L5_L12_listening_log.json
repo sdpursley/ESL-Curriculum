@@ -1,0 +1,1058 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Ms. Adeyemi": "refs/Kim.wav",
+   "Grace": "refs/Rosa.wav",
+   "Tom": "refs/Sam.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson twelve. This is a short meeting at the library.",
+    "tts_text": "Lesson twelve. This is a short meeting at the library.",
+    "seed": 2026,
+    "hyp": "lesson 12 this is a short meeting at the library",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 3.16,
+    "raw_peak": 0.681,
+    "pitch_ok": true,
+    "score": 1.57,
+    "f0_med": 177.1,
+    "f0_st_sd": 4.2,
+    "f0_range_st": 14.87
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Ms. Adeyemi is the chairperson.",
+    "tts_text": "Miss Adeyemi is the chairperson.",
+    "seed": 57459,
+    "hyp": "miss adeyemi is the chairperson",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.55,
+    "mean_prob": 0.85,
+    "dur": 2.32,
+    "raw_peak": 0.683,
+    "pitch_ok": true,
+    "score": 1.356,
+    "f0_med": 186.0,
+    "f0_st_sd": 3.38,
+    "f0_range_st": 9.68
+   },
+   "tries": 8,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Tom and Grace are going to talk about evening hours.",
+    "tts_text": "Tom and Grace are going to talk about evening hours.",
+    "seed": 2026,
+    "hyp": "tom and grace are going to talk about evening hours",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.51,
+    "raw_peak": 0.535,
+    "pitch_ok": true,
+    "score": 1.437,
+    "f0_med": 174.5,
+    "f0_st_sd": 3.03,
+    "f0_range_st": 10.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "Welcome. Please look at the agenda, which is on your handout.",
+    "tts_text": "Welcome. Please look at the agenda, which is on your handout.",
+    "seed": 2026,
+    "hyp": "welcome please look at the agenda which is on your handout",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.97,
+    "dur": 3.3,
+    "raw_peak": 0.316,
+    "pitch_ok": true,
+    "score": 1.52,
+    "f0_med": 185.4,
+    "f0_st_sd": 3.69,
+    "f0_range_st": 10.92
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "This is the room where we meet.",
+    "tts_text": "This is the room where we meet.",
+    "seed": 9945,
+    "hyp": "this is the room where we meet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 1.68,
+    "raw_peak": 0.248,
+    "pitch_ok": true,
+    "score": 1.584,
+    "f0_med": 169.6,
+    "f0_st_sd": 3.99,
+    "f0_range_st": 11.72
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "I want to speak about the proposal.",
+    "tts_text": "I want to speak about the proposal.",
+    "seed": 2026,
+    "hyp": "i want to speak about the proposal",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.98,
+    "dur": 1.82,
+    "raw_peak": 0.493,
+    "pitch_ok": true,
+    "score": 1.368,
+    "f0_med": 118.5,
+    "f0_st_sd": 2.59,
+    "f0_range_st": 7.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "I want later hours.",
+    "tts_text": "I want later hours.",
+    "seed": 2026,
+    "hyp": "i want later hours",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 1.7,
+    "raw_peak": 0.659,
+    "pitch_ok": true,
+    "score": 1.219,
+    "f0_med": 127.8,
+    "f0_st_sd": 1.75,
+    "f0_range_st": 5.28
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "I see your point, but I want to keep the current hours.",
+    "tts_text": "I see your point, but I want to keep the current hours.",
+    "seed": 2026,
+    "hyp": "i see your point but i want to keep the current hours",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.99,
+    "dur": 2.76,
+    "raw_peak": 0.686,
+    "pitch_ok": true,
+    "score": 1.452,
+    "f0_med": 209.4,
+    "f0_st_sd": 3.1,
+    "f0_range_st": 10.42
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "The bus I take stops early.",
+    "tts_text": "The bus I take stops early.",
+    "seed": 2026,
+    "hyp": "the bus i take stops early",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.8,
+    "raw_peak": 0.691,
+    "pitch_ok": true,
+    "score": 1.575,
+    "f0_med": 214.9,
+    "f0_st_sd": 4.03,
+    "f0_range_st": 12.52
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "The proposal which I read is on page 2.",
+    "tts_text": "The proposal which I read is on page 2.",
+    "seed": 17864,
+    "hyp": "the proposal which i read is on page 2",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.54,
+    "mean_prob": 0.91,
+    "dur": 2.83,
+    "raw_peak": 0.222,
+    "pitch_ok": true,
+    "score": 1.511,
+    "f0_med": 193.7,
+    "f0_st_sd": 4.64,
+    "f0_range_st": 12.02
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "It says a one-month try.",
+    "tts_text": "It says a one-month try.",
+    "seed": 17864,
+    "hyp": "it says a 1 month try",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.89,
+    "dur": 1.92,
+    "raw_peak": 0.29,
+    "pitch_ok": true,
+    "score": 1.353,
+    "f0_med": 168.6,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 10.15
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "The library which we use closes at six.",
+    "tts_text": "The library which we use closes at six.",
+    "seed": 2026,
+    "hyp": "the library which we use closes at 6",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.69,
+    "mean_prob": 0.9,
+    "dur": 3.14,
+    "raw_peak": 0.552,
+    "pitch_ok": true,
+    "score": 1.351,
+    "f0_med": 118.9,
+    "f0_st_sd": 2.99,
+    "f0_range_st": 8.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "I want it open until eight.",
+    "tts_text": "I want it open until eight.",
+    "seed": 2026,
+    "hyp": "i want it open until 8",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.94,
+    "dur": 1.7,
+    "raw_peak": 0.638,
+    "pitch_ok": true,
+    "score": 1.489,
+    "f0_med": 136.9,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 10.22
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "The stop where I catch the bus is dark after seven.",
+    "tts_text": "The stop where I catch the bus is dark after seven.",
+    "seed": 2026,
+    "hyp": "the stop where i catch the bus is dark after 7",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.52,
+    "mean_prob": 0.94,
+    "dur": 2.68,
+    "raw_peak": 0.649,
+    "pitch_ok": true,
+    "score": 1.366,
+    "f0_med": 205.2,
+    "f0_st_sd": 2.81,
+    "f0_range_st": 8.02
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "That is my reason.",
+    "tts_text": "That is my reason.",
+    "seed": 17864,
+    "hyp": "that is my reason",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.95,
+    "dur": 1.59,
+    "raw_peak": 0.614,
+    "pitch_ok": true,
+    "score": 1.275,
+    "f0_med": 204.6,
+    "f0_st_sd": 2.15,
+    "f0_range_st": 7.53
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "The person who takes notes is writing the minutes.",
+    "tts_text": "The person who takes notes is writing the minutes.",
+    "seed": 2026,
+    "hyp": "the person who takes notes is writing the minutes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.88,
+    "mean_prob": 0.98,
+    "dur": 3.05,
+    "raw_peak": 0.284,
+    "pitch_ok": true,
+    "score": 1.582,
+    "f0_med": 183.8,
+    "f0_st_sd": 5.33,
+    "f0_range_st": 15.73
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "Please use the microphone when you speak.",
+    "tts_text": "Please use the microphone when you speak.",
+    "seed": 49540,
+    "hyp": "please use the microphone when you speak",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.84,
+    "mean_prob": 0.97,
+    "dur": 2.26,
+    "raw_peak": 0.218,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 165.7,
+    "f0_st_sd": 6.08,
+    "f0_range_st": 21.8
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "I think a one-month try is fair.",
+    "tts_text": "I think a one-month try is fair.",
+    "seed": 2026,
+    "hyp": "i think a 1 month try is fair",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.92,
+    "dur": 2.21,
+    "raw_peak": 0.461,
+    "pitch_ok": true,
+    "score": 1.331,
+    "f0_med": 118.5,
+    "f0_st_sd": 2.72,
+    "f0_range_st": 7.98
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "I'm going to come after work on Thursday.",
+    "tts_text": "I'm going to come after work on Thursday.",
+    "seed": 2026,
+    "hyp": "i'm going to come after work on thursday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.94,
+    "dur": 1.92,
+    "raw_peak": 0.402,
+    "pitch_ok": true,
+    "score": 1.293,
+    "f0_med": 109.6,
+    "f0_st_sd": 2.36,
+    "f0_range_st": 7.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "I see your point, but I need a safe ride.",
+    "tts_text": "I see your point, but I need a safe ride.",
+    "seed": 2026,
+    "hyp": "i see your point but i need a safe ride",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.99,
+    "dur": 2.72,
+    "raw_peak": 0.662,
+    "pitch_ok": true,
+    "score": 1.512,
+    "f0_med": 194.8,
+    "f0_st_sd": 3.49,
+    "f0_range_st": 10.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "I can try it where the evening bus still runs.",
+    "tts_text": "I can try it where the evening bus still runs.",
+    "seed": 2026,
+    "hyp": "i can try it where the evening bus still runs",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 2.29,
+    "raw_peak": 0.644,
+    "pitch_ok": true,
+    "score": 1.591,
+    "f0_med": 207.6,
+    "f0_st_sd": 4.29,
+    "f0_range_st": 13.16
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "Please take a question card.",
+    "tts_text": "Please take a question card.",
+    "seed": 2026,
+    "hyp": "please take a question card",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.94,
+    "dur": 1.68,
+    "raw_peak": 0.173,
+    "pitch_ok": true,
+    "score": 1.542,
+    "f0_med": 201.1,
+    "f0_st_sd": 7.98,
+    "f0_range_st": 28.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "Tom, which hours do you want?",
+    "tts_text": "Tom, which hours do you want?",
+    "seed": 9945,
+    "hyp": "tom which hours do you want",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 2.42,
+    "raw_peak": 0.262,
+    "pitch_ok": true,
+    "score": 1.504,
+    "f0_med": 212.4,
+    "f0_st_sd": 3.53,
+    "f0_range_st": 10.9
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "I want eight o'clock on Thursday only.",
+    "tts_text": "I want eight o'clock on Thursday only.",
+    "seed": 2026,
+    "hyp": "i want 8 oclock on thursday only",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.93,
+    "dur": 2.5,
+    "raw_peak": 0.525,
+    "pitch_ok": true,
+    "score": 1.368,
+    "f0_med": 118.9,
+    "f0_st_sd": 2.95,
+    "f0_range_st": 10.57
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "I want to keep the change small.",
+    "tts_text": "I want to keep the change small.",
+    "seed": 57459,
+    "hyp": "i want to keep the change small",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.72,
+    "raw_peak": 0.414,
+    "pitch_ok": true,
+    "score": 1.305,
+    "f0_med": 130.0,
+    "f0_st_sd": 2.11,
+    "f0_range_st": 6.93
+   },
+   "tries": 8,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "I can agree to Thursday if the sign-in sheet shows how many people come.",
+    "tts_text": "I can agree to Thursday if the sign-in sheet shows how many people come.",
+    "seed": 65378,
+    "hyp": "i can agree to thursday if the sign in sheet shows how many people come",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.97,
+    "dur": 3.39,
+    "raw_peak": 0.657,
+    "pitch_ok": true,
+    "score": 1.569,
+    "f0_med": 225.0,
+    "f0_st_sd": 4.79,
+    "f0_range_st": 11.18
+   },
+   "tries": 9,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "Our decision is a one-month try on Thursday, until eight.",
+    "tts_text": "Our decision is a one-month try on Thursday, until eight.",
+    "seed": 2026,
+    "hyp": "our decision is a 1 month try on thursday until 8",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.66,
+    "mean_prob": 0.91,
+    "dur": 4.08,
+    "raw_peak": 0.358,
+    "pitch_ok": true,
+    "score": 1.513,
+    "f0_med": 175.5,
+    "f0_st_sd": 4.13,
+    "f0_range_st": 9.12
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "The timer says we should stop.",
+    "tts_text": "The timer says we should stop.",
+    "seed": 2026,
+    "hyp": "the timer says we should stop",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.95,
+    "dur": 2.71,
+    "raw_peak": 0.237,
+    "pitch_ok": true,
+    "score": 1.546,
+    "f0_med": 165.7,
+    "f0_st_sd": 8.74,
+    "f0_range_st": 24.48
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "My name tent is on the table, so the minutes can show who spoke.",
+    "tts_text": "My name tent is on the table, so the minutes can show who spoke.",
+    "seed": 49540,
+    "hyp": "my name tent is on the table so the minutes can show who spoke",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.68,
+    "mean_prob": 0.94,
+    "dur": 3.74,
+    "raw_peak": 0.43,
+    "pitch_ok": true,
+    "score": 1.309,
+    "f0_med": 125.6,
+    "f0_st_sd": 2.48,
+    "f0_range_st": 6.98
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "The auditorium is too big.",
+    "tts_text": "The auditorium is too big.",
+    "seed": 9945,
+    "hyp": "the auditorium is too big",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.96,
+    "raw_peak": 0.497,
+    "pitch_ok": true,
+    "score": 1.258,
+    "f0_med": 222.5,
+    "f0_st_sd": 1.9,
+    "f0_range_st": 6.46
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "This library room is the place where we should meet.",
+    "tts_text": "This library room is the place where we should meet.",
+    "seed": 2026,
+    "hyp": "this library room is the place where we should meet",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 2.98,
+    "raw_peak": 0.552,
+    "pitch_ok": true,
+    "score": 1.35,
+    "f0_med": 214.9,
+    "f0_st_sd": 2.42,
+    "f0_range_st": 8.11
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "I am going to put the decision in the minutes.",
+    "tts_text": "I am going to put the decision in the minutes.",
+    "seed": 9945,
+    "hyp": "i am going to put the decision in the minutes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.54,
+    "raw_peak": 0.331,
+    "pitch_ok": true,
+    "score": 1.445,
+    "f0_med": 172.0,
+    "f0_st_sd": 3.07,
+    "f0_range_st": 11.59
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "Thank you. I am glad the meeting was calm.",
+    "tts_text": "Thank you. I am glad the meeting was calm.",
+    "seed": 49540,
+    "hyp": "thank you i am glad the meeting was calm",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 2.82,
+    "raw_peak": 0.402,
+    "pitch_ok": true,
+    "score": 1.396,
+    "f0_med": 166.7,
+    "f0_st_sd": 2.82,
+    "f0_range_st": 9.2
+   },
+   "tries": 7,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "I want to ask one question.",
+    "tts_text": "I want to ask one question.",
+    "seed": 2026,
+    "hyp": "i want to ask 1 question",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.86,
+    "raw_peak": 0.429,
+    "pitch_ok": true,
+    "score": 1.343,
+    "f0_med": 123.4,
+    "f0_st_sd": 2.37,
+    "f0_range_st": 7.45
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Tom",
+    "text": "Which bus still runs at eight?",
+    "tts_text": "Which bus still runs at eight?",
+    "seed": 2026,
+    "hyp": "which bus still runs at 8",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 1.89,
+    "raw_peak": 0.715,
+    "pitch_ok": true,
+    "score": 1.248,
+    "f0_med": 136.9,
+    "f0_st_sd": 1.99,
+    "f0_range_st": 6.67
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "The bus where I get off stops at seven.",
+    "tts_text": "The bus where I get off stops at seven.",
+    "seed": 2026,
+    "hyp": "the bus where i get off stops at 7",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.54,
+    "mean_prob": 0.92,
+    "dur": 2.24,
+    "raw_peak": 0.655,
+    "pitch_ok": true,
+    "score": 1.418,
+    "f0_med": 204.0,
+    "f0_st_sd": 3.3,
+    "f0_range_st": 10.81
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Grace",
+    "text": "Thursday is the only day I can try.",
+    "tts_text": "Thursday is the only day I can try.",
+    "seed": 2026,
+    "hyp": "thursday is the only day i can try",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 2.19,
+    "raw_peak": 0.455,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 198.2,
+    "f0_st_sd": 3.4,
+    "f0_range_st": 10.69
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "Then Thursday is the try.",
+    "tts_text": "Then Thursday is the try.",
+    "seed": 9945,
+    "hyp": "then thursday is the try",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 2.17,
+    "raw_peak": 0.209,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 247.5,
+    "f0_st_sd": 4.27,
+    "f0_range_st": 13.39
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Adeyemi",
+    "text": "We are not going to move the meeting to the auditorium.",
+    "tts_text": "We are not going to move the meeting to the auditorium.",
+    "seed": 57459,
+    "hyp": "we are not going to move the meeting to the auditorium",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 3.24,
+    "raw_peak": 0.299,
+    "pitch_ok": true,
+    "score": 1.375,
+    "f0_med": 174.5,
+    "f0_st_sd": 2.64,
+    "f0_range_st": 9.15
+   },
+   "tries": 8,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   11.19,
+   16.72,
+   "Ms. Adeyemi",
+   "Welcome. Please look at the agenda, which is on your handout. This is the room where we meet."
+  ],
+  [
+   18.12,
+   22.19,
+   "Tom",
+   "I want to speak about the proposal. I want later hours."
+  ],
+  [
+   23.59,
+   28.7,
+   "Grace",
+   "I see your point, but I want to keep the current hours. The bus I take stops early."
+  ],
+  [
+   30.1,
+   35.4,
+   "Ms. Adeyemi",
+   "The proposal which I read is on page 2. It says a one-month try."
+  ],
+  [
+   36.8,
+   42.19,
+   "Tom",
+   "The library which we use closes at six. I want it open until eight."
+  ],
+  [
+   43.59,
+   48.41,
+   "Grace",
+   "The stop where I catch the bus is dark after seven. That is my reason."
+  ],
+  [
+   49.81,
+   55.67,
+   "Ms. Adeyemi",
+   "The person who takes notes is writing the minutes. Please use the microphone when you speak."
+  ],
+  [
+   57.07,
+   61.75,
+   "Tom",
+   "I think a one-month try is fair. I'm going to come after work on Thursday."
+  ],
+  [
+   63.15,
+   68.71,
+   "Grace",
+   "I see your point, but I need a safe ride. I can try it where the evening bus still runs."
+  ],
+  [
+   70.11,
+   74.76,
+   "Ms. Adeyemi",
+   "Please take a question card. Tom, which hours do you want?"
+  ],
+  [
+   76.16,
+   80.93,
+   "Tom",
+   "I want eight o'clock on Thursday only. I want to keep the change small."
+  ],
+  [
+   82.33,
+   85.72,
+   "Grace",
+   "I can agree to Thursday if the sign-in sheet shows how many people come."
+  ],
+  [
+   87.12,
+   94.46,
+   "Ms. Adeyemi",
+   "Our decision is a one-month try on Thursday, until eight. The timer says we should stop."
+  ],
+  [
+   95.86,
+   99.6,
+   "Tom",
+   "My name tent is on the table, so the minutes can show who spoke."
+  ],
+  [
+   101.0,
+   106.49,
+   "Grace",
+   "The auditorium is too big. This library room is the place where we should meet."
+  ],
+  [
+   107.89,
+   113.8,
+   "Ms. Adeyemi",
+   "I am going to put the decision in the minutes. Thank you. I am glad the meeting was calm."
+  ],
+  [
+   115.2,
+   119.5,
+   "Tom",
+   "I want to ask one question. Which bus still runs at eight?"
+  ],
+  [
+   120.9,
+   125.88,
+   "Grace",
+   "The bus where I get off stops at seven. Thursday is the only day I can try."
+  ],
+  [
+   127.28,
+   133.24,
+   "Ms. Adeyemi",
+   "Then Thursday is the try. We are not going to move the meeting to the auditorium."
+  ]
+ ]
+}

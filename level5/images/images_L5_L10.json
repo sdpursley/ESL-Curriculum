@@ -1,0 +1,130 @@
+[
+ {
+  "file": "L5_L10_compromise.png",
+  "lesson": "Level5-L10",
+  "word": "compromise",
+  "kind": "vocab",
+  "twemoji": [
+   "1f91d"
+  ],
+  "note": "a handshake [sign: COMPROMISE]"
+ },
+ {
+  "file": "L5_L10_offer.png",
+  "lesson": "Level5-L10",
+  "word": "offer",
+  "kind": "vocab",
+  "twemoji": [
+   "1f381",
+   "1f4ac"
+  ],
+  "note": "a speech balloon and a gift [sign: OFFER]"
+ },
+ {
+  "file": "L5_L10_counteroffer.png",
+  "lesson": "Level5-L10",
+  "word": "counteroffer",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ac",
+   "1f504"
+  ],
+  "note": "swap arrows and a speech balloon [sign: COUNTEROFFER]"
+ },
+ {
+  "file": "L5_L10_priority.png",
+  "lesson": "Level5-L10",
+  "word": "priority",
+  "kind": "vocab",
+  "twemoji": [
+   "2b50"
+  ],
+  "note": "a star [sign: PRIORITY]"
+ },
+ {
+  "file": "L5_L10_shared_task.png",
+  "lesson": "Level5-L10",
+  "word": "shared task",
+  "kind": "vocab",
+  "twemoji": [
+   "1f465",
+   "1f4cb"
+  ],
+  "note": "two people and a clipboard [sign: SHARED TASK]"
+ },
+ {
+  "file": "L5_L10_solution.png",
+  "lesson": "Level5-L10",
+  "word": "solution",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a1"
+  ],
+  "note": "a light bulb [sign: SOLUTION]"
+ },
+ {
+  "file": "L5_L10_fairness.png",
+  "lesson": "Level5-L10",
+  "word": "fairness",
+  "kind": "vocab",
+  "twemoji": [
+   "2696"
+  ],
+  "note": "a balance scale [sign: FAIR]"
+ },
+ {
+  "file": "L5_L10_sticky_note.png",
+  "lesson": "Level5-L10",
+  "word": "sticky note",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cc",
+   "1f4dd"
+  ],
+  "note": "a memo and a pushpin [sign: NOTE]"
+ },
+ {
+  "file": "L5_L10_break_time.png",
+  "lesson": "Level5-L10",
+  "word": "break time",
+  "kind": "vocab",
+  "twemoji": [
+   "23f0",
+   "2615"
+  ],
+  "note": "a coffee cup and an alarm clock [sign: BREAK]"
+ },
+ {
+  "file": "L5_L10_swap.png",
+  "lesson": "Level5-L10",
+  "word": "swap",
+  "kind": "vocab",
+  "twemoji": [
+   "1f504"
+  ],
+  "note": "swap arrows [sign: SWAP]"
+ },
+ {
+  "file": "L5_L10_whiteboard.png",
+  "lesson": "Level5-L10",
+  "word": "whiteboard",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ca",
+   "1f58a"
+  ],
+  "note": "a chart and a pen"
+ },
+ {
+  "file": "L5_L10_middle.png",
+  "lesson": "Level5-L10",
+  "word": "middle",
+  "kind": "vocab",
+  "twemoji": [
+   "27a1",
+   "2b05",
+   "2b50"
+  ],
+  "note": "a left arrow, a star, and a right arrow"
+ }
+]

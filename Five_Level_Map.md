@@ -72,7 +72,7 @@ Every level is one **16-week semester**: **13 lessons** (Lessons 1–7 in Weeks 
 | **Life-skill themes** | Workplace (performance, scheduling, time off, dress codes); health history, insurance basics, dental and preventive care; housing (locks, home safety, utilities, saving energy); consumer protection and scams; local news and community meetings; travel and packing; cultural norms and etiquette |
 | **Support** | No icons. **No Spanish on instruction lines**; the Spanish note becomes **optional** (a short "contrast tip" box for any language, with Spanish as one example). Personal word list continues. Audio about 1:30–2:15, 2–3 speakers, natural speed with some reductions (*gonna, wanna*); played 2 times. Reading 150–250 words (notices, emails, short news). Exit ticket: a 3-sentence answer with a reason. |
 
-## Level 5: Taking Part (outline only)
+## Level 5: Taking Part
 
 | Part | Plan |
 |---|---|

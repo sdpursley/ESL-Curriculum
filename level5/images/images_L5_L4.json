@@ -1,0 +1,128 @@
+[
+ {
+  "file": "L5_L4_policy.png",
+  "lesson": "Level5-L4",
+  "word": "policy",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e2",
+   "1f4dc"
+  ],
+  "note": "a scroll and an office building [sign: POLICY]"
+ },
+ {
+  "file": "L5_L4_notice.png",
+  "lesson": "Level5-L4",
+  "word": "notice",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c4",
+   "1f4cc"
+  ],
+  "note": "a pushpin and a page [sign: NOTICE]"
+ },
+ {
+  "file": "L5_L4_appointment.png",
+  "lesson": "Level5-L4",
+  "word": "appointment",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c5",
+   "1f553"
+  ],
+  "note": "a calendar and a clock [sign: 4 PM]"
+ },
+ {
+  "file": "L5_L4_cancel.png",
+  "lesson": "Level5-L4",
+  "word": "cancel",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c5"
+  ],
+  "note": "a calendar with a red cross [sign: CANCEL]"
+ },
+ {
+  "file": "L5_L4_confirm.png",
+  "lesson": "Level5-L4",
+  "word": "confirm",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c5"
+  ],
+  "note": "a calendar with a green check [sign: CONFIRMED]"
+ },
+ {
+  "file": "L5_L4_visitor.png",
+  "lesson": "Level5-L4",
+  "word": "visitor",
+  "kind": "vocab",
+  "twemoji": [
+   "1f6aa",
+   "1f9d1"
+  ],
+  "note": "a person and a door [sign: VISITOR]"
+ },
+ {
+  "file": "L5_L4_front_desk.png",
+  "lesson": "Level5-L4",
+  "word": "front desk",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e2",
+   "1f6ce"
+  ],
+  "note": "a desk bell and an office building [sign: FRONT DESK]"
+ },
+ {
+  "file": "L5_L4_office_hours.png",
+  "lesson": "Level5-L4",
+  "word": "office hours",
+  "kind": "vocab",
+  "twemoji": [
+   "1f558"
+  ],
+  "note": "a clock [sign: 9 AM-5 PM]"
+ },
+ {
+  "file": "L5_L4_requirement.png",
+  "lesson": "Level5-L4",
+  "word": "requirement",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb"
+  ],
+  "note": "a clipboard with a green check [sign: REQUIRED]"
+ },
+ {
+  "file": "L5_L4_permission.png",
+  "lesson": "Level5-L4",
+  "word": "permission",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c4",
+   "1f511"
+  ],
+  "note": "a page and a key [sign: YOU MAY]"
+ },
+ {
+  "file": "L5_L4_exception.png",
+  "lesson": "Level5-L4",
+  "word": "exception",
+  "kind": "vocab",
+  "twemoji": [
+   "2b50"
+  ],
+  "note": "a star [sign: ONE TIME]"
+ },
+ {
+  "file": "L5_L4_visitor_badge.png",
+  "lesson": "Level5-L4",
+  "word": "visitor badge",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4db"
+  ],
+  "note": "a name badge [sign: VISITOR]"
+ }
+]

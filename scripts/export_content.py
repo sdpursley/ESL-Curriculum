@@ -101,6 +101,10 @@ LEVELS={
         routine_end='> **Timing is loose', docs=True,
         credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
                 'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added.')),
+ 5:dict(audio=lambda n:f'L5_L{n}_listening.mp3', audio_re=r'^L5_L\d+_listening\.mp3$',
+        routine_end='> **Timing is loose', docs=True,
+        credit=('Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under '
+                'CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added.')),
 }
 def export_level(V):
     cfg=LEVELS[V]; LV=os.path.join(HERE,f'level{V}'); PV=os.path.join(pub,f'level{V}')
@@ -182,7 +186,9 @@ def lesson_page(V,n,src,gv,size):
     gv['L']=open(src,encoding='utf-8').read().split('\n')
     M,findv,mdv,inlinev=gv['L'],gv['find'],gv['md'],gv['inline']
     ti=findv('<!-- part: Teacher Plan'); si=findv('<!-- part: Student Workbook',ti); ci=findv('## Picture Credits',si)
-    head=next(l for l in M[si:] if re.match(rf'## Lesson {n} \(Week \d+\): ',l))
+    title_re=re.compile(rf'## Lesson {n} \(Week \d+\): ')
+    titled=[l for l in M if title_re.match(l)]
+    head=next((l for l in M[si:] if title_re.match(l)), titled[0])
     week,title=re.match(rf'## Lesson {n} \(Week (\d+)\): (.+)',head).groups()
     topic=next((l[2:].strip() for l in M[:ti] if l.startswith('> **Topic:**')),'')
     topic=re.sub(r'^\*\*Topic:\*\*\s*','',topic)
@@ -197,7 +203,8 @@ def lesson_page(V,n,src,gv,size):
         pics=any(word_re.search(l) for l in body)
         if h.startswith(f'Lesson {n} (Week') and ' · ' in h:
             name=h.split(' · ',1)[1]
-            if name=='New Words' and pics: kind='words'
+            if name in ('New Words', 'Words') and pics: kind='words'
+            if name=='Words': name='New Words'
         elif h.startswith(f'Lesson {n} (Week') and (pics or not any(x.startswith(f'Lesson {n} (Week') and x.endswith(' · New Words') for x in heads)):
             name='New Words'; kind='words'
         elif h.startswith(f'Lesson {n} (Week'):   # the lesson title page before a separate New Words page: name it after its first task ('Hello + Review')

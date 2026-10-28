@@ -1,0 +1,209 @@
+{
+ "file": "L5_L9_listening.mp3",
+ "duration_s": 110.41,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 247,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "18/18",
+ "lines_with_flags": [],
+ "lines_not_exact": [],
+ "pitch_median_hz": {
+  "Noah": 124.1,
+  "Aisha": 187.1,
+  "Narrator": 188.1
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.2,
+ "peak": 0.882,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 10.54,
+   "spk": "Noah",
+   "line": "Aisha, please look at this post. It says our grocery store is closing on Friday.",
+   "ok": true,
+   "hyp": "aisha please look at this post it says our grocery store is closing on friday",
+   "min_prob": 0.26,
+   "flags": [],
+   "f0_med": 113.2
+  },
+  {
+   "t": 16.33,
+   "spk": "Aisha",
+   "line": "Do you know who wrote it? I don't see an author.",
+   "ok": true,
+   "hyp": "do you know who wrote it i don't see an author",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 181.7
+  },
+  {
+   "t": 22.07,
+   "spk": "Noah",
+   "line": "There is no author. And I don't see a date stamp.",
+   "ok": true,
+   "hyp": "there is no author and i don't see a date stamp",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 124.1
+  },
+  {
+   "t": 26.66,
+   "spk": "Aisha",
+   "line": "Then it might be old. It might be a rumor. I'm going to look for the store's own page.",
+   "ok": true,
+   "hyp": "then it might be old it might be a rumor i'm going to look for the store's own page",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 212.4
+  },
+  {
+   "t": 34.16,
+   "spk": "Noah",
+   "line": "Here it is. The logo matches our store.",
+   "ok": true,
+   "hyp": "here it is the logo matches our store",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 124.9
+  },
+  {
+   "t": 38.63,
+   "spk": "Aisha",
+   "line": "What does that page say?",
+   "ok": true,
+   "hyp": "what does that page say",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 229.0
+  },
+  {
+   "t": 41.68,
+   "spk": "Noah",
+   "line": "It says the store is open. The hours are the same.",
+   "ok": true,
+   "hyp": "it says the store is open the hours are the same",
+   "min_prob": 0.12,
+   "flags": [],
+   "f0_med": 128.5
+  },
+  {
+   "t": 46.99,
+   "spk": "Aisha",
+   "line": "Then the closing post can't be true. It must be a rumor.",
+   "ok": true,
+   "hyp": "then the closing post can't be true it must be a rumor",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 186.0
+  },
+  {
+   "t": 52.08,
+   "spk": "Noah",
+   "line": "The post has a share button. I was going to share it.",
+   "ok": true,
+   "hyp": "the post has a share button i was going to share it",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 124.1
+  },
+  {
+   "t": 56.92,
+   "spk": "Aisha",
+   "line": "Don't share it yet. We want to check a second source first.",
+   "ok": true,
+   "hyp": "don't share it yet we want to check a second source first",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 174.5
+  },
+  {
+   "t": 62.55,
+   "spk": "Noah",
+   "line": "The store page names the author. The author is the store. The date is this week.",
+   "ok": true,
+   "hyp": "the store page names the author the author is the store the date is this week",
+   "min_prob": 0.86,
+   "flags": [],
+   "f0_med": 102.6
+  },
+  {
+   "t": 69.92,
+   "spk": "Aisha",
+   "line": "That page must be the one we trust. The first post has no author and no date.",
+   "ok": true,
+   "hyp": "that page must be the 1 we trust the first post has no author and no date",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 174.5
+  },
+  {
+   "t": 77.11,
+   "spk": "Noah",
+   "line": "So the store isn't closing. I'm not going to share the post.",
+   "ok": true,
+   "hyp": "so the store isn't closing i'm not going to share the post",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 119.9
+  },
+  {
+   "t": 82.26,
+   "spk": "Aisha",
+   "line": "Good. It can't be a fact when the store's own page says the opposite.",
+   "ok": true,
+   "hyp": "good it can't be a fact when the store's own page says the opposite",
+   "min_prob": 0.93,
+   "flags": [],
+   "f0_med": 198.2
+  },
+  {
+   "t": 87.16,
+   "spk": "Noah",
+   "line": "There is a comment under the post, but the comment has no source.",
+   "ok": true,
+   "hyp": "there is a comment under the post but the comment has no source",
+   "min_prob": 0.92,
+   "flags": [],
+   "f0_med": 112.5
+  },
+  {
+   "t": 91.78,
+   "spk": "Aisha",
+   "line": "A comment is not a fact. It might be someone's guess.",
+   "ok": true,
+   "hyp": "a comment is not a fact it might be someone's guess",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 187.1
+  },
+  {
+   "t": 98.03,
+   "spk": "Noah",
+   "line": "I see. A reliable page names the author and the date.",
+   "ok": true,
+   "hyp": "i see a reliable page names the author and the date",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 133.8
+  },
+  {
+   "t": 102.6,
+   "spk": "Aisha",
+   "line": "Yes. And it matches a second source. This one does.",
+   "ok": true,
+   "hyp": "yes and it matches a second source this 1 does",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 192.5
+  }
+ ],
+ "hyp": "lesson 9 noah shows aisha a post the post says their grocery store is closing they want to check the source aisha please look at this post it says our grocery store is closing on friday do you know who wrote it i don't see an author there is no author and i don't see a date stamp then it might be old it might be a rumor i'm going to look for the store's own page here it is the logo matches our store what does that page say it says the store is open the hours are the same then the closing post can't be true it must be a rumor the post has a share button i was going to share it don't share it yet we want to check a second source first the store page names the author the author is the store the date is this week that page must be the 1 we trust the first post has no author and no date so the store isn't closing i'm not going to share the post good it can't be a fact when the store's own page says the opposite there is a comment under the post but the comment has no source a comment is not a fact it might be someone's guess i see a reliable page names the author and the date yes and it matches a second source this 1 does that's the end of the listening"
+}

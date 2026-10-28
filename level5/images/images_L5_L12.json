@@ -1,0 +1,129 @@
+[
+ {
+  "file": "L5_L12_agenda.png",
+  "lesson": "Level5-L12",
+  "word": "agenda",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb"
+  ],
+  "note": "a clipboard [sign: AGENDA]"
+ },
+ {
+  "file": "L5_L12_chairperson.png",
+  "lesson": "Level5-L12",
+  "word": "chairperson",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "1f9d1"
+  ],
+  "note": "a person and a clipboard [sign: CHAIR]"
+ },
+ {
+  "file": "L5_L12_minutes.png",
+  "lesson": "Level5-L12",
+  "word": "minutes",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4d3",
+   "1f58a"
+  ],
+  "note": "a notebook and a pen [sign: MINUTES]"
+ },
+ {
+  "file": "L5_L12_microphone.png",
+  "lesson": "Level5-L12",
+  "word": "microphone",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3a4"
+  ],
+  "note": "a microphone [sign: MIC]"
+ },
+ {
+  "file": "L5_L12_handout.png",
+  "lesson": "Level5-L12",
+  "word": "handout",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c3"
+  ],
+  "note": "a page [sign: HANDOUT]"
+ },
+ {
+  "file": "L5_L12_proposal.png",
+  "lesson": "Level5-L12",
+  "word": "proposal",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a1",
+   "1f4c4"
+  ],
+  "note": "a document and a light bulb [sign: PROPOSAL]"
+ },
+ {
+  "file": "L5_L12_sign_in.png",
+  "lesson": "Level5-L12",
+  "word": "sign-in sheet",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4dd",
+   "270f"
+  ],
+  "note": "a memo and a pencil [sign: SIGN IN]"
+ },
+ {
+  "file": "L5_L12_name_tent.png",
+  "lesson": "Level5-L12",
+  "word": "name tent",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3f7"
+  ],
+  "note": "a label [sign: NAME]"
+ },
+ {
+  "file": "L5_L12_timer.png",
+  "lesson": "Level5-L12",
+  "word": "timer",
+  "kind": "vocab",
+  "twemoji": [
+   "23f2"
+  ],
+  "note": "a timer clock [sign: 4:00]"
+ },
+ {
+  "file": "L5_L12_question_card.png",
+  "lesson": "Level5-L12",
+  "word": "question card",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c7",
+   "2753"
+  ],
+  "note": "an index card and a question mark [sign: QUESTION]"
+ },
+ {
+  "file": "L5_L12_library.png",
+  "lesson": "Level5-L12",
+  "word": "library",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3db",
+   "1f4da"
+  ],
+  "note": "books and a classical building"
+ },
+ {
+  "file": "L5_L12_auditorium.png",
+  "lesson": "Level5-L12",
+  "word": "auditorium",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3ad",
+   "1f4e2"
+  ],
+  "note": "theater masks and a loudspeaker"
+ }
+]

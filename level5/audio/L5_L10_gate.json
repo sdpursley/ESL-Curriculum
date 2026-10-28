@@ -1,0 +1,86 @@
+{
+ "duration_s": 131.01,
+ "duration": "2:11",
+ "length_ok": true,
+ "small_whole_file_wer": 0.0132,
+ "small_whole_file_errors": "4/302",
+ "small_whole_file_diffs": [
+  {
+   "op": "replace",
+   "ref": "counteroffer",
+   "hyp": "counter offer",
+   "ctx": "12 that is my counteroffer your counteroffer works the"
+  },
+  {
+   "op": "replace",
+   "ref": "counteroffer",
+   "hyp": "counter offer",
+   "ctx": "is my counteroffer your counteroffer works the week was"
+  }
+ ],
+ "small_lines_ok": "15/17",
+ "small_line_problems": [
+  {
+   "t": 63.02,
+   "spk": "Jon",
+   "line": "Your counteroffer works. The week was so busy that we split Saturday.",
+   "hyp": "your counter offer works the week was so busy that we split saturday",
+   "flags": []
+  },
+  {
+   "t": 93.4,
+   "spk": "Jon",
+   "line": "I'll write the shared task on a sticky note and put it on the whiteboard.",
+   "hyp": "i'll write the shared task on a sticky note and put it on the white board",
+   "flags": []
+  }
+ ],
+ "medium_per_line": {
+  "wer": 0.0,
+  "errors": 0,
+  "words": 302,
+  "exact": "19/19"
+ },
+ "medium_differences": [],
+ "pitch_median_hz": {
+  "Ms. Nguyen": 178.6,
+  "Camila": 208.8,
+  "Jon": 119.2,
+  "Narrator": 187.1
+ },
+ "pitch_problems": [],
+ "clipped_samples": 0,
+ "peak": 0.892,
+ "loudness_lufs": -16.6,
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "gaps_ok": true,
+ "noisy_pauses": [],
+ "failed_sentences": [],
+ "sentences": 42,
+ "takes_tried": 56,
+ "lines_wrong_in_both_checkers": [],
+ "single_checker_misses_or_flags_ignored": {
+  "small": [
+   {
+    "t": 63.02,
+    "spk": "Jon",
+    "line": "Your counteroffer works. The week was so busy that we split Saturday.",
+    "hyp": "your counter offer works the week was so busy that we split saturday",
+    "flags": []
+   },
+   {
+    "t": 93.4,
+    "spk": "Jon",
+    "line": "I'll write the shared task on a sticky note and put it on the whiteboard.",
+    "hyp": "i'll write the shared task on a sticky note and put it on the white board",
+    "flags": []
+   }
+  ],
+  "medium": []
+ },
+ "rule": "line bad only if small.en AND medium.en both mishear it; pitch, clipping, length, gaps, FAILED still gate",
+ "PASS": true
+}

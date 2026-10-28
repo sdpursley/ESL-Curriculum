@@ -1,0 +1,128 @@
+[
+ {
+  "file": "L5_L1_resume.png",
+  "lesson": "Level5-L1",
+  "word": "résumé",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4bc",
+   "1f4c4"
+  ],
+  "note": "a page and a briefcase [sign: RESUME]"
+ },
+ {
+  "file": "L5_L1_interview.png",
+  "lesson": "Level5-L1",
+  "word": "interview",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4dd",
+   "1f5e3"
+  ],
+  "note": "a speaking head and a memo [sign: INTERVIEW]"
+ },
+ {
+  "file": "L5_L1_accomplishment.png",
+  "lesson": "Level5-L1",
+  "word": "accomplishment",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3c6"
+  ],
+  "note": "a trophy [sign: I DID IT]"
+ },
+ {
+  "file": "L5_L1_example.png",
+  "lesson": "Level5-L1",
+  "word": "example",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4a1"
+  ],
+  "note": "a light bulb [sign: FOR EXAMPLE]"
+ },
+ {
+  "file": "L5_L1_skill.png",
+  "lesson": "Level5-L1",
+  "word": "skill",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4bb",
+   "1f527"
+  ],
+  "note": "a wrench and a laptop [sign: SKILL]"
+ },
+ {
+  "file": "L5_L1_job_offer.png",
+  "lesson": "Level5-L1",
+  "word": "job offer",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4bc",
+   "1f4e8"
+  ],
+  "note": "an envelope and a briefcase [sign: JOB OFFER]"
+ },
+ {
+  "file": "L5_L1_training.png",
+  "lesson": "Level5-L1",
+  "word": "training",
+  "kind": "vocab",
+  "twemoji": [
+   "1f393"
+  ],
+  "note": "a graduation cap [sign: TRAINING]"
+ },
+ {
+  "file": "L5_L1_portfolio.png",
+  "lesson": "Level5-L1",
+  "word": "portfolio",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c1",
+   "1f5bc"
+  ],
+  "note": "a folder and a framed picture [sign: PORTFOLIO]"
+ },
+ {
+  "file": "L5_L1_handshake.png",
+  "lesson": "Level5-L1",
+  "word": "handshake",
+  "kind": "vocab",
+  "twemoji": [
+   "1f91d"
+  ],
+  "note": "a handshake [sign: HELLO]"
+ },
+ {
+  "file": "L5_L1_follow_up.png",
+  "lesson": "Level5-L1",
+  "word": "follow-up",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4de",
+   "1f4e7"
+  ],
+  "note": "an envelope and a phone [sign: FOLLOW-UP]"
+ },
+ {
+  "file": "L5_L1_qualification.png",
+  "lesson": "Level5-L1",
+  "word": "qualification",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4dc"
+  ],
+  "note": "a scroll [sign: QUALIFIED]"
+ },
+ {
+  "file": "L5_L1_name_tag.png",
+  "lesson": "Level5-L1",
+  "word": "name tag",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4db"
+  ],
+  "note": "a name badge [sign: NAME TAG]"
+ }
+]

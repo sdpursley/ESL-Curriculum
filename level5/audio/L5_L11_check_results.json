@@ -1,0 +1,210 @@
+{
+ "file": "L5_L11_listening.mp3",
+ "duration_s": 122.24,
+ "wer": 0.0,
+ "errors": 0,
+ "ref_words": 286,
+ "diffs": [],
+ "low_prob_words": [],
+ "lines_ok": "16/17",
+ "lines_with_flags": [],
+ "lines_not_exact": [
+  {
+   "t": 91.4,
+   "spk": "Hector",
+   "line": "This is not a water stain. A water stain can be a claim too, but that stain is already dry. Nobody was hurt.",
+   "ok": false,
+   "hyp": "this is not a water stain a water stain could be a claim too but that stain is already dry nobody was hurt",
+   "min_prob": 0.46,
+   "flags": [],
+   "f0_med": 114.5
+  }
+ ],
+ "pitch_median_hz": {
+  "Ms. Lane": 178.6,
+  "Hector": 118.5,
+  "Narrator": 180.7
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 3.8,
+ "peak": 0.893,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.7,
+ "per_line": [
+  {
+   "t": 10.45,
+   "spk": "Ms. Lane",
+   "line": "Thank you for calling customer service. This is Ms. Lane. How can I help you?",
+   "ok": true,
+   "hyp": "thank you for calling customer service this is miss lane how can i help you",
+   "min_prob": 0.62,
+   "flags": [],
+   "f0_med": 175.5
+  },
+  {
+   "t": 17.83,
+   "spk": "Hector",
+   "line": "Hello. I want to file a claim for a cracked screen. Waiting on hold was tiring, but I'm glad you answered.",
+   "ok": true,
+   "hyp": "hello i want to file a claim for a cracked screen waiting on hold was tiring but i'm glad you answered",
+   "min_prob": 0.09,
+   "flags": [],
+   "f0_med": 119.9
+  },
+  {
+   "t": 25.36,
+   "spk": "Ms. Lane",
+   "line": "I can help. What is your policy number?",
+   "ok": true,
+   "hyp": "i can help what is your policy number",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 176.6
+  },
+  {
+   "t": 29.81,
+   "spk": "Hector",
+   "line": "It is four two eight. I was wondering if you could look up my claim.",
+   "ok": true,
+   "hyp": "it is 428 i was wondering if you could look up my claim",
+   "min_prob": 0.63,
+   "flags": [],
+   "f0_med": 135.0
+  },
+  {
+   "t": 35.3,
+   "spk": "Ms. Lane",
+   "line": "The form was received. The claim is about a cracked screen. Is that right?",
+   "ok": true,
+   "hyp": "the form was received the claim is about a cracked screen is that right",
+   "min_prob": 0.87,
+   "flags": [],
+   "f0_med": 182.8
+  },
+  {
+   "t": 41.96,
+   "spk": "Hector",
+   "line": "Yes. Filing a claim takes time, so I sent a photo last week.",
+   "ok": true,
+   "hyp": "yes filing a claim takes time so i sent a photo last week",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 130.8
+  },
+  {
+   "t": 46.65,
+   "spk": "Ms. Lane",
+   "line": "The photo was attached. Sending a photo helps, but we still need the estimate.",
+   "ok": true,
+   "hyp": "the photo was attached sending a photo helps but we still need the estimate",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 189.2
+  },
+  {
+   "t": 53.56,
+   "spk": "Hector",
+   "line": "I was wondering if you could tell me the reference number. I want to send the estimate today.",
+   "ok": true,
+   "hyp": "i was wondering if you could tell me the reference number i want to send the estimate today",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 117.8
+  },
+  {
+   "t": 59.27,
+   "spk": "Ms. Lane",
+   "line": "The reference number is seven one. Please send the estimate as an attachment.",
+   "ok": true,
+   "hyp": "the reference number is 71 please send the estimate as an attachment",
+   "min_prob": 0.69,
+   "flags": [],
+   "f0_med": 177.6
+  },
+  {
+   "t": 66.35,
+   "spk": "Hector",
+   "line": "Would you mind saying that number again? I want to write it on the claim form.",
+   "ok": true,
+   "hyp": "would you mind saying that number again i want to write it on the claim form",
+   "min_prob": 0.83,
+   "flags": [],
+   "f0_med": 119.2
+  },
+  {
+   "t": 71.8,
+   "spk": "Ms. Lane",
+   "line": "Of course. Seven one. You have to include the policy number on the estimate.",
+   "ok": true,
+   "hyp": "of course 71 you have to include the policy number on the estimate",
+   "min_prob": 0.64,
+   "flags": [],
+   "f0_med": 171.5
+  },
+  {
+   "t": 79.43,
+   "spk": "Hector",
+   "line": "Sending the estimate is my next step. I don't want to stay on hold again.",
+   "ok": true,
+   "hyp": "sending the estimate is my next step i don't want to stay on hold again",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 102.0
+  },
+  {
+   "t": 85.11,
+   "spk": "Ms. Lane",
+   "line": "You don't have to wait on hold. You can send the attachment with the reference number.",
+   "ok": true,
+   "hyp": "you don't have to wait on hold you can send the attachment with the reference number",
+   "min_prob": 0.78,
+   "flags": [],
+   "f0_med": 180.7
+  },
+  {
+   "t": 91.4,
+   "spk": "Hector",
+   "line": "This is not a water stain. A water stain can be a claim too, but that stain is already dry. Nobody was hurt.",
+   "ok": false,
+   "hyp": "this is not a water stain a water stain could be a claim too but that stain is already dry nobody was hurt",
+   "min_prob": 0.46,
+   "flags": [],
+   "f0_med": 114.5
+  },
+  {
+   "t": 99.85,
+   "spk": "Ms. Lane",
+   "line": "This file is only the cracked screen. The home is safe. When the estimate arrives, we can look for a resolution.",
+   "ok": true,
+   "hyp": "this file is only the cracked screen the home is safe when the estimate arrives we can look for a resolution",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 178.6
+  },
+  {
+   "t": 108.41,
+   "spk": "Hector",
+   "line": "I'm going to send it today. Thank you for your help.",
+   "ok": true,
+   "hyp": "i'm going to send it today thank you for your help",
+   "min_prob": 0.9,
+   "flags": [],
+   "f0_med": 115.1
+  },
+  {
+   "t": 112.76,
+   "spk": "Ms. Lane",
+   "line": "Thank you, Hector. A clear photo and a clear estimate are enough for this practice file.",
+   "ok": true,
+   "hyp": "thank you hector a clear photo and a clear estimate are enough for this practice file",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 178.6
+  }
+ ],
+ "hyp": "lesson 11 hector calls customer service about a cracked phone screen miss lane answers the phone call is the whole story thank you for calling customer service this is miss lane how can i help you hello i want to file a claim for a cracked screen waiting on hold was tiring but i'm glad you answered i can help what is your policy number it is 428 i was wondering if you could look up my claim the form was received the claim is about a cracked screen is that right yes filing a claim takes time so i sent a photo last week the photo was attached sending a photo helps but we still need the estimate i was wondering if you could tell me the reference number i want to send the estimate today the reference number is 71 please send the estimate as an attachment would you mind saying that number again i want to write it on the claim form of course 71 you have to include the policy number on the estimate sending the estimate is my next step i don't want to stay on hold again you don't have to wait on hold you can send the attachment with the reference number this is not a water stain a water stain can be a claim too but that stain is already dry nobody was hurt this file is only the cracked screen the home is safe when the estimate arrives we can look for a resolution i'm going to send it today thank you for your help thank you hector a clear photo and a clear estimate are enough for this practice file that's the end of the listening"
+}

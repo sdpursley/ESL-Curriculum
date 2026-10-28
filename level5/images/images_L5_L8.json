@@ -1,0 +1,131 @@
+[
+ {
+  "file": "L5_L8_school_office.png",
+  "lesson": "Level5-L8",
+  "word": "school office",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e2",
+   "1f3eb"
+  ],
+  "note": "a school and an office building [sign: OFFICE]"
+ },
+ {
+  "file": "L5_L8_counselor.png",
+  "lesson": "Level5-L8",
+  "word": "counselor",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ac",
+   "1f9d1-200d-1f4bc"
+  ],
+  "note": "an office worker and a speech balloon [sign: TALK]"
+ },
+ {
+  "file": "L5_L8_conference.png",
+  "lesson": "Level5-L8",
+  "word": "conference",
+  "kind": "vocab",
+  "twemoji": [
+   "1f465",
+   "1f5d3"
+  ],
+  "note": "a calendar and two people [sign: MEET]"
+ },
+ {
+  "file": "L5_L8_permission_slip.png",
+  "lesson": "Level5-L8",
+  "word": "permission slip",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4cb",
+   "2705"
+  ],
+  "note": "a clipboard and a check mark [sign: SLIP]"
+ },
+ {
+  "file": "L5_L8_dismissal.png",
+  "lesson": "Level5-L8",
+  "word": "dismissal",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3eb",
+   "1f6aa"
+  ],
+  "note": "a school and a door [sign: GO]"
+ },
+ {
+  "file": "L5_L8_pickup.png",
+  "lesson": "Level5-L8",
+  "word": "pickup",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3eb",
+   "1f697"
+  ],
+  "note": "a car and a school [sign: PICKUP]"
+ },
+ {
+  "file": "L5_L8_newsletter.png",
+  "lesson": "Level5-L8",
+  "word": "newsletter",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4f0"
+  ],
+  "note": "a newspaper [sign: NEWS]"
+ },
+ {
+  "file": "L5_L8_backpack.png",
+  "lesson": "Level5-L8",
+  "word": "backpack",
+  "kind": "vocab",
+  "twemoji": [
+   "1f392"
+  ],
+  "note": "a backpack"
+ },
+ {
+  "file": "L5_L8_signup.png",
+  "lesson": "Level5-L8",
+  "word": "sign-up",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4dd",
+   "270f"
+  ],
+  "note": "a memo and a pencil [sign: SIGN UP]"
+ },
+ {
+  "file": "L5_L8_office_window.png",
+  "lesson": "Level5-L8",
+  "word": "office window",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e2",
+   "1fa9f"
+  ],
+  "note": "a window and an office building [sign: WINDOW]"
+ },
+ {
+  "file": "L5_L8_bell.png",
+  "lesson": "Level5-L8",
+  "word": "bell",
+  "kind": "vocab",
+  "twemoji": [
+   "1f514"
+  ],
+  "note": "a bell"
+ },
+ {
+  "file": "L5_L8_hallway.png",
+  "lesson": "Level5-L8",
+  "word": "hallway",
+  "kind": "vocab",
+  "twemoji": [
+   "1f6aa",
+   "1f6b6"
+  ],
+  "note": "a door and a person walking [sign: HALL]"
+ }
+]

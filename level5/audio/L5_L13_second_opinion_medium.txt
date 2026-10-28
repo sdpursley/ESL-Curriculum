@@ -1,0 +1,2 @@
+medium.en per-line WER 0.007 (2/269), 17/18 lines exact
+   ('Mr. Gordon', 'Good. A pause between the parts helps. Applause is for finishing, not for the longest story.', 'good a pause between the parts helps a pause is for finishing not for the longest story')

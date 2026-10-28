@@ -1,0 +1,776 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Samir": "refs/Marco.wav",
+   "Nora": "refs/Rosa.wav",
+   "Ms. Hale": "refs/Kim.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson one. The community center is holding a practice interview night.",
+    "tts_text": "Lesson one. The community center is holding a practice interview night.",
+    "seed": 2026,
+    "hyp": "lesson 1 the community center is holding a practice interview night",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.89,
+    "dur": 4.26,
+    "raw_peak": 0.696,
+    "pitch_ok": true,
+    "score": 1.396,
+    "f0_med": 187.1,
+    "f0_st_sd": 3.4,
+    "f0_range_st": 10.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Nora wants a hotel front-desk job.",
+    "tts_text": "Nora wants a hotel front-desk job.",
+    "seed": 2026,
+    "hyp": "nora wants a hotel front desk job",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 2.33,
+    "raw_peak": 0.598,
+    "pitch_ok": true,
+    "score": 1.408,
+    "f0_med": 173.5,
+    "f0_st_sd": 2.92,
+    "f0_range_st": 8.93
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Samir",
+    "text": "Hi, Nora. I'm Samir, your coach.",
+    "tts_text": "Hi, Nora. I'm Samir, your coach.",
+    "seed": 2026,
+    "hyp": "hi nora i'm samir your coach",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.85,
+    "dur": 1.91,
+    "raw_peak": 0.952,
+    "pitch_ok": true,
+    "score": 1.455,
+    "f0_med": 98.0,
+    "f0_st_sd": 4.24,
+    "f0_range_st": 14.15
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Samir",
+    "text": "Are you ready to practice?",
+    "tts_text": "Are you ready to practice?",
+    "seed": 2026,
+    "hyp": "are you ready to practice",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.97,
+    "dur": 1.34,
+    "raw_peak": 0.792,
+    "pitch_ok": true,
+    "score": 1.396,
+    "f0_med": 127.0,
+    "f0_st_sd": 2.86,
+    "f0_range_st": 8.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nora",
+    "text": "Yes. I want to practice for a front-desk job at the Harbor Hotel.",
+    "tts_text": "Yes. I want to practice for a front-desk job at the Harbor Hotel.",
+    "seed": 41621,
+    "hyp": "yes i want to practice for a front desk job at the harbor hotel",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.75,
+    "mean_prob": 0.96,
+    "dur": 4.0,
+    "raw_peak": 0.677,
+    "pitch_ok": true,
+    "score": 1.283,
+    "f0_med": 207.6,
+    "f0_st_sd": 2.17,
+    "f0_range_st": 7.5
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Samir",
+    "text": "Good. Ms. Hale is going to ask the questions.",
+    "tts_text": "Good. Miss Hale is going to ask the questions.",
+    "seed": 2026,
+    "hyp": "good miss hale is going to ask the questions",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.8,
+    "mean_prob": 0.96,
+    "dur": 2.2,
+    "raw_peak": 0.978,
+    "pitch_ok": true,
+    "score": 1.322,
+    "f0_med": 118.2,
+    "f0_st_sd": 2.41,
+    "f0_range_st": 7.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Samir",
+    "text": "I am going to take notes.",
+    "tts_text": "I am going to take notes.",
+    "seed": 2026,
+    "hyp": "i am going to take notes",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.98,
+    "dur": 1.91,
+    "raw_peak": 0.884,
+    "pitch_ok": true,
+    "score": 1.168,
+    "f0_med": 111.5,
+    "f0_st_sd": 1.28,
+    "f0_range_st": 4.45
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Hale",
+    "text": "Welcome, Nora. How long have you been working with customers?",
+    "tts_text": "Welcome, Nora. How long have you been working with customers?",
+    "seed": 2026,
+    "hyp": "welcome nora how long have you been working with customers",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 3.13,
+    "raw_peak": 0.429,
+    "pitch_ok": true,
+    "score": 1.584,
+    "f0_med": 216.1,
+    "f0_st_sd": 4.21,
+    "f0_range_st": 12.18
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nora",
+    "text": "I've been working with customers for three years.",
+    "tts_text": "I've been working with customers for three years.",
+    "seed": 2026,
+    "hyp": "i've been working with customers for 3 years",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.77,
+    "mean_prob": 0.96,
+    "dur": 2.72,
+    "raw_peak": 0.628,
+    "pitch_ok": true,
+    "score": 1.363,
+    "f0_med": 207.6,
+    "f0_st_sd": 2.66,
+    "f0_range_st": 7.95
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nora",
+    "text": "I work at a store now.",
+    "tts_text": "I work at a store now.",
+    "seed": 9945,
+    "hyp": "i work at a store now",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 1.26,
+    "raw_peak": 0.478,
+    "pitch_ok": true,
+    "score": 1.59,
+    "f0_med": 190.3,
+    "f0_st_sd": 4.15,
+    "f0_range_st": 12.79
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Hale",
+    "text": "Tell me one accomplishment.",
+    "tts_text": "Tell me one accomplishment.",
+    "seed": 2026,
+    "hyp": "tell me 1 accomplishment",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.93,
+    "dur": 1.95,
+    "raw_peak": 0.267,
+    "pitch_ok": true,
+    "score": 1.534,
+    "f0_med": 174.0,
+    "f0_st_sd": 6.4,
+    "f0_range_st": 21.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nora",
+    "text": "I trained two new cashiers last spring.",
+    "tts_text": "I trained two new cashiers last spring.",
+    "seed": 2026,
+    "hyp": "i trained 2 new cashiers last spring",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 2.69,
+    "raw_peak": 0.625,
+    "pitch_ok": true,
+    "score": 1.478,
+    "f0_med": 194.8,
+    "f0_st_sd": 3.45,
+    "f0_range_st": 10.4
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Hale",
+    "text": "Can you give an example?",
+    "tts_text": "Can you give an example?",
+    "seed": 2026,
+    "hyp": "can you give an example",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.98,
+    "mean_prob": 0.99,
+    "dur": 1.61,
+    "raw_peak": 0.238,
+    "pitch_ok": true,
+    "score": 1.591,
+    "f0_med": 270.7,
+    "f0_st_sd": 4.18,
+    "f0_range_st": 11.95
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nora",
+    "text": "Yes. One new cashier was nervous.",
+    "tts_text": "Yes. One new cashier was nervous.",
+    "seed": 2026,
+    "hyp": "yes 1 new cashier was nervous",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.98,
+    "dur": 2.67,
+    "raw_peak": 0.693,
+    "pitch_ok": true,
+    "score": 1.467,
+    "f0_med": 229.0,
+    "f0_st_sd": 3.27,
+    "f0_range_st": 9.39
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nora",
+    "text": "I stayed with her for a week.",
+    "tts_text": "I stayed with her for a week.",
+    "seed": 2026,
+    "hyp": "i stayed with her for a week",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.82,
+    "mean_prob": 0.97,
+    "dur": 1.54,
+    "raw_peak": 0.623,
+    "pitch_ok": true,
+    "score": 1.525,
+    "f0_med": 239.1,
+    "f0_st_sd": 3.68,
+    "f0_range_st": 10.95
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Hale",
+    "text": "Have you finished any hotel training?",
+    "tts_text": "Have you finished any hotel training?",
+    "seed": 2026,
+    "hyp": "have you finished any hotel training",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 2.27,
+    "raw_peak": 0.209,
+    "pitch_ok": true,
+    "score": 1.419,
+    "f0_med": 191.4,
+    "f0_st_sd": 2.86,
+    "f0_range_st": 8.71
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nora",
+    "text": "Not yet. I want to start the front-desk training next month.",
+    "tts_text": "Not yet. I want to start the front-desk training next month.",
+    "seed": 2026,
+    "hyp": "not yet i want to start the front desk training next month",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.98,
+    "dur": 3.61,
+    "raw_peak": 0.814,
+    "pitch_ok": true,
+    "score": 1.392,
+    "f0_med": 229.0,
+    "f0_st_sd": 2.77,
+    "f0_range_st": 8.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Samir",
+    "text": "That example was clear.",
+    "tts_text": "That example was clear.",
+    "seed": 2026,
+    "hyp": "that example was clear",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.96,
+    "dur": 1.36,
+    "raw_peak": 0.899,
+    "pitch_ok": true,
+    "score": 1.325,
+    "f0_med": 111.9,
+    "f0_st_sd": 2.44,
+    "f0_range_st": 8.52
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Samir",
+    "text": "You said, \"I've been working. \"",
+    "tts_text": "You said, \"I've been working. \"",
+    "seed": 2026,
+    "hyp": "you said i've been working",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.64,
+    "mean_prob": 0.87,
+    "dur": 1.68,
+    "raw_peak": 0.9,
+    "pitch_ok": true,
+    "score": 1.242,
+    "f0_med": 111.9,
+    "f0_st_sd": 2.5,
+    "f0_range_st": 7.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Hale",
+    "text": "What did you do in 2022?",
+    "tts_text": "What did you do in 2022?",
+    "seed": 2026,
+    "hyp": "what did you do in 2022",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.94,
+    "dur": 2.05,
+    "raw_peak": 0.299,
+    "pitch_ok": true,
+    "score": 1.537,
+    "f0_med": 170.5,
+    "f0_st_sd": 4.92,
+    "f0_range_st": 15.24
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nora",
+    "text": "I worked at a bakery in 2022.",
+    "tts_text": "I worked at a bakery in 2022.",
+    "seed": 25783,
+    "hyp": "i worked at a bakery in 2022",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 2.32,
+    "raw_peak": 0.755,
+    "pitch_ok": true,
+    "score": 1.453,
+    "f0_med": 193.7,
+    "f0_st_sd": 3.11,
+    "f0_range_st": 10.36
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nora",
+    "text": "That job is finished.",
+    "tts_text": "That job is finished.",
+    "seed": 2026,
+    "hyp": "that job is finished",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.0,
+    "raw_peak": 0.692,
+    "pitch_ok": true,
+    "score": 1.421,
+    "f0_med": 207.6,
+    "f0_st_sd": 2.97,
+    "f0_range_st": 8.89
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Hale",
+    "text": "Do you have a follow-up question?",
+    "tts_text": "Do you have a follow-up question?",
+    "seed": 2026,
+    "hyp": "do you have a follow up question",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.97,
+    "dur": 1.87,
+    "raw_peak": 0.336,
+    "pitch_ok": true,
+    "score": 1.396,
+    "f0_med": 207.6,
+    "f0_st_sd": 2.83,
+    "f0_range_st": 8.13
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Nora",
+    "text": "Yes. What do you send after the interview?",
+    "tts_text": "Yes. What do you send after the interview?",
+    "seed": 2026,
+    "hyp": "yes what do you send after the interview",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.98,
+    "dur": 2.71,
+    "raw_peak": 0.61,
+    "pitch_ok": true,
+    "score": 1.309,
+    "f0_med": 217.4,
+    "f0_st_sd": 2.2,
+    "f0_range_st": 7.3
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Hale",
+    "text": "A short note.",
+    "tts_text": "A short note.",
+    "seed": 41621,
+    "hyp": "a short note",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.88,
+    "dur": 1.02,
+    "raw_peak": 0.228,
+    "pitch_ok": true,
+    "score": 1.433,
+    "f0_med": 174.1,
+    "f0_st_sd": 3.69,
+    "f0_range_st": 9.73
+   },
+   "tries": 6,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Hale",
+    "text": "A handshake and a thank-you are a good start.",
+    "tts_text": "A handshake and a thank-you are a good start.",
+    "seed": 2026,
+    "hyp": "a handshake and a thank you are a good start",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 2.82,
+    "raw_peak": 0.346,
+    "pitch_ok": true,
+    "score": 1.496,
+    "f0_med": 182.8,
+    "f0_st_sd": 3.57,
+    "f0_range_st": 10.45
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Samir",
+    "text": "Next, you are going to put one accomplishment in your portfolio.",
+    "tts_text": "Next, you are going to put one accomplishment in your portfolio.",
+    "seed": 2026,
+    "hyp": "next you are going to put 1 accomplishment in your portfolio",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.99,
+    "dur": 3.58,
+    "raw_peak": 1.024,
+    "pitch_ok": true,
+    "score": 1.408,
+    "f0_med": 102.0,
+    "f0_st_sd": 2.8,
+    "f0_range_st": 9.47
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   9.24,
+   13.04,
+   "Samir",
+   "Hi, Nora. I'm Samir, your coach. Are you ready to practice?"
+  ],
+  [
+   14.44,
+   18.44,
+   "Nora",
+   "Yes. I want to practice for a front-desk job at the Harbor Hotel."
+  ],
+  [
+   19.84,
+   24.5,
+   "Samir",
+   "Good. Ms. Hale is going to ask the questions. I am going to take notes."
+  ],
+  [
+   25.9,
+   29.03,
+   "Ms. Hale",
+   "Welcome, Nora. How long have you been working with customers?"
+  ],
+  [
+   30.43,
+   34.96,
+   "Nora",
+   "I've been working with customers for three years. I work at a store now."
+  ],
+  [
+   36.36,
+   38.31,
+   "Ms. Hale",
+   "Tell me one accomplishment."
+  ],
+  [
+   39.71,
+   42.4,
+   "Nora",
+   "I trained two new cashiers last spring."
+  ],
+  [
+   43.8,
+   45.41,
+   "Ms. Hale",
+   "Can you give an example?"
+  ],
+  [
+   46.81,
+   51.57,
+   "Nora",
+   "Yes. One new cashier was nervous. I stayed with her for a week."
+  ],
+  [
+   52.97,
+   55.24,
+   "Ms. Hale",
+   "Have you finished any hotel training?"
+  ],
+  [
+   56.64,
+   60.25,
+   "Nora",
+   "Not yet. I want to start the front-desk training next month."
+  ],
+  [
+   61.65,
+   65.24,
+   "Samir",
+   "That example was clear. You said, \"I've been working.\""
+  ],
+  [
+   66.64,
+   68.69,
+   "Ms. Hale",
+   "What did you do in 2022?"
+  ],
+  [
+   70.09,
+   74.96,
+   "Nora",
+   "I worked at a bakery in 2022. That job is finished."
+  ],
+  [
+   76.36,
+   78.23,
+   "Ms. Hale",
+   "Do you have a follow-up question?"
+  ],
+  [
+   79.63,
+   82.34,
+   "Nora",
+   "Yes. What do you send after the interview?"
+  ],
+  [
+   83.74,
+   88.13,
+   "Ms. Hale",
+   "A short note. A handshake and a thank-you are a good start."
+  ],
+  [
+   89.53,
+   93.11,
+   "Samir",
+   "Next, you are going to put one accomplishment in your portfolio."
+  ]
+ ]
+}

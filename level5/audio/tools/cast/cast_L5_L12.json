@@ -1,0 +1,24 @@
+{
+ "TITLE": "The Room Where We Meet",
+ "VOICES": {
+  "Narrator": "N",
+  "Ms. Adeyemi": "Kim",
+  "Grace": "Rosa",
+  "Tom": "Sam"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Ms. Adeyemi",
+  "Grace"
+ ],
+ "NAMES": [
+  "Adeyemi",
+  "Grace",
+  "Tom"
+ ],
+ "SAME": {
+  "ms": "miss",
+  "mr": "mister"
+ },
+ "TTS": {}
+}

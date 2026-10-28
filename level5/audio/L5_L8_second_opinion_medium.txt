@@ -1,0 +1,2 @@
+medium.en per-line WER 0.004 (1/230), 22/23 lines exact
+   ('Mr. Reed', "It's down the hallway, past the bell.", "it's down the hallway pass the bell")

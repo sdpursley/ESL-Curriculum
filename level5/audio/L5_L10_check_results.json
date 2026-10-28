@@ -1,0 +1,234 @@
+{
+ "file": "L5_L10_listening.mp3",
+ "duration_s": 131.01,
+ "wer": 0.0132,
+ "errors": 4,
+ "ref_words": 302,
+ "diffs": [
+  {
+   "op": "replace",
+   "ref": "counteroffer",
+   "hyp": "counter offer",
+   "ctx": "12 that is my counteroffer your counteroffer works the"
+  },
+  {
+   "op": "replace",
+   "ref": "counteroffer",
+   "hyp": "counter offer",
+   "ctx": "is my counteroffer your counteroffer works the week was"
+  }
+ ],
+ "low_prob_words": [],
+ "lines_ok": "15/17",
+ "lines_with_flags": [],
+ "lines_not_exact": [
+  {
+   "t": 63.02,
+   "spk": "Jon",
+   "line": "Your counteroffer works. The week was so busy that we split Saturday.",
+   "ok": false,
+   "hyp": "your counter offer works the week was so busy that we split saturday",
+   "min_prob": 0.53,
+   "flags": [],
+   "f0_med": 123.4
+  },
+  {
+   "t": 93.4,
+   "spk": "Jon",
+   "line": "I'll write the shared task on a sticky note and put it on the whiteboard.",
+   "ok": false,
+   "hyp": "i'll write the shared task on a sticky note and put it on the white board",
+   "min_prob": 0.37,
+   "flags": [],
+   "f0_med": 113.2
+  }
+ ],
+ "pitch_median_hz": {
+  "Ms. Nguyen": 178.6,
+  "Camila": 208.8,
+  "Jon": 119.2,
+  "Narrator": 187.1
+ },
+ "gap_between_speakers_s": [
+  1.4,
+  1.4
+ ],
+ "pauses_with_sound_above_minus55dB": [],
+ "click_ratio": 4.0,
+ "peak": 0.892,
+ "clipped_samples": 0,
+ "loudness_lufs": -16.6,
+ "per_line": [
+  {
+   "t": 11.83,
+   "spk": "Ms. Nguyen",
+   "line": "I don't want to call the shift off. The week was so busy that we need Saturday. Please meet in the middle.",
+   "ok": true,
+   "hyp": "i don't want to call the shift off the week was so busy that we need saturday please meet in the middle",
+   "min_prob": 0.82,
+   "flags": [],
+   "f0_med": 187.1
+  },
+  {
+   "t": 20.73,
+   "spk": "Camila",
+   "line": "I want to take the morning off. I have a class, and that class is my priority.",
+   "ok": true,
+   "hyp": "i want to take the morning off i have a class and that class is my priority",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 198.2
+  },
+  {
+   "t": 28.17,
+   "spk": "Jon",
+   "line": "I hear you. I have a family visit in the afternoon. I was going to ask for the whole day too.",
+   "ok": true,
+   "hyp": "i hear you i have a family visit in the afternoon i was going to ask for the whole day too",
+   "min_prob": 0.68,
+   "flags": [],
+   "f0_med": 112.5
+  },
+  {
+   "t": 35.95,
+   "spk": "Ms. Nguyen",
+   "line": "Say the other person's idea before you offer yours.",
+   "ok": true,
+   "hyp": "say the other person's idea before you offer yours",
+   "min_prob": 0.89,
+   "flags": [],
+   "f0_med": 181.7
+  },
+  {
+   "t": 40.59,
+   "spk": "Camila",
+   "line": "Jon, you need the afternoon for a family visit. I need the morning for my class.",
+   "ok": true,
+   "hyp": "john you need the afternoon for a family visit i need the morning for my class",
+   "min_prob": 0.85,
+   "flags": [],
+   "f0_med": 200.5
+  },
+  {
+   "t": 47.23,
+   "spk": "Jon",
+   "line": "Yes. What if we split the day? I can take the morning if you take the afternoon.",
+   "ok": true,
+   "hyp": "yes what if we split the day i can take the morning if you take the afternoon",
+   "min_prob": 0.84,
+   "flags": [],
+   "f0_med": 122.0
+  },
+  {
+   "t": 53.69,
+   "spk": "Camila",
+   "line": "That is a fair offer. My class ends at noon. What if we swap at twelve? That is my counteroffer.",
+   "ok": true,
+   "hyp": "that is a fair offer my class ends at noon what if we swap at 12 that is my counteroffer",
+   "min_prob": 0.8,
+   "flags": [],
+   "f0_med": 208.8
+  },
+  {
+   "t": 63.02,
+   "spk": "Jon",
+   "line": "Your counteroffer works. The week was so busy that we split Saturday.",
+   "ok": false,
+   "hyp": "your counter offer works the week was so busy that we split saturday",
+   "min_prob": 0.53,
+   "flags": [],
+   "f0_med": 123.4
+  },
+  {
+   "t": 70.05,
+   "spk": "Camila",
+   "line": "And it was such a long shift that we shared it. The week is too full for one person.",
+   "ok": true,
+   "hyp": "and it was such a long shift that we shared it the week is too full for 1 person",
+   "min_prob": 0.64,
+   "flags": [],
+   "f0_med": 241.2
+  },
+  {
+   "t": 77.07,
+   "spk": "Jon",
+   "line": "The visit is so important that I need the afternoon. This solution is about fairness.",
+   "ok": true,
+   "hyp": "the visit is so important that i need the afternoon this solution is about fairness",
+   "min_prob": 0.81,
+   "flags": [],
+   "f0_med": 132.3
+  },
+  {
+   "t": 85.19,
+   "spk": "Camila",
+   "line": "My class is so important that I need the morning. We didn't give in. We found the middle.",
+   "ok": true,
+   "hyp": "my class is so important that i need the morning we didn't give in we found the middle",
+   "min_prob": 0.62,
+   "flags": [],
+   "f0_med": 223.7
+  },
+  {
+   "t": 93.4,
+   "spk": "Jon",
+   "line": "I'll write the shared task on a sticky note and put it on the whiteboard.",
+   "ok": false,
+   "hyp": "i'll write the shared task on a sticky note and put it on the white board",
+   "min_prob": 0.37,
+   "flags": [],
+   "f0_med": 113.2
+  },
+  {
+   "t": 98.22,
+   "spk": "Camila",
+   "line": "We each get a break time. I'm going to come in at noon.",
+   "ok": true,
+   "hyp": "we each get a break time i'm going to come in at noon",
+   "min_prob": 0.94,
+   "flags": [],
+   "f0_med": 208.8
+  },
+  {
+   "t": 103.27,
+   "spk": "Ms. Nguyen",
+   "line": "Read the compromise, please. I want to hear it.",
+   "ok": true,
+   "hyp": "read the compromise please i want to hear it",
+   "min_prob": 0.79,
+   "flags": [],
+   "f0_med": 175.5
+  },
+  {
+   "t": 108.83,
+   "spk": "Jon",
+   "line": "I'm going to work the morning. Camila is going to work the afternoon. We swap at twelve.",
+   "ok": true,
+   "hyp": "i'm going to work the morning camila is going to work the afternoon we swap at 12",
+   "min_prob": 0.73,
+   "flags": [],
+   "f0_med": 116.5
+  },
+  {
+   "t": 117.05,
+   "spk": "Camila",
+   "line": "Noon is such a clear time that nobody has to guess.",
+   "ok": true,
+   "hyp": "noon is such a clear time that nobody has to guess",
+   "min_prob": 0.31,
+   "flags": [],
+   "f0_med": 239.8
+  },
+  {
+   "t": 121.67,
+   "spk": "Ms. Nguyen",
+   "line": "You worked it out. I'm not going to call it off. Thank you for the compromise.",
+   "ok": true,
+   "hyp": "you worked it out i'm not going to call it off thank you for the compromise",
+   "min_prob": 0.77,
+   "flags": [],
+   "f0_med": 168.6
+  }
+ ],
+ "hyp": "lesson 10 camila and john share a saturday job they both want the day off miss nguyen asks them to work it out before she calls the shift off i don't want to call the shift off the week was so busy that we need saturday please meet in the middle i want to take the morning off i have a class and that class is my priority i hear you i have a family visit in the afternoon i was going to ask for the whole day too say the other person's idea before you offer yours john you need the afternoon for a family visit i need the morning for my class yes what if we split the day i can take the morning if you take the afternoon that is a fair offer my class ends at noon what if we swap at 12 that is my counter offer your counter offer works the week was so busy that we split saturday and it was such a long shift that we shared it the week is too full for 1 person the visit is so important that i need the afternoon this solution is about fairness my class is so important that i need the morning we didn't give in we found the middle i'll write the shared task on a sticky note and put it on the whiteboard we each get a break time i'm going to come in at noon read the compromise please i want to hear it i'm going to work the morning camila is going to work the afternoon we swap at 12 noon is such a clear time that nobody has to guess you worked it out i'm not going to call it off thank you for the compromise that's the end of the listening"
+}

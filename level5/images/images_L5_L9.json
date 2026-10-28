@@ -1,0 +1,131 @@
+[
+ {
+  "file": "L5_L9_website.png",
+  "lesson": "Level5-L9",
+  "word": "website",
+  "kind": "vocab",
+  "twemoji": [
+   "1f310",
+   "1f4bb"
+  ],
+  "note": "a globe and a laptop [sign: WEB]"
+ },
+ {
+  "file": "L5_L9_source.png",
+  "lesson": "Level5-L9",
+  "word": "source",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4da"
+  ],
+  "note": "a stack of books [sign: SOURCE]"
+ },
+ {
+  "file": "L5_L9_author.png",
+  "lesson": "Level5-L9",
+  "word": "author",
+  "kind": "vocab",
+  "twemoji": [
+   "1f9d1",
+   "270d"
+  ],
+  "note": "a writing hand and a person [sign: AUTHOR]"
+ },
+ {
+  "file": "L5_L9_advertisement.png",
+  "lesson": "Level5-L9",
+  "word": "advertisement",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4e3",
+   "1f6d2"
+  ],
+  "note": "a megaphone and a shopping cart [sign: AD]"
+ },
+ {
+  "file": "L5_L9_screenshot.png",
+  "lesson": "Level5-L9",
+  "word": "screenshot",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4bb",
+   "1f4f7"
+  ],
+  "note": "a laptop and a camera [sign: SCREEN]"
+ },
+ {
+  "file": "L5_L9_fact.png",
+  "lesson": "Level5-L9",
+  "word": "fact",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c4",
+   "2705"
+  ],
+  "note": "a page and a check mark [sign: FACT]"
+ },
+ {
+  "file": "L5_L9_rumor.png",
+  "lesson": "Level5-L9",
+  "word": "rumor",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ac",
+   "2753"
+  ],
+  "note": "a speech balloon and a question mark [sign: RUMOR?]"
+ },
+ {
+  "file": "L5_L9_date_stamp.png",
+  "lesson": "Level5-L9",
+  "word": "date stamp",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4c6"
+  ],
+  "note": "a tear-off calendar [sign: 2019]"
+ },
+ {
+  "file": "L5_L9_logo.png",
+  "lesson": "Level5-L9",
+  "word": "logo",
+  "kind": "vocab",
+  "twemoji": [
+   "1f3e2",
+   "1f3f7"
+  ],
+  "note": "a label and an office building [sign: LOGO]"
+ },
+ {
+  "file": "L5_L9_comment.png",
+  "lesson": "Level5-L9",
+  "word": "comment",
+  "kind": "vocab",
+  "twemoji": [
+   "1f4ac"
+  ],
+  "note": "a speech balloon [sign: COMMENT]"
+ },
+ {
+  "file": "L5_L9_reliable.png",
+  "lesson": "Level5-L9",
+  "word": "reliable",
+  "kind": "vocab",
+  "twemoji": [
+   "1f6e1",
+   "2705"
+  ],
+  "note": "a shield and a check mark [sign: SURE]"
+ },
+ {
+  "file": "L5_L9_share_button.png",
+  "lesson": "Level5-L9",
+  "word": "share button",
+  "kind": "vocab",
+  "twemoji": [
+   "1f517",
+   "27a1"
+  ],
+  "note": "a link and a right arrow [sign: SHARE]"
+ }
+]

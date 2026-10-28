@@ -1,0 +1,918 @@
+{
+ "settings": {
+  "exag": 0.72,
+  "cfg": 0.32,
+  "narrator_exag_cfg": [
+   0.55,
+   0.4
+  ],
+  "pause_between_speakers": 1.4,
+  "pause_same_speaker": 0.75,
+  "pause_between_sentences": 0.55,
+  "voices": {
+   "Narrator": "refs/N.wav",
+   "Diego": "refs/Marco.wav",
+   "Ms. Brooks": "refs/Kim.wav"
+  },
+  "asr": "faster-whisper small.en"
+ },
+ "sentences": [
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Lesson five. Diego calls Northline Phone about a practice statement.",
+    "tts_text": "Lesson five. Diego calls Northline Phone about a practice statement.",
+    "seed": 2026,
+    "hyp": "lesson 5 diego calls northline phone about a practice statement",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.89,
+    "dur": 4.34,
+    "raw_peak": 0.622,
+    "pitch_ok": true,
+    "score": 1.317,
+    "f0_med": 194.8,
+    "f0_st_sd": 2.82,
+    "f0_range_st": 9.65
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Nothing on this call is a real bill.",
+    "tts_text": "Nothing on this call is a real bill.",
+    "seed": 2026,
+    "hyp": "nothing on this call is a real bill",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 2.41,
+    "raw_peak": 0.618,
+    "pitch_ok": true,
+    "score": 1.452,
+    "f0_med": 177.1,
+    "f0_st_sd": 3.21,
+    "f0_range_st": 10.07
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diego",
+    "text": "Hello. I want to understand my statement.",
+    "tts_text": "Hello. I want to understand my statement.",
+    "seed": 2026,
+    "hyp": "hello i want to understand my statement",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.87,
+    "mean_prob": 0.96,
+    "dur": 2.07,
+    "raw_peak": 0.959,
+    "pitch_ok": true,
+    "score": 1.465,
+    "f0_med": 122.7,
+    "f0_st_sd": 3.37,
+    "f0_range_st": 10.88
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diego",
+    "text": "A fee was added, and I am going to ask about it.",
+    "tts_text": "A fee was added, and I am going to ask about it.",
+    "seed": 2026,
+    "hyp": "a fee was added and i am going to ask about it",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.68,
+    "mean_prob": 0.94,
+    "dur": 2.82,
+    "raw_peak": 0.999,
+    "pitch_ok": true,
+    "score": 1.46,
+    "f0_med": 125.6,
+    "f0_st_sd": 3.45,
+    "f0_range_st": 10.2
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "I can help.",
+    "tts_text": "I can help.",
+    "seed": 9945,
+    "hyp": "i can help",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.95,
+    "mean_prob": 0.97,
+    "dur": 0.82,
+    "raw_peak": 0.317,
+    "pitch_ok": true,
+    "score": 1.575,
+    "f0_med": 176.6,
+    "f0_st_sd": 5.93,
+    "f0_range_st": 14.79
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "The fee was added on Tuesday.",
+    "tts_text": "The fee was added on Tuesday.",
+    "seed": 2026,
+    "hyp": "the fee was added on tuesday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.93,
+    "mean_prob": 0.98,
+    "dur": 2.09,
+    "raw_peak": 0.299,
+    "pitch_ok": true,
+    "score": 1.52,
+    "f0_med": 180.7,
+    "f0_st_sd": 3.58,
+    "f0_range_st": 10.13
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "The fee was $6.",
+    "tts_text": "The fee was $6.",
+    "seed": 9945,
+    "hyp": "the fee was 6 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.51,
+    "mean_prob": 0.87,
+    "dur": 1.66,
+    "raw_peak": 0.247,
+    "pitch_ok": true,
+    "score": 1.467,
+    "f0_med": 178.6,
+    "f0_st_sd": 4.29,
+    "f0_range_st": 12.55
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diego",
+    "text": "Was the payment received?",
+    "tts_text": "Was the payment received?",
+    "seed": 2026,
+    "hyp": "was the payment received",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.68,
+    "mean_prob": 0.91,
+    "dur": 1.2,
+    "raw_peak": 0.863,
+    "pitch_ok": true,
+    "score": 1.016,
+    "f0_med": 132.3,
+    "f0_st_sd": 0.74,
+    "f0_range_st": 2.14
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "Yes, it was.",
+    "tts_text": "Yes, it was.",
+    "seed": 2026,
+    "hyp": "yes it was",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 1.24,
+    "raw_peak": 0.212,
+    "pitch_ok": true,
+    "score": 1.553,
+    "f0_med": 174.0,
+    "f0_st_sd": 4.07,
+    "f0_range_st": 12.22
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "The payment was received on Friday.",
+    "tts_text": "The payment was received on Friday.",
+    "seed": 2026,
+    "hyp": "the payment was received on friday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.99,
+    "dur": 2.13,
+    "raw_peak": 0.235,
+    "pitch_ok": true,
+    "score": 1.588,
+    "f0_med": 176.1,
+    "f0_st_sd": 4.03,
+    "f0_range_st": 13.94
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "The payment was forty dollars.",
+    "tts_text": "The payment was forty dollars.",
+    "seed": 73297,
+    "hyp": "the payment was 40 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 1.94,
+    "raw_peak": 0.22,
+    "pitch_ok": true,
+    "score": 1.516,
+    "f0_med": 188.1,
+    "f0_st_sd": 3.76,
+    "f0_range_st": 11.04
+   },
+   "tries": 10,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diego",
+    "text": "And the credit?",
+    "tts_text": "And the credit?",
+    "seed": 25783,
+    "hyp": "and the credit",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.61,
+    "mean_prob": 0.82,
+    "dur": 0.78,
+    "raw_peak": 0.882,
+    "pitch_ok": true,
+    "score": 0.915,
+    "f0_med": 91.9,
+    "f0_st_sd": 0.65,
+    "f0_range_st": 1.88
+   },
+   "tries": 4,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diego",
+    "text": "I want to know what that word means.",
+    "tts_text": "I want to know what that word means.",
+    "seed": 2026,
+    "hyp": "i want to know what that word means",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.67,
+    "mean_prob": 0.93,
+    "dur": 1.71,
+    "raw_peak": 0.907,
+    "pitch_ok": true,
+    "score": 1.217,
+    "f0_med": 116.8,
+    "f0_st_sd": 1.88,
+    "f0_range_st": 6.33
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "The credit was posted by the phone company.",
+    "tts_text": "The credit was posted by the phone company.",
+    "seed": 2026,
+    "hyp": "the credit was posted by the phone company",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.95,
+    "dur": 2.25,
+    "raw_peak": 0.376,
+    "pitch_ok": true,
+    "score": 1.55,
+    "f0_med": 179.1,
+    "f0_st_sd": 5.42,
+    "f0_range_st": 22.42
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "Credit means money back.",
+    "tts_text": "Credit means money back.",
+    "seed": 9945,
+    "hyp": "credit means money back",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.93,
+    "dur": 1.58,
+    "raw_peak": 0.306,
+    "pitch_ok": true,
+    "score": 1.361,
+    "f0_med": 181.7,
+    "f0_st_sd": 2.88,
+    "f0_range_st": 10.51
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "It is not a new phone.",
+    "tts_text": "It is not a new phone.",
+    "seed": 2026,
+    "hyp": "it is not a new phone",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.98,
+    "dur": 1.53,
+    "raw_peak": 0.319,
+    "pitch_ok": true,
+    "score": 1.578,
+    "f0_med": 198.2,
+    "f0_st_sd": 4.08,
+    "f0_range_st": 13.1
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diego",
+    "text": "Was the fee removed?",
+    "tts_text": "Was the fee removed?",
+    "seed": 2026,
+    "hyp": "was the fee removed",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.95,
+    "dur": 1.25,
+    "raw_peak": 0.599,
+    "pitch_ok": true,
+    "score": 1.549,
+    "f0_med": 115.1,
+    "f0_st_sd": 4.82,
+    "f0_range_st": 14.82
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "No, it wasn't.",
+    "tts_text": "No, it wasn't.",
+    "seed": 17864,
+    "hyp": "no it wasn't",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.76,
+    "raw_peak": 0.336,
+    "pitch_ok": true,
+    "score": 1.566,
+    "f0_med": 199.3,
+    "f0_st_sd": 6.43,
+    "f0_range_st": 26.24
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "The six dollars was credited.",
+    "tts_text": "The six dollars was credited.",
+    "seed": 17864,
+    "hyp": "the 6 dollars was credited",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.86,
+    "dur": 2.08,
+    "raw_peak": 0.354,
+    "pitch_ok": true,
+    "score": 1.457,
+    "f0_med": 188.1,
+    "f0_st_sd": 6.91,
+    "f0_range_st": 24.2
+   },
+   "tries": 3,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "That is the money back.",
+    "tts_text": "That is the money back.",
+    "seed": 33702,
+    "hyp": "that is the money back",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.86,
+    "mean_prob": 0.93,
+    "dur": 1.72,
+    "raw_peak": 0.421,
+    "pitch_ok": true,
+    "score": 1.527,
+    "f0_med": 177.6,
+    "f0_st_sd": 5.14,
+    "f0_range_st": 20.81
+   },
+   "tries": 5,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diego",
+    "text": "Are the calls listed?",
+    "tts_text": "Are the calls listed?",
+    "seed": 2026,
+    "hyp": "are the calls listed",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.91,
+    "mean_prob": 0.97,
+    "dur": 1.19,
+    "raw_peak": 0.83,
+    "pitch_ok": true,
+    "score": 1.336,
+    "f0_med": 109.6,
+    "f0_st_sd": 2.47,
+    "f0_range_st": 6.66
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "Yes, they are.",
+    "tts_text": "Yes, they are.",
+    "seed": 2026,
+    "hyp": "yes they are",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.89,
+    "mean_prob": 0.96,
+    "dur": 1.04,
+    "raw_peak": 0.245,
+    "pitch_ok": true,
+    "score": 1.264,
+    "f0_med": 207.6,
+    "f0_st_sd": 2.03,
+    "f0_range_st": 6.6
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "They are listed on page 2.",
+    "tts_text": "They are listed on page 2.",
+    "seed": 9945,
+    "hyp": "they are listed on page 2",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.76,
+    "mean_prob": 0.94,
+    "dur": 1.83,
+    "raw_peak": 0.198,
+    "pitch_ok": true,
+    "score": 1.536,
+    "f0_med": 191.4,
+    "f0_st_sd": 5.69,
+    "f0_range_st": 22.1
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "The bill is mailed on the first of the month.",
+    "tts_text": "The bill is mailed on the first of the month.",
+    "seed": 2026,
+    "hyp": "the bill is mailed on the first of the month",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.81,
+    "mean_prob": 0.96,
+    "dur": 2.51,
+    "raw_peak": 0.308,
+    "pitch_ok": true,
+    "score": 1.559,
+    "f0_med": 172.5,
+    "f0_st_sd": 5.13,
+    "f0_range_st": 23.62
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diego",
+    "text": "What is due today?",
+    "tts_text": "What is due today?",
+    "seed": 2026,
+    "hyp": "what is due today",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.83,
+    "mean_prob": 0.91,
+    "dur": 0.98,
+    "raw_peak": 0.788,
+    "pitch_ok": true,
+    "score": 1.28,
+    "f0_med": 122.0,
+    "f0_st_sd": 2.44,
+    "f0_range_st": 6.7
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "Nothing is due today.",
+    "tts_text": "Nothing is due today.",
+    "seed": 2026,
+    "hyp": "nothing is due today",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.72,
+    "mean_prob": 0.93,
+    "dur": 1.66,
+    "raw_peak": 0.403,
+    "pitch_ok": true,
+    "score": 1.459,
+    "f0_med": 171.5,
+    "f0_st_sd": 3.54,
+    "f0_range_st": 11.53
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "Due today is $0.",
+    "tts_text": "Due today is $0.",
+    "seed": 97054,
+    "hyp": "due today is 0 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.58,
+    "mean_prob": 0.84,
+    "dur": 2.05,
+    "raw_peak": 0.237,
+    "pitch_ok": true,
+    "score": 1.388,
+    "f0_med": 186.0,
+    "f0_st_sd": 3.63,
+    "f0_range_st": 11.75
+   },
+   "tries": 13,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "The due date on the statement is the 20th.",
+    "tts_text": "The due date on the statement is the 20th.",
+    "seed": 2026,
+    "hyp": "the due date on the statement is the twentieth",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.92,
+    "mean_prob": 0.98,
+    "dur": 2.8,
+    "raw_peak": 0.289,
+    "pitch_ok": true,
+    "score": 1.579,
+    "f0_med": 168.6,
+    "f0_st_sd": 5.59,
+    "f0_range_st": 14.8
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diego",
+    "text": "Thank you. I am going to read the due date again at home.",
+    "tts_text": "Thank you. I am going to read the due date again at home.",
+    "seed": 2026,
+    "hyp": "thank you i am going to read the due date again at home",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.85,
+    "mean_prob": 0.97,
+    "dur": 3.06,
+    "raw_peak": 1.018,
+    "pitch_ok": true,
+    "score": 1.573,
+    "f0_med": 116.8,
+    "f0_st_sd": 6.0,
+    "f0_range_st": 25.63
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Diego",
+    "text": "The balance is $28.",
+    "tts_text": "The balance is $28.",
+    "seed": 9945,
+    "hyp": "the balance is 28 dollars",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.79,
+    "mean_prob": 0.89,
+    "dur": 1.83,
+    "raw_peak": 0.885,
+    "pitch_ok": true,
+    "score": 1.143,
+    "f0_med": 113.2,
+    "f0_st_sd": 1.66,
+    "f0_range_st": 5.54
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "That is right.",
+    "tts_text": "That is right.",
+    "seed": 2026,
+    "hyp": "that is right",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.94,
+    "mean_prob": 0.97,
+    "dur": 1.17,
+    "raw_peak": 0.227,
+    "pitch_ok": true,
+    "score": 1.572,
+    "f0_med": 226.3,
+    "f0_st_sd": 4.65,
+    "f0_range_st": 12.44
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "For a real charge, call the number on your own statement.",
+    "tts_text": "For a real charge, call the number on your own statement.",
+    "seed": 9945,
+    "hyp": "for a real charge call the number on your own statement",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.96,
+    "mean_prob": 0.99,
+    "dur": 3.46,
+    "raw_peak": 0.271,
+    "pitch_ok": true,
+    "score": 1.59,
+    "f0_med": 172.5,
+    "f0_st_sd": 6.58,
+    "f0_range_st": 26.35
+   },
+   "tries": 2,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Ms. Brooks",
+    "text": "This call is practice.",
+    "tts_text": "This call is practice.",
+    "seed": 2026,
+    "hyp": "this call is practice",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.97,
+    "mean_prob": 0.99,
+    "dur": 1.87,
+    "raw_peak": 0.278,
+    "pitch_ok": true,
+    "score": 1.585,
+    "f0_med": 193.7,
+    "f0_st_sd": 6.43,
+    "f0_range_st": 20.83
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "Diego writes two lines: the fee was added on Tuesday, and the payment was received on Friday.",
+    "tts_text": "Diego writes two lines: the fee was added on Tuesday, and the payment was received on Friday.",
+    "seed": 2026,
+    "hyp": "diego writes 2 lines the fee was added on tuesday and the payment was received on friday",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.6,
+    "mean_prob": 0.97,
+    "dur": 5.16,
+    "raw_peak": 0.925,
+    "pitch_ok": true,
+    "score": 1.545,
+    "f0_med": 201.6,
+    "f0_st_sd": 3.84,
+    "f0_range_st": 11.9
+   },
+   "tries": 1,
+   "passing": 1
+  },
+  {
+   "chosen": {
+    "spk": "Narrator",
+    "text": "That's the end of the listening.",
+    "tts_text": "That's the end of the listening.",
+    "seed": 2026,
+    "hyp": "that's the end of the listening",
+    "ok": true,
+    "edge": false,
+    "flags": [],
+    "min_prob": 0.9,
+    "mean_prob": 0.97,
+    "dur": 1.42,
+    "raw_peak": 0.808,
+    "pitch_ok": true,
+    "score": 1.499,
+    "f0_med": 170.5,
+    "f0_st_sd": 3.51,
+    "f0_range_st": 10.08
+   },
+   "tries": 1,
+   "passing": 1
+  }
+ ],
+ "line_times": [
+  [
+   9.4,
+   14.84,
+   "Diego",
+   "Hello. I want to understand my statement. A fee was added, and I am going to ask about it."
+  ],
+  [
+   16.24,
+   21.91,
+   "Ms. Brooks",
+   "I can help. The fee was added on Tuesday. The fee was $6."
+  ],
+  [
+   23.31,
+   24.51,
+   "Diego",
+   "Was the payment received?"
+  ],
+  [
+   25.91,
+   32.32,
+   "Ms. Brooks",
+   "Yes, it was. The payment was received on Friday. The payment was forty dollars."
+  ],
+  [
+   33.72,
+   36.76,
+   "Diego",
+   "And the credit? I want to know what that word means."
+  ],
+  [
+   38.16,
+   44.62,
+   "Ms. Brooks",
+   "The credit was posted by the phone company. Credit means money back. It is not a new phone."
+  ],
+  [
+   46.02,
+   47.27,
+   "Diego",
+   "Was the fee removed?"
+  ],
+  [
+   48.67,
+   55.33,
+   "Ms. Brooks",
+   "No, it wasn't. The six dollars was credited. That is the money back."
+  ],
+  [
+   56.73,
+   57.92,
+   "Diego",
+   "Are the calls listed?"
+  ],
+  [
+   59.32,
+   65.8,
+   "Ms. Brooks",
+   "Yes, they are. They are listed on page 2. The bill is mailed on the first of the month."
+  ],
+  [
+   67.2,
+   68.18,
+   "Diego",
+   "What is due today?"
+  ],
+  [
+   69.58,
+   77.19,
+   "Ms. Brooks",
+   "Nothing is due today. Due today is $0. The due date on the statement is the 20th."
+  ],
+  [
+   78.59,
+   84.03,
+   "Diego",
+   "Thank you. I am going to read the due date again at home. The balance is $28."
+  ],
+  [
+   85.43,
+   93.03,
+   "Ms. Brooks",
+   "That is right. For a real charge, call the number on your own statement. This call is practice."
+  ],
+  [
+   94.43,
+   99.59,
+   "Narrator",
+   "Diego writes two lines: the fee was added on Tuesday, and the payment was received on Friday."
+  ]
+ ]
+}
