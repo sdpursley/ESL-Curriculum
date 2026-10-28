@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 2 (Week 2): By the Time We Opened
 
-**Status:** Not published. Draft listening audio is recorded.
+**Status:** Published. Listening audio, lesson pages, and teacher slides are ready.
 
 **Date:** October 2026
 
 **Audience:** Program coordinators and volunteer teachers
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L2.md`). Listening audio is not recorded yet. Until it is, read the script aloud.
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L2.md`). Listening audio: `L5_L2_listening.mp3` (1:39).
 
 > **Topic:** A neighborhood bakery getting ready to open. Learners say what had already happened before the next thing, put events in order, and write a short project note.
 
@@ -58,7 +58,7 @@
 - Student Pages for Lesson 2 (print the number you expect + 3 spares)
 - Board and markers. Two X's: left = *earlier: had painted*; right = *later: the inspector arrived*
 - Four picture cards from the bakery set, one pack per pair (bakery, oven, paint roller, inspector). Shuffle them.
-- Listening: not recorded yet. Read the script with volunteers, two times. About 2:15.
+- Listening: `L5_L2_listening.mp3` (1:39). Play it two times. No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes. Draw the line. Shuffle the card packs.
 :::
 
@@ -461,6 +461,6 @@ Name: ______________________________     Date: ________________
 
 Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS_L5_L2.md`.
 
-Listening audio is not recorded yet. When it is recorded, the voices will be computer-generated. No recordings of real people. The names and the story are invented.
+Listening audio: `L5_L2_listening.mp3` (1:39). The voices are computer-generated. No recordings of real people. The names and the story are invented.
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

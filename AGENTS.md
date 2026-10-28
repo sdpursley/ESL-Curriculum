@@ -13,7 +13,7 @@ All commands run from the repository root unless a step says `cd`.
 ## 1. Project layout
 
 The repository is a Vite + React + TypeScript website (HashRouter, deployed to GitHub Pages by `.github/workflows/pages.yml`)
-plus the sources and build scripts for four levels of a 5-level adult ESL progression. Level 5 is only planned (`Five_Level_Map.md`).
+plus the sources and build scripts for five levels of a 5-level adult ESL progression. Level 5 (Taking Part) is published (`Five_Level_Map.md`).
 
 | What | Level 1 (beginner) | Level 2 (high beginner) | Level 3 (low intermediate) | Level 4 (intermediate) |
 |---|---|---|---|---|

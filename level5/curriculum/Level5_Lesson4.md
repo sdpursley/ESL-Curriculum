@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 4 (Week 4): Unless You Call First
 
-**Status:** Not published. Draft listening audio is recorded.
+**Status:** Published. Listening audio, lesson pages, and teacher slides are ready.
 
 **Date:** October 2026
 
 **Audience:** Program coordinators and volunteer teachers
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L4.md`). Audio: `L5_L4_listening.mp3` (about 2:15, not recorded yet).
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L4.md`). Listening audio: `L5_L4_listening.mp3` (1:48).
 
 > **Topic:** A workplace visitor notice and a short building notice. Learners explain a condition with *unless*, *as long as*, and *even though*, and they ask one polite question about a rule.
 
@@ -59,7 +59,7 @@
 - Student Pages for Lesson 4 (print for the number expected + 3 spares)
 - Board and markers
 - Six rule strips (copy the strips from the Talk Time page, one set per pair)
-- Listening: phone + small speaker, `L5_L4_listening.mp3` (about 2:15). No speaker? Read the script aloud with a volunteer.
+- Listening: phone + small speaker, `L5_L4_listening.mp3` (1:48). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes (read the plan; cut the strips; practice reading the listening script).
 :::
 
@@ -118,7 +118,7 @@
 - **Play 1 → Task A** (the main idea). Pairs compare. Check together. Then read Tasks B and C together so learners know what to listen for.
 - **Play 2 → Tasks B and C.** Pairs compare. Then show the answers (answer key).
 - **"Hear it, say it" (3 min):** *gonna* and *wanna* are short forms. This listening uses the full forms. You can say *want to* and *going to*. Then say *unless* with stress on the second syllable, and say *as long as* as one chunk. The class repeats each line two times.
-- **The audio plays the conversation once (about 2:15).** Press play again for play 2. A third play is fine if the class needs it. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
+- **The audio plays the conversation once (1:48).** Press play again for play 2. A third play is fine if the class needs it. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 - **If behind:** do Task C together on the board, reading the lines yourself.
 :::
 
@@ -161,7 +161,7 @@
 :::
 
 ---
-### Listening script: `L5_L4_listening.mp3` (about 2:15; the conversation plays once, so press play again for the second listen)
+### Listening script: `L5_L4_listening.mp3` (1:48; the conversation plays once, so press play again for the second listen)
 
 > **Audio:** play `L5_L4_listening.mp3` from a phone + small speaker. No speaker? Read the script with a volunteer, at a natural, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
@@ -493,6 +493,6 @@ Name: ______________________________     Date: ________________
 
 Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS_L5_L4.md`.
 
-Listening audio (coming soon): synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people. Andre, Helen, and Mei are invented names. The story is invented.
+Listening audio (`L5_L4_listening.mp3`, 1:48): synthetic voices made with Chatterbox TTS (MIT License), cloned from short synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people. Andre, Helen, and Mei are invented names. The story is invented.
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

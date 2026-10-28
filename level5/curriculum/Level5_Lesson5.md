@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 5 (Week 5): It Was Posted on Tuesday
 
-**Status:** Not published. Draft listening audio is recorded.
+**Status:** Published. Listening audio, lesson pages, and teacher slides are ready.
 
 **Date:** October 2026
 
 **Audience:** Program coordinators and volunteer teachers
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L5.md`). Listening audio is not recorded yet. Until it is, read the script aloud.
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L5.md`). Listening audio: `L5_L5_listening.mp3` (1:43).
 
 > **Topic:** Read a simple phone statement. Say what was charged, what was paid, and what was credited. Credit means money back on a statement. Then write a three-line budget with invented numbers.
 
@@ -46,7 +46,7 @@ By the end of class, you can do these things.
 :::box Materials
 - Student pages for Lesson 5 (print the number you expect + 3 spares)
 - Board and markers
-- Listening: not recorded yet. Read the script with volunteers, two times, at a natural speed. About 2:20.
+- Listening: `L5_L5_listening.mp3` (1:43). Play it two times. No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes
 :::
 
@@ -338,6 +338,6 @@ Use two passive sentences, and say one reason you would call the company. Then g
 
 Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS_L5_L5.md`.
 
-Listening audio is not recorded yet. When it is recorded, the voices will be computer-generated. No recordings of real people. The names and the story are invented.
+Listening audio: `L5_L5_listening.mp3` (1:43). The voices are computer-generated. No recordings of real people. The names and the story are invented.
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

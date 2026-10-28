@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 10 (Week 11): Can We Meet in the Middle?
 
-**Status:** Not published. Draft listening audio is recorded.
+**Status:** Published. Listening audio, lesson pages, and teacher slides are ready.
 
 **Date:** October 2026
 
 **Audience:** Volunteer teachers and adult learners
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L10.md`). Listening audio is not recorded yet. Target length about 2:30.
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L10.md`). Listening audio: `L5_L10_listening.mp3` (2:11).
 
 > **Topic:** Two coworkers share a Saturday job. They disagree, then meet in the middle. The conflict is a schedule between coworkers, not a complaint against a boss and not a pay dispute.
 
@@ -19,6 +19,8 @@
 | **Student Pages** | Opening Talk, New Words, Listening, Grammar, Talk Time, Homework, Read & Write, Exit Ticket | Learners |
 
 ---
+<!-- part: Teacher Plan | Lesson 10 (Week 11) | Can We Meet in the Middle? ;; At a glance · Clock · Steps · Script and answer key | Level 5 ESL · Lesson 10 · TEACHER PLAN -->
+<!-- mode: teacher -->
 ## Lesson 10 (Week 11): Can We Meet in the Middle?
 
 ### At a glance
@@ -44,7 +46,7 @@
 - Board and markers
 - Constraint cards: morning class, a family visit, a second job (one card per person in a pair)
 - A 4-minute timer for the timekeeper
-- Listening: phone + small speaker when the audio is ready (about 2:30). No speaker? Read the script aloud with a volunteer.
+- Listening: phone + small speaker, `L5_L10_listening.mp3` (2:11). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes
 :::
 
@@ -137,7 +139,7 @@
 ---
 ### Listening script
 
-About 2:30. The conversation plays once, so press play again for the second listen. Spoken lines use *going to* and *want to*.
+2:11. The conversation plays once, so press play again for the second listen. Spoken lines use *going to* and *want to*.
 
 > **Narrator:** Lesson ten. Camila and Jon share a Saturday job. They both want the day off. Ms. Nguyen asks them to work it out before she calls the shift off.
 > **Ms. Nguyen:** I don't want to call the shift off. The week was so busy that we need Saturday. Please meet in the middle.
@@ -181,6 +183,7 @@ About 2:30. The conversation plays once, so press play again for the second list
 - *gonna* and *wanna* are short forms. This listening uses the full forms.
 
 ---
+<!-- part: Student Workbook | Lesson 10 (Week 11) | Can We Meet in the Middle? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 5 ESL · Lesson 10 · STUDENT WORKBOOK -->
 <!-- mode: student -->
 ## Lesson 10 (Week 11) · Opening Talk
 
@@ -454,4 +457,12 @@ Give it to me at the door.
 
 ---
 
-© 2026 the authors, CC BY-NC-SA 4.0
+---
+<!-- mode: guide -->
+## Picture Credits
+
+Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS_L5_L10.md`.
+
+Listening audio: `L5_L10_listening.mp3` (2:11). The voices are computer-generated. No recordings of real people. The names and the story are invented.
+
+Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

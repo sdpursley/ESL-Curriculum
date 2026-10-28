@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 12 (Week 13): The Room Where We Meet
 
-**Status:** Not published. Draft listening audio is recorded.
+**Status:** Published. Listening audio, lesson pages, and teacher slides are ready.
 
 **Date:** October 2026
 
 **Audience:** Volunteer teachers and adult learners
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L12.md`). Listening audio is not recorded yet. Target length about 2:35.
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L12.md`). Listening audio: `L5_L12_listening.mp3` (2:17).
 
 > **Topic:** A library meeting about evening hours. Learners follow an agenda, refer to a proposal, and one learner chairs a four-minute round. A second card set uses the same English for a school conference.
 
@@ -19,6 +19,8 @@
 | **Student Pages** | Opening Talk, New Words, Listening, Grammar, Talk Time, Homework, Read & Write, Exit Ticket | Learners |
 
 ---
+<!-- part: Teacher Plan | Lesson 12 (Week 13) | The Room Where We Meet ;; At a glance · Clock · Steps · Script and answer key | Level 5 ESL · Lesson 12 · TEACHER PLAN -->
+<!-- mode: teacher -->
 ## Lesson 12 (Week 13): The Room Where We Meet
 
 ### At a glance
@@ -44,7 +46,7 @@
 - A one-page agenda: welcome, the proposal, questions, a decision
 - A second card set: a school conference (same English)
 - A timer, name tents, and one question card per person
-- Listening about 2:35, or read the script with a volunteer
+- Listening: `L5_L12_listening.mp3` (2:17). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes
 :::
 
@@ -119,7 +121,7 @@
 ---
 ### Listening script
 
-About 2:35. Spoken lines use *going to* and *want to*.
+2:17. Spoken lines use *going to* and *want to*.
 
 > **Narrator:** Lesson twelve. This is a short meeting at the library. Ms. Adeyemi is the chairperson. Tom and Grace are going to talk about evening hours.
 > **Ms. Adeyemi:** Welcome. Please look at the agenda, which is on your handout. This is the room where we meet.
@@ -163,6 +165,7 @@ About 2:35. Spoken lines use *going to* and *want to*.
 - *gonna* and *wanna* are short forms. This listening uses the full forms.
 
 ---
+<!-- part: Student Workbook | Lesson 12 (Week 13) | The Room Where We Meet ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 5 ESL · Lesson 12 · STUDENT WORKBOOK -->
 <!-- mode: student -->
 ## Lesson 12 (Week 13) · Opening Talk
 
@@ -417,4 +420,12 @@ Give it to me at the door.
 
 ---
 
-© 2026 the authors, CC BY-NC-SA 4.0
+---
+<!-- mode: guide -->
+## Picture Credits
+
+Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS_L5_L12.md`.
+
+Listening audio: `L5_L12_listening.mp3` (2:17). The voices are computer-generated. No recordings of real people. The names and the story are invented.
+
+Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

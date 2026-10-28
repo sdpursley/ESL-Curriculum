@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 11 (Week 12): I'd Like to File a Claim
 
-**Status:** Not published. Draft listening audio is recorded.
+**Status:** Published. Listening audio, lesson pages, and teacher slides are ready.
 
 **Date:** October 2026
 
 **Audience:** Volunteer teachers and adult learners
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L11.md`). Listening audio is not recorded yet. Target length about 2:30.
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L11.md`). Listening audio: `L5_L11_listening.mp3` (2:02).
 
 > **Topic:** Ask about a small claim for a cracked phone screen, or a water stain that is already dry, and write a two-paragraph letter. This letter is practice. It is not insurance advice.
 
@@ -19,6 +19,8 @@
 | **Student Pages** | Opening Talk, New Words, Listening, Grammar, Talk Time, Homework, Read & Write, Exit Ticket | Learners |
 
 ---
+<!-- part: Teacher Plan | Lesson 11 (Week 12) | I'd Like to File a Claim ;; At a glance · Clock · Steps · Script and answer key | Level 5 ESL · Lesson 11 · TEACHER PLAN -->
+<!-- mode: teacher -->
 ## Lesson 11 (Week 12): I'd Like to File a Claim
 
 ### At a glance
@@ -43,7 +45,7 @@
 - Student pages for Lesson 11
 - Claim cards: cracked screen; a dry water stain on a page
 - Status cards: received, missing the photo, in review
-- Listening about 2:30, or read the script with a volunteer
+- Listening: `L5_L11_listening.mp3` (2:02). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes
 :::
 
@@ -122,7 +124,7 @@
 ---
 ### Listening script
 
-About 2:30. The phone call is the whole story. Spoken lines use *going to* and *want to*.
+2:02. The phone call is the whole story. Spoken lines use *going to* and *want to*.
 
 > **Narrator:** Lesson eleven. Hector calls customer service about a cracked phone screen. Ms. Lane answers. The phone call is the whole story.
 > **Ms. Lane:** Thank you for calling customer service. This is Ms. Lane. How can I help you?
@@ -164,6 +166,7 @@ About 2:30. The phone call is the whole story. Spoken lines use *going to* and *
 - *gonna* and *wanna* are short forms. This listening uses the full forms.
 
 ---
+<!-- part: Student Workbook | Lesson 11 (Week 12) | I'd Like to File a Claim ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 5 ESL · Lesson 11 · STUDENT WORKBOOK -->
 <!-- mode: student -->
 ## Lesson 11 (Week 12) · Opening Talk
 
@@ -431,4 +434,12 @@ Give it to me at the door.
 
 ---
 
-© 2026 the authors, CC BY-NC-SA 4.0
+---
+<!-- mode: guide -->
+## Picture Credits
+
+Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS_L5_L11.md`.
+
+Listening audio: `L5_L11_listening.mp3` (2:02). The voices are computer-generated. No recordings of real people. The names and the story are invented.
+
+Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

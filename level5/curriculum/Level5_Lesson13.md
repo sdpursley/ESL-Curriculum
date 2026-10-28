@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 13 (Week 14): A Short Talk
 
-**Status:** Not published. Draft listening audio is recorded.
+**Status:** Published. Listening audio, lesson pages, and teacher slides are ready.
 
 **Date:** October 2026
 
 **Audience:** Volunteer teachers and adult learners
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L13.md`). Listening audio is not recorded yet. Target length about 2:20.
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L13.md`). Listening audio: `L5_L13_listening.mp3` (1:47).
 
 > **Topic:** Plan and rehearse a 2–3 minute talk: an introduction, two examples, and a conclusion. The topic is an accomplishment, a skill, or someone who helped. "My class," "my job," or "a person who helped me practice" is always enough.
 
@@ -19,6 +19,8 @@
 | **Student Pages** | Opening Talk, New Words, Listening, Grammar, Talk Time, Homework, Read & Write, Exit Ticket | Learners |
 
 ---
+<!-- part: Teacher Plan | Lesson 13 (Week 14) | A Short Talk ;; At a glance · Clock · Steps · Script and answer key | Level 5 ESL · Lesson 13 · TEACHER PLAN -->
+<!-- mode: teacher -->
 ## Lesson 13 (Week 14): A Short Talk
 
 ### At a glance
@@ -42,7 +44,7 @@
 :::box Materials
 - Student pages for Lesson 13
 - Notecards and a stopwatch or phone timer
-- Listening about 2:20, or read the script with a volunteer
+- Listening: `L5_L13_listening.mp3` (1:47). No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes. Model a one-minute version of your own first: introduction, one example, conclusion.
 :::
 
@@ -115,7 +117,7 @@
 ---
 ### Listening script
 
-About 2:20. Spoken lines use *going to* and *want to*.
+1:47. Spoken lines use *going to* and *want to*.
 
 > **Narrator:** Lesson thirteen. Imani, a former learner, gives a short talk at a practice night at the community center. Then Mr. Gordon asks one question.
 > **Imani:** Good evening. My point is simple. I've been learning to speak up at work, and a mentor helped me.
@@ -156,6 +158,7 @@ About 2:20. Spoken lines use *going to* and *want to*.
 - *gonna* and *wanna* are short forms. This listening uses the full forms.
 
 ---
+<!-- part: Student Workbook | Lesson 13 (Week 14) | A Short Talk ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 5 ESL · Lesson 13 · STUDENT WORKBOOK -->
 <!-- mode: student -->
 ## Lesson 13 (Week 14) · Opening Talk
 
@@ -408,4 +411,12 @@ Give it to me at the door.
 
 ---
 
-© 2026 the authors, CC BY-NC-SA 4.0
+---
+<!-- mode: guide -->
+## Picture Credits
+
+Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS_L5_L13.md`.
+
+Listening audio: `L5_L13_listening.mp3` (1:47). The voices are computer-generated. No recordings of real people. The names and the story are invented.
+
+Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

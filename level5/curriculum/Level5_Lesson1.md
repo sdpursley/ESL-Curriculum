@@ -1,13 +1,13 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 1 (Week 1): How Long Have You Been Working Here?
 
-**Status:** Not published. Draft listening audio is recorded.
+**Status:** Published. Listening audio, lesson pages, and teacher slides are ready.
 
 **Date:** October 2026
 
 **Audience:** Program coordinators and volunteer teachers
 
-**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L1.md`). Listening audio is not recorded yet. Until it is, read the script aloud.
+**Companion files:** `images/` (12 vocabulary pictures + `images/CREDITS_L5_L1.md`). Listening audio: `L5_L1_listening.mp3` (1:37).
 
 > **Topic:** A practice job interview at a community center. Learners say how long they have been doing something, give one accomplishment with an example, and ask a follow-up question. Week 1 also has a short welcome, the first can-do check, and a baseline snapshot for about five learners.
 
@@ -57,7 +57,7 @@
 - Student Pages for Lesson 1 (print the number you expect + 3 spares)
 - Board and markers. Draw a line: *2022 (finished)* ————→ *now (still true)*
 - Six interview question cards (they are on the Talk Time page; cut them if you can)
-- Listening: not recorded yet. Read the script with two volunteers, two times, at a natural speed. About 2:10.
+- Listening: `L5_L1_listening.mp3` (1:37). Play it two times. No speaker? Read the script aloud with a volunteer.
 - **Prep time:** 15 minutes. Read the plan, draw the line, and practice the script once.
 :::
 
@@ -484,6 +484,6 @@ Name: ______________________________     Date: ________________
 
 Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS_L5_L1.md`.
 
-Listening audio is not recorded yet. When it is recorded, the voices will be computer-generated. No recordings of real people. The names and the story are invented.
+Listening audio: `L5_L1_listening.mp3` (1:37). The voices are computer-generated. No recordings of real people. The names and the story are invented.
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

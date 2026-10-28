@@ -1,7 +1,7 @@
 <!-- mode: guide -->
 # Level 5 Adult ESL Curriculum · Lesson 8 (Week 9): Do You Know If It's Tonight?
 
-**Status:** Not published. Draft listening audio is recorded.
+**Status:** Published. Listening audio, lesson pages, and teacher slides are ready.
 
 **Date:** October 2026
 
@@ -168,9 +168,9 @@ By the end of class, you can do these four things.
 ---
 ### Listening script
 
-*About 2:20. The conversation plays once, so press play again for the second listen. Not recorded yet.*
+*1:43. The conversation plays once, so press play again for the second listen.*
 
-> **Audio:** No speaker yet. Read the script with a volunteer, at a normal, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
+> **Audio:** Play `L5_L8_listening.mp3` (1:43) from a phone and a small speaker. No speaker? Read the script with a volunteer, at a normal, friendly speed. The script says *going to* and *want to*. People often say *gonna* and *wanna*; learners only need to recognize those words.
 
 > **Narrator:** Lesson eight. Maya is calling the office at Northside School. She volunteers for the after-school reading hour. Mr. Reed answers the phone.
 > **Mr. Reed:** Northside School office. This is Mr. Reed.
@@ -515,6 +515,6 @@ Two with *Do you know if / whether*. One reported answer. And a reason.
 
 Pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added. The file-by-file list is in `images/CREDITS_L5_L8.md`.
 
-Listening audio (coming soon): synthetic voices made with Chatterbox TTS (MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people. The names and the story are invented.
+Listening audio (`L5_L8_listening.mp3`, 1:43): synthetic voices made with Chatterbox TTS (MIT License), cloned from synthetic reference clips made with Kokoro-82M (Apache License 2.0). No recordings of real people. The names and the story are invented.
 
 Course materials: © 2026 the authors, licensed under CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/).

@@ -17,3 +17,5 @@ export const level1PresentHref = (n: number) => `#/level1/present/${n}`
 export const level3PresentHref = (n: number) => `#/level3/present/${n}`
 /** Level 4 presenter route; Level 4 file paths come from src/content_level4.json. */
 export const level4PresentHref = (n: number) => `#/level4/present/${n}`
+/** Level 5 presenter route; Level 5 file paths come from src/content_level5.json. */
+export const level5PresentHref = (n: number) => `#/level5/present/${n}`
