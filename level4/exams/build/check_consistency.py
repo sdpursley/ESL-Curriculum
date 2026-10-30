@@ -44,6 +44,7 @@ def check_items(k, part, its, body, same, stu, src_name):
         if t['kind'] == 'write': ok('______' in t['q'] and len(t['ans'].split()) == 1, f'{tag}: write-one-word item has a blank and a one-word key')
         ok(f'{i}. {G.stem(t)}' in stu, f'{tag}: stem on the student test')
 for E in D.EXAMS:
+    C = G.C = dict(D.CFG, **E.get('cfg', {}))   # per-exam overrides (e.g. Level 5 writing length)
     k = E['key']
     stu = open(os.path.join(X, f'Level{V}_{k}_Student_Test.md')).read(); pk = open(os.path.join(X, f'Level{V}_{k}_Exam_Teacher_Packet.md')).read()
     S = load(os.path.join(HERE, 'audio', E['script'])) if 'script' in E else load(os.path.join(HERE, 'audio', f'script_L{V}_{k}.py'))

@@ -75,7 +75,7 @@ def student(E):
          f'### A. Listening ({P["A"]} points)', '',
          f'{E["listen_task"]} You will hear the audio two times.', '', f'*{E["scene"]}*', '']
     L += items(E['listening'])
-    L += ['<!-- pagebreak -->', f'### B. Words ({P["B"]} points)', '',
+    L += C.get('break_before_words', ['<!-- pagebreak -->']) + [f'### B. Words ({P["B"]} points)', '',
           f'Write a word or phrase from the box in each sentence. Use each one once. You will not use {len(W["box"]) - len(W["items"])} of them.', '',
           '> ' + '  ·  '.join(f'**{w}**' for w in W['box']), '']
     for i, (s, a, les) in enumerate(W['items'], 1): L += [f'{i}. {s}', '']
@@ -263,6 +263,7 @@ def write_script(E):
 
 if __name__ == '__main__':
     for E in D.EXAMS:
+        C = dict(D.CFG, **E.get('cfg', {}))   # an exam may override level settings (e.g. Level 5 writing length)
         est = write_script(E)
         open(os.path.join(OUT, f'Level{V}_{E["key"]}_Student_Test.md'), 'w').write(student(E))
         open(os.path.join(OUT, f'Level{V}_{E["key"]}_Exam_Teacher_Packet.md'), 'w').write(packet(E))

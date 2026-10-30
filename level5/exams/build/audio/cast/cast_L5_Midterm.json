@@ -1,0 +1,30 @@
+{
+ "TITLE": "Midterm: A Practice Interview and a Message",
+ "VOICES": {
+  "Narrator": "N",
+  "Ms. Hale": "Kim",
+  "Samir": "Marco",
+  "Jana": "Rosa"
+ },
+ "FEMALE": [
+  "Jana",
+  "Ms. Hale",
+  "Narrator"
+ ],
+ "NAMES": [
+  "adam",
+  "green",
+  "hale",
+  "jana",
+  "samir"
+ ],
+ "SAME": {
+  "okay": "ok",
+  "ms": "miss"
+ },
+ "TTS": {
+  "OK. I'll bring my ID. Thank you, Ms. Hale.": "Okay. I'll bring my ID. Thank you, Ms. Hale.",
+  "At 4:30. She told me to bring his school form. And she asked if we could come ten minutes early.": "At four thirty. She told me to bring his school form. And she asked if we could come ten minutes early.",
+  "OK. Even though it's a busy week, I can take him. I don't work on Wednesday afternoon.": "Okay. Even though it's a busy week, I can take him. I don't work on Wednesday afternoon."
+ }
+}
