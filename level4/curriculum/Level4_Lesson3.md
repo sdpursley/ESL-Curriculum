@@ -213,7 +213,7 @@
 - **'s = has:** *It's just arrived. She's already left.* Ask: "*is* or *has*?" If a past participle comes next, it is *has*.
 - **Writing Check 1:** collect the reply emails. Write one strength and one fix on each (for example, the place of *yet*). Return them next week; learners keep them in a folder to see progress. No scores.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 3 (Week 3) | Have You Finished Yet? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 3 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -310,7 +310,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "I'm **going to** clean it before I clock out." • *wanna* = want to: "I **want to** finish it this week." You can say *going to* and *want to*. Listen for *'s* = *has*: *It's just arrived.* Say it with stress: *I've JUST finished it.* • *I've alREADY restocked them.*
+*gonna* = going to: "I'm **going to** clean it before I clock out." • *wanna* = want to: "I **want to** finish it this week." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. Listen for *'s* = *has*: *It's just arrived.* Say it with stress: *I've JUST finished it.* • *I've alREADY restocked them.*
 
 ---
 ## Lesson 3 (Week 3) · Grammar

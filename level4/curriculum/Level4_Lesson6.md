@@ -208,7 +208,7 @@
 - **Personal topics:** learners never need to talk about real money problems. *If I won $1,000* is just a game.
 - ***I'd*:** learners often drop the *d*. Model *I'd give* slowly, then smoothly.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 6 (Week 6) | What Would You Do? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 6 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -305,7 +305,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*wanna* = want to: "I **want to** hear your ideas." • *gonna* = going to: "If you're **going to** call, call early!" You can say *want to* and *going to*. Listen for *I'd* (= I would): the *d* is short but it is there. In *What would you **do**?*, the stress is on *do*.
+*wanna* = want to: "I **want to** hear your ideas." • *gonna* = going to: "If you're **going to** call, call early!" People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. Listen for *I'd* (= I would): the *d* is short but it is there. In *What would you **do**?*, the stress is on *do*.
 
 ---
 ## Lesson 6 (Week 6) · Grammar

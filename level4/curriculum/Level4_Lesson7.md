@@ -210,7 +210,7 @@
 - **Writing check 2 (Week 7):** collect the first-week tips. Write one strength and one fix on each. Learners keep them in their writing folder.
 - **Week 8 is the midterm.** It covers Lessons 1–7. Remind learners to bring their workbook.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 7 (Week 7) | Too Early or On Time? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 7 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -307,7 +307,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*wanna* = want to: "What do you **want to** know?" • *gonna* = going to: "I'm **going to** buy some today." You can say *want to* and *going to*. *too*, *two*, and *to* sound the same: listen to the meaning. Stress: *TOO late* • *not eNOUGH*. In *mustn't*, you don't hear the first *t*.
+*wanna* = want to: "What do you **want to** know?" • *gonna* = going to: "I'm **going to** buy some today." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. *too*, *two*, and *to* sound the same: listen to the meaning. Stress: *TOO late* • *not eNOUGH*. In *mustn't*, you don't hear the first *t*.
 
 ---
 ## Lesson 7 (Week 7) · Grammar

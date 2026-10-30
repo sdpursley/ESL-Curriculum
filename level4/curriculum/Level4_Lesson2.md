@@ -213,7 +213,7 @@
 - **Real forms:** a rental application often asks for 3–5 years of addresses and a reference who is not family. Learners can write *N/A* (not applicable) when a line doesn't fit them.
 - **Spelling and numbers:** in the leasing office role play, the agent asks *Can you spell that?* Encourage learners to say street numbers in pairs: *418* = "four eighteen."
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 2 (Week 2) | How Long Have You Lived Here? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 2 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -310,7 +310,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*wanna* = want to: "I **want to** fill out an application." • *gonna* = going to: "My mother is **going to** live with me." You can say *want to* and *going to*. Say it with a short *for* ("fer"): *I've lived there for two years.* • *How long have you lived here?*
+*wanna* = want to: "I **want to** fill out an application." • *gonna* = going to: "My mother is **going to** live with me." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. Say it with a short *for* ("fer"): *I've lived there for two years.* • *How long have you lived here?*
 
 ---
 ## Lesson 2 (Week 2) · Grammar

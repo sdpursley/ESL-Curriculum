@@ -207,7 +207,7 @@
 - **Opinion Lines:** learners who can't stand or move can hold up a sign or raise a hand from their seat.
 - **Writing check 3 (Week 10):** collect the opinion paragraph. Write one strength and one fix on each. Learners keep them in their writing folder.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 9 (Week 10) | I See Your Point ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 9 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -304,7 +304,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*wanna* = want to • *gonna* = going to. You can say *want to* and *going to*. In *I see your POINT, but…*, the voice goes down on *point*. Stress: *It isn't as EXpensive.*
+*wanna* = want to • *gonna* = going to. People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. In *I see your POINT, but…*, the voice goes down on *point*. Stress: *It isn't as EXpensive.*
 
 ---
 ## Lesson 9 (Week 10) · Grammar

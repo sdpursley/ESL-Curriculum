@@ -213,7 +213,7 @@
 - ***it / them* in the middle:** this is the main rule. Keep *turn it off* (not *turn off it*) on the board all evening.
 - **Energy Detective:** the problem cards replace a picture. Learners can also point to the My Words pictures.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to*. People often say *gonna*. Learners only need to recognize it; they can always say the full form.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 10 (Week 11) | Turn It Off ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 10 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -310,7 +310,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "I'm **going to** unplug my phone charger." You can say *going to*. Stress the small word: *turn it OFF, put it aWAY*. Link the words: *turn_it_off, take_it_out*.
+*gonna* = going to: "I'm **going to** unplug my phone charger." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. Stress the small word: *turn it OFF, put it aWAY*. Link the words: *turn_it_off, take_it_out*.
 
 ---
 ## Lesson 10 (Week 11) · Grammar

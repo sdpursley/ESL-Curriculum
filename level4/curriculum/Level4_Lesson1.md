@@ -218,7 +218,7 @@
 - **Baseline snapshot:** for each learner you hear (about 5 tonight), note three things: (1) 3 connected sentences? (2) a follow-up question? (3) any present perfect? Keep the notes private. Hear everyone by Week 3. The same notes help in Weeks 8 and 15.
 - **Can-Do Self-Check:** the faces are 😀 I can do it, 🙂 with a little help, 😐 not yet. Read each line aloud. Keep the pages; learners compare in Week 8.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 1 (Week 1) | Have You Ever…? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 1 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -317,7 +317,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "Tonight we're **going to** find things we have in common." • *wanna* = want to: "I **want to** go camping." You can say *going to* and *want to*. Say it: *Have you ever seen snow?* • *I've never ridden a horse.*
+*gonna* = going to: "Tonight we're **going to** find things we have in common." • *wanna* = want to: "I **want to** go camping." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. Say it: *Have you ever seen snow?* • *I've never ridden a horse.*
 
 ---
 ## Lesson 1 (Week 1) · Grammar
