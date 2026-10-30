@@ -191,7 +191,7 @@ Every exit can-do, core grammar strand, and life-skill theme in the Level 4 outl
 
 ### 4.1 Weekly routine (same shape as Level 3, with longer Talk Time)
 
-Learners coming from Level 3 will recognize every step. Level 4 changes four things: the audio is **longer and closer to natural speech** (some reductions), **Talk Time gets 3 more minutes** (15), the **Read & Write block runs 7:15–7:30** every week, and the **exit ticket is a 3-sentence answer with a reason**, written in the last 5 minutes of that block.
+Learners coming from Level 3 will recognize every step. Level 4 changes four things: the audio is **longer and closer to natural speech** (natural speed; the speakers say *going to* and *want to*, and the lesson explains *gonna* / *wanna*), **Talk Time gets 3 more minutes** (15), the **Read & Write block runs 7:15–7:30** every week, and the **exit ticket is a 3-sentence answer with a reason**, written in the last 5 minutes of that block.
 
 | Clock time | Step | About | What happens |
 |---|---|---|---|
@@ -256,7 +256,7 @@ Same format as Levels 1–3: the question side on the left, the answer side on t
 |---|---|
 | **Student Workbook pages** | New Words (with a *My language* column), Listening, Grammar, Talk Time sheet, Homework, and a Read & Write page. No instruction icons. Same page look as Level 3. |
 | **Pictures** | 12 per lesson (≈ 156 total), 600×420 PNG cards made from Twemoji graphics (CC BY 4.0), same style as Levels 1–3, named `L4_L<lesson>_<word>.png` (for example `L4_L10_thermostat.png`) so they never collide with Level 1–3 files. Abstract words (*milestone, suspicious, reference, copay, deadline*) get a labeled combination of two emoji or a simple form picture with the field highlighted. Avoid emoji with unclear or mixed meanings (for example, folded hands). Every picture gets a line in `CREDITS.md`. |
-| **Listening audio** | One MP3 per lesson + midterm + final (15 files), Chatterbox TTS cloned from **synthetic reference voices only** (no recordings of real people), same pipeline as Level 3. **About 1:30–2:15**, **2–3 speakers**, natural speed, using *going to* and *want to* in the audio (Decision 5). **Female characters have clearly female voices and male characters clearly male voices** (each lesson in Section 6 lists the voices). Each file plays the conversation **once** (it never repeats inside the file); the teacher presses play again for the second listen. |
+| **Listening audio** | One MP3 per lesson + midterm + final (15 files), Chatterbox TTS cloned from **synthetic reference voices only** (no recordings of real people), same pipeline as Level 3. **About 1:30–2:15** (a soft target), **2–3 characters plus an optional narrator**, natural speed, using *going to* and *want to* in the audio (Decision 5). **Female characters have clearly female voices and male characters clearly male voices** (each lesson in Section 6 lists the voices). Each file plays the conversation **once** (it never repeats inside the file); the teacher presses play again for the second listen. |
 | **Slides** | One deck per lesson, same look as Level 3: picture words, listening tasks, the grammar box with click-to-reveal answers, Talk Time instructions, and the Read & Write text. |
 | **Teacher plan** | At a glance, clock-time plan, step-by-step boxes, listening script, answer key, board timelines, and teacher notes in plain English. Every step says exactly what to say and show. **Teachers need no Spanish.** |
 
@@ -508,7 +508,7 @@ See Section 7. Covers Lessons 1–7. No new content.
 | **Listening** | **Situation:** (1) a worker asks his supervisor for three days off to visit his mother, and they check who can cover his shifts; (2) he leaves a detailed voicemail for his sister (arrival day, time, bus number, what to bring), and she calls back. **Speakers and voices:** Luis, the worker (M); Ms. Adams, the supervisor (F); Rosa, his sister (F). **Target length:** about 2:15. **Tasks:** A: why does he need time off? B: complete the request and voicemail notes (dates, reason, who covers, arrival time); C: write *to* or *-ing*. |
 | **Read & Write** | **Read:** a company time-off policy (about 180 words: ask 2 weeks ahead, use the form, the supervisor approves; invented) and a packing list. **Write:** a 6–8 sentence email to a supervisor asking for time off: the dates, the reason (*to…*), who can cover (*Ana has agreed to cover my shift*), and thanks. (Writing check 4.) |
 | **Exit ticket** | *Where would you like to go on a trip, and why?* 3 sentences: one with *to* + verb (why), one with *enjoy* + *-ing*, and one more reason. |
-| **Pronunciation** | Reductions: *want to → wanna, going to → gonna* (understand them; saying them is optional; never write them); saying a phone number in groups (3-3-4) with pauses. |
+| **Pronunciation** | Reductions: *want to → wanna, going to → gonna* (understand them; they are fine in casual talk; in writing or at a job interview, use the full forms); saying a phone number in groups (3-3-4) with pauses. |
 | **Contrast tip (optional)** | Spanish uses *para* for purpose: *Voy a Houston para ver a mi hermana.* English uses only *to*: *I'm going to Houston to see my sister* (not *for see*, not *for to see*). After *enjoy*, use *-ing*: *I enjoy traveling* (not *enjoy to travel*). |
 | **Teacher tip** | Trips can be invented; don't assume learners can travel or have paid vacation days. No passport, visa, or immigration topics. Time-off rules vary by employer; the policy is invented. |
 
@@ -551,7 +551,7 @@ See Section 7.
 ---
 ## 7. Midterm, Final, and Graduation
 
-Same evening structure as Level 3 (Opening → review stations with speaking interviews → listening test before the break → grammar and writing after the break → can-do self-check). Level 4 changes: the listening test uses longer audio with some reductions (still played **2 times**), the writing task is an **email** at the midterm and an **opinion paragraph or email** at the final, and the speaking interview includes a **reason and a response to the partner**.
+Same evening structure as Level 3 (Opening → review stations with speaking interviews → listening test before the break → grammar and writing after the break → can-do self-check). Level 4 changes: the listening test uses longer audio at natural speed with *going to* and *want to* (still played **2 times**), the writing task is an **email** at the midterm and an **opinion paragraph or email** at the final, and the speaking interview includes a **reason and a response to the partner**.
 
 | | **Week 8: Midterm** | **Week 15: Final** |
 |---|---|---|
@@ -579,7 +579,7 @@ The seven open questions from the review are now decisions. The lesson build fol
 2. **Contrast tip:** an optional box **only on Grammar pages where a common mix-up exists** (written for any language, with Spanish as one example). Pages without a common mix-up have no box.
 3. **Lesson 4 insurance:** stays at **reading the card** and the words ***copay*** and ***deductible***. Insurance claims stay in Level 5.
 4. **Lesson 12 scams:** add a **short teacher-only note** on fake legal-help and immigration-help services, pointing only to local legal aid. Nothing on student pages.
-5. **Audio reductions:** the recordings say ***going to*** and ***want to***. The Hear It box still explains that people often say ***gonna*** and ***wanna***, and that learners only need to recognize those short forms. They never have to say or write them. Other reduced forms are not taught; the pronunciation rows in Section 6 were adjusted to match.
+5. **Audio reductions:** the recordings say ***going to*** and ***want to***. The Hear It box still explains that people often say ***gonna*** and ***wanna***, that learners will hear them a lot, and that they are fine in casual talk; in writing or at a job interview, learners use *going to* and *want to*. Every lesson has the same note in the "Hear it, say it" box, the teacher notes, and the slide notes. Other reduced forms are not taught; the pronunciation rows in Section 6 were adjusted to match.
 6. **Lesson 6:** teach ***If I were***; **accept *If I was* in speaking**.
 7. **"Ready for Level 5" standard:** stays as drafted in Section 7.
 

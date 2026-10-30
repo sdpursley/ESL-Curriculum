@@ -1,11 +1,11 @@
 <!-- mode: guide -->
-# Level 3 Adult ESL Curriculum: Scope and Sequence (Draft for Review)
+# Level 3 Adult ESL Curriculum: Scope and Sequence
 
-**Status:** Plan only. No lessons, pictures, audio, or slides have been built yet. Nothing has been published.
+**Status:** Published. All 13 Level 3 lessons, pictures, listening audio, and slide decks are on the site. This plan was written first (October 19, 2026); the lessons follow it.
 
 **Date:** October 19, 2026
 
-**Audience:** Program coordinators and the curriculum author (for review before the full build)
+**Audience:** Program coordinators, teachers, and curriculum authors
 
 **Sits directly above:** the Level 2 curriculum (`Level2_Curriculum_v5_public.md`, 13 lessons, Week 8 midterm, Week 15 final, Week 16 graduation). **Sits below:** Level 4 (planned; see `curriculum_plan/Five_Level_Map.md`).
 
