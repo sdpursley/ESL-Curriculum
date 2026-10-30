@@ -386,7 +386,7 @@ no `level1/exams/build/out/`, and no `cache/` or `out/` folders (`.gitignore` al
 ## 9. Level 3
 
 Level 3 (low intermediate) works exactly like Level 1 (section 8), with `level3` in place of `level1`. All 13 lessons are published
-(the examples below use Lesson 1; use any lesson number). The midterm and final are not built yet. Level 3 pictures are called `L3_L<N>_*.png`
+(the examples below use Lesson 1; use any lesson number). The midterm and final are in `level3/exams/` (see section 10, Exams). Level 3 pictures are called `L3_L<N>_*.png`
 (Level 3, lesson *N*), for example `L3_L1_neighbor.png`.
 
 ### What is where (Level 3)
@@ -450,8 +450,8 @@ and no `cache/` or `out/` folders.
 
 ## 10. Levels 4 and 5
 
-Level 4 (intermediate) and Level 5 (high intermediate) each have 13 published lessons. The midterm and final are not built yet;
-build them like the Level 1 exams (section 8). Files are named with the level number, for example
+Level 4 (intermediate) and Level 5 (high intermediate) each have 13 published lessons, plus a midterm and final
+(the Exams subsection below covers Level 3 too). Files are named with the level number, for example
 `level5/curriculum/Level5_Lesson3.md`, `L5_L3_listening.mp3`, and `Level5_Lesson3_Slides.pptx`. AGENTS.md (sections 3, 5.1, 6 and 7) has the full rules.
 
 ### What is where (Levels 4 and 5, `V` = 4 or 5)
@@ -487,6 +487,21 @@ fix in the repo, see AGENTS.md section 5.1. Always render PDFs with `tools/fonts
 into `levelV/audio/`. Then update `AUDIO_STATUS.md` and the length in the listening-script heading, rebuild the lesson, and run
 `export_content.py`. Level 4 audio says *going to* / *want to*; the lesson explains *gonna* / *wanna*. Length targets (Level 4
 about 1:30–2:15, Level 5 about 2:05–2:40) are soft; the checkers only warn. Details and voices: AGENTS.md section 7.
+
+### Exams (Levels 3, 4 and 5)
+
+The midterm and final for each level are in `levelV/exams/` and shown at `#/levelV/exams`. Change `build/exam_data.py`
+(not the Markdown), then:
+
+```bash
+bash levelV/exams/build/build_all.sh --publish          # Markdown, listening scripts, DOCX + PDF -> public/levelV/downloads/exams/
+python3 levelV/exams/build/check_consistency.py         # answer keys, tests, scripts and casts agree (must say OK)
+python3 scripts/export_content.py
+```
+
+**Exam audio is still to do** (`levelV/exams/AUDIO_STATUS.md`); until it is recorded, the teacher reads the script aloud.
+To record: `bash levelV/exams/build/audio/run_exam_audio_LV.sh Midterm`, listen to the whole file, then
+`bash levelV/exams/build/audio/publish_exam_audio_LV.sh Midterm` and `python3 scripts/export_content.py` (same for `Final`).
 
 ### Publish
 

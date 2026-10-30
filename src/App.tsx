@@ -14,6 +14,7 @@ import { level4 } from './content_level4'
 import { Level4Home, Level4LessonsPage, Level4LessonPage, Level4DownloadsPage } from './level4'
 import { level5 } from './content_level5'
 import { Level5Home, Level5LessonsPage, Level5LessonPage, Level5DownloadsPage } from './level5'
+import { LevelExamsPage } from './exams_l345'
 import { SLIDES_AVAILABLE, slidePath, presentHref, examPath, LICENSE_URL, DISCLAIMER } from './config'
 import { hasDeck } from './presenter/decks'
 import { lazy, Suspense } from 'react'
@@ -37,13 +38,16 @@ const NAV: Record<Ctx, { to: string; label: string; icon: typeof Home; match?: (
       { to: '/exams', label: 'Exams', icon: ClipboardCheck }],
   3: [{ to: '/level3', label: 'Level 3 home', icon: Home },
       { to: '/level3/lessons', label: 'Lessons', icon: BookOpen, match: p => p.startsWith('/level3/lesson') },
-      { to: '/level3/downloads', label: 'Downloads', icon: Download }],
+      { to: '/level3/downloads', label: 'Downloads', icon: Download },
+      { to: '/level3/exams', label: 'Exams', icon: ClipboardCheck }],
   4: [{ to: '/level4', label: 'Level 4 home', icon: Home },
       { to: '/level4/lessons', label: 'Lessons', icon: BookOpen, match: p => p.startsWith('/level4/lesson') },
-      { to: '/level4/downloads', label: 'Downloads', icon: Download }],
+      { to: '/level4/downloads', label: 'Downloads', icon: Download },
+      { to: '/level4/exams', label: 'Exams', icon: ClipboardCheck }],
   5: [{ to: '/level5', label: 'Level 5 home', icon: Home },
       { to: '/level5/lessons', label: 'Lessons', icon: BookOpen, match: p => p.startsWith('/level5/lesson') },
-      { to: '/level5/downloads', label: 'Downloads', icon: Download }],
+      { to: '/level5/downloads', label: 'Downloads', icon: Download },
+      { to: '/level5/exams', label: 'Exams', icon: ClipboardCheck }],
 }
 
 function LevelSwitch({ ctx }: { ctx: Ctx }) {
@@ -474,6 +478,7 @@ export default function App() {
         <Route path="/level3/lesson/:n" element={<Level3LessonPage />} />
         <Route path="/level3/lesson/:n/:tab" element={<Level3LessonPage />} />
         <Route path="/level3/downloads" element={<Level3DownloadsPage />} />
+        <Route path="/level3/exams" element={<LevelExamsPage level={3} />} />
         <Route path="/level3/*" element={<Navigate to="/level3" replace />} />
         {/* Level 4 (a copy of Level 3) */}
         <Route path="/level4" element={<Level4Home />} />
@@ -481,6 +486,7 @@ export default function App() {
         <Route path="/level4/lesson/:n" element={<Level4LessonPage />} />
         <Route path="/level4/lesson/:n/:tab" element={<Level4LessonPage />} />
         <Route path="/level4/downloads" element={<Level4DownloadsPage />} />
+        <Route path="/level4/exams" element={<LevelExamsPage level={4} />} />
         <Route path="/level4/*" element={<Navigate to="/level4" replace />} />
         {/* Level 5 (a copy of Level 4, English only) */}
         <Route path="/level5" element={<Level5Home />} />
@@ -488,6 +494,7 @@ export default function App() {
         <Route path="/level5/lesson/:n" element={<Level5LessonPage />} />
         <Route path="/level5/lesson/:n/:tab" element={<Level5LessonPage />} />
         <Route path="/level5/downloads" element={<Level5DownloadsPage />} />
+        <Route path="/level5/exams" element={<LevelExamsPage level={5} />} />
         <Route path="/level5/*" element={<Navigate to="/level5" replace />} />
         {/* Level 2: original URLs, plus #/level2 overview and #/level2/... aliases */}
         <Route path="/level2" element={<Level2Home />} />

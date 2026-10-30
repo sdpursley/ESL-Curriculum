@@ -1,0 +1,27 @@
+{
+ "TITLE": "Final: A Website, a Claim, and a Meeting",
+ "VOICES": {
+  "Narrator": "N",
+  "Aisha": "Kim",
+  "Noah": "Marco",
+  "Ms. Lane": "Rosa",
+  "Tom": "Sam"
+ },
+ "FEMALE": [
+  "Aisha",
+  "Ms. Lane",
+  "Narrator"
+ ],
+ "NAMES": [
+  "aisha",
+  "ellen",
+  "lane",
+  "noah",
+  "tom"
+ ],
+ "SAME": {
+  "okay": "ok",
+  "ms": "miss"
+ },
+ "TTS": {}
+}

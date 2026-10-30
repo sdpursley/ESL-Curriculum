@@ -2068,6 +2068,154 @@
    "slides": "level5/downloads/slides/Level5_Lesson13_Slides.pptx"
   }
  ],
+ "exams": [
+  {
+   "key": "midterm",
+   "week": 8,
+   "title": "Midterm",
+   "covers": "Lessons 1–7",
+   "parts": [
+    {
+     "part": "A. Listening",
+     "what": "Listen to two conversations (a practice interview; a clinic message passed on at home). Circle an answer, mark true or false, or write one word (10 items).",
+     "points": "10",
+     "time": "18 min (6:10–6:28)"
+    },
+    {
+     "part": "B. Words",
+     "what": "Complete sentences with words from a box (8 items).",
+     "points": "8",
+     "time": "17 min (6:28–6:45) for B + C"
+    },
+    {
+     "part": "C. Grammar",
+     "what": "Part 1: circle the correct words (12 items). Part 2: find and fix one mistake in each sentence (4 items).",
+     "points": "16",
+     "time": "(with B)"
+    },
+    {
+     "part": "D. Reading",
+     "what": "Read a text of about 261 words. Answer 8 questions.",
+     "points": "8",
+     "time": "13 min (6:55–7:08)"
+    },
+    {
+     "part": "E. Writing",
+     "what": "Choose one of two tasks. Write 6–8 sentences (one paragraph).",
+     "points": "8",
+     "time": "19 min (7:08–7:27)"
+    },
+    {
+     "part": "<strong>Written total</strong>",
+     "what": "",
+     "points": "<strong>50</strong>",
+     "time": "<strong>67 min</strong>"
+    },
+    {
+     "part": "Speaking interview",
+     "what": "Pairs with the teacher, during the written parts. Scored with the rubric, not added to the written total.",
+     "points": "3–9",
+     "time": "4 min per pair"
+    }
+   ],
+   "noteHtml": "Covers Lessons 1–7. Listening: a practice interview (Lessons 1–4) and a clinic message passed on at home (Lessons 5–7). Grammar: present perfect continuous; past perfect with by the time; wish and one third-conditional sentence; unless / as long as / even though; present and past passive; said / told / asked; tag questions. Reading: a community blog post about opening a bakery. Writing: a paragraph about a project in order, or about a small regret and a next step.",
+   "audio": "",
+   "audioSeconds": 0,
+   "downloads": [
+    {
+     "kind": "pdf",
+     "href": "level5/downloads/exams/Level5_Midterm_Exam_Teacher_Packet.pdf",
+     "label": "Teacher packet (PDF): directions, script, answer key, speaking papers",
+     "size": 343429
+    },
+    {
+     "kind": "docx",
+     "href": "level5/downloads/exams/Level5_Midterm_Exam_Teacher_Packet.docx",
+     "label": "Teacher packet (DOCX), for editing",
+     "size": 51868
+    },
+    {
+     "kind": "pdf",
+     "href": "level5/downloads/exams/Level5_Midterm_Student_Test.pdf",
+     "label": "Student test (PDF), 1 per learner, no answers",
+     "size": 80459
+    }
+   ]
+  },
+  {
+   "key": "final",
+   "week": 15,
+   "title": "Final",
+   "covers": "Lessons 1–13",
+   "parts": [
+    {
+     "part": "A. Listening",
+     "what": "Listen to three parts (a website conversation; a claim call; a short meeting). Circle an answer, mark true or false, or write one word (10 items).",
+     "points": "10",
+     "time": "18 min (6:10–6:28)"
+    },
+    {
+     "part": "B. Words",
+     "what": "Complete sentences with words from a box (8 items).",
+     "points": "8",
+     "time": "17 min (6:28–6:45) for B + C"
+    },
+    {
+     "part": "C. Grammar",
+     "what": "Part 1: circle the correct words (12 items). Part 2: find and fix one mistake in each sentence (4 items).",
+     "points": "16",
+     "time": "(with B)"
+    },
+    {
+     "part": "D. Reading",
+     "what": "Read a text of about 260 words. Answer 8 questions.",
+     "points": "8",
+     "time": "13 min (6:55–7:08)"
+    },
+    {
+     "part": "E. Writing",
+     "what": "Choose one of two tasks. Write 8–12 sentences (a letter of one or two paragraphs).",
+     "points": "8",
+     "time": "19 min (7:08–7:27)"
+    },
+    {
+     "part": "<strong>Written total</strong>",
+     "what": "",
+     "points": "<strong>50</strong>",
+     "time": "<strong>67 min</strong>"
+    },
+    {
+     "part": "Speaking interview",
+     "what": "Pairs with the teacher, during the written parts. Scored with the rubric, not added to the written total.",
+     "points": "3–9",
+     "time": "4 min per pair"
+    }
+   ],
+   "noteHtml": "Covers Lessons 1–13. Most items are from Lessons 8–13 (school and office questions, checking a source, compromise, a claim, a meeting, a short talk); some items review Lessons 1–7. The speaking interview uses the same first questions as the midterm, so you can hear the growth.",
+   "audio": "",
+   "audioSeconds": 0,
+   "downloads": [
+    {
+     "kind": "pdf",
+     "href": "level5/downloads/exams/Level5_Final_Exam_Teacher_Packet.pdf",
+     "label": "Teacher packet (PDF): directions, script, answer key, speaking papers",
+     "size": 345628
+    },
+    {
+     "kind": "docx",
+     "href": "level5/downloads/exams/Level5_Final_Exam_Teacher_Packet.docx",
+     "label": "Teacher packet (DOCX), for editing",
+     "size": 52260
+    },
+    {
+     "kind": "pdf",
+     "href": "level5/downloads/exams/Level5_Final_Student_Test.pdf",
+     "label": "Student test (PDF), 1 per learner, no answers",
+     "size": 80865
+    }
+   ]
+  }
+ ],
  "credit": "Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (https://github.com/jdecked/twemoji), licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). The graphics were resized and combined, and signs and labels were added.",
  "creditHtml": "Vocabulary pictures use Twemoji graphics by Twitter, Inc. and other contributors (<a href=\"https://github.com/jdecked/twemoji\">https://github.com/jdecked/twemoji</a>), licensed under CC BY 4.0 (<a href=\"https://creativecommons.org/licenses/by/4.0/\">https://creativecommons.org/licenses/by/4.0/</a>). The graphics were resized and combined, and signs and labels were added."
 }

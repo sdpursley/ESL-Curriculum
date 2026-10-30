@@ -1,0 +1,23 @@
+{
+ "TITLE": "Midterm: A Bad Morning",
+ "VOICES": {
+  "Narrator": "N",
+  "Elena": "Rosa",
+  "David": "Sam",
+  "Clerk": "Server"
+ },
+ "FEMALE": [
+  "Elena",
+  "Narrator"
+ ],
+ "NAMES": [
+  "david",
+  "elena",
+  "pine",
+  "valley"
+ ],
+ "SAME": {
+  "okay": "ok"
+ },
+ "TTS": {}
+}
