@@ -1,6 +1,6 @@
 # Image Credits and Licenses: Level 4
 
-**Status:** Draft for review; not published.
+**Status:** Published with the Level 4 lessons (October 2026).
 
 **156 picture files** for the Level 4 lessons in this folder. Every file is a PNG made by `tools/make_images_L4_L<N>.py` with the card helpers in
 `tools/l4img.py` (copied from the Level 3 `l3img.py`; same card style as Levels 1-3). Vocabulary cards are 600×420.
