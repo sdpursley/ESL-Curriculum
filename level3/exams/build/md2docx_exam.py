@@ -1,7 +1,7 @@
 """Markdown -> docx converter for Version 4 (readability layout).
 Extra syntax:
   <!-- part: LABEL | Title | Subtitle | Footer text -->  new docx section + divider page
-  <!-- mode: student|teacher|guide -->                  font sizes / spacing
+  <!-- mode: student|student-tight|teacher|guide -->                  font sizes / spacing
   <!-- subst --> before a pipe table                    two-sided substitution table
        cells: '‖' gap column, '^' merge with cell above, '<' merge with cell to the left,
        ' / ' inside a cell = stacked options
@@ -36,7 +36,8 @@ WHITE=RGBColor(0xFF,0xFF,0xFF); STAR=RGBColor(0xC0,0x7A,0x00)
 W=6.7
 MODES={'guide':dict(body=11,table=9.5,after=7,line=1.2),
        'teacher':dict(body=11.5,table=10.5,after=7,line=1.2),
-       'student':dict(body=11.5,table=11,after=5,line=1.15)}
+       'student':dict(body=11.5,table=11,after=5,line=1.15),
+       'student-tight':dict(body=11.5,table=11,after=3,line=1.1)}   # Levels 4-5: longer readings on the same 4 pages
 mode='guide'
 def M(k): return MODES[mode][k]
 
@@ -189,7 +190,7 @@ def add_pic_table(cells,n):
                     wd=float(wm.group(1)) if wm else (min(1.75,W/n-0.3) if n>1 else min(5.4,W-0.4))
                     p.add_run().add_picture(os.path.join(BASE,m.group(2)),width=Inches(wd))
                 elif seg.startswith('^^'): inline(p,seg[2:],size=20,bold_all=True,color=NAVY)
-                elif seg: inline(p,seg,size=13.5 if mode=='student' else 11)
+                elif seg: inline(p,seg,size=13.5 if mode.startswith('student') else 11)
                 if k<len(segs)-1: p.add_run().add_break()
     gap_para(10)
 
@@ -200,7 +201,7 @@ def add_subst(rows):
     g=cells[0].index('‖')
     t=doc.add_table(rows=len(cells),cols=n); t.alignment=WD_TABLE_ALIGNMENT.CENTER; t.autofit=False
     tbl_margins(t,top=70,side=110)
-    fs=12.5 if mode=='student' else 11
+    fs=12.5 if mode.startswith('student') else 11
     cw=0.0085*fs   # inches per character (approx.)
     need=[]; minw=[]
     for ci in range(n):
@@ -285,7 +286,7 @@ def add_box(kind,title,body):
     if title.startswith('Break'): color='8A97A6'
     shade(h._tc,color); cell_borders(h._tc,color=color,sz='8')
     shade(b._tc,'F7FAFB'); cell_borders(b._tc,color=color,sz='8')
-    p=h.paragraphs[0]; pfmt(p,after=0,line=1.0,keep=True); inline(p,title,size=12 if mode!='student' else 13,bold_all=True,color=WHITE)
+    p=h.paragraphs[0]; pfmt(p,after=0,line=1.0,keep=True); inline(p,title,size=12 if not mode.startswith('student') else 13,bold_all=True,color=WHITE)
     no_split(t.rows[0]); no_split(t.rows[1]); keep_table(t)
     first=True
     for line in body:
@@ -322,7 +323,7 @@ def heading(lvl,txt):
     global last_break
     p=doc.add_paragraph(); flush_break(p)
     sizes={1:26,2:20,3:15,4:13}; 
-    if mode=='student': sizes={1:24,2:18,3:13.5,4:12.5}
+    if mode.startswith('student'): sizes={1:24,2:18,3:13.5,4:12.5}
     col=NAVY if lvl<=2 else TEAL
     pfmt(p,before=(0 if last_break else {1:6,2:18,3:16,4:12}[lvl]),after={1:10,2:10,3:6,4:4}[lvl],line=1.05,keep=True)
     inline(p,txt,size=sizes[lvl],bold_all=(lvl!=2 or True),color=col)
@@ -337,7 +338,7 @@ while i<len(lines):
     L=lines[i]
     if not L.strip(): i+=1; continue
     if L.strip()=='<!-- pagebreak -->':
-        doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE); last_break=True; pending_break=False; i+=1; continue
+        pending_break=True; last_break=True; i+=1; continue   # becomes page-break-before on the next paragraph (no blank page when a page is exactly full)
     m=re.match(r'<!--\s*(part|mode|subst|grid)\s*:?\s*(.*?)\s*-->',L.strip())
     if m:
         k,v=m.group(1),m.group(2)
@@ -383,10 +384,10 @@ while i<len(lines):
     m=re.match(r'^(\d+)\. (.*)',L)
     if m:
         opt_next=i+1<len(lines) and lines[i+1].startswith('   ') and lines[i+1].strip()
-        p=doc.add_paragraph(); flush_break(p); pfmt(p,after=(2 if opt_next else (7 if mode=='student' else 5)),keep=bool(opt_next)); p.paragraph_format.left_indent=Inches(0.35); p.paragraph_format.first_line_indent=Inches(-0.28)
+        p=doc.add_paragraph(); flush_break(p); pfmt(p,after=(2 if opt_next else ({'student':7,'student-tight':5}.get(mode,5))),keep=bool(opt_next)); p.paragraph_format.left_indent=Inches(0.35); p.paragraph_format.first_line_indent=Inches(-0.28)
         r=p.add_run(m.group(1)+'.  '); r.bold=True; r.font.size=Pt(M('body')); r.font.color.rgb=TEAL; inline(p,m.group(2),size=M('body')); i+=1; last_break=False; continue
     if L.startswith('   ') and L.strip():
-        p=doc.add_paragraph(); flush_break(p); pfmt(p,after=(5 if mode=='student' else 6)); p.paragraph_format.left_indent=Inches(0.35)
+        p=doc.add_paragraph(); flush_break(p); pfmt(p,after=({'student':5,'student-tight':3}.get(mode,6))); p.paragraph_format.left_indent=Inches(0.35)
         inline(p,L.strip(),size=M('body')); i+=1; last_break=False; continue
     p=doc.add_paragraph(); flush_break(p); pfmt(p); 
     if L.startswith('**Q:'): p.paragraph_format.keep_with_next=True; p.paragraph_format.space_after=Pt(3)

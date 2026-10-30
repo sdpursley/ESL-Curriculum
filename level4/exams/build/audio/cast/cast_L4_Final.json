@@ -1,0 +1,29 @@
+{
+ "TITLE": "Final: News, a Voicemail, and a Strange Call",
+ "VOICES": {
+  "Narrator": "N",
+  "Diane Lee": "Receptionist",
+  "Mrs. Lopez": "Kim",
+  "Caller": "Carlos"
+ },
+ "FEMALE": [
+  "Diane Lee",
+  "Mrs. Lopez",
+  "Narrator"
+ ],
+ "NAMES": [
+  "brown",
+  "diane",
+  "lee",
+  "lopez",
+  "maria",
+  "pine",
+  "texas"
+ ],
+ "SAME": {
+  "okay": "ok"
+ },
+ "TTS": {
+  "The work might take three weeks. Bus route 12 will take a detour on Oak Street, so there may be delays in the morning.": "The work might take three weeks. Bus route twelve will take a detour on Oak Street, so there may be delays in the morning."
+ }
+}

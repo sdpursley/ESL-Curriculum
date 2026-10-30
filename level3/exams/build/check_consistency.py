@@ -131,7 +131,7 @@ for E in D.EXAMS:
         emo = [c for c in txt if ord(c) >= 0x1F000 or (0x2600 <= ord(c) <= 0x27BF and c not in '✓✗☐★')]
         ok(not emo, f'{k} {name}: no emoji {sorted(set(emo))}')
     ok('© 2026 the authors, CC BY-NC-SA 4.0' in pk, f'{k} packet: © 2026 the authors, CC BY-NC-SA 4.0')
-    ok('cover' not in stu.lower() and '<!-- part:' not in stu and '![' not in stu, f'{k}: student test has no cover page and no pictures')
+    ok(not re.search(r'cover (page|sheet)|^#+ .*cover', stu, re.I | re.M) and '<!-- part:' not in stu and '![' not in stu, f'{k}: student test has no cover page and no pictures')
     ok('(proposed)' in pk and 'proposed' in pk.split('## Scoring Guide')[1], f'{k}: score bands are marked proposed')
     # 9 audio check results (when the audio is done)
     cj = os.path.join(X, 'audio', E['audio'].replace('_listening.mp3', '_check_results.json'))

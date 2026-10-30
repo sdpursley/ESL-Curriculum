@@ -71,7 +71,7 @@ def items(lst, start=1):
 # ---------- student test ----------
 def student(E):
     t = E['title']; P = points(E); R = E['reading']; W = E['words']
-    L = ['<!-- mode: student -->', f'## Level {V} · {t} · Test', '', NAME, '',
+    L = [f'<!-- mode: {C.get("student_mode", "student")} -->', f'## Level {V} · {t} · Test', '', NAME, '',
          f'### A. Listening ({P["A"]} points)', '',
          f'{E["listen_task"]} You will hear the audio two times.', '', f'*{E["scene"]}*', '']
     L += items(E['listening'])

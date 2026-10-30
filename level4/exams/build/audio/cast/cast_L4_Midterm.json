@@ -1,0 +1,27 @@
+{
+ "TITLE": "Midterm: A Rash and a Favor",
+ "VOICES": {
+  "Narrator": "N",
+  "Amina": "Rosa",
+  "Ms. Park": "Receptionist",
+  "Omar": "Sam"
+ },
+ "FEMALE": [
+  "Amina",
+  "Ms. Park",
+  "Narrator"
+ ],
+ "NAMES": [
+  "amina",
+  "omar",
+  "park",
+  "riverside"
+ ],
+ "SAME": {
+  "okay": "ok",
+  "ms": "miss"
+ },
+ "TTS": {
+  "OK. The doctor is going to look at it in a few minutes. Why don't you stop using the new soap? And it's a good idea to bring it next time.": "Okay. The doctor is going to look at it in a few minutes. Why don't you stop using the new soap? And it's a good idea to bring it next time."
+ }
+}
