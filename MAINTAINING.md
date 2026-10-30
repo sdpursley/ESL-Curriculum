@@ -470,7 +470,8 @@ build them like the Level 1 exams (section 8). Files are named with the level nu
 
 ```bash
 bash level5/curriculum/tools/build_lesson_L5.sh 3        # Level 5 Lesson 3: DOCX + PDF + checker (problems must be [])
-python3 level4/curriculum/tools/check_lesson_L4.py level4/curriculum 3 level4/audio/tools/scripts   # check a Level 4 lesson
+W=$(mktemp -d); cp level4/curriculum/Level4_Lesson3.* $W; ln -s $PWD/level4/images $W/images
+python3 level4/curriculum/tools/check_lesson_L4.py $W 3 level4/audio/tools/scripts level4/images/CREDITS.md   # check a Level 4 lesson
 python3 scripts/slides/build_deck.py --level 5 --lesson 3   # only if the slide spec changed
 python3 scripts/export_deck.py level5/slides/Level5_Lesson3_Slides.pptx 3 --level 5
 python3 scripts/export_content.py                         # lesson pages + copies PDF/DOCX, pictures, MP3, PPTX into public/levelV/
