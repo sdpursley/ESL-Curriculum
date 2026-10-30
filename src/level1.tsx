@@ -30,7 +30,7 @@ export function Level1Home() {
   return (<>
     <section className="mb-8 rounded-2xl border border-sky-100 border-l-4 border-l-violet-300 bg-gradient-to-r from-sky-50 to-violet-50 px-4 py-4 sm:px-8 sm:py-6">
       <span className="inline-block rounded-full bg-white/80 px-2.5 py-0.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200">Free · Beginner · 16 weeks</span>
-      <h1 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">🌱 Level 1 Adult ESL</h1>
+      <h1 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">Level 1 Adult ESL</h1>
       <p className="mt-2 max-w-2xl text-[15px] leading-snug text-slate-700 sm:text-lg sm:leading-relaxed">A free course for adults who are just starting English: greetings and names, the alphabet and numbers, family, work, time, money, and daily life. 13 lessons with pictures, listening, grammar, and full teacher plans.</p>
       <p className="mt-2 text-sm font-medium text-violet-800">{readyNote}</p>
       <div className="mt-3 flex flex-row flex-wrap gap-2">
@@ -66,7 +66,7 @@ function Milestone({ week, title, note }: { week: number; title: string; note: s
   const exam = examOf(week)
   const body = (<>
       <div className="text-sm font-semibold uppercase tracking-wide text-violet-700">Week {week}</div>
-      <div className="mt-1 text-xl font-bold text-slate-800">{title === 'Graduation' ? '🎓 ' : '📝 '}{title}</div>
+      <div className="mt-1 text-xl font-bold text-slate-800">{title}</div>
       <div className="mt-2 text-slate-600">{note}</div>
       {exam && <div className="mt-3 inline-flex items-center gap-1 font-semibold text-violet-800">Teacher packet, student test, and audio <ArrowRight size={16} aria-hidden="true" /></div>}
     </>)

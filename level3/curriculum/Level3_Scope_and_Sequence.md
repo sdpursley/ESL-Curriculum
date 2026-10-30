@@ -1,11 +1,11 @@
 <!-- mode: guide -->
-# Level 3 Adult ESL Curriculum: Scope and Sequence (Draft for Review)
+# Level 3 Adult ESL Curriculum: Scope and Sequence
 
-**Status:** Plan only. No lessons, pictures, audio, or slides have been built yet. Nothing has been published.
+**Status:** Published. All 13 Level 3 lessons, pictures, listening audio, and slide decks are on the site. This plan was written first (October 19, 2026); the lessons follow it.
 
 **Date:** October 19, 2026
 
-**Audience:** Program coordinators and the curriculum author (for review before the full build)
+**Audience:** Program coordinators, teachers, and curriculum authors
 
 **Sits directly above:** the Level 2 curriculum (`Level2_Curriculum_v5_public.md`, 13 lessons, Week 8 midterm, Week 15 final, Week 16 graduation). **Sits below:** Level 4 (planned; see `curriculum_plan/Five_Level_Map.md`).
 
@@ -471,7 +471,7 @@ See Section 7. Covers Lessons 1–7. No new content.
 | **Can-do goals** | I can talk about a plan with *going to*. • I can talk about hopes with *hope to / I hope I'll*. • I can say what I will do to reach a goal. • I can give a 1–2 minute talk about my goals. |
 | **Grammar Q&A focus** | *What are you going to do next year? → I'm going to take a computer class.* (plan) • *What do you hope to do? → I hope to get my diploma. / I hope I'll have my own business.* • *What will you do first? → First, I'll ask about classes at the community college.* • *I'm meeting the counselor on Monday.* (fixed plan, review) • *plan to / want to / hope to* + verb. Builds on Level 2 *My goal is to…*. |
 | **Vocabulary (12)** | ★ plan • ★ hope • ★ decide • ★ diploma • ★ certificate • ★ career • ★ promotion • ★ save money • ★ own business • ★ driver's license • ★ computer class • community college |
-| **Talk Time** | **Goal Ladder + Talk Rehearsal:** each learner draws a 3-step ladder for one goal (step 1: *I'll…*; step 2: *I'm going to…*; top: *I hope to…*), then explains it to a partner, who asks two follow-ups. Then groups of 3 rehearse the graduation talk (Then → Now → Next, with a reason); listeners give one 👍 and one tip on a feedback card. |
+| **Talk Time** | **Goal Ladder + Talk Rehearsal:** each learner draws a 3-step ladder for one goal (step 1: *I'll…*; step 2: *I'm going to…*; top: *I hope to…*), then explains it to a partner, who asks two follow-ups. Then groups of 3 rehearse the graduation talk (Then → Now → Next, with a reason); listeners give one compliment and one tip on a feedback card. |
 | **Listening** | A former Level 3 learner gives a short talk about her goals: a certificate, a better job, and helping her kids with homework. **Tasks:** A: what is her main goal? B: put her steps in order; C: write *will / going to / hope to*. |
 | **Read & Write** | A community college flyer (invented: class names, days, cost "free"). Write the graduation talk (6–8 sentences) using the talk frame. |
 | **Pronunciation** | Pausing and sentence stress in a short speech; *going to* → "gonna" (recognize, don't require). |

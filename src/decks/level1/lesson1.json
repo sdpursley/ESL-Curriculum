@@ -5754,7 +5754,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👩 Ana",
+          "t": "Ana",
           "sz": 22.0,
           "b": true,
           "i": false,
@@ -5856,7 +5856,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👨 Carlos",
+          "t": "Carlos",
           "sz": 22.0,
           "b": true,
           "i": false,
@@ -6801,7 +6801,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👩 Ana:  __  __  __  __",
+          "t": "Ana:  __  __  __  __",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -6840,7 +6840,7 @@
         "algn": "l",
         "runs": [
          {
-          "t": "👨 Carlos:  __  __  __  __",
+          "t": "Carlos:  __  __  __  __",
           "sz": 20.0,
           "b": false,
           "i": false,

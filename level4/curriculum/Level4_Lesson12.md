@@ -209,7 +209,7 @@
 - **Teacher-only:** if a learner asks about "legal help" or "immigration help" services that ask for money, point only to local legal aid. Don't give advice yourself.
 - **Listening:** in the scope, a real utility agent confirms the account. To keep 3 speakers, Daniel checks the account on the company website instead. The message is the same: no money is lost.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to*. People often say *gonna*. Learners only need to recognize it; they can always say the full form.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 12 (Week 13) | Is It a Scam? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 12 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -306,7 +306,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "We're **going to** turn off your power." You can say *going to*. The word *that* is short and weak: *a text that asks* ("thut"). Stress the key words: *NEVER, GIFT cards*. Say *No, thank you. Goodbye.* in a calm, firm voice.
+*gonna* = going to: "We're **going to** turn off your power." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. The word *that* is short and weak: *a text that asks* ("thut"). Stress the key words: *NEVER, GIFT cards*. Say *No, thank you. Goodbye.* in a calm, firm voice.
 
 ---
 ## Lesson 12 (Week 13) · Grammar

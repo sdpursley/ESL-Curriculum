@@ -7355,20 +7355,6 @@
         "algn": "l",
         "runs": [
          {
-          "t": "wanna",
-          "sz": 20.0,
-          "b": true,
-          "i": false,
-          "color": "#5B3FC4"
-         },
-         {
-          "t": " and ",
-          "sz": 20.0,
-          "b": false,
-          "i": false,
-          "color": "#1B2236"
-         },
-         {
           "t": "gonna",
           "sz": 20.0,
           "b": true,
@@ -7376,7 +7362,21 @@
           "color": "#5B3FC4"
          },
          {
-          "t": " are short forms. This listening uses the full forms.",
+          "t": " = going to, ",
+          "sz": 20.0,
+          "b": false,
+          "i": false,
+          "color": "#1B2236"
+         },
+         {
+          "t": "wanna",
+          "sz": 20.0,
+          "b": true,
+          "i": false,
+          "color": "#5B3FC4"
+         },
+         {
+          "t": " = want to: fine in everyday talk.",
           "sz": 20.0,
           "b": false,
           "i": false,
@@ -7706,7 +7706,7 @@
     }
    ],
    "steps": [],
-   "notes": "\"Hear it, say it\" (3 min). Point to the script lines. wanna = want to: \"I want to fill out an application.\" gonna = going to: \"My mother is going to live with me.\" You can say want to and going to.\nThen practice the weak, short for (it sounds like \"fer\"): for two years • for three years, and link the words: How long have you lived here? The class repeats the two lines twice.\nReductions: the listening says going to and want to. People often say gonna and wanna. Learners only need to recognize the short forms.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
+   "notes": "\"Hear it, say it\" (3 min). Point to the script lines. wanna = want to: \"I want to fill out an application.\" gonna = going to: \"My mother is going to live with me.\" You can say want to and going to.\nThen practice the weak, short for (it sounds like \"fer\"): for two years • for three years, and link the words: How long have you lived here? The class repeats the two lines twice.\nEveryday English: people often say gonna (going to) and wanna (want to). Learners will hear them often. They are fine in casual talk; in writing, at a job interview, or in a formal email, use going to and want to. The listening uses the full forms.\nLesson plan: Step 3: \"Hear it, say it\"; Listening page: Hear it, say it; Teacher notes.",
    "title": "Hear It, Say It"
   },
   {

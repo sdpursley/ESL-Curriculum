@@ -209,7 +209,7 @@
 - **Writing check 4 (Week 12):** collect the time-off email. Write one strength and one fix on each. Learners keep them in their writing folder.
 - **Phone numbers are invented** and use 555. Practice saying them in groups with pauses (3-3-4).
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms, and they never write them.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 11 (Week 12) | Time Off ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 11 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -306,7 +306,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*wanna* = want to: "When do you **want to** take it?" • *gonna* = going to: "I'm **going to** take the bus." Understand them; you can say *want to* and *going to*. Never write *wanna* or *gonna*. Phone numbers come in groups with pauses: *555 · 214 · 8830*.
+*wanna* = want to: "When do you **want to** take it?" • *gonna* = going to: "I'm **going to** take the bus." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. Phone numbers come in groups with pauses: *555 · 214 · 8830*.
 
 ---
 ## Lesson 11 (Week 12) · Grammar

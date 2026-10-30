@@ -206,7 +206,7 @@
 - **Next weeks:** Week 15 is the final exam; Week 16 is graduation, where learners can give their talk.
 - **Pronunciation:** pause at the comma after a time clause: *When I started, (pause) I couldn't…*
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to*. People often say *gonna*. Learners only need to recognize it; they can always say the full form.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 13 (Week 14) | My Story So Far ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 13 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -303,7 +303,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "I'm **going to** take a training class." You can say *going to*. Listen for the short pause at the comma: *When I started, (pause) I couldn't…* Do the same in your talk. Stress the key words: *NOW I can…, NEXT…*
+*gonna* = going to: "I'm **going to** take a training class." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. Listen for the short pause at the comma: *When I started, (pause) I couldn't…* Do the same in your talk. Stress the key words: *NOW I can…, NEXT…*
 
 ---
 ## Lesson 13 (Week 14) · Grammar
