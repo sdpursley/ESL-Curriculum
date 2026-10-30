@@ -4,36 +4,39 @@ This file is for anyone who continues this curriculum without the owner at the k
 Follow it exactly. When this file and another doc disagree, this file wins for the rules, and [MAINTAINING.md](MAINTAINING.md) has the longer how-to.
 All commands run from the repository root unless a step says `cd`.
 
+**AI tools: read [section 10](#10-working-efficiently-ai-token-use) first** (scripts, checkers and diffs instead of long reads).
+
 **Get the owner's approval before you publish anything** (before merging into `main`: a push to `main` deploys the public website).
 
-**Contents:** [1. Project layout](#1-project-layout) · [2. Content rules](#2-content-rules) · [3. Audio rules](#3-audio-rules) · [4. Audio check rules](#4-audio-check-rules) · [5. Step by step: add a lesson](#5-step-by-step-add-a-lesson-example-level-1-lesson-n-level-3-is-the-same-with-level3--l3) · [6. Slide decks (all levels)](#6-slide-decks-all-levels) · [7. Running audio locally](#7-running-audio-locally-level-3-lessons-213-drafts) · [8. Never commit](#8-never-commit) · [9. Repository rules](#9-repository-rules)
+**Contents:** [1. Project layout](#1-project-layout) · [2. Content rules](#2-content-rules) · [3. Audio rules](#3-audio-rules) · [4. Audio check rules](#4-audio-check-rules) · [5. Step by step: add a lesson](#5-step-by-step-add-a-lesson-example-level-1-lesson-n-level-3-is-the-same-with-level3--l3) · [6. Slide decks (all levels)](#6-slide-decks-all-levels) · [7. Running audio locally](#7-running-audio-locally-levels-35) · [8. Never commit](#8-never-commit) · [9. Repository rules](#9-repository-rules) · [10. Working efficiently (AI token use)](#10-working-efficiently-ai-token-use)
 
 ---
 
 ## 1. Project layout
 
 The repository is a Vite + React + TypeScript website (HashRouter, deployed to GitHub Pages by `.github/workflows/pages.yml`)
-plus the sources and build scripts for five levels of a 5-level adult ESL progression. Level 5 (Taking Part) is published (`Five_Level_Map.md`).
+plus the sources and build scripts for five levels of a 5-level adult ESL progression. All five levels are published (`Five_Level_Map.md`).
+**Exams:** the Level 3–5 midterm and final follow the Level 1 exam layout (`level1/exams/`: Markdown per exam, a teacher packet and a student test, no cover page, exam audio built like the lesson audio). Copy that layout, not the Level 2 book.
 
-| What | Level 1 (beginner) | Level 2 (high beginner) | Level 3 (low intermediate) | Level 4 (intermediate) |
-|---|---|---|---|---|
-| Lesson text (source) | `level1/curriculum/Level1_Lesson<N>.md` (13 lessons) | `curriculum/Level2_Curriculum_v5_public.md` (one book, 13 lessons + exams) | `level3/curriculum/Level3_Lesson<N>.md` | `level4/curriculum/Level4_Lesson<N>.md` (13 lessons) |
-| Plan for the semester | `level1/curriculum/Level1_Scope_and_Sequence.md` (the website reads the lesson list, weeks, semester table, routine here) | inside the book | `level3/curriculum/Level3_Scope_and_Sequence.md` | `level4/curriculum/Level4_Scope_and_Sequence.md` |
-| DOCX + PDF build | `level1/curriculum/build.sh <N> [--publish]` (uses `md2docx_L1.py`) | `curriculum/build.sh` (uses `md2docx.py`, `packets.py`) | `level3/curriculum/build.sh <N> [--publish]` (uses `md2docx_L3.py`) | `level4/curriculum/tools/build_lesson_L4.sh <N>` (uses `md2docx_L4.py`); the PDF + DOCX are committed next to the Markdown, and `export_content.py` copies them into `public/level4/downloads/` |
-| Exams | `level1/exams/` (Markdown, `images/`, `audio/`, `build/`); build: `level1/exams/build/build_all.sh [--publish]` | cut out of the book by `curriculum/build.sh` into `public/downloads/exams/` | not built yet | not built yet |
-| Pictures | `level1/images/` (+ `CREDITS.md`); scripts `level1/images/tools/make_images_L1.py`, `make_images_L1_L<N>.py`, helpers `level1/images/tools/lib/` | `public/images/` (+ `CREDITS.md`); scripts `tools/images/` | `level3/images/` (+ `CREDITS.md`); scripts `level3/images/tools/make_images_L3_L<N>.py` | `level4/images/` (+ `CREDITS.md`); scripts `level4/images/tools/make_images_L4_L<N>.py` |
-| Listening audio | `level1/audio/` (MP3 + check results + READMEs); Lesson 1 scripts `level1/audio/tools/`; Lessons 2–13 and exams use the shared builder `level1/audio/tools/lessons/` | `public/audio/`; scripts `tools/audio/` (`processor.py`, `asr_check*.py`) | `level3/audio/`; scripts `level3/audio/tools/` (`build_L3_L<N>.py`, `check_L3_L<N>.py`, `script_L3_L<N>.py`) | `level4/audio/` (MP3 + check results + READMEs for Lessons 1–13); scripts `level4/audio/tools/` |
-| Level 3 drafts (Lessons 2–13; the website uses `level3/`, not this folder) | | | `level3/drafts/` (`curriculum/`, `images/`, `audio/`, `audio/tools/`); status `level3/AUDIO_STATUS.md`; see section 7 | |
-| Voice reference clips | `tools/audio/samples/refs/*.wav` and `level1/audio/tools/natural/kokoro_refs/af_jessica.wav` (list: `level1/audio/tools/lessons/REFS.md`) | `tools/audio/samples/refs/` | `tools/audio/samples/refs/` | `level4/audio/tools/REFS_L4.md` |
-| Slide decks (source) | `level1/slides/Level1_Lesson<N>_Slides.pptx` | `public/downloads/slides/Lesson<N>_Slides.pptx` | `level3/slides/Level3_Lesson<N>_Slides.pptx` | `level4/slides/Level4_Lesson<N>_Slides.pptx` (specs: `level4/slides/specs/`) |
-| Website files (generated, don't edit by hand) | `public/level1/` (images, audio, downloads, downloads/slides, downloads/exams) | `public/images/`, `public/audio/`, `public/downloads/` | `public/level3/` | `public/level4/` |
-| Website data (generated) | `src/content_level1.json`, `src/decks/level1/lesson<N>.json` | `src/content.json`, `src/sizes.json`, `src/decks/lesson<N>.json` | `src/content_level3.json`, `src/decks/level3/lesson<N>.json` | `src/content_level4.json`, `src/decks/level4/lesson<N>.json` |
-| Page code | `src/level1.tsx` | `src/App.tsx` | `src/level3.tsx` | `src/level4.tsx` |
+| What | Level 1 (beginner) | Level 2 (high beginner) | Level 3 (low intermediate) | Level 4 (intermediate) | Level 5 (high intermediate) |
+|---|---|---|---|---|---|
+| Lesson text (source) | `level1/curriculum/Level1_Lesson<N>.md` (13 lessons) | `curriculum/Level2_Curriculum_v5_public.md` (one book, 13 lessons + exams) | `level3/curriculum/Level3_Lesson<N>.md` | `level4/curriculum/Level4_Lesson<N>.md` (13 lessons) | `level5/curriculum/Level5_Lesson<N>.md` (13 lessons; edited by hand, no specs) |
+| Plan for the semester | `level1/curriculum/Level1_Scope_and_Sequence.md` (the website reads the lesson list, weeks, semester table, routine here) | inside the book | `level3/curriculum/Level3_Scope_and_Sequence.md` | `level4/curriculum/Level4_Scope_and_Sequence.md` | `level5/curriculum/Level5_Scope_and_Sequence.md` |
+| DOCX + PDF build | `level1/curriculum/build.sh <N> [--publish]` (uses `md2docx_L1.py`) | `curriculum/build.sh` (uses `md2docx.py`, `packets.py`) | `level3/curriculum/build.sh <N> [--publish]` (uses `md2docx_L3.py`) | `level4/curriculum/tools/build_lesson_L4.sh <N>` (spec → md → DOCX → PDF → `check_lesson_L4.py`; it runs in the authoring workspace named in the script, then `sync_repo_L4.sh` copies into `level4/`; uses `md2docx_L4.py`, `fonts.conf`); the PDF + DOCX are committed next to the Markdown, and `export_content.py` copies them into `public/level4/downloads/` | `level5/curriculum/tools/build_lesson_L5.sh <N> [N ...]` (md → DOCX → PDF → `check_lesson_L5.py`; uses `md2docx_L5.py`, `fonts.conf`); the PDF + DOCX are committed next to the Markdown, and `export_content.py` copies them into `public/level5/downloads/` |
+| Exams | `level1/exams/` (Markdown, `images/`, `audio/`, `build/`); build: `level1/exams/build/build_all.sh [--publish]` | cut out of the book by `curriculum/build.sh` into `public/downloads/exams/` | not built yet (same layout as Level 1) | not built yet (same layout as Level 1) | not built yet (same layout as Level 1) |
+| Pictures | `level1/images/` (+ `CREDITS.md`); scripts `level1/images/tools/make_images_L1.py`, `make_images_L1_L<N>.py`, helpers `level1/images/tools/lib/` | `public/images/` (+ `CREDITS.md`); scripts `tools/images/` | `level3/images/` (+ `CREDITS.md`); scripts `level3/images/tools/make_images_L3_L<N>.py` | `level4/images/` (+ `CREDITS.md`); scripts `level4/images/tools/make_images_L4_L<N>.py` | `level5/images/` (credits per lesson: `CREDITS_L5_L<N>.md`); scripts `level5/images/tools/make_images_L5_L<N>.py` (helpers `l5img.py`) |
+| Listening audio | `level1/audio/` (MP3 + check results + READMEs); Lesson 1 scripts `level1/audio/tools/`; Lessons 2–13 and exams use the shared builder `level1/audio/tools/lessons/` | `public/audio/`; scripts `tools/audio/` (`processor.py`, `asr_check*.py`) | `level3/audio/`; scripts `level3/audio/tools/` (`build_L3_L<N>.py`, `check_L3_L<N>.py`, `script_L3_L<N>.py`) | `level4/audio/` (MP3 + check results + READMEs for Lessons 1–13); scripts `level4/audio/tools/` | `level5/audio/` (MP3 + check results + READMEs for Lessons 1–13); scripts `level5/audio/tools/`; status `level5/AUDIO_STATUS.md` |
+| Level 3 drafts (Lessons 2–13; the website uses `level3/`, not this folder) | | | `level3/drafts/` (`curriculum/`, `images/`, `audio/`, `audio/tools/`); status `level3/AUDIO_STATUS.md`; see section 7 | | |
+| Voice reference clips | `tools/audio/samples/refs/*.wav` and `level1/audio/tools/natural/kokoro_refs/af_jessica.wav` (list: `level1/audio/tools/lessons/REFS.md`) | `tools/audio/samples/refs/` | `tools/audio/samples/refs/` | `level4/audio/tools/REFS_L4.md` | `level5/audio/tools/REFS_L5.md` |
+| Slide decks (source) | `level1/slides/Level1_Lesson<N>_Slides.pptx` | `public/downloads/slides/Lesson<N>_Slides.pptx` | `level3/slides/Level3_Lesson<N>_Slides.pptx` | `level4/slides/Level4_Lesson<N>_Slides.pptx` (specs: `level4/slides/specs/`) | `level5/slides/Level5_Lesson<N>_Slides.pptx` (specs: `level5/slides/specs/`) |
+| Website files (generated, don't edit by hand) | `public/level1/` (images, audio, downloads, downloads/slides, downloads/exams) | `public/images/`, `public/audio/`, `public/downloads/` | `public/level3/` | `public/level4/` | `public/level5/` |
+| Website data (generated) | `src/content_level1.json`, `src/decks/level1/lesson<N>.json` | `src/content.json`, `src/sizes.json`, `src/decks/lesson<N>.json` | `src/content_level3.json`, `src/decks/level3/lesson<N>.json` | `src/content_level4.json`, `src/decks/level4/lesson<N>.json` | `src/content_level5.json`, `src/decks/level5/lesson<N>.json` |
+| Page code | `src/level1.tsx` | `src/App.tsx` | `src/level3.tsx` | `src/level4.tsx` | `src/level5.tsx` |
 
 Shared scripts:
 
-- `scripts/export_content.py`: writes all the website data (`src/content*.json`, `src/sizes.json`) and copies the Level 1 / Level 3 / Level 4 pictures, MP3s, and PPTX (and the Level 4 lesson PDF/DOCX) from `level1/`, `level3/`, `level4/` into `public/level1/`, `public/level3/`, `public/level4/`. It also copies the Level 1 exam MP3s and lists the exam files. It rebuilds Level 2 data too; unchanged sources give byte-identical files.
-- `scripts/export_deck.py <pptx> <N> [--level 1|3|4]`: PowerPoint deck → presenter JSON. It stops if a picture in the deck is not identical to a file in the level's `public/.../images/`.
+- `scripts/export_content.py`: writes all the website data (`src/content*.json`, `src/sizes.json`) and copies the Level 1 / 3 / 4 / 5 pictures (+ credits), MP3s, and PPTX (and the Level 4 and Level 5 lesson PDF/DOCX) from `level1/`, `level3/`, `level4/`, `level5/` into `public/level1/`, `public/level3/`, `public/level4/`, `public/level5/`. It also copies the Level 1 exam MP3s and lists the exam files. It rebuilds Level 2 data too; unchanged sources give byte-identical files.
+- `scripts/export_deck.py <pptx> <N> [--level 1|3|4|5]`: PowerPoint deck → presenter JSON. It stops if a picture in the deck is not identical to a file in the level's `public/.../images/`.
 - `scripts/check_slides.py <pptx ...>`: every click animation targets a shape that exists.
 - `scripts/slides/`: the slide deck tools (build a deck from a lesson spec, inspect, check, render, compare). See section 6.
 - `scripts/md_parser.py`: Markdown → page HTML (used by `export_content.py`).
@@ -56,6 +59,7 @@ Python environments (not committed): `.venv-docs` (`tools/requirements-docs.txt`
 - Adult learners. About 95% speak Spanish, but write for all languages.
 - **Level 1:** every student instruction has an English line, a Spanish line, and a `My language: ____` line.
 - **Level 3:** no Spanish lines.
+- **Level 4:** English only, plus at most one optional "contrast tip" box (any language; Spanish as one example). **Level 5:** English only, no contrast tip; mix-ups go in the Common mistakes table; an optional glossary with a *My language* column at the back.
 - Teachers are volunteers, not experts. Write every step so a first-time volunteer can teach it, and do not require Spanish.
 - Lots of pair and group work.
 - Grammar goes in **two-sided Q&A boxes** (question side / answer side).
@@ -147,6 +151,9 @@ Level 2: `tools/audio/processor.py` (`VOICES`), clips in `tools/audio/samples/re
 - The file has a short intro, plays the conversation **once**, then ends ("That's the end of the listening.").
 - Level 1: about 1:00–1:20.
 - Level 3: up to about 1:30, with up to 3 speakers.
+- Level 4: about 1:30–2:15, 2–3 characters plus an optional narrator. The speakers say *going to* / *want to*; every lesson explains *gonna* / *wanna* in the "Hear it, say it" box, the teacher notes and the slide notes (fine in casual talk; full forms in writing or at a job interview).
+- Level 5: about 2:05–2:40, 2–3 characters in a scene plus the narrator (a fourth only in a second scene); full forms in the audio. The gate allows 1:10–3:00.
+- **The Level 4 and Level 5 length targets are soft.** The gate range (`LENGTH_S` in `level<V>/audio/tools/scripts/script_L<V>_L<N>.py`) is the hard limit. Several published files are shorter than the target (issue #43); do not pad a script or re-record only for length unless the owner asks. Check a length without listening: `python3 -c "import json;print(json.load(open('level4/audio/L4_L3_gate.json')))"` (or `L<V>_L<N>_check_results.json`), and `check_lesson_L4.py` / `check_lesson_L5.py` print `listening_estimate` / `listening_length` (Level 5 warns outside the target).
 - Write the real length ("about 1:17") in the listening-script heading of the lesson Markdown. For the exams, `make_exam_md.py` reads it from `level1/exams/audio/L1_<Midterm|Final>_check_results.json`, so run `build_all.sh --publish` again after new audio.
 
 **Hard names**
@@ -261,6 +268,14 @@ The repo's `tools/audio/processor.py` is the one to use (resampling, trimming, s
 - Then run `python3 scripts/export_content.py`. The website reads the parts table from the teacher packet.
 - Set `IMGPY=.venv-img/bin/python` for the pictures.
 - `BANNED_EXTRA="word1,word2"` adds words to the checker's banned list.
+
+### 5.1 Level 4 and Level 5 lessons
+
+- **Level 4** lessons come from specs (`render_L4.py` + `std.py`, the step boxes and clock rows of the Level 4 routine) in the authoring workspace; `build_lesson_L4.sh <N>` builds and checks one, `sync_repo_L4.sh` copies it into the repo. For a small text fix in the repo: edit `level4/curriculum/Level4_Lesson<N>.md`, rebuild the DOCX with `md2docx_L4.py` (images/ link in the work folder, footer `"Level 4 ESL · Lesson <N>"`) and the PDF with `FONTCONFIG_FILE=level4/curriculum/tools/fonts.conf soffice --headless --convert-to pdf`, then `python3 level4/curriculum/tools/check_lesson_L4.py level4/curriculum <N> level4/audio/tools/scripts` (problems `[]`, 27–30 pages).
+- **Level 5** has no specs: edit `level5/curriculum/Level5_Lesson<N>.md`, then `bash level5/curriculum/tools/build_lesson_L5.sh <N> [N ...]`. It writes the DOCX + PDF next to the Markdown and prints one JSON line per lesson from `check_lesson_L5.py` (`problems` must be `[]`; `warnings` are soft targets such as the audio length). Status line: `**Status:** Published. …`.
+- Both checkers test the routine clock times, the reading length, the exit ticket, the 12 New Words pictures and their credits, the allowed characters (no decorative emoji), the listening script against `level<V>/audio/tools/scripts/script_L<V>_L<N>.py`, the voices, and the page count.
+- **PDF fonts:** always render with `tools/fonts.conf` (Calibri → Liberation Serif, Carlito hidden). The published PDFs use Liberation Serif; another font moves the page breaks.
+- If the listening text changed, run `make_script_L<V>.py <N>` and record again (section 7). Then `python3 scripts/export_content.py`.
 
 ## 6. Slide decks (all levels)
 
@@ -380,6 +395,8 @@ To see any value exactly: `python3 scripts/slides/inspect_deck.py level3/slides/
 | Sequence | title · Today's Goals · Hello + Review · New Words · More New Words · Before You Listen · Listening A/B/C · grammar boxes with the question as title (e.g. "What do you do?") · Preview · practice · Common Mistakes · Talk Time + a 2nd activity (e.g. Find Someone Who) · Before You Go "7:10–7:15" · **literacy block 7:15–7:30** (2–3 slides: "Letters & Numbers · 7:15", e.g. "a or an?", "Letters: Task B", "Read the Signs") · Progress Check "7:25" · "Great Work! See You Next Week!" · Credits | as in the table above; no literacy block; Before You Go 7:12–7:17 |
 | Spanish | Student pages have English + Spanish + "My language: ____" lines; the **slides are English only** (no Spanish lines) | no Spanish anywhere |
 | Listening | about 1:00–1:20, 2–3 voices | about 1:30 at most, **up to 3 speakers** (Narrator + 2 characters) |
+
+Levels 4 and 5 use the Level 3 column (Lesson 1 starts from the previous level's Lesson 13 deck). Listening: Level 4 about 1:30–2:15, 2–3 characters plus an optional narrator; Level 5 about 2:05–2:40, 2–3 characters in a scene plus the narrator (section 3).
 
 ### 6.4 Speaker notes
 
@@ -635,7 +652,9 @@ Then `npm run build`, preview every Level 1–4 page, and check that Level 1–3
 
 ---
 
-## 7. Running audio locally (Level 3 Lessons 2–13 drafts)
+## 7. Running audio locally (Levels 3–5)
+
+Level 3 tools: `level3/drafts/audio/tools/` (below). Level 4: `level4/audio/tools/`. Level 5: `level5/audio/tools/`. All three work the same way; the Level 4 and Level 5 paragraphs at the end of this section list what differs.
 
 Draft copies of Level 3 Lessons 2–13 stay in `level3/drafts/` (`curriculum/`, `images/`, `audio/`, `audio/tools/`). The website does not read
 this folder. Published copies are in `level3/curriculum/`, `level3/images/`, and `level3/audio/`. Which lessons still need audio is in [`level3/AUDIO_STATUS.md`](level3/AUDIO_STATUS.md):
@@ -698,7 +717,7 @@ bash $T/publish_audio_L3.sh 6 'Optional note for the README'
 MP3 with ffmpeg). Its last line is the gate summary: `PASS True` is needed. Details: `out/L<N>/L3_L<N>_gate.json`, `build.log`,
 `L3_L<N>_check_results.json`, `L3_L<N>_second_opinion_medium.txt`. Use `PY=` for another Python and `LOCK=` for another lock file.
 If a lesson's Markdown changes, run `.venv-audio/bin/python $T/make_script_L3.py <N>` first, and rebuild the DOCX/PDF with
-`PYTHON=.venv-docs/bin/python level3/drafts/curriculum/build_draft.sh <N> --inplace`. Keep the "Draft for review" wording in the lesson files.
+`PYTHON=.venv-docs/bin/python level3/drafts/curriculum/build_draft.sh <N> --inplace`. These are working copies (`level3/drafts/README.md`); the published lesson is `level3/curriculum/Level3_Lesson<N>.md`, so make the same change there and rebuild it with `level3/curriculum/build.sh <N> --publish`.
 
 **Rules for these files** (sections 3 and 4, applied to Level 3)
 
@@ -732,7 +751,7 @@ If a lesson's Markdown changes, run `.venv-audio/bin/python $T/make_script_L3.py
 
 Use this when the owner asks for a level's listening audio on this machine. The recorder is a local script. Start it, then leave it alone. Reading the build log from the chat, or starting a second loop to re-decide takes, spends tokens and does not make the audio. When a line fails the checker and that line is not the grammar the lesson is teaching, rewrite the line and record the lesson again. The steps are under **A line the checker cannot accept** below.
 
-**Branch.** One feature branch holds the lessons that pass. Level 3 used `level3-L2-13-audio-handoff`, made from `main`. Level 4's scripts and tools are not on `main`, so `level4-audio` starts from `origin/level4-lessons` (commit `c48e8c3`). A later level that is already on `main` starts from `main`. Keep the main checkout on `main` and do the recording in a second worktree. Merging the audio branch into `main` needs the owner's approval. A push to `main` deploys the website.
+**Branch.** One feature branch holds the lessons that pass. Level 3 used `level3-L2-13-audio-handoff`, made from `main`. Level 4 used `level4-audio` (branched from the old `level4-lessons`; both deleted after the merge, issue #48). The Level 4 and Level 5 tools are on `main` now, so every level starts from `main`. Keep the main checkout on `main` and do the recording in a second worktree. Merging the audio branch into `main` needs the owner's approval. A push to `main` deploys the website.
 
 **One job.** Start the driver with `setsid`, in its own session, so clearing a task list does not kill it. One quiet monitor may watch that process. The monitor stays silent until the run finishes, the process dies, no log file under the driver's state directory or `out/` changes for 90 minutes, or a long deadline. Driver scripts live in `~/.grok/long-running-background-tasks/` and are not committed. State for a run (pid, exclude files, stop notes) lives in a directory next to those scripts.
 
@@ -746,7 +765,7 @@ Use this when the owner asks for a level's listening audio on this machine. The 
 
 1. Stop the recorder before you edit. A process that already loaded the script keeps the old line.
 2. Rewrite the spoken line and the printed listening script so they say the same words. Keep the grammar. Update every task evidence string, the slide spec, the rebuilt deck, the site text, and that lesson's PDF and DOCX. Then record the lesson again. Unchanged sentences come back from `cache/` in seconds.
-3. Say the full form when the checker drops a contraction or a short form and the lesson is teaching the meaning. Level 4 recordings say "going to" and "want to", and "we have" where "we've" disappeared. The Hear It box can still say that people often say gonna and wanna, and that learners only need to recognize those short forms. Do not write that learners will hear a short form the recording does not say.
+3. Say the full form when the checker drops a contraction or a short form and the lesson is teaching the meaning. Level 4 recordings say "going to" and "want to", and "we have" where "we've" disappeared. The Hear It box says that people often say gonna and wanna, that learners will hear them a lot, and that the short forms are fine in casual talk (the Level 4 rule, issue #42). Do not write that the recording says a short form it does not say.
 4. Change a name, a number, or a fragment the checker hears as a different phrase. Level 4 examples: "Park View" was heard as one word, so the page says Parkview; "Aisles one to six" was heard as "IELTS 16", so the line says "Those shelves are done"; "It's one eighteen over seventy-six" matched and still sat under the word-probability cutoff, so the line says the blood pressure looks normal; "March what?" became a full question. The answer key must still be found in the script.
 5. Keep the pass rule and the pitch floors (male median under 150 Hz, female 165 Hz or more). Leave `canon.py` as it is. A checker change still needs the owner's decision.
 
@@ -760,7 +779,9 @@ If that lesson already has an `audio` issue, comment on it. Do not open a second
 
 **Numbers and reductions.** `canon.py` already treats number words and digits as the same string, so a line can match and still fail the take when a word probability stays under 0.5. Spelled letters and digit strings are checked by ear (section 4). `canon.py` does not treat *gonna* as "going to" or *wanna* as "want to". Write the full form in the spoken script.
 
-**Level 4, with sections 3 and 4.** Tools: `level4/audio/tools/run_audio_L4.sh <N>` (build, small.en, medium.en, gate) and `publish_audio_L4.sh <N> ['notes']`. Narrator **0.55 / 0.40**, characters **0.72 / 0.32**. Whole-sentence takes. Pauses **1.3–1.5 s** (the gate accepts 1.25–1.6). Length gate **1:30–2:15**. The gate fails a heard line only when both checkers miss it. Pitch, clipping, length, gaps, and a sentence that used every seed still fail the gate. A lesson may have more than three voices. Commit message for a passing lesson: `Level 4 Lesson <N> draft listening audio`. The same never-commit check as above: the staged diff must contain no `.wav`, `.onnx`, `.bin`, `.pt`, `venv`, `cache/`, or `out/`.
+**Level 4, with sections 3 and 4.** Tools: `level4/audio/tools/run_audio_L4.sh <N>` (build, small.en, medium.en, gate) and `publish_audio_L4.sh <N> ['notes']`. Narrator **0.55 / 0.40**, characters **0.72 / 0.32**. Whole-sentence takes. Pauses **1.3–1.5 s** (the gate accepts 1.25–1.6). Length gate **1:30–2:15**. The gate fails a heard line only when both checkers miss it. Pitch, clipping, length, gaps, and a sentence that used every seed still fail the gate. A lesson may have more than three voices. Commit message for a passing lesson: `Level 4 Lesson <N> listening audio`. The same never-commit check as above: the staged diff must contain no `.wav`, `.onnx`, `.bin`, `.pt`, `venv`, `cache/`, or `out/`.
+
+**Level 5, with sections 3 and 4.** Same as Level 4 with `5`: `bash level5/audio/tools/run_audio_L5.sh <N>` (build, small.en, medium.en, gate) and `bash level5/audio/tools/publish_audio_L5.sh <N> ['notes']` (copies the checked files into `level5/audio/` and writes `L5_L<N>_README.md`). Voices: `REFS_L5.md` and `cast/cast_L5_L<N>.json`; the line file comes from the lesson with `make_script_L5.py <N>`. Narrator **0.55 / 0.40**, characters **0.72 / 0.32**, whole-sentence takes. Length gate **1:10–3:00** (`LENGTH_S` [70, 180]); the 2:05–2:40 aim is soft. Up to 3 speakers in a scene, a fourth only in a second scene. Full forms only (*going to*, *want to*). Update `level5/AUDIO_STATUS.md` and the real length in the listening-script heading, rebuild that lesson (`build_lesson_L5.sh <N>`), then `export_content.py`. Commit message: `Level 5 Lesson <N> listening audio`. Same never-commit check as Level 4.
 
 ---
 
@@ -789,3 +810,21 @@ If that lesson already has an `audio` issue, comment on it. Do not open a second
   - check the live site (https://sdpursley.github.io/ESL-Curriculum/): the changed pages, downloads, and audio return 200, and there are no console errors;
   - check that the presenters of the changed lessons still click through.
 - Data for levels you did not touch must stay byte-identical.
+
+---
+
+## 10. Working efficiently (AI token use)
+
+AI time is paid in tokens. Spend them on decisions, not on reading output.
+
+- **Script it.** Builds, checks, batch edits, and renders run as scripts. Read only the summary line (pass/fail, counts, the problem list), not the full log.
+- **Run the checkers, not manual reads.** `check_lesson_L4.py`, `check_lesson_L5.py`, `check_slides.py`, `check_deck.py`, the audio gate, and `npm run build` find more than reading a 30-page PDF.
+- **One branch, one PR per job.** Batch related fixes; do not open a PR per small change.
+- **Work back to back.** Check in with the owner only at review points (a plan, a finished PR), not after each step.
+- **Do not re-read large generated files** (decks JSON, `src/content*.json`, PDFs, logs). Use `git diff --stat`, `grep`, or a short script that prints the part you need.
+- **Work from diffs.** After a rebuild, compare old and new (`git diff`, a text diff of the deck or PDF) and look only at what changed.
+- **Long jobs run detached** (`setsid … &`, section 7) and write a log. Check the log tail or the final status line; do not stream it.
+- **Spot-check with samples.** A contact sheet (`montage_L4.sh`, `scripts/slides/render_deck.sh` + `contact_sheet.py`) shows every slide or picture in one image.
+- **Reuse.** Start a lesson, spec, deck, or exam from the closest earlier one and change only what differs.
+- **Keep a `PROGRESS.md`** (not committed, or on the work branch) with what is done and what is next, so a new session does not re-discover it.
+- **Write the result once, at the end:** the PR, what changed, the check results, and what is left for the owner.
