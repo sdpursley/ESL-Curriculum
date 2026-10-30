@@ -10,6 +10,7 @@ import { level5, readyLessons5 as readyLessons } from './content_level5'
 import { mb } from './content'
 import { Card, Html, SectionTitle, DlRow, WordCards } from './ui'
 import { level5PresentHref } from './config'
+import { examFor, ExamMilestoneLink } from './exams_l345'
 import { hasDeck } from './presenter/decks'
 
 const lessonHref = (n: number, tab?: string) => `/level5/lesson/${n}${tab ? `/${tab}` : ''}`
@@ -67,7 +68,7 @@ function Milestone({ week, title, note }: { week: number; title: string; note: s
       <div className="text-sm font-semibold uppercase tracking-wide text-rose-800">Week {week}</div>
       <div className="mt-1 text-xl font-bold text-slate-800">{title === 'Graduation' ? '🎓 ' : '📝 '}{title}</div>
       <div className="mt-2 text-slate-600">{note}</div>
-      {title !== 'Graduation' && <div className="mt-3"><SoonBadge /></div>}
+      {title !== 'Graduation' && (examFor(5, week) ? <ExamMilestoneLink level={5} week={week} /> : <div className="mt-3"><SoonBadge /></div>)}
     </div>)
 }
 
