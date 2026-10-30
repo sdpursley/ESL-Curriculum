@@ -70,3 +70,14 @@ level5/audio/tools/refs/
 level5/audio/tools/cache/
 level5/audio/tools/out/
 level5/**/*.wav
+
+# Level 3-5 exams build output (DOCX/PDF go to public/level<N>/downloads/exams/ with --publish; audio out/ is not committed)
+level3/exams/build/out/
+level3/exams/build/consistency_report.txt
+level3/exams/build/audio/out/
+level4/exams/build/out/
+level4/exams/build/consistency_report.txt
+level4/exams/build/audio/out/
+level5/exams/build/out/
+level5/exams/build/consistency_report.txt
+level5/exams/build/audio/out/

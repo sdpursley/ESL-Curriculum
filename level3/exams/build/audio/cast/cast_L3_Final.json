@@ -1,0 +1,30 @@
+{
+ "TITLE": "Final: A Cold Apartment",
+ "VOICES": {
+  "Narrator": "N",
+  "Sara": "Receptionist",
+  "Mr. Grant": "Sam",
+  "Luis": "Marco"
+ },
+ "FEMALE": [
+  "Narrator",
+  "Sara"
+ ],
+ "NAMES": [
+  "grant",
+  "luis",
+  "maple",
+  "sara"
+ ],
+ "SAME": {
+  "okay": "ok",
+  "mr": "mister"
+ },
+ "TTS": {
+  "Hi, this is Sara in apartment 4B. Something is wrong with my heater. It's making a loud noise, and the apartment is cold.": "Hi, this is Sara in apartment four B. Something is wrong with my heater. It's making a loud noise, and the apartment is cold.",
+  "OK. Someone will come tomorrow at four. Don't use the heater tonight.": "Okay. Someone will come tomorrow at four. Don't use the heater tonight.",
+  "OK. And one more thing. I lost my gloves in the laundry room. Did anyone find them?": "Okay. And one more thing. I lost my gloves in the laundry room. Did anyone find them?",
+  "Great. Your first job is the heater in 4B. First, check the filter. Then clean it. Finally, turn the heater on.": "Great. Your first job is the heater in four B. First, check the filter. Then clean it. Finally, turn the heater on.",
+  "OK. First the filter, then I clean it, and finally I turn it on.": "Okay. First the filter, then I clean it, and finally I turn it on."
+ }
+}
