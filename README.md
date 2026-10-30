@@ -4,9 +4,9 @@ Source for the public website of the free **Adult ESL Curriculum**. The home pag
 
 - **Level 1** (beginner): 13 lessons planned over 16 weeks. **all 13 lessons (1–13) are published**, plus the Week 8 midterm and Week 15 final exams.
 - **Level 2** (high beginner): 13 lessons plus midterm and final exams.
-- **Level 3** (low intermediate): all 13 lessons are published. The midterm and final are not built yet.
-- **Level 4** (intermediate, *Sharing Experiences and Opinions*): all 13 lessons are published. The midterm and final are not built yet.
-- **Level 5** (high intermediate, *Taking Part*): all 13 lessons are published. The midterm and final are not built yet.
+- **Level 3** (low intermediate): all 13 lessons are published, plus the Week 8 midterm and Week 15 final (`#/level3/exams`; exam audio still to do, the teacher reads the script).
+- **Level 4** (intermediate, *Sharing Experiences and Opinions*): all 13 lessons are published, plus the Week 8 midterm and Week 15 final (`#/level4/exams`; exam audio still to do, the teacher reads the script).
+- **Level 5** (high intermediate, *Taking Part*): all 13 lessons are published, plus the Week 8 midterm and Week 15 final (`#/level5/exams`; exam audio still to do, the teacher reads the script).
 
 Each level is one 16-week semester: 13 lessons, a Week 8 midterm, a Week 15 final, and Week 16 graduation.
 
@@ -50,6 +50,7 @@ Live site: https://sdpursley.github.io/ESL-Curriculum/
 | `#/levelV/lesson/:n` | Level V lesson *n* (`#/levelV/lesson/:n/:tab`, tab = `student`, `teacher` or `downloads`) |
 | `#/levelV/downloads` | Level V downloads |
 | `#/levelV/present/:n` | Full-screen slide presenter for Level V lesson *n* |
+| `#/level3/exams`, `#/levelV/exams` | Level 3, 4 or 5 Week 8 midterm and Week 15 final (teacher packet, student test; listening audio to do) |
 | **Level 2** (original URLs, unchanged) | |
 | `#/level2` | Level 2 overview (the former home page) |
 | `#/lessons` | All Level 2 lessons |
@@ -77,7 +78,7 @@ Unknown routes redirect to `#/` (an unknown `#/level1/...`, `#/level3/...`, `#/l
 - **Level 3, 4 and 5 static files**: `public/level3/`, `public/level4/`, `public/level5/` (same layout), copied from `level3/`, `level4/`, `level5/` by `scripts/export_content.py`
 - **Curriculum source**: `curriculum/Level2_Curriculum_v5_public.md`, built into PDF/DOCX and exam packets by `curriculum/build.sh`;
   Level 1: `level1/` (`curriculum/` lesson Markdown + scope and sequence + `build.sh`, `images/`, `audio/`, `slides/`,
-  `exams/` = midterm and final sources, pictures, audio and build scripts, built by `level1/exams/build/build_all.sh`); Level 3: `level3/` (same layout; exams not built yet); Level 4: `level4/`; Level 5: `level5/` (lesson Markdown + PDF/DOCX + `tools/` build and check scripts, `images/`, `audio/` with `audio/tools/`, `slides/` with `specs/`)
+  `exams/` = midterm and final sources, pictures, audio and build scripts, built by `level1/exams/build/build_all.sh`); Level 3: `level3/` (same layout; `exams/` built by `level3/exams/build/build_all.sh`, checked by `check_consistency.py`); Level 4: `level4/`; Level 5: `level5/` (lesson Markdown + PDF/DOCX + `tools/` build and check scripts, `images/`, `audio/` with `audio/tools/`, `slides/` with `specs/`)
 - **Generation tools**: `tools/audio/` (Chatterbox TTS audio pipeline, voice reference clips, ASR checks) and `tools/images/`
   (vocabulary picture generators). They are not part of the site build; see MAINTAINING.md.
 - `EXAMS_PAGE_PLAN.md`: design notes for the exams page
