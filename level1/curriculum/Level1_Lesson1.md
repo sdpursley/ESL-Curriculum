@@ -324,7 +324,7 @@ My language: ______________________________________________
 ---
 ## Lesson 1 (Week 1) · Listening
 
-*Listen to 👩 **Ana** and 👨 **Carlos**. It's the first night of class.*
+*Listen to **Ana** and **Carlos**. It's the first night of class.*
 
 ### A. Listen. Who is it? Check ✓ Ana or Carlos.
 
@@ -332,12 +332,12 @@ My language: ______________________________________________
 
 My language: ______________________________________________
 
-| | 👩 Ana | 👨 Carlos |
+| | Ana | Carlos |
 |---|---|---|
 | 1. Last name: **Ruiz** | ☐ | ☐ |
 | 2. Last name: **Vega** | ☐ | ☐ |
 | 3. "I'm fine, thanks." | ☐ | ☐ |
-| 4. Gets a book and a pen 📘 🖊️ | ☐ | ☐ |
+| 4. Gets a book and a pen | ☐ | ☐ |
 
 ### B. Listen again. Circle the letters you hear.
 
@@ -345,8 +345,8 @@ My language: ______________________________________________
 
 My language: ______________________________________________
 
-1. 👩 Ana:   **R**    ( U / O )    ( I / E )    ( Z / S )
-2. 👨 Carlos:   ( V / B )    ( E / I )    ( G / J )    **A**
+1. Ana:   **R**    ( U / O )    ( I / E )    ( Z / S )
+2. Carlos:   ( V / B )    ( E / I )    ( G / J )    **A**
 
 ### C. Listen again. Write the last names.
 
@@ -354,8 +354,8 @@ My language: ______________________________________________
 
 My language: ______________________________________________
 
-1. 👩 Ana  ___  ___  ___  ___
-2. 👨 Carlos  ___  ___  ___  ___
+1. Ana  ___  ___  ___  ___
+2. Carlos  ___  ___  ___  ___
 
 ### Say it: *How do you spell it?* • *Can you repeat, please?*
 
@@ -656,10 +656,10 @@ My language: ______________________________________________
 
 | I can… | 😀 | 🙂 | 😐 |
 |---|---|---|---|
-| 👋 I can say hello and goodbye. | ☐ | ☐ | ☐ |
-| 🪪 I can say my first and last name. | ☐ | ☐ | ☐ |
-| 🔤 I can spell my name. | ☐ | ☐ | ☐ |
-| 🔁 I can ask *Can you repeat, please?* | ☐ | ☐ | ☐ |
+| I can say hello and goodbye. | ☐ | ☐ | ☐ |
+| I can say my first and last name. | ☐ | ☐ | ☐ |
+| I can spell my name. | ☐ | ☐ | ☐ |
+| I can ask *Can you repeat, please?* | ☐ | ☐ | ☐ |
 
 **Score:** A ______ / 5   B ______ / 4   C ______ / 2
 

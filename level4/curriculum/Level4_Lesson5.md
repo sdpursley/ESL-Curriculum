@@ -212,7 +212,7 @@
 - ***mind* + -ing:** *Would you mind getting…?* But *Do you mind if I* + the base verb: *Do you mind if I leave…?*
 - **Saying no:** model *sorry + a reason + another idea*. A polite no is a good answer.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 5 (Week 5) | Would You Mind…? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 5 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -309,7 +309,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "I'm **going to** be away next week." • *wanna* = want to: "I **want to** help, but I can't." You can say *going to* and *want to*. Say *Would you mind…?* and *Do you mind if I…?* smoothly, with a friendly rise at the end. Answer with a thumbs-up: *No, not at all!*
+*gonna* = going to: "I'm **going to** be away next week." • *wanna* = want to: "I **want to** help, but I can't." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. Say *Would you mind…?* and *Do you mind if I…?* smoothly, with a friendly rise at the end. Answer with a thumbs-up: *No, not at all!*
 
 ---
 ## Lesson 5 (Week 5) · Grammar

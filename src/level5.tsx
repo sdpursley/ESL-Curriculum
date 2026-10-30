@@ -31,7 +31,7 @@ export function Level5Home() {
   return (<>
     <section className="mb-8 rounded-2xl border border-sky-100 border-l-4 border-l-rose-300 bg-gradient-to-r from-sky-50 to-rose-50 px-4 py-4 sm:px-8 sm:py-6">
       <span className="inline-block rounded-full bg-white/80 px-2.5 py-0.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200">Free · High intermediate · 16 weeks</span>
-      <h1 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">🎯 Level 5 Adult ESL</h1>
+      <h1 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">Level 5 Adult ESL</h1>
       <p className="mt-2 max-w-2xl text-[15px] leading-snug text-slate-700 sm:text-lg sm:leading-relaxed">A free course for adults who finished Level 4: job interviews, project changes, wishes and regrets, notices, bills, messages, forms, school calls, websites, compromises, claims, meetings, and a short talk. 13 lessons with pictures, listening, grammar, reading and writing, and full teacher plans.</p>
       <p className="mt-2 text-sm font-medium text-rose-900">{readyLessons.length === 13 ? 'All 13 lessons are ready.' : <>{readyLessons.length === 1 ? 'Lesson 1 is ready.' : `Lessons 1–${readyLessons.length} are ready.`} Lessons {readyLessons.length + 1}–13 are coming soon.</>}{slidesOnly.length > 0 && ` Teacher slides for ${range(slidesOnly)} are ready now.`}{!anyAudio && ' The listening audio is coming soon; until then, the teacher reads the listening script aloud.'}</p>
       <div className="mt-3 flex flex-row flex-wrap gap-2">
@@ -65,7 +65,7 @@ function Milestone({ week, title, note }: { week: number; title: string; note: s
   return (
     <div className="rounded-2xl border border-dashed border-rose-200 bg-rose-50/50 p-5">
       <div className="text-sm font-semibold uppercase tracking-wide text-rose-800">Week {week}</div>
-      <div className="mt-1 text-xl font-bold text-slate-800">{title === 'Graduation' ? '🎓 ' : '📝 '}{title}</div>
+      <div className="mt-1 text-xl font-bold text-slate-800">{title}</div>
       <div className="mt-2 text-slate-600">{note}</div>
       {title !== 'Graduation' && <div className="mt-3"><SoonBadge /></div>}
     </div>)

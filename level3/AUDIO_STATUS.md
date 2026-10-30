@@ -1,8 +1,8 @@
 # Level 3 Lessons 2-13: listening audio status
 
-Draft for review. These lessons live in `level3/drafts/` and are **not on the website** (`scripts/export_content.py` reads only
-`level3/curriculum`, `level3/images`, `level3/audio` and `level3/slides`). How to record a lesson: AGENTS.md, section
-"Running audio locally". Update this file in the same commit as each finished MP3.
+**Published.** All 13 Level 3 listening files are on the website (`level3/audio/`). Lessons 2–13 were recorded in `level3/drafts/`
+(see `level3/drafts/README.md`); the MP3s there are the same files. This file is the recording log from that work. How to record a
+lesson: AGENTS.md, section 7 "Running audio locally". Update this file in the same commit as any re-recorded MP3.
 
 Status as of 23 Oct 2026, 00:42 CDT. Lessons marked **done** below passed the gate on this computer (CPU, faster-whisper float32).
 **Takes from the build computer are not in the repo and cannot be reused:** the take cache is keyed by file paths, and the same seed gives a

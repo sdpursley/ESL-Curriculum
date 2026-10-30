@@ -1,8 +1,8 @@
-# Maintaining the ESL Curriculum (Levels 1, 2 and 3)
+# Maintaining the ESL Curriculum (Levels 1–5)
 
 This guide explains how to change and rebuild everything in this repository: the curriculum book (PDF/DOCX),
 the exams, the website, the slide decks, the vocabulary pictures, and the listening audio.
-Sections 1–7 are about **Level 2** (and the website in general). **Level 1** has its own section: [section 8](#8-level-1); **Level 3** is [section 9](#9-level-3).
+Sections 1–7 are about **Level 2** (and the website in general). **Level 1** has its own section: [section 8](#8-level-1); **Level 3** is [section 9](#9-level-3); **Levels 4 and 5** are [section 10](#10-levels-4-and-5).
 You do not need to be a programmer. Copy the commands as written, and run them from the repository folder.
 
 **[AGENTS.md](AGENTS.md)** is the short, exact handoff guide (layout, content rules, voices, audio checks, step-by-step for a new lesson
@@ -27,6 +27,8 @@ or exam, how to build slide decks for any level in its section 6, repository rul
 | `public/level1/` | Level 1 files the website serves (pictures, MP3, PDF/DOCX/PPTX downloads). Refreshed from `level1/` by the scripts; don't edit here. |
 | `src/content_level1.json`, `src/decks/level1/` | Level 1 lesson pages and presenter slides (generated). Level 1 page code: `src/level1.tsx`. |
 | `level3/`, `public/level3/`, `src/content_level3.json`, `src/decks/level3/` | **Level 3**, laid out the same way as Level 1 (page code: `src/level3.tsx`). See section 9. |
+| `level4/`, `public/level4/`, `src/content_level4.json`, `src/decks/level4/` | **Level 4** (page code: `src/level4.tsx`). See section 10. |
+| `level5/`, `public/level5/`, `src/content_level5.json`, `src/decks/level5/` | **Level 5** (page code: `src/level5.tsx`). See section 10. |
 | `Five_Level_Map.md` | Planning map for all five levels. |
 
 ## One-time setup
@@ -383,8 +385,8 @@ no `level1/exams/build/out/`, and no `cache/` or `out/` folders (`.gitignore` al
 
 ## 9. Level 3
 
-Level 3 (low intermediate) works exactly like Level 1 (section 8), with `level3` in place of `level1`. Lesson 1 is finished;
-Lessons 2–13 show as "coming soon" until their Markdown file exists. Level 3 pictures are called `L3_L<N>_*.png`
+Level 3 (low intermediate) works exactly like Level 1 (section 8), with `level3` in place of `level1`. All 13 lessons are published
+(the examples below use Lesson 1; use any lesson number). The midterm and final are not built yet. Level 3 pictures are called `L3_L<N>_*.png`
 (Level 3, lesson *N*), for example `L3_L1_neighbor.png`.
 
 ### What is where (Level 3)
@@ -439,12 +441,57 @@ Whisper results can differ slightly between runs; if one line fails the whole-fi
 
 As in section 8: `level3/curriculum/Level3_Lesson2.md`, pictures `level3/images/L3_L2_<word>.png`, audio `level3/audio/L3_L2_listening.mp3`,
 slides `level3/slides/Level3_Lesson2_Slides.pptx` (built with `scripts/slides/build_deck.py` from `level3/slides/specs/`, see AGENTS.md section 6; then `export_deck.py ... 2 --level 3`), then `level3/curriculum/build.sh 2 --publish` and
-`python3 scripts/export_content.py`. Update the "Lesson 1 is ready" sentence on the Level 3 overview in `src/level3.tsx`.
+`python3 scripts/export_content.py`.
 
 ### Publish
 
 The same as Level 2 (sections 6–7). Before you commit, check that `git status` shows no `.wav` files, no `level3/curriculum/build/`,
 and no `cache/` or `out/` folders.
+
+## 10. Levels 4 and 5
+
+Level 4 (intermediate) and Level 5 (high intermediate) each have 13 published lessons. The midterm and final are not built yet;
+build them like the Level 1 exams (section 8). Files are named with the level number, for example
+`level5/curriculum/Level5_Lesson3.md`, `L5_L3_listening.mp3`, and `Level5_Lesson3_Slides.pptx`. AGENTS.md (sections 3, 5.1, 6 and 7) has the full rules.
+
+### What is where (Levels 4 and 5, `V` = 4 or 5)
+
+| Folder / file | What it is |
+|---|---|
+| `levelV/curriculum/LevelV_Scope_and_Sequence.md` | The plan for the semester. **The website takes the lesson list and the class routine from here.** |
+| `levelV/curriculum/LevelV_Lesson<N>.md` (+ `.docx`, `.pdf`) | **Lesson text** and its built DOCX/PDF (the downloads). |
+| `levelV/curriculum/tools/` | `build_lesson_LV.sh` (build + check one lesson), `check_lesson_LV.py` (the lesson checker), `md2docx_LV.py`, `fonts.conf` (PDF font setup). Level 4 also has `render_L4.py`/`std.py` (lesson specs), `montage_L4.sh` (contact sheet), `sync_repo_L4.sh`. |
+| `levelV/images/` | Vocabulary pictures `LV_L<N>_*.png`, credits (Level 4: `CREDITS.md`; Level 5: `CREDITS_L5_L<N>.md`), and `tools/` (drawing scripts). |
+| `levelV/audio/` | `LV_L<N>_listening.mp3` (**the published audio**), check results, a README per lesson, and `tools/` (`run_audio_LV.sh`, `publish_audio_LV.sh`, voice references `REFS_LV.md`, cast files, scripts). Status: `levelV/AUDIO_STATUS.md`. |
+| `levelV/slides/LevelV_Lesson<N>_Slides.pptx` | **The editable slide deck**, built from `levelV/slides/specs/`. |
+| `public/levelV/` | What the website serves. **Don't edit here**: `export_content.py` refreshes it. |
+
+### Rebuild after a change
+
+```bash
+bash level5/curriculum/tools/build_lesson_L5.sh 3        # Level 5 Lesson 3: DOCX + PDF + checker (problems must be [])
+W=$(mktemp -d); cp level4/curriculum/Level4_Lesson3.* $W; ln -s $PWD/level4/images $W/images
+python3 level4/curriculum/tools/check_lesson_L4.py $W 3 level4/audio/tools/scripts level4/images/CREDITS.md   # check a Level 4 lesson
+python3 scripts/slides/build_deck.py --level 5 --lesson 3   # only if the slide spec changed
+python3 scripts/export_deck.py level5/slides/Level5_Lesson3_Slides.pptx 3 --level 5
+python3 scripts/export_content.py                         # lesson pages + copies PDF/DOCX, pictures, MP3, PPTX into public/levelV/
+npm run build && npm run preview                          # check #/level5/lesson/3 and #/level5/present/3
+```
+
+Level 4 lessons are written from specs in an authoring workspace (`build_lesson_L4.sh`, then `sync_repo_L4.sh`); for a small
+fix in the repo, see AGENTS.md section 5.1. Always render PDFs with `tools/fonts.conf`, so the page breaks stay the same.
+
+### Listening audio
+
+`bash levelV/audio/tools/run_audio_LV.sh <N>` builds and checks one lesson; `publish_audio_LV.sh <N>` copies the passing files
+into `levelV/audio/`. Then update `AUDIO_STATUS.md` and the length in the listening-script heading, rebuild the lesson, and run
+`export_content.py`. Level 4 audio says *going to* / *want to*; the lesson explains *gonna* / *wanna*. Length targets (Level 4
+about 1:30–2:15, Level 5 about 2:05–2:40) are soft; the checkers only warn. Details and voices: AGENTS.md section 7.
+
+### Publish
+
+The same as Level 2 (sections 6–7). Before you commit, check that `git status` shows no `.wav` files (only the allowed reference
+clips), no `build/`, `cache/`, `out/` or `runs/` folders, and no virtual environments.
 
 ## Licenses (keep these when you change things)
 

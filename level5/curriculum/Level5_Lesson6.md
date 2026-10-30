@@ -78,6 +78,7 @@ By the end of class, you can do these things.
 - **6:32 Grammar.** Read across. A reads the question. B says the answer.
 - **Pair check.** A reads one direct sentence. B reports it with said, told, or asked. Then switch.
 - **7:00 Talk Time.** Round 1, then round 2. Stop at 7:18.
+- **Class size.** 15 learners: 7 pairs + 1 group of 3. 7–8 learners: 3–4 pairs. 5 or fewer: pairs, or one group with you.
 - **7:18 Read & Write.** Read once. Then answer. Start the writing in class.
 - **7:25 Exit.** Report one thing someone said in class tonight. Four sentences. Collect the page.
 - **This lesson is not medical advice. For a real health question, ask your clinic. In an emergency, call 911.**

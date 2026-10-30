@@ -209,7 +209,7 @@
 - ***might* + base verb:** learners often add *to* or *-s*. Point to the rule: no *to*, no *-s*.
 - **News Swap:** learners keep their card hidden. If a partner can't find a fact, they say, "I'm not sure. It might…"
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to*. People often say *gonna*. Learners only need to recognize it; they can always say the full form.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 8 (Week 9) | In the News ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 8 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -306,7 +306,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "The bus is **going to** take a detour." • "I'm **going to** look at the map tonight." You can say *going to*. In *might*, the last *t* is very short. In *Do you know…?*, the voice goes up at the end. Listen to the reporter: she pauses after each fact.
+*gonna* = going to: "The bus is **going to** take a detour." • "I'm **going to** look at the map tonight." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. In *might*, the last *t* is very short. In *Do you know…?*, the voice goes up at the end. Listen to the reporter: she pauses after each fact.
 
 ---
 ## Lesson 8 (Week 9) · Grammar

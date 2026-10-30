@@ -215,7 +215,7 @@
 - **for / since:** *for* + a length of time (*three days*); *since* + a start (*Monday, January*). With a finished time (*in 2018*), use the simple past.
 - ***Why don't you…?*** is a suggestion, not a real question. Model falling intonation. Learners answer *Good idea* or *Thanks, I will*, not *Because…*.
 - **Spanish and other languages:** the contrast tip on the Grammar page is optional. Learners read it on their own. You never need to read, translate, or explain it.
-- **Reductions:** the listening says *going to* and *want to*. People often say *gonna* and *wanna*. Learners only need to recognize the short forms; they can always say the full forms.
+- **Reductions:** the listening says *going to* and *want to*. Tell learners: people often say *gonna* and *wanna*, and they will hear them a lot. The short forms are fine in casual talk; in writing or at a job interview, use the full forms.
 
 <!-- part: Student Workbook | Lesson 4 (Week 4) | How Long Have You Had It? ;; Opening Talk · New Words · Listening · Grammar · Talk Time · Homework · Read & Write · Exit Ticket | Level 4 ESL · Lesson 4 · STUDENT WORKBOOK -->
 <!-- mode: student -->
@@ -312,7 +312,7 @@ Name: ______________________________     Date: ________________
 
 ### Hear it, say it
 
-*gonna* = going to: "The doctor's **going to** see you in a few minutes." • *wanna* = want to: "I **want to** make an appointment." You can say *going to* and *want to*. Say *Why don't you…?* as one smooth group, with your voice going down at the end: it's a suggestion, not a real question. Stress: *I've had a RASH since MONday.*
+*gonna* = going to: "The doctor's **going to** see you in a few minutes." • *wanna* = want to: "I **want to** make an appointment." People often say *gonna* (going to) and *wanna* (want to), and you will hear them a lot. They are fine with friends; in writing or at a job interview, use *going to* and *want to*. Say *Why don't you…?* as one smooth group, with your voice going down at the end: it's a suggestion, not a real question. Stress: *I've had a RASH since MONday.*
 
 ---
 ## Lesson 4 (Week 4) · Grammar

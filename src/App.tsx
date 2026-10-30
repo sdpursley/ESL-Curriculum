@@ -103,7 +103,7 @@ function Level2Home() {
   return (<>
     <section className="mb-8 rounded-2xl border border-sky-100 border-l-4 border-l-violet-300 bg-gradient-to-r from-sky-50 to-violet-50 px-4 py-4 sm:px-8 sm:py-6">
       <span className="inline-block rounded-full bg-white/80 px-2.5 py-0.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200">Free · High beginner · 16 weeks</span>
-      <h1 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">🌿 Level 2 Adult ESL</h1>
+      <h1 className="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">Level 2 Adult ESL</h1>
       <p className="mt-2 max-w-2xl text-[15px] leading-snug text-slate-700 sm:text-lg sm:leading-relaxed">A free, practical course for high-beginner adult English learners. 13 lessons with pictures, listening, grammar, and full teacher plans.</p>
       <div className="mt-3 flex flex-row flex-nowrap gap-2">
         <Link to="/lesson/1" className="btn whitespace-nowrap bg-blue-600 !gap-1.5 !px-3 !py-2 !text-sm text-white sm:!px-4 sm:!text-base hover:bg-blue-700">Start Lesson 1 <ArrowRight size={18} aria-hidden="true" /></Link>
@@ -352,89 +352,89 @@ function LevelPicker() {
   return (<>
     <section className="rounded-2xl border border-sky-100 border-l-4 border-l-violet-300 bg-gradient-to-r from-sky-50 to-violet-50 px-4 py-6 sm:px-8 sm:py-10">
       <span className="inline-block rounded-full bg-white/80 px-2.5 py-0.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200">Free · Adult English · 16-week courses</span>
-      <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Adult ESL Curriculum 👋</h1>
+      <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Adult ESL Curriculum</h1>
       <p className="mt-3 max-w-2xl text-lg leading-relaxed text-slate-700">Free, practical English lessons for adult learners, with pictures, listening audio, grammar, and full teacher plans. Choose a level to start.</p>
     </section>
     <h2 className="sr-only">Choose a level</h2>
     <div className="mt-8 grid gap-6 md:grid-cols-2">
       <Link to="/level1" className={`${card} border-violet-200 hover:border-violet-400`}>
         <div className="flex items-start justify-between gap-4">
-          <span className="grid size-16 place-items-center rounded-2xl bg-violet-100 text-4xl" aria-hidden="true">🌱</span>
+          <span className="grid size-16 place-items-center rounded-2xl bg-violet-100 text-3xl font-bold text-violet-800" aria-hidden="true">1</span>
           <span className="rounded-full bg-violet-50 px-3 py-1 text-sm font-semibold text-violet-800 ring-1 ring-violet-200">Beginner</span>
         </div>
         <h3 className="mt-5 text-2xl font-bold text-slate-900">Level 1</h3>
         <p className="mt-2 text-lg text-slate-700">For learners who are just starting English: hello and names, the alphabet, numbers, family, work, time, money, and daily life.</p>
-        <ul className="mt-4 space-y-1.5 text-slate-600">
-          <li>🔤 Letters &amp; Numbers practice every week</li>
-          <li>🇪🇸 Spanish and "My language" lines on every task</li>
-          <li>🧑‍🏫 {l1Ready === 13 ? 'All 13 lessons are ready' : <>{l1Ready === 1 ? 'Lesson 1 is' : `Lessons 1–${l1Ready} are`} ready · Lessons {l1Ready + 1}–13 coming soon</>}</li>
+        <ul className="mt-4 list-disc space-y-1.5 pl-5 text-slate-600">
+          <li>Letters &amp; Numbers practice every week</li>
+          <li>Spanish and "My language" lines on every task</li>
+          <li>{l1Ready === 13 ? 'All 13 lessons are ready' : <>{l1Ready === 1 ? 'Lesson 1 is' : `Lessons 1–${l1Ready} are`} ready · Lessons {l1Ready + 1}–13 coming soon</>}</li>
         </ul>
         <span className="mt-6 inline-flex items-center gap-2 self-start rounded-xl bg-violet-600 px-5 py-2.5 font-semibold text-white transition group-hover:bg-violet-700">Go to Level 1 <ArrowRight size={18} aria-hidden="true" /></span>
       </Link>
       <Link to="/level2" className={`${card} border-sky-200 hover:border-blue-400`}>
         <div className="flex items-start justify-between gap-4">
-          <span className="grid size-16 place-items-center rounded-2xl bg-sky-100 text-4xl" aria-hidden="true">🌿</span>
+          <span className="grid size-16 place-items-center rounded-2xl bg-sky-100 text-3xl font-bold text-sky-800" aria-hidden="true">2</span>
           <span className="rounded-full bg-sky-50 px-3 py-1 text-sm font-semibold text-sky-800 ring-1 ring-sky-200">High beginner</span>
         </div>
         <h3 className="mt-5 text-2xl font-bold text-slate-900">Level 2</h3>
         <p className="mt-2 text-lg text-slate-700">For learners who can already introduce themselves and answer simple questions: work, family, health, shopping, and community services.</p>
-        <ul className="mt-4 space-y-1.5 text-slate-600">
-          <li>📚 13 lessons with listening audio and slides</li>
-          <li>📝 Midterm (Week 8) and final exam (Week 15)</li>
-          <li>🎓 Graduation in Week 16</li>
+        <ul className="mt-4 list-disc space-y-1.5 pl-5 text-slate-600">
+          <li>13 lessons with listening audio and slides</li>
+          <li>Midterm (Week 8) and final exam (Week 15)</li>
+          <li>Graduation in Week 16</li>
         </ul>
         <span className="mt-6 inline-flex items-center gap-2 self-start rounded-xl bg-blue-600 px-5 py-2.5 font-semibold text-white transition group-hover:bg-blue-700">Go to Level 2 <ArrowRight size={18} aria-hidden="true" /></span>
       </Link>
       <Link to="/level3" className={`${card} border-emerald-200 hover:border-emerald-400`}>
         <div className="flex items-start justify-between gap-4">
-          <span className="grid size-16 place-items-center rounded-2xl bg-emerald-100 text-4xl" aria-hidden="true">🌳</span>
+          <span className="grid size-16 place-items-center rounded-2xl bg-emerald-100 text-3xl font-bold text-emerald-800" aria-hidden="true">3</span>
           <span className="rounded-full bg-emerald-50 px-3 py-1 text-sm font-semibold text-emerald-800 ring-1 ring-emerald-200">Low intermediate</span>
         </div>
         <h3 className="mt-5 text-2xl font-bold text-slate-900">Level 3</h3>
         <p className="mt-2 text-lg text-slate-700">For learners who finished Level 2: keep a conversation going, give reasons, tell what happened, make offers and plans, and solve everyday problems.</p>
-        <ul className="mt-4 space-y-1.5 text-slate-600">
-          <li>💬 Follow-up questions, reasons, and longer talks</li>
-          <li>✍️ A Read &amp; Write page every week</li>
-          <li>🧑‍🏫 {l3Ready === 13 ? 'All 13 lessons are ready' : <>Lesson {l3Ready === 1 ? '1 is' : `1–${l3Ready} are`} ready · Lessons {l3Ready + 1}–13 coming soon</>}</li>
+        <ul className="mt-4 list-disc space-y-1.5 pl-5 text-slate-600">
+          <li>Follow-up questions, reasons, and longer talks</li>
+          <li>A Read &amp; Write page every week</li>
+          <li>{l3Ready === 13 ? 'All 13 lessons are ready' : <>Lesson {l3Ready === 1 ? '1 is' : `1–${l3Ready} are`} ready · Lessons {l3Ready + 1}–13 coming soon</>}</li>
         </ul>
         <span className="mt-6 inline-flex items-center gap-2 self-start rounded-xl bg-emerald-600 px-5 py-2.5 font-semibold text-white transition group-hover:bg-emerald-700">Go to Level 3 <ArrowRight size={18} aria-hidden="true" /></span>
       </Link>
       <Link to="/level4" className={`${card} border-amber-200 hover:border-amber-400`}>
         <div className="flex items-start justify-between gap-4">
-          <span className="grid size-16 place-items-center rounded-2xl bg-amber-100 text-4xl" aria-hidden="true">🏔️</span>
+          <span className="grid size-16 place-items-center rounded-2xl bg-amber-100 text-3xl font-bold text-amber-800" aria-hidden="true">4</span>
           <span className="rounded-full bg-amber-50 px-3 py-1 text-sm font-semibold text-amber-800 ring-1 ring-amber-200">Intermediate</span>
         </div>
         <h3 className="mt-5 text-2xl font-bold text-slate-900">Level 4</h3>
         <p className="mt-2 text-lg text-slate-700">For learners who finished Level 3: talk about life experiences and how long, health, favors, imaginary situations, local news, and opinions, and disagree politely.</p>
-        <ul className="mt-4 space-y-1.5 text-slate-600">
-          <li>🗣️ Longer Talk Time, opinions, and polite disagreement</li>
-          <li>🎧 Listening audio for all 13 lessons</li>
-          <li>🧑‍🏫 {l4Ready === 13 ? 'All 13 lessons are ready' : <>{l4Ready === 1 ? 'Lesson 1 is' : `Lessons 1–${l4Ready} are`} ready · Lessons {l4Ready + 1}–13 coming soon</>}</li>
+        <ul className="mt-4 list-disc space-y-1.5 pl-5 text-slate-600">
+          <li>Longer Talk Time, opinions, and polite disagreement</li>
+          <li>Listening audio for all 13 lessons</li>
+          <li>{l4Ready === 13 ? 'All 13 lessons are ready' : <>{l4Ready === 1 ? 'Lesson 1 is' : `Lessons 1–${l4Ready} are`} ready · Lessons {l4Ready + 1}–13 coming soon</>}</li>
         </ul>
         <span className="mt-6 inline-flex items-center gap-2 self-start rounded-xl bg-amber-600 px-5 py-2.5 font-semibold text-white transition group-hover:bg-amber-700">Go to Level 4 <ArrowRight size={18} aria-hidden="true" /></span>
       </Link>
       <Link to="/level5" className={`${card} border-rose-200 hover:border-rose-400`}>
         <div className="flex items-start justify-between gap-4">
-          <span className="grid size-16 place-items-center rounded-2xl bg-rose-100 text-4xl" aria-hidden="true">🎯</span>
+          <span className="grid size-16 place-items-center rounded-2xl bg-rose-100 text-3xl font-bold text-rose-800" aria-hidden="true">5</span>
           <span className="rounded-full bg-rose-50 px-3 py-1 text-sm font-semibold text-rose-800 ring-1 ring-rose-200">High intermediate</span>
         </div>
         <h3 className="mt-5 text-2xl font-bold text-slate-900">Level 5</h3>
         <p className="mt-2 text-lg text-slate-700">For learners who finished Level 4: job interviews, project changes, wishes and regrets, notices, bills, messages, forms, school calls, websites, compromises, claims, meetings, and a short talk.</p>
-        <ul className="mt-4 space-y-1.5 text-slate-600">
-          <li>🗣️ Work, school, and community talks in English only</li>
-          <li>🎧 Listening audio for all 13 lessons</li>
-          <li>🧑‍🏫 {l5Ready === 13 ? 'All 13 lessons are ready' : <>{l5Ready === 1 ? 'Lesson 1 is' : `Lessons 1–${l5Ready} are`} ready · Lessons {l5Ready + 1}–13 coming soon</>}</li>
+        <ul className="mt-4 list-disc space-y-1.5 pl-5 text-slate-600">
+          <li>Work, school, and community talks in English only</li>
+          <li>Listening audio for all 13 lessons</li>
+          <li>{l5Ready === 13 ? 'All 13 lessons are ready' : <>{l5Ready === 1 ? 'Lesson 1 is' : `Lessons 1–${l5Ready} are`} ready · Lessons {l5Ready + 1}–13 coming soon</>}</li>
         </ul>
         <span className="mt-6 inline-flex items-center gap-2 self-start rounded-xl bg-rose-600 px-5 py-2.5 font-semibold text-white transition group-hover:bg-rose-700">Go to Level 5 <ArrowRight size={18} aria-hidden="true" /></span>
       </Link>
     </div>
     <div className="mt-10 grid gap-6 lg:grid-cols-2">
       <Card>
-        <h2 className="text-xl font-bold text-slate-900">🤔 Not sure which level?</h2>
+        <h2 className="text-xl font-bold text-slate-900">Not sure which level?</h2>
         <p className="mt-2 text-lg text-slate-700"><strong>Level 1</strong> if learners know only a few English words, or are still learning the alphabet and numbers. <strong>Level 2</strong> if learners can already say their name, where they are from, and their job, and can answer <em>Are you…?</em> and <em>Do you…?</em> questions. <strong>Level 3</strong> if learners can already tell a short story in the past, make plans with <em>going to</em>, and hold a short conversation on familiar topics. <strong>Level 4</strong> if learners can already tell a short story with <em>when</em> or <em>while</em>, say how life used to be, and say what they will do <em>if</em> something happens. <strong>Level 5</strong> if learners can already use Level 4 grammar (present perfect, conditionals, and reported ideas) and hold a longer conversation about work and community. Each level ends where the next one begins.</p>
       </Card>
       <Card>
-        <h2 className="text-xl font-bold text-slate-900">🧑‍🏫 For teachers</h2>
+        <h2 className="text-xl font-bold text-slate-900">For teachers</h2>
         <p className="mt-2 text-lg font-semibold text-slate-800">Teachers do not need to speak Spanish.</p>
         <p className="mt-1 text-lg text-slate-700">All levels use the same weekly class routine, a clock-time teacher plan for every lesson, slides you can present in the browser, and printable student pages.</p>
       </Card>
