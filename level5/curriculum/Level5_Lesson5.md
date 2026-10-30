@@ -78,6 +78,7 @@ By the end of class, you can do these things.
 - **6:32 Grammar.** Read across. A reads the question. B says the answer.
 - **Pair check.** A says a line from the statement. B says it again with was or were and a participle. Then switch.
 - **7:00 Talk Time.** Round 1, then round 2. Stop at 7:18.
+- **Class size.** 15 learners: 7 pairs + 1 group of 3. 7–8 learners: 3–4 pairs. 5 or fewer: pairs, or one group with you.
 - **7:18 Read & Write.** Read once. Then answer. Start the writing in class.
 - **7:25 Exit.** Explain one line from a statement. Four sentences. Collect the page.
 - **This lesson is not financial advice. Credit means money back on a statement. Do not recommend a loan, a card, or a bank.**
